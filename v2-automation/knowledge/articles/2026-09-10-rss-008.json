@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-10-rss-008",
+  "title": "StochBench：Lean 中随机过程的领域专用基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.09264",
+  "language": "en",
+  "summary": "StochBench 是一个 Lean 4 基准，包含 450 道研究生级随机过程问题，涵盖马尔可夫链、鞅、布朗运动、随机微积分等 Mathlib 覆盖不足的领域。基于 Opus 4.8 的智能体在每题 15 分钟限制下达到 34.9% 的证明率，表明该基准对先进证明器仍具挑战性。",
+  "summary_en": "StochBench is a Lean 4 benchmark of 450 graduate-level stochastic-processes problems covering Markov chains, martingales, Brownian motion, and stochastic calculus—areas underrepresented in Mathlib. An Opus 4.8-based agent achieves a 34.9% proof rate under a 15-minute per-problem limit, showing the benchmark remains challenging for advanced provers.",
+  "tags": [
+    "benchmark",
+    "research",
+    "llm",
+    "agent-framework",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-10T20:41:51.068075+08:00",
+  "updated_at": "2026-09-10T20:41:51.068076+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

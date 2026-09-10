@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-10-rss-001",
+  "title": "长期记忆对工具型LLM智能体是否有用？成本感知评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.05441",
+  "language": "en",
+  "summary": "论文提出MERIT基准，在显式成本核算下评估长期记忆对工具型LLM智能体的边际效用。实验发现记忆可将依赖任务成功率从0提升至0.55-1.00，但嵌入检索在更新事实上表现不稳定，且智能体仅55%概率正确使用检索值；结构化事实存储与LLM摘要更稳定。更换记忆实现可使任务成功率波动达60个百分点，全量重放从不经济。",
+  "summary_en": "The paper introduces MERIT, a benchmark and harness that measures the marginal utility of long-term memory for tool-using LLM agents under explicit cost accounting. Across 23,440 episodes, memory lifts dependent-task success from 0.00 to 0.55-1.00, but embedding retrieval collapses unpredictably on updated facts (0.30-0.95), and agents act on correctly retrieved values only 55% of the time, while update-on-write stores stay at 0.70-1.00. Swapping memory implementations shifts success by up to 60 points, and full replay is never economical.",
+  "tags": [
+    "benchmark",
+    "agent-framework",
+    "llm",
+    "evaluation",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-10T20:41:51.068046+08:00",
+  "updated_at": "2026-09-10T20:41:51.068050+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

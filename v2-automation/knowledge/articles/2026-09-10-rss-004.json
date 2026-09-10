@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-10-rss-004",
+  "title": "Osprey：目标无关预训练打造更强的投机解码草稿模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.09338",
+  "language": "en",
+  "summary": "Osprey 提出从现成的小型预训练语言模型引导草稿模型，将广泛预训练视为可复用的目标无关资产，通过剪枝、目标无关下一词预训练及词汇对齐、零初始化QKV扩展和目标蒸馏适配各目标模型，在Qwen3-8B、Llama-3.3-70B和MiniMax-M2.5上平均接受长度分别提升16.1%、21.2%和22.7%。",
+  "summary_en": "Osprey bootstraps speculative decoding drafters from off-the-shelf pretrained small language models, treating broad pretraining as a reusable target-agnostic asset. It prunes to a shallow backbone, restores language modeling via target-agnostic next-token pretraining, and adapts per target with vocabulary alignment, zero-initialized QKV expansion, and distillation. A single backbone improves mean acceptance length by 16.1% (Qwen3-8B), 21.2% (Llama-3.3-70B-Instruct), and 22.7% (MiniMax-M2.5).",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "infrastructure",
+    "open-source"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-10T20:41:51.068061+08:00",
+  "updated_at": "2026-09-10T20:41:51.068062+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

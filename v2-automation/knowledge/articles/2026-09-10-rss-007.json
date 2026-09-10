@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-10-rss-007",
+  "title": "面向视觉与语言Transformer的损伤感知Bandit剪枝",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.05448",
+  "language": "en",
+  "summary": "该论文将Transformer结构化剪枝中的功能单元选择建模为损伤感知多臂老虎机问题，在固定候选评估预算下，通过配对损伤奖励驱动UCB或Thompson采样策略，在GPT-2、OPT、Qwen2.5及ViT等模型上验证其优于随机、幅度和贪心选择方法。",
+  "summary_en": "This paper formulates structured-unit selection for pruning language and vision transformers as a damage-aware multi-armed bandit problem under a fixed candidate-evaluation budget. Using paired damage rewards to drive UCB or Thompson Sampling policies, it outperforms random, magnitude, and budgeted-greedy selection across GPT-2, OPT, Qwen2.5, ViT, and other models.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "multimodal",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-10T20:41:51.068070+08:00",
+  "updated_at": "2026-09-10T20:41:51.068071+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

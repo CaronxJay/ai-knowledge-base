@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-10-rss-002",
+  "title": "AutoFyn 技术报告：面向长时程智能体的非参数化专家迭代",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.05446",
+  "language": "en",
+  "summary": "AutoFyn 提出一种受专家迭代启发的智能体框架，通过持久化状态而非模型权重更新来适配冻结模型。每轮从全新会话开始，由编排器探索规划、验证器提供客观奖励，并将奖励蒸馏回持久状态以更新下一轮策略。在奥数、数据科学和网络安全三个领域验证有效，包括 IMO 2026 全部六题得分提升、Spider 2.0 dbt 基准排名第一，以及发现 16 个被维护者确认的漏洞。",
+  "summary_en": "AutoFyn introduces an agent harness inspired by Expert Iteration that adapts a frozen model across rounds by updating persistent state from verified reward signals rather than model weights. Each round starts from a fresh session, with an orchestrator exploring and a task-grounded verifier supplying objective rewards that are distilled back into persistent state. Demonstrated across olympiad mathematics, data science, and cybersecurity: higher scores on all six IMO 2026 problems, top-ranked agent on Spider 2.0 dbt benchmark, and 16 maintainer-confirmed vulnerability advisories.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-10T20:41:51.068054+08:00",
+  "updated_at": "2026-09-10T20:41:51.068055+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

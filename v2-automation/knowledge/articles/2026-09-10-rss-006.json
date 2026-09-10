@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-10-rss-006",
+  "title": "超越对错：评估大语言模型的二阶社会推理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.05437",
+  "language": "en",
+  "summary": "本文提出评估大语言模型元规范推理的新框架，从情绪评估和行为反应两个维度出发，并发布包含450个规范违反场景的多视角数据集NormReact。研究发现六个模型普遍高估负面制裁，且随社会距离增加与人类判断的一致性下降，可能导致AI在冲突调解和政策模拟中扭曲社会规范图景。",
+  "summary_en": "This paper introduces a framework for evaluating metanorm reasoning in LLMs along emotional appraisal and behavioral response dimensions, releasing NormReact, a multi-perspective dataset of 450 norm violation scenarios. Across six models, LLMs overpredict negative sanctions and alignment with human judgments deteriorates as social distance increases, risking distorted social regulation in norm-sensitive AI applications.",
+  "tags": [
+    "llm",
+    "evaluation",
+    "research",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-10T20:41:51.068067+08:00",
+  "updated_at": "2026-09-10T20:41:51.068068+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

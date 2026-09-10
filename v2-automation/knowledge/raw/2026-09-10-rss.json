@@ -1,0 +1,466 @@
+{
+  "collected_at": "2026-09-10T20:41:51.068752+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2609.05437",
+      "description": "arXiv:2609.05437v1 Announce Type: new \nAbstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.g., `do not steal'). However, social intelligence depends not only on norm recognition, but also on anticipating who will enforce it and how (e.g., public shame or even imprisonment). These second-order expectations, known as metanorms, govern how people respond when social rules are broken. We introduce a novel framework for evaluating metanorm reasoning in Large Language Models (LLMs) along two dimensions: emotional appraisal and behavioral response, and propose new classification tasks, namely, predicting self-regulation in violators, and other-regulation in observers. We release a multi-perspective dataset, NormReact, of 450 norm violation scenarios, hand-annotated for emotions and behavioral responses across norm violators' gender and observers' social closeness. Current LLMs portray a harsher social world: across six models, they overpredict negative sanctions where humans would expect inaction, and alignment with human judgments deteriorates as social distance increases. These findings suggest that AI systems in norm-sensitive domains from conflict mediation to policy simulation, may risk producing a distorted picture of social regulation: one that over-represents punishment and under-represents the tolerance, restraint, and relational calibration that characterize actual norm enforcement in real world.",
+      "pub_date": "Thu, 10 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "超越对错：评估大语言模型的二阶社会推理",
+        "summary": "本文提出评估大语言模型元规范推理的新框架，从情绪评估和行为反应两个维度出发，并发布包含450个规范违反场景的多视角数据集NormReact。研究发现六个模型普遍高估负面制裁，且随社会距离增加与人类判断的一致性下降，可能导致AI在冲突调解和政策模拟中扭曲社会规范图景。",
+        "summary_en": "This paper introduces a framework for evaluating metanorm reasoning in LLMs along emotional appraisal and behavioral response dimensions, releasing NormReact, a multi-perspective dataset of 450 norm violation scenarios. Across six models, LLMs overpredict negative sanctions and alignment with human judgments deteriorates as social distance increases, risking distorted social regulation in norm-sensitive AI applications.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-10-rss-006",
+        "title": "超越对错：评估大语言模型的二阶社会推理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.05437",
+        "language": "en",
+        "summary": "本文提出评估大语言模型元规范推理的新框架，从情绪评估和行为反应两个维度出发，并发布包含450个规范违反场景的多视角数据集NormReact。研究发现六个模型普遍高估负面制裁，且随社会距离增加与人类判断的一致性下降，可能导致AI在冲突调解和政策模拟中扭曲社会规范图景。",
+        "summary_en": "This paper introduces a framework for evaluating metanorm reasoning in LLMs along emotional appraisal and behavioral response dimensions, releasing NormReact, a multi-perspective dataset of 450 norm violation scenarios. Across six models, LLMs overpredict negative sanctions and alignment with human judgments deteriorates as social distance increases, risking distorted social regulation in norm-sensitive AI applications.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-10T20:41:51.068067+08:00",
+        "updated_at": "2026-09-10T20:41:51.068068+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CriticGen: Generation-Aware Evaluation as Actionable Feedback",
+      "url": "https://arxiv.org/abs/2609.05439",
+      "description": "arXiv:2609.05439v1 Announce Type: new \nAbstract: Current evaluation methods for large language models are coarse-grained and decoupled from generation, producing generic explanations that fail to provide actionable feedback for model improvement. We propose CriticGen, a fine-grained, generation-aware evaluation framework that turns evaluation into actionable control for answer improvement. CriticGen first generates sample-specific evaluation dimensions and scoring criteria under high-level categories such as subjective, objective, and self-derived constraints. These criteria then serve as a dynamic rubric for jointly producing a score, a reason, an executable refinement suggestion, and a refined answer. This rubric-conditioned refinement process enables models to diagnose flaws and perform targeted answer improvement. Experimental results show that fine-grained evaluation should be both instance-specific and actionable. CriticGen induces higher-quality rubrics, improving relevance/coverage from 3.33/4.03 to 3.97/4.24. CriticGen also achieves the best score correlations, with 0.9556 Pearson and 0.9560 Spearman, and raises the F1 of criterion-grounded reasons and executable suggestions from 0.6369/0.5994 to 0.7554/0.7900. Crucially, its feedback translates into reliable answer improvement, improving 73.17% of answers with a 93.28% non-degradation rate.",
+      "pub_date": "Thu, 10 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CriticGen：生成感知的评估作为可执行反馈",
+        "summary": "CriticGen提出一种细粒度、生成感知的评估框架，将评估转化为可执行的答案改进控制。它先生成样本特定的评估维度与评分标准，再据此联合产出分数、理由、可执行改进建议和优化答案。实验显示其评分相关性达0.9556 Pearson，并改善73.17%的答案。",
+        "summary_en": "CriticGen proposes a fine-grained, generation-aware evaluation framework that turns evaluation into actionable control for answer improvement. It generates sample-specific evaluation dimensions and scoring criteria, then jointly produces a score, reason, executable refinement suggestion, and refined answer. Experiments show 0.9556 Pearson correlation and improvement of 73.17% of answers.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "evaluation",
+        "relevance_score": 0.95,
+        "language": "en"
+      }
+    },
+    {
+      "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
+      "url": "https://arxiv.org/abs/2609.05441",
+      "description": "arXiv:2609.05441v1 Announce Type: new \nAbstract: Long-term memory for LLM agents is evaluated today by conversational recall benchmarks (LoCoMo, LongMemEval), which measure question answering over dialogue history, not whether remembered facts change what a tool-using agent does. We present MERIT (Memory Evaluation for Realistic Instrumented Tasks), a benchmark and harness that measures the marginal utility of memory for task-executing agents under explicit cost accounting. MERIT provides episodic tool-use tasks in three domains whose dependence on earlier-episode facts is verified by an automated leak check; a difficulty ladder ending in updated-fact recall; controlled memory corruption; and full token and dollar metering of every memory operation. Across 23,440 scored episodes ($42.57), a two-generation pilot on gpt-4.1-mini and a preregistered 3-model x 3-seed grid (GPT-4.1, Claude Haiku 4.5; memory side held fixed), memory lifts dependent-task success from a leak-verified floor of 0.00 to 0.55-1.00. On updated facts, embedding retrieval collapses unpredictably (0.30-0.95 across models; max seed gap 0.45), and agents act on a correctly retrieved value only 55% of the time, while update-on-write stores (a structured fact store and, notably, LLM summarization) remain at 0.70-1.00; the hybrid is worse than the fact store alone. A latest-generation spot-check (Claude Sonnet 5, gated on a clean full-replay control) reproduces the pattern. Swapping a memory's implementation moves task success by up to 60 points, and full replay is never economical: the best condition per domain delivers 2.7-3.9x its marginal utility per dollar. We release the benchmark, harness, and all traces.",
+      "pub_date": "Thu, 10 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "长期记忆对工具型LLM智能体是否有用？成本感知评估",
+        "summary": "论文提出MERIT基准，在显式成本核算下评估长期记忆对工具型LLM智能体的边际效用。实验发现记忆可将依赖任务成功率从0提升至0.55-1.00，但嵌入检索在更新事实上表现不稳定，且智能体仅55%概率正确使用检索值；结构化事实存储与LLM摘要更稳定。更换记忆实现可使任务成功率波动达60个百分点，全量重放从不经济。",
+        "summary_en": "The paper introduces MERIT, a benchmark and harness that measures the marginal utility of long-term memory for tool-using LLM agents under explicit cost accounting. Across 23,440 episodes, memory lifts dependent-task success from 0.00 to 0.55-1.00, but embedding retrieval collapses unpredictably on updated facts (0.30-0.95), and agents act on correctly retrieved values only 55% of the time, while update-on-write stores stay at 0.70-1.00. Swapping memory implementations shifts success by up to 60 points, and full replay is never economical.",
+        "tags": [
+          "benchmark",
+          "agent-framework",
+          "llm",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-10-rss-001",
+        "title": "长期记忆对工具型LLM智能体是否有用？成本感知评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.05441",
+        "language": "en",
+        "summary": "论文提出MERIT基准，在显式成本核算下评估长期记忆对工具型LLM智能体的边际效用。实验发现记忆可将依赖任务成功率从0提升至0.55-1.00，但嵌入检索在更新事实上表现不稳定，且智能体仅55%概率正确使用检索值；结构化事实存储与LLM摘要更稳定。更换记忆实现可使任务成功率波动达60个百分点，全量重放从不经济。",
+        "summary_en": "The paper introduces MERIT, a benchmark and harness that measures the marginal utility of long-term memory for tool-using LLM agents under explicit cost accounting. Across 23,440 episodes, memory lifts dependent-task success from 0.00 to 0.55-1.00, but embedding retrieval collapses unpredictably on updated facts (0.30-0.95), and agents act on correctly retrieved values only 55% of the time, while update-on-write stores stay at 0.70-1.00. Swapping memory implementations shifts success by up to 60 points, and full replay is never economical.",
+        "tags": [
+          "benchmark",
+          "agent-framework",
+          "llm",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-10T20:41:51.068046+08:00",
+        "updated_at": "2026-09-10T20:41:51.068050+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AutoFyn Technical Report: Non-Parametric Expert Iteration for Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2609.05446",
+      "description": "arXiv:2609.05446v1 Announce Type: new \nAbstract: We introduce AutoFyn, an agent harness inspired by the Expert Iteration algorithm, adapting a frozen model across many rounds by updating persistent state from verified reward signals rather than model weights. Each round begins from a fresh model session, and durable information is reintroduced only through explicit interfaces such as persistent memory files, reports, and repository state. Within a round, an orchestrator explores, plans and builds many alternative approaches with specialized agents, while a task-grounded verifier verifies the work and supplies an objective reward for measuring progress. This reward is distilled back into the persistent state, which updates the effective policy for the next round. In this technical report, we formalize this loop and describe its persistent state and verification interfaces. We then demonstrate its use in three domains, namely olympiad mathematics, data science, and cybersecurity. On the six fresh problems of the 2026 International Mathematical Olympiad, every model with room to improve scores higher under AutoFyn than in its provider's own coding agent. AutoFyn also built the top-ranked agent on the Spider 2.0 dbt benchmark, and has produced $16$ maintainer-confirmed vulnerability advisories in Next.js, MetaMask, pnpm, Warp, LiteLLM, Langflow, and Open WebUI.",
+      "pub_date": "Thu, 10 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AutoFyn 技术报告：面向长时程智能体的非参数化专家迭代",
+        "summary": "AutoFyn 提出一种受专家迭代启发的智能体框架，通过持久化状态而非模型权重更新来适配冻结模型。每轮从全新会话开始，由编排器探索规划、验证器提供客观奖励，并将奖励蒸馏回持久状态以更新下一轮策略。在奥数、数据科学和网络安全三个领域验证有效，包括 IMO 2026 全部六题得分提升、Spider 2.0 dbt 基准排名第一，以及发现 16 个被维护者确认的漏洞。",
+        "summary_en": "AutoFyn introduces an agent harness inspired by Expert Iteration that adapts a frozen model across rounds by updating persistent state from verified reward signals rather than model weights. Each round starts from a fresh session, with an orchestrator exploring and a task-grounded verifier supplying objective rewards that are distilled back into persistent state. Demonstrated across olympiad mathematics, data science, and cybersecurity: higher scores on all six IMO 2026 problems, top-ranked agent on Spider 2.0 dbt benchmark, and 16 maintainer-confirmed vulnerability advisories.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-10-rss-002",
+        "title": "AutoFyn 技术报告：面向长时程智能体的非参数化专家迭代",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.05446",
+        "language": "en",
+        "summary": "AutoFyn 提出一种受专家迭代启发的智能体框架，通过持久化状态而非模型权重更新来适配冻结模型。每轮从全新会话开始，由编排器探索规划、验证器提供客观奖励，并将奖励蒸馏回持久状态以更新下一轮策略。在奥数、数据科学和网络安全三个领域验证有效，包括 IMO 2026 全部六题得分提升、Spider 2.0 dbt 基准排名第一，以及发现 16 个被维护者确认的漏洞。",
+        "summary_en": "AutoFyn introduces an agent harness inspired by Expert Iteration that adapts a frozen model across rounds by updating persistent state from verified reward signals rather than model weights. Each round starts from a fresh session, with an orchestrator exploring and a task-grounded verifier supplying objective rewards that are distilled back into persistent state. Demonstrated across olympiad mathematics, data science, and cybersecurity: higher scores on all six IMO 2026 problems, top-ranked agent on Spider 2.0 dbt benchmark, and 16 maintainer-confirmed vulnerability advisories.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-10T20:41:51.068054+08:00",
+        "updated_at": "2026-09-10T20:41:51.068055+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Damage-Aware Bandit Pruning for Vision and Language Transformers",
+      "url": "https://arxiv.org/abs/2609.05448",
+      "description": "arXiv:2609.05448v1 Announce Type: new \nAbstract: Structured post-training pruning of transformers requires selecting complete functional units whose suppression causes limited degradation. We formulate structured-unit selection for language and vision transformers as a damage-aware multi-armed bandit problem under a fixed candidate-evaluation budget. Attention heads and MLP channel groups are temporarily masked on calibration batches. Paired damage is the masked loss minus the base loss on the same batch, reducing batch-to-batch variation. A smooth bounded reward drives either a UCB-style policy or fractional-Beta Thompson Sampling, and the final mask is constructed sequentially by adding one unit at each step. The selected units are functionally zeroed in the original dense checkpoint; therefore, the reported parameter effects represent effective structural suppression rather than physical compression or measured speedup. Experiments on WikiText-2, LAMBADA, and Imagenette cover GPT-2, OPT, Pythia, Qwen2.5, SmolLM2, ViT-B/16, DeiT-Tiny, and Swin-Tiny, with comparisons against random, magnitude, static-saliency, and budgeted-greedy selection. Across five seeds, the bandit methods usually reduce degradation relative to budgeted greedy in the paired language-model comparisons. Of 28 comparisons highlighted in the paper, 23 bootstrap confidence intervals exclude zero and 11 paired tests have p < 0.05; six have q < 0.05 after Benjamini-Hochberg correction across the full family of 116 dataset-wise tests. Matched-evaluation results for ViT-B/16 and Swin-Tiny indicate that their gains are not explained solely by a larger candidate-evaluation budget.",
+      "pub_date": "Thu, 10 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向视觉与语言Transformer的损伤感知Bandit剪枝",
+        "summary": "该论文将Transformer结构化剪枝中的功能单元选择建模为损伤感知多臂老虎机问题，在固定候选评估预算下，通过配对损伤奖励驱动UCB或Thompson采样策略，在GPT-2、OPT、Qwen2.5及ViT等模型上验证其优于随机、幅度和贪心选择方法。",
+        "summary_en": "This paper formulates structured-unit selection for pruning language and vision transformers as a damage-aware multi-armed bandit problem under a fixed candidate-evaluation budget. Using paired damage rewards to drive UCB or Thompson Sampling policies, it outperforms random, magnitude, and budgeted-greedy selection across GPT-2, OPT, Qwen2.5, ViT, and other models.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "multimodal",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-10-rss-007",
+        "title": "面向视觉与语言Transformer的损伤感知Bandit剪枝",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.05448",
+        "language": "en",
+        "summary": "该论文将Transformer结构化剪枝中的功能单元选择建模为损伤感知多臂老虎机问题，在固定候选评估预算下，通过配对损伤奖励驱动UCB或Thompson采样策略，在GPT-2、OPT、Qwen2.5及ViT等模型上验证其优于随机、幅度和贪心选择方法。",
+        "summary_en": "This paper formulates structured-unit selection for pruning language and vision transformers as a damage-aware multi-armed bandit problem under a fixed candidate-evaluation budget. Using paired damage rewards to drive UCB or Thompson Sampling policies, it outperforms random, magnitude, and budgeted-greedy selection across GPT-2, OPT, Qwen2.5, ViT, and other models.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "multimodal",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-10T20:41:51.068070+08:00",
+        "updated_at": "2026-09-10T20:41:51.068071+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "X-CoSD: Communication-Efficient Cross-Vocabulary Collaborative Speculative Decoding",
+      "url": "https://arxiv.org/abs/2609.09166",
+      "description": "arXiv:2609.09166v1 Announce Type: new \nAbstract: This paper investigates collaborative speculative decoding (CoSD), a distributed large language model (LLM) inference framework in which an on-device small language model (SLM) drafts candidate tokens and a server LLM verifies them. Existing CoSD methods assume a shared vocabulary between the SLM and the LLM and incur substantial communication load because residual resampling requires token distribution exchange between the user device and the edge server. To address these limitations, we propose cross-vocabulary CoSD (X-CoSD), a lossless and communication-efficient CoSD framework for heterogeneous SLM-LLM vocabularies. X-CoSD is built on hybrid resampling (HR), which splits residual resampling across the common-vocabulary region on the device and the LLM-only region on the server, so that distribution transmission is required only for the common-vocabulary region. We further propose X-CoSD-E, an enhanced variant based on server resampling with device verification (SR-DV), in which the server sends only replacement candidates sampled from the server LLM and their corresponding probabilities for local verification at the device. We prove that both X-CoSD and X-CoSD-E preserve the server LLM distribution, and experiments show that they significantly improve token generation speed while maintaining generation quality comparable to that of the server LLM.",
+      "pub_date": "Thu, 10 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "X-CoSD：跨词表通信高效的协同投机解码",
+        "summary": "提出X-CoSD框架，解决异构SLM-LLM词表下的协同投机解码问题。通过混合重采样（HR）将残差重采样拆分到设备端公共词表区和服务器端LLM专属区，仅需传输公共词表区分布；增强版X-CoSD-E采用服务器重采样与设备验证（SR-DV），服务器仅发送替换候选及其概率供设备本地验证。两者均保持服务器LLM分布，显著提升生成速度且质量相当。",
+        "summary_en": "This paper proposes X-CoSD, a lossless and communication-efficient collaborative speculative decoding framework for heterogeneous SLM-LLM vocabularies. Built on hybrid resampling (HR), it splits residual resampling across the device-side common-vocabulary region and the server-side LLM-only region, requiring distribution transmission only for the common region. An enhanced variant, X-CoSD-E, uses server resampling with device verification (SR-DV), where the server sends only replacement candidates and probabilities for local verification. Both provably preserve the server LLM distribution and significantly improve token generation speed while maintaining comparable quality.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-10-rss-003",
+        "title": "X-CoSD：跨词表通信高效的协同投机解码",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.09166",
+        "language": "en",
+        "summary": "提出X-CoSD框架，解决异构SLM-LLM词表下的协同投机解码问题。通过混合重采样（HR）将残差重采样拆分到设备端公共词表区和服务器端LLM专属区，仅需传输公共词表区分布；增强版X-CoSD-E采用服务器重采样与设备验证（SR-DV），服务器仅发送替换候选及其概率供设备本地验证。两者均保持服务器LLM分布，显著提升生成速度且质量相当。",
+        "summary_en": "This paper proposes X-CoSD, a lossless and communication-efficient collaborative speculative decoding framework for heterogeneous SLM-LLM vocabularies. Built on hybrid resampling (HR), it splits residual resampling across the device-side common-vocabulary region and the server-side LLM-only region, requiring distribution transmission only for the common region. An enhanced variant, X-CoSD-E, uses server resampling with device verification (SR-DV), where the server sends only replacement candidates and probabilities for local verification. Both provably preserve the server LLM distribution and significantly improve token generation speed while maintaining comparable quality.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-10T20:41:51.068058+08:00",
+        "updated_at": "2026-09-10T20:41:51.068059+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "StochBench: A Domain-Specific Benchmark for Stochastic Processes in Lean",
+      "url": "https://arxiv.org/abs/2609.09264",
+      "description": "arXiv:2609.09264v1 Announce Type: new \nAbstract: Leading benchmarks for formal theorem proving with large language models are small collections drawn from competition math, such as the IMO and Putnam, that poorly represent field-specific applications. We introduce StochBench, a Lean 4 benchmark of 450 graduate stochastic-processes problems at varying abstraction levels, each paired with its natural-language source. Addressing a field underrepresented in Mathlib, it covers finite and countable Markov chains, renewal processes, random walks, martingales, stopping times, queues, Brownian motion, stochastic calculus, weak convergence, and Poisson and continuous-time Markov processes. Our Opus 4.8-based agent achieves a 34.9% proof rate (157/450) under a 15-minute per-problem limit. StochBench better represents domain-specific applied mathematics while remaining challenging for advanced provers.",
+      "pub_date": "Thu, 10 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "StochBench：Lean 中随机过程的领域专用基准",
+        "summary": "StochBench 是一个 Lean 4 基准，包含 450 道研究生级随机过程问题，涵盖马尔可夫链、鞅、布朗运动、随机微积分等 Mathlib 覆盖不足的领域。基于 Opus 4.8 的智能体在每题 15 分钟限制下达到 34.9% 的证明率，表明该基准对先进证明器仍具挑战性。",
+        "summary_en": "StochBench is a Lean 4 benchmark of 450 graduate-level stochastic-processes problems covering Markov chains, martingales, Brownian motion, and stochastic calculus—areas underrepresented in Mathlib. An Opus 4.8-based agent achieves a 34.9% proof rate under a 15-minute per-problem limit, showing the benchmark remains challenging for advanced provers.",
+        "tags": [
+          "benchmark",
+          "research",
+          "llm",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-10-rss-008",
+        "title": "StochBench：Lean 中随机过程的领域专用基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.09264",
+        "language": "en",
+        "summary": "StochBench 是一个 Lean 4 基准，包含 450 道研究生级随机过程问题，涵盖马尔可夫链、鞅、布朗运动、随机微积分等 Mathlib 覆盖不足的领域。基于 Opus 4.8 的智能体在每题 15 分钟限制下达到 34.9% 的证明率，表明该基准对先进证明器仍具挑战性。",
+        "summary_en": "StochBench is a Lean 4 benchmark of 450 graduate-level stochastic-processes problems covering Markov chains, martingales, Brownian motion, and stochastic calculus—areas underrepresented in Mathlib. An Opus 4.8-based agent achieves a 34.9% proof rate under a 15-minute per-problem limit, showing the benchmark remains challenging for advanced provers.",
+        "tags": [
+          "benchmark",
+          "research",
+          "llm",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-10T20:41:51.068075+08:00",
+        "updated_at": "2026-09-10T20:41:51.068076+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Osprey: Target-agnostic Pre-training Makes Stronger Drafters in Speculative Decoding",
+      "url": "https://arxiv.org/abs/2609.09338",
+      "description": "arXiv:2609.09338v1 Announce Type: new \nAbstract: Speculative decoding is critical for accelerating LLM inference. However, the speedup is fragile: drafters are typically trained against a narrow distribution for a single target model, and their acceptance rate collapses under workload shifts. This is a striking inversion of modern LLM development, where target models are valued precisely for the broad generalization they acquire through large-scale pretraining. We argue that the natural remedy, pretraining, has been hard to apply to drafters because existing recipes are target-specific: the drafter consumes the target's hidden states and is distilled on the target's logits, so pretraining must be repeated for each target. We introduce Osprey, which instead bootstraps drafters from off-the-shelf pretrained small language models, treating broad pretraining as a reusable, target-agnostic asset and reducing per-target work to a lightweight adaptation step. Realizing this requires overcoming two challenges: small LMs are far deeper than a latency-bound drafter can afford, and their pretrained computation must remain intact while the drafter learns to ingest target hidden states and emit tokens in the target's vocabulary. Osprey addresses both by pruning to a shallow backbone, restoring its language-modeling capability with target-agnostic next-token pretraining, and adapting it to each target through vocabulary alignment, zero-initialized QKV expansion, and distillation from the target model's output distribution. Empirically, a single pretrained Osprey backbone transfers across targets and improves mean acceptance length by 16.1% for Qwen3-8B, 21.2% for Llama-3.3-70B-Instruct, and 22.7% for the 229B MiniMax-M2.5 (with 17.5% higher tokens per second), with the largest gains on out-of-domain and multilingual data. Our code is available at https://github.com/LeanModels/Osprey.",
+      "pub_date": "Thu, 10 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Osprey：目标无关预训练打造更强的投机解码草稿模型",
+        "summary": "Osprey 提出从现成的小型预训练语言模型引导草稿模型，将广泛预训练视为可复用的目标无关资产，通过剪枝、目标无关下一词预训练及词汇对齐、零初始化QKV扩展和目标蒸馏适配各目标模型，在Qwen3-8B、Llama-3.3-70B和MiniMax-M2.5上平均接受长度分别提升16.1%、21.2%和22.7%。",
+        "summary_en": "Osprey bootstraps speculative decoding drafters from off-the-shelf pretrained small language models, treating broad pretraining as a reusable target-agnostic asset. It prunes to a shallow backbone, restores language modeling via target-agnostic next-token pretraining, and adapts per target with vocabulary alignment, zero-initialized QKV expansion, and distillation. A single backbone improves mean acceptance length by 16.1% (Qwen3-8B), 21.2% (Llama-3.3-70B-Instruct), and 22.7% (MiniMax-M2.5).",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "infrastructure",
+          "open-source"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-10-rss-004",
+        "title": "Osprey：目标无关预训练打造更强的投机解码草稿模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.09338",
+        "language": "en",
+        "summary": "Osprey 提出从现成的小型预训练语言模型引导草稿模型，将广泛预训练视为可复用的目标无关资产，通过剪枝、目标无关下一词预训练及词汇对齐、零初始化QKV扩展和目标蒸馏适配各目标模型，在Qwen3-8B、Llama-3.3-70B和MiniMax-M2.5上平均接受长度分别提升16.1%、21.2%和22.7%。",
+        "summary_en": "Osprey bootstraps speculative decoding drafters from off-the-shelf pretrained small language models, treating broad pretraining as a reusable target-agnostic asset. It prunes to a shallow backbone, restores language modeling via target-agnostic next-token pretraining, and adapts per target with vocabulary alignment, zero-initialized QKV expansion, and distillation. A single backbone improves mean acceptance length by 16.1% (Qwen3-8B), 21.2% (Llama-3.3-70B-Instruct), and 22.7% (MiniMax-M2.5).",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "infrastructure",
+          "open-source"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-10T20:41:51.068061+08:00",
+        "updated_at": "2026-09-10T20:41:51.068062+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SWORD: Wikidata-based Distortions Reveal Hidden Cross-Lingual Inconsistencies in LLM Factual Error Rejection",
+      "url": "https://arxiv.org/abs/2609.09349",
+      "description": "arXiv:2609.09349v1 Announce Type: new \nAbstract: Modern LLMs demonstrate impressive multilingual performance, yet standard benchmarks primarily reward selecting correct answers rather than evaluating genuine factual understanding. We introduce Systematic Wikidata-based Object-Relation Distortion (SWORD), a benchmark that evaluates whether models consistently reject factual errors across languages. SWORD generates syntactically well-formed but factually incorrect statements in eight widely spoken languages through controlled perturbations of Wikidata triples, ranging from random entity substitutions to semantically plausible property-based selections. Our distortion-based evaluation surfaces two critical insights that remain entirely obscured by conventional benchmarks. First, models counterintuitively achieve higher accuracy on semantically plausible distortions than on nonsensical random substitutions, suggesting reliance on distributional familiarity rather than genuine factual verification. Second, models exhibiting comparable baseline accuracy across languages show substantial performance degradation specifically on (East) Asian languages when presented with distorted statements, with cross-lingual performance gaps reaching up to 28 percentage points (49\\% relative reduction) in some models. These findings demonstrate that multilingual factual reasoning involves asymmetric capabilities that aggregate accuracy metrics systematically obscure.",
+      "pub_date": "Thu, 10 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SWORD：基于Wikidata的扭曲基准揭示LLM事实错误拒绝中的跨语言不一致性",
+        "summary": "SWORD是一个基于Wikidata三元组扰动生成的基准，用八种语言评估LLM是否能一致拒绝事实错误陈述。研究发现模型对语义合理的扭曲反而准确率更高，说明其依赖分布熟悉度而非真正事实核查；且亚洲语言在扭曲陈述上性能下降显著，跨语言差距最高达28个百分点。",
+        "summary_en": "SWORD is a benchmark that generates syntactically well-formed but factually incorrect statements in eight languages via controlled perturbations of Wikidata triples, evaluating whether LLMs consistently reject factual errors across languages. It reveals that models score higher on semantically plausible distortions than random substitutions, indicating reliance on distributional familiarity rather than genuine verification, and shows up to 28 percentage point cross-lingual gaps, especially on East Asian languages.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "research",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-10-rss-005",
+        "title": "SWORD：基于Wikidata的扭曲基准揭示LLM事实错误拒绝中的跨语言不一致性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.09349",
+        "language": "en",
+        "summary": "SWORD是一个基于Wikidata三元组扰动生成的基准，用八种语言评估LLM是否能一致拒绝事实错误陈述。研究发现模型对语义合理的扭曲反而准确率更高，说明其依赖分布熟悉度而非真正事实核查；且亚洲语言在扭曲陈述上性能下降显著，跨语言差距最高达28个百分点。",
+        "summary_en": "SWORD is a benchmark that generates syntactically well-formed but factually incorrect statements in eight languages via controlled perturbations of Wikidata triples, evaluating whether LLMs consistently reject factual errors across languages. It reveals that models score higher on semantically plausible distortions than random substitutions, indicating reliance on distributional familiarity rather than genuine verification, and shows up to 28 percentage point cross-lingual gaps, especially on East Asian languages.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "research",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-10T20:41:51.068064+08:00",
+        "updated_at": "2026-09-10T20:41:51.068065+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Auditable Emergency Triage for Maternal and Newborn Care in India",
+      "url": "https://arxiv.org/abs/2609.09356",
+      "description": "arXiv:2609.09356v1 Announce Type: new \nAbstract: At Noora Health, our nurses answer more than 50,000 medical queries per month on our WhatsApp-based service that provides caregivers with on-demand support. Their most time-critical task is emergency triage: deciding which queries need immediate in-person attention. To support them, we built a system that uses a large language model (LLM) to classify whether a message is an emergency and provide a rationale for interpretability. But the system was opaque: analyzing mistakes meant reading reasoning chains for each message, which is infeasible at our scale. Prompt changes meant re-running a full evaluation to prevent regressions, which was both costly and operationally challenging. Clinicians follow a decision tree to make this call, but it was never documented or passed to the model, which relied on a flat list of danger signs. To address these issues, we decomposed triage into two steps: an LLM extracts canonical symptoms and patient context from the query using a clinician-authored vocabulary, and a deterministic rule engine captures the scenarios that indicate an emergency. We show that the new system raised recall from 0.565 to 0.810 and F1 from 0.606 to 0.702, with structured rules driving most of the accuracy gains while the decomposition provides auditability: clinical experts can inspect each stage of the new system to see whether the query was mistranslated, symptoms were incorrectly extracted, patient context was wrongly inferred, or the necessary rules were missing. They can add new rules independently without causing regressions and avoid running costly evaluations. Since deployment, the new system has triaged 152,421 patient queries and flagged 28,535 (18.7%) as emergencies. The over-escalation rate has been 17.8%, without any increase in missed emergencies. Clinicians have also added 48 new rules since deployment, evidence of the faster correction loop we set out to build.",
+      "pub_date": "Thu, 10 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "印度母婴护理的可审计急诊分诊系统",
+        "summary": "Noora Health 将 LLM 分诊拆分为两步：LLM 按临床词表提取症状与患者背景，确定性规则引擎判断急诊场景。召回率从 0.565 提升至 0.810，F1 从 0.606 提升至 0.702，并实现可审计性与快速规则迭代。",
+        "summary_en": "Noora Health decomposed LLM triage into two steps: an LLM extracts canonical symptoms and patient context using a clinician-authored vocabulary, and a deterministic rule engine identifies emergencies. Recall rose from 0.565 to 0.810 and F1 from 0.606 to 0.702, enabling auditability and rapid rule iteration.",
+        "tags": [
+          "llm",
+          "application",
+          "evaluation",
+          "prompt-engineering",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-10-rss-009",
+        "title": "印度母婴护理的可审计急诊分诊系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.09356",
+        "language": "en",
+        "summary": "Noora Health 将 LLM 分诊拆分为两步：LLM 按临床词表提取症状与患者背景，确定性规则引擎判断急诊场景。召回率从 0.565 提升至 0.810，F1 从 0.606 提升至 0.702，并实现可审计性与快速规则迭代。",
+        "summary_en": "Noora Health decomposed LLM triage into two steps: an LLM extracts canonical symptoms and patient context using a clinician-authored vocabulary, and a deterministic rule engine identifies emergencies. Recall rose from 0.565 to 0.810 and F1 from 0.606 to 0.702, enabling auditability and rapid rule iteration.",
+        "tags": [
+          "llm",
+          "application",
+          "evaluation",
+          "prompt-engineering",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-10T20:41:51.068078+08:00",
+        "updated_at": "2026-09-10T20:41:51.068079+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

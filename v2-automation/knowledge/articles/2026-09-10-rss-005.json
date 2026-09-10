@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-10-rss-005",
+  "title": "SWORD：基于Wikidata的扭曲基准揭示LLM事实错误拒绝中的跨语言不一致性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.09349",
+  "language": "en",
+  "summary": "SWORD是一个基于Wikidata三元组扰动生成的基准，用八种语言评估LLM是否能一致拒绝事实错误陈述。研究发现模型对语义合理的扭曲反而准确率更高，说明其依赖分布熟悉度而非真正事实核查；且亚洲语言在扭曲陈述上性能下降显著，跨语言差距最高达28个百分点。",
+  "summary_en": "SWORD is a benchmark that generates syntactically well-formed but factually incorrect statements in eight languages via controlled perturbations of Wikidata triples, evaluating whether LLMs consistently reject factual errors across languages. It reveals that models score higher on semantically plausible distortions than random substitutions, indicating reliance on distributional familiarity rather than genuine verification, and shows up to 28 percentage point cross-lingual gaps, especially on East Asian languages.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "evaluation",
+    "research",
+    "multimodal"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-10T20:41:51.068064+08:00",
+  "updated_at": "2026-09-10T20:41:51.068065+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

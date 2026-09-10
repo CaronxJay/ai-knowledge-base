@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-10-rss-003",
+  "title": "X-CoSD：跨词表通信高效的协同投机解码",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.09166",
+  "language": "en",
+  "summary": "提出X-CoSD框架，解决异构SLM-LLM词表下的协同投机解码问题。通过混合重采样（HR）将残差重采样拆分到设备端公共词表区和服务器端LLM专属区，仅需传输公共词表区分布；增强版X-CoSD-E采用服务器重采样与设备验证（SR-DV），服务器仅发送替换候选及其概率供设备本地验证。两者均保持服务器LLM分布，显著提升生成速度且质量相当。",
+  "summary_en": "This paper proposes X-CoSD, a lossless and communication-efficient collaborative speculative decoding framework for heterogeneous SLM-LLM vocabularies. Built on hybrid resampling (HR), it splits residual resampling across the device-side common-vocabulary region and the server-side LLM-only region, requiring distribution transmission only for the common region. An enhanced variant, X-CoSD-E, uses server resampling with device verification (SR-DV), where the server sends only replacement candidates and probabilities for local verification. Both provably preserve the server LLM distribution and significantly improve token generation speed while maintaining comparable quality.",
+  "tags": [
+    "llm",
+    "research",
+    "infrastructure",
+    "evaluation"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-10T20:41:51.068058+08:00",
+  "updated_at": "2026-09-10T20:41:51.068059+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

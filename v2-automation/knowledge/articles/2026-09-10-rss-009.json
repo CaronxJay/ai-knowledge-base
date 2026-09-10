@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-10-rss-009",
+  "title": "印度母婴护理的可审计急诊分诊系统",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.09356",
+  "language": "en",
+  "summary": "Noora Health 将 LLM 分诊拆分为两步：LLM 按临床词表提取症状与患者背景，确定性规则引擎判断急诊场景。召回率从 0.565 提升至 0.810，F1 从 0.606 提升至 0.702，并实现可审计性与快速规则迭代。",
+  "summary_en": "Noora Health decomposed LLM triage into two steps: an LLM extracts canonical symptoms and patient context using a clinician-authored vocabulary, and a deterministic rule engine identifies emergencies. Recall rose from 0.565 to 0.810 and F1 from 0.606 to 0.702, enabling auditability and rapid rule iteration.",
+  "tags": [
+    "llm",
+    "application",
+    "evaluation",
+    "prompt-engineering",
+    "research"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-10T20:41:51.068078+08:00",
+  "updated_at": "2026-09-10T20:41:51.068079+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
