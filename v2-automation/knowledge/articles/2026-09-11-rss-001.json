@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-11-rss-001",
+  "title": "子代理与代理技能：面向长周期代理任务的可复用知识执行",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.09233",
+  "language": "en",
+  "summary": "论文研究如何让语言模型代理利用可复用知识库解决长周期任务。对比两种方式：将技能指令加载到主上下文（代理技能），或将技能包作为子代理调用（子代理执行）。实验表明，当技能包具有清晰输入输出契约时，子代理执行优于代理技能执行，但需额外通信开销。",
+  "summary_en": "This paper investigates how LLM agents can leverage libraries of reusable knowledge for long-horizon tasks. It compares agent-skill execution (loading skill instructions into the main context) with subagent execution (invoking skill packages as subagents with fresh context windows). Results show subagent execution outperforms agent-skill execution when skill packages expose clear input-output contracts, at the cost of extra communication overhead.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "prompt-engineering",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-11T20:36:06.654608+08:00",
+  "updated_at": "2026-09-11T20:36:06.654611+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

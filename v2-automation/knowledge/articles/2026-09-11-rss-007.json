@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-11-rss-007",
+  "title": "通用人工智能中的自适应纠缠博弈模块",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.09226",
+  "language": "en",
+  "summary": "论文提出基于概率波的行为智能框架，用非局域概率波方程建模自适应智能体集体行为。通过分析中国股市日内数据，发现自适应纠缠博弈模式可解释82-94%的决策行为，远优于新古典金融学的独立理性智能体预测，支持LCA非局域纠缠神经纤维假说。作者主张将自适应纠缠博弈模块纳入AGI架构，结合ANN与脑启发模拟，开发类人处理单元（HPU），以实现更紧凑高效的AGI系统。",
+  "summary_en": "This paper introduces a probability-wave framework using a generalized behavioral intelligence nonlocal probability-wave equation to model collective behavior of interacting adaptive agents. Analysis of Chinese intraday stock data shows adaptive entangled game modes explain 82-94% (89% overall) of decision patterns, sharply contrasting with neoclassical finance's independent rational agent predictions, and empirically supporting the Liu-Chen-Ao hypothesis of nonlocal entangled nerve fibers. The authors argue for incorporating adaptive entangled game modules into AGI architectures, integrating ANN-based AI with probability-wave entangled-brain simulations to develop human-like processing units (HPUs) for more compact, efficient, robust AGI, especially in embodied intelligence and robotics.",
+  "tags": [
+    "research",
+    "agent-framework",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-09-11T20:36:06.654633+08:00",
+  "updated_at": "2026-09-11T20:36:06.654634+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

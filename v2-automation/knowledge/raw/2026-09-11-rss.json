@@ -1,0 +1,489 @@
+{
+  "collected_at": "2026-09-11T20:36:06.655337+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "url": "https://arxiv.org/abs/2609.09203",
+      "description": "arXiv:2609.09203v1 Announce Type: new \nAbstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scientific methodology, diagnose failure modes, or distinguish systematic reasoning from fortunate guessing. We present \\textbf{OpenDiscoveryTrace}, a public dataset of 558 complete AI scientific agent trajectories that captures how models reason, not just what they produce. Each trajectory records a structured 9-field-per-step trace---including thoughts, tool calls, observations, errors, revision triggers, and self-reported confidence---as models execute 124 scientific tasks spanning drug discovery, materials science, genomics, and scientific literature analysis. The dataset covers seven models: three frontier models (GPT-5.4, Claude Opus 4.6, and Gemini 3.1 Pro; 124 trajectories each, fully balanced across domains and difficulty levels) and four open-weight models (Qwen2.5-7B, Mistral-7B-v0.3, Phi-3.5-mini, and Qwen2.5-1.5B; 30 each), plus 60 live-retrieval variant trajectories. Pilot analysis on 363 LLM-judged trajectories reveals that process traces expose behavioral differences invisible to output-only evaluation: all three frontier models achieve comparable success rates (84--89%), yet Claude Opus 4.6 produces 30$\\times$ more errors than GPT-5.4 (2.5 vs. 0.08 per trajectory, $p < 0.0001$, Cliff's $\\delta = 0.613$), with qualitatively different error profiles---66.7% tool misuse for Claude versus 83.6% reasoning errors for GPT-5.4. We define five benchmark tasks with baselines from logistic regression, random forests, LSTMs, and Transformer models. The dataset, trace schema, agent harness, and benchmark definitions are publicly available under CC BY 4.0 to support research on process-level evaluation, scientific agent auditing, and AI governance.",
+      "pub_date": "Fri, 11 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "OpenDiscoveryTrace：评估AI科学家工作流的流程轨迹数据集",
+        "summary": "该论文提出OpenDiscoveryTrace，一个包含558条完整AI科学智能体轨迹的公开数据集，记录模型推理过程而非仅最终输出。轨迹涵盖9字段每步结构化记录（思维、工具调用、观察、错误、修正触发、置信度），覆盖124个科学任务和7个模型。初步分析发现流程轨迹能揭示输出评估无法察觉的行为差异，如Claude Opus 4.6错误数是GPT-5.4的30倍。",
+        "summary_en": "This paper presents OpenDiscoveryTrace, a public dataset of 558 complete AI scientific agent trajectories that capture reasoning processes rather than just final outputs. Each trajectory records a structured 9-field-per-step trace (thoughts, tool calls, observations, errors, revision triggers, confidence) across 124 scientific tasks and seven models. Pilot analysis reveals process traces expose behavioral differences invisible to output-only evaluation, such as Claude Opus 4.6 producing 30x more errors than GPT-5.4.",
+        "tags": [
+          "agent-framework",
+          "benchmark",
+          "evaluation",
+          "research",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-11-rss-003",
+        "title": "OpenDiscoveryTrace：评估AI科学家工作流的流程轨迹数据集",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.09203",
+        "language": "en",
+        "summary": "该论文提出OpenDiscoveryTrace，一个包含558条完整AI科学智能体轨迹的公开数据集，记录模型推理过程而非仅最终输出。轨迹涵盖9字段每步结构化记录（思维、工具调用、观察、错误、修正触发、置信度），覆盖124个科学任务和7个模型。初步分析发现流程轨迹能揭示输出评估无法察觉的行为差异，如Claude Opus 4.6错误数是GPT-5.4的30倍。",
+        "summary_en": "This paper presents OpenDiscoveryTrace, a public dataset of 558 complete AI scientific agent trajectories that capture reasoning processes rather than just final outputs. Each trajectory records a structured 9-field-per-step trace (thoughts, tool calls, observations, errors, revision triggers, confidence) across 124 scientific tasks and seven models. Pilot analysis reveals process traces expose behavioral differences invisible to output-only evaluation, such as Claude Opus 4.6 producing 30x more errors than GPT-5.4.",
+        "tags": [
+          "agent-framework",
+          "benchmark",
+          "evaluation",
+          "research",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-11T20:36:06.654619+08:00",
+        "updated_at": "2026-09-11T20:36:06.654621+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
+      "url": "https://arxiv.org/abs/2609.09226",
+      "description": "arXiv:2609.09226v1 Announce Type: new \nAbstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelligence (GBI) nonlocal probability-wave equation. This framework captures a broad range of human intelligence behaviors with analytical mechanisms and offers an indirect method to examine the Liu-Chen-Ao (LCA) hypothesis of nonlocal entangled nerve fibers in the brain through collective trader behaviors. Our empirical analysis of Chinese intraday stock market data demonstrates that adaptive entangled game modes explain 82-94% (89% overall) of observed decision patterns, a sharp contrast to the predictions of neoclassical finance based on independent rational agents. Moreover, 2-12% of behaviors show adaption to intraday news, events, and environments, characterized by dual equilibrium states and abrupt reference point shifts, while purely independent modes occur in less than 5% of cases. These findings empirically support the LCA hypothesis, as observable trading behaviors reflect underlying brain mechanisms and internal intelligence decision-making in behavioral psychology. Our results highlight the necessity of incorporating adaptive entangled game modules into artificial general intelligence (AGI) architectures, addressing the limitations of conventional artificial neural network (ANN)-based AI, which relies on trillions of opaque parameters. By integrating ANN-based AI with probability-wave-based entangled-brain simulations, machine learning can enrich AGI foundation models (FMs) and facilitate the development of human-like processing units (HPUs) that leverage brain-inspired mechanisms. Such HPUs may ultimately create more compact, efficient, and robust AGI systems, particularly for embodied intelligence and robotics.",
+      "pub_date": "Fri, 11 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通用人工智能中的自适应纠缠博弈模块",
+        "summary": "论文提出基于概率波的行为智能框架，用非局域概率波方程建模自适应智能体集体行为。通过分析中国股市日内数据，发现自适应纠缠博弈模式可解释82-94%的决策行为，远优于新古典金融学的独立理性智能体预测，支持LCA非局域纠缠神经纤维假说。作者主张将自适应纠缠博弈模块纳入AGI架构，结合ANN与脑启发模拟，开发类人处理单元（HPU），以实现更紧凑高效的AGI系统。",
+        "summary_en": "This paper introduces a probability-wave framework using a generalized behavioral intelligence nonlocal probability-wave equation to model collective behavior of interacting adaptive agents. Analysis of Chinese intraday stock data shows adaptive entangled game modes explain 82-94% (89% overall) of decision patterns, sharply contrasting with neoclassical finance's independent rational agent predictions, and empirically supporting the Liu-Chen-Ao hypothesis of nonlocal entangled nerve fibers. The authors argue for incorporating adaptive entangled game modules into AGI architectures, integrating ANN-based AI with probability-wave entangled-brain simulations to develop human-like processing units (HPUs) for more compact, efficient, robust AGI, especially in embodied intelligence and robotics.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-11-rss-007",
+        "title": "通用人工智能中的自适应纠缠博弈模块",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.09226",
+        "language": "en",
+        "summary": "论文提出基于概率波的行为智能框架，用非局域概率波方程建模自适应智能体集体行为。通过分析中国股市日内数据，发现自适应纠缠博弈模式可解释82-94%的决策行为，远优于新古典金融学的独立理性智能体预测，支持LCA非局域纠缠神经纤维假说。作者主张将自适应纠缠博弈模块纳入AGI架构，结合ANN与脑启发模拟，开发类人处理单元（HPU），以实现更紧凑高效的AGI系统。",
+        "summary_en": "This paper introduces a probability-wave framework using a generalized behavioral intelligence nonlocal probability-wave equation to model collective behavior of interacting adaptive agents. Analysis of Chinese intraday stock data shows adaptive entangled game modes explain 82-94% (89% overall) of decision patterns, sharply contrasting with neoclassical finance's independent rational agent predictions, and empirically supporting the Liu-Chen-Ao hypothesis of nonlocal entangled nerve fibers. The authors argue for incorporating adaptive entangled game modules into AGI architectures, integrating ANN-based AI with probability-wave entangled-brain simulations to develop human-like processing units (HPUs) for more compact, efficient, robust AGI, especially in embodied intelligence and robotics.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-09-11T20:36:06.654633+08:00",
+        "updated_at": "2026-09-11T20:36:06.654634+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+      "url": "https://arxiv.org/abs/2609.09233",
+      "description": "arXiv:2609.09233v1 Announce Type: new \nAbstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks? Recent work has increasingly focused on agent skills: reusable capabilities represented as skill packages, i.e., multi-file bundles containing instructions, scripts, and other resources that help agents perform specific tasks. Agent skills are typically executed by loading their skill instructions into an agent's context and relying on the agent to follow them. As task horizons grow, however, this approach becomes increasingly brittle, because reasoning quality degrades as more information accumulates in the context window. We investigate an alternative approach in which skill packages are instead invoked as subagents. Rather than loading skill instructions into the main context, subagent execution spawns fresh context windows dedicated to solving individual subtasks. We show that subagent execution outperforms agent-skill execution when skill packages expose clear input-output contracts and their instructions encode the procedural knowledge needed to fulfill those contracts. The tradeoff is additional communication overhead, as extra tokens are required to coordinate between the main agent and its subagents. Our results show that the benefit of reusable knowledge depends not only on its content, but also on how it is organized and invoked.",
+      "pub_date": "Fri, 11 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "子代理与代理技能：面向长周期代理任务的可复用知识执行",
+        "summary": "论文研究如何让语言模型代理利用可复用知识库解决长周期任务。对比两种方式：将技能指令加载到主上下文（代理技能），或将技能包作为子代理调用（子代理执行）。实验表明，当技能包具有清晰输入输出契约时，子代理执行优于代理技能执行，但需额外通信开销。",
+        "summary_en": "This paper investigates how LLM agents can leverage libraries of reusable knowledge for long-horizon tasks. It compares agent-skill execution (loading skill instructions into the main context) with subagent execution (invoking skill packages as subagents with fresh context windows). Results show subagent execution outperforms agent-skill execution when skill packages expose clear input-output contracts, at the cost of extra communication overhead.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-11-rss-001",
+        "title": "子代理与代理技能：面向长周期代理任务的可复用知识执行",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.09233",
+        "language": "en",
+        "summary": "论文研究如何让语言模型代理利用可复用知识库解决长周期任务。对比两种方式：将技能指令加载到主上下文（代理技能），或将技能包作为子代理调用（子代理执行）。实验表明，当技能包具有清晰输入输出契约时，子代理执行优于代理技能执行，但需额外通信开销。",
+        "summary_en": "This paper investigates how LLM agents can leverage libraries of reusable knowledge for long-horizon tasks. It compares agent-skill execution (loading skill instructions into the main context) with subagent execution (invoking skill packages as subagents with fresh context windows). Results show subagent execution outperforms agent-skill execution when skill packages expose clear input-output contracts, at the cost of extra communication overhead.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-11T20:36:06.654608+08:00",
+        "updated_at": "2026-09-11T20:36:06.654611+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions",
+      "url": "https://arxiv.org/abs/2609.09306",
+      "description": "arXiv:2609.09306v1 Announce Type: new \nAbstract: This paper investigates the hypothesis that the first-order structure of physical interactions, i.e. gradients or Jacobians, characterizes the structure of phenomenal experience. It does so in an idealized world inhabited by neural networks, Gradland, where the physics are known and the functions are (mostly) differentiable. The paper introduces two measures of Jacobian structure: effective rank and cohesion, based on Kirchhoff complexity. Applying the measures to a series of worked examples shows the hypothesis accounts for: (1) the duration of experience, that it can prolong over hundreds of milliseconds; (2) the difference between what is experienced vividly and obscurely; (3) the experience of texture; (4) the blooming buzzing confusion presumably experienced by newborns; (5) the difference between ideas that are held distinctly in mind and ideas that are confused; (6) what learning is like; and finally (7) the paper explains the function of rich, dense experience.",
+      "pub_date": "Fri, 11 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Gradland：跨多维度的现象体验研究",
+        "summary": "论文提出假设：物理交互的一阶结构（梯度或雅可比矩阵）刻画了现象体验的结构。作者构建了由神经网络构成的理想世界Gradland，引入基于Kirchhoff复杂度的有效秩与内聚度两个雅可比结构度量，并通过多个实例说明该假设可解释体验的持续时间、鲜明与模糊之别、质感、新生儿的混沌体验、清晰与混乱观念、学习过程以及丰富密集体验的功能。",
+        "summary_en": "This paper hypothesizes that the first-order structure of physical interactions (gradients or Jacobians) characterizes phenomenal experience. In an idealized world of neural networks, Gradland, it introduces two measures of Jacobian structure—effective rank and cohesion, based on Kirchhoff complexity—and shows via worked examples that the hypothesis accounts for the duration of experience, vivid vs. obscure experience, texture, newborn confusion, distinct vs. confused ideas, learning, and the function of rich dense experience.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-11-rss-010",
+        "title": "Gradland：跨多维度的现象体验研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.09306",
+        "language": "en",
+        "summary": "论文提出假设：物理交互的一阶结构（梯度或雅可比矩阵）刻画了现象体验的结构。作者构建了由神经网络构成的理想世界Gradland，引入基于Kirchhoff复杂度的有效秩与内聚度两个雅可比结构度量，并通过多个实例说明该假设可解释体验的持续时间、鲜明与模糊之别、质感、新生儿的混沌体验、清晰与混乱观念、学习过程以及丰富密集体验的功能。",
+        "summary_en": "This paper hypothesizes that the first-order structure of physical interactions (gradients or Jacobians) characterizes phenomenal experience. In an idealized world of neural networks, Gradland, it introduces two measures of Jacobian structure—effective rank and cohesion, based on Kirchhoff complexity—and shows via worked examples that the hypothesis accounts for the duration of experience, vivid vs. obscure experience, texture, newborn confusion, distinct vs. confused ideas, learning, and the function of rich dense experience.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-09-11T20:36:06.654647+08:00",
+        "updated_at": "2026-09-11T20:36:06.654648+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
+      "url": "https://arxiv.org/abs/2609.09374",
+      "description": "arXiv:2609.09374v1 Announce Type: new \nAbstract: Arctic maritime navigation is becoming increasingly important as changing sea-ice conditions expand seasonal accessibility while simultaneously introducing substantial operational, environmental, and community risks. Arctic route planning is inherently a multi-criteria problem: routes that improve vessel safety or efficiency may increase exposure to sea ice, sensitive ecosystems, or nearby communities. Existing routing methods prioritize travel time, fuel use, and navigational risk, often overlooking ecological and community impacts. We introduce a human-in-the-loop, multi-agent GeoAI system for Arctic eco-navigation that integrates operational, physical, ecological, and community-related criteria within a unified routing framework. Multiple specialized agents coordinate geospatial data acquisition and preparation, multi-objective route generation, and skyline-based decision support. The ecological criteria explicitly account for exposure to sensitive areas, including Essential Fish Habitat and seal critical habitat. By considering these ecosystem impacts and potential community burdens while keeping consequential value judgments under human control, the framework supports safer, more transparent, and socially responsible Arctic navigation. Project page and code are publicly available. https://samiraat.github.io/Arctic-Eco-Navigation-Agent/, https://github.com/samiraat/Arctic-Eco-Navigation-Agent",
+      "pub_date": "Fri, 11 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向北极生态导航的自主GeoAI智能体系统",
+        "summary": "提出一种人在回路的多智能体GeoAI系统，用于北极生态导航。系统整合运营、物理、生态与社区多准则，通过多个专用智能体协同完成地理空间数据获取、多目标路径生成与天际线决策支持，显式考虑敏感生态区域与社区影响，在保留人类价值判断的前提下支持更安全、透明且负责任的北极航线规划。",
+        "summary_en": "We introduce a human-in-the-loop, multi-agent GeoAI system for Arctic eco-navigation that integrates operational, physical, ecological, and community-related criteria within a unified routing framework. Multiple specialized agents coordinate geospatial data acquisition and preparation, multi-objective route generation, and skyline-based decision support. Ecological criteria explicitly account for exposure to sensitive areas such as Essential Fish Habitat and seal critical habitat, supporting safer, more transparent, and socially responsible Arctic navigation.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "multimodal",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-11-rss-008",
+        "title": "面向北极生态导航的自主GeoAI智能体系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.09374",
+        "language": "en",
+        "summary": "提出一种人在回路的多智能体GeoAI系统，用于北极生态导航。系统整合运营、物理、生态与社区多准则，通过多个专用智能体协同完成地理空间数据获取、多目标路径生成与天际线决策支持，显式考虑敏感生态区域与社区影响，在保留人类价值判断的前提下支持更安全、透明且负责任的北极航线规划。",
+        "summary_en": "We introduce a human-in-the-loop, multi-agent GeoAI system for Arctic eco-navigation that integrates operational, physical, ecological, and community-related criteria within a unified routing framework. Multiple specialized agents coordinate geospatial data acquisition and preparation, multi-objective route generation, and skyline-based decision support. Ecological criteria explicitly account for exposure to sensitive areas such as Essential Fish Habitat and seal critical habitat, supporting safer, more transparent, and socially responsible Arctic navigation.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "multimodal",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-09-11T20:36:06.654637+08:00",
+        "updated_at": "2026-09-11T20:36:06.654638+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Data-Efficient Language Modeling: From Frontier Advancement to Principle-Guided Model Improvement",
+      "url": "https://arxiv.org/abs/2609.10702",
+      "description": "arXiv:2609.10702v1 Announce Type: new \nAbstract: Learning from limited text requires models to use context, generalize to new inputs, and retain useful capabilities. Qiushi Engine conducted a long-horizon, end-to-end autonomous research program on BabyLM 2026 Strict-Small, within 10 million corpus words and 100 million cumulative word presentations. Three stages connected frontier advancement, principle discovery, and principle-guided model improvement. Stage I combined compact restatements, budget reinvestment, and residual incremental learning to build a frontier model. Stage II found that exact repetition and aligned restatement produce different patterns of context use, depending on target relations and prediction windows. In controlled tasks, recovering familiar performance did not ensure that unseen inputs could still use learned computations. These findings support a testable data-efficient learning principle: organize experience around the contextual dependencies needed for prediction; separately design visible information, supervision, and preservation; test learning, generalization, and retention. Stage III retained source text, masked more local clues, supervised selected targets, and preserved predictions on ordinarily masked inputs. Two continuation seeds from the same parent outperformed ordinary continuation on the complete nine-metric aggregate. Overall rose from 42.02 to 42.25 across two generations; the second achieved the highest Overall in the public Strict-Small snapshot of 8 September 2026. Further studies addressed compression, relational anchors, shared representations, and measurement. Models are available on Hugging Face; code and research records accompany the GitHub repository. Together, these stages illustrate Research RSI: recursive self-improvement of the research process. Scientific understanding and method innovations change subsequent questions and designs; new experiments test and refine them.",
+      "pub_date": "Fri, 11 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "数据高效语言建模：从前沿推进到原则引导的模型改进",
+        "summary": "Qiushi Engine在BabyLM 2026 Strict-Small上开展长周期自主研究，通过三阶段（前沿推进、原则发现、原则引导改进）实现数据高效语言建模，发现围绕预测所需上下文依赖组织经验的学习原则，最终将Overall指标从42.02提升至42.25，并公开模型与代码。",
+        "summary_en": "Qiushi Engine conducted a long-horizon autonomous research program on BabyLM 2026 Strict-Small, spanning frontier advancement, principle discovery, and principle-guided improvement. It found a testable data-efficient learning principle: organize experience around contextual dependencies needed for prediction. Overall rose from 42.02 to 42.25, achieving the top public Strict-Small result. Models and code are released.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-11-rss-004",
+        "title": "数据高效语言建模：从前沿推进到原则引导的模型改进",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.10702",
+        "language": "en",
+        "summary": "Qiushi Engine在BabyLM 2026 Strict-Small上开展长周期自主研究，通过三阶段（前沿推进、原则发现、原则引导改进）实现数据高效语言建模，发现围绕预测所需上下文依赖组织经验的学习原则，最终将Overall指标从42.02提升至42.25，并公开模型与代码。",
+        "summary_en": "Qiushi Engine conducted a long-horizon autonomous research program on BabyLM 2026 Strict-Small, spanning frontier advancement, principle discovery, and principle-guided improvement. It found a testable data-efficient learning principle: organize experience around contextual dependencies needed for prediction. Overall rose from 42.02 to 42.25, achieving the top public Strict-Small result. Models and code are released.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-11T20:36:06.654623+08:00",
+        "updated_at": "2026-09-11T20:36:06.654624+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+      "url": "https://arxiv.org/abs/2609.10715",
+      "description": "arXiv:2609.10715v1 Announce Type: new \nAbstract: We introduce NCP-ArchPreview, a latent-space language model that pushes autoregressive pretraining beyond standard next-token prediction (NTP). Alongside NTP, the model learns through Next Concept Prediction (NCP) to predict discrete concepts that span multiple tokens, introducing an explicit and more challenging concept-level objective while preserving standard token-level autoregressive generation. NCP-ArchPreview builds a latent space by constructing a product-quantized concept vocabulary directly from its hidden states, and subsequently learns to predict future concepts via a dedicated Concept Module. These predicted concepts are then fed back to the token level to guide subsequent generation, with NTP and NCP trained jointly end-to-end. We scale this architecture to 8.9B parameters and train it on 5.73T tokens from the Dolma-3 dataset, marking the largest demonstration of a latent-space language model to date. Remarkably, by consuming only 51.3% of the total training tokens, NCP-ArchPreview achieves the final pretraining loss of OLMo-3-7B. Following full pretraining, it outperforms OLMo-3-7B by 2.45 points on the downstream macro-average, including a notable 5.99-point gain on GSM8K. Controlled experiments isolate a clear progression of performance gains stemming from both the latent architecture and the NCP objective. Furthermore, utilizing only 85% of the standard computation, NCP-ArchPreview approaches the training loss of a strictly parameter-aligned 8.9B baseline. The learned latent space remains highly valuable after the pretraining stage: updating just the 17M-parameter VQ module yields a novel, lightweight interface for domain adaptation, while a simple injection of concept representations into a DFlash2 drafter improves the mean accepted length by 4.17% with negligible overhead.",
+      "pub_date": "Fri, 11 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "NCP-ArchPreview：通过下一概念预测迈向潜在空间语言模型",
+        "summary": "提出NCP-ArchPreview潜在空间语言模型，在标准下一词预测之外引入下一概念预测（NCP），通过乘积量化构建概念词汇表并预测跨多词的概念。模型扩展至89亿参数，仅用51.3%训练token即达到OLMo-3-7B的预训练损失，下游宏平均提升2.45分，GSM8K提升5.99分。",
+        "summary_en": "Introduces NCP-ArchPreview, a latent-space language model that augments next-token prediction with Next Concept Prediction (NCP), predicting discrete multi-token concepts via a product-quantized concept vocabulary. Scaled to 8.9B parameters, it matches OLMo-3-7B's pretraining loss using only 51.3% of tokens and outperforms it by 2.45 points downstream, including +5.99 on GSM8K.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "llm",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-11-rss-002",
+        "title": "NCP-ArchPreview：通过下一概念预测迈向潜在空间语言模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.10715",
+        "language": "en",
+        "summary": "提出NCP-ArchPreview潜在空间语言模型，在标准下一词预测之外引入下一概念预测（NCP），通过乘积量化构建概念词汇表并预测跨多词的概念。模型扩展至89亿参数，仅用51.3%训练token即达到OLMo-3-7B的预训练损失，下游宏平均提升2.45分，GSM8K提升5.99分。",
+        "summary_en": "Introduces NCP-ArchPreview, a latent-space language model that augments next-token prediction with Next Concept Prediction (NCP), predicting discrete multi-token concepts via a product-quantized concept vocabulary. Scaled to 8.9B parameters, it matches OLMo-3-7B's pretraining loss using only 51.3% of tokens and outperforms it by 2.45 points downstream, including +5.99 on GSM8K.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "llm",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-11T20:36:06.654615+08:00",
+        "updated_at": "2026-09-11T20:36:06.654617+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CMNIE: An Information Extraction Benchmark for Chinese Military News",
+      "url": "https://arxiv.org/abs/2609.10722",
+      "description": "arXiv:2609.10722v1 Announce Type: new \nAbstract: Structured extraction from Chinese military news supports intelligence analysis, decision-making, and knowledge base construction. However, existing resources provide limited support for joint informa?tion extraction in this domain, especially when events, event arguments, entities, and relations must be modeled together. We present CMNIE, an information extraction benchmark for Chinese military news. Extend?ing military-domain resources beyond document-level event annotations, CMNIE jointly annotates event triggers, event arguments, named enti?ties, and entity relations under a unified domain schema. The dataset contains 13,000 instances collected from public Chinese military news, with manual annotations for 7 event types, 10 argument roles, 7 entity types, and 8 relation types. We evaluate supervised IE models, zero-shot large language models, and fine-tuned LLM-based extraction methods on a shared test set. Experimental results show that CMNIE remains chal?lenging, especially for relation extraction and exact matching of event?argument spans; zero-shot LLMs often identify relevant semantic units but fail to match gold span boundaries exactly. CMNIE provides a stan?dardized benchmark for studying schema adherence, exact span match?ing, and joint structured extraction in specialized Chinese news.",
+      "pub_date": "Fri, 11 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CMNIE：中文军事新闻信息抽取基准",
+        "summary": "CMNIE是面向中文军事新闻的信息抽取基准，统一标注事件触发词、事件论元、命名实体和实体关系，包含13,000条实例，覆盖7种事件类型、10种论元角色、7种实体类型和8种关系类型。实验表明该基准仍具挑战性，尤其在关系抽取和事件论元跨度精确匹配方面，零样本LLM常能识别语义单元但无法精确匹配金标跨度。",
+        "summary_en": "CMNIE is an information extraction benchmark for Chinese military news that jointly annotates event triggers, event arguments, named entities, and entity relations under a unified schema. It contains 13,000 instances with 7 event types, 10 argument roles, 7 entity types, and 8 relation types. Experiments show CMNIE remains challenging, especially for relation extraction and exact span matching, where zero-shot LLMs often identify relevant semantics but fail to match gold span boundaries.",
+        "tags": [
+          "benchmark",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-11-rss-009",
+        "title": "CMNIE：中文军事新闻信息抽取基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.10722",
+        "language": "en",
+        "summary": "CMNIE是面向中文军事新闻的信息抽取基准，统一标注事件触发词、事件论元、命名实体和实体关系，包含13,000条实例，覆盖7种事件类型、10种论元角色、7种实体类型和8种关系类型。实验表明该基准仍具挑战性，尤其在关系抽取和事件论元跨度精确匹配方面，零样本LLM常能识别语义单元但无法精确匹配金标跨度。",
+        "summary_en": "CMNIE is an information extraction benchmark for Chinese military news that jointly annotates event triggers, event arguments, named entities, and entity relations under a unified schema. It contains 13,000 instances with 7 event types, 10 argument roles, 7 entity types, and 8 relation types. Experiments show CMNIE remains challenging, especially for relation extraction and exact span matching, where zero-shot LLMs often identify relevant semantics but fail to match gold span boundaries.",
+        "tags": [
+          "benchmark",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-09-11T20:36:06.654640+08:00",
+        "updated_at": "2026-09-11T20:36:06.654641+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
+      "url": "https://arxiv.org/abs/2609.10745",
+      "description": "arXiv:2609.10745v1 Announce Type: new \nAbstract: Multimodal entity linking grounds entity mentions in text and images to knowledge-base entries. These systems degrade on rare entities, but prior work measures rarity primarily through popularity-based metrics such as pageviews. We broaden this view using knowledge-graph structural metrics that capture how well an entity is documented and connected. These metrics identify many rare entities that popularity metrics miss. Across the resulting rare-entity slices, state-of-the-art accuracy drops by 15.4-39.9%, showing that different rarity definitions expose different failure modes. To address these failures, we introduce a simple, training-free framework in which a reasoning-capable vision-language model iteratively searches and reasons over Wikipedia, gathering evidence dynamically. Controlled experiments show that reasoning and retrieval are complementary. Reasoning alone does not significantly improve accuracy on rare entities. Retrieval without reasoning improves rare-entity accuracy but can hurt overall accuracy. Their combination performs best. On MERLIN, a multilingual multimodal entity linking benchmark over five languages (Hindi, Indonesian, Japanese, Tamil, Vietnamese), our best system improves over the state of the art by 6.9% overall and by up to 23.3% on rare-entity slices. We release MERLIN-Rare, rare-entity test slices for targeted evaluation, with our framework.",
+      "pub_date": "Fri, 11 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "先思考再链接：多语言实体链接中的稀有性、推理与检索",
+        "summary": "该研究提出用知识图谱结构指标重新定义实体稀有性，发现现有系统在稀有实体上准确率下降15.4%-39.9%。作者提出免训练框架，让具备推理能力的视觉语言模型迭代检索并推理维基百科，推理与检索互补，在MERLIN多语言基准上整体提升6.9%，稀有实体提升最高23.3%。",
+        "summary_en": "This work redefines entity rarity using knowledge-graph structural metrics, revealing 15.4-39.9% accuracy drops on rare entities. The authors propose a training-free framework where a reasoning-capable vision-language model iteratively searches and reasons over Wikipedia. Reasoning and retrieval are complementary, improving MERLIN multilingual benchmark by 6.9% overall and up to 23.3% on rare entities.",
+        "tags": [
+          "research",
+          "rag",
+          "multimodal",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-11-rss-005",
+        "title": "先思考再链接：多语言实体链接中的稀有性、推理与检索",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.10745",
+        "language": "en",
+        "summary": "该研究提出用知识图谱结构指标重新定义实体稀有性，发现现有系统在稀有实体上准确率下降15.4%-39.9%。作者提出免训练框架，让具备推理能力的视觉语言模型迭代检索并推理维基百科，推理与检索互补，在MERLIN多语言基准上整体提升6.9%，稀有实体提升最高23.3%。",
+        "summary_en": "This work redefines entity rarity using knowledge-graph structural metrics, revealing 15.4-39.9% accuracy drops on rare entities. The authors propose a training-free framework where a reasoning-capable vision-language model iteratively searches and reasons over Wikipedia. Reasoning and retrieval are complementary, improving MERLIN multilingual benchmark by 6.9% overall and up to 23.3% on rare entities.",
+        "tags": [
+          "research",
+          "rag",
+          "multimodal",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-11T20:36:06.654626+08:00",
+        "updated_at": "2026-09-11T20:36:06.654627+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Multilingual in Name Only? Cultural and Linguistic Weaknesses of LLMs in Urdu",
+      "url": "https://arxiv.org/abs/2609.10758",
+      "description": "arXiv:2609.10758v1 Announce Type: new \nAbstract: Multilingual large language models (LLMs) are increasingly used for open-ended text generation, yet their behaviour in low-resource languages remains poorly understood. In this work, we question how correct and reliable is the generation of multilingual LLMs when used for the task of story generation. We consider Urdu language as a representative low-resource language. We generate Urdu-Stories, a corpus of 93 stories generated using three contemporary LLMs (GPT-5.1, Qwen-3-Max, DeepSeek-3.1). We manually annotate the errors present in them under a nine-label linguistic, semantic, and cultural taxonomy. Our notable findings suggest that LLMs often make basic errors of grammar and semantics. The stories lack coherence, have unnatural repetition and show pervasive cultural shallowness. We further show using few-shot prompting that the cultural and context errors largely remain unresolved. Our findings highlight the limitations of current LLMs as a reliable source of content generation and information retrieval for low-resource languages.",
+      "pub_date": "Fri, 11 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多语言LLM在乌尔都语中的文化与语言缺陷研究",
+        "summary": "研究评估GPT-5.1、Qwen-3-Max、DeepSeek-3.1等LLM在低资源语言乌尔都语故事生成中的表现，构建93篇故事语料库并按九类错误标注。发现模型常犯基础语法语义错误，故事缺乏连贯性、存在不自然重复和普遍文化浅薄问题，少样本提示也难以解决文化与语境错误。",
+        "summary_en": "This work evaluates multilingual LLMs (GPT-5.1, Qwen-3-Max, DeepSeek-3.1) on Urdu story generation, building a corpus of 93 stories annotated with a nine-label taxonomy. Findings show frequent basic grammar and semantic errors, incoherent narratives, unnatural repetition, and pervasive cultural shallowness, which few-shot prompting largely fails to fix.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "research",
+          "benchmark",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-11-rss-006",
+        "title": "多语言LLM在乌尔都语中的文化与语言缺陷研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.10758",
+        "language": "en",
+        "summary": "研究评估GPT-5.1、Qwen-3-Max、DeepSeek-3.1等LLM在低资源语言乌尔都语故事生成中的表现，构建93篇故事语料库并按九类错误标注。发现模型常犯基础语法语义错误，故事缺乏连贯性、存在不自然重复和普遍文化浅薄问题，少样本提示也难以解决文化与语境错误。",
+        "summary_en": "This work evaluates multilingual LLMs (GPT-5.1, Qwen-3-Max, DeepSeek-3.1) on Urdu story generation, building a corpus of 93 stories annotated with a nine-label taxonomy. Findings show frequent basic grammar and semantic errors, incoherent narratives, unnatural repetition, and pervasive cultural shallowness, which few-shot prompting largely fails to fix.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "research",
+          "benchmark",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-11T20:36:06.654630+08:00",
+        "updated_at": "2026-09-11T20:36:06.654631+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

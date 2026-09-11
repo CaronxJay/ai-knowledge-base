@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-11-rss-005",
+  "title": "先思考再链接：多语言实体链接中的稀有性、推理与检索",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.10745",
+  "language": "en",
+  "summary": "该研究提出用知识图谱结构指标重新定义实体稀有性，发现现有系统在稀有实体上准确率下降15.4%-39.9%。作者提出免训练框架，让具备推理能力的视觉语言模型迭代检索并推理维基百科，推理与检索互补，在MERLIN多语言基准上整体提升6.9%，稀有实体提升最高23.3%。",
+  "summary_en": "This work redefines entity rarity using knowledge-graph structural metrics, revealing 15.4-39.9% accuracy drops on rare entities. The authors propose a training-free framework where a reasoning-capable vision-language model iteratively searches and reasons over Wikipedia. Reasoning and retrieval are complementary, improving MERLIN multilingual benchmark by 6.9% overall and up to 23.3% on rare entities.",
+  "tags": [
+    "research",
+    "rag",
+    "multimodal",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-11T20:36:06.654626+08:00",
+  "updated_at": "2026-09-11T20:36:06.654627+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

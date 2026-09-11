@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-11-rss-006",
+  "title": "多语言LLM在乌尔都语中的文化与语言缺陷研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.10758",
+  "language": "en",
+  "summary": "研究评估GPT-5.1、Qwen-3-Max、DeepSeek-3.1等LLM在低资源语言乌尔都语故事生成中的表现，构建93篇故事语料库并按九类错误标注。发现模型常犯基础语法语义错误，故事缺乏连贯性、存在不自然重复和普遍文化浅薄问题，少样本提示也难以解决文化与语境错误。",
+  "summary_en": "This work evaluates multilingual LLMs (GPT-5.1, Qwen-3-Max, DeepSeek-3.1) on Urdu story generation, building a corpus of 93 stories annotated with a nine-label taxonomy. Findings show frequent basic grammar and semantic errors, incoherent narratives, unnatural repetition, and pervasive cultural shallowness, which few-shot prompting largely fails to fix.",
+  "tags": [
+    "llm",
+    "evaluation",
+    "research",
+    "benchmark",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-11T20:36:06.654630+08:00",
+  "updated_at": "2026-09-11T20:36:06.654631+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

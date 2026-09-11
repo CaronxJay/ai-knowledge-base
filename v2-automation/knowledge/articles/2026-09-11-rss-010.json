@@ -1,0 +1,24 @@
+{
+  "id": "2026-09-11-rss-010",
+  "title": "Gradland：跨多维度的现象体验研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.09306",
+  "language": "en",
+  "summary": "论文提出假设：物理交互的一阶结构（梯度或雅可比矩阵）刻画了现象体验的结构。作者构建了由神经网络构成的理想世界Gradland，引入基于Kirchhoff复杂度的有效秩与内聚度两个雅可比结构度量，并通过多个实例说明该假设可解释体验的持续时间、鲜明与模糊之别、质感、新生儿的混沌体验、清晰与混乱观念、学习过程以及丰富密集体验的功能。",
+  "summary_en": "This paper hypothesizes that the first-order structure of physical interactions (gradients or Jacobians) characterizes phenomenal experience. In an idealized world of neural networks, Gradland, it introduces two measures of Jacobian structure—effective rank and cohesion, based on Kirchhoff complexity—and shows via worked examples that the hypothesis accounts for the duration of experience, vivid vs. obscure experience, texture, newborn confusion, distinct vs. confused ideas, learning, and the function of rich dense experience.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-09-11T20:36:06.654647+08:00",
+  "updated_at": "2026-09-11T20:36:06.654648+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

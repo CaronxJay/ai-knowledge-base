@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-11-rss-009",
+  "title": "CMNIE：中文军事新闻信息抽取基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.10722",
+  "language": "en",
+  "summary": "CMNIE是面向中文军事新闻的信息抽取基准，统一标注事件触发词、事件论元、命名实体和实体关系，包含13,000条实例，覆盖7种事件类型、10种论元角色、7种实体类型和8种关系类型。实验表明该基准仍具挑战性，尤其在关系抽取和事件论元跨度精确匹配方面，零样本LLM常能识别语义单元但无法精确匹配金标跨度。",
+  "summary_en": "CMNIE is an information extraction benchmark for Chinese military news that jointly annotates event triggers, event arguments, named entities, and entity relations under a unified schema. It contains 13,000 instances with 7 event types, 10 argument roles, 7 entity types, and 8 relation types. Experiments show CMNIE remains challenging, especially for relation extraction and exact span matching, where zero-shot LLMs often identify relevant semantics but fail to match gold span boundaries.",
+  "tags": [
+    "benchmark",
+    "research",
+    "llm",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-09-11T20:36:06.654640+08:00",
+  "updated_at": "2026-09-11T20:36:06.654641+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

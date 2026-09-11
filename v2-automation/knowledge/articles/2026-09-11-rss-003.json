@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-11-rss-003",
+  "title": "OpenDiscoveryTrace：评估AI科学家工作流的流程轨迹数据集",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.09203",
+  "language": "en",
+  "summary": "该论文提出OpenDiscoveryTrace，一个包含558条完整AI科学智能体轨迹的公开数据集，记录模型推理过程而非仅最终输出。轨迹涵盖9字段每步结构化记录（思维、工具调用、观察、错误、修正触发、置信度），覆盖124个科学任务和7个模型。初步分析发现流程轨迹能揭示输出评估无法察觉的行为差异，如Claude Opus 4.6错误数是GPT-5.4的30倍。",
+  "summary_en": "This paper presents OpenDiscoveryTrace, a public dataset of 558 complete AI scientific agent trajectories that capture reasoning processes rather than just final outputs. Each trajectory records a structured 9-field-per-step trace (thoughts, tool calls, observations, errors, revision triggers, confidence) across 124 scientific tasks and seven models. Pilot analysis reveals process traces expose behavioral differences invisible to output-only evaluation, such as Claude Opus 4.6 producing 30x more errors than GPT-5.4.",
+  "tags": [
+    "agent-framework",
+    "benchmark",
+    "evaluation",
+    "research",
+    "llm"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-11T20:36:06.654619+08:00",
+  "updated_at": "2026-09-11T20:36:06.654621+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

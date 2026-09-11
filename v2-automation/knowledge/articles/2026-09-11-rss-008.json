@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-11-rss-008",
+  "title": "面向北极生态导航的自主GeoAI智能体系统",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.09374",
+  "language": "en",
+  "summary": "提出一种人在回路的多智能体GeoAI系统，用于北极生态导航。系统整合运营、物理、生态与社区多准则，通过多个专用智能体协同完成地理空间数据获取、多目标路径生成与天际线决策支持，显式考虑敏感生态区域与社区影响，在保留人类价值判断的前提下支持更安全、透明且负责任的北极航线规划。",
+  "summary_en": "We introduce a human-in-the-loop, multi-agent GeoAI system for Arctic eco-navigation that integrates operational, physical, ecological, and community-related criteria within a unified routing framework. Multiple specialized agents coordinate geospatial data acquisition and preparation, multi-objective route generation, and skyline-based decision support. Ecological criteria explicitly account for exposure to sensitive areas such as Essential Fish Habitat and seal critical habitat, supporting safer, more transparent, and socially responsible Arctic navigation.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "application",
+    "multimodal",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-09-11T20:36:06.654637+08:00",
+  "updated_at": "2026-09-11T20:36:06.654638+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

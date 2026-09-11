@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-11-rss-002",
+  "title": "NCP-ArchPreview：通过下一概念预测迈向潜在空间语言模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.10715",
+  "language": "en",
+  "summary": "提出NCP-ArchPreview潜在空间语言模型，在标准下一词预测之外引入下一概念预测（NCP），通过乘积量化构建概念词汇表并预测跨多词的概念。模型扩展至89亿参数，仅用51.3%训练token即达到OLMo-3-7B的预训练损失，下游宏平均提升2.45分，GSM8K提升5.99分。",
+  "summary_en": "Introduces NCP-ArchPreview, a latent-space language model that augments next-token prediction with Next Concept Prediction (NCP), predicting discrete multi-token concepts via a product-quantized concept vocabulary. Scaled to 8.9B parameters, it matches OLMo-3-7B's pretraining loss using only 51.3% of tokens and outperforms it by 2.45 points downstream, including +5.99 on GSM8K.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "llm",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-11T20:36:06.654615+08:00",
+  "updated_at": "2026-09-11T20:36:06.654617+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
