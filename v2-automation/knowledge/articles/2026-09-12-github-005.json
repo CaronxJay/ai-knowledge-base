@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-12-github-005",
+  "title": "AI学习之旅：机器学习到AI智能体实践项目集",
+  "source": "github_trending",
+  "source_url": "https://github.com/its-aastha/AI-Learning-Journey",
+  "language": "en",
+  "summary": "该GitHub仓库记录了作者的人工智能学习历程，涵盖机器学习、深度学习、大语言模型、向量嵌入、RAG和AI智能体，并包含使用Python的实践项目。",
+  "summary_en": "A GitHub repository documenting the author's AI learning journey, covering Machine Learning, Deep Learning, LLMs, Vector Embeddings, RAG, and AI Agents, with hands-on Python projects.",
+  "tags": [
+    "llm",
+    "rag",
+    "agent-framework",
+    "python",
+    "application"
+  ],
+  "category": "application",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-09-12T19:57:32.907988+08:00",
+  "updated_at": "2026-09-12T19:57:32.907989+08:00",
+  "metadata": {
+    "stars": 1,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

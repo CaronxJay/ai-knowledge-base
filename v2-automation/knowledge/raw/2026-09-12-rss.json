@@ -1,0 +1,244 @@
+{
+  "collected_at": "2026-09-12T19:57:32.910543+08:00",
+  "source": "rss",
+  "count": 5,
+  "items": [
+    {
+      "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
+      "url": "https://arxiv.org/abs/2609.10584",
+      "description": "arXiv:2609.10584v1 Announce Type: new \nAbstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing search effort. Focal Search (FS) uses heuristic guidance within FOCAL, the frontier nodes eligible under the threshold $w f_{\\min}$, but its deterministic policy may leave $f_{\\min}$ unchanged for many expansions. We introduce Probabilistic Focal Search (PFS), which follows the FS guided choice with probability $p$ and expands a minimum-$f$ OPEN node with probability $1-p$. The latter branch encourages the lower bound to advance, enlarging FOCAL and admitting nodes that may lead to feasible solutions. By balancing guidance and lower-bound advancement, this mechanism can reduce time to a bounded solution when progress is limited by delayed FOCAL admission. As a secondary transfer experiment, we apply the same scheduler to Dynamic Potential Search, yielding Probabilistic Dynamic Potential Search (PDPS). We benchmark PFS against FS on N-Puzzle, Pancake Sorting, and the Traveling Salesperson Problem (TSP), and evaluate its anytime extension on the Generalized Covering TSP (GCTSP), using multiple $w$ and $p$ values. Across these benchmarks, the largest gains occur when long $f_{\\min}$ plateaus delay useful FOCAL admissions; in such settings, the probabilistic factor may reduce node expansions by about 90\\% or more (e.g., on N-Puzzle and TSP). For the anytime algorithm family, Anytime Probabilistic Focal Search (APFS) outperforms all tested algorithms in evaluating anytime methods on GCTSP. We also observe that the benefit is smaller when the deterministic search already advances efficiently (e.g., Pancake Sorting), indicating that the probabilistic factor is most useful when FOCAL admission is a search bottleneck. The PDPS transfer shows that the mechanism also transfers to potential guidance, although its common-success effects remain domain- and bound-dependent.",
+      "pub_date": "Sat, 12 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "概率焦点搜索：通过下界推进加速有界次优搜索",
+        "summary": "提出概率焦点搜索（PFS），以概率p遵循焦点搜索的启发式引导，以概率1-p扩展最小f节点以推进下界、扩大FOCAL集合。在N-Puzzle、煎饼排序和TSP上，当f_min长期停滞时可减少约90%以上节点扩展；其任意时间扩展APFS在GCTSP上表现最佳。",
+        "summary_en": "Introduces Probabilistic Focal Search (PFS), which follows Focal Search's guided choice with probability p and expands a minimum-f node with probability 1-p to advance the lower bound and enlarge FOCAL. On N-Puzzle, Pancake Sorting, and TSP, it can cut node expansions by ~90%+ when f_min plateaus delay useful FOCAL admissions; its anytime extension APFS outperforms all tested algorithms on GCTSP.",
+        "tags": [
+          "research",
+          "benchmark",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.35,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-12-rss-005",
+        "title": "概率焦点搜索：通过下界推进加速有界次优搜索",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.10584",
+        "language": "en",
+        "summary": "提出概率焦点搜索（PFS），以概率p遵循焦点搜索的启发式引导，以概率1-p扩展最小f节点以推进下界、扩大FOCAL集合。在N-Puzzle、煎饼排序和TSP上，当f_min长期停滞时可减少约90%以上节点扩展；其任意时间扩展APFS在GCTSP上表现最佳。",
+        "summary_en": "Introduces Probabilistic Focal Search (PFS), which follows Focal Search's guided choice with probability p and expands a minimum-f node with probability 1-p to advance the lower bound and enlarge FOCAL. On N-Puzzle, Pancake Sorting, and TSP, it can cut node expansions by ~90%+ when f_min plateaus delay useful FOCAL admissions; its anytime extension APFS outperforms all tested algorithms on GCTSP.",
+        "tags": [
+          "research",
+          "benchmark",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.35,
+        "status": "published",
+        "created_at": "2026-09-12T19:57:32.909652+08:00",
+        "updated_at": "2026-09-12T19:57:32.909653+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language",
+      "url": "https://arxiv.org/abs/2609.10629",
+      "description": "arXiv:2609.10629v1 Announce Type: new \nAbstract: Quadratic Unconstrained Binary Optimization (QUBO) is a central formulation for combinatorial optimization and has gained increasing attention due to its compatibility with quantum, hybrid quantum-classical, and quantum-inspired solvers. However, translating natural-language problem descriptions into correct QUBO formulations remains difficult, requiring the identification of binary variables, constraints, objective functions, penalty terms, and suitable penalty weights. This process is time-consuming and often demands substantial domain expertise. To address this challenge, we propose an end-to-end multi-agent framework that automatically generates QUBO formulations from natural-language problem descriptions, supported by structured or unstructured test cases. To evaluate its performance, We also introduce QUBOBench, a benchmark containing 100 combinatorial optimization problems across 12 application domains, curated from peer-reviewed literature, competitions, and canonical NP-hard problems. Experimental results show that our framework achieves 68% accuracy on QUBOBench, outperforming a direct single-call baseline by 22%. Further analysis identifies iterative self-repair as the most important component contributing to improved performance. The data and code are open-sourced at https://quitttcat.github.io/QuantumQUBOAgent.",
+      "pub_date": "Sat, 12 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从自然语言自动生成QUBO公式的多智能体框架",
+        "summary": "提出端到端多智能体框架，将自然语言问题描述自动转化为QUBO公式，并发布包含12个领域100个组合优化问题的QUBOBench基准。框架在基准上达到68%准确率，比单次调用基线高22%，其中迭代自修复是性能提升的关键。",
+        "summary_en": "Proposes an end-to-end multi-agent framework that automatically generates QUBO formulations from natural-language problem descriptions, along with QUBOBench, a benchmark of 100 combinatorial optimization problems across 12 domains. The framework achieves 68% accuracy, outperforming a single-call baseline by 22%, with iterative self-repair as the key contributor.",
+        "tags": [
+          "agent-framework",
+          "benchmark",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-12-rss-001",
+        "title": "从自然语言自动生成QUBO公式的多智能体框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.10629",
+        "language": "en",
+        "summary": "提出端到端多智能体框架，将自然语言问题描述自动转化为QUBO公式，并发布包含12个领域100个组合优化问题的QUBOBench基准。框架在基准上达到68%准确率，比单次调用基线高22%，其中迭代自修复是性能提升的关键。",
+        "summary_en": "Proposes an end-to-end multi-agent framework that automatically generates QUBO formulations from natural-language problem descriptions, along with QUBOBench, a benchmark of 100 combinatorial optimization problems across 12 domains. The framework achieves 68% accuracy, outperforming a single-call baseline by 22%, with iterative self-repair as the key contributor.",
+        "tags": [
+          "agent-framework",
+          "benchmark",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-09-12T19:57:32.909631+08:00",
+        "updated_at": "2026-09-12T19:57:32.909635+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A Multi-Stage Rule-Chaining Framework for Compositional and Interpretable Cognitive Reasoning",
+      "url": "https://arxiv.org/abs/2609.10654",
+      "description": "arXiv:2609.10654v1 Announce Type: new \nAbstract: The Abstraction and Reasoning Corpus (ARC) benchmarks cognitive generalization, the ability to infer and apply abstract rules from limited examples. This paper presents a multi-stage rule-chaining framework that performs compositional reasoning across symbolic, structural, and conceptual levels. The framework integrates three complementary solvers:\n  (1) a deterministic rule discovery module that induces atomic transformations through geometric, color, and object-based analysis;\n  (2) a pattern-composition engine that reconstructs outputs via block merging, repetition, and spatial heuristics; and\n  (3) a structural abstraction layer that infers hierarchical and nested relationships across grids.\n  These solvers operate sequentially within a progressive fallback hierarchy, where each stage reuses prior reasoning traces to enhance interpretability and generalization. Training passed for 995 tasks out of 1000, further evaluated on 105 tasks out of 120 and solved 230 test tasks out of 240 ARC-AGI-2 tasks. The system achieved strong coverage across deterministic, compositional, and abstract categories, demonstrating an overall accuracy exceeding 95 percent. The proposed architecture bridges symbolic reasoning and pattern synthesis, providing interpretable insight into cognitive generalization. The results suggest that rule chaining and hierarchical composition can advance machine reasoning toward transparent, human-aligned abstraction without relying on task-specific tuning.",
+      "pub_date": "Sat, 12 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多阶段规则链框架实现组合式可解释认知推理",
+        "summary": "提出多阶段规则链框架，融合确定性规则发现、模式组合引擎与结构抽象层，在ARC-AGI-2任务上准确率超95%，实现可解释的认知泛化推理。",
+        "summary_en": "A multi-stage rule-chaining framework integrating deterministic rule discovery, pattern composition, and structural abstraction achieves over 95% accuracy on ARC-AGI-2, enabling interpretable cognitive generalization.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-12-rss-003",
+        "title": "多阶段规则链框架实现组合式可解释认知推理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.10654",
+        "language": "en",
+        "summary": "提出多阶段规则链框架，融合确定性规则发现、模式组合引擎与结构抽象层，在ARC-AGI-2任务上准确率超95%，实现可解释的认知泛化推理。",
+        "summary_en": "A multi-stage rule-chaining framework integrating deterministic rule discovery, pattern composition, and structural abstraction achieves over 95% accuracy on ARC-AGI-2, enabling interpretable cognitive generalization.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-09-12T19:57:32.909644+08:00",
+        "updated_at": "2026-09-12T19:57:32.909645+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Understanding LoRA Rank Trade-offs in Diffusion Model Fine-Tuning",
+      "url": "https://arxiv.org/abs/2609.10656",
+      "description": "arXiv:2609.10656v1 Announce Type: new \nAbstract: Selecting LoRA rank for diffusion fine-tuning requires balancing quality and compute cost. We present a controlled study on CIFAR-10 using a DDPM U-Net with ranks {2,4,8,16,32}, fixed optimization settings, and a reproducible local-folder pytorch-fid protocol. We report FID, trainable parameters, runtime, and GPU memory, then validate trends with extended-budget DDPM runs (20 epochs; ranks 4/8/16) and a Tiny DiT backbone (10 epochs; ranks 4/8/16). Results show moderate ranks are most efficient: rank 4 achieves the best DDPM FID (124.1380), rank 8 is close (124.2136), and higher ranks provide limited gains despite larger adaptation cost. These findings support small-to-moderate ranks as practical defaults under fixed training budgets.",
+      "pub_date": "Sat, 12 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "扩散模型微调中LoRA秩的权衡研究",
+        "summary": "该研究在CIFAR-10上系统比较了DDPM U-Net不同LoRA秩（2至32）的效果，发现中等秩最有效率：秩4取得最佳FID（124.1380），秩8接近，更高秩收益有限但成本更高，支持小到中等秩作为固定训练预算下的实用默认值。",
+        "summary_en": "This study systematically compares LoRA ranks (2-32) for DDPM U-Net fine-tuning on CIFAR-10, finding moderate ranks most efficient: rank 4 achieves the best FID (124.1380), rank 8 is close, and higher ranks yield limited gains at greater cost, supporting small-to-moderate ranks as practical defaults under fixed training budgets.",
+        "tags": [
+          "fine-tuning",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-12-rss-004",
+        "title": "扩散模型微调中LoRA秩的权衡研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.10656",
+        "language": "en",
+        "summary": "该研究在CIFAR-10上系统比较了DDPM U-Net不同LoRA秩（2至32）的效果，发现中等秩最有效率：秩4取得最佳FID（124.1380），秩8接近，更高秩收益有限但成本更高，支持小到中等秩作为固定训练预算下的实用默认值。",
+        "summary_en": "This study systematically compares LoRA ranks (2-32) for DDPM U-Net fine-tuning on CIFAR-10, finding moderate ranks most efficient: rank 4 achieves the best FID (124.1380), rank 8 is close, and higher ranks yield limited gains at greater cost, supporting small-to-moderate ranks as practical defaults under fixed training budgets.",
+        "tags": [
+          "fine-tuning",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-09-12T19:57:32.909648+08:00",
+        "updated_at": "2026-09-12T19:57:32.909649+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Quantifying the Memorization-to-Generalization Transition: Scaling Laws and Phase Structure in Grokking",
+      "url": "https://arxiv.org/abs/2609.10657",
+      "description": "arXiv:2609.10657v1 Announce Type: new \nAbstract: Neural networks trained past memorization frequently undergo a delayed transition to generalization, a phenomenon known as grokking. Despite theoretical progress on \\emph{why} this transition occurs, the quantitative structure of \\emph{when} it occurs in hyperparameter space remains uncharacterized. We map the memorization-to-generalization boundary across 384 configurations of two-hidden-layer MLPs on modular arithmetic, fitting a power-law scaling relation for generalization onset time: $T_{\\mathrm{grok}} \\propto H^{-0.27}\\, D^{-2.04}\\, \\eta^{-0.50}\\, \\lambda^{-0.64}$ ($R^2 = 0.732$; $0.821$ with interactions). The exponent hierarchy reveals that data complexity ($D^{-2.04}$) is the dominant driver of regime transition, not model capacity ($H^{-0.27}$): doubling data accelerates generalization by ${\\sim}4\\times$, while doubling width yields only ${\\sim}1.2\\times$. A sharp phase boundary at weight decay $\\lambda \\gtrsim 1.0$ separates grokking from non-grokking configurations, and weight norm trajectories show monotonic compression during the transition, consistent with implicit regularization selecting low-complexity solutions. These results provide a quantitative foundation for predicting and controlling regime transitions in overparameterized networks.",
+      "pub_date": "Sat, 12 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "量化记忆到泛化的转变：Grokking 的缩放定律与相结构",
+        "summary": "该研究通过 384 组 MLP 配置绘制了模运算任务中记忆到泛化的边界，拟合出泛化起始时间的幂律缩放关系，发现数据复杂度是主导因素而非模型容量，并揭示了权重衰减的相变边界。",
+        "summary_en": "This study maps the memorization-to-generalization boundary across 384 MLP configurations on modular arithmetic, fitting a power-law scaling relation for generalization onset time. It finds data complexity dominates over model capacity and reveals a sharp phase boundary at weight decay.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-12-rss-002",
+        "title": "量化记忆到泛化的转变：Grokking 的缩放定律与相结构",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.10657",
+        "language": "en",
+        "summary": "该研究通过 384 组 MLP 配置绘制了模运算任务中记忆到泛化的边界，拟合出泛化起始时间的幂律缩放关系，发现数据复杂度是主导因素而非模型容量，并揭示了权重衰减的相变边界。",
+        "summary_en": "This study maps the memorization-to-generalization boundary across 384 MLP configurations on modular arithmetic, fitting a power-law scaling relation for generalization onset time. It finds data complexity dominates over model capacity and reveals a sharp phase boundary at weight decay.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-09-12T19:57:32.909639+08:00",
+        "updated_at": "2026-09-12T19:57:32.909640+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

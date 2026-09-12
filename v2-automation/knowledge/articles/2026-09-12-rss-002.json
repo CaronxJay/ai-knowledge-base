@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-12-rss-002",
+  "title": "量化记忆到泛化的转变：Grokking 的缩放定律与相结构",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.10657",
+  "language": "en",
+  "summary": "该研究通过 384 组 MLP 配置绘制了模运算任务中记忆到泛化的边界，拟合出泛化起始时间的幂律缩放关系，发现数据复杂度是主导因素而非模型容量，并揭示了权重衰减的相变边界。",
+  "summary_en": "This study maps the memorization-to-generalization boundary across 384 MLP configurations on modular arithmetic, fitting a power-law scaling relation for generalization onset time. It finds data complexity dominates over model capacity and reveals a sharp phase boundary at weight decay.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-09-12T19:57:32.909639+08:00",
+  "updated_at": "2026-09-12T19:57:32.909640+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

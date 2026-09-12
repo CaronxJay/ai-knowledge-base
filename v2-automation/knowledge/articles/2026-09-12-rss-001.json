@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-12-rss-001",
+  "title": "从自然语言自动生成QUBO公式的多智能体框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.10629",
+  "language": "en",
+  "summary": "提出端到端多智能体框架，将自然语言问题描述自动转化为QUBO公式，并发布包含12个领域100个组合优化问题的QUBOBench基准。框架在基准上达到68%准确率，比单次调用基线高22%，其中迭代自修复是性能提升的关键。",
+  "summary_en": "Proposes an end-to-end multi-agent framework that automatically generates QUBO formulations from natural-language problem descriptions, along with QUBOBench, a benchmark of 100 combinatorial optimization problems across 12 domains. The framework achieves 68% accuracy, outperforming a single-call baseline by 22%, with iterative self-repair as the key contributor.",
+  "tags": [
+    "agent-framework",
+    "benchmark",
+    "research",
+    "llm",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-09-12T19:57:32.909631+08:00",
+  "updated_at": "2026-09-12T19:57:32.909635+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

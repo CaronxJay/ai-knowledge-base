@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-12-rss-005",
+  "title": "概率焦点搜索：通过下界推进加速有界次优搜索",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.10584",
+  "language": "en",
+  "summary": "提出概率焦点搜索（PFS），以概率p遵循焦点搜索的启发式引导，以概率1-p扩展最小f节点以推进下界、扩大FOCAL集合。在N-Puzzle、煎饼排序和TSP上，当f_min长期停滞时可减少约90%以上节点扩展；其任意时间扩展APFS在GCTSP上表现最佳。",
+  "summary_en": "Introduces Probabilistic Focal Search (PFS), which follows Focal Search's guided choice with probability p and expands a minimum-f node with probability 1-p to advance the lower bound and enlarge FOCAL. On N-Puzzle, Pancake Sorting, and TSP, it can cut node expansions by ~90%+ when f_min plateaus delay useful FOCAL admissions; its anytime extension APFS outperforms all tested algorithms on GCTSP.",
+  "tags": [
+    "research",
+    "benchmark",
+    "evaluation",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.35,
+  "status": "published",
+  "created_at": "2026-09-12T19:57:32.909652+08:00",
+  "updated_at": "2026-09-12T19:57:32.909653+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
