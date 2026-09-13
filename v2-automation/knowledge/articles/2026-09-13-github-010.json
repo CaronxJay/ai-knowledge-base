@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-13-github-010",
+  "title": "Udityamerit 个人技术主页：机器学习与 LLM 方向",
+  "source": "github_trending",
+  "source_url": "https://github.com/udityamerit/Udityamerit",
+  "language": "en",
+  "summary": "这是开发者 Udityamerit 的 GitHub 个人主页，介绍其在机器学习、深度学习、NLP、生成式 AI、RAG、大语言模型、语义搜索和 AI Agent 方面的技术专长与项目经历。",
+  "summary_en": "This is the GitHub profile of developer Udityamerit, showcasing expertise in Machine Learning, Deep Learning, NLP, Generative AI, RAG, LLMs, Semantic Search, and AI Agents.",
+  "tags": [
+    "llm",
+    "rag",
+    "agent-framework",
+    "application"
+  ],
+  "category": "application",
+  "relevance_score": 0.5,
+  "status": "published",
+  "created_at": "2026-09-13T21:05:51.399953+08:00",
+  "updated_at": "2026-09-13T21:05:51.399955+08:00",
+  "metadata": {
+    "stars": 5,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
