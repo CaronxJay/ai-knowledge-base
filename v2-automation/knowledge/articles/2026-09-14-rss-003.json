@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-14-rss-003",
+  "title": "基于弱监督与LLM标签精炼的被迫流离失所与FCV文档数据集提及抽取框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.12107",
+  "language": "en",
+  "summary": "提出弱监督框架，利用轻量模型从无标注领域文档中生成候选数据集提及，再由前沿LLM在上下文中审核、修正边界，并结合合成与对比样本微调模型。在1706段基准上达到74.1%精确率、70.5%召回率，含引用段落精确率达89.5%。",
+  "summary_en": "A weakly supervised framework adapts dataset extraction to forced displacement and FCV documents without large manual labels. A lightweight model generates candidate mentions from unlabeled domain text, which a frontier LLM reviews and corrects, with synthetic and contrastive examples used for fine-tuning. On a 1,706-passage benchmark it achieves 74.1% precision and 70.5% recall at mention level, and 89.5% precision among passages containing dataset references.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "fine-tuning",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-09-14T22:42:56.267082+08:00",
+  "updated_at": "2026-09-14T22:42:56.267083+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

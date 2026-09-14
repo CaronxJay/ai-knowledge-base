@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-14-rss-001",
+  "title": "R2VC：模块化事实核查的检索、验证与置信度校准架构",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.11955",
+  "language": "en",
+  "summary": "R2VC提出模块化事实核查架构，将检索、推理、验证与置信度校准解耦，结合混合稀疏+稠密检索、DPO对齐生成器、NLI交叉编码器筛选与序列级校准器。在FEVER上8B模型准确率提升13.74%，消融显示候选筛选与校准贡献最大，检索失败仍是主要瓶颈。",
+  "summary_en": "R2VC presents a modular retrieve, reason, verify, calibrate architecture for evidence-grounded fact checking, combining hybrid sparse+dense retrieval over Wikipedia, a DPO-aligned generator, an NLI cross-encoder for candidate selection, and a sequence-level confidence calibrator with abstention. On FEVER, an 8B backbone achieves 13.74% higher accuracy than baseline; ablations show verifier-based selection and calibration are the largest contributors, while retrieval failures remain the dominant bottleneck.",
+  "tags": [
+    "llm",
+    "rag",
+    "research",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-14T22:42:56.267068+08:00",
+  "updated_at": "2026-09-14T22:42:56.267072+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-14-rss-002",
+  "title": "压缩的代价：事实幻觉的率失真极限",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.12111",
+  "language": "en",
+  "summary": "论文提出覆盖-压缩模型，用信息论证明有限记忆下已观测事实的有损存储是幻觉的独立来源，给出率失真下界，区分压缩失真与覆盖缺失，并用模拟和事实注入实验验证。",
+  "summary_en": "The paper introduces a coverage-compression model of factual recall, proving an information-theoretic lower bound that separates lossy compression of observed facts from missing coverage, and validates the predicted signatures with simulations and fact-injection probes in modern language models.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-14T22:42:56.267077+08:00",
+  "updated_at": "2026-09-14T22:42:56.267078+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

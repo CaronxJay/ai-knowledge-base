@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-14-github-007",
+  "title": "完整人工智能训练课程仓库",
+  "source": "github_trending",
+  "source_url": "https://github.com/LipeLacross/Complete-Artificial-Intelligence-Trainin",
+  "language": "en",
+  "summary": "Fernando Amaral教授的完整人工智能训练课程仓库，涵盖机器学习、深度学习、大语言模型、生成式AI、NLP、智能体、计算机视觉、异常检测、遗传算法与模糊逻辑，包含Python理论与实践项目。",
+  "summary_en": "Repository for the Complete Artificial Intelligence Training by Prof. Fernando Amaral, covering Machine Learning, Deep Learning, LLMs, Generative AI, NLP, Agents, Computer Vision, Anomaly Detection, Genetic Algorithms, and Fuzzy Logic, with Python theory and hands-on projects.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "research",
+    "python",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-09-14T22:42:56.265367+08:00",
+  "updated_at": "2026-09-14T22:42:56.265368+08:00",
+  "metadata": {
+    "stars": 2,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

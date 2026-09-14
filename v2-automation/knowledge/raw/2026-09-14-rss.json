@@ -1,0 +1,248 @@
+{
+  "collected_at": "2026-09-14T22:42:56.267903+08:00",
+  "source": "rss",
+  "count": 5,
+  "items": [
+    {
+      "title": "R2VC: Modular Fact-Checking with Retrieval, Verification, and Confidence Calibration",
+      "url": "https://arxiv.org/abs/2609.11955",
+      "description": "arXiv:2609.11955v1 Announce Type: new \nAbstract: Large language models are increasingly used for automated fact checking, but end-to-end prompting often entangles evidence retrieval, reasoning, and uncertainty estimation, making failures difficult to diagnose and confidence difficult to trust. We present R2VC, a modular retrieve, reason, verify, calibrate architecture for evidence-grounded fact checking with citations and abstention. R2VC combines hybrid sparse+dense retrieval over Wikipedia, a supervised fine-tuned and DPO-aligned generator that produces diverse structured verdict candidates, an external NLI cross-encoder for evidence-based candidate selection, and a lightweight sequence-level calibrator for confidence estimation and selective abstention. On FEVER, an 8B backbone with R2VC achieves 13.74% higher accuracy than baseline. Ablation studies show that verifier-based candidate selection and confidence calibration are the largest contributors to performance. Removing candidate selection drops FEVER accuracy to 76.24%, while removing calibration nearly doubles the Brier score to 0.161. A manual analysis of 250 errors further shows that retrieval failures, especially wrong-entity evidence, remain the dominant bottleneck. Together, these results show that modular fact-checking pipelines can substantially improve both predictive accuracy and confidence reliability in open-domain verification.",
+      "pub_date": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "R2VC：模块化事实核查的检索、验证与置信度校准架构",
+        "summary": "R2VC提出模块化事实核查架构，将检索、推理、验证与置信度校准解耦，结合混合稀疏+稠密检索、DPO对齐生成器、NLI交叉编码器筛选与序列级校准器。在FEVER上8B模型准确率提升13.74%，消融显示候选筛选与校准贡献最大，检索失败仍是主要瓶颈。",
+        "summary_en": "R2VC presents a modular retrieve, reason, verify, calibrate architecture for evidence-grounded fact checking, combining hybrid sparse+dense retrieval over Wikipedia, a DPO-aligned generator, an NLI cross-encoder for candidate selection, and a sequence-level confidence calibrator with abstention. On FEVER, an 8B backbone achieves 13.74% higher accuracy than baseline; ablations show verifier-based selection and calibration are the largest contributors, while retrieval failures remain the dominant bottleneck.",
+        "tags": [
+          "llm",
+          "rag",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-14-rss-001",
+        "title": "R2VC：模块化事实核查的检索、验证与置信度校准架构",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.11955",
+        "language": "en",
+        "summary": "R2VC提出模块化事实核查架构，将检索、推理、验证与置信度校准解耦，结合混合稀疏+稠密检索、DPO对齐生成器、NLI交叉编码器筛选与序列级校准器。在FEVER上8B模型准确率提升13.74%，消融显示候选筛选与校准贡献最大，检索失败仍是主要瓶颈。",
+        "summary_en": "R2VC presents a modular retrieve, reason, verify, calibrate architecture for evidence-grounded fact checking, combining hybrid sparse+dense retrieval over Wikipedia, a DPO-aligned generator, an NLI cross-encoder for candidate selection, and a sequence-level confidence calibrator with abstention. On FEVER, an 8B backbone achieves 13.74% higher accuracy than baseline; ablations show verifier-based selection and calibration are the largest contributors, while retrieval failures remain the dominant bottleneck.",
+        "tags": [
+          "llm",
+          "rag",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-14T22:42:56.267068+08:00",
+        "updated_at": "2026-09-14T22:42:56.267072+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "What Counts as a Mistake? Annotating Recitation Events in Quran Memorization Transcripts",
+      "url": "https://arxiv.org/abs/2609.12085",
+      "description": "arXiv:2609.12085v1 Announce Type: new \nAbstract: Checking Quran recitation from an ASR transcript requires distinguishing unresolved mistakes from repetitions, repairs, opening formulas and accepted spelling differences. We report a completed human annotation of 100 production recording cases: 348 scored units and 162 localized events across ten combined labels. An executable evaluator scores labels and word positions together. A plain diff reaches label-aware F1 0.525 and localization F1 0.826; adapted production cleaner/alignment components reach 0.518 and 0.786, with exact-span F1 0.505 for both. Correcting the adapter's word coordinates recovers all five annotated repetition events, showing why annotation interfaces must be checked before interpreting baseline failures. In a preliminary pilot, eight single 20-minute runs across three coding agents and eight models span label-aware F1 0.143 to 0.892: seven land far above every baseline, and one collapses below the naive diff from a missing normalization step. Across the six, 970 of 972 gold-event instances draw an overlapping prediction, so what remains is not detection but convention: span extent, and the labels whose boundary is stipulated by adjudication rather than visible in the text. Seven of 162 events defeat all six same-day runs, five of them one orthographic rule, and the strongest run still misses the same ones. No run annotated before building, so the pilot measures the algorithm half of the task only.",
+      "pub_date": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "古兰经背诵转录中的错误标注研究",
+        "summary": "该研究对100个古兰经背诵录音案例进行人工标注，包含348个评分单元和162个事件，提出可执行评估器同时评估标签与词位置。基线F1约0.5，而三个编码代理的初步测试F1跨度0.143至0.892，多数远超基线，剩余挑战主要在于标注约定而非检测。",
+        "summary_en": "This study presents a completed human annotation of 100 Quran recitation cases with 348 scored units and 162 localized events, plus an executable evaluator scoring labels and word positions together. Baselines reach ~0.5 F1, while a pilot with three coding agents spans 0.143 to 0.892 F1, mostly far above baselines, with remaining challenges being annotation conventions rather than detection.",
+        "tags": [
+          "evaluation",
+          "benchmark",
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-14-rss-004",
+        "title": "古兰经背诵转录中的错误标注研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.12085",
+        "language": "en",
+        "summary": "该研究对100个古兰经背诵录音案例进行人工标注，包含348个评分单元和162个事件，提出可执行评估器同时评估标签与词位置。基线F1约0.5，而三个编码代理的初步测试F1跨度0.143至0.892，多数远超基线，剩余挑战主要在于标注约定而非检测。",
+        "summary_en": "This study presents a completed human annotation of 100 Quran recitation cases with 348 scored units and 162 localized events, plus an executable evaluator scoring labels and word positions together. Baselines reach ~0.5 F1, while a pilot with three coding agents spans 0.143 to 0.892 F1, mostly far above baselines, with remaining challenges being annotation conventions rather than detection.",
+        "tags": [
+          "evaluation",
+          "benchmark",
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-09-14T22:42:56.267086+08:00",
+        "updated_at": "2026-09-14T22:42:56.267087+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Extracting Dataset Mentions in Forced Displacement and FCV Documents: A Weakly Supervised Framework with LLM-Based Label Refinement",
+      "url": "https://arxiv.org/abs/2609.12107",
+      "description": "arXiv:2609.12107v1 Announce Type: new \nAbstract: Development and humanitarian organizations produce and support surveys, administrative registries, and other data resources to inform research, policy, and operations, yet systematically identifying where these datasets are referenced remains difficult. Such references are dispersed across research papers, project documents, humanitarian reports, and other unstructured text, limiting both the ability to trace data use and to identify potential gaps in data availability or dissemination. We present a weakly supervised framework for adapting dataset extraction to forced displacement and Fragile, Conflict, and Violence (FCV) documents without first constructing a large manually labeled training corpus. A lightweight model trained on general research literature generates candidate dataset mentions from unlabeled domain documents, which a frontier large language model (LLM) reviews in context, validating or rejecting candidates and correcting their extraction boundaries. The resulting annotations are supplemented with targeted synthetic and contrastive examples and used to fine-tune the lightweight model for large-scale extraction. We evaluate the resulting model on an independent gold-standard benchmark of 1,706 text passages spanning research, humanitarian, and operational documents. Across the full benchmark, the model achieves 74.1\\% precision and 70.5\\% recall at the mention level; among passages containing dataset references, precision reaches 89.5\\%. At the passage level, the model achieves 88.2\\% accuracy and 88.6\\% specificity in distinguishing passages with dataset references from those without them. These results demonstrate a practical approach for constructing domain-specific supervision when labeled data are limited, and provide a technical foundation for larger-scale analysis of data use and potential gaps in the displacement data landscape.",
+      "pub_date": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于弱监督与LLM标签精炼的被迫流离失所与FCV文档数据集提及抽取框架",
+        "summary": "提出弱监督框架，利用轻量模型从无标注领域文档中生成候选数据集提及，再由前沿LLM在上下文中审核、修正边界，并结合合成与对比样本微调模型。在1706段基准上达到74.1%精确率、70.5%召回率，含引用段落精确率达89.5%。",
+        "summary_en": "A weakly supervised framework adapts dataset extraction to forced displacement and FCV documents without large manual labels. A lightweight model generates candidate mentions from unlabeled domain text, which a frontier LLM reviews and corrects, with synthetic and contrastive examples used for fine-tuning. On a 1,706-passage benchmark it achieves 74.1% precision and 70.5% recall at mention level, and 89.5% precision among passages containing dataset references.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-14-rss-003",
+        "title": "基于弱监督与LLM标签精炼的被迫流离失所与FCV文档数据集提及抽取框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.12107",
+        "language": "en",
+        "summary": "提出弱监督框架，利用轻量模型从无标注领域文档中生成候选数据集提及，再由前沿LLM在上下文中审核、修正边界，并结合合成与对比样本微调模型。在1706段基准上达到74.1%精确率、70.5%召回率，含引用段落精确率达89.5%。",
+        "summary_en": "A weakly supervised framework adapts dataset extraction to forced displacement and FCV documents without large manual labels. A lightweight model generates candidate mentions from unlabeled domain text, which a frontier LLM reviews and corrects, with synthetic and contrastive examples used for fine-tuning. On a 1,706-passage benchmark it achieves 74.1% precision and 70.5% recall at mention level, and 89.5% precision among passages containing dataset references.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-09-14T22:42:56.267082+08:00",
+        "updated_at": "2026-09-14T22:42:56.267083+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Cost of Compression: A Rate-Distortion Limit on Factual Hallucination",
+      "url": "https://arxiv.org/abs/2609.12111",
+      "description": "arXiv:2609.12111v1 Announce Type: new \nAbstract: Factual hallucination in closed-book question answering is often treated as a coverage problem: a model fails because the relevant fact is absent from its internal memory. This view misses a second source of error. Even when a fact has been observed, finite memory may force it to be stored only approximately. We study this effect through a simple coverage--compression model of factual recall. We consider an unstructured question-answering task with $N$ possible queries and $K$ possible answers. A learner observes $M$ training facts, compresses them into at most $B$ bits, and answers uniformly drawn test queries without retrieval. For a uniformly random ground-truth mapping, we prove $\\mathcal{E} \\geq \\frac{M}{N}\\delta^\\star\\!\\left(\\frac{B}{M}\\right) + \\left(1-\\frac{M}{N}\\right)\\left(1-\\frac{1}{K}\\right)$, where $\\delta^\\star(r)$ is the inverse rate-distortion function of a uniform $K$-ary source under zero-one loss. The two terms separate compression distortion on observed facts from missing coverage on unobserved facts. The bound gives a compact way to reason about selective memory, forced compression, structure, retrieval, abstention, and long-context organization. We study the predicted signatures with theory-implied simulations and controlled fact-injection probes in modern language models that vary fact load and effective trainable memory. The result is not a complete theory of hallucination, but an information-theoretic account of a separable failure mode: lossy recall of observed facts under finite memory.",
+      "pub_date": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "压缩的代价：事实幻觉的率失真极限",
+        "summary": "论文提出覆盖-压缩模型，用信息论证明有限记忆下已观测事实的有损存储是幻觉的独立来源，给出率失真下界，区分压缩失真与覆盖缺失，并用模拟和事实注入实验验证。",
+        "summary_en": "The paper introduces a coverage-compression model of factual recall, proving an information-theoretic lower bound that separates lossy compression of observed facts from missing coverage, and validates the predicted signatures with simulations and fact-injection probes in modern language models.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-14-rss-002",
+        "title": "压缩的代价：事实幻觉的率失真极限",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.12111",
+        "language": "en",
+        "summary": "论文提出覆盖-压缩模型，用信息论证明有限记忆下已观测事实的有损存储是幻觉的独立来源，给出率失真下界，区分压缩失真与覆盖缺失，并用模拟和事实注入实验验证。",
+        "summary_en": "The paper introduces a coverage-compression model of factual recall, proving an information-theoretic lower bound that separates lossy compression of observed facts from missing coverage, and validates the predicted signatures with simulations and fact-injection probes in modern language models.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-14T22:42:56.267077+08:00",
+        "updated_at": "2026-09-14T22:42:56.267078+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Quantifying Consonant Contributions to Word Intelligibility via Acoustic Masking",
+      "url": "https://arxiv.org/abs/2609.12122",
+      "description": "arXiv:2609.12122v1 Announce Type: new \nAbstract: Consonants contribute unequally to whether a word is understood. Given the limited time available for therapy, ranking consonants by contribution to intelligibility helps prioritize intervention targets in motor speech disorders. However, measuring this contribution relies on perceptual studies that are difficult to scale. This paper presents a scalable method that measures consonant contribution using acoustic masking. We silence one consonant at a time in an isolated word and test whether an automatic speech recognition (ASR) model still recognizes the word. We define a consonant's contribution score as the proportion of its masked instances for which the word becomes misrecognized, which we refer to as the mask-induced misrecognition rate (MMR). We validate MMR against two linguistic factors previously reported to correlate with consonant contribution, namely phoneme frequency and functional load. We apply this analysis across four languages, English, Spanish, German, and Czech, using three ASR architectures, MMS (encoder-only), Whisper (encoder-decoder), and Qwen3-ASR (LLM-based). Using partial Spearman correlations, we find that phoneme frequency correlates negatively with MMR while functional load correlates positively. In other words, more frequent consonants are less disruptive when masked, whereas consonants carrying more lexical contrast are more disruptive. Further cross-language analysis shows that consonant rankings are not consistent, indicating that consonant contribution is language-dependent.",
+      "pub_date": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通过声学掩蔽量化辅音对词可理解性的贡献",
+        "summary": "本文提出一种可扩展方法，通过逐个静音单词中的辅音并测试ASR模型是否仍能识别该词，定义掩蔽诱导误识率（MMR）来量化辅音贡献。在英、西、德、捷四种语言及MMS、Whisper、Qwen3-ASR三种架构上验证，发现音素频率与MMR负相关、功能负载正相关，且辅音贡献排序具有语言依赖性。",
+        "summary_en": "This paper presents a scalable method to measure consonant contribution to word intelligibility via acoustic masking: silencing one consonant at a time and testing whether an ASR model still recognizes the word, defining the mask-induced misrecognition rate (MMR). Validated across English, Spanish, German, and Czech using MMS, Whisper, and Qwen3-ASR, it finds phoneme frequency negatively and functional load positively correlated with MMR, with rankings being language-dependent.",
+        "tags": [
+          "research",
+          "evaluation",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-14-rss-005",
+        "title": "通过声学掩蔽量化辅音对词可理解性的贡献",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.12122",
+        "language": "en",
+        "summary": "本文提出一种可扩展方法，通过逐个静音单词中的辅音并测试ASR模型是否仍能识别该词，定义掩蔽诱导误识率（MMR）来量化辅音贡献。在英、西、德、捷四种语言及MMS、Whisper、Qwen3-ASR三种架构上验证，发现音素频率与MMR负相关、功能负载正相关，且辅音贡献排序具有语言依赖性。",
+        "summary_en": "This paper presents a scalable method to measure consonant contribution to word intelligibility via acoustic masking: silencing one consonant at a time and testing whether an ASR model still recognizes the word, defining the mask-induced misrecognition rate (MMR). Validated across English, Spanish, German, and Czech using MMS, Whisper, and Qwen3-ASR, it finds phoneme frequency negatively and functional load positively correlated with MMR, with rankings being language-dependent.",
+        "tags": [
+          "research",
+          "evaluation",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-09-14T22:42:56.267090+08:00",
+        "updated_at": "2026-09-14T22:42:56.267091+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

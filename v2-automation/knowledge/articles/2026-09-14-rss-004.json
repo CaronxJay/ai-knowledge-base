@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-14-rss-004",
+  "title": "古兰经背诵转录中的错误标注研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.12085",
+  "language": "en",
+  "summary": "该研究对100个古兰经背诵录音案例进行人工标注，包含348个评分单元和162个事件，提出可执行评估器同时评估标签与词位置。基线F1约0.5，而三个编码代理的初步测试F1跨度0.143至0.892，多数远超基线，剩余挑战主要在于标注约定而非检测。",
+  "summary_en": "This study presents a completed human annotation of 100 Quran recitation cases with 348 scored units and 162 localized events, plus an executable evaluator scoring labels and word positions together. Baselines reach ~0.5 F1, while a pilot with three coding agents spans 0.143 to 0.892 F1, mostly far above baselines, with remaining challenges being annotation conventions rather than detection.",
+  "tags": [
+    "evaluation",
+    "benchmark",
+    "research",
+    "llm",
+    "application"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-09-14T22:42:56.267086+08:00",
+  "updated_at": "2026-09-14T22:42:56.267087+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

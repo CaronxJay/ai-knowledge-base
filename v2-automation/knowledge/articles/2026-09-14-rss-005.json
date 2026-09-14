@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-14-rss-005",
+  "title": "通过声学掩蔽量化辅音对词可理解性的贡献",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.12122",
+  "language": "en",
+  "summary": "本文提出一种可扩展方法，通过逐个静音单词中的辅音并测试ASR模型是否仍能识别该词，定义掩蔽诱导误识率（MMR）来量化辅音贡献。在英、西、德、捷四种语言及MMS、Whisper、Qwen3-ASR三种架构上验证，发现音素频率与MMR负相关、功能负载正相关，且辅音贡献排序具有语言依赖性。",
+  "summary_en": "This paper presents a scalable method to measure consonant contribution to word intelligibility via acoustic masking: silencing one consonant at a time and testing whether an ASR model still recognizes the word, defining the mask-induced misrecognition rate (MMR). Validated across English, Spanish, German, and Czech using MMS, Whisper, and Qwen3-ASR, it finds phoneme frequency negatively and functional load positively correlated with MMR, with rankings being language-dependent.",
+  "tags": [
+    "research",
+    "evaluation",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-09-14T22:42:56.267090+08:00",
+  "updated_at": "2026-09-14T22:42:56.267091+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
