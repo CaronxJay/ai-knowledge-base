@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-15-rss-002",
+  "title": "面向自适应物理AI：LLM智能体能否管理长周期物理任务？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.13436",
+  "language": "en",
+  "summary": "本文探索构建零样本自适应物理AI智能体的可行性，设计集成规划、工具调用、观察与验证的多智能体框架，在农业任务中与强化学习智能体对比。结果显示，零样本LLM智能体在相同天气下管理效果相当，且在环境变化时适应性优于RL，展示了通向自适应物理AI的可行路径。",
+  "summary_en": "This work explores building a self-adaptive physical AI agent that manages long-horizon physical tasks zero-shot. A multi-agent framework integrating planning, tool calling, observation, and verification is evaluated on agricultural tasks against RL agents under varying weather. Zero-shot LLM agents match RL under the same weather and adapt better under shifted environments, highlighting a promising path toward self-adaptive physical AI.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "application",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-15T21:07:31.365801+08:00",
+  "updated_at": "2026-09-15T21:07:31.365804+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

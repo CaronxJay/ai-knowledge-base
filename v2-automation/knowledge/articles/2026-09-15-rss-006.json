@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-15-rss-006",
+  "title": "TestHallVQA：探索LVLM在冗余上下文中的文档级推理能力",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.13158",
+  "language": "en",
+  "summary": "提出TestHallVQA多图像VQA基准，同时涵盖文档级规模与人类考试难度，并支持可控注入多级上下文冗余。提出新指标F1-R²，联合量化LVLM的推理能力与证据检索鲁棒性，揭示主流模型的多维缺陷。",
+  "summary_en": "Introduces TestHallVQA, a multi-image VQA benchmark combining document-level scale with human exam difficulty, supporting controllable injection of multi-level contextual redundancy. Proposes F1-R², a novel metric jointly quantifying LVLMs' reasoning capability and evidence retrieval robustness, revealing latent deficiencies of mainstream models.",
+  "tags": [
+    "benchmark",
+    "multimodal",
+    "evaluation",
+    "research",
+    "llm"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-15T21:07:31.365833+08:00",
+  "updated_at": "2026-09-15T21:07:31.365836+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

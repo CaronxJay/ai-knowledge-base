@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-15-rss-004",
+  "title": "面向大语言模型的词汇级提示压缩：免训练确定性流水线及跨十一类任务的帕累托实证分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.13154",
+  "language": "en",
+  "summary": "提出一种免训练、完全确定性的CPU词汇级提示压缩流水线，包含11种可切换变换（停用词删除、词性剪枝、词形还原、WordNet同义词缩短等）。在1242条英文提示、11类任务上评估15种配置，最激进配置平均减少40.3% token，BERTScore-F1为0.876；仅停用词配置减少29.6%，F1达0.913，并刻画了各任务的压缩-保真度帕累托前沿。",
+  "summary_en": "Proposes a training-free, fully deterministic CPU-only lexical prompt compression pipeline with 11 toggleable transformations (stopword removal, POS pruning, lemmatization, WordNet synonym shortening, etc.). Evaluated 15 configurations on 1,242 English prompts across 11 task categories: the most aggressive achieves 40.3% mean token reduction at BERTScore-F1 0.876, while stopword-only achieves 29.6% at 0.913, characterizing the compression-fidelity Pareto frontier per task.",
+  "tags": [
+    "llm",
+    "prompt-engineering",
+    "evaluation",
+    "research",
+    "benchmark"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-15T21:07:31.365817+08:00",
+  "updated_at": "2026-09-15T21:07:31.365820+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

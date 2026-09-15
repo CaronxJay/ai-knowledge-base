@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-15-rss-001",
+  "title": "ZGCM-1：面向数学与智能体搜索的全开源高效基础模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.13356",
+  "language": "en",
+  "summary": "ZGCM-1 是一个从零训练的全开源 7B 稠密基础模型，通过内部思考与外部工具调用结合突破参数容量限制，支持 256K 上下文。在数学推理与智能体搜索任务上可与 Qwen3-235B、GLM-5.1 等超大模型竞争，预训练效率提升约 4.2 倍，并开源权重、代码与数据配方。",
+  "summary_en": "ZGCM-1 is a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. Combining internal thinking with external tool use over a 256K context, it remains competitive with frontier models orders of magnitude larger on math reasoning and agentic search, achieving ~4.2x pre-training efficiency gains, with weights, code, and data recipes open-sourced.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "open-source",
+    "research",
+    "benchmark"
+  ],
+  "category": "llm",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-15T21:07:31.365788+08:00",
+  "updated_at": "2026-09-15T21:07:31.365794+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

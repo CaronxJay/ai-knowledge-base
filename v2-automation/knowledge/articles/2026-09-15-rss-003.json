@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-15-rss-003",
+  "title": "PhysMent：基于交互式物理模拟器的LLM推理基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.13152",
+  "language": "en",
+  "summary": "PhysMent是一个评估LLM物理推理能力的基准，要求模型通过MuJoCo模拟器主动施加力、查询状态、推进时间并修改场景来发现信息。包含105个经典力学场景，覆盖四种难度、三种模态。结果显示模型在定性任务上可达80%准确率，但在需要精确多步实验的定量任务上多数低于30%，瓶颈在于程序性工具使用而非概念理解。",
+  "summary_en": "PhysMent is a benchmark evaluating LLM physical reasoning through iterative, tool-mediated interaction with a MuJoCo simulator, requiring models to discover information by applying forces, querying states, advancing time, and modifying scenes. It comprises 105 classical mechanics scenes across four difficulty regimes and three modalities. Results show models reach up to 80% on qualitative single-concept tasks but most fall below 30% on the hardest quantitative tasks, where the bottleneck is procedural multi-step tool use rather than conceptual understanding.",
+  "tags": [
+    "benchmark",
+    "research",
+    "agent-framework",
+    "evaluation",
+    "tool"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-15T21:07:31.365809+08:00",
+  "updated_at": "2026-09-15T21:07:31.365812+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

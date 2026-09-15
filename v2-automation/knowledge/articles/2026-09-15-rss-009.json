@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-15-rss-009",
+  "title": "先收敛后多样化：多目标贝叶斯优化中解耦收敛与多样性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.13396",
+  "language": "en",
+  "summary": "本文提出\"先收敛后多样化\"(CTD)方法，将多目标贝叶斯优化中的收敛与多样性解耦为两个阶段：第一阶段快速收敛到帕累托前沿上的单点，第二阶段在前沿上扩展多样性。实验表明CTD在72.9%的对比中优于现有方法，尤其在预算紧张或高维问题中优势明显。",
+  "summary_en": "This paper proposes a converge-then-diversify (CTD) approach that decouples convergence and diversity into two stages in multi-objective Bayesian optimisation: first quickly converging to a single point on the Pareto front, then spreading solutions across the front. Experiments show CTD statistically outperforms state-of-the-art methods in 72.9% of 446 pairwise comparisons, with advantages especially evident under tight budgets or high-dimensional problems.",
+  "tags": [
+    "research",
+    "benchmark",
+    "evaluation",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.4,
+  "status": "published",
+  "created_at": "2026-09-15T21:07:31.365860+08:00",
+  "updated_at": "2026-09-15T21:07:31.365863+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

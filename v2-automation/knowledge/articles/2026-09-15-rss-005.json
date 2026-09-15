@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-15-rss-005",
+  "title": "广义智能体迭代：迭代策略改进与递归自我改进的统一形式化框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.13406",
+  "language": "en",
+  "summary": "论文提出广义智能体迭代（GAI）框架，将迭代策略改进与递归自我改进（RSI）统一为同一学习范式的两种情形。GAI将智能体定义为系统中可修改组件的配置，学习过程建模为智能体评估与改进的循环，并通过两个关键维度区分不同实例：改进机制是否属于智能体、衡量标准是否外在于智能体。前者划分GPI与RSI边界，后者决定系统极性。",
+  "summary_en": "The paper proposes Generalized Agent Iteration (GAI), a formal framework unifying iterative policy improvement and recursive self-improvement (RSI) as two cases of a single learning paradigm. GAI defines the agent as a configuration of modifiable components and models learning as a cycle of agent evaluation and improvement, distinguished by two dials: whether the improving mechanism is part of the agent, and whether the standard is grounded outside it.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-15T21:07:31.365825+08:00",
+  "updated_at": "2026-09-15T21:07:31.365828+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

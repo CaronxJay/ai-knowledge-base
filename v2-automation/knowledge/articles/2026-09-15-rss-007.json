@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-15-rss-007",
+  "title": "部分可观测目标下的锥形束CT临床推理报告生成",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.13238",
+  "language": "en",
+  "summary": "该研究提出锥形束CT颌面报告生成方法，采用80%大语言模型事实蕴含判断与20%词汇重叠的复合目标。离线蕴含代理AUC达0.987，使复合目标可直接优化。622例公开数据上，复合目标得分0.4122，优于词汇排序的0.2909。系统在50例未见中心测试集上METEOR达0.3542。",
+  "summary_en": "This work addresses maxillofacial report generation from cone beam CT using a composite objective weighting 80% on LLM factual entailment and 20% on lexical overlap. An offline entailment surrogate (AUC 0.987) makes the objective cheap to optimize. On 622 public cases, the composite objective scores 0.4122 versus 0.2909 for lexical ranking. The system reaches METEOR 0.3542 on 50 held-out cases from an unseen centre.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "application",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-09-15T21:07:31.365841+08:00",
+  "updated_at": "2026-09-15T21:07:31.365843+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

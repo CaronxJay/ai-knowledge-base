@@ -1,0 +1,467 @@
+{
+  "collected_at": "2026-09-15T21:07:31.366759+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+      "url": "https://arxiv.org/abs/2609.13356",
+      "description": "arXiv:2609.13356v1 Announce Type: new \nAbstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. ZGCM-1 is founded on a core premise: compact models cannot passively memorize the open web, but can overcome parametric capacity limits by coupling deliberate internal thinking with active external tool use. To support this paradigm across a 256K context, we develop an end-to-end, high-efficiency open training recipe: Architecture & System Co-design: interleaved gated sliding-window and full attention, and a stable FP8 Muon optimizer; Progressive Curriculum & MDP Mid-Training: context scaling across 16K, 64K, and 256K, and the reformulation of interaction traces into Markov Decision Processes. Furthermore, we establish an AI-native R&D workflow where agent swarms autonomously manage cluster operations, data curation, and rapid diagnostic evaluation. Extensive evaluations show that ZGCM-1-7B is competitive across 7B model family on general benchmarks. On several challenging mathematical reasoning and agentic search suites, it remains competitive with frontier models orders of magnitude larger, such as Qwen3-235B-A22B and GLM-5.1. We also show that our pre-training design offers a ~4.2x efficiency improvement in 16K pre-training time-to-loss. Across the full development lifecycle, we distill eight actionable empirical findings-spanning architectural scaling, SFT quality pruning, long-context generalization, and agentic co-training dynamics. To facilitate community research, we open-source model weights from the pre-training, mid-training, and post-training stages, intermediate checkpoints, training code, per-stage data and data recipes, and W&B logs.",
+      "pub_date": "Tue, 15 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ZGCM-1：面向数学与智能体搜索的全开源高效基础模型",
+        "summary": "ZGCM-1 是一个从零训练的全开源 7B 稠密基础模型，通过内部思考与外部工具调用结合突破参数容量限制，支持 256K 上下文。在数学推理与智能体搜索任务上可与 Qwen3-235B、GLM-5.1 等超大模型竞争，预训练效率提升约 4.2 倍，并开源权重、代码与数据配方。",
+        "summary_en": "ZGCM-1 is a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. Combining internal thinking with external tool use over a 256K context, it remains competitive with frontier models orders of magnitude larger on math reasoning and agentic search, achieving ~4.2x pre-training efficiency gains, with weights, code, and data recipes open-sourced.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "open-source",
+          "research",
+          "benchmark"
+        ],
+        "category": "llm",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-15-rss-001",
+        "title": "ZGCM-1：面向数学与智能体搜索的全开源高效基础模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.13356",
+        "language": "en",
+        "summary": "ZGCM-1 是一个从零训练的全开源 7B 稠密基础模型，通过内部思考与外部工具调用结合突破参数容量限制，支持 256K 上下文。在数学推理与智能体搜索任务上可与 Qwen3-235B、GLM-5.1 等超大模型竞争，预训练效率提升约 4.2 倍，并开源权重、代码与数据配方。",
+        "summary_en": "ZGCM-1 is a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. Combining internal thinking with external tool use over a 256K context, it remains competitive with frontier models orders of magnitude larger on math reasoning and agentic search, achieving ~4.2x pre-training efficiency gains, with weights, code, and data recipes open-sourced.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "open-source",
+          "research",
+          "benchmark"
+        ],
+        "category": "llm",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-15T21:07:31.365788+08:00",
+        "updated_at": "2026-09-15T21:07:31.365794+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Converge Then Diversify: Decoupling Convergence and Diversity in Multi-Objective Bayesian Optimisation",
+      "url": "https://arxiv.org/abs/2609.13396",
+      "description": "arXiv:2609.13396v1 Announce Type: new \nAbstract: Multi-objective Bayesian optimisation (MOBO) is a sample-efficient approach for optimising expensive black-box functions with multiple objectives. In MOBO, the goal is to adequately approximate the Pareto front; that is, to obtain a high-quality solution set with 1) good convergence (closeness to the Pareto front) and 2) good diversity (spread across the Pareto front). Existing MOBO methods typically aim to accomplish these two tasks simultaneously, i.e., driving the search towards the Pareto front while maintaining a diverse set of nondominated solutions, such that the solutions, ideally, can gradually approach the entire front. When sufficient search budgets are available, this approach is effective. However, considering both convergence and diversity throughout the search is not easy and requires careful design. Under very tight budgets, there may not be enough solutions generated to be able to simultaneously approach the entire Pareto front. To address this issue, this paper proposes a \\textit{converge-then-diversify} (CTD) approach that decouples convergence and diversity into two stages. In the first stage, CTD focuses on convergence, aiming to quickly drive the search toward a single point on the Pareto front. In the second stage, CTD focuses on diversity, aiming to spread solutions across the front. We present two simple instantiations of CTD by using widely adopted acquisition functions in the area. Experimental results show that, across all 446 pairwise comparisons, CTD statistically outperforms state-of-the-art methods in 72.9\\% of the cases, performs equivalently in 21.1\\%, and is statistically worse in only 6.1\\%, with the advantage being particularly evident in settings with very tight evaluation budgets or in high-dimensional problems.",
+      "pub_date": "Tue, 15 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "先收敛后多样化：多目标贝叶斯优化中解耦收敛与多样性",
+        "summary": "本文提出\"先收敛后多样化\"(CTD)方法，将多目标贝叶斯优化中的收敛与多样性解耦为两个阶段：第一阶段快速收敛到帕累托前沿上的单点，第二阶段在前沿上扩展多样性。实验表明CTD在72.9%的对比中优于现有方法，尤其在预算紧张或高维问题中优势明显。",
+        "summary_en": "This paper proposes a converge-then-diversify (CTD) approach that decouples convergence and diversity into two stages in multi-objective Bayesian optimisation: first quickly converging to a single point on the Pareto front, then spreading solutions across the front. Experiments show CTD statistically outperforms state-of-the-art methods in 72.9% of 446 pairwise comparisons, with advantages especially evident under tight budgets or high-dimensional problems.",
+        "tags": [
+          "research",
+          "benchmark",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.4,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-15-rss-009",
+        "title": "先收敛后多样化：多目标贝叶斯优化中解耦收敛与多样性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.13396",
+        "language": "en",
+        "summary": "本文提出\"先收敛后多样化\"(CTD)方法，将多目标贝叶斯优化中的收敛与多样性解耦为两个阶段：第一阶段快速收敛到帕累托前沿上的单点，第二阶段在前沿上扩展多样性。实验表明CTD在72.9%的对比中优于现有方法，尤其在预算紧张或高维问题中优势明显。",
+        "summary_en": "This paper proposes a converge-then-diversify (CTD) approach that decouples convergence and diversity into two stages in multi-objective Bayesian optimisation: first quickly converging to a single point on the Pareto front, then spreading solutions across the front. Experiments show CTD statistically outperforms state-of-the-art methods in 72.9% of 446 pairwise comparisons, with advantages especially evident under tight budgets or high-dimensional problems.",
+        "tags": [
+          "research",
+          "benchmark",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.4,
+        "status": "published",
+        "created_at": "2026-09-15T21:07:31.365860+08:00",
+        "updated_at": "2026-09-15T21:07:31.365863+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/2609.13406",
+      "description": "arXiv:2609.13406v1 Announce Type: new \nAbstract: When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards autonomous and evolving intelligence, RSI is being claimed at many scales, while no single framework that formally describes these emerging instances exists. Its counterpart in the classical realm, iterative policy improvement, is characterized by generalized policy iteration (GPI), a framework of broad applicability with well-understood theoretical properties, but only where the update principle and the evaluation base lie outside the agent. In this paper, we propose Generalized Agent Iteration (GAI), a formal framework that describes iterative policy improvement and RSI as two cases of a single learning paradigm. GAI defines the agent as a configuration of modifiable components within a system and models the learning process as a cycle of agent evaluation and agent improvement. Two pivotal dials then distinguish the instances: whether the improving mechanism is part of the agent and whether the standard it is measured against is grounded outside it. The former dial delineates the boundary between GPI and RSI, and the latter determines a system's polarity as anchored, goal drift, or fully self-referential. Moreover, we use these coordinates to place existing systems on the same two axes and make the defects of recursive self-improvement statable one condition at a time. We see this paper as a first step toward exploring a formal characterization of RSI that rests on the classical account, makes existing systems comparable, and provides a principled basis for analyzing and designing new ones.",
+      "pub_date": "Tue, 15 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "广义智能体迭代：迭代策略改进与递归自我改进的统一形式化框架",
+        "summary": "论文提出广义智能体迭代（GAI）框架，将迭代策略改进与递归自我改进（RSI）统一为同一学习范式的两种情形。GAI将智能体定义为系统中可修改组件的配置，学习过程建模为智能体评估与改进的循环，并通过两个关键维度区分不同实例：改进机制是否属于智能体、衡量标准是否外在于智能体。前者划分GPI与RSI边界，后者决定系统极性。",
+        "summary_en": "The paper proposes Generalized Agent Iteration (GAI), a formal framework unifying iterative policy improvement and recursive self-improvement (RSI) as two cases of a single learning paradigm. GAI defines the agent as a configuration of modifiable components and models learning as a cycle of agent evaluation and improvement, distinguished by two dials: whether the improving mechanism is part of the agent, and whether the standard is grounded outside it.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-15-rss-005",
+        "title": "广义智能体迭代：迭代策略改进与递归自我改进的统一形式化框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.13406",
+        "language": "en",
+        "summary": "论文提出广义智能体迭代（GAI）框架，将迭代策略改进与递归自我改进（RSI）统一为同一学习范式的两种情形。GAI将智能体定义为系统中可修改组件的配置，学习过程建模为智能体评估与改进的循环，并通过两个关键维度区分不同实例：改进机制是否属于智能体、衡量标准是否外在于智能体。前者划分GPI与RSI边界，后者决定系统极性。",
+        "summary_en": "The paper proposes Generalized Agent Iteration (GAI), a formal framework unifying iterative policy improvement and recursive self-improvement (RSI) as two cases of a single learning paradigm. GAI defines the agent as a configuration of modifiable components and models learning as a cycle of agent evaluation and improvement, distinguished by two dials: whether the improving mechanism is part of the agent, and whether the standard is grounded outside it.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-15T21:07:31.365825+08:00",
+        "updated_at": "2026-09-15T21:07:31.365828+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
+      "url": "https://arxiv.org/abs/2609.13422",
+      "description": "arXiv:2609.13422v1 Announce Type: new \nAbstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed for AI-agent evaluation. A separately-invoked LLM judge evaluates generated patent drafts and provides structured feedback for iterative revision. Across multiple inventions and drafting-agent configurations, judge-guided revision consistently improves judge-assessed quality, while unguided revision tends to saturate. Notably, iterative judge feedback enables a low-reasoning agent to approach the performance of a substantially more expensive high-reasoning agent. Stronger models and increased reasoning generally improve judge-assessed drafting quality, while domain-specific agentic workflows provide further gains. We validate the judge against independent evaluation by a professional patent attorney and find meaningful but strongly metric-dependent agreement and systematic calibration differences. These results highlight both the utility and limitations of LLM judges as evaluators and optimization signals for complex professional workflows.",
+      "pub_date": "Tue, 15 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Vibe Patenting：评估用于专业专利撰写智能体的LLM评审",
+        "summary": "研究构建了端到端专利撰写测试平台Vibe Patenting，用独立LLM评审为AI生成的专利草稿提供结构化反馈并迭代修订。评审引导的修订能持续提升质量，使低推理能力智能体接近高成本高推理智能体的表现，但与专业专利律师评估的一致性因指标而异，存在系统性校准差异。",
+        "summary_en": "This paper introduces Vibe Patenting, an end-to-end patent-drafting testbed for evaluating AI agents, where a separately-invoked LLM judge provides structured feedback for iterative revision. Judge-guided revision consistently improves assessed quality and lets a low-reasoning agent approach a much costlier high-reasoning agent. Validation against a professional patent attorney shows meaningful but metric-dependent agreement and systematic calibration differences, highlighting both the utility and limits of LLM judges for complex professional workflows.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "evaluation",
+          "research",
+          "application"
+        ],
+        "category": "evaluation",
+        "relevance_score": 0.95,
+        "language": "en"
+      }
+    },
+    {
+      "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
+      "url": "https://arxiv.org/abs/2609.13436",
+      "description": "arXiv:2609.13436v1 Announce Type: new \nAbstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, physical tasks require agents to continuously observe the environment, make consequential actions, and remain effective as the environment changes. Existing approaches either require substantial data and retraining, or primarily focus on agents operating in the virtual world. In this work, we explore the feasibility of building a self-adaptive physical AI agent that manages long-term physical tasks in a zero-shot manner and adapts to environmental changes without human intervention. We design a multi-agent framework that integrates planning, tool calling, observation, and verification, and evaluate it on agricultural tasks against reinforcement learning (RL) agents under different weather patterns. Our results show that zero-shot LLM agents can achieve comparable management outcomes to RL agents under the same weather pattern and adapt more effectively than RL when evaluated under a shifted environment, highlighting a promising path toward self-adaptive physical AI agents.",
+      "pub_date": "Tue, 15 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向自适应物理AI：LLM智能体能否管理长周期物理任务？",
+        "summary": "本文探索构建零样本自适应物理AI智能体的可行性，设计集成规划、工具调用、观察与验证的多智能体框架，在农业任务中与强化学习智能体对比。结果显示，零样本LLM智能体在相同天气下管理效果相当，且在环境变化时适应性优于RL，展示了通向自适应物理AI的可行路径。",
+        "summary_en": "This work explores building a self-adaptive physical AI agent that manages long-horizon physical tasks zero-shot. A multi-agent framework integrating planning, tool calling, observation, and verification is evaluated on agricultural tasks against RL agents under varying weather. Zero-shot LLM agents match RL under the same weather and adapt better under shifted environments, highlighting a promising path toward self-adaptive physical AI.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-15-rss-002",
+        "title": "面向自适应物理AI：LLM智能体能否管理长周期物理任务？",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.13436",
+        "language": "en",
+        "summary": "本文探索构建零样本自适应物理AI智能体的可行性，设计集成规划、工具调用、观察与验证的多智能体框架，在农业任务中与强化学习智能体对比。结果显示，零样本LLM智能体在相同天气下管理效果相当，且在环境变化时适应性优于RL，展示了通向自适应物理AI的可行路径。",
+        "summary_en": "This work explores building a self-adaptive physical AI agent that manages long-horizon physical tasks zero-shot. A multi-agent framework integrating planning, tool calling, observation, and verification is evaluated on agricultural tasks against RL agents under varying weather. Zero-shot LLM agents match RL under the same weather and adapt better under shifted environments, highlighting a promising path toward self-adaptive physical AI.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-15T21:07:31.365801+08:00",
+        "updated_at": "2026-09-15T21:07:31.365804+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Token Merging for Multilingual Speech Recognition: A Systematic Study Across Model Scale and Fine-Tuning",
+      "url": "https://arxiv.org/abs/2609.13151",
+      "description": "arXiv:2609.13151v1 Announce Type: new \nAbstract: Leading multilingual speech recognition models like Whisper transcribe diverse, low-resource languages without language-specific training but are computationally expensive to deploy. Token merging mitigates this inefficiency by dynamically combining redundant features, shortening the sequence length during inference without requiring retraining. In this paper, we systematically evaluate token merging on the Whisper model family across sixteen diverse languages and three different model sizes. We also test how token merging interacts with fine-tuning (DoRA) on low-resource languages. Our findings show that merging tokens increases computational efficiency with almost no loss in transcription accuracy across most low-resource languages and model sizes, and it works even after the model has been fine-tuned. Our results demonstrate that token merging is a highly practical method for making multilingual speech recognition faster and cheaper to deploy.",
+      "pub_date": "Tue, 15 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多语言语音识别中的Token合并：跨模型规模与微调的系统研究",
+        "summary": "本文系统评估了Whisper模型族在16种语言和3种模型规模下的Token合并技术，并测试其与DoRA微调的交互。结果表明，Token合并能在几乎不损失转录准确率的情况下提升计算效率，且微调后依然有效，是多语言语音识别部署提速降本的高实用方法。",
+        "summary_en": "This paper systematically evaluates token merging on the Whisper model family across sixteen languages and three model sizes, and tests its interaction with DoRA fine-tuning on low-resource languages. Results show token merging improves computational efficiency with almost no accuracy loss, and remains effective after fine-tuning, making multilingual speech recognition faster and cheaper to deploy.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-15-rss-008",
+        "title": "多语言语音识别中的Token合并：跨模型规模与微调的系统研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.13151",
+        "language": "en",
+        "summary": "本文系统评估了Whisper模型族在16种语言和3种模型规模下的Token合并技术，并测试其与DoRA微调的交互。结果表明，Token合并能在几乎不损失转录准确率的情况下提升计算效率，且微调后依然有效，是多语言语音识别部署提速降本的高实用方法。",
+        "summary_en": "This paper systematically evaluates token merging on the Whisper model family across sixteen languages and three model sizes, and tests its interaction with DoRA fine-tuning on low-resource languages. Results show token merging improves computational efficiency with almost no accuracy loss, and remains effective after fine-tuning, making multilingual speech recognition faster and cheaper to deploy.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-09-15T21:07:31.365848+08:00",
+        "updated_at": "2026-09-15T21:07:31.365851+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PhysMent: An Interactive Approach For LLM Reasoning In Physics Problems",
+      "url": "https://arxiv.org/abs/2609.13152",
+      "description": "arXiv:2609.13152v1 Announce Type: new \nAbstract: Large language models (LLMs) perform strongly on static science benchmarks, yet their ability to reason about the physical world through active experimentation remains poorly understood. We introduce PhysMent, a benchmark that evaluates LLM physical reasoning via iterative, toolmediated interaction with a MuJoCo physics simulator. Unlike static benchmarks that supply all quantities upfront, PhysMent requires models to discover information by applying forces, querying object states, advancing time, and modifying scene geometry before answering. The benchmark comprises 105 scenes of classical mechanics, organized across four difficulty regimes (Easy/Hard and Single/Multi), three scene modalities (standard, object creation, hidden objects), and a scene-manipulation category, evaluated with a six-dimensional scoring framework. Results show that current models perform reasonably well on qualitative single-concept tasks (up to 80% accuracy) but degrade substantially on quantitative tasks that demand precise, multi-step experimental procedures: most models fall below 30% on the hardest single-concept category, where the bottleneck is procedural (adaptive multi-step tool use) rather than conceptual load. Across the seven models, accuracy ranges from 25% to 67%, with failures due to premature answer submission, inefficient exploration, and inconsistent grounding in simulator feedback rather than conceptual gaps.",
+      "pub_date": "Tue, 15 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PhysMent：基于交互式物理模拟器的LLM推理基准",
+        "summary": "PhysMent是一个评估LLM物理推理能力的基准，要求模型通过MuJoCo模拟器主动施加力、查询状态、推进时间并修改场景来发现信息。包含105个经典力学场景，覆盖四种难度、三种模态。结果显示模型在定性任务上可达80%准确率，但在需要精确多步实验的定量任务上多数低于30%，瓶颈在于程序性工具使用而非概念理解。",
+        "summary_en": "PhysMent is a benchmark evaluating LLM physical reasoning through iterative, tool-mediated interaction with a MuJoCo simulator, requiring models to discover information by applying forces, querying states, advancing time, and modifying scenes. It comprises 105 classical mechanics scenes across four difficulty regimes and three modalities. Results show models reach up to 80% on qualitative single-concept tasks but most fall below 30% on the hardest quantitative tasks, where the bottleneck is procedural multi-step tool use rather than conceptual understanding.",
+        "tags": [
+          "benchmark",
+          "research",
+          "agent-framework",
+          "evaluation",
+          "tool"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-15-rss-003",
+        "title": "PhysMent：基于交互式物理模拟器的LLM推理基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.13152",
+        "language": "en",
+        "summary": "PhysMent是一个评估LLM物理推理能力的基准，要求模型通过MuJoCo模拟器主动施加力、查询状态、推进时间并修改场景来发现信息。包含105个经典力学场景，覆盖四种难度、三种模态。结果显示模型在定性任务上可达80%准确率，但在需要精确多步实验的定量任务上多数低于30%，瓶颈在于程序性工具使用而非概念理解。",
+        "summary_en": "PhysMent is a benchmark evaluating LLM physical reasoning through iterative, tool-mediated interaction with a MuJoCo simulator, requiring models to discover information by applying forces, querying states, advancing time, and modifying scenes. It comprises 105 classical mechanics scenes across four difficulty regimes and three modalities. Results show models reach up to 80% on qualitative single-concept tasks but most fall below 30% on the hardest quantitative tasks, where the bottleneck is procedural multi-step tool use rather than conceptual understanding.",
+        "tags": [
+          "benchmark",
+          "research",
+          "agent-framework",
+          "evaluation",
+          "tool"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-15T21:07:31.365809+08:00",
+        "updated_at": "2026-09-15T21:07:31.365812+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Lexical Prompt Compression for Large Language Models: A Training-Free, Deterministic Pipeline with Empirical Pareto Analysis Across Eleven Task Categories",
+      "url": "https://arxiv.org/abs/2609.13154",
+      "description": "arXiv:2609.13154v1 Announce Type: new \nAbstract: Recent advances in large language models (LLMs) have made prompts increasingly large and complex. Techniques such as chain-of-thought reasoning (Wei et al., 2022) and in-context learning (Brown et al., 2020) frequently push real-world prompts past several thousand tokens, increasing inference cost and latency. Learned compression methods such as LLMLingua (Jiang et al., 2023) and Selective Context (Li et al., 2023) achieve high compression ratios but require auxiliary language models and are non-deterministic. We ask a complementary question: how far can a training-free, fully deterministic, CPU-only pipeline based on classical lexical NLP be pushed before output quality degrades significantly? Eleven toggleable lexical transformations - stopword removal, filler-phrase deletion, contraction and abbreviation substitution, part-of-speech-based pruning, lemmatization, WordNet-driven synonym shortening, and named-entity preservation - are assembled into a configurable pipeline. Fifteen configurations are evaluated on 1,242 English-only prompts from six sources (Dolly-15k, LMSYS-Chat-1M, WildChat-1M, MMLU, GSM8K, HellaSwag), spanning eleven automatically derived task categories, yielding 18,630 paired GPT-4o-mini completions. Output preservation is measured using BLEU, ROUGE-1/2/L, BERTScore-F1, and SentenceBERT cosine similarity. The most aggressive configuration achieves a mean token reduction of 40.3% (sigma = 9.2) at a BERTScore-F1 of 0.876 against the original-prompt output; a stopword-only configuration achieves 29.6% reduction at 0.913. The compression-versus-fidelity Pareto frontier is characterized per task category, with commonsense reasoning a systematic failure mode under aggressive compression. All code, prompts, and per-cell results are released for reproducibility.",
+      "pub_date": "Tue, 15 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向大语言模型的词汇级提示压缩：免训练确定性流水线及跨十一类任务的帕累托实证分析",
+        "summary": "提出一种免训练、完全确定性的CPU词汇级提示压缩流水线，包含11种可切换变换（停用词删除、词性剪枝、词形还原、WordNet同义词缩短等）。在1242条英文提示、11类任务上评估15种配置，最激进配置平均减少40.3% token，BERTScore-F1为0.876；仅停用词配置减少29.6%，F1达0.913，并刻画了各任务的压缩-保真度帕累托前沿。",
+        "summary_en": "Proposes a training-free, fully deterministic CPU-only lexical prompt compression pipeline with 11 toggleable transformations (stopword removal, POS pruning, lemmatization, WordNet synonym shortening, etc.). Evaluated 15 configurations on 1,242 English prompts across 11 task categories: the most aggressive achieves 40.3% mean token reduction at BERTScore-F1 0.876, while stopword-only achieves 29.6% at 0.913, characterizing the compression-fidelity Pareto frontier per task.",
+        "tags": [
+          "llm",
+          "prompt-engineering",
+          "evaluation",
+          "research",
+          "benchmark"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-15-rss-004",
+        "title": "面向大语言模型的词汇级提示压缩：免训练确定性流水线及跨十一类任务的帕累托实证分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.13154",
+        "language": "en",
+        "summary": "提出一种免训练、完全确定性的CPU词汇级提示压缩流水线，包含11种可切换变换（停用词删除、词性剪枝、词形还原、WordNet同义词缩短等）。在1242条英文提示、11类任务上评估15种配置，最激进配置平均减少40.3% token，BERTScore-F1为0.876；仅停用词配置减少29.6%，F1达0.913，并刻画了各任务的压缩-保真度帕累托前沿。",
+        "summary_en": "Proposes a training-free, fully deterministic CPU-only lexical prompt compression pipeline with 11 toggleable transformations (stopword removal, POS pruning, lemmatization, WordNet synonym shortening, etc.). Evaluated 15 configurations on 1,242 English prompts across 11 task categories: the most aggressive achieves 40.3% mean token reduction at BERTScore-F1 0.876, while stopword-only achieves 29.6% at 0.913, characterizing the compression-fidelity Pareto frontier per task.",
+        "tags": [
+          "llm",
+          "prompt-engineering",
+          "evaluation",
+          "research",
+          "benchmark"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-15T21:07:31.365817+08:00",
+        "updated_at": "2026-09-15T21:07:31.365820+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "TestHallVQA: Exploring LVLMs' Document-Level Reasoning under Redundant Contexts from Scientific Exams",
+      "url": "https://arxiv.org/abs/2609.13158",
+      "description": "arXiv:2609.13158v1 Announce Type: new \nAbstract: Large Vision--Language Models (LVLMs) are increasingly expected to perform visual question answering (VQA) over planar media. However, existing planar VQA benchmarks typically emphasize isolated challenges: some emphasize long-document understanding with limited reasoning depth, while others require complex visual reasoning but remain restricted to single-page, noise-free settings. Moreover, through theoretical analysis, we identify the impact of irrelevant visual tokens, which leads to measurable performance degradation but has received little attention with respect to systematic quantification. To address these limitations, we introduce TestHallVQA, a multi-image VQA benchmark that simultaneously embodies document-level scale and the difficulty of human examinations, while providing comprehensive task coverage. Leveraging TestHallVQA's ability to controllably inject multi-level contextual redundancy, we further propose a novel metric, F1-R\\textsuperscript{2}, which jointly quantifies LVLMs' computational reasoning capability and their evidence retrieval robustness against document-level redundancy. Extensive experiments and analyses on mainstream LVLMs reveal their latent deficiencies across multiple dimensions, offering concrete insights and directions for future research. The associated datasets, code, and complete theoretical derivations are available at https://github.com/yqyu2317/TestHallVQA-benchmark.",
+      "pub_date": "Tue, 15 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "TestHallVQA：探索LVLM在冗余上下文中的文档级推理能力",
+        "summary": "提出TestHallVQA多图像VQA基准，同时涵盖文档级规模与人类考试难度，并支持可控注入多级上下文冗余。提出新指标F1-R²，联合量化LVLM的推理能力与证据检索鲁棒性，揭示主流模型的多维缺陷。",
+        "summary_en": "Introduces TestHallVQA, a multi-image VQA benchmark combining document-level scale with human exam difficulty, supporting controllable injection of multi-level contextual redundancy. Proposes F1-R², a novel metric jointly quantifying LVLMs' reasoning capability and evidence retrieval robustness, revealing latent deficiencies of mainstream models.",
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "evaluation",
+          "research",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-15-rss-006",
+        "title": "TestHallVQA：探索LVLM在冗余上下文中的文档级推理能力",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.13158",
+        "language": "en",
+        "summary": "提出TestHallVQA多图像VQA基准，同时涵盖文档级规模与人类考试难度，并支持可控注入多级上下文冗余。提出新指标F1-R²，联合量化LVLM的推理能力与证据检索鲁棒性，揭示主流模型的多维缺陷。",
+        "summary_en": "Introduces TestHallVQA, a multi-image VQA benchmark combining document-level scale with human exam difficulty, supporting controllable injection of multi-level contextual redundancy. Proposes F1-R², a novel metric jointly quantifying LVLMs' reasoning capability and evidence retrieval robustness, revealing latent deficiencies of mainstream models.",
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "evaluation",
+          "research",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-15T21:07:31.365833+08:00",
+        "updated_at": "2026-09-15T21:07:31.365836+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Clinical Reasoning Under a Partially Observed Objective in Cone Beam CT Report Generation",
+      "url": "https://arxiv.org/abs/2609.13238",
+      "description": "arXiv:2609.13238v1 Announce Type: new \nAbstract: Maxillofacial report generation from cone beam computed tomography is scored here by a composite objective placing 80% of its weight on a large language model judgement of factual entailment and 20% on lexical overlap, of which only the lexical fifth is visible during development. The grader's BLEU-4 and METEOR routines are reproduced in pure Python and match the reference to machine precision, and an offline entailment surrogate, which tells a report written for one patient from one written for another at an area under the curve of 0.987, makes the composite objective cheap enough to optimise directly. Over the 622-case public release, a report selected against the visible lexical ranking scores 0.2909, whereas one selected against the composite objective scores 0.4122, because pursuing n-gram overlap drives entailment precision from 0.522 down to 0.266. A 29 million parameter encoder fine-tuned on the release reaches a prevalence-weighted out-of-fold area under the curve of 0.486 over 985 statements, indistinguishable from the corpus prior, while nine numbers read from the image header reach 0.945 for mandible coverage and 0.872 for condyle coverage, and acquisition centre alone predicts sentence choice at 0.718 against 0.663 for the image-derived model, identifying dictation convention rather than anatomy as the quantity the lexical metrics reward. The delivered system emits eight unconditional statements and five gated on header geometry under polarity, laterality and tooth-level consistency constraints, and reaches METEOR 0.3542 over 50 held-out cases from an unseen centre. The dataset and code are available at https://github.com/GIND123/CBCT-Clinical-Reasoner",
+      "pub_date": "Tue, 15 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "部分可观测目标下的锥形束CT临床推理报告生成",
+        "summary": "该研究提出锥形束CT颌面报告生成方法，采用80%大语言模型事实蕴含判断与20%词汇重叠的复合目标。离线蕴含代理AUC达0.987，使复合目标可直接优化。622例公开数据上，复合目标得分0.4122，优于词汇排序的0.2909。系统在50例未见中心测试集上METEOR达0.3542。",
+        "summary_en": "This work addresses maxillofacial report generation from cone beam CT using a composite objective weighting 80% on LLM factual entailment and 20% on lexical overlap. An offline entailment surrogate (AUC 0.987) makes the objective cheap to optimize. On 622 public cases, the composite objective scores 0.4122 versus 0.2909 for lexical ranking. The system reaches METEOR 0.3542 on 50 held-out cases from an unseen centre.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-15-rss-007",
+        "title": "部分可观测目标下的锥形束CT临床推理报告生成",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.13238",
+        "language": "en",
+        "summary": "该研究提出锥形束CT颌面报告生成方法，采用80%大语言模型事实蕴含判断与20%词汇重叠的复合目标。离线蕴含代理AUC达0.987，使复合目标可直接优化。622例公开数据上，复合目标得分0.4122，优于词汇排序的0.2909。系统在50例未见中心测试集上METEOR达0.3542。",
+        "summary_en": "This work addresses maxillofacial report generation from cone beam CT using a composite objective weighting 80% on LLM factual entailment and 20% on lexical overlap. An offline entailment surrogate (AUC 0.987) makes the objective cheap to optimize. On 622 public cases, the composite objective scores 0.4122 versus 0.2909 for lexical ranking. The system reaches METEOR 0.3542 on 50 held-out cases from an unseen centre.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-09-15T21:07:31.365841+08:00",
+        "updated_at": "2026-09-15T21:07:31.365843+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}
