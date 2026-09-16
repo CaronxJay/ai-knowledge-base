@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-16-rss-007",
+  "title": "Functionalizer：面向子词分词的无损功能分解",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.15991",
+  "language": "en",
+  "summary": "提出Functionalizer无损预分词框架，将大小写、变音符号和字符重复等拼写变化分解为Unicode私用区的操作码/操作数前缀流，完全可逆。在六种语料上减少词汇表需求达16%，在代码序列上压缩长度并提升语法有效性，但会膨胀自然语言序列长度。",
+  "summary_en": "The Functionalizer is a lossless pre-tokenizer framework that factors orthographic variations (casing, diacritics, repetition) into reversible opcode/operand prefix streams encoded in the Unicode Private Use Area. Across six corpora it reduces vocabulary slot requirements by up to 16%, compresses indentation-heavy code while inflating prose, and improves code syntax validity in 25M-parameter GPT-2 scale models.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "llm",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-16T21:06:37.706995+08:00",
+  "updated_at": "2026-09-16T21:06:37.706997+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

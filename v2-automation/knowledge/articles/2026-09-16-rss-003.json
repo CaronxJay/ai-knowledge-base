@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-16-rss-003",
+  "title": "少样本提示退化现象研究：行为证据、表征分析与随机文本对照",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.15990",
+  "language": "en",
+  "summary": "研究评估12个开源模型在两项乌克兰语任务上的少样本提示效果，发现效果高度依赖任务。提出用长度匹配的随机文本作为对照，计算\"内容增量\"指标，发现该指标能预测少样本提示的增益（rho=+0.65），而原始表征偏移无法预测。",
+  "summary_en": "This study evaluates 12 open-weight models on two Ukrainian tasks, finding few-shot prompting effects are strongly task-dependent. It proposes a length-matched random-text control to compute 'content delta', which predicts few-shot benefit (rho=+0.65) while raw representation shift does not.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "prompt-engineering",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-16T21:06:37.706975+08:00",
+  "updated_at": "2026-09-16T21:06:37.706977+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

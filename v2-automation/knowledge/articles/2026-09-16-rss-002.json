@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-16-rss-002",
+  "title": "校准后路由：面向解耦式LLM服务的请求路由研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.16206",
+  "language": "en",
+  "summary": "研究解耦式LLM服务中的请求路由策略，提出基于提示长度、预测输出长度、KV缓存压力和SLO类别的校准路由器。在8块A40 GPU上验证，平均有效吞吐达0.864，优于轮询等基线，且硬件校准至关重要。",
+  "summary_en": "Studies request routing for disaggregated LLM serving with a calibrated router using prompt length, predicted output length, KV cache pressure, and SLO class. Validated on eight A40 GPUs, achieving 0.864 mean goodput, outperforming round robin and other baselines, with hardware calibration proving critical.",
+  "tags": [
+    "llm",
+    "infrastructure",
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-16T21:06:37.706970+08:00",
+  "updated_at": "2026-09-16T21:06:37.706972+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

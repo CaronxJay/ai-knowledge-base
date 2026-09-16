@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-16-rss-008",
+  "title": "基于Fisher信息距离的神经网络架构最优剪枝",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.16129",
+  "language": "en",
+  "summary": "本文提出一种基于模型空间微分几何距离的参数剪枝新方法。将剪枝视为模型向参数为零的超曲面移动，用Fisher信息度量下的测地距离衡量真实性能变化，由此建立剪枝最优性层级，从传统幅度剪枝发展到更高效的新方案。在MNIST和CIFAR-10上对全连接网络和视觉Transformer验证，性能优于幅度剪枝和局部Fisher信息剪枝。",
+  "summary_en": "This paper introduces a new parameter pruning scheme derived from the differential-geometric distance in model space. Pruning is viewed as displacing the model to the hypersurface where a parameter vanishes, with the geodesic distance under the Fisher information metric determining the true change in model performance. This yields a hierarchy of pruning optimality, evolving from traditional magnitude pruning to more sophisticated schemes. Demonstrated on fully-connected networks and vision transformers over MNIST and CIFAR-10, it outperforms magnitude and local Fisher information pruning.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-09-16T21:06:37.706999+08:00",
+  "updated_at": "2026-09-16T21:06:37.707001+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

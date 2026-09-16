@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-16-rss-004",
+  "title": "大语言模型推理网络的最优模型激活策略",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.15992",
+  "language": "en",
+  "summary": "本文提出\"推理网络\"图框架，将不同LLM作为节点、条件激活作为边，研究如何最优组合多个专家模型以平衡成本与性能。针对串联专家模型，证明最优激活策略具有阈值结构：先调用最便宜模型，仅当置信度低于阈值时才调用更贵模型；判别任务每类一个阈值，生成任务单一阈值。实验表明可在满足性能预算下大幅降低成本。",
+  "summary_en": "This paper introduces inference networks, a graph-based framework where nodes are LLMs and links are conditional activations, to optimally combine expert models balancing cost and performance. For a series of experts, it proves the optimal activation policy has a threshold structure: query the cheapest LLM first and invoke costlier ones only when confidence falls below a threshold—one per class for discriminative tasks, a single threshold for generative tasks. Experiments show substantial cost reductions while meeting performance budgets.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "infrastructure"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-16T21:06:37.706980+08:00",
+  "updated_at": "2026-09-16T21:06:37.706981+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

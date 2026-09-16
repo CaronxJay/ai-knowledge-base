@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-16-rss-006",
+  "title": "立场：AI尚不适合战略冲突",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.16189",
+  "language": "en",
+  "summary": "该立场论文指出，基于语言模型的开放式兵棋推演存在决策洗白、裁决不透明、角色崩塌、裁决升级和战略想象力缺失五大失效模式，认为在缺乏可审计安全论证前，不应将LM兵棋用于规划、条令、政策或危机应对，其当前正确用途是压力测试影响决策的LM智能体。",
+  "summary_en": "This position paper argues that no LM-enabled wargame should inform planning, doctrine, policy, or crisis response without an auditable safety case. It identifies five failure modes: decision laundering, adjudication opacity, role collapse, escalation-through-adjudication, and failure of strategic imagination, concluding that open-ended wargames should serve as stress tests for decision-influencing LM agents rather than safety cases.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "evaluation",
+    "agent-framework"
+  ],
+  "category": "security",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-16T21:06:37.706988+08:00",
+  "updated_at": "2026-09-16T21:06:37.706989+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

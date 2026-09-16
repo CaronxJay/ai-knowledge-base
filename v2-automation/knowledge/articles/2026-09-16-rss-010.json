@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-16-rss-010",
+  "title": "基于超图支配集的单文档抽取式摘要方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.15993",
+  "language": "en",
+  "summary": "该研究提出一种新颖的单文档抽取式摘要方法，利用超图的支配性质生成摘要。将句子作为节点、关键词或命名实体作为超边构建句子超图，再用贪心算法求支配集以选取摘要句子，并与现有基于图的方法进行性能对比。",
+  "summary_en": "This study proposes a novel extractive summarization method for single documents using the domination property of hypergraphs. Sentences are nodes and keywords or named entities form hyperedges; a greedy algorithm finds the dominating set to select summary sentences, with performance compared against state-of-the-art graph-based methods.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "rag"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-09-16T21:06:37.707008+08:00",
+  "updated_at": "2026-09-16T21:06:37.707009+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

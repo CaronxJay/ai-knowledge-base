@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-16-rss-001",
+  "title": "语言模型安全纠错：冻结基座调整与能力保持",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.16145",
+  "language": "en",
+  "summary": "提出CRN v2轻量级logit纠错模块（约34M参数，占4.65B文本模块的0.73%），在完全冻结的Gemma 4 E2B上通过SFT和DPO训练，纠正53.3%的基座错误且不损害MMLU/BoolQ等能力；KL保持项至关重要，LoRA基线虽纠错率更高但能力损失30-75%。",
+  "summary_en": "Proposes CRN v2, a lightweight logit-level correction module (~34M params, 0.73% of the 4.65B text module) atop a fully frozen Gemma 4 E2B, trained via SFT and reference-free DPO. It corrects 53.3% of base-model errors with no degradation on MMLU/BoolQ, while a LoRA baseline achieves 83.3% correction but loses 30-75% capability; the KL preservation term is critical.",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "research",
+    "evaluation",
+    "open-source"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-16T21:06:37.706961+08:00",
+  "updated_at": "2026-09-16T21:06:37.706965+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

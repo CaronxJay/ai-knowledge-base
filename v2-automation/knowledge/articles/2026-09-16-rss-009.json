@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-16-rss-009",
+  "title": "GPEvac：基于GNN的PPO自适应枪击事件疏散路径规划",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.16163",
+  "language": "en",
+  "summary": "GPEvac提出基于图神经网络与PPO的框架，在枪击事件中实时计算自适应疏散路线。采用边优先顺序消息传递与可学习虚拟全局节点，结合置换不变评分机制，使单一策略适配不同建筑布局，CPU上14.73毫秒内完成全局路径计算。",
+  "summary_en": "GPEvac proposes a GNN-based PPO framework that computes adaptive evacuation routes during shooting events. It introduces edge-first sequential message passing with a learnable virtual global node and a permutation-invariant scoring mechanism, enabling a single policy to generalize across building layouts while computing global routes in 14.73 ms on local CPU hardware.",
+  "tags": [
+    "research",
+    "agent-framework",
+    "application",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-09-16T21:06:37.707004+08:00",
+  "updated_at": "2026-09-16T21:06:37.707005+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
