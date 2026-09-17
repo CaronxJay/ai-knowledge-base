@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-17-rss-005",
+  "title": "证据掩码驱动组合泛化：六十分组预注册验证",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.17637",
+  "language": "en",
+  "summary": "该预注册研究用60个共享冻结语言模型主干、通过连续数据包通信的四单元系统，验证证据掩码对组合泛化的影响。掩码在二、三操作组合上准确率中位数提升0.846和0.859，全部12对均达标，行为准则通过。但角色信息作用与中介归因仍待解。",
+  "summary_en": "A preregistered sixty-society study tests whether evidence masking improves compositional generalization in systems sharing a frozen LM backbone and communicating via learned continuous packets. Masking raised held-out two- and three-operation accuracy by median paired differences of 0.846 and 0.859, with all twelve pairs clearing margins and the full behavioral criterion passing. Role-information effects and mediation remain unresolved.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-17T21:01:53.592403+08:00",
+  "updated_at": "2026-09-17T21:01:53.592405+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-17-rss-003",
+  "title": "DANTINOX：多范式语言建模统一框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.17535",
+  "language": "en",
+  "summary": "DantinoX 是一个开源 JAX/Flax 库，用单一模块化 Transformer 主干支持自回归解码、离散掩码扩散和连续流匹配三种生成范式。仅需修改配置即可切换生成范式、注意力机制或硬件拓扑，保持主干架构、分词器、初始化与训练设施一致，从而实现受控的跨范式对比。",
+  "summary_en": "DantinoX is an open-source JAX/Flax library where a single modular Transformer backbone serves three generation paradigms: autoregressive decoding, discrete masked diffusion, and continuous flow-matching. Switching paradigm, attention mechanism, or hardware topology requires only a config change, enabling controlled cross-paradigm comparisons within one API for training, streaming inference, and benchmarking.",
+  "tags": [
+    "llm",
+    "open-source",
+    "research",
+    "infrastructure",
+    "python"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-17T21:01:53.592393+08:00",
+  "updated_at": "2026-09-17T21:01:53.592395+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

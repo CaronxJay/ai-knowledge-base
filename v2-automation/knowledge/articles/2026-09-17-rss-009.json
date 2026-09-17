@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-17-rss-009",
+  "title": "物理约束数字孪生保障城市人流传感器完整性：检测隐蔽虚假数据注入",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.17635",
+  "language": "en",
+  "summary": "该研究针对城市行人计数系统，提出物理约束数字孪生方法，通过图局部化增益与流量守恒残差检测隐蔽虚假数据注入，并采用自适应保形校准设定告警阈值。在墨尔本六年数据上，攻击裕度达0.54，三分之一设备受损时降至0.19，验证了守恒律而非局部性的关键作用。",
+  "summary_en": "This work formalizes stealthy false data injection for city-scale pedestrian sensing and proposes a physics-constrained digital twin that estimates directed flows on the pedestrian street graph, assimilates counts via a learned graph-localized gain, and detects attacks by combining innovation with a flow conservation residual, with thresholds set by adaptive conformal calibration. On six years of Melbourne data, the attack margin reaches 0.54 against a single compromised device and 0.19 when a third of the fleet is compromised, showing the gain comes from the conservation law rather than locality.",
+  "tags": [
+    "security",
+    "research",
+    "application",
+    "evaluation"
+  ],
+  "category": "security",
+  "relevance_score": 0.4,
+  "status": "published",
+  "created_at": "2026-09-17T21:01:53.592422+08:00",
+  "updated_at": "2026-09-17T21:01:53.592423+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

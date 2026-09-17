@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-17-rss-002",
+  "title": "EvolveTrade：面向自进化LLM交易智能体的经验驱动策略优化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.17632",
+  "language": "en",
+  "summary": "EvolveTrade将工具型交易智能体的系统提示视为文本参数化策略，通过Policy Agent利用决策轨迹与投资组合反馈迭代修订策略，在固定底层LLM的前提下提升信息获取与组合构建能力。实验显示其在多种市场环境下常优于固定策略基线，提升夏普比率与累计收益。",
+  "summary_en": "EvolveTrade treats a tool-using trading agent's system prompt as a text-parameterized policy. A Policy Agent revises it using decision traces and portfolio feedback while keeping the backbone LLM fixed, improving information acquisition and portfolio construction over time. Experiments across market regimes and two LLM backbones show gains in Sharpe Ratio and Cumulative Return over fixed-policy baselines.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "application",
+    "prompt-engineering"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-17T21:01:53.592388+08:00",
+  "updated_at": "2026-09-17T21:01:53.592390+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

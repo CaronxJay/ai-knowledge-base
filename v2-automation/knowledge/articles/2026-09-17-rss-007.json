@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-17-rss-007",
+  "title": "利用LLM从呼吸治疗临床笔记中提取特征增强拔管失败预测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.17532",
+  "language": "en",
+  "summary": "该研究提出一种新方法，利用大语言模型和逻辑回归流程从自由文本呼吸治疗笔记中分类特征，用于拔管失败预测。在华盛顿大学医学中心患者队列上，该方法识别出具有临床意义的拔管失败相关特征，与结构化患者数据结合后提升了预测性能，并指出既往研究因纳入标准和定义差异导致模型性能系统性偏差，影响泛化能力。",
+  "summary_en": "This study presents a novel approach to extubation failure (EF) prediction using a large language model and logistic regression pipeline to classify features from free-text respiratory therapy notes. Applied to a University of Washington Medicine patient cohort, the method identifies clinically meaningful EF-related features that improve prediction performance when combined with structured patient data. It also highlights how differences in target populations and EF definitions in prior studies lead to systematic performance differences and hinder generalizability.",
+  "tags": [
+    "llm",
+    "application",
+    "research",
+    "evaluation"
+  ],
+  "category": "application",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-09-17T21:01:53.592413+08:00",
+  "updated_at": "2026-09-17T21:01:53.592415+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

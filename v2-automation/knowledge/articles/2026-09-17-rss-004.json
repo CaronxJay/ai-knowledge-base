@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-17-rss-004",
+  "title": "先思考再安慰：面向协议化老年认知刺激智能体的反思性认知对齐",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.17536",
+  "language": "en",
+  "summary": "针对认知刺激疗法（CST）缺乏专业引导者及粤语等低资源语言数据稀缺问题，提出STaR-CS合成多方对话数据，并构建反思性认知对齐（RCA）框架，通过协议约束认知链（PC-CoC）与推理时价值对齐（IVA）提升LLM的协议遵循、安全性与共情能力。",
+  "summary_en": "To address the lack of trained facilitators and data scarcity in Cantonese for Cognitive Stimulation Therapy, this work proposes STaR-CS to synthesize multi-party dialogues and a Reflective Cognitive Alignment (RCA) framework combining Protocol-Constrained Chain-of-Cognition (PC-CoC) and Inference-Time Value Alignment (IVA), improving protocol adherence, safety, and empathy in LLMs.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "research",
+    "prompt-engineering",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-17T21:01:53.592398+08:00",
+  "updated_at": "2026-09-17T21:01:53.592400+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

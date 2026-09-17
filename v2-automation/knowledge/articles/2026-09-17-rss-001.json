@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-17-rss-001",
+  "title": "关系先于实体：语言模型事实回忆中的延迟承诺",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.17537",
+  "language": "en",
+  "summary": "研究探究语言模型回忆事实时关系类型信息与实体信息是否在同一深度激活。通过四种因果诊断方法在四个解码器模型和八组提示上实验，发现稳健的时间不对称性：关系信息比实体信息更早控制生成，领先10-16层（网络深度的31-44%）。实体信息早期并非缺失，而是其生成承诺被延迟，需先路由至最终token位置。",
+  "summary_en": "This paper investigates whether relation-type information (e.g., capital-of) and entity-specific information (e.g., France to Paris) become causally active at the same depth during factual recall in language models. Using four causal diagnostics across four decoder-only models and eight prompt families, it finds a robust temporal asymmetry: relation information becomes generation-controlling before entity information, with relation onset preceding entity onset by 10-16 layers (31-44% of network depth). Entity information is available early but its commitment to generation is deferred until routed to the final token position.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-17T21:01:53.592378+08:00",
+  "updated_at": "2026-09-17T21:01:53.592383+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

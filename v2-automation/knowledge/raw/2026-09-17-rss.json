@@ -1,0 +1,485 @@
+{
+  "collected_at": "2026-09-17T21:01:53.593456+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records",
+      "url": "https://arxiv.org/abs/2609.17631",
+      "description": "arXiv:2609.17631v1 Announce Type: new \nAbstract: AI-assisted claims can appear authoritative when evidence, analysis, human authorization, presentation, and correction history refer to different states. Provenance, attestation, and transparency expose history but alone do not specify the publication transition examined here. We develop Publication Authority as an exact-state, non-transferable, single-use publication capability and instantiate it in PAC-2026 (Publication-Accountability Calculus), a machine-readable AIJIM Protocol candidate. We evaluate its fourth bounded semantic freeze (SF-4), a fixed-profile specification designed for replaceable bindings. Six obligations govern evidence, runs and artifacts, measurement disclosure, authorization, surface correspondence, and lifecycle continuity. Each yields a target-bound witness, localized counterexample, or localized unverifiability; none can compensate for another. Only a fresh, complete all-pass record derives the permit consumed by one atomic publication transition. We use identity vectors, adversarial cases, finite models, and historical implementations. Ten models explored 110,764 safe reachable states; 76 unsafe configurations produced the expected violation or observer countermodel. A reader surface passing its correspondence check cannot authorize publication unless the accepted record admits that surface. SF-4 separates evidence horizon from verification time and rejects an authentic but causally invalid authorization. A historical predecessor path reproduced 17 frozen authorization-successor outcomes. A later in-house, instance-blind test of known case classes matched all 183 scored expectations; same-host package execution reproduced its 240 archived observations. Results support internal coherence, bounded safety, fault sensitivity, and limited constructibility, but not factual truth, general refinement, blind interoperability, field efficacy, or standards status.",
+      "pub_date": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "让AI辅助声明可独立质疑：出版权威与可证伪出版记录协议",
+        "summary": "论文提出\"出版权威\"概念，即一种精确状态、不可转让、单次使用的出版能力，并在PAC-2026（出版问责演算）中实例化。该协议通过六项义务（证据、运行与工件、测量披露、授权、表面一致性、生命周期连续性）约束AI辅助声明，只有全新且全部通过的记录才能获得一次原子出版转换的许可。实验探索了110,764个安全可达状态，验证了内部一致性、有界安全性和故障敏感性。",
+        "summary_en": "The paper introduces Publication Authority as an exact-state, non-transferable, single-use publication capability, instantiated in PAC-2026 (Publication-Accountability Calculus), a machine-readable AIJIM Protocol candidate. Six obligations govern evidence, runs and artifacts, measurement disclosure, authorization, surface correspondence, and lifecycle continuity. Only a fresh, complete all-pass record derives the permit consumed by one atomic publication transition. Ten models explored 110,764 safe reachable states, supporting internal coherence, bounded safety, fault sensitivity, and limited constructibility.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "security",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.75,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-17-rss-008",
+        "title": "让AI辅助声明可独立质疑：出版权威与可证伪出版记录协议",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.17631",
+        "language": "en",
+        "summary": "论文提出\"出版权威\"概念，即一种精确状态、不可转让、单次使用的出版能力，并在PAC-2026（出版问责演算）中实例化。该协议通过六项义务（证据、运行与工件、测量披露、授权、表面一致性、生命周期连续性）约束AI辅助声明，只有全新且全部通过的记录才能获得一次原子出版转换的许可。实验探索了110,764个安全可达状态，验证了内部一致性、有界安全性和故障敏感性。",
+        "summary_en": "The paper introduces Publication Authority as an exact-state, non-transferable, single-use publication capability, instantiated in PAC-2026 (Publication-Accountability Calculus), a machine-readable AIJIM Protocol candidate. Six obligations govern evidence, runs and artifacts, measurement disclosure, authorization, surface correspondence, and lifecycle continuity. Only a fresh, complete all-pass record derives the permit consumed by one atomic publication transition. Ten models explored 110,764 safe reachable states, supporting internal coherence, bounded safety, fault sensitivity, and limited constructibility.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "security",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.75,
+        "status": "published",
+        "created_at": "2026-09-17T21:01:53.592418+08:00",
+        "updated_at": "2026-09-17T21:01:53.592419+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
+      "url": "https://arxiv.org/abs/2609.17632",
+      "description": "arXiv:2609.17632v1 Announce Type: new \nAbstract: Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is often controlled by static hand-written tool-use policies that are fixed before deployment. This limits their ability to adapt how they gather evidence, invoke tools, verify signals, and manage risk under changing market regimes. We introduce EvolveTrade, a self-evolving framework that treats the system prompt of a tool-using trading agent as a text-parameterized policy. After each update interval, a Policy Agent revises this policy using accumulated decision traces and realized portfolio feedback, while keeping the backbone LLM fixed. The updated policy is then used for the next batch of trading decisions, enabling the agent to refine its information-acquisition and portfolio-construction procedure over time. Experiments across multiple market regimes and two LLM backbones show that EvolveTrade often improves Sharpe Ratio and Cumulative Return over fixed-policy LLM baselines, achieving the improved SR and CR in most evaluated settings. Behavioral analyses further show that self-evolved policies increase code-mediated analysis and activate regime-relevant computations; case-level policy-to-return attributions trace how policy-induced allocation changes contribute to realized return differences. These results suggest that adapting the reusable procedure governing tool use is a key direction for building more robust LLM trading agents.",
+      "pub_date": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "EvolveTrade：面向自进化LLM交易智能体的经验驱动策略优化",
+        "summary": "EvolveTrade将工具型交易智能体的系统提示视为文本参数化策略，通过Policy Agent利用决策轨迹与投资组合反馈迭代修订策略，在固定底层LLM的前提下提升信息获取与组合构建能力。实验显示其在多种市场环境下常优于固定策略基线，提升夏普比率与累计收益。",
+        "summary_en": "EvolveTrade treats a tool-using trading agent's system prompt as a text-parameterized policy. A Policy Agent revises it using decision traces and portfolio feedback while keeping the backbone LLM fixed, improving information acquisition and portfolio construction over time. Experiments across market regimes and two LLM backbones show gains in Sharpe Ratio and Cumulative Return over fixed-policy baselines.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "application",
+          "prompt-engineering"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-17-rss-002",
+        "title": "EvolveTrade：面向自进化LLM交易智能体的经验驱动策略优化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.17632",
+        "language": "en",
+        "summary": "EvolveTrade将工具型交易智能体的系统提示视为文本参数化策略，通过Policy Agent利用决策轨迹与投资组合反馈迭代修订策略，在固定底层LLM的前提下提升信息获取与组合构建能力。实验显示其在多种市场环境下常优于固定策略基线，提升夏普比率与累计收益。",
+        "summary_en": "EvolveTrade treats a tool-using trading agent's system prompt as a text-parameterized policy. A Policy Agent revises it using decision traces and portfolio feedback while keeping the backbone LLM fixed, improving information acquisition and portfolio construction over time. Experiments across market regimes and two LLM backbones show gains in Sharpe Ratio and Cumulative Return over fixed-policy baselines.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "application",
+          "prompt-engineering"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-17T21:01:53.592388+08:00",
+        "updated_at": "2026-09-17T21:01:53.592390+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "One Color Preprocessing Improves DSATUR",
+      "url": "https://arxiv.org/abs/2609.17633",
+      "description": "arXiv:2609.17633v1 Announce Type: new \nAbstract: The Graph Coloring Problem (GCP) is NP-hard and DSATUR stands as one of the fastest heuristics for it despite producing colorings that typically use more colors than state-of-the-art coloring algorithms. We propose SSLD (Semidefinite Spectral Learning with DSATUR), which improves DSATUR by preprocessing a first good color class before letting DSATUR complete coloring the rest of the given graph. We obtain this color class from a Semidefinite Programming (SDP), similar to an SDP used to compute the Lov\\'asz theta number. To the best of our knowledge, SSLD is the first approach to improve DSATUR by preprocessing through fixed color classes. We evaluate SSLD against DSATUR and against a naive 1-color-class preprocessing algorithm on DIMACS instances, random graphs (Erd\\H{o}s--R\\'enyi, Watts-Strogatz, Barab\\'asi--Albert), Frequency Assignment and Job Shop Scheduling instances. SSLD matches or beats DSATUR in almost every case across over 1600 benchmark instances, and out performs the naive GISD baseline, allows us to confirm the value brought by the SDP-guided choice of the first color class. This quality comes at a runtime cost of roughly 195 times slower that DSATUR, but demonstrating that SDP-guided preprocessing of a first color class is a direction for future improvements.",
+      "pub_date": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "单色预处理改进DSATUR图着色算法",
+        "summary": "提出SSLD方法，通过半定规划（SDP）预处理首个颜色类，再交由DSATUR完成剩余着色。在1600多个基准实例上，SSLD几乎全部匹配或超越DSATUR，并优于朴素预处理基线，但运行时间约为DSATUR的195倍。",
+        "summary_en": "The paper proposes SSLD (Semidefinite Spectral Learning with DSATUR), which improves DSATUR by preprocessing a first good color class via Semidefinite Programming before letting DSATUR complete the coloring. Evaluated on over 1600 benchmark instances, SSLD matches or beats DSATUR in almost every case and outperforms a naive preprocessing baseline, at a runtime cost roughly 195 times slower than DSATUR.",
+        "tags": [
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.2,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-17-rss-010",
+        "title": "单色预处理改进DSATUR图着色算法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.17633",
+        "language": "en",
+        "summary": "提出SSLD方法，通过半定规划（SDP）预处理首个颜色类，再交由DSATUR完成剩余着色。在1600多个基准实例上，SSLD几乎全部匹配或超越DSATUR，并优于朴素预处理基线，但运行时间约为DSATUR的195倍。",
+        "summary_en": "The paper proposes SSLD (Semidefinite Spectral Learning with DSATUR), which improves DSATUR by preprocessing a first good color class via Semidefinite Programming before letting DSATUR complete the coloring. Evaluated on over 1600 benchmark instances, SSLD matches or beats DSATUR in almost every case and outperforms a naive preprocessing baseline, at a runtime cost roughly 195 times slower than DSATUR.",
+        "tags": [
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.2,
+        "status": "published",
+        "created_at": "2026-09-17T21:01:53.592430+08:00",
+        "updated_at": "2026-09-17T21:01:53.592431+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees",
+      "url": "https://arxiv.org/abs/2609.17635",
+      "description": "arXiv:2609.17635v1 Announce Type: new \nAbstract: City pedestrian counting systems now feed economic indicators, planning decisions and safety operations, yet the twins built on top of them treat the incoming stream as ground truth. We study what happens when it is not. We formalise stealthy false data injection for city-scale pedestrian sensing, where the map from latent flow to observation is far more rank deficient than in the power and water networks for which stealth has been characterised. Our twin estimates directed flows on the pedestrian street graph, assimilates counts through a learned graph-localised gain, and is trained against a flow conservation residual that couples metered and unmetered segments. Detection combines the innovation with that residual, and the alarm threshold is set by adaptive conformal calibration rather than by hand. To measure what the physics buys, we define the attack margin, the relative reduction in worst-case corruption of the estimated flow field, achieved against a white-box adversary that optimises directly through the twin. On six years of Melbourne data the margin reaches 0.54 against a single compromised device and falls to 0.19 when a third of the fleet is compromised, on a network where only 1.18 per cent of walkable segments are metered. Replacing the street graph by a distance graph collapses it to 0.09, which shows that the gain comes from the conservation law rather than from locality.",
+      "pub_date": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "物理约束数字孪生保障城市人流传感器完整性：检测隐蔽虚假数据注入",
+        "summary": "该研究针对城市行人计数系统，提出物理约束数字孪生方法，通过图局部化增益与流量守恒残差检测隐蔽虚假数据注入，并采用自适应保形校准设定告警阈值。在墨尔本六年数据上，攻击裕度达0.54，三分之一设备受损时降至0.19，验证了守恒律而非局部性的关键作用。",
+        "summary_en": "This work formalizes stealthy false data injection for city-scale pedestrian sensing and proposes a physics-constrained digital twin that estimates directed flows on the pedestrian street graph, assimilates counts via a learned graph-localized gain, and detects attacks by combining innovation with a flow conservation residual, with thresholds set by adaptive conformal calibration. On six years of Melbourne data, the attack margin reaches 0.54 against a single compromised device and 0.19 when a third of the fleet is compromised, showing the gain comes from the conservation law rather than locality.",
+        "tags": [
+          "security",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "security",
+        "relevance_score": 0.4,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-17-rss-009",
+        "title": "物理约束数字孪生保障城市人流传感器完整性：检测隐蔽虚假数据注入",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.17635",
+        "language": "en",
+        "summary": "该研究针对城市行人计数系统，提出物理约束数字孪生方法，通过图局部化增益与流量守恒残差检测隐蔽虚假数据注入，并采用自适应保形校准设定告警阈值。在墨尔本六年数据上，攻击裕度达0.54，三分之一设备受损时降至0.19，验证了守恒律而非局部性的关键作用。",
+        "summary_en": "This work formalizes stealthy false data injection for city-scale pedestrian sensing and proposes a physics-constrained digital twin that estimates directed flows on the pedestrian street graph, assimilates counts via a learned graph-localized gain, and detects attacks by combining innovation with a flow conservation residual, with thresholds set by adaptive conformal calibration. On six years of Melbourne data, the attack margin reaches 0.54 against a single compromised device and 0.19 when a third of the fleet is compromised, showing the gain comes from the conservation law rather than locality.",
+        "tags": [
+          "security",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "security",
+        "relevance_score": 0.4,
+        "status": "published",
+        "created_at": "2026-09-17T21:01:53.592422+08:00",
+        "updated_at": "2026-09-17T21:01:53.592423+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "What You Can't See Is Still What You Learn: A Preregistered Sixty-Society Confirmation That Evidence Masking Drives Compositional Generalization",
+      "url": "https://arxiv.org/abs/2609.17637",
+      "description": "arXiv:2609.17637v1 Announce Type: new \nAbstract: Restricting what a module can read may improve what a system learns to compute. We test this in a preregistered confirmation with sixty four-cell systems sharing a frozen language-model backbone and communicating through learned continuous packets. Five conditions vary evidence masking, ownership markers, and replacement of foreign evidence with neutral filler, across six initialization clusters, each with two data orders, on one fresh task world. With markers available in both regimes, masking improved accuracy on held-out two- and three-operation compositions by median paired differences of 0.846 and 0.859; all twelve pairs cleared the required margins, and the full preregistered behavioral criterion passed. The unmarked replication also passed. No globally visible system passed the marker-following check, so the effect of usable role information remains unresolved. The filler condition yielded seven full generalizers, but its decomposition criteria were inconclusive. Packet interventions in all eighteen audited masked systems followed the predicted intermediate-value changes on eligible cases; these finite, success-conditioned audits do not establish mediation. The results confirm a large advantage of the tested masking regime, while leaving its finer attribution and generality open. Protocols, results, and checkpoints are public.",
+      "pub_date": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "证据掩码驱动组合泛化：六十分组预注册验证",
+        "summary": "该预注册研究用60个共享冻结语言模型主干、通过连续数据包通信的四单元系统，验证证据掩码对组合泛化的影响。掩码在二、三操作组合上准确率中位数提升0.846和0.859，全部12对均达标，行为准则通过。但角色信息作用与中介归因仍待解。",
+        "summary_en": "A preregistered sixty-society study tests whether evidence masking improves compositional generalization in systems sharing a frozen LM backbone and communicating via learned continuous packets. Masking raised held-out two- and three-operation accuracy by median paired differences of 0.846 and 0.859, with all twelve pairs clearing margins and the full behavioral criterion passing. Role-information effects and mediation remain unresolved.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-17-rss-005",
+        "title": "证据掩码驱动组合泛化：六十分组预注册验证",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.17637",
+        "language": "en",
+        "summary": "该预注册研究用60个共享冻结语言模型主干、通过连续数据包通信的四单元系统，验证证据掩码对组合泛化的影响。掩码在二、三操作组合上准确率中位数提升0.846和0.859，全部12对均达标，行为准则通过。但角色信息作用与中介归因仍待解。",
+        "summary_en": "A preregistered sixty-society study tests whether evidence masking improves compositional generalization in systems sharing a frozen LM backbone and communicating via learned continuous packets. Masking raised held-out two- and three-operation accuracy by median paired differences of 0.846 and 0.859, with all twelve pairs clearing margins and the full behavioral criterion passing. Role-information effects and mediation remain unresolved.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-17T21:01:53.592403+08:00",
+        "updated_at": "2026-09-17T21:01:53.592405+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Enhancing Extubation Failure Prediction with LLM-Derived Features from Respiratory Therapy Clinical Notes",
+      "url": "https://arxiv.org/abs/2609.17532",
+      "description": "arXiv:2609.17532v1 Announce Type: new \nAbstract: Invasive mechanical ventilation is a lifesaving therapy, but timely, safe discontinuation is essential to preventing extubation failure (EF) and related risks to health. We present a novel approach to EF prediction that leverages features classified in free-text respiratory therapy notes using a large language model and logistic regression pipeline. Applied to a patient cohort from University of Washington Medicine, our method identifies clinically meaningful EF-related features that improve EF prediction performance when included alongside structured patient data. We further highlight how differences in target populations in prior EF prediction studies, such as heterogenous inclusion criteria and EF definition, can lead to systematic differences in model performance and hinder generalizability between studies.",
+      "pub_date": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "利用LLM从呼吸治疗临床笔记中提取特征增强拔管失败预测",
+        "summary": "该研究提出一种新方法，利用大语言模型和逻辑回归流程从自由文本呼吸治疗笔记中分类特征，用于拔管失败预测。在华盛顿大学医学中心患者队列上，该方法识别出具有临床意义的拔管失败相关特征，与结构化患者数据结合后提升了预测性能，并指出既往研究因纳入标准和定义差异导致模型性能系统性偏差，影响泛化能力。",
+        "summary_en": "This study presents a novel approach to extubation failure (EF) prediction using a large language model and logistic regression pipeline to classify features from free-text respiratory therapy notes. Applied to a University of Washington Medicine patient cohort, the method identifies clinically meaningful EF-related features that improve prediction performance when combined with structured patient data. It also highlights how differences in target populations and EF definitions in prior studies lead to systematic performance differences and hinder generalizability.",
+        "tags": [
+          "llm",
+          "application",
+          "research",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-17-rss-007",
+        "title": "利用LLM从呼吸治疗临床笔记中提取特征增强拔管失败预测",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.17532",
+        "language": "en",
+        "summary": "该研究提出一种新方法，利用大语言模型和逻辑回归流程从自由文本呼吸治疗笔记中分类特征，用于拔管失败预测。在华盛顿大学医学中心患者队列上，该方法识别出具有临床意义的拔管失败相关特征，与结构化患者数据结合后提升了预测性能，并指出既往研究因纳入标准和定义差异导致模型性能系统性偏差，影响泛化能力。",
+        "summary_en": "This study presents a novel approach to extubation failure (EF) prediction using a large language model and logistic regression pipeline to classify features from free-text respiratory therapy notes. Applied to a University of Washington Medicine patient cohort, the method identifies clinically meaningful EF-related features that improve prediction performance when combined with structured patient data. It also highlights how differences in target populations and EF definitions in prior studies lead to systematic performance differences and hinder generalizability.",
+        "tags": [
+          "llm",
+          "application",
+          "research",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-09-17T21:01:53.592413+08:00",
+        "updated_at": "2026-09-17T21:01:53.592415+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Faking Good and Faking Bad in LLMs: Response Distortion Across Dark Triad Personality Traits",
+      "url": "https://arxiv.org/abs/2609.17534",
+      "description": "arXiv:2609.17534v1 Announce Type: new \nAbstract: Social desirability and impression management are pervasive sources of response distortion in human personality assessment, yet their effects on Large Language Models (LLMs) remain underexplored. This study investigates whether contemporary LLMs systematically modulate the expression of Dark Triad traits (Machiavellianism, narcissism, and psychopathy) under fake-good and fake-bad conditions. Seven state-of-the-art models were evaluated across two ecologically relevant contexts: employment selection and forensic evaluation, in which socially desirable or undesirable incentives were conveyed through contextual framing. Trait expression was measured using standard psychometric scoring procedures and compared with self-assessment baselines at both aggregate and item levels. Results revealed systematic and condition-consistent response modulation. Most models reduced Dark Triad scores under fake-good conditions and increased them under fake-bad conditions, although the magnitude and consistency of these effects varied across traits and models. Machiavellianism and narcissism showed the strongest and most coherent shifts, whereas psychopathy displayed greater heterogeneity. Context also influenced responses, with employment scenarios generally producing larger effects than forensic scenarios. An additional experiment showed that explicit fake-bad instructions generated substantially stronger distortions than contextual framing alone. The results suggest that personality-related outputs should be interpreted in light of the motivational and situational context in which they are elicited. More broadly, they highlight the value of psychometric paradigms for evaluating susceptibility to response distortion, impression management, and context-dependent behavioral shifts, with important implications for LLM benchmarking, alignment evaluation, and robustness assessment.",
+      "pub_date": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "大语言模型中的伪装好与伪装坏：暗黑三角人格特质的响应扭曲",
+        "summary": "研究评估七种先进LLM在求职与法医情境下对暗黑三角特质（马基雅维利主义、自恋、精神病态）的伪装好与伪装坏响应扭曲。结果显示模型在伪装好时降低分数、伪装坏时提高分数，其中马基雅维利主义和自恋变化最一致，精神病态异质性较大；求职情境影响大于法医情境，显式指令比情境框架扭曲更强。",
+        "summary_en": "This study examines whether seven state-of-the-art LLMs systematically modulate Dark Triad traits (Machiavellianism, narcissism, psychopathy) under fake-good and fake-bad conditions in employment and forensic contexts. Models generally lowered scores when faking good and raised them when faking bad, with Machiavellianism and narcissism showing the strongest shifts, psychopathy more heterogeneous, employment contexts producing larger effects, and explicit instructions causing stronger distortion than framing alone.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "research",
+          "security",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-17-rss-006",
+        "title": "大语言模型中的伪装好与伪装坏：暗黑三角人格特质的响应扭曲",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.17534",
+        "language": "en",
+        "summary": "研究评估七种先进LLM在求职与法医情境下对暗黑三角特质（马基雅维利主义、自恋、精神病态）的伪装好与伪装坏响应扭曲。结果显示模型在伪装好时降低分数、伪装坏时提高分数，其中马基雅维利主义和自恋变化最一致，精神病态异质性较大；求职情境影响大于法医情境，显式指令比情境框架扭曲更强。",
+        "summary_en": "This study examines whether seven state-of-the-art LLMs systematically modulate Dark Triad traits (Machiavellianism, narcissism, psychopathy) under fake-good and fake-bad conditions in employment and forensic contexts. Models generally lowered scores when faking good and raised them when faking bad, with Machiavellianism and narcissism showing the strongest shifts, psychopathy more heterogeneous, employment contexts producing larger effects, and explicit instructions causing stronger distortion than framing alone.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "research",
+          "security",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-17T21:01:53.592408+08:00",
+        "updated_at": "2026-09-17T21:01:53.592410+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "DANTINOX: A Unified Framework for Multi-Paradigm Language Modeling",
+      "url": "https://arxiv.org/abs/2609.17535",
+      "description": "arXiv:2609.17535v1 Announce Type: new \nAbstract: Language generation research increasingly spans three paradigms: autoregressive decoding, discrete masked diffusion, and continuous flow-matching. Comparing them is difficult because each lives in a separate codebase, so measured differences often reflect implementation details rather than the paradigms themselves. We present DantinoX, an open-source JAX/Flax library in which a single modular Transformer backbone serves all three paradigms. Switching the generation paradigm, attention mechanism, or hardware topology requires only a configuration change, while the backbone architecture, tokenizer, initialization strategy, and training infrastructure remain consistent. This enables controlled cross-paradigm comparisons within one API for training, streaming inference, and benchmarking.",
+      "pub_date": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DANTINOX：多范式语言建模统一框架",
+        "summary": "DantinoX 是一个开源 JAX/Flax 库，用单一模块化 Transformer 主干支持自回归解码、离散掩码扩散和连续流匹配三种生成范式。仅需修改配置即可切换生成范式、注意力机制或硬件拓扑，保持主干架构、分词器、初始化与训练设施一致，从而实现受控的跨范式对比。",
+        "summary_en": "DantinoX is an open-source JAX/Flax library where a single modular Transformer backbone serves three generation paradigms: autoregressive decoding, discrete masked diffusion, and continuous flow-matching. Switching paradigm, attention mechanism, or hardware topology requires only a config change, enabling controlled cross-paradigm comparisons within one API for training, streaming inference, and benchmarking.",
+        "tags": [
+          "llm",
+          "open-source",
+          "research",
+          "infrastructure",
+          "python"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-17-rss-003",
+        "title": "DANTINOX：多范式语言建模统一框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.17535",
+        "language": "en",
+        "summary": "DantinoX 是一个开源 JAX/Flax 库，用单一模块化 Transformer 主干支持自回归解码、离散掩码扩散和连续流匹配三种生成范式。仅需修改配置即可切换生成范式、注意力机制或硬件拓扑，保持主干架构、分词器、初始化与训练设施一致，从而实现受控的跨范式对比。",
+        "summary_en": "DantinoX is an open-source JAX/Flax library where a single modular Transformer backbone serves three generation paradigms: autoregressive decoding, discrete masked diffusion, and continuous flow-matching. Switching paradigm, attention mechanism, or hardware topology requires only a config change, enabling controlled cross-paradigm comparisons within one API for training, streaming inference, and benchmarking.",
+        "tags": [
+          "llm",
+          "open-source",
+          "research",
+          "infrastructure",
+          "python"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-17T21:01:53.592393+08:00",
+        "updated_at": "2026-09-17T21:01:53.592395+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Think Before You Comfort: Reflective Cognitive Alignment for Protocol-Grounded Elderly Stimulation Agents",
+      "url": "https://arxiv.org/abs/2609.17536",
+      "description": "arXiv:2609.17536v1 Announce Type: new \nAbstract: Cognitive Stimulation Therapy (CST) offers non-pharmacological support for elders with cognitive impairment, yet scalability remains constrained by reliance on trained facilitators and severe data scarcity, particularly for privacy-sensitive, low-resource languages such as Cantonese. While Large Language Models (LLMs) show promise for automated companionship, they often struggle to balance empathetic engagement with adherence to cognitive stimulation guidelines. We propose a framework addressing these challenges along two complementary axes. First, STaR-CS (Style-Transfer and Role-Conditioned Cognitive Stimulation) synthesizes multi-party dialogues through facilitator style modeling and structured skeleton extraction, mitigating data barriers. Building upon this corpus, the Reflective Cognitive Alignment (RCA) framework models stimulation interactions as a sequential decision process, integrating Protocol-Constrained Chain-of-Cognition (PC-CoC) for structured reasoning and Inference-Time Value Alignment (IVA) for principled response selection based on safety and engagement goals. Evaluations across six backbone LLMs and two independent judges show that RCA consistently improves protocol adherence, safety, and group facilitation over standard prompting baselines. Our code is available at https://github.com/jiangjyjy/RCA_Agent.",
+      "pub_date": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "先思考再安慰：面向协议化老年认知刺激智能体的反思性认知对齐",
+        "summary": "针对认知刺激疗法（CST）缺乏专业引导者及粤语等低资源语言数据稀缺问题，提出STaR-CS合成多方对话数据，并构建反思性认知对齐（RCA）框架，通过协议约束认知链（PC-CoC）与推理时价值对齐（IVA）提升LLM的协议遵循、安全性与共情能力。",
+        "summary_en": "To address the lack of trained facilitators and data scarcity in Cantonese for Cognitive Stimulation Therapy, this work proposes STaR-CS to synthesize multi-party dialogues and a Reflective Cognitive Alignment (RCA) framework combining Protocol-Constrained Chain-of-Cognition (PC-CoC) and Inference-Time Value Alignment (IVA), improving protocol adherence, safety, and empathy in LLMs.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-17-rss-004",
+        "title": "先思考再安慰：面向协议化老年认知刺激智能体的反思性认知对齐",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.17536",
+        "language": "en",
+        "summary": "针对认知刺激疗法（CST）缺乏专业引导者及粤语等低资源语言数据稀缺问题，提出STaR-CS合成多方对话数据，并构建反思性认知对齐（RCA）框架，通过协议约束认知链（PC-CoC）与推理时价值对齐（IVA）提升LLM的协议遵循、安全性与共情能力。",
+        "summary_en": "To address the lack of trained facilitators and data scarcity in Cantonese for Cognitive Stimulation Therapy, this work proposes STaR-CS to synthesize multi-party dialogues and a Reflective Cognitive Alignment (RCA) framework combining Protocol-Constrained Chain-of-Cognition (PC-CoC) and Inference-Time Value Alignment (IVA), improving protocol adherence, safety, and empathy in LLMs.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-17T21:01:53.592398+08:00",
+        "updated_at": "2026-09-17T21:01:53.592400+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Relation Before Entity: Deferred Commitment in Language Model Factual Recall",
+      "url": "https://arxiv.org/abs/2609.17537",
+      "description": "arXiv:2609.17537v1 Announce Type: new \nAbstract: We ask whether relation-type information (e.g., capital-of) and entity-specific information (e.g., France to Paris) become causally active at the final-token position at the same depth during recall. Using four complementary causal diagnostics across four decoder-only models and eight prompt families, we find a robust temporal asymmetry: relation information becomes generation-controlling before entity information does. Relation onset precedes entity onset by 10-16 tested layers (31-44% of network depth) at threshold 0.4, with the ordering holding across all 16 model-threshold combinations for thresholds 0.2-0.5. Critically, entity information is not absent early: entity-token patching succeeds at 90-100% in early layers. Instead, entity commitment to generation is deferred: entity information is available at the entity-token position but becomes generation-controlling at the final token only after being routed there.",
+      "pub_date": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "关系先于实体：语言模型事实回忆中的延迟承诺",
+        "summary": "研究探究语言模型回忆事实时关系类型信息与实体信息是否在同一深度激活。通过四种因果诊断方法在四个解码器模型和八组提示上实验，发现稳健的时间不对称性：关系信息比实体信息更早控制生成，领先10-16层（网络深度的31-44%）。实体信息早期并非缺失，而是其生成承诺被延迟，需先路由至最终token位置。",
+        "summary_en": "This paper investigates whether relation-type information (e.g., capital-of) and entity-specific information (e.g., France to Paris) become causally active at the same depth during factual recall in language models. Using four causal diagnostics across four decoder-only models and eight prompt families, it finds a robust temporal asymmetry: relation information becomes generation-controlling before entity information, with relation onset preceding entity onset by 10-16 layers (31-44% of network depth). Entity information is available early but its commitment to generation is deferred until routed to the final token position.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-17-rss-001",
+        "title": "关系先于实体：语言模型事实回忆中的延迟承诺",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.17537",
+        "language": "en",
+        "summary": "研究探究语言模型回忆事实时关系类型信息与实体信息是否在同一深度激活。通过四种因果诊断方法在四个解码器模型和八组提示上实验，发现稳健的时间不对称性：关系信息比实体信息更早控制生成，领先10-16层（网络深度的31-44%）。实体信息早期并非缺失，而是其生成承诺被延迟，需先路由至最终token位置。",
+        "summary_en": "This paper investigates whether relation-type information (e.g., capital-of) and entity-specific information (e.g., France to Paris) become causally active at the same depth during factual recall in language models. Using four causal diagnostics across four decoder-only models and eight prompt families, it finds a robust temporal asymmetry: relation information becomes generation-controlling before entity information, with relation onset preceding entity onset by 10-16 layers (31-44% of network depth). Entity information is available early but its commitment to generation is deferred until routed to the final token position.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-17T21:01:53.592378+08:00",
+        "updated_at": "2026-09-17T21:01:53.592383+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

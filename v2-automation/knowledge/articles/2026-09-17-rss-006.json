@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-17-rss-006",
+  "title": "大语言模型中的伪装好与伪装坏：暗黑三角人格特质的响应扭曲",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.17534",
+  "language": "en",
+  "summary": "研究评估七种先进LLM在求职与法医情境下对暗黑三角特质（马基雅维利主义、自恋、精神病态）的伪装好与伪装坏响应扭曲。结果显示模型在伪装好时降低分数、伪装坏时提高分数，其中马基雅维利主义和自恋变化最一致，精神病态异质性较大；求职情境影响大于法医情境，显式指令比情境框架扭曲更强。",
+  "summary_en": "This study examines whether seven state-of-the-art LLMs systematically modulate Dark Triad traits (Machiavellianism, narcissism, psychopathy) under fake-good and fake-bad conditions in employment and forensic contexts. Models generally lowered scores when faking good and raised them when faking bad, with Machiavellianism and narcissism showing the strongest shifts, psychopathy more heterogeneous, employment contexts producing larger effects, and explicit instructions causing stronger distortion than framing alone.",
+  "tags": [
+    "llm",
+    "evaluation",
+    "research",
+    "security",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-17T21:01:53.592408+08:00",
+  "updated_at": "2026-09-17T21:01:53.592410+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-17-rss-008",
+  "title": "让AI辅助声明可独立质疑：出版权威与可证伪出版记录协议",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.17631",
+  "language": "en",
+  "summary": "论文提出\"出版权威\"概念，即一种精确状态、不可转让、单次使用的出版能力，并在PAC-2026（出版问责演算）中实例化。该协议通过六项义务（证据、运行与工件、测量披露、授权、表面一致性、生命周期连续性）约束AI辅助声明，只有全新且全部通过的记录才能获得一次原子出版转换的许可。实验探索了110,764个安全可达状态，验证了内部一致性、有界安全性和故障敏感性。",
+  "summary_en": "The paper introduces Publication Authority as an exact-state, non-transferable, single-use publication capability, instantiated in PAC-2026 (Publication-Accountability Calculus), a machine-readable AIJIM Protocol candidate. Six obligations govern evidence, runs and artifacts, measurement disclosure, authorization, surface correspondence, and lifecycle continuity. Only a fresh, complete all-pass record derives the permit consumed by one atomic publication transition. Ten models explored 110,764 safe reachable states, supporting internal coherence, bounded safety, fault sensitivity, and limited constructibility.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "security",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.75,
+  "status": "published",
+  "created_at": "2026-09-17T21:01:53.592418+08:00",
+  "updated_at": "2026-09-17T21:01:53.592419+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

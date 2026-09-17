@@ -1,0 +1,24 @@
+{
+  "id": "2026-09-17-rss-010",
+  "title": "单色预处理改进DSATUR图着色算法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.17633",
+  "language": "en",
+  "summary": "提出SSLD方法，通过半定规划（SDP）预处理首个颜色类，再交由DSATUR完成剩余着色。在1600多个基准实例上，SSLD几乎全部匹配或超越DSATUR，并优于朴素预处理基线，但运行时间约为DSATUR的195倍。",
+  "summary_en": "The paper proposes SSLD (Semidefinite Spectral Learning with DSATUR), which improves DSATUR by preprocessing a first good color class via Semidefinite Programming before letting DSATUR complete the coloring. Evaluated on over 1600 benchmark instances, SSLD matches or beats DSATUR in almost every case and outperforms a naive preprocessing baseline, at a runtime cost roughly 195 times slower than DSATUR.",
+  "tags": [
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.2,
+  "status": "published",
+  "created_at": "2026-09-17T21:01:53.592430+08:00",
+  "updated_at": "2026-09-17T21:01:53.592431+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
