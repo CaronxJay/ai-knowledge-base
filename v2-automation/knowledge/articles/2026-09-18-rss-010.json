@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-18-rss-010",
+  "title": "正则化强调时序差分学习：恒定步长下的稳定性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.19170",
+  "language": "en",
+  "summary": "本文研究强调时序差分学习（ETD）在恒定步长下的稳定性问题，构造了一个遍历二状态反例，表明ETD均值映射收缩时采样乘积仍可能具有正Lyapunov指数。作者提出正则化强调TD（RETD），通过归一化的一阶冲击后修复机制，在不改变迹和重要性比率的前提下实现稳定，并证明了几乎必然收敛性。",
+  "summary_en": "This paper studies stability of emphatic temporal-difference learning (ETD) under constant stepsizes. The authors construct an ergodic two-state counterexample where the ETD mean map contracts but the sampled product has a positive top Lyapunov exponent. They introduce regularized emphatic TD (RETD), a normalized first-order post-shock repair that leaves traces and importance ratios unchanged, and prove almost-sure convergence for harmonic diminishing stepsizes plus a conditional constant-stepsize moment-contraction result.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-09-18T20:41:10.276514+08:00",
+  "updated_at": "2026-09-18T20:41:10.276515+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

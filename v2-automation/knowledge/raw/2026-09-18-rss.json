@@ -1,0 +1,489 @@
+{
+  "collected_at": "2026-09-18T20:41:10.277379+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
+      "url": "https://arxiv.org/abs/2609.19170",
+      "description": "arXiv:2609.19170v1 Announce Type: new \nAbstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and changes its projection geometry, but neither property determines constant-stepsize sampled dynamics. We construct an ergodic two-state counterexample in which the ETD mean map contracts while the sampled product has a positive top Lyapunov exponent. Regenerative-cycle analysis separates this sign from the infinite variance of the follow-on trace. We introduce regularized emphatic TD (RETD), a normalized first-order post-shock repair that leaves the trace and importance ratios unchanged, stores the emphatic TD signal in a leaky scalar state, and releases a delayed correction. RETD's raw equilibrium is an affine shift of the ETD equilibrium; single- and two-regularization readouts recover the ETD fixed point exactly. We prove almost-sure convergence for harmonic diminishing stepsizes and a conditional constant-stepsize moment-contraction result from a Markovian random-product bound. RETD has certified negative exponents on the two-state construction and one Baird point, whereas the positive Baird ETD sign remains numerical. Paired 10,000-run experiments validate both separations, fixed-point recovery, a nonmonotone stability region, and task dependence. RETD changes post-shock dynamics; it does not reduce the shared follow-on-trace variance.",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "正则化强调时序差分学习：恒定步长下的稳定性",
+        "summary": "本文研究强调时序差分学习（ETD）在恒定步长下的稳定性问题，构造了一个遍历二状态反例，表明ETD均值映射收缩时采样乘积仍可能具有正Lyapunov指数。作者提出正则化强调TD（RETD），通过归一化的一阶冲击后修复机制，在不改变迹和重要性比率的前提下实现稳定，并证明了几乎必然收敛性。",
+        "summary_en": "This paper studies stability of emphatic temporal-difference learning (ETD) under constant stepsizes. The authors construct an ergodic two-state counterexample where the ETD mean map contracts but the sampled product has a positive top Lyapunov exponent. They introduce regularized emphatic TD (RETD), a normalized first-order post-shock repair that leaves traces and importance ratios unchanged, and prove almost-sure convergence for harmonic diminishing stepsizes plus a conditional constant-stepsize moment-contraction result.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-18-rss-010",
+        "title": "正则化强调时序差分学习：恒定步长下的稳定性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.19170",
+        "language": "en",
+        "summary": "本文研究强调时序差分学习（ETD）在恒定步长下的稳定性问题，构造了一个遍历二状态反例，表明ETD均值映射收缩时采样乘积仍可能具有正Lyapunov指数。作者提出正则化强调TD（RETD），通过归一化的一阶冲击后修复机制，在不改变迹和重要性比率的前提下实现稳定，并证明了几乎必然收敛性。",
+        "summary_en": "This paper studies stability of emphatic temporal-difference learning (ETD) under constant stepsizes. The authors construct an ergodic two-state counterexample where the ETD mean map contracts but the sampled product has a positive top Lyapunov exponent. They introduce regularized emphatic TD (RETD), a normalized first-order post-shock repair that leaves traces and importance ratios unchanged, and prove almost-sure convergence for harmonic diminishing stepsizes plus a conditional constant-stepsize moment-contraction result.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-09-18T20:41:10.276514+08:00",
+        "updated_at": "2026-09-18T20:41:10.276515+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research",
+      "url": "https://arxiv.org/abs/2609.19180",
+      "description": "arXiv:2609.19180v1 Announce Type: new \nAbstract: Language models face unique challenges in analyzing interdisciplinary scientific research literature. In biophysics research, faithful answers require grounding observed data in source evidence, interpreting it through a quantitative physics model, and linking it to a biological mechanism. To address this challenge, we introduce BioPhys-Bridge, a novel benchmark dataset for evidence-grounded scientific reasoning over biophysical literature. Each case contains evidence blocks, stable evidence IDs, quantitative values, units, equations, assumptions, mechanisms, and next decisions as grounding targets for question answering (QA) and retrieval-augmented generation (RAG). The initial release contains 500 cases, 1,517 agent-facing tasks, and covers six biological domains and nine physical model families, including three sparse families reserved for future expansion. We enforce strict quality gates for all cases in schema, evidence-integrity, quantitative-grounding, source-license, duplicate, unit-normalization, with domain expert review and annotation for 81 cases. Preliminary evaluations show that DeepSeek-V4-Flash obtain the highest evidence-ID $F_1$ score (0.360), followed by Qwen3.7-Max (0.316) and GPT-4o-mini (0.294). BioPhys-Bridge is an interdisciplinary benchmark for evaluating attribution, faithfulness, hallucination reduction, and biological experiment design with complex, multi-step scientific reasoning. Future works will increase the size and complexity of the dataset and perform comprehensive evaluations. Code and data are available in the GitHub repository and on Hugging Face.",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "BioPhys-Bridge：物理基础生物学跨学科科学推理基准",
+        "summary": "BioPhys-Bridge 是一个面向生物物理文献的跨学科科学推理基准，包含500个案例和1517个智能体任务，覆盖六个生物学领域和九个物理模型族，要求模型基于证据进行定量物理建模并关联生物机制。初步评测显示 DeepSeek-V4-Flash 证据ID F1 最高（0.360）。",
+        "summary_en": "BioPhys-Bridge is a benchmark for evidence-grounded interdisciplinary scientific reasoning over biophysical literature, with 500 cases and 1,517 agent-facing tasks spanning six biological domains and nine physical model families. It evaluates attribution, faithfulness, and hallucination reduction; DeepSeek-V4-Flash achieved the highest evidence-ID F1 (0.360).",
+        "tags": [
+          "benchmark",
+          "research",
+          "rag",
+          "evaluation",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-18-rss-003",
+        "title": "BioPhys-Bridge：物理基础生物学跨学科科学推理基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.19180",
+        "language": "en",
+        "summary": "BioPhys-Bridge 是一个面向生物物理文献的跨学科科学推理基准，包含500个案例和1517个智能体任务，覆盖六个生物学领域和九个物理模型族，要求模型基于证据进行定量物理建模并关联生物机制。初步评测显示 DeepSeek-V4-Flash 证据ID F1 最高（0.360）。",
+        "summary_en": "BioPhys-Bridge is a benchmark for evidence-grounded interdisciplinary scientific reasoning over biophysical literature, with 500 cases and 1,517 agent-facing tasks spanning six biological domains and nine physical model families. It evaluates attribution, faithfulness, and hallucination reduction; DeepSeek-V4-Flash achieved the highest evidence-ID F1 (0.360).",
+        "tags": [
+          "benchmark",
+          "research",
+          "rag",
+          "evaluation",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-18T20:41:10.276480+08:00",
+        "updated_at": "2026-09-18T20:41:10.276481+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "What Do We Expect from LLMs? Mapping the Design of LLM Benchmarks",
+      "url": "https://arxiv.org/abs/2609.19182",
+      "description": "arXiv:2609.19182v1 Announce Type: new \nAbstract: Benchmarks are central to how progress in large language models (LLMs) is assessed and communicated. Yet model rankings alone reveal little about how evaluation requirements themselves are changing. The expanding variety of benchmarks offers another perspective: what researchers expect LLMs to do, and what they count as successful performance. We systematically map 14,767 papers introducing or updating evaluation resources from arXiv submissions between January 2022 and August 2026. Using staged screening and automated full-text coding, we examine changes in target systems and domains, evaluation materials and conditions, and scoring mechanisms. The collection shows growing emphasis on action, interaction, and professional applications, while established and newer design elements frequently coexist. Model participation also develops unevenly: LLM-based scoring grows within both agent and non-agent groups, whereas model-generated materials show no comparable sustained increase in recent cohorts. These findings illuminate how public research translates capability expectations into concrete tests and criteria for success. As AI participates in constructing tests, performing tasks, and judging responses, they also raise a question: does expanding evaluation provide more independent evidence, or risk reproducing the preferences and blind spots of its participating models?",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM基准测试设计趋势的系统性映射研究",
+        "summary": "该研究系统分析了2022至2026年间14,767篇LLM评估相关论文，考察目标系统、评估材料与评分机制的变化。发现评估日益强调行动、交互与专业应用，LLM参与评分增长，但模型生成材料未持续增加，引发评估独立性质疑。",
+        "summary_en": "This study systematically maps 14,767 papers introducing or updating LLM evaluation resources from 2022 to 2026, examining changes in target systems, evaluation materials, and scoring mechanisms. It finds growing emphasis on action, interaction, and professional applications, with LLM-based scoring increasing while model-generated materials show no sustained growth, raising questions about evaluation independence.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research",
+          "agent-framework"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-18-rss-001",
+        "title": "LLM基准测试设计趋势的系统性映射研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.19182",
+        "language": "en",
+        "summary": "该研究系统分析了2022至2026年间14,767篇LLM评估相关论文，考察目标系统、评估材料与评分机制的变化。发现评估日益强调行动、交互与专业应用，LLM参与评分增长，但模型生成材料未持续增加，引发评估独立性质疑。",
+        "summary_en": "This study systematically maps 14,767 papers introducing or updating LLM evaluation resources from 2022 to 2026, examining changes in target systems, evaluation materials, and scoring mechanisms. It finds growing emphasis on action, interaction, and professional applications, with LLM-based scoring increasing while model-generated materials show no sustained growth, raising questions about evaluation independence.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research",
+          "agent-framework"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-18T20:41:10.276466+08:00",
+        "updated_at": "2026-09-18T20:41:10.276470+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Position: It is Time to Virtualize Foundation Models with a Self-evolving Operating System Layer",
+      "url": "https://arxiv.org/abs/2609.19203",
+      "description": "arXiv:2609.19203v1 Announce Type: new \nAbstract: AI applications have shifted from single, monolithic foundation models (FM) to compound agentic systems. Yet today's stacks remain fragmented: even as protocols (e.g., MCP, A2A) ease tool/agent connectivity, each framework embeds an implicit runtime for state, memory, budgets, and guardrails, making behavior non-portable and governance brittle. It mirrors computing before operating systems, when every program re-implemented basic services. This position paper argues that the field now needs a Foundation Model Operating System (FMOS) -- a system layer that virtualizes FM interactions analogous to how virtual machines abstract physical hardware, giving applications the illusion of dedicated, trustworthy FM instances with effectively unbounded capabilities. Internally, the FMOS orchestrates knowledge across memory tiers, model selection and resource allocation, and verification and policy enforcement. Like the human brain switching between fast intuition and slow deliberation, the FMOS learns when to intervene and when to let inference proceed directly and continuously adapting its policies based on operational experience.",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "立场：是时候用自进化操作系统层虚拟化基础模型",
+        "summary": "该立场论文提出需要基础模型操作系统（FMOS），作为虚拟化基础模型交互的系统层，统一编排记忆分层、模型选择、资源分配与策略验证，使应用获得专用可信的FM实例，并像人脑一样自适应地在快直觉与慢推理间切换。",
+        "summary_en": "This position paper argues for a Foundation Model Operating System (FMOS) that virtualizes FM interactions, orchestrating memory tiers, model selection, resource allocation, and policy enforcement to give applications dedicated, trustworthy FM instances, adaptively switching between fast intuition and slow deliberation.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "infrastructure",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-18-rss-002",
+        "title": "立场：是时候用自进化操作系统层虚拟化基础模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.19203",
+        "language": "en",
+        "summary": "该立场论文提出需要基础模型操作系统（FMOS），作为虚拟化基础模型交互的系统层，统一编排记忆分层、模型选择、资源分配与策略验证，使应用获得专用可信的FM实例，并像人脑一样自适应地在快直觉与慢推理间切换。",
+        "summary_en": "This position paper argues for a Foundation Model Operating System (FMOS) that virtualizes FM interactions, orchestrating memory tiers, model selection, resource allocation, and policy enforcement to give applications dedicated, trustworthy FM instances, adaptively switching between fast intuition and slow deliberation.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "infrastructure",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-18T20:41:10.276475+08:00",
+        "updated_at": "2026-09-18T20:41:10.276476+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "What Do Current Systematic Generalization Tasks Miss? A Reasoning-Centered Analysis",
+      "url": "https://arxiv.org/abs/2609.19212",
+      "description": "arXiv:2609.19212v1 Announce Type: new \nAbstract: Systematic generalization, the ability to solve novel problems by recombining known atomic elements, is central to human intelligence but difficult to study rigorously under controlled settings. Existing studies therefore rely on simplifications such as approximately linear action composition, productivity-based tests, and action-explicit goals, which make systematic generalization easier to study but omit some essential aspects of this capability. To characterize what these simplifications miss, we adopt a reasoning-centered lens and introduce TranSGrid, a testbed that brings deductive, inductive, and abductive reasoning together within a unified task. Experiments with seven Transformers on 4,800 TranSGrid instances show that all models perform much worse on TranSGrid than on a held-out test set: the largest model solves 79.6% of the test set, but only 55.3% of TranSGrid and 15.8% of the hardest subset. The gap remains within the training length range, showing that productivity alone is not sufficient to evaluate systematic generalization. Additionally, we reintroduce the other two simplifications into TranSGrid: one variant makes actions compose almost linearly (reducing the inductive demand), the other makes goals action-explicit (reducing the abductive one). In both, solve rates return to roughly the test set level, showing that either simplification alone is enough to reduce TranSGrid to an ordinary held-out test set. Together, our results show that existing tasks reduce either or both of the inductive and abductive demands, and that comprehensively measuring systematic generalization requires a task that involves all three forms of reasoning.",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "现有系统泛化任务遗漏了什么？以推理为中心的分析",
+        "summary": "论文指出当前系统泛化任务通过线性动作组合、基于生产力的测试和动作显式目标等简化，遗漏了归纳与溯因推理的关键要素。作者提出TranSGrid测试平台，统一演绎、归纳与溯因推理，实验显示七个Transformer模型在TranSGrid上表现远差于普通测试集，最大模型仅解决55.3%，最难子集仅15.8%。",
+        "summary_en": "The paper argues that existing systematic generalization tasks rely on simplifications—approximately linear action composition, productivity-based tests, and action-explicit goals—that omit key inductive and abductive reasoning demands. The authors introduce TranSGrid, a testbed unifying deductive, inductive, and abductive reasoning. Experiments with seven Transformers on 4,800 instances show all models perform far worse than on held-out test sets: the largest solves 79.6% of the test set but only 55.3% of TranSGrid and 15.8% of the hardest subset.",
+        "tags": [
+          "research",
+          "benchmark",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-18-rss-007",
+        "title": "现有系统泛化任务遗漏了什么？以推理为中心的分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.19212",
+        "language": "en",
+        "summary": "论文指出当前系统泛化任务通过线性动作组合、基于生产力的测试和动作显式目标等简化，遗漏了归纳与溯因推理的关键要素。作者提出TranSGrid测试平台，统一演绎、归纳与溯因推理，实验显示七个Transformer模型在TranSGrid上表现远差于普通测试集，最大模型仅解决55.3%，最难子集仅15.8%。",
+        "summary_en": "The paper argues that existing systematic generalization tasks rely on simplifications—approximately linear action composition, productivity-based tests, and action-explicit goals—that omit key inductive and abductive reasoning demands. The authors introduce TranSGrid, a testbed unifying deductive, inductive, and abductive reasoning. Experiments with seven Transformers on 4,800 instances show all models perform far worse than on held-out test sets: the largest solves 79.6% of the test set but only 55.3% of TranSGrid and 15.8% of the hardest subset.",
+        "tags": [
+          "research",
+          "benchmark",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-09-18T20:41:10.276498+08:00",
+        "updated_at": "2026-09-18T20:41:10.276499+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Modality Discrepancy Transformer for Ambivalence and Hesitancy Recognition",
+      "url": "https://arxiv.org/abs/2609.19148",
+      "description": "arXiv:2609.19148v1 Announce Type: new \nAbstract: Ambivalence and hesitancy (A/H) are affective states in which individuals express contradictory signals across facial, vocal, and linguistic channels. Automatically recognising A/H in clinical videos requires detecting cross-modal disagreement -- the signal that standard fusion methods suppress. Based on the conflict-aware multimodal fusion framework of Bekhouche et al., we present the Modality Discrepancy Transformer (MDT). MDT enriches the original 6-token design to a 9-token representation comprising three modality embeddings, three absolute-difference features, and three Hadamard-product discrepancy features learned through linear projections. These nine tokens undergo Transformer self-attention, with FiLM-based text-conditioned modulation and LoRA fine-tuning as core architectural components. A text-guided late fusion branch blends a text-only auxiliary head with the full multimodal output at inference. On the BAH dataset from the 3rd ABAW Challenge, MDT achieves 0.7408 Macro F1 on the labelled test split and 0.7368 on the private leaderboard, outperforming the strongest published baseline by over 10 points while training in under 20 minutes on a single GPU.",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "模态差异Transformer用于矛盾与犹豫识别",
+        "summary": "本文提出模态差异Transformer（MDT），基于冲突感知多模态融合框架，将6-token设计扩展为9-token表示，包含模态嵌入、绝对差特征和Hadamard积差异特征，通过Transformer自注意力、FiLM文本条件调制和LoRA微调实现。在BAH数据集上Macro F1达0.7408，超越最强基线超10个点，单GPU训练不到20分钟。",
+        "summary_en": "This paper presents the Modality Discrepancy Transformer (MDT), built on a conflict-aware multimodal fusion framework. It extends the original 6-token design to a 9-token representation with modality embeddings, absolute-difference features, and Hadamard-product discrepancy features, processed via Transformer self-attention with FiLM-based text-conditioned modulation and LoRA fine-tuning. MDT achieves 0.7408 Macro F1 on the BAH dataset, outperforming the strongest baseline by over 10 points while training in under 20 minutes on a single GPU.",
+        "tags": [
+          "multimodal",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "llm"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.75,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-18-rss-009",
+        "title": "模态差异Transformer用于矛盾与犹豫识别",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.19148",
+        "language": "en",
+        "summary": "本文提出模态差异Transformer（MDT），基于冲突感知多模态融合框架，将6-token设计扩展为9-token表示，包含模态嵌入、绝对差特征和Hadamard积差异特征，通过Transformer自注意力、FiLM文本条件调制和LoRA微调实现。在BAH数据集上Macro F1达0.7408，超越最强基线超10个点，单GPU训练不到20分钟。",
+        "summary_en": "This paper presents the Modality Discrepancy Transformer (MDT), built on a conflict-aware multimodal fusion framework. It extends the original 6-token design to a 9-token representation with modality embeddings, absolute-difference features, and Hadamard-product discrepancy features, processed via Transformer self-attention with FiLM-based text-conditioned modulation and LoRA fine-tuning. MDT achieves 0.7408 Macro F1 on the BAH dataset, outperforming the strongest baseline by over 10 points while training in under 20 minutes on a single GPU.",
+        "tags": [
+          "multimodal",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "llm"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.75,
+        "status": "published",
+        "created_at": "2026-09-18T20:41:10.276506+08:00",
+        "updated_at": "2026-09-18T20:41:10.276508+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Subliminal Prompting Beyond Static Geometry: Causal Depth and Multi-Token Confounds",
+      "url": "https://arxiv.org/abs/2609.19149",
+      "description": "arXiv:2609.19149v1 Announce Type: new \nAbstract: Subliminal learning shows that language models can transmit a hidden trait through outputs that appear unrelated to it. One proposed explanation, token entanglement, links animal and number tokens through the model's output vocabulary. Yet existing measurements answer different questions: whether outputs co-vary, fixed output vectors align, an answer can be read from a hidden state, or that state causally controls the answer. We measure each separately in a fixed animal-number prompting protocol. From Llama-3.1-8B to 70B, fixed output-vector similarity predicts behavior less well: the paired mean correlation change is -0.080 (95% CI [-0.127, -0.035]). A fixed output-head readout shows no resolved change in normalized depth AUC. To test control, we copy the temporary answer-position state from one number prompt into another at five depths and measure which prompt the final animal score follows. Donor-control AUC rises from 0.254 to 0.540, a paired change of +0.286 (95% CI [+0.272, +0.300]), with increases for all 18 concepts. The contrast remains with exactly eight transformer blocks remaining, while specificity and identity controls remain small or exact. In two Qwen models, scoring every digit in sequence does not recover the positive one-token association. Per-token averaging instead creates a positive pooled association that disappears after controlling number width, revealing a length confound. Thus, fixed geometry, observational readability, causal timing, and multi-token measurement are distinct properties of this frozen prompting channel. They constrain token-level explanations but do not identify the mechanism of training-time trait transfer.",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "超越静态几何的潜意识提示：因果深度与多Token混淆",
+        "summary": "本文研究语言模型通过看似无关的输出传递隐藏特质（潜意识学习）的机制。作者在动物-数字提示协议中分别测量固定输出向量相似度、隐藏状态可读性、因果控制及多Token测量，发现这些是冻结提示通道的不同属性，并揭示了长度混淆问题。",
+        "summary_en": "This paper investigates subliminal learning, where language models transmit hidden traits through seemingly unrelated outputs. Using a fixed animal-number prompting protocol, the authors separately measure fixed output-vector similarity, hidden-state readability, causal control, and multi-token measurement, finding these are distinct properties of the frozen prompting channel and revealing a length confound.",
+        "tags": [
+          "llm",
+          "research",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-18-rss-004",
+        "title": "超越静态几何的潜意识提示：因果深度与多Token混淆",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.19149",
+        "language": "en",
+        "summary": "本文研究语言模型通过看似无关的输出传递隐藏特质（潜意识学习）的机制。作者在动物-数字提示协议中分别测量固定输出向量相似度、隐藏状态可读性、因果控制及多Token测量，发现这些是冻结提示通道的不同属性，并揭示了长度混淆问题。",
+        "summary_en": "This paper investigates subliminal learning, where language models transmit hidden traits through seemingly unrelated outputs. Using a fixed animal-number prompting protocol, the authors separately measure fixed output-vector similarity, hidden-state readability, causal control, and multi-token measurement, finding these are distinct properties of the frozen prompting channel and revealing a length confound.",
+        "tags": [
+          "llm",
+          "research",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-18T20:41:10.276484+08:00",
+        "updated_at": "2026-09-18T20:41:10.276486+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Sampling Reveals Style: Unsupervised, Training-Free Discovery of Prompt-Conditional Stylistic Axes in LLM Activations",
+      "url": "https://arxiv.org/abs/2609.19150",
+      "description": "arXiv:2609.19150v1 Announce Type: new \nAbstract: Large language models (LLMs) encode rich stylistic structure in their hidden activations, but discovering which stylistic dimensions are salient for a given prompt typically requires supervised contrastive data. We present a training-free, prompt-conditional alternative: we repeatedly sample completions of a single prompt at elevated temperature, apply Principal Component Analysis (PCA) to the pooled hidden activations, and label the resulting axes automatically from the pole generations. We validate the discovered axes against 245 human-elicited stylistic annotations in a two-phase study. On our strongest model (Qwen-3.5-4B-Instruct), the top two axes match spontaneously requested human dimensions with 72.8% precision and 43.6% macro-recall, and 75.6% of validity ratings judge the axes' polar generations accurate to their labels, with 90.9% adjacent inter-annotator agreement. Discoverability is strongly model-dependent: both Qwen models and Llama-3.2-3B expose human-salient axes, while DeepSeek-7B-Chat drops to 35.3% precision, its leading components dominated by structural rather than stylistic variance. Simple PCA over a model's own decoding variance is thus an effective, low-cost probe of stylistic structure in LLM representations, one that also exposes sharp cross-model differences in how that structure is organized.",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "采样揭示风格：无监督、免训练发现LLM激活中的提示条件风格轴",
+        "summary": "提出一种免训练、提示条件的方法：对单一提示高温多次采样，对隐藏激活做PCA，并自动标注风格轴。在Qwen-3.5-4B-Instruct上，前两轴与人类风格维度匹配精度72.8%，极性生成准确率75.6%。可发现性因模型而异，DeepSeek-7B-Chat精度仅35.3%。",
+        "summary_en": "A training-free, prompt-conditional method: repeatedly sample one prompt at high temperature, apply PCA to hidden activations, and auto-label the resulting stylistic axes. On Qwen-3.5-4B-Instruct, top two axes match human stylistic dimensions with 72.8% precision and 75.6% polar-generation accuracy. Discoverability is model-dependent, dropping to 35.3% precision on DeepSeek-7B-Chat.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-18-rss-005",
+        "title": "采样揭示风格：无监督、免训练发现LLM激活中的提示条件风格轴",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.19150",
+        "language": "en",
+        "summary": "提出一种免训练、提示条件的方法：对单一提示高温多次采样，对隐藏激活做PCA，并自动标注风格轴。在Qwen-3.5-4B-Instruct上，前两轴与人类风格维度匹配精度72.8%，极性生成准确率75.6%。可发现性因模型而异，DeepSeek-7B-Chat精度仅35.3%。",
+        "summary_en": "A training-free, prompt-conditional method: repeatedly sample one prompt at high temperature, apply PCA to hidden activations, and auto-label the resulting stylistic axes. On Qwen-3.5-4B-Instruct, top two axes match human stylistic dimensions with 72.8% precision and 75.6% polar-generation accuracy. Discoverability is model-dependent, dropping to 35.3% precision on DeepSeek-7B-Chat.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-18T20:41:10.276488+08:00",
+        "updated_at": "2026-09-18T20:41:10.276490+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "What Users Think of Generative AI: A Cross-Platform NLP Analysis of Trust and Friction in App Store Reviews",
+      "url": "https://arxiv.org/abs/2609.19151",
+      "description": "arXiv:2609.19151v1 Announce Type: new \nAbstract: Generative AI (GenAI) applications have achieved rapid consumer adoption, yet little large-scale research examines user-perceived quality, trust, and adoption barriers. We present one of the first cross-application analyses of app store reviews for six major GenAI applications (ChatGPT, Gemini, Microsoft Copilot, Claude, DeepSeek, and Perplexity), comprising 17,012 English-language reviews from Google Play and the Apple App Store. We combine BERTopic topic modeling with RoBERTa sentiment classification and evaluate cross-application differences using chi-square, Kruskal-Wallis, and multinomial logistic regression with Bonferroni correction. Both components are validated against human coding using a stratified sample of 300 reviews. Results show that negative sentiment concentrates in advertising (91%), authentication (89%), server reliability (83%), and subscription pricing (73%). Sentiment differs significantly across applications, with Claude exhibiting the highest negative sentiment (47.7%) alongside a strongly enthusiastic user base, indicating statistically significant polarization. These findings are robust despite unequal review counts across applications. As exploratory observations, a subset of DeepSeek reviews raised geopolitical and data privacy concerns related to its Chinese origin, while a proposed Trust Friction Score summarizes application-specific trust and usability barriers into interpretable dimensions. The study provides validated and actionable evidence on user trust, usability, and adoption barriers in consumer generative AI applications.",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "用户如何看待生成式AI：应用商店评论中信任与摩擦的跨平台NLP分析",
+        "summary": "该研究分析了六大生成式AI应用（ChatGPT、Gemini、Copilot、Claude、DeepSeek、Perplexity）的17012条英文应用商店评论，结合BERTopic主题建模与RoBERTa情感分类，发现负面情绪集中于广告、认证、服务器可靠性和订阅定价，并揭示不同应用间情感差异显著，Claude负面情绪最高且用户群体极化明显。",
+        "summary_en": "This study analyzes 17,012 English app store reviews across six major GenAI applications (ChatGPT, Gemini, Copilot, Claude, DeepSeek, Perplexity), combining BERTopic topic modeling with RoBERTa sentiment classification. Negative sentiment concentrates in advertising, authentication, server reliability, and subscription pricing, with significant cross-application differences; Claude shows the highest negative sentiment (47.7%) alongside a strongly enthusiastic user base, indicating polarization.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-18-rss-006",
+        "title": "用户如何看待生成式AI：应用商店评论中信任与摩擦的跨平台NLP分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.19151",
+        "language": "en",
+        "summary": "该研究分析了六大生成式AI应用（ChatGPT、Gemini、Copilot、Claude、DeepSeek、Perplexity）的17012条英文应用商店评论，结合BERTopic主题建模与RoBERTa情感分类，发现负面情绪集中于广告、认证、服务器可靠性和订阅定价，并揭示不同应用间情感差异显著，Claude负面情绪最高且用户群体极化明显。",
+        "summary_en": "This study analyzes 17,012 English app store reviews across six major GenAI applications (ChatGPT, Gemini, Copilot, Claude, DeepSeek, Perplexity), combining BERTopic topic modeling with RoBERTa sentiment classification. Negative sentiment concentrates in advertising, authentication, server reliability, and subscription pricing, with significant cross-application differences; Claude shows the highest negative sentiment (47.7%) alongside a strongly enthusiastic user base, indicating polarization.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-18T20:41:10.276493+08:00",
+        "updated_at": "2026-09-18T20:41:10.276494+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "FakeSpotter: A content and strategy agnostic Viral Misinformation Detection Tool",
+      "url": "https://arxiv.org/abs/2609.19152",
+      "description": "arXiv:2609.19152v1 Announce Type: new \nAbstract: Misinformation detection tools often rely on binary true and false classifications or models trained on historical examples, limiting their usefulness when novel misleading narratives emerge. Here, we present FakeSpotter, a content- and strategy-agnostic tool designed to estimate the viral misinformation risk of textual content by measuring structural fingerprints of misinformation rather than directly adjudicating truthfulness. FakeSpotter operationalizes a theory-driven framework across linguistic, narrative, logical, and critical-thinking dimensions, using repeated LLM assessments and domain-specific logistic regression classifiers for short and long texts. In a labelled corpus of 764 texts from social media and FakeNewsNet, FakeSpotter achieved macro F1 scores of 0.788 for short texts and 0.793 for long texts on a held-out test set. FakeSpotter's interpretive layer provides explainable outputs through feature-based scores, signal agreement, and a caution index, and can be used for social listening. These findings suggest that identifying the structural fingerprints of misinformation can support early, explainable, and human-supervised assessment of potentially viral misinformation.",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "FakeSpotter：内容与策略无关的病毒式虚假信息检测工具",
+        "summary": "FakeSpotter 通过测量虚假信息的结构性指纹（语言、叙事、逻辑与批判性思维维度），而非直接判断真伪，来评估文本的病毒式虚假信息风险。它结合重复的 LLM 评估与逻辑回归分类器，在 764 篇文本上短文本宏 F1 达 0.788，长文本达 0.793，并提供可解释输出。",
+        "summary_en": "FakeSpotter estimates the viral misinformation risk of text by measuring structural fingerprints of misinformation rather than adjudicating truthfulness. It combines repeated LLM assessments with domain-specific logistic regression classifiers across linguistic, narrative, logical, and critical-thinking dimensions, achieving macro F1 of 0.788 for short texts and 0.793 for long texts on a labelled corpus of 764 texts, with explainable outputs.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-18-rss-008",
+        "title": "FakeSpotter：内容与策略无关的病毒式虚假信息检测工具",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.19152",
+        "language": "en",
+        "summary": "FakeSpotter 通过测量虚假信息的结构性指纹（语言、叙事、逻辑与批判性思维维度），而非直接判断真伪，来评估文本的病毒式虚假信息风险。它结合重复的 LLM 评估与逻辑回归分类器，在 764 篇文本上短文本宏 F1 达 0.788，长文本达 0.793，并提供可解释输出。",
+        "summary_en": "FakeSpotter estimates the viral misinformation risk of text by measuring structural fingerprints of misinformation rather than adjudicating truthfulness. It combines repeated LLM assessments with domain-specific logistic regression classifiers across linguistic, narrative, logical, and critical-thinking dimensions, achieving macro F1 of 0.788 for short texts and 0.793 for long texts on a labelled corpus of 764 texts, with explainable outputs.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-09-18T20:41:10.276502+08:00",
+        "updated_at": "2026-09-18T20:41:10.276503+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

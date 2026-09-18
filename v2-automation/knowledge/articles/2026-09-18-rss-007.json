@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-18-rss-007",
+  "title": "现有系统泛化任务遗漏了什么？以推理为中心的分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.19212",
+  "language": "en",
+  "summary": "论文指出当前系统泛化任务通过线性动作组合、基于生产力的测试和动作显式目标等简化，遗漏了归纳与溯因推理的关键要素。作者提出TranSGrid测试平台，统一演绎、归纳与溯因推理，实验显示七个Transformer模型在TranSGrid上表现远差于普通测试集，最大模型仅解决55.3%，最难子集仅15.8%。",
+  "summary_en": "The paper argues that existing systematic generalization tasks rely on simplifications—approximately linear action composition, productivity-based tests, and action-explicit goals—that omit key inductive and abductive reasoning demands. The authors introduce TranSGrid, a testbed unifying deductive, inductive, and abductive reasoning. Experiments with seven Transformers on 4,800 instances show all models perform far worse than on held-out test sets: the largest solves 79.6% of the test set but only 55.3% of TranSGrid and 15.8% of the hardest subset.",
+  "tags": [
+    "research",
+    "benchmark",
+    "evaluation",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-09-18T20:41:10.276498+08:00",
+  "updated_at": "2026-09-18T20:41:10.276499+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

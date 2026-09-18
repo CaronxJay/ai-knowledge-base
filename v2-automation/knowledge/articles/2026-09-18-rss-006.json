@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-18-rss-006",
+  "title": "用户如何看待生成式AI：应用商店评论中信任与摩擦的跨平台NLP分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.19151",
+  "language": "en",
+  "summary": "该研究分析了六大生成式AI应用（ChatGPT、Gemini、Copilot、Claude、DeepSeek、Perplexity）的17012条英文应用商店评论，结合BERTopic主题建模与RoBERTa情感分类，发现负面情绪集中于广告、认证、服务器可靠性和订阅定价，并揭示不同应用间情感差异显著，Claude负面情绪最高且用户群体极化明显。",
+  "summary_en": "This study analyzes 17,012 English app store reviews across six major GenAI applications (ChatGPT, Gemini, Copilot, Claude, DeepSeek, Perplexity), combining BERTopic topic modeling with RoBERTa sentiment classification. Negative sentiment concentrates in advertising, authentication, server reliability, and subscription pricing, with significant cross-application differences; Claude shows the highest negative sentiment (47.7%) alongside a strongly enthusiastic user base, indicating polarization.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "application",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-18T20:41:10.276493+08:00",
+  "updated_at": "2026-09-18T20:41:10.276494+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-18-rss-003",
+  "title": "BioPhys-Bridge：物理基础生物学跨学科科学推理基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.19180",
+  "language": "en",
+  "summary": "BioPhys-Bridge 是一个面向生物物理文献的跨学科科学推理基准，包含500个案例和1517个智能体任务，覆盖六个生物学领域和九个物理模型族，要求模型基于证据进行定量物理建模并关联生物机制。初步评测显示 DeepSeek-V4-Flash 证据ID F1 最高（0.360）。",
+  "summary_en": "BioPhys-Bridge is a benchmark for evidence-grounded interdisciplinary scientific reasoning over biophysical literature, with 500 cases and 1,517 agent-facing tasks spanning six biological domains and nine physical model families. It evaluates attribution, faithfulness, and hallucination reduction; DeepSeek-V4-Flash achieved the highest evidence-ID F1 (0.360).",
+  "tags": [
+    "benchmark",
+    "research",
+    "rag",
+    "evaluation",
+    "llm"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-18T20:41:10.276480+08:00",
+  "updated_at": "2026-09-18T20:41:10.276481+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

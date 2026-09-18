@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-18-rss-004",
+  "title": "超越静态几何的潜意识提示：因果深度与多Token混淆",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.19149",
+  "language": "en",
+  "summary": "本文研究语言模型通过看似无关的输出传递隐藏特质（潜意识学习）的机制。作者在动物-数字提示协议中分别测量固定输出向量相似度、隐藏状态可读性、因果控制及多Token测量，发现这些是冻结提示通道的不同属性，并揭示了长度混淆问题。",
+  "summary_en": "This paper investigates subliminal learning, where language models transmit hidden traits through seemingly unrelated outputs. Using a fixed animal-number prompting protocol, the authors separately measure fixed output-vector similarity, hidden-state readability, causal control, and multi-token measurement, finding these are distinct properties of the frozen prompting channel and revealing a length confound.",
+  "tags": [
+    "llm",
+    "research",
+    "prompt-engineering",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-18T20:41:10.276484+08:00",
+  "updated_at": "2026-09-18T20:41:10.276486+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

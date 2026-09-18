@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-18-rss-009",
+  "title": "模态差异Transformer用于矛盾与犹豫识别",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.19148",
+  "language": "en",
+  "summary": "本文提出模态差异Transformer（MDT），基于冲突感知多模态融合框架，将6-token设计扩展为9-token表示，包含模态嵌入、绝对差特征和Hadamard积差异特征，通过Transformer自注意力、FiLM文本条件调制和LoRA微调实现。在BAH数据集上Macro F1达0.7408，超越最强基线超10个点，单GPU训练不到20分钟。",
+  "summary_en": "This paper presents the Modality Discrepancy Transformer (MDT), built on a conflict-aware multimodal fusion framework. It extends the original 6-token design to a 9-token representation with modality embeddings, absolute-difference features, and Hadamard-product discrepancy features, processed via Transformer self-attention with FiLM-based text-conditioned modulation and LoRA fine-tuning. MDT achieves 0.7408 Macro F1 on the BAH dataset, outperforming the strongest baseline by over 10 points while training in under 20 minutes on a single GPU.",
+  "tags": [
+    "multimodal",
+    "research",
+    "fine-tuning",
+    "evaluation",
+    "llm"
+  ],
+  "category": "multimodal",
+  "relevance_score": 0.75,
+  "status": "published",
+  "created_at": "2026-09-18T20:41:10.276506+08:00",
+  "updated_at": "2026-09-18T20:41:10.276508+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

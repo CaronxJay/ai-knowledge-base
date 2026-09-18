@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-18-rss-008",
+  "title": "FakeSpotter：内容与策略无关的病毒式虚假信息检测工具",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.19152",
+  "language": "en",
+  "summary": "FakeSpotter 通过测量虚假信息的结构性指纹（语言、叙事、逻辑与批判性思维维度），而非直接判断真伪，来评估文本的病毒式虚假信息风险。它结合重复的 LLM 评估与逻辑回归分类器，在 764 篇文本上短文本宏 F1 达 0.788，长文本达 0.793，并提供可解释输出。",
+  "summary_en": "FakeSpotter estimates the viral misinformation risk of text by measuring structural fingerprints of misinformation rather than adjudicating truthfulness. It combines repeated LLM assessments with domain-specific logistic regression classifiers across linguistic, narrative, logical, and critical-thinking dimensions, achieving macro F1 of 0.788 for short texts and 0.793 for long texts on a labelled corpus of 764 texts, with explainable outputs.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "application",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-09-18T20:41:10.276502+08:00",
+  "updated_at": "2026-09-18T20:41:10.276503+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

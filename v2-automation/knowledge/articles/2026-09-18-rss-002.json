@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-18-rss-002",
+  "title": "立场：是时候用自进化操作系统层虚拟化基础模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.19203",
+  "language": "en",
+  "summary": "该立场论文提出需要基础模型操作系统（FMOS），作为虚拟化基础模型交互的系统层，统一编排记忆分层、模型选择、资源分配与策略验证，使应用获得专用可信的FM实例，并像人脑一样自适应地在快直觉与慢推理间切换。",
+  "summary_en": "This position paper argues for a Foundation Model Operating System (FMOS) that virtualizes FM interactions, orchestrating memory tiers, model selection, resource allocation, and policy enforcement to give applications dedicated, trustworthy FM instances, adaptively switching between fast intuition and slow deliberation.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "infrastructure",
+    "research",
+    "prompt-engineering"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-18T20:41:10.276475+08:00",
+  "updated_at": "2026-09-18T20:41:10.276476+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

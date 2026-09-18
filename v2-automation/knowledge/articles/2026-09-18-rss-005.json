@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-18-rss-005",
+  "title": "采样揭示风格：无监督、免训练发现LLM激活中的提示条件风格轴",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.19150",
+  "language": "en",
+  "summary": "提出一种免训练、提示条件的方法：对单一提示高温多次采样，对隐藏激活做PCA，并自动标注风格轴。在Qwen-3.5-4B-Instruct上，前两轴与人类风格维度匹配精度72.8%，极性生成准确率75.6%。可发现性因模型而异，DeepSeek-7B-Chat精度仅35.3%。",
+  "summary_en": "A training-free, prompt-conditional method: repeatedly sample one prompt at high temperature, apply PCA to hidden activations, and auto-label the resulting stylistic axes. On Qwen-3.5-4B-Instruct, top two axes match human stylistic dimensions with 72.8% precision and 75.6% polar-generation accuracy. Discoverability is model-dependent, dropping to 35.3% precision on DeepSeek-7B-Chat.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-18T20:41:10.276488+08:00",
+  "updated_at": "2026-09-18T20:41:10.276490+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
