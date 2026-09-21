@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-21-rss-008",
+  "title": "TALON：面向放射报告生成的时间感知纵向框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.20826",
+  "language": "en",
+  "summary": "TALON是一个时间感知的纵向放射报告生成框架，通过双通道时间融合模块（DCTFM）自适应整合变长患者病史，利用相似性与变化双通道比较当前与历史检查，并通过通道专属注意力和门控机制筛选有效纵向证据。在MIMIC-CXR上超越现有最优方法，且历史检查越多性能越好。",
+  "summary_en": "TALON is a Temporally Aware LONgitudinal radiology report generation framework that adaptively integrates variable-length patient histories. Its Dual-Channel Temporal Fusion Module (DCTFM) compares the current exam with each prior exam via complementary similarity and change channels, using channel-specific attention and learned gates to capture persistent findings and interval changes while suppressing redundancy. On MIMIC-CXR, TALON outperforms state-of-the-art methods, with performance improving as more prior exams become available.",
+  "tags": [
+    "research",
+    "multimodal",
+    "llm",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-09-21T22:49:41.166354+08:00",
+  "updated_at": "2026-09-21T22:49:41.166355+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-21-rss-001",
+  "title": "RBS-Attention：面向长上下文大模型的半径约束稀疏预填充",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.20971",
+  "language": "en",
+  "summary": "提出免训练的稀疏预填充方法 RBS-Attention，通过质心基分支与救援分支的双分支选择缓解均值稀释问题，在 H100 上实现最高 20.65 倍预填充注意力加速，并在 RULER 等基准上保持接近稠密注意力的质量。",
+  "summary_en": "RBS-Attention is a training-free sparse-prefill method with dual selection branches (centroid base and rescue) to mitigate mean dilution. It achieves up to 20.65x prefill-attention speedup on H100 while maintaining near-dense quality on RULER and other long-context benchmarks.",
+  "tags": [
+    "llm",
+    "research",
+    "infrastructure",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-21T22:49:41.166324+08:00",
+  "updated_at": "2026-09-21T22:49:41.166327+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

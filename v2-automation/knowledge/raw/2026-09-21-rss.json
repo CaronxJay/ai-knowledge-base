@@ -1,0 +1,485 @@
+{
+  "collected_at": "2026-09-21T22:49:41.167036+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "url": "https://arxiv.org/abs/2609.20971",
+      "description": "arXiv:2609.20971v1 Announce Type: new \nAbstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may hide a highly relevant token among many irrelevant ones. We call this failure mode mean dilution and propose RBS-Attention, a training-free sparse-prefill method with two complementary selection branches. A centroid base branch captures average relevance, while a rescue branch uses the maximum key-block radius and its prompt-, layer-, and head-dependent distribution to identify blocks at risk of underestimation. Independently thresholding the two branches and combining their masks controls the contribution of rescue blocks while preserving regular block-sparse FlashAttention execution. On H100 GPUs, RBS-Attention achieves 20.65$\\times$ standalone prefill-attention speedup, 11.92$\\times$ vLLM prefill-attention speedup, and 5.97$\\times$ end-to-end time-to-first-token speedup at 128K on Qwen3-30B-A3B-Instruct-2507-FP8. On the dense Qwen3-32B model, it obtains 88.65 overall RULER accuracy versus 89.52 for dense attention; LongBench-v2, InfiniteBench, and Video-MME provide additional quality evaluation. Supporting experiments measure actual retention, compare selectors at matched density, and characterize block-size, threshold, and memory behavior. Together, these results support radius-adaptive dual-branch selection as an effective approach to long-context prefill.",
+      "pub_date": "Mon, 21 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RBS-Attention：面向长上下文大模型的半径约束稀疏预填充",
+        "summary": "提出免训练的稀疏预填充方法 RBS-Attention，通过质心基分支与救援分支的双分支选择缓解均值稀释问题，在 H100 上实现最高 20.65 倍预填充注意力加速，并在 RULER 等基准上保持接近稠密注意力的质量。",
+        "summary_en": "RBS-Attention is a training-free sparse-prefill method with dual selection branches (centroid base and rescue) to mitigate mean dilution. It achieves up to 20.65x prefill-attention speedup on H100 while maintaining near-dense quality on RULER and other long-context benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-21-rss-001",
+        "title": "RBS-Attention：面向长上下文大模型的半径约束稀疏预填充",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.20971",
+        "language": "en",
+        "summary": "提出免训练的稀疏预填充方法 RBS-Attention，通过质心基分支与救援分支的双分支选择缓解均值稀释问题，在 H100 上实现最高 20.65 倍预填充注意力加速，并在 RULER 等基准上保持接近稠密注意力的质量。",
+        "summary_en": "RBS-Attention is a training-free sparse-prefill method with dual selection branches (centroid base and rescue) to mitigate mean dilution. It achieves up to 20.65x prefill-attention speedup on H100 while maintaining near-dense quality on RULER and other long-context benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-21T22:49:41.166324+08:00",
+        "updated_at": "2026-09-21T22:49:41.166327+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
+      "url": "https://arxiv.org/abs/2609.20974",
+      "description": "arXiv:2609.20974v1 Announce Type: new \nAbstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which augments the router with temporal and spectral features extracted from a sliding window of attention weights that represent a summary of the model's contextual state, disentangled from the hidden state. Keeping the base transformer entirely frozen, we train only the routing parameters, isolating routing as the sole variable. AAR improves GSM8K by +3.37 pp over a routing-only SFT baseline on OLMoE. Beyond performance, we show that routing and attention form a coupled circuit: routing changes at layer l propagate through the residual stream to amplify attention sinks at layer l+1, reshaping attention without any direct update to the attention mechanism itself. Further, AAR reduces long diverging generation, with incorrect answers getting shorter, while correct answers remain unchanged in length. Finally, AAR is strongly depth-sensitive: applying it indiscriminately across layers can degrade factual retrieval, whereas mathematical reasoning gains persist when it is introduced deeper in the network. This sensitivity exposes a retrieval--reasoning tension across depth and makes layer-selective AAR a controlled probe of the routing-relevant information carried by attention at different layers.",
+      "pub_date": "Mon, 21 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "注意力感知路由：在MoE中耦合路由与注意力机制",
+        "summary": "提出注意力感知路由（AAR），利用注意力权重滑动窗口提取的时序与频谱特征增强MoE路由器，在冻结基础Transformer的情况下仅训练路由参数。在OLMoE上GSM8K提升3.37个百分点，并揭示路由与注意力形成耦合回路，且具有深度敏感性。",
+        "summary_en": "Proposes Attention-Aware Routing (AAR), which augments the MoE router with temporal and spectral features from a sliding window of attention weights. Keeping the base transformer frozen, only routing parameters are trained. AAR improves GSM8K by +3.37 pp on OLMoE and reveals a coupled routing-attention circuit with strong depth sensitivity.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-21-rss-002",
+        "title": "注意力感知路由：在MoE中耦合路由与注意力机制",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.20974",
+        "language": "en",
+        "summary": "提出注意力感知路由（AAR），利用注意力权重滑动窗口提取的时序与频谱特征增强MoE路由器，在冻结基础Transformer的情况下仅训练路由参数。在OLMoE上GSM8K提升3.37个百分点，并揭示路由与注意力形成耦合回路，且具有深度敏感性。",
+        "summary_en": "Proposes Attention-Aware Routing (AAR), which augments the MoE router with temporal and spectral features from a sliding window of attention weights. Keeping the base transformer frozen, only routing parameters are trained. AAR improves GSM8K by +3.37 pp on OLMoE and reveals a coupled routing-attention circuit with strong depth sensitivity.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-21T22:49:41.166331+08:00",
+        "updated_at": "2026-09-21T22:49:41.166332+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
+      "url": "https://arxiv.org/abs/2609.20981",
+      "description": "arXiv:2609.20981v1 Announce Type: new \nAbstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the dual, we propose Causal Latent Revision (CaLR), a framework that reformulates reasoning as constrained latent optimization. By adopting a causal topology matrix (CTM) from an expert model and implicit differentiation, CaLR performs gradient-guided ``thought revision\" to enforce logical consistency, enabling dynamic self-correction of intermediate steps during parallel generation. Empirically, CaLR achieves SOTA DLM performance on complex benchmarks, surpassing strong AR baselines and demonstrating superior robustness in constrained tasks like Sudoku.",
+      "pub_date": "Mon, 21 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CaLR：面向鲁棒扩散推理的因果潜在修正框架",
+        "summary": "CaLR将推理重构为受约束的潜在优化，利用专家模型的因果拓扑矩阵与隐式微分进行梯度引导的“思维修正”，在并行生成中实现中间步骤的动态自我纠错，在复杂基准上达到扩散语言模型SOTA，并在数独等约束任务中展现更强鲁棒性。",
+        "summary_en": "CaLR reformulates reasoning as constrained latent optimization, using a causal topology matrix from an expert model and implicit differentiation to perform gradient-guided \"thought revision\" for dynamic self-correction during parallel generation. It achieves SOTA DLM performance on complex benchmarks and superior robustness on constrained tasks like Sudoku.",
+        "tags": [
+          "llm",
+          "research",
+          "reasoning",
+          "evaluation"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-21-rss-003",
+        "title": "CaLR：面向鲁棒扩散推理的因果潜在修正框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.20981",
+        "language": "en",
+        "summary": "CaLR将推理重构为受约束的潜在优化，利用专家模型的因果拓扑矩阵与隐式微分进行梯度引导的“思维修正”，在并行生成中实现中间步骤的动态自我纠错，在复杂基准上达到扩散语言模型SOTA，并在数独等约束任务中展现更强鲁棒性。",
+        "summary_en": "CaLR reformulates reasoning as constrained latent optimization, using a causal topology matrix from an expert model and implicit differentiation to perform gradient-guided \"thought revision\" for dynamic self-correction during parallel generation. It achieves SOTA DLM performance on complex benchmarks and superior robustness on constrained tasks like Sudoku.",
+        "tags": [
+          "llm",
+          "research",
+          "reasoning",
+          "evaluation"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-21T22:49:41.166334+08:00",
+        "updated_at": "2026-09-21T22:49:41.166336+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+      "url": "https://arxiv.org/abs/2609.21061",
+      "description": "arXiv:2609.21061v1 Announce Type: new \nAbstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop assessment. We adapt DINOv3 Vision Transformer (ViT) models to underwater SAS ATR using a three-stage parameter-efficient framework. Stage 1 uses Low-Rank Adaptation (LoRA) while freezing the ViT backbone, bridging the gap between natural-image pretraining and underwater acoustic propagation. Stage 2 uses hard-negative mining to strengthen the decision boundary against acoustic mimics, including rocks and sediment formations resembling man-made targets. Stage 3 uses Supervised Contrastive Learning (SupCon) to separate target and clutter representations. We evaluate at-sea SAS data using a mission-level geographic split, compare all arms at 85 percent test recall, and repeat each comparison over three random seeds. LoRA accounts for the primary effect, increasing area under the precision-recall curve (AUPRC) from 0.300 to 0.679 +/- 0.027 using the same frozen backbone. Rank 4 achieves this result while training only 0.26 percent of weights. Neither refinement stage exceeds its matched control: hard-negative mining changes AUPRC by -0.0045 +/- 0.0119 versus an equal-size random curriculum, and SupCon changes AUPRC by +0.0002 +/- 0.0096 versus the preceding stage. These null results indicate that mining occurred on data the encoder had already fit and that supervised stages had already imposed most target-clutter geometry. One efficient adaptation stage is sufficient; stacked refinement is not.",
+      "pub_date": "Mon, 21 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于LoRA增强对比学习的SAS视觉Transformer目标识别",
+        "summary": "该研究将DINOv3视觉Transformer适配于合成孔径声呐自动目标识别，采用三阶段参数高效框架：LoRA微调、难负样本挖掘和监督对比学习。实验表明LoRA是主要增益来源，AUPRC从0.300提升至0.679，仅训练0.26%权重；后续精炼阶段无显著提升。",
+        "summary_en": "This work adapts DINOv3 Vision Transformers to synthetic aperture sonar automatic target recognition using a three-stage parameter-efficient framework: LoRA fine-tuning, hard-negative mining, and supervised contrastive learning. Results show LoRA drives the primary gain, raising AUPRC from 0.300 to 0.679 while training only 0.26% of weights; subsequent refinement stages yield no significant improvement.",
+        "tags": [
+          "fine-tuning",
+          "research",
+          "multimodal",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-21-rss-010",
+        "title": "基于LoRA增强对比学习的SAS视觉Transformer目标识别",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.21061",
+        "language": "en",
+        "summary": "该研究将DINOv3视觉Transformer适配于合成孔径声呐自动目标识别，采用三阶段参数高效框架：LoRA微调、难负样本挖掘和监督对比学习。实验表明LoRA是主要增益来源，AUPRC从0.300提升至0.679，仅训练0.26%权重；后续精炼阶段无显著提升。",
+        "summary_en": "This work adapts DINOv3 Vision Transformers to synthetic aperture sonar automatic target recognition using a three-stage parameter-efficient framework: LoRA fine-tuning, hard-negative mining, and supervised contrastive learning. Results show LoRA drives the primary gain, raising AUPRC from 0.300 to 0.679 while training only 0.26% of weights; subsequent refinement stages yield no significant improvement.",
+        "tags": [
+          "fine-tuning",
+          "research",
+          "multimodal",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-09-21T22:49:41.166360+08:00",
+        "updated_at": "2026-09-21T22:49:41.166361+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
+      "url": "https://arxiv.org/abs/2609.21096",
+      "description": "arXiv:2609.21096v1 Announce Type: new \nAbstract: In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated responses. We analyze the Forman-Ricci curvature to identify structural patterns indicating information bottlenecks in attention graphs. We then introduce a method that captures both semi-local and global information-flow characteristics of attention heads associated with hallucinated responses. We evaluate our approach extensively across several LLMs and established benchmarks. Empirical results demonstrate that our proposed single-pass approach provides consistent improvements over existing attention-based and multi-response baselines across two hallucination-detection benchmarks, while achieving competitive performance across diverse LLM architectures. Further analysis reveals that impaired context sharing among tokens during causal generation is strongly associated with hallucination occurrences in LLMs. In particular, hallucinated responses are consistently characterized by an over-reliance on self-attention, diffused context retrieval from earlier tokens, or information over-squashing, especially in the final transformer layer.",
+      "pub_date": "Mon, 21 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "检测大语言模型幻觉：追踪受损上下文共享的拓扑特征",
+        "summary": "本文通过分析注意力图中的信息流拓扑结构来区分幻觉与非幻觉响应，利用Forman-Ricci曲率识别信息瓶颈，提出一种单次推理方法，在多个LLM和基准上优于现有注意力及多响应基线，发现幻觉与自注意力过度依赖、上下文检索分散及信息过度压缩相关。",
+        "summary_en": "This work examines the topology of information flow within attention graphs to distinguish hallucinated from non-hallucinated responses. Using Forman-Ricci curvature to identify information bottlenecks, the authors propose a single-pass method capturing semi-local and global information-flow characteristics. It consistently outperforms existing attention-based and multi-response baselines across hallucination-detection benchmarks and diverse LLM architectures, revealing that impaired context sharing—over-reliance on self-attention, diffused context retrieval, or information over-squashing—strongly correlates with hallucination.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-21-rss-004",
+        "title": "检测大语言模型幻觉：追踪受损上下文共享的拓扑特征",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.21096",
+        "language": "en",
+        "summary": "本文通过分析注意力图中的信息流拓扑结构来区分幻觉与非幻觉响应，利用Forman-Ricci曲率识别信息瓶颈，提出一种单次推理方法，在多个LLM和基准上优于现有注意力及多响应基线，发现幻觉与自注意力过度依赖、上下文检索分散及信息过度压缩相关。",
+        "summary_en": "This work examines the topology of information flow within attention graphs to distinguish hallucinated from non-hallucinated responses. Using Forman-Ricci curvature to identify information bottlenecks, the authors propose a single-pass method capturing semi-local and global information-flow characteristics. It consistently outperforms existing attention-based and multi-response baselines across hallucination-detection benchmarks and diverse LLM architectures, revealing that impaired context sharing—over-reliance on self-attention, diffused context retrieval, or information over-squashing—strongly correlates with hallucination.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-21T22:49:41.166338+08:00",
+        "updated_at": "2026-09-21T22:49:41.166339+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Do small language models know what they don't know?",
+      "url": "https://arxiv.org/abs/2609.20824",
+      "description": "arXiv:2609.20824v1 Announce Type: new \nAbstract: We explore whether entropy-based confidence signals can be leveraged to improve the accuracy of Small Language Models (SLMs) with fewer than 3 billion parameters, running entirely on consumer hardware. We evaluate seven distinct approaches, including token-level entropy early stopping, semantic entropy estimation, and uncertainty-aware routing to larger expert models, across 7 model pairs and 5 standard NLU benchmarks. Our key finding is that token-level entropy is effectively blind in SLMs: in 91% of dataset-model combinations, mean token entropy is near zero regardless of answer correctness, rendering token-based confidence signals unusable at this scale. We demonstrate that semantic entropy, computed by generating multiple samples, clustering answers by meaning, and measuring distributional uncertainty, recovers a viable confidence signal. Using semantic entropy to selectively route uncertain queries to a larger expert model yields accuracy improvements of up to +50 percentage points. Notably, cross-family routing (e.g., SmolLM 360M to Phi-3.5-mini) averages +22.0% improvement compared to +6.8% for same-family routing, revealing that expert model quality matters more than architectural compatibility. Our results suggest that the value proposition for entropy-based methods in SLMs is not computational savings but intelligent compute allocation: spending more tokens where they matter most.",
+      "pub_date": "Mon, 21 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "小语言模型是否知道自己不知道什么？",
+        "summary": "研究探讨基于熵的置信度信号能否提升30亿参数以下小语言模型的准确性。发现token级熵在SLM中几乎失效（91%组合接近零），而语义熵可恢复有效置信信号。通过语义熵将不确定查询路由至更大专家模型，准确率最高提升50个百分点，跨家族路由平均提升22%。",
+        "summary_en": "This paper explores whether entropy-based confidence signals can improve Small Language Models (SLMs) under 3B parameters on consumer hardware. It finds token-level entropy is effectively blind in SLMs (near zero in 91% of cases), while semantic entropy recovers a viable confidence signal. Routing uncertain queries to larger expert models via semantic entropy yields up to +50pp accuracy gains, with cross-family routing averaging +22.0% vs +6.8% for same-family.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-21-rss-005",
+        "title": "小语言模型是否知道自己不知道什么？",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.20824",
+        "language": "en",
+        "summary": "研究探讨基于熵的置信度信号能否提升30亿参数以下小语言模型的准确性。发现token级熵在SLM中几乎失效（91%组合接近零），而语义熵可恢复有效置信信号。通过语义熵将不确定查询路由至更大专家模型，准确率最高提升50个百分点，跨家族路由平均提升22%。",
+        "summary_en": "This paper explores whether entropy-based confidence signals can improve Small Language Models (SLMs) under 3B parameters on consumer hardware. It finds token-level entropy is effectively blind in SLMs (near zero in 91% of cases), while semantic entropy recovers a viable confidence signal. Routing uncertain queries to larger expert models via semantic entropy yields up to +50pp accuracy gains, with cross-family routing averaging +22.0% vs +6.8% for same-family.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-21T22:49:41.166342+08:00",
+        "updated_at": "2026-09-21T22:49:41.166343+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "HERMES: Contrast-Aware Knowledge Graph Reasoning from Clinical Notes for Patient Outcome Prediction",
+      "url": "https://arxiv.org/abs/2609.20825",
+      "description": "arXiv:2609.20825v1 Announce Type: new \nAbstract: Clinical predictive models often rely on structured Electronic Health Record data, such as time-series and procedure codes. While recent approaches have begun leveraging unstructured clinical notes, they typically encode them as flat sequences, which may lose explicit relational and temporal structure present in clinical narratives. In response, we propose HERMES, a graph-based framework that operates exclusively on clinical text while preserving clinical relationships. This approach builds on two key ideas. First, personalized Knowledge Graphs (KGs) are constructed through Large-Language-Model-guided extraction from clinical notes with Contrastive Logic Modeling that explicitly captures temporal dynamics and treatment failures and changes in outcomes. Second, a Graph Attention Network synthesizes patient representations through graph-based learning over the KGs. Experiments on MIMIC-III and MIMIC-IV for in-hospital mortality and 30-day readmission prediction show that HERMES consistently outperforms strong text-only baselines. Our findings demonstrate that explicit relational modeling with Contrastive Logic Modeling significantly advances predictive performance.",
+      "pub_date": "Mon, 21 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "HERMES：基于临床笔记的对比感知知识图谱推理用于患者预后预测",
+        "summary": "HERMES是一个仅基于临床文本的图框架，通过LLM引导从临床笔记中构建个性化知识图谱，并用对比逻辑建模捕捉时序动态与治疗失败，再以图注意力网络生成患者表征。在MIMIC-III/IV的院内死亡率和30天再入院预测上优于纯文本基线。",
+        "summary_en": "HERMES is a graph-based framework operating solely on clinical text. It builds personalized knowledge graphs via LLM-guided extraction from clinical notes with Contrastive Logic Modeling to capture temporal dynamics and treatment failures, then uses a Graph Attention Network to synthesize patient representations. It outperforms strong text-only baselines on MIMIC-III/IV for in-hospital mortality and 30-day readmission prediction.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.75,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-21-rss-009",
+        "title": "HERMES：基于临床笔记的对比感知知识图谱推理用于患者预后预测",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.20825",
+        "language": "en",
+        "summary": "HERMES是一个仅基于临床文本的图框架，通过LLM引导从临床笔记中构建个性化知识图谱，并用对比逻辑建模捕捉时序动态与治疗失败，再以图注意力网络生成患者表征。在MIMIC-III/IV的院内死亡率和30天再入院预测上优于纯文本基线。",
+        "summary_en": "HERMES is a graph-based framework operating solely on clinical text. It builds personalized knowledge graphs via LLM-guided extraction from clinical notes with Contrastive Logic Modeling to capture temporal dynamics and treatment failures, then uses a Graph Attention Network to synthesize patient representations. It outperforms strong text-only baselines on MIMIC-III/IV for in-hospital mortality and 30-day readmission prediction.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.75,
+        "status": "published",
+        "created_at": "2026-09-21T22:49:41.166357+08:00",
+        "updated_at": "2026-09-21T22:49:41.166358+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "TALON: A Temporally Aware Longitudinal Framework for Radiology Report Generation",
+      "url": "https://arxiv.org/abs/2609.20826",
+      "description": "arXiv:2609.20826v1 Announce Type: new \nAbstract: Current radiology report generation (RRG) models usually produce descriptive reports based on a single examination or only the most recent prior examination, limiting their ability to perform accurate and meaningful longitudinal comparisons and detect subtle interval changes. Although recent approaches have begun to incorporate multiple prior examinations, they usually aggregate a fixed-length history without explicitly modeling the role-dependent relevance of each prior examination before fusion. To address this, we propose TALON, a Temporally Aware LONgitudinal RRG framework that adaptively integrates variable-length patient histories. The underlying Dual-Channel Temporal Fusion Module (DCTFM) compares the current examination with each prior examination through complementary similarity and change channels to capture persistent findings and interval changes, respectively. The specially designed channel-specific attention estimates the relevance of each prior examination, while a learned prior-specific gate adaptively integrates informative longitudinal evidence and suppresses redundancy. Experiments on MIMIC-CXR show that TALON outperforms the current state-of-the-art method on various clinical efficacy and graph-based metrics. When more prior examinations become available, TALON's performance on these metrics improves even further, emphasizing the strength of TALON's DCTFM in modeling longitudinal RRG across longer and more complex patient histories than existing approaches.",
+      "pub_date": "Mon, 21 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "TALON：面向放射报告生成的时间感知纵向框架",
+        "summary": "TALON是一个时间感知的纵向放射报告生成框架，通过双通道时间融合模块（DCTFM）自适应整合变长患者病史，利用相似性与变化双通道比较当前与历史检查，并通过通道专属注意力和门控机制筛选有效纵向证据。在MIMIC-CXR上超越现有最优方法，且历史检查越多性能越好。",
+        "summary_en": "TALON is a Temporally Aware LONgitudinal radiology report generation framework that adaptively integrates variable-length patient histories. Its Dual-Channel Temporal Fusion Module (DCTFM) compares the current exam with each prior exam via complementary similarity and change channels, using channel-specific attention and learned gates to capture persistent findings and interval changes while suppressing redundancy. On MIMIC-CXR, TALON outperforms state-of-the-art methods, with performance improving as more prior exams become available.",
+        "tags": [
+          "research",
+          "multimodal",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-21-rss-008",
+        "title": "TALON：面向放射报告生成的时间感知纵向框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.20826",
+        "language": "en",
+        "summary": "TALON是一个时间感知的纵向放射报告生成框架，通过双通道时间融合模块（DCTFM）自适应整合变长患者病史，利用相似性与变化双通道比较当前与历史检查，并通过通道专属注意力和门控机制筛选有效纵向证据。在MIMIC-CXR上超越现有最优方法，且历史检查越多性能越好。",
+        "summary_en": "TALON is a Temporally Aware LONgitudinal radiology report generation framework that adaptively integrates variable-length patient histories. Its Dual-Channel Temporal Fusion Module (DCTFM) compares the current exam with each prior exam via complementary similarity and change channels, using channel-specific attention and learned gates to capture persistent findings and interval changes while suppressing redundancy. On MIMIC-CXR, TALON outperforms state-of-the-art methods, with performance improving as more prior exams become available.",
+        "tags": [
+          "research",
+          "multimodal",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-09-21T22:49:41.166354+08:00",
+        "updated_at": "2026-09-21T22:49:41.166355+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "From Discharge Notes to Patient Understanding: Persona-Grounded, Open-Ended Simulation of LLMs as Discharge Educators",
+      "url": "https://arxiv.org/abs/2609.20827",
+      "description": "arXiv:2609.20827v1 Announce Type: new \nAbstract: Hospital discharge education is an interactive teaching task: a clinician adapts a discharge plan to a patient's literacy, recall, and personality. Existing LLM evaluations target static or artifact-generation tasks and do not measure patient understanding under open-ended dialogue. We introduce DischargeBench, a persona-grounded simulation in which a candidate LLM educator conducts a multi-turn session with a Virtual Patient, while an Education Monitor Agent regulates patient realism without modifying the educator, protecting the evaluation signal. We curate MIMIC-IV-Ext-DischargeBench, 477 cases over 24 ICD chapters with persona axes (personality, education level, health literacy, past-medical-history recall) for stratified analysis. Each simulation is scored on four axes -- Conversation Quality, Topic Checklist, Comprehension, and Factual Consistency -- by an LLM-as-a-Judge aligned against physician annotations. Across closed- and open-source LLMs, aggregate scores conceal clinically relevant variation across ICD chapters and patient personas; difficult personas expose coverage failures, comprehension gaps, and reduced source-answer agreement. LLM evaluation for discharge education should center patient understanding, not text quality or answer accuracy alone.",
+      "pub_date": "Mon, 21 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从出院记录到患者理解：基于人格的LLM出院教育者开放式模拟",
+        "summary": "提出DischargeBench，一个基于人格的模拟框架，让LLM教育者与虚拟患者进行多轮出院教育对话，并由教育监控Agent维持患者真实性。基于MIMIC-IV构建477个案例，从对话质量、主题清单、理解度和事实一致性四方面评估，发现聚合分数掩盖了不同患者人格下的临床相关差异。",
+        "summary_en": "Introduces DischargeBench, a persona-grounded simulation where an LLM educator conducts multi-turn discharge education with a Virtual Patient, regulated by an Education Monitor Agent. Built on 477 MIMIC-IV cases across 24 ICD chapters, it scores Conversation Quality, Topic Checklist, Comprehension, and Factual Consistency, revealing that aggregate scores mask clinically relevant variation across patient personas.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "benchmark",
+          "research",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-21-rss-006",
+        "title": "从出院记录到患者理解：基于人格的LLM出院教育者开放式模拟",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.20827",
+        "language": "en",
+        "summary": "提出DischargeBench，一个基于人格的模拟框架，让LLM教育者与虚拟患者进行多轮出院教育对话，并由教育监控Agent维持患者真实性。基于MIMIC-IV构建477个案例，从对话质量、主题清单、理解度和事实一致性四方面评估，发现聚合分数掩盖了不同患者人格下的临床相关差异。",
+        "summary_en": "Introduces DischargeBench, a persona-grounded simulation where an LLM educator conducts multi-turn discharge education with a Virtual Patient, regulated by an Education Monitor Agent. Built on 477 MIMIC-IV cases across 24 ICD chapters, it scores Conversation Quality, Topic Checklist, Comprehension, and Factual Consistency, revealing that aggregate scores mask clinically relevant variation across patient personas.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "benchmark",
+          "research",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-21T22:49:41.166345+08:00",
+        "updated_at": "2026-09-21T22:49:41.166346+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Beyond WER: Entity and Disfluency Recall in Accented Conversational ASR",
+      "url": "https://arxiv.org/abs/2609.20828",
+      "description": "arXiv:2609.20828v1 Announce Type: new \nAbstract: ASR systems optimised for Word Error Rate (WER) often miss named entities and filled pauses in accented conversational English, both critical for language-learning feedback. We present a three-stage pipeline for speakers from India, Indonesia, and Latin America: (1) heuristic SQL filters curating entity-rich training data at 2.8x the entity density of random sampling, (2) regional LoRA adapters fine-tuned on Qwen2.5-Omni-3B producing both verbatim and corrected transcripts in a single forward pass, and (3) a six-category error taxonomy validated by an LLM-based judge (83.8% agreement, 210 human-labelled samples). The pipeline achieves 80-85% entity recall (up from 53-55%), 76-86% filler recall (up from <5%), and 6-10% WER across 6k test utterances, outperforming Whisper and a commercial ASR on entity recall while matching a zero-shot 30B model with 10x fewer parameters. Paired bootstrap tests confirm that curation alone accounts for 2.8-4.2 pp of entity recall gain (p<0.0001).",
+      "pub_date": "Mon, 21 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "超越WER：口音对话ASR中的实体与不流畅词召回",
+        "summary": "针对口音对话英语ASR中命名实体和填充停顿召回率低的问题，提出三阶段流水线：SQL启发式筛选实体丰富数据、区域LoRA适配器微调Qwen2.5-Omni-3B、六类错误分类法。实体召回率从53-55%提升至80-85%，填充词召回率从<5%提升至76-86%，WER为6-10%，以10倍更少参数匹配30B零样本模型。",
+        "summary_en": "Addressing low named entity and filler recall in accented conversational English ASR, this work presents a three-stage pipeline: SQL heuristic curation of entity-rich data, regional LoRA adapters fine-tuned on Qwen2.5-Omni-3B, and a six-category error taxonomy. Entity recall rises from 53-55% to 80-85%, filler recall from <5% to 76-86%, with 6-10% WER, matching a zero-shot 30B model with 10x fewer parameters.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "evaluation",
+          "research",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-21-rss-007",
+        "title": "超越WER：口音对话ASR中的实体与不流畅词召回",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.20828",
+        "language": "en",
+        "summary": "针对口音对话英语ASR中命名实体和填充停顿召回率低的问题，提出三阶段流水线：SQL启发式筛选实体丰富数据、区域LoRA适配器微调Qwen2.5-Omni-3B、六类错误分类法。实体召回率从53-55%提升至80-85%，填充词召回率从<5%提升至76-86%，WER为6-10%，以10倍更少参数匹配30B零样本模型。",
+        "summary_en": "Addressing low named entity and filler recall in accented conversational English ASR, this work presents a three-stage pipeline: SQL heuristic curation of entity-rich data, regional LoRA adapters fine-tuned on Qwen2.5-Omni-3B, and a six-category error taxonomy. Entity recall rises from 53-55% to 80-85%, filler recall from <5% to 76-86%, with 6-10% WER, matching a zero-shot 30B model with 10x fewer parameters.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "evaluation",
+          "research",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-09-21T22:49:41.166348+08:00",
+        "updated_at": "2026-09-21T22:49:41.166349+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

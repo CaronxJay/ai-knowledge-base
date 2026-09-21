@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-21-rss-009",
+  "title": "HERMES：基于临床笔记的对比感知知识图谱推理用于患者预后预测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.20825",
+  "language": "en",
+  "summary": "HERMES是一个仅基于临床文本的图框架，通过LLM引导从临床笔记中构建个性化知识图谱，并用对比逻辑建模捕捉时序动态与治疗失败，再以图注意力网络生成患者表征。在MIMIC-III/IV的院内死亡率和30天再入院预测上优于纯文本基线。",
+  "summary_en": "HERMES is a graph-based framework operating solely on clinical text. It builds personalized knowledge graphs via LLM-guided extraction from clinical notes with Contrastive Logic Modeling to capture temporal dynamics and treatment failures, then uses a Graph Attention Network to synthesize patient representations. It outperforms strong text-only baselines on MIMIC-III/IV for in-hospital mortality and 30-day readmission prediction.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "rag"
+  ],
+  "category": "research",
+  "relevance_score": 0.75,
+  "status": "published",
+  "created_at": "2026-09-21T22:49:41.166357+08:00",
+  "updated_at": "2026-09-21T22:49:41.166358+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

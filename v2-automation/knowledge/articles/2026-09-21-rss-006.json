@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-21-rss-006",
+  "title": "从出院记录到患者理解：基于人格的LLM出院教育者开放式模拟",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.20827",
+  "language": "en",
+  "summary": "提出DischargeBench，一个基于人格的模拟框架，让LLM教育者与虚拟患者进行多轮出院教育对话，并由教育监控Agent维持患者真实性。基于MIMIC-IV构建477个案例，从对话质量、主题清单、理解度和事实一致性四方面评估，发现聚合分数掩盖了不同患者人格下的临床相关差异。",
+  "summary_en": "Introduces DischargeBench, a persona-grounded simulation where an LLM educator conducts multi-turn discharge education with a Virtual Patient, regulated by an Education Monitor Agent. Built on 477 MIMIC-IV cases across 24 ICD chapters, it scores Conversation Quality, Topic Checklist, Comprehension, and Factual Consistency, revealing that aggregate scores mask clinically relevant variation across patient personas.",
+  "tags": [
+    "llm",
+    "evaluation",
+    "benchmark",
+    "research",
+    "application"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-21T22:49:41.166345+08:00",
+  "updated_at": "2026-09-21T22:49:41.166346+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

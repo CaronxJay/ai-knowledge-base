@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-21-rss-007",
+  "title": "超越WER：口音对话ASR中的实体与不流畅词召回",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.20828",
+  "language": "en",
+  "summary": "针对口音对话英语ASR中命名实体和填充停顿召回率低的问题，提出三阶段流水线：SQL启发式筛选实体丰富数据、区域LoRA适配器微调Qwen2.5-Omni-3B、六类错误分类法。实体召回率从53-55%提升至80-85%，填充词召回率从<5%提升至76-86%，WER为6-10%，以10倍更少参数匹配30B零样本模型。",
+  "summary_en": "Addressing low named entity and filler recall in accented conversational English ASR, this work presents a three-stage pipeline: SQL heuristic curation of entity-rich data, regional LoRA adapters fine-tuned on Qwen2.5-Omni-3B, and a six-category error taxonomy. Entity recall rises from 53-55% to 80-85%, filler recall from <5% to 76-86%, with 6-10% WER, matching a zero-shot 30B model with 10x fewer parameters.",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "evaluation",
+    "research",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-09-21T22:49:41.166348+08:00",
+  "updated_at": "2026-09-21T22:49:41.166349+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

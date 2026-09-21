@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-21-rss-005",
+  "title": "小语言模型是否知道自己不知道什么？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.20824",
+  "language": "en",
+  "summary": "研究探讨基于熵的置信度信号能否提升30亿参数以下小语言模型的准确性。发现token级熵在SLM中几乎失效（91%组合接近零），而语义熵可恢复有效置信信号。通过语义熵将不确定查询路由至更大专家模型，准确率最高提升50个百分点，跨家族路由平均提升22%。",
+  "summary_en": "This paper explores whether entropy-based confidence signals can improve Small Language Models (SLMs) under 3B parameters on consumer hardware. It finds token-level entropy is effectively blind in SLMs (near zero in 91% of cases), while semantic entropy recovers a viable confidence signal. Routing uncertain queries to larger expert models via semantic entropy yields up to +50pp accuracy gains, with cross-family routing averaging +22.0% vs +6.8% for same-family.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-21T22:49:41.166342+08:00",
+  "updated_at": "2026-09-21T22:49:41.166343+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

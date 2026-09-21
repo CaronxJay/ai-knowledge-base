@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-21-rss-010",
+  "title": "基于LoRA增强对比学习的SAS视觉Transformer目标识别",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.21061",
+  "language": "en",
+  "summary": "该研究将DINOv3视觉Transformer适配于合成孔径声呐自动目标识别，采用三阶段参数高效框架：LoRA微调、难负样本挖掘和监督对比学习。实验表明LoRA是主要增益来源，AUPRC从0.300提升至0.679，仅训练0.26%权重；后续精炼阶段无显著提升。",
+  "summary_en": "This work adapts DINOv3 Vision Transformers to synthetic aperture sonar automatic target recognition using a three-stage parameter-efficient framework: LoRA fine-tuning, hard-negative mining, and supervised contrastive learning. Results show LoRA drives the primary gain, raising AUPRC from 0.300 to 0.679 while training only 0.26% of weights; subsequent refinement stages yield no significant improvement.",
+  "tags": [
+    "fine-tuning",
+    "research",
+    "multimodal",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-09-21T22:49:41.166360+08:00",
+  "updated_at": "2026-09-21T22:49:41.166361+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

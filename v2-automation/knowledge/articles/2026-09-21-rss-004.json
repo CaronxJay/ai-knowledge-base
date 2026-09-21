@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-21-rss-004",
+  "title": "检测大语言模型幻觉：追踪受损上下文共享的拓扑特征",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.21096",
+  "language": "en",
+  "summary": "本文通过分析注意力图中的信息流拓扑结构来区分幻觉与非幻觉响应，利用Forman-Ricci曲率识别信息瓶颈，提出一种单次推理方法，在多个LLM和基准上优于现有注意力及多响应基线，发现幻觉与自注意力过度依赖、上下文检索分散及信息过度压缩相关。",
+  "summary_en": "This work examines the topology of information flow within attention graphs to distinguish hallucinated from non-hallucinated responses. Using Forman-Ricci curvature to identify information bottlenecks, the authors propose a single-pass method capturing semi-local and global information-flow characteristics. It consistently outperforms existing attention-based and multi-response baselines across hallucination-detection benchmarks and diverse LLM architectures, revealing that impaired context sharing—over-reliance on self-attention, diffused context retrieval, or information over-squashing—strongly correlates with hallucination.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-21T22:49:41.166338+08:00",
+  "updated_at": "2026-09-21T22:49:41.166339+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
