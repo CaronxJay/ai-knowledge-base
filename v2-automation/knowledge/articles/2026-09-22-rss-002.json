@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-22-rss-002",
+  "title": "注意力感知路由：在MoE中耦合路由与注意力机制",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.20974",
+  "language": "en",
+  "summary": "该研究提出注意力感知路由（AAR），利用注意力权重滑动窗口提取的时序与频谱特征增强MoE路由器，在冻结基础Transformer的情况下仅训练路由参数。AAR在OLMoE上使GSM8K提升3.37个百分点，并揭示路由与注意力形成耦合回路，且具有深度敏感性，暴露了检索与推理之间的张力。",
+  "summary_en": "This paper proposes Attention-Aware Routing (AAR), which augments the MoE router with temporal and spectral features from a sliding window of attention weights, training only routing parameters while keeping the base transformer frozen. AAR improves GSM8K by +3.37 pp on OLMoE and reveals a coupled routing-attention circuit with strong depth sensitivity, exposing a retrieval-reasoning tension.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-22T21:04:36.003324+08:00",
+  "updated_at": "2026-09-22T21:04:36.003325+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

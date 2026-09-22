@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-22-rss-009",
+  "title": "AI推断的气候变化运动中表达性福祉与集体行动话语",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.22096",
+  "language": "en",
+  "summary": "研究分析364,118条X平台气候活动帖子，用加权词汇模型估计幸福感、希望、集体能力、痛苦和行动语言。活动期间幸福感比基线高9.02个百分点，但行动语言下降10.75个百分点，呈现幸福与行动的分化。",
+  "summary_en": "Analyzing 364,118 X posts from climate campaigns, a weighted lexical model estimated happiness, hope, collective capability, distress and action language. Event-period happiness was 9.02 points above baseline while action language fell 10.75 points, revealing a happiness-action divergence.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.55,
+  "status": "published",
+  "created_at": "2026-09-22T21:04:36.003353+08:00",
+  "updated_at": "2026-09-22T21:04:36.003354+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

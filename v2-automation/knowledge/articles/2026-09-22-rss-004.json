@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-22-rss-004",
+  "title": "检测大语言模型幻觉：追踪受损上下文共享的拓扑特征",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.21096",
+  "language": "en",
+  "summary": "本文通过分析注意力图的Forman-Ricci曲率，识别信息瓶颈的拓扑模式，提出一种单次推理的幻觉检测方法，捕捉注意力头的半局部与全局信息流特征。实验表明该方法在多个LLM和基准上优于现有基线，并发现幻觉与自注意力过度依赖、上下文检索扩散及信息过度压缩相关。",
+  "summary_en": "This work analyzes Forman-Ricci curvature in attention graphs to identify topological patterns of information bottlenecks, proposing a single-pass hallucination detection method capturing semi-local and global information-flow characteristics of attention heads. Experiments across multiple LLMs and benchmarks show consistent improvements over existing baselines, revealing that hallucination is linked to over-reliance on self-attention, diffused context retrieval, and information over-squashing.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-22T21:04:36.003332+08:00",
+  "updated_at": "2026-09-22T21:04:36.003333+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

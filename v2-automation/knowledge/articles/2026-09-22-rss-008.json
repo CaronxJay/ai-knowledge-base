@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-22-rss-008",
+  "title": "LoRA增强对比学习与SAS视觉Transformer",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.21061",
+  "language": "en",
+  "summary": "研究将DINOv3 ViT模型适配于水下合成孔径声纳自动目标识别，采用三阶段参数高效框架。LoRA微调将AUPRC从0.300提升至0.679，仅训练0.26%权重。但硬负样本挖掘和监督对比学习阶段均未超过对照组，表明单一高效适配阶段已足够。",
+  "summary_en": "This work adapts DINOv3 ViT models to underwater synthetic aperture sonar ATR via a three-stage parameter-efficient framework. LoRA raises AUPRC from 0.300 to 0.679 while training only 0.26% of weights, but hard-negative mining and supervised contrastive learning stages do not outperform matched controls, showing one efficient adaptation stage suffices.",
+  "tags": [
+    "fine-tuning",
+    "research",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-09-22T21:04:36.003347+08:00",
+  "updated_at": "2026-09-22T21:04:36.003348+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

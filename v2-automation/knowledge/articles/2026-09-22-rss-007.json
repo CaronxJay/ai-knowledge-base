@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-22-rss-007",
+  "title": "总结-评判-精炼：多模态内容审核的解耦理解与策略学习",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.22094",
+  "language": "en",
+  "summary": "提出SJR双模型架构，将多模态内容理解与政策分类解耦：多模态内容模型生成结构化文本摘要，纯文本政策模型据此分类。通过GRPO迭代协同训练和文本空间增强实现少样本政策启动，在误导性广告检测中相对F1提升23.6%，且零真实违规样本训练也能接近全量数据效果。",
+  "summary_en": "Proposes Summarize-Judge-Refine (SJR), a two-model architecture decoupling multimodal content understanding from policy classification: a multimodal Content Model generates structured text summaries, and a text-only Policy Model classifies them. An iterative GRPO co-training loop and text-space augmentation enable few-shot policy bootstrap. On misleading advertisement detection, SJR achieves +23.6% relative F1 over zero-shot CoT, and a variant trained on zero real violating examples matches the full-data model within 0.2%.",
+  "tags": [
+    "multimodal",
+    "llm",
+    "research",
+    "evaluation",
+    "fine-tuning"
+  ],
+  "category": "multimodal",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-22T21:04:36.003343+08:00",
+  "updated_at": "2026-09-22T21:04:36.003345+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

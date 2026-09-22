@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-22-rss-006",
+  "title": "前瞻性记忆检索：零推理承诺链接机制",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.22091",
+  "language": "en",
+  "summary": "提出一种零查询推理的前瞻性记忆检索项：将用户承诺存入显式账本，触发条目关联的记忆获得显著性加成，与嵌入检索乘法融合。在合成任务集上，困难层 recall@5 从 0.000 提升至 0.955，且无误触发。",
+  "summary_en": "Introduces a zero-inference prospective term for personal memory retrieval: commitments are held in an explicit ledger, and memory items linked to a firing entry receive a salience boost blended multiplicatively into embedding retrieval. On a synthetic task set, recall@5 on the hard stratum rose from 0.000 to 0.955 with zero false boosts.",
+  "tags": [
+    "rag",
+    "research",
+    "llm",
+    "evaluation",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-22T21:04:36.003340+08:00",
+  "updated_at": "2026-09-22T21:04:36.003341+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

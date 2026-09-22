@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-22-rss-005",
+  "title": "LLM智能体经典心理学效应研究：识别、模拟与拒绝",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.22090",
+  "language": "en",
+  "summary": "提出PsyAgentBench基准，通过因子设计区分LLM智能体是真正具有心理偏差还是仅模拟人类反应模式。在五种经典心理学范式中发现类人效应通过不同路径产生，并形式化了心理学范式向LLM智能体迁移的三种失败模式。",
+  "summary_en": "Presents PsyAgentBench, a benchmark that re-runs classic psychology experiments on LLM agents under a factorial design to distinguish genuine bias from simulated human-like response patterns. Across five paradigms, apparently human-like effects arise through qualitatively different routes, and formalizes three ways psychology paradigms fail to port to LLM agents.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "research",
+    "evaluation",
+    "agent-framework"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-22T21:04:36.003336+08:00",
+  "updated_at": "2026-09-22T21:04:36.003337+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

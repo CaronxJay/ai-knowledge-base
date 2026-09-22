@@ -1,0 +1,463 @@
+{
+  "collected_at": "2026-09-22T21:04:36.003905+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "url": "https://arxiv.org/abs/2609.20971",
+      "description": "arXiv:2609.20971v1 Announce Type: new \nAbstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may hide a highly relevant token among many irrelevant ones. We call this failure mode mean dilution and propose RBS-Attention, a training-free sparse-prefill method with two complementary selection branches. A centroid base branch captures average relevance, while a rescue branch uses the maximum key-block radius and its prompt-, layer-, and head-dependent distribution to identify blocks at risk of underestimation. Independently thresholding the two branches and combining their masks controls the contribution of rescue blocks while preserving regular block-sparse FlashAttention execution. On H100 GPUs, RBS-Attention achieves 20.65$\\times$ standalone prefill-attention speedup, 11.92$\\times$ vLLM prefill-attention speedup, and 5.97$\\times$ end-to-end time-to-first-token speedup at 128K on Qwen3-30B-A3B-Instruct-2507-FP8. On the dense Qwen3-32B model, it obtains 88.65 overall RULER accuracy versus 89.52 for dense attention; LongBench-v2, InfiniteBench, and Video-MME provide additional quality evaluation. Supporting experiments measure actual retention, compare selectors at matched density, and characterize block-size, threshold, and memory behavior. Together, these results support radius-adaptive dual-branch selection as an effective approach to long-context prefill.",
+      "pub_date": "Tue, 22 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RBS-Attention：面向长上下文大语言模型的半径约束稀疏预填充",
+        "summary": "提出RBS-Attention，一种免训练的稀疏预填充方法，通过质心基分支与救援分支的双分支选择缓解\"均值稀释\"问题。在H100上实现20.65倍独立预填充注意力加速、11.92倍vLLM加速，128K下端到端首token时间加速5.97倍，同时保持接近稠密注意力的质量。",
+        "summary_en": "RBS-Attention is a training-free sparse-prefill method with dual selection branches: a centroid base branch and a rescue branch using max key-block radius to mitigate mean dilution. On H100 it achieves 20.65x standalone and 11.92x vLLM prefill-attention speedup, 5.97x end-to-end TTFT speedup at 128K, with near-dense quality.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-22-rss-001",
+        "title": "RBS-Attention：面向长上下文大语言模型的半径约束稀疏预填充",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.20971",
+        "language": "en",
+        "summary": "提出RBS-Attention，一种免训练的稀疏预填充方法，通过质心基分支与救援分支的双分支选择缓解\"均值稀释\"问题。在H100上实现20.65倍独立预填充注意力加速、11.92倍vLLM加速，128K下端到端首token时间加速5.97倍，同时保持接近稠密注意力的质量。",
+        "summary_en": "RBS-Attention is a training-free sparse-prefill method with dual selection branches: a centroid base branch and a rescue branch using max key-block radius to mitigate mean dilution. On H100 it achieves 20.65x standalone and 11.92x vLLM prefill-attention speedup, 5.97x end-to-end TTFT speedup at 128K, with near-dense quality.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-22T21:04:36.003318+08:00",
+        "updated_at": "2026-09-22T21:04:36.003321+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
+      "url": "https://arxiv.org/abs/2609.20974",
+      "description": "arXiv:2609.20974v1 Announce Type: new \nAbstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which augments the router with temporal and spectral features extracted from a sliding window of attention weights that represent a summary of the model's contextual state, disentangled from the hidden state. Keeping the base transformer entirely frozen, we train only the routing parameters, isolating routing as the sole variable. AAR improves GSM8K by +3.37 pp over a routing-only SFT baseline on OLMoE. Beyond performance, we show that routing and attention form a coupled circuit: routing changes at layer l propagate through the residual stream to amplify attention sinks at layer l+1, reshaping attention without any direct update to the attention mechanism itself. Further, AAR reduces long diverging generation, with incorrect answers getting shorter, while correct answers remain unchanged in length. Finally, AAR is strongly depth-sensitive: applying it indiscriminately across layers can degrade factual retrieval, whereas mathematical reasoning gains persist when it is introduced deeper in the network. This sensitivity exposes a retrieval--reasoning tension across depth and makes layer-selective AAR a controlled probe of the routing-relevant information carried by attention at different layers.",
+      "pub_date": "Tue, 22 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "注意力感知路由：在MoE中耦合路由与注意力机制",
+        "summary": "该研究提出注意力感知路由（AAR），利用注意力权重滑动窗口提取的时序与频谱特征增强MoE路由器，在冻结基础Transformer的情况下仅训练路由参数。AAR在OLMoE上使GSM8K提升3.37个百分点，并揭示路由与注意力形成耦合回路，且具有深度敏感性，暴露了检索与推理之间的张力。",
+        "summary_en": "This paper proposes Attention-Aware Routing (AAR), which augments the MoE router with temporal and spectral features from a sliding window of attention weights, training only routing parameters while keeping the base transformer frozen. AAR improves GSM8K by +3.37 pp on OLMoE and reveals a coupled routing-attention circuit with strong depth sensitivity, exposing a retrieval-reasoning tension.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-22-rss-002",
+        "title": "注意力感知路由：在MoE中耦合路由与注意力机制",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.20974",
+        "language": "en",
+        "summary": "该研究提出注意力感知路由（AAR），利用注意力权重滑动窗口提取的时序与频谱特征增强MoE路由器，在冻结基础Transformer的情况下仅训练路由参数。AAR在OLMoE上使GSM8K提升3.37个百分点，并揭示路由与注意力形成耦合回路，且具有深度敏感性，暴露了检索与推理之间的张力。",
+        "summary_en": "This paper proposes Attention-Aware Routing (AAR), which augments the MoE router with temporal and spectral features from a sliding window of attention weights, training only routing parameters while keeping the base transformer frozen. AAR improves GSM8K by +3.37 pp on OLMoE and reveals a coupled routing-attention circuit with strong depth sensitivity, exposing a retrieval-reasoning tension.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-22T21:04:36.003324+08:00",
+        "updated_at": "2026-09-22T21:04:36.003325+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
+      "url": "https://arxiv.org/abs/2609.20981",
+      "description": "arXiv:2609.20981v1 Announce Type: new \nAbstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the dual, we propose Causal Latent Revision (CaLR), a framework that reformulates reasoning as constrained latent optimization. By adopting a causal topology matrix (CTM) from an expert model and implicit differentiation, CaLR performs gradient-guided ``thought revision\" to enforce logical consistency, enabling dynamic self-correction of intermediate steps during parallel generation. Empirically, CaLR achieves SOTA DLM performance on complex benchmarks, surpassing strong AR baselines and demonstrating superior robustness in constrained tasks like Sudoku.",
+      "pub_date": "Tue, 22 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CaLR：面向鲁棒扩散推理的因果潜在修正框架",
+        "summary": "CaLR将推理重构为受约束的潜在优化，通过引入专家模型的因果拓扑矩阵与隐式微分，实现梯度引导的“思维修正”，在并行生成中动态自我纠错。在复杂基准上达到扩散语言模型SOTA，超越强自回归基线，并在数独等约束任务中展现更强鲁棒性。",
+        "summary_en": "CaLR reformulates reasoning as constrained latent optimization, using a causal topology matrix from an expert model and implicit differentiation to perform gradient-guided 'thought revision' for dynamic self-correction during parallel generation. It achieves SOTA DLM performance on complex benchmarks, surpassing strong AR baselines and showing superior robustness on constrained tasks like Sudoku.",
+        "tags": [
+          "llm",
+          "research",
+          "reasoning",
+          "evaluation"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-22-rss-003",
+        "title": "CaLR：面向鲁棒扩散推理的因果潜在修正框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.20981",
+        "language": "en",
+        "summary": "CaLR将推理重构为受约束的潜在优化，通过引入专家模型的因果拓扑矩阵与隐式微分，实现梯度引导的“思维修正”，在并行生成中动态自我纠错。在复杂基准上达到扩散语言模型SOTA，超越强自回归基线，并在数独等约束任务中展现更强鲁棒性。",
+        "summary_en": "CaLR reformulates reasoning as constrained latent optimization, using a causal topology matrix from an expert model and implicit differentiation to perform gradient-guided 'thought revision' for dynamic self-correction during parallel generation. It achieves SOTA DLM performance on complex benchmarks, surpassing strong AR baselines and showing superior robustness on constrained tasks like Sudoku.",
+        "tags": [
+          "llm",
+          "research",
+          "reasoning",
+          "evaluation"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-22T21:04:36.003328+08:00",
+        "updated_at": "2026-09-22T21:04:36.003329+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+      "url": "https://arxiv.org/abs/2609.21061",
+      "description": "arXiv:2609.21061v1 Announce Type: new \nAbstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop assessment. We adapt DINOv3 Vision Transformer (ViT) models to underwater SAS ATR using a three-stage parameter-efficient framework. Stage 1 uses Low-Rank Adaptation (LoRA) while freezing the ViT backbone, bridging the gap between natural-image pretraining and underwater acoustic propagation. Stage 2 uses hard-negative mining to strengthen the decision boundary against acoustic mimics, including rocks and sediment formations resembling man-made targets. Stage 3 uses Supervised Contrastive Learning (SupCon) to separate target and clutter representations. We evaluate at-sea SAS data using a mission-level geographic split, compare all arms at 85 percent test recall, and repeat each comparison over three random seeds. LoRA accounts for the primary effect, increasing area under the precision-recall curve (AUPRC) from 0.300 to 0.679 +/- 0.027 using the same frozen backbone. Rank 4 achieves this result while training only 0.26 percent of weights. Neither refinement stage exceeds its matched control: hard-negative mining changes AUPRC by -0.0045 +/- 0.0119 versus an equal-size random curriculum, and SupCon changes AUPRC by +0.0002 +/- 0.0096 versus the preceding stage. These null results indicate that mining occurred on data the encoder had already fit and that supervised stages had already imposed most target-clutter geometry. One efficient adaptation stage is sufficient; stacked refinement is not.",
+      "pub_date": "Tue, 22 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LoRA增强对比学习与SAS视觉Transformer",
+        "summary": "研究将DINOv3 ViT模型适配于水下合成孔径声纳自动目标识别，采用三阶段参数高效框架。LoRA微调将AUPRC从0.300提升至0.679，仅训练0.26%权重。但硬负样本挖掘和监督对比学习阶段均未超过对照组，表明单一高效适配阶段已足够。",
+        "summary_en": "This work adapts DINOv3 ViT models to underwater synthetic aperture sonar ATR via a three-stage parameter-efficient framework. LoRA raises AUPRC from 0.300 to 0.679 while training only 0.26% of weights, but hard-negative mining and supervised contrastive learning stages do not outperform matched controls, showing one efficient adaptation stage suffices.",
+        "tags": [
+          "fine-tuning",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-22-rss-008",
+        "title": "LoRA增强对比学习与SAS视觉Transformer",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.21061",
+        "language": "en",
+        "summary": "研究将DINOv3 ViT模型适配于水下合成孔径声纳自动目标识别，采用三阶段参数高效框架。LoRA微调将AUPRC从0.300提升至0.679，仅训练0.26%权重。但硬负样本挖掘和监督对比学习阶段均未超过对照组，表明单一高效适配阶段已足够。",
+        "summary_en": "This work adapts DINOv3 ViT models to underwater synthetic aperture sonar ATR via a three-stage parameter-efficient framework. LoRA raises AUPRC from 0.300 to 0.679 while training only 0.26% of weights, but hard-negative mining and supervised contrastive learning stages do not outperform matched controls, showing one efficient adaptation stage suffices.",
+        "tags": [
+          "fine-tuning",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-09-22T21:04:36.003347+08:00",
+        "updated_at": "2026-09-22T21:04:36.003348+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
+      "url": "https://arxiv.org/abs/2609.21096",
+      "description": "arXiv:2609.21096v1 Announce Type: new \nAbstract: In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated responses. We analyze the Forman-Ricci curvature to identify structural patterns indicating information bottlenecks in attention graphs. We then introduce a method that captures both semi-local and global information-flow characteristics of attention heads associated with hallucinated responses. We evaluate our approach extensively across several LLMs and established benchmarks. Empirical results demonstrate that our proposed single-pass approach provides consistent improvements over existing attention-based and multi-response baselines across two hallucination-detection benchmarks, while achieving competitive performance across diverse LLM architectures. Further analysis reveals that impaired context sharing among tokens during causal generation is strongly associated with hallucination occurrences in LLMs. In particular, hallucinated responses are consistently characterized by an over-reliance on self-attention, diffused context retrieval from earlier tokens, or information over-squashing, especially in the final transformer layer.",
+      "pub_date": "Tue, 22 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "检测大语言模型幻觉：追踪受损上下文共享的拓扑特征",
+        "summary": "本文通过分析注意力图的Forman-Ricci曲率，识别信息瓶颈的拓扑模式，提出一种单次推理的幻觉检测方法，捕捉注意力头的半局部与全局信息流特征。实验表明该方法在多个LLM和基准上优于现有基线，并发现幻觉与自注意力过度依赖、上下文检索扩散及信息过度压缩相关。",
+        "summary_en": "This work analyzes Forman-Ricci curvature in attention graphs to identify topological patterns of information bottlenecks, proposing a single-pass hallucination detection method capturing semi-local and global information-flow characteristics of attention heads. Experiments across multiple LLMs and benchmarks show consistent improvements over existing baselines, revealing that hallucination is linked to over-reliance on self-attention, diffused context retrieval, and information over-squashing.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-22-rss-004",
+        "title": "检测大语言模型幻觉：追踪受损上下文共享的拓扑特征",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.21096",
+        "language": "en",
+        "summary": "本文通过分析注意力图的Forman-Ricci曲率，识别信息瓶颈的拓扑模式，提出一种单次推理的幻觉检测方法，捕捉注意力头的半局部与全局信息流特征。实验表明该方法在多个LLM和基准上优于现有基线，并发现幻觉与自注意力过度依赖、上下文检索扩散及信息过度压缩相关。",
+        "summary_en": "This work analyzes Forman-Ricci curvature in attention graphs to identify topological patterns of information bottlenecks, proposing a single-pass hallucination detection method capturing semi-local and global information-flow characteristics of attention heads. Experiments across multiple LLMs and benchmarks show consistent improvements over existing baselines, revealing that hallucination is linked to over-reliance on self-attention, diffused context retrieval, and information over-squashing.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-22T21:04:36.003332+08:00",
+        "updated_at": "2026-09-22T21:04:36.003333+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Recognition, Simulation, and Refusal: A Contamination-Aware Study of Classic Psychological Effects in LLM Agents",
+      "url": "https://arxiv.org/abs/2609.22090",
+      "description": "arXiv:2609.22090v1 Announce Type: new \nAbstract: An LLM producing the response pattern associated with a human psychological effect is not the same claim as the LLM possessing that bias. We present PsyAgentBench, a benchmark that re-runs classic psychology experiments on LLM agents under a factorial design built to separate these: each paradigm is run with the paradigm explicitly labeled in the prompt (named) or framed as a routine task (blind), and on the literal textbook version of the task (canonical) or a structurally matched variant written to reduce lexical and scenario overlap with likely training data (counterfactual), crossed with a persona manipulation. Across five completed paradigms, evaluated on up to three open-weight model families with 41,904 trials released, apparently human-like effects arise through qualitatively different routes rather than one susceptibility: paradigm-label gating with explicit override (Asch conformity, 0 percent blind to 83.3 percent named on gpt-oss-120B), knowledge-dependent signal reliance (anchoring, exactly zero on grounded facts versus near total on invented quantities, a pattern equally consistent with rational use of the only available signal), amplification on novel content under labeling (framing), robust absence (sunk cost), and safety-mediated selection where refusal itself is the primary finding (minimal-group allocation). A one-sentence persona change (agreeableness, framed as an instruction rather than a verified trait manipulation) eliminates, dampens, or reverses these effects depending on which effect it is, arguing against any single response-bias account. We further formalize, and in two cases document empirically, three ways a psychology paradigm can fail to port to LLM agents: persona dominance, population collapse, and safety selection. We argue scalar bias-susceptibility scores obscure this structure and report replication profiles instead.",
+      "pub_date": "Tue, 22 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM智能体经典心理学效应研究：识别、模拟与拒绝",
+        "summary": "提出PsyAgentBench基准，通过因子设计区分LLM智能体是真正具有心理偏差还是仅模拟人类反应模式。在五种经典心理学范式中发现类人效应通过不同路径产生，并形式化了心理学范式向LLM智能体迁移的三种失败模式。",
+        "summary_en": "Presents PsyAgentBench, a benchmark that re-runs classic psychology experiments on LLM agents under a factorial design to distinguish genuine bias from simulated human-like response patterns. Across five paradigms, apparently human-like effects arise through qualitatively different routes, and formalizes three ways psychology paradigms fail to port to LLM agents.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "research",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-22-rss-005",
+        "title": "LLM智能体经典心理学效应研究：识别、模拟与拒绝",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.22090",
+        "language": "en",
+        "summary": "提出PsyAgentBench基准，通过因子设计区分LLM智能体是真正具有心理偏差还是仅模拟人类反应模式。在五种经典心理学范式中发现类人效应通过不同路径产生，并形式化了心理学范式向LLM智能体迁移的三种失败模式。",
+        "summary_en": "Presents PsyAgentBench, a benchmark that re-runs classic psychology experiments on LLM agents under a factorial design to distinguish genuine bias from simulated human-like response patterns. Across five paradigms, apparently human-like effects arise through qualitatively different routes, and formalizes three ways psychology paradigms fail to port to LLM agents.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "research",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-22T21:04:36.003336+08:00",
+        "updated_at": "2026-09-22T21:04:36.003337+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Memory That Looks Forward: A Zero-Inference Prospective Term for Personal Memory Retrieval",
+      "url": "https://arxiv.org/abs/2609.22091",
+      "description": "arXiv:2609.22091v1 Announce Type: new \nAbstract: Retrieval over a personal memory store is retrospective: it surfaces what resembles the query, and it is blind to what the user has committed to do. We describe a prospective term for memory retrieval that costs no inference at query time. Commitments are held in an explicit ledger as dated or trigger-conditioned entries; memory items linked to a firing entry receive a salience boost, blended multiplicatively into embedding-based retrieval so that relevance remains sovereign. On a synthetic prospective-memory task set modeled on TriggerBench's published structure (48 blind-authored dialogues, 175 tasks), the term raised recall@5 on the hard stratum from 0.000 to 0.955 at the default blend weight and to 1.000 under a floor variant, with zero false boosts across 53 resolved-commitment tasks. Blind authorship also produced a scope finding: only 17-29% of naturally phrased commitment-trigger pairs defeat embedding similarity, so the term matters on a real minority of cases and must do no harm on the rest, which it does not. We position precomputed commitment linkage as the always-on floor of a layered design whose expansion layer is query-time prospection. Results are preliminary: the evaluation set is author-constructed, and evaluation on TriggerBench proper is committed follow-up work once its data is released.",
+      "pub_date": "Tue, 22 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "前瞻性记忆检索：零推理承诺链接机制",
+        "summary": "提出一种零查询推理的前瞻性记忆检索项：将用户承诺存入显式账本，触发条目关联的记忆获得显著性加成，与嵌入检索乘法融合。在合成任务集上，困难层 recall@5 从 0.000 提升至 0.955，且无误触发。",
+        "summary_en": "Introduces a zero-inference prospective term for personal memory retrieval: commitments are held in an explicit ledger, and memory items linked to a firing entry receive a salience boost blended multiplicatively into embedding retrieval. On a synthetic task set, recall@5 on the hard stratum rose from 0.000 to 0.955 with zero false boosts.",
+        "tags": [
+          "rag",
+          "research",
+          "llm",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-22-rss-006",
+        "title": "前瞻性记忆检索：零推理承诺链接机制",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.22091",
+        "language": "en",
+        "summary": "提出一种零查询推理的前瞻性记忆检索项：将用户承诺存入显式账本，触发条目关联的记忆获得显著性加成，与嵌入检索乘法融合。在合成任务集上，困难层 recall@5 从 0.000 提升至 0.955，且无误触发。",
+        "summary_en": "Introduces a zero-inference prospective term for personal memory retrieval: commitments are held in an explicit ledger, and memory items linked to a firing entry receive a salience boost blended multiplicatively into embedding retrieval. On a synthetic task set, recall@5 on the hard stratum rose from 0.000 to 0.955 with zero false boosts.",
+        "tags": [
+          "rag",
+          "research",
+          "llm",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-22T21:04:36.003340+08:00",
+        "updated_at": "2026-09-22T21:04:36.003341+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Summarize, Judge, Refine: Decoupled Content Understanding and Policy Learning for Multimodal Content Moderation",
+      "url": "https://arxiv.org/abs/2609.22094",
+      "description": "arXiv:2609.22094v1 Announce Type: new \nAbstract: Content moderation systems traditionally entangle multimodal understanding with policy-specific classification, requiring full pipeline retraining for every policy change and suffering from label scarcity since multimedia cannot be meaningfully augmented. We propose Summarize-Judge-Refine (SJR), a two-model architecture that decouples these concerns via a natural language interface: a multimodal Content Model produces structured text summaries, and a text-only Policy Model classifies them against policy definitions. An iterative co-training loop refines the Content Model via GRPO to produce policy-relevant summaries, while text-space augmentation generates adversarial summary variants---an augmentation pathway impossible on raw multimedia---enabling few-shot policy bootstrap. Every decision is grounded in a human-readable summary, providing interpretability as a structural byproduct. On misleading advertisement detection, SJR achieves +23.6\\% relative non-misleading F1 over a zero-shot chain-of-thought baseline, outperforming end-to-end SFT, STaR/RFT, and RLFT. Notably, a variant trained on zero real violating examples---with all positive-class data synthetically generated---matches the full-data model within 0.2\\% relative on violating F1, demonstrating that new policies can launch without any real violation data.",
+      "pub_date": "Tue, 22 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "总结-评判-精炼：多模态内容审核的解耦理解与策略学习",
+        "summary": "提出SJR双模型架构，将多模态内容理解与政策分类解耦：多模态内容模型生成结构化文本摘要，纯文本政策模型据此分类。通过GRPO迭代协同训练和文本空间增强实现少样本政策启动，在误导性广告检测中相对F1提升23.6%，且零真实违规样本训练也能接近全量数据效果。",
+        "summary_en": "Proposes Summarize-Judge-Refine (SJR), a two-model architecture decoupling multimodal content understanding from policy classification: a multimodal Content Model generates structured text summaries, and a text-only Policy Model classifies them. An iterative GRPO co-training loop and text-space augmentation enable few-shot policy bootstrap. On misleading advertisement detection, SJR achieves +23.6% relative F1 over zero-shot CoT, and a variant trained on zero real violating examples matches the full-data model within 0.2%.",
+        "tags": [
+          "multimodal",
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-22-rss-007",
+        "title": "总结-评判-精炼：多模态内容审核的解耦理解与策略学习",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.22094",
+        "language": "en",
+        "summary": "提出SJR双模型架构，将多模态内容理解与政策分类解耦：多模态内容模型生成结构化文本摘要，纯文本政策模型据此分类。通过GRPO迭代协同训练和文本空间增强实现少样本政策启动，在误导性广告检测中相对F1提升23.6%，且零真实违规样本训练也能接近全量数据效果。",
+        "summary_en": "Proposes Summarize-Judge-Refine (SJR), a two-model architecture decoupling multimodal content understanding from policy classification: a multimodal Content Model generates structured text summaries, and a text-only Policy Model classifies them. An iterative GRPO co-training loop and text-space augmentation enable few-shot policy bootstrap. On misleading advertisement detection, SJR achieves +23.6% relative F1 over zero-shot CoT, and a variant trained on zero real violating examples matches the full-data model within 0.2%.",
+        "tags": [
+          "multimodal",
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-22T21:04:36.003343+08:00",
+        "updated_at": "2026-09-22T21:04:36.003345+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AI-inferred expressed well-being and collective-action discourse in climate-change campaigns on X",
+      "url": "https://arxiv.org/abs/2609.22096",
+      "description": "arXiv:2609.22096v1 Announce Type: new \nAbstract: Climate campaigns are often evaluated through attention and mobilization, but less is known about the well-being language that accompanies them. Whether campaign periods alter positive affect and hope, and whether happiness aligns with action language, remains unresolved. We analysed 364,118 public Twitter/X posts from Earth Day, Earth Hour, Global Climate Action Day and World Environment Day in 19 occurrence-years, using 30-day pre-event, event and post-event windows. A versioned weighted lexical model estimated happiness, future-oriented hope, collective capability, distress and action language. Event-period happiness prevalence was 9.02 percentage points higher than the pre-event baseline , whereas paired occurrence contrasts showed a 10.75-point decline in action language, indicating a happiness--action divergence. The happiness estimate remained positive across composition and text-deduplication checks, but was less precise under a 19-cluster wild bootstrap. Happier source posts had lower odds of an observed matched retweet cascade.",
+      "pub_date": "Tue, 22 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AI推断的气候变化运动中表达性福祉与集体行动话语",
+        "summary": "研究分析364,118条X平台气候活动帖子，用加权词汇模型估计幸福感、希望、集体能力、痛苦和行动语言。活动期间幸福感比基线高9.02个百分点，但行动语言下降10.75个百分点，呈现幸福与行动的分化。",
+        "summary_en": "Analyzing 364,118 X posts from climate campaigns, a weighted lexical model estimated happiness, hope, collective capability, distress and action language. Event-period happiness was 9.02 points above baseline while action language fell 10.75 points, revealing a happiness-action divergence.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.55,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-22-rss-009",
+        "title": "AI推断的气候变化运动中表达性福祉与集体行动话语",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.22096",
+        "language": "en",
+        "summary": "研究分析364,118条X平台气候活动帖子，用加权词汇模型估计幸福感、希望、集体能力、痛苦和行动语言。活动期间幸福感比基线高9.02个百分点，但行动语言下降10.75个百分点，呈现幸福与行动的分化。",
+        "summary_en": "Analyzing 364,118 X posts from climate campaigns, a weighted lexical model estimated happiness, hope, collective capability, distress and action language. Event-period happiness was 9.02 points above baseline while action language fell 10.75 points, revealing a happiness-action divergence.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.55,
+        "status": "published",
+        "created_at": "2026-09-22T21:04:36.003353+08:00",
+        "updated_at": "2026-09-22T21:04:36.003354+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Token Signatures of Code: Comparing Coding Behaviors Across Large Language Models",
+      "url": "https://arxiv.org/abs/2609.22097",
+      "description": "arXiv:2609.22097v1 Announce Type: new \nAbstract: The evaluation of large language models (LLMs) on coding tasks has primarily focused on performance metrics such as pass@k. As LLMs continue to advance, many models now meet baseline performance requirements, reducing the discriminative power of performance-based evaluation alone. Yet a key question remains largely unexplored: how do LLMs differ in their coding behavior? We propose CLIC (Code Learning for Identification and Comparison), a visual analytics approach that characterizes LLM coding behavior through token-frequency analysis. CLIC represents each code sample as a feature vector of token frequencies and trains an interpretable decision tree to separate two LLMs' code sets. Beyond classification accuracy, we define two new metrics: robustness, which measures whether the two LLMs remain distinguishable as their most-discriminative tokens are progressively removed, and concentration, which measures whether the difference is driven by a few dominant tokens or spread across many. Interpreting numerous pairwise comparisons (across LLM pairs, tasks, and tokenization levels) and tracing the full analytical chain form an inherently multi-scale, hypothesis-driven exploration task. We therefore develop an interactive visual analytics system to navigate the comparison landscape, identify pairs of interest, and drill down into discriminative tokens and their code contexts. Case studies comparing 10 LLMs across 22 Kaggle ML tasks reveal actionable insights for LLM selection and prompt engineering.",
+      "pub_date": "Tue, 22 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "代码的Token特征：比较大型语言模型的编码行为",
+        "summary": "提出CLIC视觉分析方法，通过token频率分析刻画LLM编码行为，训练可解释决策树区分两个模型的代码集，并定义鲁棒性和集中度两个新指标，对10个LLM在22个Kaggle任务上进行比较。",
+        "summary_en": "Proposes CLIC, a visual analytics approach characterizing LLM coding behavior via token-frequency analysis, training interpretable decision trees to distinguish two LLMs' code sets, with new metrics robustness and concentration, comparing 10 LLMs across 22 Kaggle tasks.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "research",
+          "benchmark",
+          "prompt-engineering"
+        ],
+        "category": "evaluation",
+        "relevance_score": 0.9,
+        "language": "en"
+      }
+    }
+  ]
+}
