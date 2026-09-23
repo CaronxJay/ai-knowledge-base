@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-23-rss-004",
+  "title": "社会影响与AI群体中科学注意力的分配",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.22408",
+  "language": "en",
+  "summary": "研究将Music Lab实验设计应用于学术注意力市场，让1000个AI智能体从2025年《美国经济评论》114篇论文中选择。社会影响条件下的智能体选择论文数量减少17.2%，选择更集中，集体覆盖73篇论文（独立条件下为90篇）。随机分配初始选择可使后续选择率提高45.55个百分点。",
+  "summary_en": "This paper adapts the Music Lab design to a market for academic attention, having 1,000 AI agents choose papers from 114 AER 2025 articles. Social-influence communities selected 17.2% fewer papers per agent, concentrated choices more heavily, and covered 73 papers vs. 90 independently. Randomly assigning five initial selections raised subsequent selection rates by 45.55 percentage points.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-09-23T21:20:52.146476+08:00",
+  "updated_at": "2026-09-23T21:20:52.146477+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

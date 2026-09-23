@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-23-rss-002",
+  "title": "教学知识与临床病例：数据类型如何塑造医疗大语言模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.22161",
+  "language": "en",
+  "summary": "研究通过token匹配实验探究教学数据与临床数据比例对医疗大模型的影响，发现存在非对称迁移：临床数据提升临床任务且知识任务仍有竞争力，教学数据主要提升知识任务；错误分析揭示\"知-行差距\"，少量临床数据即可带来大部分电子病历任务收益，数据配比应依应用场景而定。",
+  "summary_en": "This study uses token-matched experiments to examine how didactic-to-clinical data ratios shape medical LLMs, revealing asymmetric transfer: clinical data improves clinic-oriented tasks while staying competitive on knowledge tasks, whereas didactic data mainly boosts knowledge tasks. Error analysis suggests a knowing-doing gap, and modest clinical data yields most EHR-task gains, implying application-driven data curation.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-23T21:20:52.146470+08:00",
+  "updated_at": "2026-09-23T21:20:52.146471+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

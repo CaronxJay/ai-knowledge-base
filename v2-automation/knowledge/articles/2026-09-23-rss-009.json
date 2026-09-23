@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-23-rss-009",
+  "title": "从2D图像与细胞群体统计学习3D生物物理细胞属性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.22410",
+  "language": "en",
+  "summary": "提出群体监督框架，将单张2D红细胞图像映射到潜在生物物理量并聚合为平均红细胞体积、红细胞分布宽度和平均血红蛋白量，在六个设备上报告与Sysmex分析仪的相关性达0.86-0.98。",
+  "summary_en": "A population-supervised framework maps single 2D red-cell images to latent biophysical quantities and aggregates them to mean corpuscular volume, red-cell distribution width and mean corpuscular haemoglobin, achieving Pearson correlations of 0.86-0.98 against a Sysmex analyser across six devices.",
+  "tags": [
+    "research",
+    "multimodal",
+    "evaluation",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.35,
+  "status": "published",
+  "created_at": "2026-09-23T21:20:52.146493+08:00",
+  "updated_at": "2026-09-23T21:20:52.146494+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

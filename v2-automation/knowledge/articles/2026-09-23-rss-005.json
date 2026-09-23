@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-23-rss-005",
+  "title": "低成本AI智能盲杖：视障用户多模态出行辅助系统",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.22277",
+  "language": "en",
+  "summary": "本文提出一款售价88美元、完全离线的AI智能盲杖，基于Raspberry Pi Zero 2W，融合RGB视觉与ToF测距，采用INT8量化SSD MobileNet V1模型，提供距离感知振动与音频提示。多进程架构保障低功耗硬件稳定性，室内测试F1达0.82，端到端延迟330ms，峰值功耗2.8W，12人可用性研究显示良好用户体验。",
+  "summary_en": "This paper presents an affordable ($88 USD), fully offline AI-integrated smart cane for visually impaired users, built on a Raspberry Pi Zero 2W. It fuses RGB vision with Time-of-Flight distance estimation, using an INT8-quantized SSD MobileNet V1 model with distance-aware vibrotactile feedback and audio alerts. A multiprocessing architecture isolates sensing, inference, and haptics for robustness. Indoor evaluation achieves a macro-averaged F1 of 0.82, 330 ms end-to-end latency, and 2.8 W peak power, with a 12-participant usability study (SUS 78.5) showing positive perception and improved obstacle awareness.",
+  "tags": [
+    "multimodal",
+    "application",
+    "infrastructure",
+    "evaluation",
+    "research"
+  ],
+  "category": "application",
+  "relevance_score": 0.75,
+  "status": "published",
+  "created_at": "2026-09-23T21:20:52.146479+08:00",
+  "updated_at": "2026-09-23T21:20:52.146480+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

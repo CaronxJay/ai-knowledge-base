@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-23-github-003",
+  "title": "AI、机器学习与智能体指南与报告合集",
+  "source": "github_trending",
+  "source_url": "https://github.com/MARKTECHPOST-AI-MEDIA-INC/AI-Guides-Reports",
+  "language": "en",
+  "summary": "该GitHub仓库汇集了关于AI、机器学习、智能体AI、AI Agents、深度学习和大语言模型等领域的报告与指南，为开发者提供学习参考资源。",
+  "summary_en": "A GitHub repository collecting reports and guides on AI, Machine Learning, Agentic AI, AI Agents, Deep Learning, and LLMs, serving as a learning resource for developers.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-09-23T21:20:52.145176+08:00",
+  "updated_at": "2026-09-23T21:20:52.145177+08:00",
+  "metadata": {
+    "stars": 16,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

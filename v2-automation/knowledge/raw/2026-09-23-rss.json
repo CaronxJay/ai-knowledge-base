@@ -1,0 +1,465 @@
+{
+  "collected_at": "2026-09-23T21:20:52.147221+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models",
+      "url": "https://arxiv.org/abs/2609.22161",
+      "description": "arXiv:2609.22161v1 Announce Type: new \nAbstract: Medical large language models are commonly trained on mixtures of didactic data (e.g., textbooks) and clinical data (e.g., patient records), yet how these data types differentially shape model capabilities remains unclear. We address this issue with token-matched experiments that vary the didactic-to-clinical ratio and analyze how data composition affects performance, capability profiles, and error patterns across knowledge-intensive and clinic-oriented tasks. We uncover an asymmetric transfer across task types: clinical data improves clinic-oriented tasks while remaining competitive on knowledge-intensive ones, whereas didactic data mainly improves knowledge-intensive tasks. Error analysis suggests a knowing-doing gap, where improvements in knowledge recall do not reliably generalize to clinical reasoning. We further observe that modest amounts of clinical data yield most of the gains on EHR-grounded tasks, while the optimal mixture ratio varies with the knowledge and clinical reasoning demands of downstream tasks. These findings suggest that medical LLM data curation should be application-driven, with higher proportions of clinical data preferred for reasoning-intensive use cases.",
+      "pub_date": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "教学知识与临床病例：数据类型如何塑造医疗大语言模型",
+        "summary": "研究通过token匹配实验探究教学数据与临床数据比例对医疗大模型的影响，发现存在非对称迁移：临床数据提升临床任务且知识任务仍有竞争力，教学数据主要提升知识任务；错误分析揭示\"知-行差距\"，少量临床数据即可带来大部分电子病历任务收益，数据配比应依应用场景而定。",
+        "summary_en": "This study uses token-matched experiments to examine how didactic-to-clinical data ratios shape medical LLMs, revealing asymmetric transfer: clinical data improves clinic-oriented tasks while staying competitive on knowledge tasks, whereas didactic data mainly boosts knowledge tasks. Error analysis suggests a knowing-doing gap, and modest clinical data yields most EHR-task gains, implying application-driven data curation.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-23-rss-002",
+        "title": "教学知识与临床病例：数据类型如何塑造医疗大语言模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.22161",
+        "language": "en",
+        "summary": "研究通过token匹配实验探究教学数据与临床数据比例对医疗大模型的影响，发现存在非对称迁移：临床数据提升临床任务且知识任务仍有竞争力，教学数据主要提升知识任务；错误分析揭示\"知-行差距\"，少量临床数据即可带来大部分电子病历任务收益，数据配比应依应用场景而定。",
+        "summary_en": "This study uses token-matched experiments to examine how didactic-to-clinical data ratios shape medical LLMs, revealing asymmetric transfer: clinical data improves clinic-oriented tasks while staying competitive on knowledge tasks, whereas didactic data mainly boosts knowledge tasks. Error analysis suggests a knowing-doing gap, and modest clinical data yields most EHR-task gains, implying application-driven data curation.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-23T21:20:52.146470+08:00",
+        "updated_at": "2026-09-23T21:20:52.146471+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "An Affordable AI-Integrated Smart Cane for Multimodal Mobility Assistance of Visually Impaired Users",
+      "url": "https://arxiv.org/abs/2609.22277",
+      "description": "arXiv:2609.22277v1 Announce Type: new \nAbstract: Visual impairment affects over 2.2 billion people worldwide, yet conventional white canes cannot detect elevated hazards or provide semantic environmental context. Existing AI-assisted navigation systems typically rely on expensive hardware or cloud connectivity, limiting accessibility in resource-constrained settings. This paper presents an affordable (\\$88 USD), fully offline AI-integrated smart cane designed for multimodal mobility assistance on an ultra-low-power Raspberry Pi Zero 2W. The system fuses RGB vision sensing with Time-of-Flight (ToF) distance estimation, pairing an INT8-quantized SSD MobileNet V1 model with distance-aware vibrotactile feedback and real-time audio alerts. To ensure operational robustness on constrained hardware, a multiprocessing architecture isolates sensor acquisition, neural inference, and haptic feedback into independent processes with fail-safe sensing support. Experimental evaluation across indoor mobility scenarios demonstrates a macro-averaged F1-score of 0.82 (precision: 0.85, recall: 0.81), a mean end-to-end latency of 330\\,ms, and a peak power draw of 2.8\\,W. A preliminary usability study with 12 participants (SUS: 78.5, NASA-TLX) demonstrated positive user perception and enhanced obstacle awareness. The proposed prototype validates the feasibility of deploying privacy-preserving, edge-native assistive intelligence for cost-sensitive mobility assistance.",
+      "pub_date": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "低成本AI智能盲杖：视障用户多模态出行辅助系统",
+        "summary": "本文提出一款售价88美元、完全离线的AI智能盲杖，基于Raspberry Pi Zero 2W，融合RGB视觉与ToF测距，采用INT8量化SSD MobileNet V1模型，提供距离感知振动与音频提示。多进程架构保障低功耗硬件稳定性，室内测试F1达0.82，端到端延迟330ms，峰值功耗2.8W，12人可用性研究显示良好用户体验。",
+        "summary_en": "This paper presents an affordable ($88 USD), fully offline AI-integrated smart cane for visually impaired users, built on a Raspberry Pi Zero 2W. It fuses RGB vision with Time-of-Flight distance estimation, using an INT8-quantized SSD MobileNet V1 model with distance-aware vibrotactile feedback and audio alerts. A multiprocessing architecture isolates sensing, inference, and haptics for robustness. Indoor evaluation achieves a macro-averaged F1 of 0.82, 330 ms end-to-end latency, and 2.8 W peak power, with a 12-participant usability study (SUS 78.5) showing positive perception and improved obstacle awareness.",
+        "tags": [
+          "multimodal",
+          "application",
+          "infrastructure",
+          "evaluation",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.75,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-23-rss-005",
+        "title": "低成本AI智能盲杖：视障用户多模态出行辅助系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.22277",
+        "language": "en",
+        "summary": "本文提出一款售价88美元、完全离线的AI智能盲杖，基于Raspberry Pi Zero 2W，融合RGB视觉与ToF测距，采用INT8量化SSD MobileNet V1模型，提供距离感知振动与音频提示。多进程架构保障低功耗硬件稳定性，室内测试F1达0.82，端到端延迟330ms，峰值功耗2.8W，12人可用性研究显示良好用户体验。",
+        "summary_en": "This paper presents an affordable ($88 USD), fully offline AI-integrated smart cane for visually impaired users, built on a Raspberry Pi Zero 2W. It fuses RGB vision with Time-of-Flight distance estimation, using an INT8-quantized SSD MobileNet V1 model with distance-aware vibrotactile feedback and audio alerts. A multiprocessing architecture isolates sensing, inference, and haptics for robustness. Indoor evaluation achieves a macro-averaged F1 of 0.82, 330 ms end-to-end latency, and 2.8 W peak power, with a 12-participant usability study (SUS 78.5) showing positive perception and improved obstacle awareness.",
+        "tags": [
+          "multimodal",
+          "application",
+          "infrastructure",
+          "evaluation",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.75,
+        "status": "published",
+        "created_at": "2026-09-23T21:20:52.146479+08:00",
+        "updated_at": "2026-09-23T21:20:52.146480+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PAANI : On Device Visual Evidence Fusion and Explainable Guidance for River Robot Simulation",
+      "url": "https://arxiv.org/abs/2609.22353",
+      "description": "arXiv:2609.22353v1 Announce Type: new \nAbstract: Mobile river monitoring robots must interpret obstacles and water boundaries that geographic waypoints alone cannot describe. On resource constrained platforms, converting imperfect visual predictions into timely and inspectable guidance is a distinct challenge. An object label or steering command does not explain which evidence supports a decision or when that evidence is unreliable. We present PAANI, an on-device perception to guidance architecture that combines a project trained YOLO11n detector and a custom MobileNetV3 Small semantic segmenter with timestamp aligned evidence fusion on Arduino UNO Q. Bounded tracking supplies object persistence, while an explicit corridor policy combines surface labels, accepted detections, urgency and mask uncertainty. Each final advisory exposes its contributing evidence and policy reasons. ROS 2 interfaces connect the local AI pipeline to a separate Gazebo vessel, localization and control testbed. Training uses 10,000 WaterScenes images for four-class detection and 1,127 MaSTr1325 images for segmentation, including 198 segmentation validation images. The selected FP32 ONNX models occupy 14.817 MB. Detector checkpoint test mAP at 0.5 IoU is 0.7388, while the separately evaluated rectangular ONNX export achieves validation mAP at 0.5 IoU of 0.7367. Segmentation ONNX validation mIoU is 0.9750. A five-minute UNO Q recording produced median and 95th percentile pipeline latencies of 467.8 ms and 580.3 ms at a configured 0.5 Hz cadence. The evaluation also identifies black input misclassification and a sampling rate mismatch that prevents the diagnostic apparent motion estimator from collecting sufficient evidence. These results support an inspectable and reusable edge robotics foundation while clearly distinguishing model accuracy and on-board execution from validated on-water collision avoidance.",
+      "pub_date": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PAANI：面向河流机器人仿真的端侧视觉证据融合与可解释引导",
+        "summary": "PAANI 是一种端侧感知到引导架构，在 Arduino UNO Q 上结合 YOLO11n 检测器与 MobileNetV3-Small 语义分割器，通过时间戳对齐的证据融合与显式走廊策略生成可解释的导航建议，并通过 ROS 2 连接 Gazebo 仿真测试平台。",
+        "summary_en": "PAANI is an on-device perception-to-guidance architecture combining a YOLO11n detector and MobileNetV3-Small semantic segmenter with timestamp-aligned evidence fusion on Arduino UNO Q, producing inspectable advisories via an explicit corridor policy and connecting to a Gazebo testbed through ROS 2.",
+        "tags": [
+          "application",
+          "multimodal",
+          "infrastructure",
+          "evaluation",
+          "python"
+        ],
+        "category": "application",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-23-rss-006",
+        "title": "PAANI：面向河流机器人仿真的端侧视觉证据融合与可解释引导",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.22353",
+        "language": "en",
+        "summary": "PAANI 是一种端侧感知到引导架构，在 Arduino UNO Q 上结合 YOLO11n 检测器与 MobileNetV3-Small 语义分割器，通过时间戳对齐的证据融合与显式走廊策略生成可解释的导航建议，并通过 ROS 2 连接 Gazebo 仿真测试平台。",
+        "summary_en": "PAANI is an on-device perception-to-guidance architecture combining a YOLO11n detector and MobileNetV3-Small semantic segmenter with timestamp-aligned evidence fusion on Arduino UNO Q, producing inspectable advisories via an explicit corridor policy and connecting to a Gazebo testbed through ROS 2.",
+        "tags": [
+          "application",
+          "multimodal",
+          "infrastructure",
+          "evaluation",
+          "python"
+        ],
+        "category": "application",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-09-23T21:20:52.146482+08:00",
+        "updated_at": "2026-09-23T21:20:52.146483+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Social Influence and the Allocation of Scientific Attention in AI Populations",
+      "url": "https://arxiv.org/abs/2609.22408",
+      "description": "arXiv:2609.22408v1 Announce Type: new \nAbstract: AI systems are becoming participants in the evaluation and use of scientific research. They encounter citation counts, download statistics and lists of popular articles developed around human readers, but the collective consequences of these signals for artificial readers remain uncertain. This paper adapts the Music Lab design to a market for academic attention. In the first experiment, 1,000 AI agents choose papers from the titles and abstracts of all 114 regular research articles published in the American Economic Review in 2025. The experiment has five independent-choice communities and five social-influence communities, each with 100 sequential agents. Only agents in the social-influence condition observe earlier selections within their community. Agents may select any number of papers. Social-information communities select 17.2 percent fewer papers per agent, concentrate their choices more heavily, and collectively cover 73 papers, compared with 90 independently. Between-community variation is greater under social information. In a second experiment with 200 agents across twenty social communities, randomly assigning papers five initial selections raises their subsequent selection rate by 45.55 percentage points (95% CI: 41.20 to 49.90). Choices have modest correspondence with external citations and little correspondence with download counts. The results show how a simple information rule shapes the volume, breadth and distribution of scientific attention in an artificial population.",
+      "pub_date": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "社会影响与AI群体中科学注意力的分配",
+        "summary": "研究将Music Lab实验设计应用于学术注意力市场，让1000个AI智能体从2025年《美国经济评论》114篇论文中选择。社会影响条件下的智能体选择论文数量减少17.2%，选择更集中，集体覆盖73篇论文（独立条件下为90篇）。随机分配初始选择可使后续选择率提高45.55个百分点。",
+        "summary_en": "This paper adapts the Music Lab design to a market for academic attention, having 1,000 AI agents choose papers from 114 AER 2025 articles. Social-influence communities selected 17.2% fewer papers per agent, concentrated choices more heavily, and covered 73 papers vs. 90 independently. Randomly assigning five initial selections raised subsequent selection rates by 45.55 percentage points.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-23-rss-004",
+        "title": "社会影响与AI群体中科学注意力的分配",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.22408",
+        "language": "en",
+        "summary": "研究将Music Lab实验设计应用于学术注意力市场，让1000个AI智能体从2025年《美国经济评论》114篇论文中选择。社会影响条件下的智能体选择论文数量减少17.2%，选择更集中，集体覆盖73篇论文（独立条件下为90篇）。随机分配初始选择可使后续选择率提高45.55个百分点。",
+        "summary_en": "This paper adapts the Music Lab design to a market for academic attention, having 1,000 AI agents choose papers from 114 AER 2025 articles. Social-influence communities selected 17.2% fewer papers per agent, concentrated choices more heavily, and covered 73 papers vs. 90 independently. Randomly assigning five initial selections raised subsequent selection rates by 45.55 percentage points.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-09-23T21:20:52.146476+08:00",
+        "updated_at": "2026-09-23T21:20:52.146477+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Learning 3D biophysical cell properties from 2D images and cell-population statistics",
+      "url": "https://arxiv.org/abs/2609.22410",
+      "description": "arXiv:2609.22410v1 Announce Type: new \nAbstract: Inferring 3D cellular properties from 2D microscopy is difficult when a reference instrument reports only population statistics rather than labels for individual cells. Here we develop a population-supervised framework that maps single 2D red-cell images to latent biophysical quantities and aggregates them to mean corpuscular volume, red-cell distribution width and mean corpuscular haemoglobin. The model combines shared local inference, a biophysically structured decoder for volume and haemoglobin, learned instance weighting and device-specific calibration. We formalise conditions under which aggregate observations identify restricted instance predictors, show why population agreement does not by itself identify single-cell properties or 3D geometry, and derive the dispersion penalty induced by subset mean matching. The development dataset comprises 390 specimens and 1,105 acquisitions across six devices, with reported Pearson correlations of 0.86--0.98 against a Sysmex analyser. The framework provides a testable route from 2D images and population supervision to 3D cellular biophysics without claiming explicit 3D reconstruction.",
+      "pub_date": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从2D图像与细胞群体统计学习3D生物物理细胞属性",
+        "summary": "提出群体监督框架，将单张2D红细胞图像映射到潜在生物物理量并聚合为平均红细胞体积、红细胞分布宽度和平均血红蛋白量，在六个设备上报告与Sysmex分析仪的相关性达0.86-0.98。",
+        "summary_en": "A population-supervised framework maps single 2D red-cell images to latent biophysical quantities and aggregates them to mean corpuscular volume, red-cell distribution width and mean corpuscular haemoglobin, achieving Pearson correlations of 0.86-0.98 against a Sysmex analyser across six devices.",
+        "tags": [
+          "research",
+          "multimodal",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.35,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-23-rss-009",
+        "title": "从2D图像与细胞群体统计学习3D生物物理细胞属性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.22410",
+        "language": "en",
+        "summary": "提出群体监督框架，将单张2D红细胞图像映射到潜在生物物理量并聚合为平均红细胞体积、红细胞分布宽度和平均血红蛋白量，在六个设备上报告与Sysmex分析仪的相关性达0.86-0.98。",
+        "summary_en": "A population-supervised framework maps single 2D red-cell images to latent biophysical quantities and aggregates them to mean corpuscular volume, red-cell distribution width and mean corpuscular haemoglobin, achieving Pearson correlations of 0.86-0.98 against a Sysmex analyser across six devices.",
+        "tags": [
+          "research",
+          "multimodal",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.35,
+        "status": "published",
+        "created_at": "2026-09-23T21:20:52.146493+08:00",
+        "updated_at": "2026-09-23T21:20:52.146494+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "What Does 99% Accuracy Measure? A Reproducible Audit of Shortcut Learning in a Widely Used Fake News Corpus",
+      "url": "https://arxiv.org/abs/2609.25006",
+      "description": "arXiv:2609.25006v1 Announce Type: new \nAbstract: Text classifiers trained on the ISOT/Kaggle \"Fake and Real News\" corpus routinely report accuracy and F1 above 0.98, a level of performance that sits uneasily beside the difficulty of assessing veracity. Using a transparent TF-IDF and linear-classifier pipeline as a measurement instrument, we audit the corpus along three leakage channels and two distribution-shift protocols, releasing all code and derived numbers. First, the benchmark is partly degenerate: a classifier given only the subject metadata field, with the article text discarded, attains F1 = 1.000, since the two classes have disjoint subjects. Second, removing all three leakage channels, metadata, a newswire source tag present in 99.2% of real articles, and 6,251 duplicate documents contaminating 19.4% of a naive test split, lowers F1 by only 1.21 points (0.9935 to 0.9814); the residual signal is diffuse editorial style rather than a few giveaway tokens, since deleting the 1,000 highest-weight unigrams still leaves F1 = 0.926. Third, this style signal does not transfer: under a topic-disjoint protocol, average precision falls from 0.9995 to 0.9475 and deployed F1 from 0.9905 to 0.8067, with a prior-matched analysis confirming a genuine 5.2-point loss of discrimination, while temporal transfer is nearly lossless. A fine-tuned DistilBERT is stronger in-distribution (F1 = 0.9993) but degrades far more under topic shift, losing 12.9 average-precision points against the linear model's 5.2. Transferred to the independent LIAR benchmark, all three models fall to near-chance ranking (ROC-AUC 0.54-0.57), none beating a majority-class baseline. We conclude that within-corpus scores here quantify source and topic separability rather than veracity, that added capacity exploits the shortcut rather than avoiding it, and we recommend metadata-only, small-sample, and topic-disjoint baselines as inexpensive diagnostics for future work.",
+      "pub_date": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "虚假新闻语料库捷径学习可复现审计",
+        "summary": "该研究审计了广泛使用的ISOT/Kaggle虚假新闻语料库，发现高准确率源于元数据、来源标签和重复文档等泄漏通道，而非真实性判断。去除泄漏后F1仅降1.21点，但主题迁移下性能大幅下降，跨基准测试接近随机水平。",
+        "summary_en": "This study audits the widely used ISOT/Kaggle fake news corpus, revealing that high accuracy stems from leakage channels like metadata, source tags, and duplicates rather than veracity assessment. Removing leakage lowers F1 by only 1.21 points, but performance drops sharply under topic shift and approaches chance on cross-benchmark tests.",
+        "tags": [
+          "research",
+          "benchmark",
+          "evaluation",
+          "llm",
+          "fine-tuning"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-23-rss-007",
+        "title": "虚假新闻语料库捷径学习可复现审计",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.25006",
+        "language": "en",
+        "summary": "该研究审计了广泛使用的ISOT/Kaggle虚假新闻语料库，发现高准确率源于元数据、来源标签和重复文档等泄漏通道，而非真实性判断。去除泄漏后F1仅降1.21点，但主题迁移下性能大幅下降，跨基准测试接近随机水平。",
+        "summary_en": "This study audits the widely used ISOT/Kaggle fake news corpus, revealing that high accuracy stems from leakage channels like metadata, source tags, and duplicates rather than veracity assessment. Removing leakage lowers F1 by only 1.21 points, but performance drops sharply under topic shift and approaches chance on cross-benchmark tests.",
+        "tags": [
+          "research",
+          "benchmark",
+          "evaluation",
+          "llm",
+          "fine-tuning"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-09-23T21:20:52.146485+08:00",
+        "updated_at": "2026-09-23T21:20:52.146486+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Training a Language Model End-to-End in Rust: An Experience Report",
+      "url": "https://arxiv.org/abs/2609.25008",
+      "description": "arXiv:2609.25008v1 Announce Type: new \nAbstract: I pretrained a language model end-to-end in Rust - alone, with no team, no PyTorch, and no Python in the training path - for $164 in rented GPU time. I report that as an achievement, not a recommendation: the more useful contribution is a measured failure taxonomy of the two leading Rust ML frameworks, Candle and Burn, as training (not inference) backends in 2026. I document five Candle defects, including fused kernels that silently produce no gradient, and three Burn defects, including a backward pass at roughly 3% of theoretical GPU throughput and a kernel-fusion path that segfaults mid-training at multi-billion-parameter scale. Every one passed ordinary loss-curve inspection; none announced itself. I describe the verification discipline that caught six such silent failures, centered on a gradient-flow arbiter: a test that runs one forward/backward pass and asserts every trainable parameter receives a finite, nonzero gradient, generalizable to any framework. The trained model (roughly 0.4B parameters, Bangla-first) shows strong Bangla language-modeling signal - a per-token negative log-likelihood of 0.93 against 12.60 for a random-initialized twin - while scoring at chance on English commonsense multiple-choice, the expected outcome of a deliberately small, Bangla-weighted budget (about 2 billion tokens, 54.6 hours, one rented H100). I also report a tokenizer-fertility trap in Bengali script: naive byte-level tokenization collapsed Bangla to roughly 1.4 characters per token against English's 3.9, silently inverting the corpus's language balance; fixing it reached roughly 4.1. To my knowledge, this is among the first documented end-to-end LM pretraining runs in pure Rust. After this run I moved training to PyTorch and kept Rust for on-device serving: in my hands, Rust is not yet a competitive place to train a language model, though it may be a good place to serve one.",
+      "pub_date": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "用Rust端到端训练语言模型的实践报告",
+        "summary": "作者用纯Rust、无PyTorch/Python，以164美元GPU租用成本从零预训练了一个约0.4B参数的语言模型，并系统记录了Candle和Burn两大Rust ML框架作为训练后端的五处Candle缺陷与三处Burn缺陷，包括静默无梯度的融合内核、仅3%理论吞吐的反向传播及数十亿参数规模下的段错误。作者提出以梯度流仲裁器为核心的验证方法，捕获六类静默失败，并报告了孟加拉文分词肥力陷阱。结论是Rust目前尚不适合训练语言模型，但适合端侧推理服务。",
+        "summary_en": "The author pretrained a ~0.4B-parameter language model end-to-end in pure Rust for $164 in rented GPU time, with no PyTorch or Python in the training path. The core contribution is a measured failure taxonomy of Candle and Burn as training backends: five Candle defects (including fused kernels that silently produce no gradient) and three Burn defects (a backward pass at ~3% of theoretical throughput and a segfault at multi-billion-parameter scale). A gradient-flow arbiter test caught six silent failures. The model (Bangla-first) reached per-token NLL of 0.93 vs 12.60 for a random twin, and a Bengali tokenizer-fertility trap was documented. Conclusion: Rust is not yet competitive for training, though it may be good for serving.",
+        "tags": [
+          "llm",
+          "rust",
+          "research",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      }
+    },
+    {
+      "title": "Same Quantity, Different Answer: Numerical Representation Invariance in Language Models",
+      "url": "https://arxiv.org/abs/2609.25009",
+      "description": "arXiv:2609.25009v1 Announce Type: new \nAbstract: Numerically equivalent word problems should yield the same canonical answer whether a quantity is written as a decimal, fraction, percentage, number word, scientific notation, or an exactly converted unit. We generate 3,600 exact-rational problems and 8,600 prompts spanning five identity-preserving transformation families, and evaluate five open-weight systems. After a fixed syntax audit that normalizes common answer forms without an LLM judge, canonical accuracy is 0.969-0.996, but orbit correctness falls to 0.848-0.981 and orbit invariance to 0.851-0.981; invariant-but-wrong orbits account for at most 0.003. Most of the broad strict-parser collapse arises because multiplication-form scientific notation lies outside the implemented number grammar, illustrating how evaluator interfaces can masquerade as reasoning failures. A distinct semantic pathology remains: Mistral Small 4 scores 0.699 on unit-converted inputs and produces 265 errors differing from the label by exact powers of ten. In a separate 9,000-call experiment that allocates equal calls to the compared arms, representation consensus does not outperform paraphrase consensus on a low-error subset and produces substantially more false alarms. The accompanying ancillary archive contains the frozen benchmark, evaluation and audit records, consensus raw responses, manifests, analysis code, and a one-command paper build.",
+      "pub_date": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "同量不同答：语言模型中的数值表示不变性研究",
+        "summary": "该研究生成3600个精确有理数问题和8600个提示，涵盖五种保持数值恒等的变换，评估五个开源模型。发现规范准确率高达0.969-0.996，但轨道不变性降至0.851-0.981，主要因科学计数法超出解析语法，揭示评估接口可伪装成推理失败。",
+        "summary_en": "This study generates 3,600 exact-rational problems and 8,600 prompts across five identity-preserving transformations, evaluating five open-weight models. Canonical accuracy reaches 0.969-0.996, but orbit invariance drops to 0.851-0.981, largely because scientific notation falls outside the parser grammar, showing evaluator interfaces can masquerade as reasoning failures.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "benchmark",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-23-rss-001",
+        "title": "同量不同答：语言模型中的数值表示不变性研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.25009",
+        "language": "en",
+        "summary": "该研究生成3600个精确有理数问题和8600个提示，涵盖五种保持数值恒等的变换，评估五个开源模型。发现规范准确率高达0.969-0.996，但轨道不变性降至0.851-0.981，主要因科学计数法超出解析语法，揭示评估接口可伪装成推理失败。",
+        "summary_en": "This study generates 3,600 exact-rational problems and 8,600 prompts across five identity-preserving transformations, evaluating five open-weight models. Canonical accuracy reaches 0.969-0.996, but orbit invariance drops to 0.851-0.981, largely because scientific notation falls outside the parser grammar, showing evaluator interfaces can masquerade as reasoning failures.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "benchmark",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-23T21:20:52.146463+08:00",
+        "updated_at": "2026-09-23T21:20:52.146467+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A Computational Approach to Measuring Semantic Change in Sanskrit Literature",
+      "url": "https://arxiv.org/abs/2609.25012",
+      "description": "arXiv:2609.25012v1 Announce Type: new \nAbstract: Diachronic word embeddings have become the modern standard for tracking semantic change, yet they have been largely validated on modern, high-resource, and well-segmented languages. This paper tests whether the paradigm transfers to Sanskrit, an ancient, low-resource language whose phonological fusion (sandhi), morphological inflection, compounding, and polysemy pose a unique challenge. I assemble a 2.7M-token corpus spanning four canonical periods, recover word boundaries with a neural byte-level sandhi splitter and lemmatizer, and train per-period embeddings across configurations. To evaluate the system, I curate a validation set from historical scholarship and test recovery directionally with anchor displacement. Of 21 testable shifts, 19 move in the philologically attested direction (sign test, p=0.00011). I further show which configuration the language forces and comment on opportunities for improvement.",
+      "pub_date": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "梵语文学语义变化的计算方法研究",
+        "summary": "本文探讨历时词嵌入方法在梵语等低资源古代语言中的适用性。作者构建了覆盖四个经典时期的270万词元语料库，使用神经字节级连音拆分器和词形还原器恢复词边界，并训练各时期词嵌入。在21个可测试的语义变化中，19个方向与文献学考证一致（符号检验，p=0.00011）。",
+        "summary_en": "This paper tests whether diachronic word embeddings transfer to Sanskrit, an ancient low-resource language with sandhi, inflection, compounding, and polysemy. The author assembles a 2.7M-token corpus across four canonical periods, recovers word boundaries with a neural byte-level sandhi splitter and lemmatizer, and trains per-period embeddings. Of 21 testable shifts, 19 move in the philologically attested direction (sign test, p=0.00011).",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-23-rss-008",
+        "title": "梵语文学语义变化的计算方法研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.25012",
+        "language": "en",
+        "summary": "本文探讨历时词嵌入方法在梵语等低资源古代语言中的适用性。作者构建了覆盖四个经典时期的270万词元语料库，使用神经字节级连音拆分器和词形还原器恢复词边界，并训练各时期词嵌入。在21个可测试的语义变化中，19个方向与文献学考证一致（符号检验，p=0.00011）。",
+        "summary_en": "This paper tests whether diachronic word embeddings transfer to Sanskrit, an ancient low-resource language with sandhi, inflection, compounding, and polysemy. The author assembles a 2.7M-token corpus across four canonical periods, recovers word boundaries with a neural byte-level sandhi splitter and lemmatizer, and trains per-period embeddings. Of 21 testable shifts, 19 move in the philologically attested direction (sign test, p=0.00011).",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-09-23T21:20:52.146491+08:00",
+        "updated_at": "2026-09-23T21:20:52.146492+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Retrieved-Span Training for Efficient Query-Focused Meeting Summarization on QMSum",
+      "url": "https://arxiv.org/abs/2609.25028",
+      "description": "arXiv:2609.25028v1 Announce Type: new \nAbstract: QMSum provides no scorer, making query-focused meeting summarization results difficult to compare. We rescore or generate 15 systems under one implementation. Through a common inference port, a released 406M Fusion-in-Decoder specialist loses 6.30 ROUGE-1 when moved from capped long input to 2,000-word retrieved spans. Fine-tuning it on this span regime recovers the loss. On test it scores 36.33 ROUGE-1 versus 35.41 for our 1.2B system; the meeting-cluster 95% interval for the difference is [-0.27, +2.22], so QMSum does not statistically separate them. The smaller system uses about one-third as many total parameters and less than half the peak inference memory. Within the fixed 1.2B base, span-regime fine-tuning adds 5.29 [+4.02, +6.56], while replacing the first 4,500 transcript words with 2,000 retrieved words adds 1.55 on test and 0.29 on validation. Separately, under one concise prompt and reference-overlap scorer, a released 406M specialist exceeds five proprietary hosted models by at least 6.2 ROUGE-1, but output length and absent human or factuality evaluation limit this ordering. Conclusions are limited to QMSum and automatic metrics.",
+      "pub_date": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向QMSum的高效查询聚焦会议摘要的检索跨度训练",
+        "summary": "针对QMSum缺乏评分器的问题，在统一实现下重新评估15个系统。406M Fusion-in-Decoder专家模型从长输入切换到2000词检索跨度时ROUGE-1下降6.30，跨度微调可恢复损失，测试得分36.33，与1.2B系统无统计显著差异，但参数量约为三分之一，峰值推理内存不到一半。",
+        "summary_en": "QMSum lacks a scorer, making query-focused meeting summarization hard to compare. Rescoring 15 systems under one implementation, a 406M Fusion-in-Decoder specialist loses 6.30 ROUGE-1 moving from capped long input to 2,000-word retrieved spans; span-regime fine-tuning recovers it, scoring 36.33 ROUGE-1 versus 35.41 for a 1.2B system, a statistically insignificant difference, with about one-third the parameters and less than half the peak inference memory.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-23-rss-003",
+        "title": "面向QMSum的高效查询聚焦会议摘要的检索跨度训练",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.25028",
+        "language": "en",
+        "summary": "针对QMSum缺乏评分器的问题，在统一实现下重新评估15个系统。406M Fusion-in-Decoder专家模型从长输入切换到2000词检索跨度时ROUGE-1下降6.30，跨度微调可恢复损失，测试得分36.33，与1.2B系统无统计显著差异，但参数量约为三分之一，峰值推理内存不到一半。",
+        "summary_en": "QMSum lacks a scorer, making query-focused meeting summarization hard to compare. Rescoring 15 systems under one implementation, a 406M Fusion-in-Decoder specialist loses 6.30 ROUGE-1 moving from capped long input to 2,000-word retrieved spans; span-regime fine-tuning recovers it, scoring 36.33 ROUGE-1 versus 35.41 for a 1.2B system, a statistically insignificant difference, with about one-third the parameters and less than half the peak inference memory.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-23T21:20:52.146473+08:00",
+        "updated_at": "2026-09-23T21:20:52.146474+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

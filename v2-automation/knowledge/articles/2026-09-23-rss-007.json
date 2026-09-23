@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-23-rss-007",
+  "title": "虚假新闻语料库捷径学习可复现审计",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.25006",
+  "language": "en",
+  "summary": "该研究审计了广泛使用的ISOT/Kaggle虚假新闻语料库，发现高准确率源于元数据、来源标签和重复文档等泄漏通道，而非真实性判断。去除泄漏后F1仅降1.21点，但主题迁移下性能大幅下降，跨基准测试接近随机水平。",
+  "summary_en": "This study audits the widely used ISOT/Kaggle fake news corpus, revealing that high accuracy stems from leakage channels like metadata, source tags, and duplicates rather than veracity assessment. Removing leakage lowers F1 by only 1.21 points, but performance drops sharply under topic shift and approaches chance on cross-benchmark tests.",
+  "tags": [
+    "research",
+    "benchmark",
+    "evaluation",
+    "llm",
+    "fine-tuning"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-09-23T21:20:52.146485+08:00",
+  "updated_at": "2026-09-23T21:20:52.146486+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
