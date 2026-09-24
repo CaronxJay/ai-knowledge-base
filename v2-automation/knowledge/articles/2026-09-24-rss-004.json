@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-24-rss-004",
+  "title": "COMED：多LLM推理中路由与协作之间的缺失环节",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.26913",
+  "language": "en",
+  "summary": "COMED提出一种锚点后控制器，通过锚点自一致性、路由边际和轻量对等探测，选择性地进行跨模型协作，仅在协作可能有益时升级。在医疗、科学和通用推理基准上，16个开放权重设置均有提升，MedQA最高提升10.7个百分点，且比密集协作调用更少模型和token。",
+  "summary_en": "COMED introduces a post-anchor controller for selective cross-model collaboration using anchor self-consistency, router margin, and a lightweight peer probe. It accepts confident answers, verifies ambiguous cases, and escalates only when collaboration is likely beneficial. Across medical, scientific, and general reasoning benchmarks, COMED improves all 16 open-weight settings, with gains up to +10.7 points on MedQA while invoking fewer models and tokens than dense collaboration.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark",
+    "application"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-24T21:10:48.697118+08:00",
+  "updated_at": "2026-09-24T21:10:48.697120+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

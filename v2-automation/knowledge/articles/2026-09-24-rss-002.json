@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-24-rss-002",
+  "title": "Harness 即语言：极简主义 Agent 框架的最大表达力",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.26891",
+  "language": "en",
+  "summary": "论文提出 JAZ 框架，将 LLM 调用抽象为语言原语 invoke，仅靠 agent loop 本身实现记忆与自我改进等复杂工作流。在 StuLife 长程回忆任务上比 Letta(MemGPT) 高 8% 且成本减半，在 AppWorld 持续自我改进上比 ACE 高 4% 且成本更低。",
+  "summary_en": "The paper introduces JAZ, a minimalist LLM agent framework treating the LLM call as a language primitive 'invoke'. With only prompting and no external tools or memory systems, JAZ invoke outperforms Letta (MemGPT) by 8% at half the cost on StuLife's recall-heavy portion, and beats ACE by 4% at lower cost on AppWorld continual self-improvement.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "prompt-engineering",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-24T21:10:48.697109+08:00",
+  "updated_at": "2026-09-24T21:10:48.697111+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

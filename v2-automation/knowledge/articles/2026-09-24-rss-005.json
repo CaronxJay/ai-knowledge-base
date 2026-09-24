@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-24-rss-005",
+  "title": "构建社会情感人工智能实现多智能体交互模拟",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.26927",
+  "language": "en",
+  "summary": "本文提出面向人机多智能体交互的社会情感AI设计原则与软件架构AGIMUD，整合社会感知推理与情感、多模态人机交互方案及分布式AI处理，使智能体与人类可在MUD动态世界中实时互动。",
+  "summary_en": "This paper presents design principles and a software architecture, AGIMUD, for socio-affective AI enabling interaction between humans and multiple agents in simulated dynamic worlds. It integrates socially-aware reasoning and emotion, a multimodal human scheme, and distributed AI processing, allowing agents and humans to interact in real time within MUDs.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "multimodal",
+    "llm",
+    "open-source"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-24T21:10:48.697122+08:00",
+  "updated_at": "2026-09-24T21:10:48.697124+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

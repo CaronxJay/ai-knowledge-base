@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-24-rss-010",
+  "title": "学习式上下文规划未能超越强检索：长上下文问答中规划、路由与重排序的受控研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.26976",
+  "language": "en",
+  "summary": "研究测试学习式上下文规划在强检索、路由与重排序控制下对长上下文多选题问答的效果。在LongBench-v2的503题上，锚定混合检索达36.18%，BM25达35.98%，而最佳规划引导方法仅34.19%。在未触碰的152题测试集上，混合检索仍更高（42.11%对36.84%）。结论：学习式规划只是弱相关性信号，无法替代强检索。",
+  "summary_en": "This study tests whether learned context planning improves long-context multiple-choice QA after strong retrieval, routing, and reranking controls. On 503 LongBench-v2 questions, anchored hybrid retrieval reaches 36.18% and BM25 35.98%, while the best planner-guided method reaches only 34.19%. On the untouched 152-question test split, hybrid retrieval remains higher (42.11% vs 36.84%). Conclusion: learned planning is a weak relevance signal, not a replacement for strong retrieval.",
+  "tags": [
+    "rag",
+    "research",
+    "evaluation",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-24T21:10:48.697147+08:00",
+  "updated_at": "2026-09-24T21:10:48.697148+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-24-rss-007",
+  "title": "利用跨模型分歧定位专家投入：LLM代码本修订加速大规模标注",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.26926",
+  "language": "en",
+  "summary": "研究提出利用多个LLM之间的分歧来定位需要专家介入的案例，加速代码本修订。比较三种专家反馈方式：代码本验证、问答、理由标注。在数千份辅导对话转录上，理由标注达到最高标注准确率64.9%，优于专家修订代码本（57.8%），问答方式也达60.5%。该方法将数月的代码本修订缩短至数天。",
+  "summary_en": "This work uses cross-LLM disagreement to strategically target expert attention for codebook revision. Comparing three expert feedback modes—Codebook Verifying, Question Answering, and Rationale Labeling—on thousands of tutoring transcripts, Rationale Labeling achieved the highest LLM-labeling accuracy (64.9%) versus the expert-revised codebook (57.8%), with Question Answering also outperforming at 60.5%. This shortens months of codebook revision to days without sacrificing labeling performance.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "application",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-24T21:10:48.697130+08:00",
+  "updated_at": "2026-09-24T21:10:48.697132+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-24-rss-003",
+  "title": "TwinCheck：面向有状态工具智能体的证据锚定负孪生验证",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.26911",
+  "language": "en",
+  "summary": "TwinCheck 是一种推理时验证策略，仅在轨迹满足与局部失败假设相关的证据条件时才考虑替换工具调用。它构建轨迹锚定的反事实替代（负孪生），仅当孪生通过结构检查且成对验证器在两种候选顺序下均偏好它时才替换。在159个BFCL V4多轮任务上，GPT-5.6 Sol任务成功率从45.3%提升至58.5%，且无成功转失败的回归。",
+  "summary_en": "TwinCheck is an inference-time verification policy that considers replacing a tool call only when the trace satisfies an evidence condition tied to a trace-local failure hypothesis. It constructs a trace-grounded counterfactual alternative (negative twin) and replaces the agent's proposal only if the twin passes structural checks and a pairwise verifier prefers it in both candidate orders. On 159 multi-turn BFCL V4 tasks, task success for GPT-5.6 Sol rose from 45.3% to 58.5% with no success-to-failure regressions.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "evaluation",
+    "research",
+    "tool"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-24T21:10:48.697114+08:00",
+  "updated_at": "2026-09-24T21:10:48.697116+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

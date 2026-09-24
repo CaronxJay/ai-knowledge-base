@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-24-rss-008",
+  "title": "识别但无法生成：文化特定亲属称谓的生成基准测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.26942",
+  "language": "en",
+  "summary": "该研究指出，现有LLM多语言亲属称谓评测多采用选择题形式，仅考察识别能力。作者改用生成任务测试五种开源LLM在印地语、泰米尔语和韩语中的亲属称谓生成，发现识别准确率远高于生成准确率（如GPT OSS120B为90.67%对36.00%），揭示评测格式差距，并呼吁引入基于生成的评测方法。",
+  "summary_en": "This study shows that existing multilingual kinship term benchmarks for LLMs rely on multiple-choice recognition, overstating ability. Testing five open-weight LLMs on generation tasks in Hindi, Tamil, and Korean, it finds recognition far exceeds production (e.g., GPT OSS120B: 90.67% vs. 36.00%), revealing an evaluation format gap and motivating generation-based evaluation.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "research",
+    "multimodal"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-24T21:10:48.697135+08:00",
+  "updated_at": "2026-09-24T21:10:48.697137+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

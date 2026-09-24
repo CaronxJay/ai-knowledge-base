@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-24-rss-006",
+  "title": "可操控多元对齐中的目标冲突预测与权衡覆盖",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.26929",
+  "language": "en",
+  "summary": "研究MODPO中目标权重如何平衡竞争目标：两个预训练指标可预测人类标注数据的目标对齐或冲突，但在AI标注数据中受长度与重复干扰；模型选择与参数合并可扩大权衡覆盖，但均不如直接训练。",
+  "summary_en": "Studies when one model can improve two objectives simultaneously and how to cover many trade-offs without training separate models. Two pre-training measurements predict objective alignment/conflict for human-annotated data but not AI-annotated data, where length and repetition confound reward scores. Nearest-model selection and parameter merging help coverage but do not consistently match direct training.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-24T21:10:48.697126+08:00",
+  "updated_at": "2026-09-24T21:10:48.697128+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

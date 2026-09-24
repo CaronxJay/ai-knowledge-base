@@ -1,0 +1,497 @@
+{
+  "collected_at": "2026-09-24T21:10:48.697937+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse",
+      "url": "https://arxiv.org/abs/2609.26836",
+      "description": "arXiv:2609.26836v1 Announce Type: new \nAbstract: Agentic AI systems are increasingly adopting automated pipelines that integrate multiple tools. While prior research and benchmarks have studied about task success and task completion of these agentic systems, the research about agent to tool interaction, specifically in biology agentic workflow is limited. This study investigates specific failures in agent to tool interaction where a tool invocation appears successful, some or all of the information or functionality from the tool via API/ wrapper is incomplete or missing and there are no communications / notifications to the user or the agent about such missing information. We call this a silent failures as the user or the agents are not aware that such failure has occurred. For the purposes of this study we developed an audit mechanism to identify such silent failures in Agent to tool interaction, by examining 15 scientific tools (and their associated API documentation and tool documentations) integrated within ToolUniverse environment (ToolUniverse serves as our experimental environment rather than the object of the study itself). We structure our study around 7 failure locus characterising where the failure occurs in the chain. We observed 91 failures (manually validated post LLM based candidate discovery and automated testing), most frequent of them being missing data or fields and inconsistencies in search, filtering or ranking criteria. Most of the 91 failures occurred in API layer (51) or wrapper layer (25), with a potential of silent failure amplification downstream. The results show that silent failures originate upstream of the event and propagate downstream into apparently valid scientific outputs. We propose a concept of contextual reliability to handle such failures and suggest mechanisms for testing, disclosing, monitoring, and measuring such failures across the agent-tool interaction pipeline.",
+      "pub_date": "Thu, 24 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Agent工具交互中的静默失败：ToolUniverse审计研究",
+        "summary": "研究揭示Agent与工具交互中的\"静默失败\"现象：工具调用看似成功但信息缺失且无通知。通过审计ToolUniverse中15个科学工具，发现91个失败案例，多集中于API层（51）和包装层（25），并提出上下文可靠性概念及监测机制。",
+        "summary_en": "This study investigates silent failures in agent-tool interaction, where tool invocations appear successful but information is incomplete with no notification. Auditing 15 scientific tools in ToolUniverse, 91 failures were found, mostly in API (51) and wrapper (25) layers, proposing contextual reliability and monitoring mechanisms.",
+        "tags": [
+          "agent-framework",
+          "evaluation",
+          "research",
+          "tool",
+          "benchmark"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-24-rss-001",
+        "title": "Agent工具交互中的静默失败：ToolUniverse审计研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.26836",
+        "language": "en",
+        "summary": "研究揭示Agent与工具交互中的\"静默失败\"现象：工具调用看似成功但信息缺失且无通知。通过审计ToolUniverse中15个科学工具，发现91个失败案例，多集中于API层（51）和包装层（25），并提出上下文可靠性概念及监测机制。",
+        "summary_en": "This study investigates silent failures in agent-tool interaction, where tool invocations appear successful but information is incomplete with no notification. Auditing 15 scientific tools in ToolUniverse, 91 failures were found, mostly in API (51) and wrapper (25) layers, proposing contextual reliability and monitoring mechanisms.",
+        "tags": [
+          "agent-framework",
+          "evaluation",
+          "research",
+          "tool",
+          "benchmark"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-24T21:10:48.697101+08:00",
+        "updated_at": "2026-09-24T21:10:48.697105+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity",
+      "url": "https://arxiv.org/abs/2609.26891",
+      "description": "arXiv:2609.26891v1 Announce Type: new \nAbstract: Modern language-model agents are built around the \\textit{agent loop}, where the LLM is placed in an environment exposing a set of tools, and the LLM has full control over the workflow by alternating between tool calls and observing their output. However, certain workflows currently require additional engineering beyond the agent loop itself, such as memory systems and self-improving systems. We built an LLM agent framework, JAZ, to explore the extent to which a minimal harness that is little more than the agent loop itself can accomplish tasks these specialized systems are built for. JAZ exposes a single LLM-based primitive invoke and provides a set of built-in hooks that allow the programmer to apply constraints and monitoring. Generalizing existing code-mode agent loops, \\texttt{invoke} is the simplest loop that satisfies two defining properties: (1) the LLM can write arbitrary executable code that can include recursive \\texttt{invoke}; (2) everything visible to the LLM --- all inputs to \\texttt{invoke} as well as its interaction history with the code environment --- are variables in the code environment. We motivate our design from first principles, viewing \\texttt{invoke} as a language primitive representing a function whose implementation is provided at runtime by an LLM every time it is called. To validate the design of our core \\texttt{invoke} primitive, we evaluate \\texttt{invoke} --- with only prompting, no manually designed tools, harness, or external systems (e.g., memory or the file system) --- on workflows traditionally implemented through specialized external harnesses. On long-horizon workflows requiring recall beyond the context window, JAZ invoke outperforms Letta (MemGPT) by 8\\% at half its cost on the recall-heavy portion of StuLife. On continual self-improvement, JAZ invoke outperforms ACE by 4\\% at a lower cost on AppWorld.",
+      "pub_date": "Thu, 24 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Harness 即语言：极简主义 Agent 框架的最大表达力",
+        "summary": "论文提出 JAZ 框架，将 LLM 调用抽象为语言原语 invoke，仅靠 agent loop 本身实现记忆与自我改进等复杂工作流。在 StuLife 长程回忆任务上比 Letta(MemGPT) 高 8% 且成本减半，在 AppWorld 持续自我改进上比 ACE 高 4% 且成本更低。",
+        "summary_en": "The paper introduces JAZ, a minimalist LLM agent framework treating the LLM call as a language primitive 'invoke'. With only prompting and no external tools or memory systems, JAZ invoke outperforms Letta (MemGPT) by 8% at half the cost on StuLife's recall-heavy portion, and beats ACE by 4% at lower cost on AppWorld continual self-improvement.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-24-rss-002",
+        "title": "Harness 即语言：极简主义 Agent 框架的最大表达力",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.26891",
+        "language": "en",
+        "summary": "论文提出 JAZ 框架，将 LLM 调用抽象为语言原语 invoke，仅靠 agent loop 本身实现记忆与自我改进等复杂工作流。在 StuLife 长程回忆任务上比 Letta(MemGPT) 高 8% 且成本减半，在 AppWorld 持续自我改进上比 ACE 高 4% 且成本更低。",
+        "summary_en": "The paper introduces JAZ, a minimalist LLM agent framework treating the LLM call as a language primitive 'invoke'. With only prompting and no external tools or memory systems, JAZ invoke outperforms Letta (MemGPT) by 8% at half the cost on StuLife's recall-heavy portion, and beats ACE by 4% at lower cost on AppWorld continual self-improvement.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-24T21:10:48.697109+08:00",
+        "updated_at": "2026-09-24T21:10:48.697111+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "TwinCheck: Evidence-Grounded Negative-Twin Verification for Stateful Tool Agents",
+      "url": "https://arxiv.org/abs/2609.26911",
+      "description": "arXiv:2609.26911v1 Announce Type: new \nAbstract: A single locally plausible tool call can derail an otherwise successful agent trajectory. Suspicion alone does not justify intervention, because the replacement itself can introduce the very failure verification is meant to prevent. We introduce TwinCheck, an inference-time verification policy that considers replacement only when the trace satisfies an evidence condition tied to a trace-local failure hypothesis. It constructs a trace-grounded counterfactual alternative, a negative twin, and replaces the agent's proposal only if the twin passes structural checks and the pairwise verifier prefers it in both candidate orders. For paired evaluation, exact replay holds the agent's parsed responses and actions fixed until the first accepted replacement, separating intervention effects from resampling. In the primary analysis of 159 multi-turn BFCL V4 tasks with complete exact-replay pairs, the complete policy raises task success for GPT-5.6 Sol from 45.3% to 58.5% (95% task-bootstrap CI [8.2, 18.8]), with no observed success-to-failure regressions. Together, these findings recast execution-boundary repair as a constrained comparison, making the counterfactual action itself the object of verification.",
+      "pub_date": "Thu, 24 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "TwinCheck：面向有状态工具智能体的证据锚定负孪生验证",
+        "summary": "TwinCheck 是一种推理时验证策略，仅在轨迹满足与局部失败假设相关的证据条件时才考虑替换工具调用。它构建轨迹锚定的反事实替代（负孪生），仅当孪生通过结构检查且成对验证器在两种候选顺序下均偏好它时才替换。在159个BFCL V4多轮任务上，GPT-5.6 Sol任务成功率从45.3%提升至58.5%，且无成功转失败的回归。",
+        "summary_en": "TwinCheck is an inference-time verification policy that considers replacing a tool call only when the trace satisfies an evidence condition tied to a trace-local failure hypothesis. It constructs a trace-grounded counterfactual alternative (negative twin) and replaces the agent's proposal only if the twin passes structural checks and a pairwise verifier prefers it in both candidate orders. On 159 multi-turn BFCL V4 tasks, task success for GPT-5.6 Sol rose from 45.3% to 58.5% with no success-to-failure regressions.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "evaluation",
+          "research",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-24-rss-003",
+        "title": "TwinCheck：面向有状态工具智能体的证据锚定负孪生验证",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.26911",
+        "language": "en",
+        "summary": "TwinCheck 是一种推理时验证策略，仅在轨迹满足与局部失败假设相关的证据条件时才考虑替换工具调用。它构建轨迹锚定的反事实替代（负孪生），仅当孪生通过结构检查且成对验证器在两种候选顺序下均偏好它时才替换。在159个BFCL V4多轮任务上，GPT-5.6 Sol任务成功率从45.3%提升至58.5%，且无成功转失败的回归。",
+        "summary_en": "TwinCheck is an inference-time verification policy that considers replacing a tool call only when the trace satisfies an evidence condition tied to a trace-local failure hypothesis. It constructs a trace-grounded counterfactual alternative (negative twin) and replaces the agent's proposal only if the twin passes structural checks and a pairwise verifier prefers it in both candidate orders. On 159 multi-turn BFCL V4 tasks, task success for GPT-5.6 Sol rose from 45.3% to 58.5% with no success-to-failure regressions.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "evaluation",
+          "research",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-24T21:10:48.697114+08:00",
+        "updated_at": "2026-09-24T21:10:48.697116+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Building Socio-Affective Artificial Intelligence for Interactive Multi-Agent Simulations",
+      "url": "https://arxiv.org/abs/2609.26927",
+      "description": "arXiv:2609.26927v1 Announce Type: new \nAbstract: The objective of this article is to provide design principles and a software architecture for enabling interaction between humans and multiple agents in simulated dynamic worlds. This connects the current era of general artificial intelligence (AI/AGI) with the proliferation of transformer-based conversational agents and the increased computational capabilities. Given an overview of current and previous multi-agent theories of mind (socially and affectively-aware agents), the existence of an integrative design of agent interactions with themselves and with humans must be crucial for understanding how to create sustainable and governance in future human-agent reasoning systems. In this work is presented a software \"AGIMUD\" that integrates: A. socially-aware reasoning and emotion in agent behavior and interaction, B. a design of human multimodal scheme for human users, artificial agents and simulated worlds, and C. distributing the AI processing through the network to enable multiple autonomous agents. These integrations allow the dynamic world recreation as multi-user dungeons (MUDs) where both agents and humans can interact simultaneously in real time. Find the code online in https://github.com/dberga/AGIMUD.",
+      "pub_date": "Thu, 24 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "构建社会情感人工智能实现多智能体交互模拟",
+        "summary": "本文提出面向人机多智能体交互的社会情感AI设计原则与软件架构AGIMUD，整合社会感知推理与情感、多模态人机交互方案及分布式AI处理，使智能体与人类可在MUD动态世界中实时互动。",
+        "summary_en": "This paper presents design principles and a software architecture, AGIMUD, for socio-affective AI enabling interaction between humans and multiple agents in simulated dynamic worlds. It integrates socially-aware reasoning and emotion, a multimodal human scheme, and distributed AI processing, allowing agents and humans to interact in real time within MUDs.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "multimodal",
+          "llm",
+          "open-source"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-24-rss-005",
+        "title": "构建社会情感人工智能实现多智能体交互模拟",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.26927",
+        "language": "en",
+        "summary": "本文提出面向人机多智能体交互的社会情感AI设计原则与软件架构AGIMUD，整合社会感知推理与情感、多模态人机交互方案及分布式AI处理，使智能体与人类可在MUD动态世界中实时互动。",
+        "summary_en": "This paper presents design principles and a software architecture, AGIMUD, for socio-affective AI enabling interaction between humans and multiple agents in simulated dynamic worlds. It integrates socially-aware reasoning and emotion, a multimodal human scheme, and distributed AI processing, allowing agents and humans to interact in real time within MUDs.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "multimodal",
+          "llm",
+          "open-source"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-24T21:10:48.697122+08:00",
+        "updated_at": "2026-09-24T21:10:48.697124+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Which Objectives Need a Dial? Predicting Objective Conflict and Covering Trade-offs in Steerable Pluralistic Alignment",
+      "url": "https://arxiv.org/abs/2609.26929",
+      "description": "arXiv:2609.26929v1 Announce Type: new \nAbstract: People hold diverse, sometimes conflicting values, so no single aligned model can satisfy everyone. Pluralistic alignment therefore calls for steerable models that can balance competing objectives differently. Multi-Objective Direct Preference Optimization (MODPO) does this by using an objective weight to span a continuum of trade-offs. We study two questions: when can one model improve two objectives simultaneously, and how can many trade-offs be covered without training a separate model for each? Across seven objective pairs from HelpSteer and UltraFeedback, two pre-training measurements predict whether objectives align or conflict for human-annotated data, but not for AI-annotated data, where response length and repetition confound reward-model scores. For broader trade-off coverage, selecting the nearest trained model and merging model parameters both help, but neither consistently matches direct training. These findings yield practical guidance for building steerable models that serve diverse preferences.",
+      "pub_date": "Thu, 24 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "可操控多元对齐中的目标冲突预测与权衡覆盖",
+        "summary": "研究MODPO中目标权重如何平衡竞争目标：两个预训练指标可预测人类标注数据的目标对齐或冲突，但在AI标注数据中受长度与重复干扰；模型选择与参数合并可扩大权衡覆盖，但均不如直接训练。",
+        "summary_en": "Studies when one model can improve two objectives simultaneously and how to cover many trade-offs without training separate models. Two pre-training measurements predict objective alignment/conflict for human-annotated data but not AI-annotated data, where length and repetition confound reward scores. Nearest-model selection and parameter merging help coverage but do not consistently match direct training.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-24-rss-006",
+        "title": "可操控多元对齐中的目标冲突预测与权衡覆盖",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.26929",
+        "language": "en",
+        "summary": "研究MODPO中目标权重如何平衡竞争目标：两个预训练指标可预测人类标注数据的目标对齐或冲突，但在AI标注数据中受长度与重复干扰；模型选择与参数合并可扩大权衡覆盖，但均不如直接训练。",
+        "summary_en": "Studies when one model can improve two objectives simultaneously and how to cover many trade-offs without training separate models. Two pre-training measurements predict objective alignment/conflict for human-annotated data but not AI-annotated data, where length and repetition confound reward scores. Nearest-model selection and parameter merging help coverage but do not consistently match direct training.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-24T21:10:48.697126+08:00",
+        "updated_at": "2026-09-24T21:10:48.697128+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference",
+      "url": "https://arxiv.org/abs/2609.26913",
+      "description": "arXiv:2609.26913v1 Announce Type: new \nAbstract: No single Large Language Model (LLM) is uniformly reliable across queries, motivating multi-model inference systems that either route among models or combine their outputs. However, routing stops after selecting an initial model, while dense collaboration invokes peers on every query. We show that collaboration is non-monotonic: peers can recover failures that no model solves alone, but can also corrupt initially correct answers. We introduce COMED (Controlled Model Escalation for Multi-LLM Deliberation), a post-anchor controller for selective cross-model collaboration. COMED uses anchor self-consistency, router margin, and a lightweight peer probe to accept confident answers, verify ambiguous cases, and escalate only when collaboration is likely beneficial. We formalize this trade-off with a rescue-harm decomposition showing that selective collaboration improves when rescued errors outweigh collaboration-induced harms. Across medical, scientific, and general reasoning benchmarks, COMED improves fixed and routed anchors in all 16 open-weight settings, with gains up to +10.7 percentage points on MedQA while invoking fewer models and using fewer decoded tokens than dense collaboration. On HLE with frontier models, COMED improves GPT-5.5 from 23.1% to 28.1%, outperforming dense collaboration and achieving the best results.",
+      "pub_date": "Thu, 24 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "COMED：多LLM推理中路由与协作之间的缺失环节",
+        "summary": "COMED提出一种锚点后控制器，通过锚点自一致性、路由边际和轻量对等探测，选择性地进行跨模型协作，仅在协作可能有益时升级。在医疗、科学和通用推理基准上，16个开放权重设置均有提升，MedQA最高提升10.7个百分点，且比密集协作调用更少模型和token。",
+        "summary_en": "COMED introduces a post-anchor controller for selective cross-model collaboration using anchor self-consistency, router margin, and a lightweight peer probe. It accepts confident answers, verifies ambiguous cases, and escalates only when collaboration is likely beneficial. Across medical, scientific, and general reasoning benchmarks, COMED improves all 16 open-weight settings, with gains up to +10.7 points on MedQA while invoking fewer models and tokens than dense collaboration.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark",
+          "application"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-24-rss-004",
+        "title": "COMED：多LLM推理中路由与协作之间的缺失环节",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.26913",
+        "language": "en",
+        "summary": "COMED提出一种锚点后控制器，通过锚点自一致性、路由边际和轻量对等探测，选择性地进行跨模型协作，仅在协作可能有益时升级。在医疗、科学和通用推理基准上，16个开放权重设置均有提升，MedQA最高提升10.7个百分点，且比密集协作调用更少模型和token。",
+        "summary_en": "COMED introduces a post-anchor controller for selective cross-model collaboration using anchor self-consistency, router margin, and a lightweight peer probe. It accepts confident answers, verifies ambiguous cases, and escalates only when collaboration is likely beneficial. Across medical, scientific, and general reasoning benchmarks, COMED improves all 16 open-weight settings, with gains up to +10.7 points on MedQA while invoking fewer models and tokens than dense collaboration.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark",
+          "application"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-24T21:10:48.697118+08:00",
+        "updated_at": "2026-09-24T21:10:48.697120+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation",
+      "url": "https://arxiv.org/abs/2609.26926",
+      "description": "arXiv:2609.26926v1 Announce Type: new \nAbstract: Large-scale text annotation brings expert insight to millions of documents, often through a codebook that AI annotators follow. Developing a robust codebook, however, takes months. Large language models (LLMs) could speed this process by applying an early codebook to the data, surfacing cases with strong LLM disagreement, and eliciting expert feedback to address them. We examined three ways experts can provide feedback for LLM codebook revision: (i) editing LLM-generated revisions driven by cross-LLM disagreement (Codebook Verifying), (ii) answering questions about LLM disagreements (Question Answering), and (iii) labeling disagreement cases with rationales (Rationale Labeling). Experiments on thousands of tutoring-session transcripts show that Rationale Labeling yielded the highest LLM-labeling accuracy (64.9%) against expert labels, outperforming the expert-revised codebook (57.8%). The best Question Answering setting also outperformed it (60.5%). Our work shows that LLMs can be used to strategically target expert attention, shortening months of codebook revision to days without sacrificing labeling performance.",
+      "pub_date": "Thu, 24 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "利用跨模型分歧定位专家投入：LLM代码本修订加速大规模标注",
+        "summary": "研究提出利用多个LLM之间的分歧来定位需要专家介入的案例，加速代码本修订。比较三种专家反馈方式：代码本验证、问答、理由标注。在数千份辅导对话转录上，理由标注达到最高标注准确率64.9%，优于专家修订代码本（57.8%），问答方式也达60.5%。该方法将数月的代码本修订缩短至数天。",
+        "summary_en": "This work uses cross-LLM disagreement to strategically target expert attention for codebook revision. Comparing three expert feedback modes—Codebook Verifying, Question Answering, and Rationale Labeling—on thousands of tutoring transcripts, Rationale Labeling achieved the highest LLM-labeling accuracy (64.9%) versus the expert-revised codebook (57.8%), with Question Answering also outperforming at 60.5%. This shortens months of codebook revision to days without sacrificing labeling performance.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-24-rss-007",
+        "title": "利用跨模型分歧定位专家投入：LLM代码本修订加速大规模标注",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.26926",
+        "language": "en",
+        "summary": "研究提出利用多个LLM之间的分歧来定位需要专家介入的案例，加速代码本修订。比较三种专家反馈方式：代码本验证、问答、理由标注。在数千份辅导对话转录上，理由标注达到最高标注准确率64.9%，优于专家修订代码本（57.8%），问答方式也达60.5%。该方法将数月的代码本修订缩短至数天。",
+        "summary_en": "This work uses cross-LLM disagreement to strategically target expert attention for codebook revision. Comparing three expert feedback modes—Codebook Verifying, Question Answering, and Rationale Labeling—on thousands of tutoring transcripts, Rationale Labeling achieved the highest LLM-labeling accuracy (64.9%) versus the expert-revised codebook (57.8%), with Question Answering also outperforming at 60.5%. This shortens months of codebook revision to days without sacrificing labeling performance.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-24T21:10:48.697130+08:00",
+        "updated_at": "2026-09-24T21:10:48.697132+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Recognized but Not Produced: A Generation Benchmark for Culturally Specific Kinship Terms",
+      "url": "https://arxiv.org/abs/2609.26942",
+      "description": "arXiv:2609.26942v1 Announce Type: new \nAbstract: Current literature evaluates large language models (LLMs) on multilingual kinship understanding using multiple choice benchmarks, treating it as a recognition problem. We instead prompt five open weight LLMs to generate kinship terms in three non Western languages (Hindi, Tamil, and Korean) across two communicative tasks and pair this with a matched option-supported selection baseline. On identical relation language cells, GPT OSS120B selects the correct term in 90.67% of 75 valid cells but produces an accepted term in 36.00% of the corresponding attempts; Llama 3.370B shows the same pattern (77.92% versus 24.24%). Since the four-option condition displays the candidate terms and does not require script production, the difference is interpreted as an evaluation format gap rather than direct proof that lexical knowledge is intact. On explicitly specified L3 prompts, accuracy varies sharply, from GLM-5.1 at 72.29% to Llama-3.370B at 24.24%. The paternal-lineage advantage is language specific; it is large in Hindi but weak or reversed in Korean, while Tamil shared-term pairs provide a control for measurement variation. These results show that culturally specific kinship generation remains difficult even when the relationship is explicitly stated and motivate generation-based evaluation alongside multiple-choice testing.",
+      "pub_date": "Thu, 24 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "识别但无法生成：文化特定亲属称谓的生成基准测试",
+        "summary": "该研究指出，现有LLM多语言亲属称谓评测多采用选择题形式，仅考察识别能力。作者改用生成任务测试五种开源LLM在印地语、泰米尔语和韩语中的亲属称谓生成，发现识别准确率远高于生成准确率（如GPT OSS120B为90.67%对36.00%），揭示评测格式差距，并呼吁引入基于生成的评测方法。",
+        "summary_en": "This study shows that existing multilingual kinship term benchmarks for LLMs rely on multiple-choice recognition, overstating ability. Testing five open-weight LLMs on generation tasks in Hindi, Tamil, and Korean, it finds recognition far exceeds production (e.g., GPT OSS120B: 90.67% vs. 36.00%), revealing an evaluation format gap and motivating generation-based evaluation.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-24-rss-008",
+        "title": "识别但无法生成：文化特定亲属称谓的生成基准测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.26942",
+        "language": "en",
+        "summary": "该研究指出，现有LLM多语言亲属称谓评测多采用选择题形式，仅考察识别能力。作者改用生成任务测试五种开源LLM在印地语、泰米尔语和韩语中的亲属称谓生成，发现识别准确率远高于生成准确率（如GPT OSS120B为90.67%对36.00%），揭示评测格式差距，并呼吁引入基于生成的评测方法。",
+        "summary_en": "This study shows that existing multilingual kinship term benchmarks for LLMs rely on multiple-choice recognition, overstating ability. Testing five open-weight LLMs on generation tasks in Hindi, Tamil, and Korean, it finds recognition far exceeds production (e.g., GPT OSS120B: 90.67% vs. 36.00%), revealing an evaluation format gap and motivating generation-based evaluation.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-24T21:10:48.697135+08:00",
+        "updated_at": "2026-09-24T21:10:48.697137+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Classifying Interpretive Canons at the Sentence Level: A Benchmark from the German Federal Constitutional Court",
+      "url": "https://arxiv.org/abs/2609.26945",
+      "description": "arXiv:2609.26945v1 Announce Type: new \nAbstract: Judicial reasoning remains challenging for large language models (LLMs) to analyze. This paper contributes a sentence-level benchmark for evaluating the ability of LLMs to classify interpretive canons as articulated by Larenz in the tradition of Savigny. Our contributions are threefold. First, we operationalize this conception of interpretation as classification criteria. Second, we provide a dataset of decisions of the German Federal Constitutional Court annotated at the sentence level. Third, we report baseline evaluations of four LLMs from three model families under expert hand-written prompts, compared against prompts optimized with Genetic-Pareto (GEPA). Mean F1 over the seven binary subtasks clusters between 70.4 and 79.2 across models, with grammatical interpretation usually the easiest canon to identify and systematic interpretation usually the hardest; under the tested configuration, GEPA-optimized prompts do not systematically outperform the hand-written ones, suggesting that the expert prompts provide a meaningful baseline.",
+      "pub_date": "Thu, 24 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "德国联邦宪法法院句子级解释准则分类基准",
+        "summary": "本文构建了句子级基准，评估LLM对Larenz解释准则的分类能力，提供德国联邦宪法法院判决标注数据集，并对比四种LLM在专家提示与GEPA优化提示下的表现，平均F1为70.4至79.2。",
+        "summary_en": "This paper presents a sentence-level benchmark for evaluating LLMs' ability to classify interpretive canons per Larenz, with an annotated dataset of German Federal Constitutional Court decisions and baseline evaluations of four LLMs under expert-written versus GEPA-optimized prompts, achieving mean F1 of 70.4-79.2.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-24-rss-009",
+        "title": "德国联邦宪法法院句子级解释准则分类基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.26945",
+        "language": "en",
+        "summary": "本文构建了句子级基准，评估LLM对Larenz解释准则的分类能力，提供德国联邦宪法法院判决标注数据集，并对比四种LLM在专家提示与GEPA优化提示下的表现，平均F1为70.4至79.2。",
+        "summary_en": "This paper presents a sentence-level benchmark for evaluating LLMs' ability to classify interpretive canons per Larenz, with an annotated dataset of German Federal Constitutional Court decisions and baseline evaluations of four LLMs under expert-written versus GEPA-optimized prompts, achieving mean F1 of 70.4-79.2.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-24T21:10:48.697143+08:00",
+        "updated_at": "2026-09-24T21:10:48.697144+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When Learned Context Planning Fails to Beat Strong Retrieval: A Controlled Study of Planning, Routing, and Reranking for Long-Context QA",
+      "url": "https://arxiv.org/abs/2609.26976",
+      "description": "arXiv:2609.26976v1 Announce Type: new \nAbstract: Learned context planning selects evidence atoms before an answer model reasons over them. We test whether this learned selection improves long-context multiple-choice QA after strong retrieval, routing, budgeted-selector, and reranking controls. Our primary diagnostic uses all 503 LongBench-v2 MCQ questions with Qwen2.5-7B-Instruct. The planner is SFT-trained on outcome-selected traces from 140 training and 28 development questions; because the 503-question analysis includes those questions, it is partly transductive. At an 18k-character budget, anchored hybrid retrieval reaches 36.18% accuracy and BM25 reaches 35.98%, while the best direct planner-guided method reaches 34.19%. On the untouched 152-question test split, anchored hybrid remains higher (42.11% versus 36.84%). Leakage-safe routers cannot convert a large oracle gap. Under tight budgets, the best planner is ahead by only 0.40 points at 6k and loses at 9k; planner-guided reranking has a +1.79-point estimate at 6k with a paired interval crossing zero and ties the control at 9k. Packing-order and score-flatness analyses did not identify a stable mechanism. Under this setup, learned planning is a weak relevance signal rather than a replacement for strong retrieval.",
+      "pub_date": "Thu, 24 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "学习式上下文规划未能超越强检索：长上下文问答中规划、路由与重排序的受控研究",
+        "summary": "研究测试学习式上下文规划在强检索、路由与重排序控制下对长上下文多选题问答的效果。在LongBench-v2的503题上，锚定混合检索达36.18%，BM25达35.98%，而最佳规划引导方法仅34.19%。在未触碰的152题测试集上，混合检索仍更高（42.11%对36.84%）。结论：学习式规划只是弱相关性信号，无法替代强检索。",
+        "summary_en": "This study tests whether learned context planning improves long-context multiple-choice QA after strong retrieval, routing, and reranking controls. On 503 LongBench-v2 questions, anchored hybrid retrieval reaches 36.18% and BM25 35.98%, while the best planner-guided method reaches only 34.19%. On the untouched 152-question test split, hybrid retrieval remains higher (42.11% vs 36.84%). Conclusion: learned planning is a weak relevance signal, not a replacement for strong retrieval.",
+        "tags": [
+          "rag",
+          "research",
+          "evaluation",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-24-rss-010",
+        "title": "学习式上下文规划未能超越强检索：长上下文问答中规划、路由与重排序的受控研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.26976",
+        "language": "en",
+        "summary": "研究测试学习式上下文规划在强检索、路由与重排序控制下对长上下文多选题问答的效果。在LongBench-v2的503题上，锚定混合检索达36.18%，BM25达35.98%，而最佳规划引导方法仅34.19%。在未触碰的152题测试集上，混合检索仍更高（42.11%对36.84%）。结论：学习式规划只是弱相关性信号，无法替代强检索。",
+        "summary_en": "This study tests whether learned context planning improves long-context multiple-choice QA after strong retrieval, routing, and reranking controls. On 503 LongBench-v2 questions, anchored hybrid retrieval reaches 36.18% and BM25 35.98%, while the best planner-guided method reaches only 34.19%. On the untouched 152-question test split, hybrid retrieval remains higher (42.11% vs 36.84%). Conclusion: learned planning is a weak relevance signal, not a replacement for strong retrieval.",
+        "tags": [
+          "rag",
+          "research",
+          "evaluation",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-24T21:10:48.697147+08:00",
+        "updated_at": "2026-09-24T21:10:48.697148+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

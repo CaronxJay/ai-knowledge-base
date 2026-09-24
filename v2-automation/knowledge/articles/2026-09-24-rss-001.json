@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-24-rss-001",
+  "title": "Agent工具交互中的静默失败：ToolUniverse审计研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.26836",
+  "language": "en",
+  "summary": "研究揭示Agent与工具交互中的\"静默失败\"现象：工具调用看似成功但信息缺失且无通知。通过审计ToolUniverse中15个科学工具，发现91个失败案例，多集中于API层（51）和包装层（25），并提出上下文可靠性概念及监测机制。",
+  "summary_en": "This study investigates silent failures in agent-tool interaction, where tool invocations appear successful but information is incomplete with no notification. Auditing 15 scientific tools in ToolUniverse, 91 failures were found, mostly in API (51) and wrapper (25) layers, proposing contextual reliability and monitoring mechanisms.",
+  "tags": [
+    "agent-framework",
+    "evaluation",
+    "research",
+    "tool",
+    "benchmark"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-24T21:10:48.697101+08:00",
+  "updated_at": "2026-09-24T21:10:48.697105+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
