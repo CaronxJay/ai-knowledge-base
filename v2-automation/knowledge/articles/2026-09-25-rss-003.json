@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-25-rss-003",
+  "title": "LLM论证行为基准测试：人格攻击防御研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.28673",
+  "language": "en",
+  "summary": "研究评估LLM在政治辩论中应对人格攻击（ad hominem）的能力，通过构建对话博弈框架并与美国总统辩论语料库对比，发现多数LLM僵化地优先使用逻辑防御，无法像人类一样运用ethos反击，作者认为安全微调限制了其策略空间。",
+  "summary_en": "This study benchmarks LLMs' ability to use and defend against character attacks (ad hominem arguments) in political persuasive dialogues. By structuring human defensive strategies into a dialogue game and comparing LLM-generated dialogues against the ElecDeb60to16-fallacy corpus of U.S. presidential debates, results show most LLMs rigidly prioritize logical defences and fail to exploit ethotic counterattacks. The authors argue safety fine-tuning constrains LLMs' strategic action space, preventing naturalistic interaction in domains where character contestation is normative.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "research",
+    "prompt-engineering"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-25T21:14:29.034182+08:00",
+  "updated_at": "2026-09-25T21:14:29.034184+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

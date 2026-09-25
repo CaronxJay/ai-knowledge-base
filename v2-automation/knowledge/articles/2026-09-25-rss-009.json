@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-25-rss-009",
+  "title": "可解释的DistilBERT-BiLSTM-Attention框架用于二元与多类仇恨言论检测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.28703",
+  "language": "en",
+  "summary": "该研究提出一种结合DistilBERT、Bi-LSTM与注意力机制的多层级可解释仇恨言论检测框架，并使用LIME增强透明度。在两个基准数据集上，二元分类F1达96.78%和99.53%，多类分类F1达97.00%和94.99%，优于现有基线。",
+  "summary_en": "This study proposes a multilevel, explainable hate speech detection framework integrating DistilBERT embeddings, Bi-LSTM, and attention, with LIME for transparency. It achieves F1-scores of 96.78% and 99.53% in binary classification and 97.00% and 94.99% in multi-class settings across two benchmark datasets, outperforming baselines.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-09-25T21:14:29.034216+08:00",
+  "updated_at": "2026-09-25T21:14:29.034217+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

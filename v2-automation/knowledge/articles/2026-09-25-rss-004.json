@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-25-rss-004",
+  "title": "预测智能体何时应进行推理？可靠性路由的行为压力测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.28475",
+  "language": "en",
+  "summary": "研究预测智能体在何时应信任推理、检索、市场先验或历史类比等机制。提出ReliabilityRoute，用可靠性特征动态路由行为，发现更多推理并非总是更好，机制选择依赖数据来源。",
+  "summary_en": "This paper studies when forecasting agents should trust reasoning, retrieval, market priors, or historical analogs. It introduces ReliabilityRoute, a structural intervention that routes agent behavior using reliability features, finding that more reasoning is not always better and mechanism choice is source-dependent.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-25T21:14:29.034188+08:00",
+  "updated_at": "2026-09-25T21:14:29.034190+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

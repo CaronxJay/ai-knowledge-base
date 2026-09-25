@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-25-rss-007",
+  "title": "PTC-Bias：语音大模型中的音素级时间竞争偏置检索与解码后校正",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.28727",
+  "language": "en",
+  "summary": "提出PTC-Bias两阶段框架，利用音素级时间竞争实现高效上下文偏置。预填充阶段进行帧同步音素解码与候选竞争，生成紧凑偏置词短列表；解码后阶段在对应语音区间内进行局部竞争校正，减少近音词和分词错误。无需额外前向传播，在LibriSpeech上B-WER相对降低23.4%/23.9%。",
+  "summary_en": "PTC-Bias is a two-stage framework using phoneme-level temporal competition for contextual biasing in SpeechLLMs. PTC Retrieval performs frame-synchronous phoneme decoding to produce a compact bias-word shortlist and speech intervals; PTC Correction then locally competes retrieved candidates against mismatched spans. Sharing phoneme posteriors with no extra forward pass, it cuts B-WER by 23.4%/23.9% on LibriSpeech with 2000 bias words.",
+  "tags": [
+    "llm",
+    "research",
+    "multimodal",
+    "evaluation"
+  ],
+  "category": "multimodal",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-09-25T21:14:29.034202+08:00",
+  "updated_at": "2026-09-25T21:14:29.034204+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

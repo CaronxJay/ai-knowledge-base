@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-25-rss-001",
+  "title": "Pistis 多模态大模型技术报告",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.28554",
+  "language": "en",
+  "summary": "Pistis 模型家族包含 27B 和 9B 多模态大语言模型，基于 Qwen3.6/3.5，提出 IDRL 后训练范式，交替进行在线蒸馏与强化学习，提升知识迁移与长程智能体轨迹优化，并推出 Thinking 与 Agentic 两个变体及 PAH 推理框架自动优化方法。",
+  "summary_en": "The Pistis model family introduces 27B and 9B multimodal LLMs built on Qwen3.6/3.5, featuring IDRL, a post-training paradigm that alternates on-policy distillation and reinforcement learning for better knowledge transfer and long-horizon agentic optimization, plus Thinking and Agentic variants and the PAH inference-harness optimization method.",
+  "tags": [
+    "llm",
+    "multimodal",
+    "fine-tuning",
+    "agent-framework",
+    "research"
+  ],
+  "category": "llm",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-25T21:14:29.034133+08:00",
+  "updated_at": "2026-09-25T21:14:29.034158+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

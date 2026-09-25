@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-25-rss-006",
+  "title": "BaseCamp：自动化DNA测序数据流程的智能体AI框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.28557",
+  "language": "en",
+  "summary": "BaseCamp是一个智能体AI框架，将DNA测序流程的决策层分解为六个专业AI智能体，负责样本质控、比对、变异检测、注释、跨阶段监控和报告。智能体不执行序列分析，而是选择配置工具并解读输出，由领域微调LLM联盟在本地运行，保持可复现性与人类监督。",
+  "summary_en": "BaseCamp is an agentic AI framework that decomposes the decision layer of DNA sequencing pipelines into six specialized AI agents covering sample intake, alignment, variant calling, annotation, cross-stage monitoring, and reporting. Agents do not perform sequence analysis; they select and configure established tools and interpret outputs, powered by a consortium of fine-tuned domain LLMs running locally under human-in-the-loop orchestration.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "application",
+    "research",
+    "fine-tuning"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-25T21:14:29.034198+08:00",
+  "updated_at": "2026-09-25T21:14:29.034199+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

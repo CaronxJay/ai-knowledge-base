@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-25-rss-008",
+  "title": "法语新闻标题的双维框架分析：措辞与选择（2022-2025）",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.28487",
+  "language": "en",
+  "summary": "该研究提出二维框架，将新闻标题的显著性框架（措辞手段）与选择框架（故事形式分布）分离，利用LLM标注构建1万条法语监督集，分析90万条标题，发现两类框架虽正相关但近半方差无法解释，并揭示群体提及的显著性差异。",
+  "summary_en": "This study introduces a two-dimensional framework separating salience framing (wording devices) from selection framing (story-form distributions) in news headlines. Using LLM annotators to build a 10,000-headline French supervision set, it analyzes 902,111 headlines, finding the two dimensions positively correlated yet leaving nearly half of outlet variance unexplained, and revealing unequal salience contexts across group mentions.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-09-25T21:14:29.034211+08:00",
+  "updated_at": "2026-09-25T21:14:29.034212+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
