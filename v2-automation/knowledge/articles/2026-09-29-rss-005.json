@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-29-rss-005",
+  "title": "流形投影与迭代自编码器精炼的掩码语言建模",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.30288",
+  "language": "en",
+  "summary": "该研究提出用低秩瓶颈自编码器替代Transformer中的注意力机制，通过局部、全局和跨注意力头的混合模块实现上下文混合，并引入迭代精炼（拉近邻居加权平均、投影回学习流形）处理掩码位置。在C4上预训练后，以约1.9倍更少FLOPs达到注意力机制的大部分性能，并在稀有词频段匹配BERT和TinyBERT基线。",
+  "summary_en": "This work replaces attention in Transformer masked language models with a stack of low-rank bottleneck autoencoder mixing modules operating over local neighborhoods, the full sequence, and across attention heads. An iterative refinement procedure (pulling embeddings toward neighbor averages, then projecting back to the learned manifold) handles masked positions. Pretrained on C4, it achieves a significant portion of attention's performance at ~1.9x fewer FLOPs and matches parameter-matched BERT and TinyBERT on the rarest-token bucket.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-29T00:26:12.680714+08:00",
+  "updated_at": "2026-09-29T00:26:12.680715+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

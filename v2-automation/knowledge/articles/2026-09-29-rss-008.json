@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-29-rss-008",
+  "title": "冻结BERT中AI文本检测神经元的机制研究：稀疏探测与激活修补",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.30287",
+  "language": "en",
+  "summary": "研究冻结BERT-base编码器中支持AI文本检测的神经元，使用RAID基准和L1-to-L2稀疏探测协议，发现不到1%的稳定神经元即可保留大部分检测精度，激活修补证实其因果相关性，并揭示指令微调生成器在末层集中30-36%稳定神经元的二分结构。",
+  "summary_en": "This study investigates which neurons in a frozen BERT-base encoder support AI-text detection using the RAID benchmark. Applying L1-to-L2 sparse probing to all 9,216 CLS hidden-state dimensions recovers a stable set of under 1% of neurons per generator that retains most detection accuracy. Bidirectional activation patching confirms causal relevance, and cross-generator analysis reveals a bipartite structure where instruction-tuned generators concentrate 30-36% of stable neurons in the final layer.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-29T00:26:12.680730+08:00",
+  "updated_at": "2026-09-29T00:26:12.680731+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

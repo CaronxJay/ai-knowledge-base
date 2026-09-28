@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-29-rss-006",
+  "title": "面向LLM智能体的分层协作记忆与有效性感知检索框架HiCoMER",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.30289",
+  "language": "en",
+  "summary": "针对团队协作中记忆异构且持续演化的问题，提出HiCoMER框架，通过分层记忆冲突更新、有效性感知检索和记忆锚定答案生成，避免检索过时或冲突记忆，提升LLM智能体问答质量。",
+  "summary_en": "HiCoMER is a framework for hierarchical collaborative memory management and validity-aware retrieval in LLM agents. It maintains validity of team and individual memories, retrieves only valid ones via a Hierarchical Memory Conflict Updater, Validity-Aware Memory Retriever, and Memory-Grounded Answer Generator, reducing outdated retrieval and improving QA quality.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "rag",
+    "research",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-29T00:26:12.680719+08:00",
+  "updated_at": "2026-09-29T00:26:12.680721+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

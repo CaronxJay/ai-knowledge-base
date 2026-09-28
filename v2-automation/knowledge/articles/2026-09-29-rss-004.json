@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-29-rss-004",
+  "title": "技能级联攻击：基于技能的智能体系统安全威胁",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.30383",
+  "language": "en",
+  "summary": "论文提出\"技能级联攻击\"新威胁范式：恶意目标被分散到多个技能中，单个技能看似无害，组合执行却产生危害。作者开发了自动化多智能体红队框架SkillCascade，并发布包含213个验证用例的SkillCascade-Bench基准，证明现有单技能扫描器和运行时监控难以防御此类攻击。",
+  "summary_en": "This paper introduces skill cascading attacks, a threat paradigm where a malicious objective is distributed across multiple skills so each looks benign in isolation but their combined execution is harmful. The authors develop SkillCascade, an automated multi-agent red-teaming framework, and release SkillCascade-Bench with 213 validated cascading test cases, showing that existing per-skill scanners and runtime monitors fail to detect such attacks across agents like OpenClaw, Claude Code, and Codex.",
+  "tags": [
+    "security",
+    "agent-framework",
+    "benchmark",
+    "research",
+    "evaluation"
+  ],
+  "category": "security",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-29T00:26:12.680709+08:00",
+  "updated_at": "2026-09-29T00:26:12.680711+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

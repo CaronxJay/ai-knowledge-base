@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-29-rss-009",
+  "title": "虚假评论检测综述：从预训练语言模型到大语言模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.30292",
+  "language": "en",
+  "summary": "本文从信息融合视角综述了2018至2026年间211项虚假评论检测研究，涵盖文本、情感、评分行为、时序元数据、用户-商品图、多模态内容及LLM生成信号，梳理了从传统机器学习到PLM和LLM方法的演进，并分析了Amazon、Yelp、OpSpam等基准的性能趋势与评估局限。",
+  "summary_en": "This survey reviews 211 fake review detection studies from 2018 to early 2026 through an information fusion lens, covering review text, sentiment, rating behavior, temporal metadata, user-product graphs, multimodal content, and LLM-generated signals. It traces the evolution from traditional ML and deep learning to PLM- and LLM-based methods, analyzes performance trends on Amazon, Yelp, and OpSpam benchmarks, and identifies open problems in adversarial generation, cross-domain transfer, uncertainty-aware fusion, and trustworthy evaluation.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "multimodal",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-29T00:26:12.680735+08:00",
+  "updated_at": "2026-09-29T00:26:12.680737+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

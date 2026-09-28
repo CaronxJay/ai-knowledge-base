@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-29-rss-007",
+  "title": "连接LLM智能体与数据空间：基于模型上下文协议的架构中介方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.30341",
+  "language": "en",
+  "summary": "本文提出基于MCP的架构中介方法，通过Eunomia Agent实现LLM智能体与数据空间服务的受控交互，将数据空间能力转化为结构化工具，在保持治理约束的同时实现端到端集成。",
+  "summary_en": "This paper presents an MCP-based architectural mediation approach, implemented via the Eunomia Agent, enabling controlled interaction between LLM agents and data space services by translating data space capabilities into structured, schema-driven tools while preserving governance constraints.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "infrastructure",
+    "research",
+    "tool"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-29T00:26:12.680724+08:00",
+  "updated_at": "2026-09-29T00:26:12.680725+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

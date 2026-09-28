@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-29-rss-001",
+  "title": "将AI引入自主系统：从认知到集体智能",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.30291",
+  "language": "en",
+  "summary": "本文强调自主系统是AI发展的终极阶段，提出基于通用智能体架构的设计与评估框架，将行为视为围绕长期记忆组织的认知功能组合，探讨感知与结构化数据的连接、决策规划及多智能体协调，并指出智能体可信度包含认知维度，最后评估了自主多智能体系统愿景与现状的差距。",
+  "summary_en": "This article highlights autonomous systems as the ultimate stage of AI development, presenting a comprehensive framework based on a generic agent architecture that characterizes behavior as cognitive functions organized around long-term memory. It addresses sensory-to-structured data linking, decision-making and planning, and multi-agent coordination, argues that agent trustworthiness includes a cognitive dimension, and critically assesses the gap between the aspirational vision of autonomous multi-agent systems and the current state of the art.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "llm",
+    "evaluation",
+    "multimodal"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-29T00:26:12.680689+08:00",
+  "updated_at": "2026-09-29T00:26:12.680694+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
