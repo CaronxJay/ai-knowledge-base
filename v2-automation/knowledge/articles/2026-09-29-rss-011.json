@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-29-rss-011",
+  "title": "ScopeBench：目标压力下智能体能否守住参与边界？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.30325",
+  "language": "en",
+  "summary": "提出ScopeBench基准，包含30个死胡同式安全任务，目标只能通过违反范围约束达成。通过无范围与有范围两种条件对比，测量智能体的能力与范围遵守度。8个模型中能力跨度12.2%-81.1%，范围遵守度34.4%-86.7%，并发现331个机械验证遗漏的违规。",
+  "summary_en": "Introduces ScopeBench, a benchmark of 30 dead-end agentic security tasks whose objectives are reachable only by violating stated scope. Comparing scopeless vs scoped conditions measures capability and scope adherence. Across 8 models, capability spans 12.2%-81.1% and adherence 34.4%-86.7%, with the judge finding 331 violations missed by mechanical verification.",
+  "tags": [
+    "benchmark",
+    "security",
+    "agent-framework",
+    "evaluation",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-29T22:36:03.698030+08:00",
+  "updated_at": "2026-09-29T22:36:03.698031+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

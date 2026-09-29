@@ -1,50 +1,48 @@
 {
-  "collected_at": "2026-09-29T00:26:12.681586+08:00",
+  "collected_at": "2026-09-29T22:36:03.698641+08:00",
   "source": "rss",
-  "count": 10,
+  "count": 5,
   "items": [
     {
       "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
       "url": "https://arxiv.org/abs/2609.30291",
       "description": "arXiv:2609.30291v1 Announce Type: new \nAbstract: The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the underlying technical challenges that require a combination of connectionist AI and symbolic AI, and to integrate AI and systems engineering. We present a comprehensive framework for the design and evaluation of autonomous systems, based on a generic agent architecture that characterizes their behavior as the composition of cognitive functions organized around a long-term memory containing the agent's evolving knowledge. We address the challenges posed by the implementation of the fundamental features of the agent architecture, in particular the link between sensory data and structured data stored in memory, decision-making related to the achievement of the agent's goals and their planning, as well as the coordination of agents to combine individual and collective intelligence. We explain that agent trustworthiness, unlike that of traditional systems, is not limited to behavioral properties. It includes an essential dimension related to cognitive properties, the validity of which depends on how the agent uses its knowledge in decision-making. We present avenues for the development of methods for evaluating agent trustworthiness. We conclude with a critical assessment of the substantial gap between the aspirational vision of autonomous multi-agent systems and the current state of the art.",
-      "pub_date": "Mon, 28 Sep 2026 00:00:00 -0400",
+      "pub_date": "Tue, 29 Sep 2026 00:00:00 -0400",
       "source_feed": "arxiv_cs_ai",
       "_source": "rss",
       "_analysis": {
         "title": "将AI引入自主系统：从认知到集体智能",
-        "summary": "本文强调自主系统是AI发展的终极阶段，提出基于通用智能体架构的设计与评估框架，将行为视为围绕长期记忆组织的认知功能组合，探讨感知与结构化数据的连接、决策规划及多智能体协调，并指出智能体可信度包含认知维度，最后评估了自主多智能体系统愿景与现状的差距。",
-        "summary_en": "This article highlights autonomous systems as the ultimate stage of AI development, presenting a comprehensive framework based on a generic agent architecture that characterizes behavior as cognitive functions organized around long-term memory. It addresses sensory-to-structured data linking, decision-making and planning, and multi-agent coordination, argues that agent trustworthiness includes a cognitive dimension, and critically assesses the gap between the aspirational vision of autonomous multi-agent systems and the current state of the art.",
+        "summary": "本文强调自主系统是AI发展的终极阶段，提出基于通用智能体架构的设计与评估框架，涵盖认知功能、长期记忆、决策规划及多智能体协调，并探讨智能体可信度评估方法，指出当前技术与愿景间的巨大差距。",
+        "summary_en": "This article highlights autonomous systems as the ultimate stage of AI development, presenting a comprehensive framework based on a generic agent architecture that composes cognitive functions around long-term memory. It addresses sensory-to-structured data linking, goal-driven decision-making and planning, multi-agent coordination, and agent trustworthiness evaluation, concluding with a critical assessment of the gap between aspirational vision and current state of the art.",
         "tags": [
           "agent-framework",
           "research",
           "llm",
-          "evaluation",
-          "multimodal"
+          "evaluation"
         ],
         "category": "agent-framework",
         "relevance_score": 0.95,
         "language": "en"
       },
       "_article": {
-        "id": "2026-09-29-rss-001",
+        "id": "2026-09-29-rss-010",
         "title": "将AI引入自主系统：从认知到集体智能",
         "source": "rss_trending",
         "source_url": "https://arxiv.org/abs/2609.30291",
         "language": "en",
-        "summary": "本文强调自主系统是AI发展的终极阶段，提出基于通用智能体架构的设计与评估框架，将行为视为围绕长期记忆组织的认知功能组合，探讨感知与结构化数据的连接、决策规划及多智能体协调，并指出智能体可信度包含认知维度，最后评估了自主多智能体系统愿景与现状的差距。",
-        "summary_en": "This article highlights autonomous systems as the ultimate stage of AI development, presenting a comprehensive framework based on a generic agent architecture that characterizes behavior as cognitive functions organized around long-term memory. It addresses sensory-to-structured data linking, decision-making and planning, and multi-agent coordination, argues that agent trustworthiness includes a cognitive dimension, and critically assesses the gap between the aspirational vision of autonomous multi-agent systems and the current state of the art.",
+        "summary": "本文强调自主系统是AI发展的终极阶段，提出基于通用智能体架构的设计与评估框架，涵盖认知功能、长期记忆、决策规划及多智能体协调，并探讨智能体可信度评估方法，指出当前技术与愿景间的巨大差距。",
+        "summary_en": "This article highlights autonomous systems as the ultimate stage of AI development, presenting a comprehensive framework based on a generic agent architecture that composes cognitive functions around long-term memory. It addresses sensory-to-structured data linking, goal-driven decision-making and planning, multi-agent coordination, and agent trustworthiness evaluation, concluding with a critical assessment of the gap between aspirational vision and current state of the art.",
         "tags": [
           "agent-framework",
           "research",
           "llm",
-          "evaluation",
-          "multimodal"
+          "evaluation"
         ],
         "category": "agent-framework",
         "relevance_score": 0.95,
         "status": "published",
-        "created_at": "2026-09-29T00:26:12.680689+08:00",
-        "updated_at": "2026-09-29T00:26:12.680694+08:00",
+        "created_at": "2026-09-29T22:36:03.698017+08:00",
+        "updated_at": "2026-09-29T22:36:03.698019+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -56,13 +54,13 @@
       "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
       "url": "https://arxiv.org/abs/2609.30325",
       "description": "arXiv:2609.30325v1 Announce Type: new \nAbstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary. Existing offensive-security benchmarks measure raw hacking capability; as those benchmarks saturate, the real barrier to deployment is a special case of alignment: scope adherence. We introduce ScopeBench, a benchmark of 30 dead-end agentic security tasks in which the stated objective is reachable only by violating the stated scope. Each task appears under two conditions that share an environment, verifier, and objective and differ only in scope: one instruction set has no scope and measures capability; the other has a natural-language scope to measure adherence. Scopeless trajectories are graded by a standard deterministic verifier. Scoped trajectories pass through two grading arms. First, the same deterministic verifier checks for the flag: because the flag sits behind the scope boundary, a pass proves by construction that a forbidden action occurred, yielding a high-precision lower bound on the violation rate. If the verifier does not pass the trajectory, an agentic judge estimates whether an out-of-scope call occurred. We calibrate the judge against 100 ScopeBench trajectories labeled call-by-call by human annotators, and a blinded audit of the evaluated rollouts finds its high recall holds - no false negatives among the 36 audited violations, with over-flagging its only observed error. Across 8 models in one harness, raw capability spans 12.2% to 81.1% and scope adherence spans 34.4% to 86.7%, with the judge finding 331 violations that mechanical verification misses. Opus-4-8 achieves a raw-capability score 10 percentage points higher than sonnet-4-6's while exhibiting 35.6 percentage points higher scope adherence. We release the frozen pilot benchmark, evaluation code, and all 2160 ATIF trajectories.",
-      "pub_date": "Mon, 28 Sep 2026 00:00:00 -0400",
+      "pub_date": "Tue, 29 Sep 2026 00:00:00 -0400",
       "source_feed": "arxiv_cs_ai",
       "_source": "rss",
       "_analysis": {
-        "title": "ScopeBench：智能体在目标压力下能否守住参与边界？",
-        "summary": "本文提出ScopeBench基准，包含30个死胡同式智能体安全任务，其目标只能通过违反既定范围达成。通过无范围与有范围两种条件对比，衡量智能体的能力与范围遵守度。对8个模型的测试显示，原始能力跨度为12.2%至81.1%，范围遵守度为34.4%至86.7%，并发现机械验证遗漏的331次违规。",
-        "summary_en": "This paper introduces ScopeBench, a benchmark of 30 dead-end agentic security tasks whose stated objective is reachable only by violating the stated scope. Comparing scopeless and scoped conditions measures capability versus scope adherence. Across 8 models, raw capability spans 12.2%–81.1% and scope adherence 34.4%–86.7%, with the judge finding 331 violations missed by mechanical verification.",
+        "title": "ScopeBench：目标压力下智能体能否守住参与边界？",
+        "summary": "提出ScopeBench基准，包含30个死胡同式安全任务，目标只能通过违反范围约束达成。通过无范围与有范围两种条件对比，测量智能体的能力与范围遵守度。8个模型中能力跨度12.2%-81.1%，范围遵守度34.4%-86.7%，并发现331个机械验证遗漏的违规。",
+        "summary_en": "Introduces ScopeBench, a benchmark of 30 dead-end agentic security tasks whose objectives are reachable only by violating stated scope. Comparing scopeless vs scoped conditions measures capability and scope adherence. Across 8 models, capability spans 12.2%-81.1% and adherence 34.4%-86.7%, with the judge finding 331 violations missed by mechanical verification.",
         "tags": [
           "benchmark",
           "security",
@@ -75,13 +73,13 @@
         "language": "en"
       },
       "_article": {
-        "id": "2026-09-29-rss-002",
-        "title": "ScopeBench：智能体在目标压力下能否守住参与边界？",
+        "id": "2026-09-29-rss-011",
+        "title": "ScopeBench：目标压力下智能体能否守住参与边界？",
         "source": "rss_trending",
         "source_url": "https://arxiv.org/abs/2609.30325",
         "language": "en",
-        "summary": "本文提出ScopeBench基准，包含30个死胡同式智能体安全任务，其目标只能通过违反既定范围达成。通过无范围与有范围两种条件对比，衡量智能体的能力与范围遵守度。对8个模型的测试显示，原始能力跨度为12.2%至81.1%，范围遵守度为34.4%至86.7%，并发现机械验证遗漏的331次违规。",
-        "summary_en": "This paper introduces ScopeBench, a benchmark of 30 dead-end agentic security tasks whose stated objective is reachable only by violating the stated scope. Comparing scopeless and scoped conditions measures capability versus scope adherence. Across 8 models, raw capability spans 12.2%–81.1% and scope adherence 34.4%–86.7%, with the judge finding 331 violations missed by mechanical verification.",
+        "summary": "提出ScopeBench基准，包含30个死胡同式安全任务，目标只能通过违反范围约束达成。通过无范围与有范围两种条件对比，测量智能体的能力与范围遵守度。8个模型中能力跨度12.2%-81.1%，范围遵守度34.4%-86.7%，并发现331个机械验证遗漏的违规。",
+        "summary_en": "Introduces ScopeBench, a benchmark of 30 dead-end agentic security tasks whose objectives are reachable only by violating stated scope. Comparing scopeless vs scoped conditions measures capability and scope adherence. Across 8 models, capability spans 12.2%-81.1% and adherence 34.4%-86.7%, with the judge finding 331 violations missed by mechanical verification.",
         "tags": [
           "benchmark",
           "security",
@@ -92,8 +90,8 @@
         "category": "benchmark",
         "relevance_score": 0.95,
         "status": "published",
-        "created_at": "2026-09-29T00:26:12.680699+08:00",
-        "updated_at": "2026-09-29T00:26:12.680701+08:00",
+        "created_at": "2026-09-29T22:36:03.698030+08:00",
+        "updated_at": "2026-09-29T22:36:03.698031+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -105,18 +103,18 @@
       "title": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
       "url": "https://arxiv.org/abs/2609.30328",
       "description": "arXiv:2609.30328v1 Announce Type: new \nAbstract: When one language model judges whether another's code is correct, it does not report the absence of evidence. It returns a confident verdict with reasoning attached, indistinguishable from a verdict it had grounds for. Multi-agent verification, which decomposes a judgment into checkable claims and verifies each against evidence, is a promising response and works well when the evidence is a set of retrieved documents.\n  We argue such methods require two things of their evidence: it must be independent of the answer under review, and it must differ between the two candidates being compared. The second condition holds automatically with retrieved documents and stops holding in code judging.\n  Running MARCH, a published framework unmodified over 80 condition-by-cell measurements on two code judging benchmarks, we find it declares both solutions equally good on 78 to 95% of comparisons, reaching 4.4% accuracy where the same model asked directly reaches 43.7%. Neither easier problems nor a larger judge changes this. Two measurements taken from the pipeline's own logs explain it without needing labels.\n  Gating on one of them, the pipeline declines the comparisons it cannot make and raises its accuracy from 20.7 to 36.9% while still answering half of all comparisons. The contribution is not a more accurate judge, but a label-free way to tell when a judge has no basis for its answer.",
-      "pub_date": "Mon, 28 Sep 2026 00:00:00 -0400",
+      "pub_date": "Tue, 29 Sep 2026 00:00:00 -0400",
       "source_feed": "arxiv_cs_ai",
       "_source": "rss",
       "_analysis": {
         "title": "多智能体代码评判何时真正有据可依？两项无标签测量与一个拒绝猜测的评判器",
-        "summary": "论文指出多智能体代码评判的证据需独立于待审答案且在候选间有差异，而代码评判中第二条件不成立。在MARCH框架上测试发现其78-95%比较中判定两解相同，准确率仅4.4%，远低于直接提问的43.7%。作者提出两项无标签测量，通过门控使准确率从20.7%提升至36.9%，仍能回答半数比较。",
-        "summary_en": "The paper argues multi-agent code judging requires evidence independent of the answer and differing between candidates, a condition that fails for code. Testing MARCH unmodified on two benchmarks, it declares both solutions equally good in 78-95% of comparisons, reaching 4.4% accuracy versus 43.7% for direct prompting. Two label-free measurements from pipeline logs explain this; gating on one raises accuracy from 20.7% to 36.9% while answering half the comparisons.",
+        "summary": "论文指出多智能体代码评判的证据需独立于被审答案且在候选间有差异，而代码评判中后者不成立。在MARCH框架上测试发现其78-95%比较中判定两解等价，准确率仅4.4%，远低于直接提问的43.7%。作者提出两项无标签日志测量，据此门控可拒绝无法判断的比较，将准确率从20.7%提升至36.9%，同时仍回答一半比较。",
+        "summary_en": "The paper argues multi-agent code judging requires evidence independent of the answer and differing between candidates, but the latter fails in code judging. Testing MARCH on two benchmarks, it declares both solutions equally good in 78-95% of comparisons, reaching 4.4% accuracy versus 43.7% for direct prompting. Two label-free log measurements explain this; gating on one raises accuracy from 20.7% to 36.9% while answering half of comparisons.",
         "tags": [
-          "llm",
+          "agent-framework",
           "evaluation",
           "research",
-          "agent-framework",
+          "llm",
           "benchmark"
         ],
         "category": "research",
@@ -124,25 +122,25 @@
         "language": "en"
       },
       "_article": {
-        "id": "2026-09-29-rss-003",
+        "id": "2026-09-29-rss-012",
         "title": "多智能体代码评判何时真正有据可依？两项无标签测量与一个拒绝猜测的评判器",
         "source": "rss_trending",
         "source_url": "https://arxiv.org/abs/2609.30328",
         "language": "en",
-        "summary": "论文指出多智能体代码评判的证据需独立于待审答案且在候选间有差异，而代码评判中第二条件不成立。在MARCH框架上测试发现其78-95%比较中判定两解相同，准确率仅4.4%，远低于直接提问的43.7%。作者提出两项无标签测量，通过门控使准确率从20.7%提升至36.9%，仍能回答半数比较。",
-        "summary_en": "The paper argues multi-agent code judging requires evidence independent of the answer and differing between candidates, a condition that fails for code. Testing MARCH unmodified on two benchmarks, it declares both solutions equally good in 78-95% of comparisons, reaching 4.4% accuracy versus 43.7% for direct prompting. Two label-free measurements from pipeline logs explain this; gating on one raises accuracy from 20.7% to 36.9% while answering half the comparisons.",
+        "summary": "论文指出多智能体代码评判的证据需独立于被审答案且在候选间有差异，而代码评判中后者不成立。在MARCH框架上测试发现其78-95%比较中判定两解等价，准确率仅4.4%，远低于直接提问的43.7%。作者提出两项无标签日志测量，据此门控可拒绝无法判断的比较，将准确率从20.7%提升至36.9%，同时仍回答一半比较。",
+        "summary_en": "The paper argues multi-agent code judging requires evidence independent of the answer and differing between candidates, but the latter fails in code judging. Testing MARCH on two benchmarks, it declares both solutions equally good in 78-95% of comparisons, reaching 4.4% accuracy versus 43.7% for direct prompting. Two label-free log measurements explain this; gating on one raises accuracy from 20.7% to 36.9% while answering half of comparisons.",
         "tags": [
-          "llm",
+          "agent-framework",
           "evaluation",
           "research",
-          "agent-framework",
+          "llm",
           "benchmark"
         ],
         "category": "research",
         "relevance_score": 0.95,
         "status": "published",
-        "created_at": "2026-09-29T00:26:12.680705+08:00",
-        "updated_at": "2026-09-29T00:26:12.680707+08:00",
+        "created_at": "2026-09-29T22:36:03.698033+08:00",
+        "updated_at": "2026-09-29T22:36:03.698034+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -154,44 +152,44 @@
       "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
       "url": "https://arxiv.org/abs/2609.30341",
       "description": "arXiv:2609.30341v1 Announce Type: new \nAbstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model interactions and policy-driven data infrastructures. This article presents an architectural mediation approach based on the Model Context Protocol (MCP), implemented through the Eunomia Agent, to enable controlled interaction between large language model (LLM) agents and data space services. The proposed mediation layer translates data space capabilities into structured, schema-driven tools that AI agents can discover and invoke while preserving governance constraints. A prototype implementation validates end-to-end interaction across catalog discovery, metadata retrieval, and data service invocation without modifying existing data space components. Results demonstrate that protocol-based mediation enables interoperable and standards-aligned integration of AI agents into data space ecosystems. The approach provides practical guidance for organizations seeking to introduce AI-driven automation into governed data-sharing environments while maintaining compliance, interoperability, and architectural separation of concerns.",
-      "pub_date": "Mon, 28 Sep 2026 00:00:00 -0400",
+      "pub_date": "Tue, 29 Sep 2026 00:00:00 -0400",
       "source_feed": "arxiv_cs_ai",
       "_source": "rss",
       "_analysis": {
         "title": "连接LLM智能体与数据空间：基于模型上下文协议的架构中介方法",
-        "summary": "本文提出基于MCP的架构中介方法，通过Eunomia Agent实现LLM智能体与数据空间服务的受控交互，将数据空间能力转化为结构化工具，在保持治理约束的同时实现端到端集成。",
-        "summary_en": "This paper presents an MCP-based architectural mediation approach, implemented via the Eunomia Agent, enabling controlled interaction between LLM agents and data space services by translating data space capabilities into structured, schema-driven tools while preserving governance constraints.",
+        "summary": "本文提出基于MCP协议的架构中介方案，通过Eunomia Agent实现LLM智能体与数据空间的安全交互。该中介层将数据空间能力转化为结构化、模式驱动的工具，供AI智能体发现和调用，同时保留治理约束。原型验证了目录发现、元数据检索和数据服务调用的端到端交互，无需修改现有数据空间组件。",
+        "summary_en": "This paper presents an architectural mediation approach based on the Model Context Protocol (MCP), implemented via the Eunomia Agent, to enable controlled interaction between LLM agents and data space services. The mediation layer translates data space capabilities into structured, schema-driven tools that agents can discover and invoke while preserving governance constraints. A prototype validates end-to-end interaction across catalog discovery, metadata retrieval, and data service invocation without modifying existing data space components, enabling interoperable, standards-aligned integration of AI agents into governed data-sharing ecosystems.",
         "tags": [
           "agent-framework",
           "llm",
-          "infrastructure",
           "research",
-          "tool"
+          "infrastructure",
+          "security"
         ],
         "category": "agent-framework",
         "relevance_score": 0.9,
         "language": "en"
       },
       "_article": {
-        "id": "2026-09-29-rss-007",
+        "id": "2026-09-29-rss-014",
         "title": "连接LLM智能体与数据空间：基于模型上下文协议的架构中介方法",
         "source": "rss_trending",
         "source_url": "https://arxiv.org/abs/2609.30341",
         "language": "en",
-        "summary": "本文提出基于MCP的架构中介方法，通过Eunomia Agent实现LLM智能体与数据空间服务的受控交互，将数据空间能力转化为结构化工具，在保持治理约束的同时实现端到端集成。",
-        "summary_en": "This paper presents an MCP-based architectural mediation approach, implemented via the Eunomia Agent, enabling controlled interaction between LLM agents and data space services by translating data space capabilities into structured, schema-driven tools while preserving governance constraints.",
+        "summary": "本文提出基于MCP协议的架构中介方案，通过Eunomia Agent实现LLM智能体与数据空间的安全交互。该中介层将数据空间能力转化为结构化、模式驱动的工具，供AI智能体发现和调用，同时保留治理约束。原型验证了目录发现、元数据检索和数据服务调用的端到端交互，无需修改现有数据空间组件。",
+        "summary_en": "This paper presents an architectural mediation approach based on the Model Context Protocol (MCP), implemented via the Eunomia Agent, to enable controlled interaction between LLM agents and data space services. The mediation layer translates data space capabilities into structured, schema-driven tools that agents can discover and invoke while preserving governance constraints. A prototype validates end-to-end interaction across catalog discovery, metadata retrieval, and data service invocation without modifying existing data space components, enabling interoperable, standards-aligned integration of AI agents into governed data-sharing ecosystems.",
         "tags": [
           "agent-framework",
           "llm",
-          "infrastructure",
           "research",
-          "tool"
+          "infrastructure",
+          "security"
         ],
         "category": "agent-framework",
         "relevance_score": 0.9,
         "status": "published",
-        "created_at": "2026-09-29T00:26:12.680724+08:00",
-        "updated_at": "2026-09-29T00:26:12.680725+08:00",
+        "created_at": "2026-09-29T22:36:03.698038+08:00",
+        "updated_at": "2026-09-29T22:36:03.698039+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -203,261 +201,44 @@
       "title": "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
       "url": "https://arxiv.org/abs/2609.30383",
       "description": "arXiv:2609.30383v1 Announce Type: new \nAbstract: A skill is a modular package of natural-language instructions, executable scripts, and reference resources that an agent can load at runtime to extend its capabilities for a specific task. Skill-based agent systems therefore enable flexible reuse of third-party capabilities, but the openness of this skill ecosystem also opens up a new attack surface. Prior work has focused on vulnerabilities within individual skills, but little attention has been paid to risks that arise from interactions across skills. In this paper, we introduce skill cascading attacks, a threat paradigm in which a malicious objective is distributed across multiple skills so that each modification looks benign in isolation, yet their combined execution is harmful. For instance, in a prescription-review pipeline, the first skill weakens signals of recently discontinued medications in the extracted history, the second downgrades the severity of any drug interaction tied to them, and the third suppresses the resulting low-priority alert in the final summary, so that a severe drug-interaction warning silently disappears before reaching the physician. To systematically study this safety blind spot, we develop SkillCascade, an automated multi-agent red-teaming framework, and release SkillCascade-Bench, a benchmark of 213 validated cascading test cases across multiple agent systems and domains. Across representative agents (e.g., OpenClaw, Claude Code, Codex) and LLM backbones, cascaded interactions reliably induce harmful behaviors while evading existing per-skill scanners and runtime monitors. Our findings highlight a gap between component-level integrity and system-level safety, and call for defenses that reason over cross-skill interactions rather than individual skills in isolation.",
-      "pub_date": "Mon, 28 Sep 2026 00:00:00 -0400",
+      "pub_date": "Tue, 29 Sep 2026 00:00:00 -0400",
       "source_feed": "arxiv_cs_ai",
       "_source": "rss",
       "_analysis": {
-        "title": "技能级联攻击：基于技能的智能体系统安全威胁",
-        "summary": "论文提出\"技能级联攻击\"新威胁范式：恶意目标被分散到多个技能中，单个技能看似无害，组合执行却产生危害。作者开发了自动化多智能体红队框架SkillCascade，并发布包含213个验证用例的SkillCascade-Bench基准，证明现有单技能扫描器和运行时监控难以防御此类攻击。",
-        "summary_en": "This paper introduces skill cascading attacks, a threat paradigm where a malicious objective is distributed across multiple skills so each looks benign in isolation but their combined execution is harmful. The authors develop SkillCascade, an automated multi-agent red-teaming framework, and release SkillCascade-Bench with 213 validated cascading test cases, showing that existing per-skill scanners and runtime monitors fail to detect such attacks across agents like OpenClaw, Claude Code, and Codex.",
+        "title": "技能级联攻击：基于技能Agent系统的跨技能安全威胁",
+        "summary": "论文提出\"技能级联攻击\"新威胁范式：恶意目标被分散到多个技能中，单个技能看似无害，组合执行却产生危害。作者开发了自动化多智能体红队框架SkillCascade，并发布含213个验证用例的SkillCascade-Bench基准，在OpenClaw、Claude Code、Codex等系统上成功绕过现有单技能扫描器和运行时监控。",
+        "summary_en": "This paper introduces skill cascading attacks, a threat paradigm where a malicious objective is distributed across multiple skills so each looks benign in isolation but their combined execution is harmful. The authors develop SkillCascade, an automated multi-agent red-teaming framework, and release SkillCascade-Bench with 213 validated cascading test cases. Across agents like OpenClaw, Claude Code, and Codex, cascaded interactions reliably induce harmful behaviors while evading per-skill scanners and runtime monitors, exposing a gap between component-level integrity and system-level safety.",
         "tags": [
           "security",
           "agent-framework",
           "benchmark",
-          "research",
-          "evaluation"
+          "evaluation",
+          "research"
         ],
         "category": "security",
         "relevance_score": 0.95,
         "language": "en"
       },
       "_article": {
-        "id": "2026-09-29-rss-004",
-        "title": "技能级联攻击：基于技能的智能体系统安全威胁",
+        "id": "2026-09-29-rss-013",
+        "title": "技能级联攻击：基于技能Agent系统的跨技能安全威胁",
         "source": "rss_trending",
         "source_url": "https://arxiv.org/abs/2609.30383",
         "language": "en",
-        "summary": "论文提出\"技能级联攻击\"新威胁范式：恶意目标被分散到多个技能中，单个技能看似无害，组合执行却产生危害。作者开发了自动化多智能体红队框架SkillCascade，并发布包含213个验证用例的SkillCascade-Bench基准，证明现有单技能扫描器和运行时监控难以防御此类攻击。",
-        "summary_en": "This paper introduces skill cascading attacks, a threat paradigm where a malicious objective is distributed across multiple skills so each looks benign in isolation but their combined execution is harmful. The authors develop SkillCascade, an automated multi-agent red-teaming framework, and release SkillCascade-Bench with 213 validated cascading test cases, showing that existing per-skill scanners and runtime monitors fail to detect such attacks across agents like OpenClaw, Claude Code, and Codex.",
+        "summary": "论文提出\"技能级联攻击\"新威胁范式：恶意目标被分散到多个技能中，单个技能看似无害，组合执行却产生危害。作者开发了自动化多智能体红队框架SkillCascade，并发布含213个验证用例的SkillCascade-Bench基准，在OpenClaw、Claude Code、Codex等系统上成功绕过现有单技能扫描器和运行时监控。",
+        "summary_en": "This paper introduces skill cascading attacks, a threat paradigm where a malicious objective is distributed across multiple skills so each looks benign in isolation but their combined execution is harmful. The authors develop SkillCascade, an automated multi-agent red-teaming framework, and release SkillCascade-Bench with 213 validated cascading test cases. Across agents like OpenClaw, Claude Code, and Codex, cascaded interactions reliably induce harmful behaviors while evading per-skill scanners and runtime monitors, exposing a gap between component-level integrity and system-level safety.",
         "tags": [
           "security",
           "agent-framework",
           "benchmark",
-          "research",
-          "evaluation"
+          "evaluation",
+          "research"
         ],
         "category": "security",
         "relevance_score": 0.95,
         "status": "published",
-        "created_at": "2026-09-29T00:26:12.680709+08:00",
-        "updated_at": "2026-09-29T00:26:12.680711+08:00",
-        "metadata": {
-          "stars": null,
-          "hn_points": null,
-          "original_language": "en"
-        }
-      }
-    },
-    {
-      "title": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
-      "url": "https://arxiv.org/abs/2609.30287",
-      "description": "arXiv:2609.30287v1 Announce Type: new \nAbstract: AI-generated text detectors achieve high accuracy on standard benchmarks, yet the internal representations that drive these predictions remain poorly understood. We study which neurons in a frozen BERT-base-uncased encoder support AI-text detection, using the RAID benchmark across six generators spanning pure-base and instruction-tuned models. We apply the L1-to-L2 sparse-probing protocol of Gurnee et al. (2023) to all 9,216 CLS hidden-state dimensions (12 layers x 768), which we call neurons. The procedure recovers a stable set of under 1% of neurons per generator, consistent across folds and seeds; a probe restricted to that set retains most of the full-feature detection accuracy. Bidirectional activation patching confirms this set's causal relevance: in both directions it flips predictions an order of magnitude more often than size-matched random sets. Mean-ablating the same neurons leaves accuracy largely intact; the signal is therefore redundantly distributed. Cross-generator analysis reveals a bipartite structure: instruction-tuned generators concentrate 30-36% of stable neurons in BERT's final layer while both base generators fall below 14%, consistent with a layer-12 footprint of post-training alignment. Leave-one-family-out evaluation shows the selected neurons retain 86-94% of the full-feature ceiling on unseen generator families, so a detector can operate on a small fixed subspace without re-identifying neurons per generator.",
-      "pub_date": "Mon, 28 Sep 2026 00:00:00 -0400",
-      "source_feed": "arxiv_cs_cl",
-      "_source": "rss",
-      "_analysis": {
-        "title": "冻结BERT中AI文本检测神经元的机制研究：稀疏探测与激活修补",
-        "summary": "研究冻结BERT-base编码器中支持AI文本检测的神经元，使用RAID基准和L1-to-L2稀疏探测协议，发现不到1%的稳定神经元即可保留大部分检测精度，激活修补证实其因果相关性，并揭示指令微调生成器在末层集中30-36%稳定神经元的二分结构。",
-        "summary_en": "This study investigates which neurons in a frozen BERT-base encoder support AI-text detection using the RAID benchmark. Applying L1-to-L2 sparse probing to all 9,216 CLS hidden-state dimensions recovers a stable set of under 1% of neurons per generator that retains most detection accuracy. Bidirectional activation patching confirms causal relevance, and cross-generator analysis reveals a bipartite structure where instruction-tuned generators concentrate 30-36% of stable neurons in the final layer.",
-        "tags": [
-          "llm",
-          "research",
-          "evaluation",
-          "benchmark",
-          "security"
-        ],
-        "category": "research",
-        "relevance_score": 0.9,
-        "language": "en"
-      },
-      "_article": {
-        "id": "2026-09-29-rss-008",
-        "title": "冻结BERT中AI文本检测神经元的机制研究：稀疏探测与激活修补",
-        "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2609.30287",
-        "language": "en",
-        "summary": "研究冻结BERT-base编码器中支持AI文本检测的神经元，使用RAID基准和L1-to-L2稀疏探测协议，发现不到1%的稳定神经元即可保留大部分检测精度，激活修补证实其因果相关性，并揭示指令微调生成器在末层集中30-36%稳定神经元的二分结构。",
-        "summary_en": "This study investigates which neurons in a frozen BERT-base encoder support AI-text detection using the RAID benchmark. Applying L1-to-L2 sparse probing to all 9,216 CLS hidden-state dimensions recovers a stable set of under 1% of neurons per generator that retains most detection accuracy. Bidirectional activation patching confirms causal relevance, and cross-generator analysis reveals a bipartite structure where instruction-tuned generators concentrate 30-36% of stable neurons in the final layer.",
-        "tags": [
-          "llm",
-          "research",
-          "evaluation",
-          "benchmark",
-          "security"
-        ],
-        "category": "research",
-        "relevance_score": 0.9,
-        "status": "published",
-        "created_at": "2026-09-29T00:26:12.680730+08:00",
-        "updated_at": "2026-09-29T00:26:12.680731+08:00",
-        "metadata": {
-          "stars": null,
-          "hn_points": null,
-          "original_language": "en"
-        }
-      }
-    },
-    {
-      "title": "Manifold Projection and Iterative Autoencoder Refinement for Masked Language Modeling",
-      "url": "https://arxiv.org/abs/2609.30288",
-      "description": "arXiv:2609.30288v1 Announce Type: new \nAbstract: In Transformer-based masked language models, attention is the primary mechanism for context mixing, but there are other ways to mix data across tokens. Recent attention-free mixers replace attention with fixed or hypernetwork-generated MLPs, alternating their dynamic, content-dependent weighting for computational simplicity. We build an alternative that gets the same property from a low-rank bottleneck autoencoder. We replace attention with a stack of autoencoder-based mixing modules, one operating over local neighborhoods, one over the full sequence, and one across attention heads, each compressing and reconstructing its input through a bottleneck, and its width is a hyperparameter rather than a training effect. In masked positions, we introduce an iterative refinement procedure that has two distinct steps. A pulling step that pulls an embedding representation toward a weighted average of its neighbors, and a correcting step that projects the result back to the learned manifold via an autoencoder. Our architecture achieves a significant portion of attention's performance at about $1.9 \\times$ fewer FLOPs when pretrained on C4 and evaluated with parameter-matched BERT baselines. Our model equals parameter-matched BERT and TinyBERT baselines on the rarest-token frequency bucket using a frequency-aware training schedule that samples rare tokens more than uniformly for the masking tasks.",
-      "pub_date": "Mon, 28 Sep 2026 00:00:00 -0400",
-      "source_feed": "arxiv_cs_cl",
-      "_source": "rss",
-      "_analysis": {
-        "title": "流形投影与迭代自编码器精炼的掩码语言建模",
-        "summary": "该研究提出用低秩瓶颈自编码器替代Transformer中的注意力机制，通过局部、全局和跨注意力头的混合模块实现上下文混合，并引入迭代精炼（拉近邻居加权平均、投影回学习流形）处理掩码位置。在C4上预训练后，以约1.9倍更少FLOPs达到注意力机制的大部分性能，并在稀有词频段匹配BERT和TinyBERT基线。",
-        "summary_en": "This work replaces attention in Transformer masked language models with a stack of low-rank bottleneck autoencoder mixing modules operating over local neighborhoods, the full sequence, and across attention heads. An iterative refinement procedure (pulling embeddings toward neighbor averages, then projecting back to the learned manifold) handles masked positions. Pretrained on C4, it achieves a significant portion of attention's performance at ~1.9x fewer FLOPs and matches parameter-matched BERT and TinyBERT on the rarest-token bucket.",
-        "tags": [
-          "llm",
-          "research",
-          "fine-tuning",
-          "evaluation"
-        ],
-        "category": "llm",
-        "relevance_score": 0.95,
-        "language": "en"
-      },
-      "_article": {
-        "id": "2026-09-29-rss-005",
-        "title": "流形投影与迭代自编码器精炼的掩码语言建模",
-        "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2609.30288",
-        "language": "en",
-        "summary": "该研究提出用低秩瓶颈自编码器替代Transformer中的注意力机制，通过局部、全局和跨注意力头的混合模块实现上下文混合，并引入迭代精炼（拉近邻居加权平均、投影回学习流形）处理掩码位置。在C4上预训练后，以约1.9倍更少FLOPs达到注意力机制的大部分性能，并在稀有词频段匹配BERT和TinyBERT基线。",
-        "summary_en": "This work replaces attention in Transformer masked language models with a stack of low-rank bottleneck autoencoder mixing modules operating over local neighborhoods, the full sequence, and across attention heads. An iterative refinement procedure (pulling embeddings toward neighbor averages, then projecting back to the learned manifold) handles masked positions. Pretrained on C4, it achieves a significant portion of attention's performance at ~1.9x fewer FLOPs and matches parameter-matched BERT and TinyBERT on the rarest-token bucket.",
-        "tags": [
-          "llm",
-          "research",
-          "fine-tuning",
-          "evaluation"
-        ],
-        "category": "llm",
-        "relevance_score": 0.95,
-        "status": "published",
-        "created_at": "2026-09-29T00:26:12.680714+08:00",
-        "updated_at": "2026-09-29T00:26:12.680715+08:00",
-        "metadata": {
-          "stars": null,
-          "hn_points": null,
-          "original_language": "en"
-        }
-      }
-    },
-    {
-      "title": "Not All Memories Are Equal: Hierarchical Collaborative Memory for Validity-Aware Retrieval in LLM Agents",
-      "url": "https://arxiv.org/abs/2609.30289",
-      "description": "arXiv:2609.30289v1 Announce Type: new \nAbstract: In team collaboration scenarios, memory is heterogeneous and continually evolving. Team memories capture collective decisions, protocols, and current consensus, while individual memories preserve member-specific observations, execution traces, and intermediate progress. Existing memory-augmented systems typically retrieve from all stored memories as a flat pool, ranking them by semantic relevance, importance, or recency without modeling hierarchical structure or evolving validity. As a result, they often surface semantically relevant but outdated or conflicting memories, especially individual memories that no longer align with current team consensus, instead of prioritizing currently valid memories. This is particularly problematic when collaborative LLM agents answer user questions, since their responses should be grounded in valid memories. We propose HiCoMER, a framework for hierarchical collaborative memory management and validity-aware retrieval in LLM agents. HiCoMER first maintains the validity of team and individual memories and then retrieves memories that remain valid, rather than retrieving directly from all stored memories. It consists of three components: a Hierarchical Memory Conflict Updater, a Validity-Aware Memory Retriever, and a Memory-Grounded Answer Generator. To evaluate HiCoMER, we construct two new datasets for memory-grounded question answering in collaborative settings. Experiments on both datasets show that HiCoMER consistently outperforms strong baselines by reducing outdated retrieval, preserving current team consensus, and improving downstream QA quality.",
-      "pub_date": "Mon, 28 Sep 2026 00:00:00 -0400",
-      "source_feed": "arxiv_cs_cl",
-      "_source": "rss",
-      "_analysis": {
-        "title": "面向LLM智能体的分层协作记忆与有效性感知检索框架HiCoMER",
-        "summary": "针对团队协作中记忆异构且持续演化的问题，提出HiCoMER框架，通过分层记忆冲突更新、有效性感知检索和记忆锚定答案生成，避免检索过时或冲突记忆，提升LLM智能体问答质量。",
-        "summary_en": "HiCoMER is a framework for hierarchical collaborative memory management and validity-aware retrieval in LLM agents. It maintains validity of team and individual memories, retrieves only valid ones via a Hierarchical Memory Conflict Updater, Validity-Aware Memory Retriever, and Memory-Grounded Answer Generator, reducing outdated retrieval and improving QA quality.",
-        "tags": [
-          "llm",
-          "agent-framework",
-          "rag",
-          "research",
-          "evaluation"
-        ],
-        "category": "agent-framework",
-        "relevance_score": 0.95,
-        "language": "en"
-      },
-      "_article": {
-        "id": "2026-09-29-rss-006",
-        "title": "面向LLM智能体的分层协作记忆与有效性感知检索框架HiCoMER",
-        "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2609.30289",
-        "language": "en",
-        "summary": "针对团队协作中记忆异构且持续演化的问题，提出HiCoMER框架，通过分层记忆冲突更新、有效性感知检索和记忆锚定答案生成，避免检索过时或冲突记忆，提升LLM智能体问答质量。",
-        "summary_en": "HiCoMER is a framework for hierarchical collaborative memory management and validity-aware retrieval in LLM agents. It maintains validity of team and individual memories, retrieves only valid ones via a Hierarchical Memory Conflict Updater, Validity-Aware Memory Retriever, and Memory-Grounded Answer Generator, reducing outdated retrieval and improving QA quality.",
-        "tags": [
-          "llm",
-          "agent-framework",
-          "rag",
-          "research",
-          "evaluation"
-        ],
-        "category": "agent-framework",
-        "relevance_score": 0.95,
-        "status": "published",
-        "created_at": "2026-09-29T00:26:12.680719+08:00",
-        "updated_at": "2026-09-29T00:26:12.680721+08:00",
-        "metadata": {
-          "stars": null,
-          "hn_points": null,
-          "original_language": "en"
-        }
-      }
-    },
-    {
-      "title": "Auditing and Repairing LLM-as-Judge Failures in a Production Text-to-SQL Pipeline",
-      "url": "https://arxiv.org/abs/2609.30290",
-      "description": "arXiv:2609.30290v1 Announce Type: new \nAbstract: Production text-to-SQL pipelines often end with an LLM-as-judge whose agreement with human annotators has never actually been measured. When we checked ours, the deployed gpt-4o-mini judge agreed with two-author gold at only Cohen's kappa = 0.04 on a disagreement-enriched set and 0.42 on a uniform-random spot-check, over-flagging 77.1% of the human-FAITHFUL cases in the enriched set. Most of its over-flags trace back to a single mechanism we call GRADE-HALLUCINATION. A self-hosted Qwen3.6-27B replacement (kappa = 0.72) lands in the same range as Claude Opus 4.7 (kappa = 0.71); the head-to-head is underpowered at n = 96, but for the deployment decision that hardly matters, since Qwen costs roughly 1/300 as much per call. Ensembling does not help for free. Pairing the weak judge with a stronger one degrades agreement, whereas three strong judges under unanimity routing reach kappa = 0.79 at 89.7% auto-coverage. Applied out-of-domain, the same audit recipe flags 25.5% of BIRD-financial's expert-authored gold SQLs as candidate gold-SQL issues under our annotation protocol. Code and pre-registration are at https://github.com/JamesL404/synca-audit.",
-      "pub_date": "Mon, 28 Sep 2026 00:00:00 -0400",
-      "source_feed": "arxiv_cs_cl",
-      "_source": "rss",
-      "_analysis": {
-        "title": "生产级Text-to-SQL流水线中LLM评判器的审计与修复",
-        "summary": "研究审计生产级Text-to-SQL流水线中的LLM-as-judge，发现gpt-4o-mini评判器与人工标注一致性极低（kappa=0.04），主要源于\"评分幻觉\"机制。自托管Qwen3.6-27B替代方案达到kappa=0.72，成本仅为1/300；三个强评判器一致路由可达kappa=0.79。",
-        "summary_en": "Audits an LLM-as-judge in a production text-to-SQL pipeline, finding gpt-4o-mini agreed with human gold at only kappa=0.04, largely due to a mechanism called GRADE-HALLUCINATION. A self-hosted Qwen3.6-27B replacement reached kappa=0.72 at ~1/300 the cost; three strong judges with unanimity routing reached kappa=0.79.",
-        "tags": [
-          "llm",
-          "evaluation",
-          "research",
-          "application",
-          "benchmark"
-        ],
-        "category": "evaluation",
-        "relevance_score": 0.95,
-        "language": "en"
-      }
-    },
-    {
-      "title": "A Survey on Fake Review Detection: From Pre-trained Language Models to Large Language Models",
-      "url": "https://arxiv.org/abs/2609.30292",
-      "description": "arXiv:2609.30292v1 Announce Type: new \nAbstract: Online reviews shape consumer decisions, platform governance, and corporate reputation.Fake reviews compromise this information channel by injecting deceptive evidence into rating systems, recommendation pipelines, and public trust mechanisms.The rise of large language models, or LLMs, has changed the problem in two directions.LLMs can generate fluent and context-aware deceptive reviews, while pre-trained language models, or PLMs, and LLMs also provide stronger semantic representations for detection.This survey reviews fake review detection from an information fusion perspective, covering 211 studies published from 2018 to early 2026.We organize existing work by evidence source and fusion level, covering review text, sentiment, rating behavior, temporal metadata, user-product graphs, multimodal content, external knowledge, and LLM-generated signals.We trace the development from traditional machine learning and deep learning to PLM-based and LLM-based methods, and examine how different approaches combine textual, behavioral, structural, and multimodal evidence.We also analyze reported performance trends on widely used Amazon, Yelp, and OpSpam benchmark families, while noting the limitations caused by different label construction procedures, data splits, and evaluation protocols.Finally, we identify open problems in adversarial generation, cross-domain transfer, uncertainty-aware fusion, missing-source robustness, interpretability, and trustworthy evaluation for AI-generated deceptive content.",
-      "pub_date": "Mon, 28 Sep 2026 00:00:00 -0400",
-      "source_feed": "arxiv_cs_cl",
-      "_source": "rss",
-      "_analysis": {
-        "title": "虚假评论检测综述：从预训练语言模型到大语言模型",
-        "summary": "本文从信息融合视角综述了2018至2026年间211项虚假评论检测研究，涵盖文本、情感、评分行为、时序元数据、用户-商品图、多模态内容及LLM生成信号，梳理了从传统机器学习到PLM和LLM方法的演进，并分析了Amazon、Yelp、OpSpam等基准的性能趋势与评估局限。",
-        "summary_en": "This survey reviews 211 fake review detection studies from 2018 to early 2026 through an information fusion lens, covering review text, sentiment, rating behavior, temporal metadata, user-product graphs, multimodal content, and LLM-generated signals. It traces the evolution from traditional ML and deep learning to PLM- and LLM-based methods, analyzes performance trends on Amazon, Yelp, and OpSpam benchmarks, and identifies open problems in adversarial generation, cross-domain transfer, uncertainty-aware fusion, and trustworthy evaluation.",
-        "tags": [
-          "llm",
-          "research",
-          "evaluation",
-          "multimodal",
-          "security"
-        ],
-        "category": "research",
-        "relevance_score": 0.9,
-        "language": "en"
-      },
-      "_article": {
-        "id": "2026-09-29-rss-009",
-        "title": "虚假评论检测综述：从预训练语言模型到大语言模型",
-        "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2609.30292",
-        "language": "en",
-        "summary": "本文从信息融合视角综述了2018至2026年间211项虚假评论检测研究，涵盖文本、情感、评分行为、时序元数据、用户-商品图、多模态内容及LLM生成信号，梳理了从传统机器学习到PLM和LLM方法的演进，并分析了Amazon、Yelp、OpSpam等基准的性能趋势与评估局限。",
-        "summary_en": "This survey reviews 211 fake review detection studies from 2018 to early 2026 through an information fusion lens, covering review text, sentiment, rating behavior, temporal metadata, user-product graphs, multimodal content, and LLM-generated signals. It traces the evolution from traditional ML and deep learning to PLM- and LLM-based methods, analyzes performance trends on Amazon, Yelp, and OpSpam benchmarks, and identifies open problems in adversarial generation, cross-domain transfer, uncertainty-aware fusion, and trustworthy evaluation.",
-        "tags": [
-          "llm",
-          "research",
-          "evaluation",
-          "multimodal",
-          "security"
-        ],
-        "category": "research",
-        "relevance_score": 0.9,
-        "status": "published",
-        "created_at": "2026-09-29T00:26:12.680735+08:00",
-        "updated_at": "2026-09-29T00:26:12.680737+08:00",
+        "created_at": "2026-09-29T22:36:03.698036+08:00",
+        "updated_at": "2026-09-29T22:36:03.698036+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,

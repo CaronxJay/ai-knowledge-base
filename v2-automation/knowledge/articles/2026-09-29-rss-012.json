@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-29-rss-012",
+  "title": "多智能体代码评判何时真正有据可依？两项无标签测量与一个拒绝猜测的评判器",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.30328",
+  "language": "en",
+  "summary": "论文指出多智能体代码评判的证据需独立于被审答案且在候选间有差异，而代码评判中后者不成立。在MARCH框架上测试发现其78-95%比较中判定两解等价，准确率仅4.4%，远低于直接提问的43.7%。作者提出两项无标签日志测量，据此门控可拒绝无法判断的比较，将准确率从20.7%提升至36.9%，同时仍回答一半比较。",
+  "summary_en": "The paper argues multi-agent code judging requires evidence independent of the answer and differing between candidates, but the latter fails in code judging. Testing MARCH on two benchmarks, it declares both solutions equally good in 78-95% of comparisons, reaching 4.4% accuracy versus 43.7% for direct prompting. Two label-free log measurements explain this; gating on one raises accuracy from 20.7% to 36.9% while answering half of comparisons.",
+  "tags": [
+    "agent-framework",
+    "evaluation",
+    "research",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-29T22:36:03.698033+08:00",
+  "updated_at": "2026-09-29T22:36:03.698034+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
