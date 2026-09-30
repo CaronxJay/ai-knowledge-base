@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-30-rss-006",
+  "title": "韩语发票信息提取OCR模型开发",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.35796",
+  "language": "en",
+  "summary": "该研究提出一种结合深度学习与图像预处理技术的OCR模型，用于从韩语发票中自动提取关键信息。在收集的发票数据集上评估，模型达到87%的F1分数，且处理时间可忽略不计。",
+  "summary_en": "This study proposes an efficient OCR model combining deep learning with image preprocessing techniques to automatically extract key information from Korean-language invoices. Evaluated on a rich set of collected invoices, the model achieves 87% F1-score with negligible processing time.",
+  "tags": [
+    "research",
+    "application",
+    "multimodal",
+    "llm"
+  ],
+  "category": "application",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-09-30T22:36:05.223643+08:00",
+  "updated_at": "2026-09-30T22:36:05.223644+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

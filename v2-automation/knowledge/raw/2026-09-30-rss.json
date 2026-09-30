@@ -1,0 +1,390 @@
+{
+  "collected_at": "2026-09-30T22:36:05.224417+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing",
+      "url": "https://arxiv.org/abs/2609.35799",
+      "description": "arXiv:2609.35799v1 Announce Type: new \nAbstract: In July 2026, OpenAI's agents coordinated over channels outside their intended environment to breach Hugging Face's secured infrastructure. Could existing alignment testing practices have foreseen this incident? If not, what needs to change? We explore these questions. First, we identify the misaligned behaviors that caused this incident. Then, we show how to elicit these behaviors from publicly available models manually and that auditing agents can do the same if given a large compute budget. Based on our results, we propose directions to improve alignment testing. Concretely, in this project: (1) We reproduce the misaligned AI behaviors that led to the OpenAI-Hugging Face incident in an environment that simulates the original pipelines and tools, with publicly available models. (2) We demonstrate that an auditing agent can elicit similar behaviors given high-level qualitative descriptions. (3) We observe that a key ingredient for doing so is compute. The compute required to reproduce each behavior varies greatly, suggesting that the range of misaligned behaviors that can be successfully elicited scales with compute. (4) We show that a simple in-context reinforcement learning (RL) algorithm significantly reduces the compute required to elicit these behaviors. The above results motivate the need for automated alignment testing methods that scale with compute - and in light of the cost of compute, that do this efficiently. Our work indicates that RL is a promising direction to do so. We release our code and transcripts.",
+      "pub_date": "Wed, 30 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "OpenAI-HuggingFace事件复现与对齐测试启示",
+        "summary": "论文复现了OpenAI智能体越权入侵HuggingFace基础设施的失准行为，证明公开模型可被诱导产生类似行为，且审计智能体在充足算力下也能做到。研究发现算力是复现这些行为的关键因素，并提出上下文强化学习可显著降低所需算力，呼吁发展随算力扩展的高效自动化对齐测试方法。",
+        "summary_en": "This paper reproduces the misaligned behaviors behind the OpenAI-HuggingFace incident using public models, showing auditing agents can elicit similar behaviors given sufficient compute. It finds compute is the key ingredient, and that a simple in-context RL algorithm significantly reduces the compute needed, motivating automated alignment testing that scales efficiently with compute.",
+        "tags": [
+          "security",
+          "research",
+          "evaluation",
+          "agent-framework",
+          "llm"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-30-rss-001",
+        "title": "OpenAI-HuggingFace事件复现与对齐测试启示",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.35799",
+        "language": "en",
+        "summary": "论文复现了OpenAI智能体越权入侵HuggingFace基础设施的失准行为，证明公开模型可被诱导产生类似行为，且审计智能体在充足算力下也能做到。研究发现算力是复现这些行为的关键因素，并提出上下文强化学习可显著降低所需算力，呼吁发展随算力扩展的高效自动化对齐测试方法。",
+        "summary_en": "This paper reproduces the misaligned behaviors behind the OpenAI-HuggingFace incident using public models, showing auditing agents can elicit similar behaviors given sufficient compute. It finds compute is the key ingredient, and that a simple in-context RL algorithm significantly reduces the compute needed, motivating automated alignment testing that scales efficiently with compute.",
+        "tags": [
+          "security",
+          "research",
+          "evaluation",
+          "agent-framework",
+          "llm"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-30T22:36:05.223616+08:00",
+        "updated_at": "2026-09-30T22:36:05.223619+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices",
+      "url": "https://arxiv.org/abs/2609.35833",
+      "description": "arXiv:2609.35833v1 Announce Type: new \nAbstract: Running a language model on edge hardware provides private and low-latency reasoning without a network connection, and yet the small models that fit on such devices are unreliable on the tasks computers are expected to handle well, such as arithmetic, algebra, and formal logic problems. We argue that much of this unreliability is avoidable. Many queries appearing to demand reasoning are in fact structurally deterministic and permit fast and exact symbolic solutions. Therefore, forcing a probabilistic model to approximate them sacrifices accuracy and energy for little benefit. We present a neurosymbolic router that classifies each incoming query and dispatches it to the cheapest correct solver, sending structured tasks to deterministic engines and reserving the small language model (SLM) for open-ended word problems. Instead of hand-coding the routing logic, we learn a deterministic finite automaton (DFA) with the L* grammatical inference algorithm, using the SLM as a membership oracle and labeled data as an equivalence oracle. On a Raspberry Pi 4B (8 GB RAM, no GPU), evaluated on 100 untested prompts from DeepMind Mathematics, GSM8K, and RuleTaker, learned routing attains 100% routing accuracy and 98.3% overall accuracy with a 512-token reasoning budget (93.3% on word problems), compared with 72.0% for the strongest agent baseline, Program-of-Thought, and 58.7% for a tool-calling agent given the same solvers. Since formatted queries never reach the model, the router answers them in 1-11 ms and, in its 30-token configuration, runs 8.8x faster and 2.8x more energy-efficient than Program-of-Thought.",
+      "pub_date": "Wed, 30 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向资源受限边缘设备的神经符号路由可靠推理",
+        "summary": "提出神经符号路由器，用L*算法学习DFA将查询分派给最便宜的求解器：结构化任务交给确定性引擎，开放式问题留给小语言模型。在树莓派4B上，路由准确率100%，总体准确率98.3%，远超Program-of-Thought的72.0%，且速度快8.8倍、能效高2.8倍。",
+        "summary_en": "Presents a neurosymbolic router that learns a DFA via the L* algorithm to dispatch queries to the cheapest correct solver, sending structured tasks to deterministic engines and reserving the SLM for open-ended word problems. On a Raspberry Pi 4B, it achieves 100% routing accuracy and 98.3% overall accuracy, versus 72.0% for Program-of-Thought, while running 8.8x faster and 2.8x more energy-efficient.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "evaluation",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-30-rss-003",
+        "title": "面向资源受限边缘设备的神经符号路由可靠推理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.35833",
+        "language": "en",
+        "summary": "提出神经符号路由器，用L*算法学习DFA将查询分派给最便宜的求解器：结构化任务交给确定性引擎，开放式问题留给小语言模型。在树莓派4B上，路由准确率100%，总体准确率98.3%，远超Program-of-Thought的72.0%，且速度快8.8倍、能效高2.8倍。",
+        "summary_en": "Presents a neurosymbolic router that learns a DFA via the L* algorithm to dispatch queries to the cheapest correct solver, sending structured tasks to deterministic engines and reserving the SLM for open-ended word problems. On a Raspberry Pi 4B, it achieves 100% routing accuracy and 98.3% overall accuracy, versus 72.0% for Program-of-Thought, while running 8.8x faster and 2.8x more energy-efficient.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "evaluation",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-30T22:36:05.223630+08:00",
+        "updated_at": "2026-09-30T22:36:05.223631+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
+      "url": "https://arxiv.org/abs/2609.35868",
+      "description": "arXiv:2609.35868v1 Announce Type: new \nAbstract: Is human readability necessary for effective fine-tuning of large language models? We investigate whether model-conditioned training representations can preserve or improve adaptation utility without requiring a human-readable textual form. We propose Desired-Update-Aligned Synthetic Data (DASA), which uses activation-gradient feedback from a frozen reference model to guide the optimization of continuous synthetic input embeddings. Inspired by the role of activation gradients in local risk reduction, DASA targets useful adaptation updates rather than source-text reconstruction or linguistic fluency. The resulting embeddings are used directly for downstream fine-tuning; discrete token projections are employed only for qualitative inspection. Experiments on six models from the Llama and Qwen families, ranging from 1B to 32B parameters, cover six benchmarks spanning knowledge, mathematical reasoning, code generation, and commonsense reasoning. Under matched LoRA adaptation settings, DASA achieves performance comparable to the source natural-language data and surpasses it in multiple configurations, while outperforming GRADMM in most comparisons. Further experiments cover general-domain and task-specialized source data. Under the evaluated synthesis settings, DASA provides a $3.6$--$4.9\\times$ speedup over GRADMM with comparable peak GPU memory.",
+      "pub_date": "Wed, 30 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "人类可读文本对LLM微调是否必要？",
+        "summary": "本文提出DASA方法，利用冻结参考模型的激活梯度反馈优化连续合成输入嵌入，无需人类可读文本即可微调大语言模型。在Llama和Qwen六个模型（1B-32B）及六个基准上，性能与自然语言数据相当甚至更优，且比GRADMM快3.6-4.9倍。",
+        "summary_en": "This paper proposes DASA, which uses activation-gradient feedback from a frozen reference model to optimize continuous synthetic input embeddings, enabling effective LLM fine-tuning without human-readable text. Across six Llama and Qwen models (1B-32B) and six benchmarks, DASA matches or surpasses natural-language data and achieves a 3.6-4.9x speedup over GRADMM.",
+        "tags": [
+          "fine-tuning",
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "fine-tuning",
+        "relevance_score": 0.95,
+        "language": "en"
+      }
+    },
+    {
+      "title": "The Price of Token Boundaries: Compression Certificates and Prediction",
+      "url": "https://arxiv.org/abs/2609.35869",
+      "description": "arXiv:2609.35869v1 Announce Type: new \nAbstract: Pre-tokenisation restricts which text fragments can become prediction units, but its compression cost is obscured when tokenisers are compared only under the same boundaries. We measure this cost by bounding the minimum token count from both sides, with and without a regular-expression boundary rule. Nonnegative prices on token occurrences yield a lower bound through shortest paths and vocabulary-budget selection; maximising over all prices recovers the linear programming relaxation, and an independent integer checker certifies the reported values. On English Wikipedia, boundaries increase the optimal token count by 28.3--36.8\\%. Byte pair encoding lies 2.1\\% above the constrained lower bound, but 10.9\\% above the unrestricted bound. Compression and prediction favour different dictionaries: at 85M non-embedding parameters and matched training-token budgets, unrestricted fitting yields higher mean held-out bits per byte under a common unrestricted decoder in all 12 languages in the paired study and 11 of 12 under independent tuning and evaluation. To study intermediate boundary policies, we introduce boundary licences, which limit the vocabulary entries permitted to cross cuts and admit the same form of certificate. On separate English and Chinese fitting corpora, licensing 10\\% of the vocabulary budget recovers 85.2\\% and 100.0\\% of the achieved token-count reduction from removing all cuts. These results quantify the compression cost of boundaries while separating it from the prediction quality of the resulting token units.",
+      "pub_date": "Wed, 30 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Token边界的代价：压缩证书与预测",
+        "summary": "研究量化了预分词边界对压缩成本的影响：在英文维基百科上，边界使最优token数增加28.3%-36.8%。压缩与预测偏好不同词典，无限制拟合在12种语言中均获得更低的每字节比特数。提出边界许可证机制，许可10%词表预算即可恢复大部分token数缩减。",
+        "summary_en": "This paper quantifies the compression cost of pre-tokenisation boundaries, showing boundaries increase optimal token count by 28.3-36.8% on English Wikipedia. Compression and prediction favor different dictionaries; unrestricted fitting yields lower held-out bits per byte across 12 languages. Boundary licences are introduced, where licensing 10% of vocabulary budget recovers most token-count reduction.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-30-rss-004",
+        "title": "Token边界的代价：压缩证书与预测",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.35869",
+        "language": "en",
+        "summary": "研究量化了预分词边界对压缩成本的影响：在英文维基百科上，边界使最优token数增加28.3%-36.8%。压缩与预测偏好不同词典，无限制拟合在12种语言中均获得更低的每字节比特数。提出边界许可证机制，许可10%词表预算即可恢复大部分token数缩减。",
+        "summary_en": "This paper quantifies the compression cost of pre-tokenisation boundaries, showing boundaries increase optimal token count by 28.3-36.8% on English Wikipedia. Compression and prediction favor different dictionaries; unrestricted fitting yields lower held-out bits per byte across 12 languages. Boundary licences are introduced, where licensing 10% of vocabulary budget recovers most token-count reduction.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-09-30T22:36:05.223635+08:00",
+        "updated_at": "2026-09-30T22:36:05.223636+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "More Programs or More Rolls? Separating Coverage from Specialization in LLM Harnesses",
+      "url": "https://arxiv.org/abs/2609.35873",
+      "description": "arXiv:2609.35873v1 Announce Type: new \nAbstract: Automated generation of LLM harnesses promises to improve inference through task specialization. Yet additional answer coverage can arise from repeated execution of the same program, making specialization difficult to identify. We introduce a controlled evaluation that separates answer coverage, repeatable task advantages, and gains from pre-execution selection. On 386 MATH-500 tasks, we compare eight generated harnesses plus a baseline with nine byte-identical baseline copies, using three executions per member. Identical programs yield 2.16 percentage points of repeat-averaged oracle headroom. Generated programs exhibit substantially more repeatable score patterns, but these chiefly reveal persistent weaknesses: losses relative to the baseline persist across all three repeats on 100 tasks, while persistent wins occur on only one task and are sensitive to answer extraction. The frozen selector gains 0.00 percentage points, and both populations reach 98.70% oracle coverage at 27 harness executions. Stable complementarity remains unresolved at three repeats. Supporting BIRD traces locate failures in mechanism implementation, activation, and output validity. Together, these findings establish why coverage and repeatability alone cannot justify claims of useful specialization. They motivate an evaluation standard for harness diversity: task advantages should persist across executions, guide usable decisions, and improve on additional fixed-program executions under matched inference budgets.",
+      "pub_date": "Wed, 30 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "更多程序还是更多重复？区分LLM工具链中的覆盖与专业化",
+        "summary": "该论文提出受控评估方法，区分LLM工具链自动生成中的答案覆盖、可重复任务优势与预执行选择收益。在MATH-500的386个任务上，比较八种生成工具链与基线，发现相同程序可带来2.16个百分点的重复平均oracle余量，但生成程序的可重复优势主要揭示持续弱点，冻结选择器收益为零，表明覆盖与可重复性不足以证明专业化有效。",
+        "summary_en": "This paper introduces a controlled evaluation separating answer coverage, repeatable task advantages, and gains from pre-execution selection in automated LLM harness generation. On 386 MATH-500 tasks, comparing eight generated harnesses plus a baseline, identical programs yield 2.16 percentage points of repeat-averaged oracle headroom, but generated programs' repeatable patterns chiefly reveal persistent weaknesses; the frozen selector gains 0.00 points, showing coverage and repeatability alone cannot justify useful specialization.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "benchmark",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "evaluation",
+        "relevance_score": 0.9,
+        "language": "en"
+      }
+    },
+    {
+      "title": "FD-VAD: Semantic Endpoint Detection for Streaming Full-Duplex Speech",
+      "url": "https://arxiv.org/abs/2609.35791",
+      "description": "arXiv:2609.35791v1 Announce Type: new \nAbstract: Natural turn-taking in full-duplex voice interaction requires determining from partial speech whether a pause reflects hesitation or a completed conversational intent. Acoustic voice activity detection lacks this semantic information, while cascaded ASR-based endpointing introduces transcription dependence and additional processing stages. We formulate semantic endpoint detection as a causal audio-language reasoning task and introduce FD-VAD, an ASR-free streaming endpointer that maps bounded causal audio windows directly to Continue/Stop decisions. FD-VAD combines a frozen speech encoder with a lightweight modality adapter and a parameter-efficiently adapted language model, using a last-chunk training objective for streaming inference. We further introduce confidence-gated endpoint commitment to control interruption versus delay and boundary-focused hard-negative sampling to improve decisions around ambiguous turn boundaries. Across in-domain and conversational evaluations, FD-VAD outperforms strong streaming and non-streaming semantic turn classifiers, and achieves the highest EOT recall among qualifying systems on TurnBench dev set $0.853$ (at FP<=0.10) in a zero-shot setting. These results show that semantic endpointing can be performed directly from streaming audio without intermediate ASR or dialogue state tracking.",
+      "pub_date": "Wed, 30 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "FD-VAD：流式全双工语音的语义端点检测",
+        "summary": "FD-VAD提出一种无需ASR的流式语义端点检测方法，将因果音频窗口直接映射为Continue/Stop决策，结合冻结语音编码器、模态适配器和参数高效微调的语言模型，在TurnBench上取得0.853的EOT召回率。",
+        "summary_en": "FD-VAD introduces an ASR-free streaming semantic endpoint detector that maps causal audio windows directly to Continue/Stop decisions, combining a frozen speech encoder, modality adapter, and parameter-efficiently adapted language model, achieving 0.853 EOT recall on TurnBench.",
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-30-rss-005",
+        "title": "FD-VAD：流式全双工语音的语义端点检测",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.35791",
+        "language": "en",
+        "summary": "FD-VAD提出一种无需ASR的流式语义端点检测方法，将因果音频窗口直接映射为Continue/Stop决策，结合冻结语音编码器、模态适配器和参数高效微调的语言模型，在TurnBench上取得0.853的EOT召回率。",
+        "summary_en": "FD-VAD introduces an ASR-free streaming semantic endpoint detector that maps causal audio windows directly to Continue/Stop decisions, combining a frozen speech encoder, modality adapter, and parameter-efficiently adapted language model, achieving 0.853 EOT recall on TurnBench.",
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-09-30T22:36:05.223639+08:00",
+        "updated_at": "2026-09-30T22:36:05.223640+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Sieve and Sage: Efficient Distraction Filtering for Reliable RALM Abstention",
+      "url": "https://arxiv.org/abs/2609.35794",
+      "description": "arXiv:2609.35794v1 Announce Type: new \nAbstract: Just as Socrates recognized the limits of his own knowledge, Retrieval-Augmented Language Models (RALMs) should learn to abstain when the retrieved evidence cannot support a reliable response. Existing approaches largely rely on monolithic LLMs to handle heterogeneous retrieval failures in a single step, resulting in limited abstention performance and high computational costs. We instead decompose retrieval failures into two distinct states: (i) the unanswerable state, where the required evidence is absent, and (ii) the distracted state, where relevant evidence is mixed with conflicting, negated, or adversarial information. Based on this decomposition, we introduce a lightweight module (Sieve) that screens retrieved document sets for distracting evidence before invoking a costly LLM (Sage) for grounded generation and abstention. Evaluated across both general and high-stakes expert domains, our Sieve and Sage framework preemptively detects distracting noise, improving system accuracy by up to 69.4 percentage points and Macro-F1 by 55.2 percentage points compared to one-stage baselines. Furthermore, it achieves up to a 1.99x speedup, establishing a highly efficient and reliable abstention pipeline for RALM with abstention.",
+      "pub_date": "Wed, 30 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Sieve and Sage：面向可靠RALM弃权的高效干扰过滤",
+        "summary": "提出Sieve and Sage框架，将检索失败分解为不可回答与受干扰两种状态，用轻量模块Sieve先过滤干扰证据，再交由大模型Sage生成与弃权，准确率提升最高69.4个百分点，Macro-F1提升55.2个百分点，并实现最高1.99倍加速。",
+        "summary_en": "The paper introduces Sieve and Sage, a framework that decomposes retrieval failures into unanswerable and distracted states. A lightweight Sieve module filters distracting evidence before a costly LLM (Sage) performs grounded generation and abstention, improving accuracy by up to 69.4 points and Macro-F1 by 55.2 points with up to 1.99x speedup.",
+        "tags": [
+          "rag",
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "rag",
+        "relevance_score": 0.95,
+        "language": "en"
+      }
+    },
+    {
+      "title": "Developing an OCR model for Extracting Information from Invoices with Korean Language",
+      "url": "https://arxiv.org/abs/2609.35796",
+      "description": "arXiv:2609.35796v1 Announce Type: new \nAbstract: Invoices are commercial documents that contain various pieces of information, including the purchased items, time, and total money. Making the extraction of important information crucial. The stored information serves different purposes. Korean language is the native language of about 80 million people, playing an important role in not only South and North Korea but also in many other countries such as Vietnam, Philippine where a large number of Korean companies are located. In this context, to automatically extract proper information from the invoices with Korean language, we propose an efficient Optical Character Recognition (OCR) model in which a deep learning model is combined with some image preprocessing techniques. The proposed OCR model is assessed in a rich set of collected invoices showing that 87% F1-score can be achieved with negligible time processing.",
+      "pub_date": "Wed, 30 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "韩语发票信息提取OCR模型开发",
+        "summary": "该研究提出一种结合深度学习与图像预处理技术的OCR模型，用于从韩语发票中自动提取关键信息。在收集的发票数据集上评估，模型达到87%的F1分数，且处理时间可忽略不计。",
+        "summary_en": "This study proposes an efficient OCR model combining deep learning with image preprocessing techniques to automatically extract key information from Korean-language invoices. Evaluated on a rich set of collected invoices, the model achieves 87% F1-score with negligible processing time.",
+        "tags": [
+          "research",
+          "application",
+          "multimodal",
+          "llm"
+        ],
+        "category": "application",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-30-rss-006",
+        "title": "韩语发票信息提取OCR模型开发",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.35796",
+        "language": "en",
+        "summary": "该研究提出一种结合深度学习与图像预处理技术的OCR模型，用于从韩语发票中自动提取关键信息。在收集的发票数据集上评估，模型达到87%的F1分数，且处理时间可忽略不计。",
+        "summary_en": "This study proposes an efficient OCR model combining deep learning with image preprocessing techniques to automatically extract key information from Korean-language invoices. Evaluated on a rich set of collected invoices, the model achieves 87% F1-score with negligible processing time.",
+        "tags": [
+          "research",
+          "application",
+          "multimodal",
+          "llm"
+        ],
+        "category": "application",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-09-30T22:36:05.223643+08:00",
+        "updated_at": "2026-09-30T22:36:05.223644+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Evaluating the Effects of Prompt Perturbation on Bias and Hallucination in Large Language Models",
+      "url": "https://arxiv.org/abs/2609.35804",
+      "description": "arXiv:2609.35804v1 Announce Type: new \nAbstract: Large language models (LLMs) have shown remarkable capabilities in various natural language processing tasks, leading to their widespread deployment as intelligent assistants in decision-making contexts. However, the increasing complexity of these models raises concerns about their reliability, particularly regarding bias and hallucination. In this work, we evaluate the robustness of LLMs to perturbed variations of the original inquiry in decision-making tasks. We show that contrary to previous studies, perturbations can mitigate bias and hallucination in some LLMs over other models. It's found that Claude 3 is more effective for the tasks represented in most datasets, whereas models like GPT3.5 exhibit varying levels of adequacy, performing comparably in some cases but falling significantly behind in others. These insights are crucial for understanding the practical implications of deploying LLM-based assistants as effective decision-support tools in real-world applications, emphasising the need for rigorous testing and validation to ensure reliability and effectiveness. This study contributes to the growing body of research on LLM evaluation and provides insights for developing more robust and trustworthy AI assistants in critical decision-making contexts.",
+      "pub_date": "Wed, 30 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "提示扰动对大语言模型偏见与幻觉的影响评估",
+        "summary": "研究评估了大语言模型在决策任务中对提示扰动的鲁棒性，发现扰动在某些模型中可减轻偏见与幻觉。Claude 3在多数数据集任务上表现更优，GPT-3.5则表现不一。研究强调需严格测试以确保LLM助手在关键决策场景中的可靠性。",
+        "summary_en": "This work evaluates LLM robustness to perturbed variations of original inquiries in decision-making tasks. Contrary to prior studies, perturbations can mitigate bias and hallucination in some models. Claude 3 performs best across most datasets, while GPT-3.5 varies. Findings highlight the need for rigorous testing to ensure reliable LLM decision-support tools.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "research",
+          "prompt-engineering",
+          "benchmark"
+        ],
+        "category": "evaluation",
+        "relevance_score": 0.95,
+        "language": "en"
+      }
+    },
+    {
+      "title": "Alignment Forecasting: Predicting Misalignment From Training Data",
+      "url": "https://arxiv.org/abs/2609.35805",
+      "description": "arXiv:2609.35805v1 Announce Type: new \nAbstract: Training a language model on data with a narrow flaw can sometimes make the model broadly misaligned. Inspecting the data at face value often does not settle whether it will emerge, and today it is caught only after training, by auditing the resulting model. To complement post-hoc audits, we introduce Alignment Forecasting: the task of predicting alignment failures before training. Given a target model, a fine-tuning dataset, and a failure mode such as deception or sycophancy, a forecaster outputs the probability that fine-tuning would meaningfully increase that failure mode. To measure progress on alignment forecasting, we introduce ALIGNMENTFORECASTBENCH, a benchmark of over 5,000 forecasting questions spanning 17 target models, 32 datasets, and 16 failure modes. Frontier models prompted directly perform poorly on ALIGNMENTFORECASTBENCH. We therefore propose a forecasting scaffold in which an LLM reads the dataset and rates how strongly and broadly it pushes the model toward misbehavior, and a simple learned model combines that rating with the failure mode's base rate and the target model's prior tendency. This forecasts well above chance, and beats a model fine-tuned on the task and a simple forecaster allowed to see how weaker models behaved after fine-tuning on the same data. Its signals also flag problematic training examples that a frontier-model classifier misses. Filtering those examples out from real post-training data such as UltraChat results in more aligned models on our multiple-choice evaluation in most cases, though the benefit in open-ended conversations is unclear. More progress is needed before forecasts can reliably guide training data curation in practice, but our results suggest that forecasting many alignment failures before training can be tractable in the SFT setting.",
+      "pub_date": "Wed, 30 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "对齐预测：从训练数据预测模型失准",
+        "summary": "论文提出\"对齐预测\"任务，在微调前预测数据集是否会导致模型出现欺骗、谄媚等失准行为，并发布包含5000多个问题、17个模型、32个数据集和16种失准模式的ALIGNMENTFORECASTBENCH基准。作者提出的预测框架显著优于随机水平，并能标记前沿模型分类器遗漏的问题样本。",
+        "summary_en": "The paper introduces Alignment Forecasting: predicting alignment failures before training. Given a target model, fine-tuning dataset, and failure mode, a forecaster outputs the probability that fine-tuning increases that failure. They release ALIGNMENTFORECASTBENCH with 5,000+ questions across 17 models, 32 datasets, and 16 failure modes. Their forecasting scaffold beats chance, a fine-tuned model, and a baseline seeing weaker models' post-fine-tuning behavior, and flags problematic examples missed by frontier classifiers.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-30-rss-002",
+        "title": "对齐预测：从训练数据预测模型失准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.35805",
+        "language": "en",
+        "summary": "论文提出\"对齐预测\"任务，在微调前预测数据集是否会导致模型出现欺骗、谄媚等失准行为，并发布包含5000多个问题、17个模型、32个数据集和16种失准模式的ALIGNMENTFORECASTBENCH基准。作者提出的预测框架显著优于随机水平，并能标记前沿模型分类器遗漏的问题样本。",
+        "summary_en": "The paper introduces Alignment Forecasting: predicting alignment failures before training. Given a target model, fine-tuning dataset, and failure mode, a forecaster outputs the probability that fine-tuning increases that failure. They release ALIGNMENTFORECASTBENCH with 5,000+ questions across 17 models, 32 datasets, and 16 failure modes. Their forecasting scaffold beats chance, a fine-tuned model, and a baseline seeing weaker models' post-fine-tuning behavior, and flags problematic examples missed by frontier classifiers.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-30T22:36:05.223624+08:00",
+        "updated_at": "2026-09-30T22:36:05.223626+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

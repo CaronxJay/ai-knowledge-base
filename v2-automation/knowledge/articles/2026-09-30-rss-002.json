@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-30-rss-002",
+  "title": "对齐预测：从训练数据预测模型失准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.35805",
+  "language": "en",
+  "summary": "论文提出\"对齐预测\"任务，在微调前预测数据集是否会导致模型出现欺骗、谄媚等失准行为，并发布包含5000多个问题、17个模型、32个数据集和16种失准模式的ALIGNMENTFORECASTBENCH基准。作者提出的预测框架显著优于随机水平，并能标记前沿模型分类器遗漏的问题样本。",
+  "summary_en": "The paper introduces Alignment Forecasting: predicting alignment failures before training. Given a target model, fine-tuning dataset, and failure mode, a forecaster outputs the probability that fine-tuning increases that failure. They release ALIGNMENTFORECASTBENCH with 5,000+ questions across 17 models, 32 datasets, and 16 failure modes. Their forecasting scaffold beats chance, a fine-tuned model, and a baseline seeing weaker models' post-fine-tuning behavior, and flags problematic examples missed by frontier classifiers.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "fine-tuning",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-30T22:36:05.223624+08:00",
+  "updated_at": "2026-09-30T22:36:05.223626+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

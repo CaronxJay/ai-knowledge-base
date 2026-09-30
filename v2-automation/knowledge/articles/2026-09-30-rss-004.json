@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-30-rss-004",
+  "title": "Token边界的代价：压缩证书与预测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.35869",
+  "language": "en",
+  "summary": "研究量化了预分词边界对压缩成本的影响：在英文维基百科上，边界使最优token数增加28.3%-36.8%。压缩与预测偏好不同词典，无限制拟合在12种语言中均获得更低的每字节比特数。提出边界许可证机制，许可10%词表预算即可恢复大部分token数缩减。",
+  "summary_en": "This paper quantifies the compression cost of pre-tokenisation boundaries, showing boundaries increase optimal token count by 28.3-36.8% on English Wikipedia. Compression and prediction favor different dictionaries; unrestricted fitting yields lower held-out bits per byte across 12 languages. Boundary licences are introduced, where licensing 10% of vocabulary budget recovers most token-count reduction.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-09-30T22:36:05.223635+08:00",
+  "updated_at": "2026-09-30T22:36:05.223636+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

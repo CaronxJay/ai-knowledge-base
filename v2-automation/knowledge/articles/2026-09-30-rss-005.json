@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-30-rss-005",
+  "title": "FD-VAD：流式全双工语音的语义端点检测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.35791",
+  "language": "en",
+  "summary": "FD-VAD提出一种无需ASR的流式语义端点检测方法，将因果音频窗口直接映射为Continue/Stop决策，结合冻结语音编码器、模态适配器和参数高效微调的语言模型，在TurnBench上取得0.853的EOT召回率。",
+  "summary_en": "FD-VAD introduces an ASR-free streaming semantic endpoint detector that maps causal audio windows directly to Continue/Stop decisions, combining a frozen speech encoder, modality adapter, and parameter-efficiently adapted language model, achieving 0.853 EOT recall on TurnBench.",
+  "tags": [
+    "llm",
+    "multimodal",
+    "research",
+    "evaluation",
+    "application"
+  ],
+  "category": "multimodal",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-09-30T22:36:05.223639+08:00",
+  "updated_at": "2026-09-30T22:36:05.223640+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

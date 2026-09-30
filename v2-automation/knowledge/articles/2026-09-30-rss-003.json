@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-30-rss-003",
+  "title": "面向资源受限边缘设备的神经符号路由可靠推理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.35833",
+  "language": "en",
+  "summary": "提出神经符号路由器，用L*算法学习DFA将查询分派给最便宜的求解器：结构化任务交给确定性引擎，开放式问题留给小语言模型。在树莓派4B上，路由准确率100%，总体准确率98.3%，远超Program-of-Thought的72.0%，且速度快8.8倍、能效高2.8倍。",
+  "summary_en": "Presents a neurosymbolic router that learns a DFA via the L* algorithm to dispatch queries to the cheapest correct solver, sending structured tasks to deterministic engines and reserving the SLM for open-ended word problems. On a Raspberry Pi 4B, it achieves 100% routing accuracy and 98.3% overall accuracy, versus 72.0% for Program-of-Thought, while running 8.8x faster and 2.8x more energy-efficient.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "evaluation",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-30T22:36:05.223630+08:00",
+  "updated_at": "2026-09-30T22:36:05.223631+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
