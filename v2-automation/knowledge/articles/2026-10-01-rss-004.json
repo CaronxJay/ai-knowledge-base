@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-01-rss-004",
+  "title": "AI智能体易受极端化影响研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.38296",
+  "language": "en",
+  "summary": "研究模拟两个LLM智能体对话，发现影响者智能体可通过共鸣（强化既有信念）和说服（推广新信念）使目标智能体信念极端化，其中共鸣效果更强，且会传播至相关信念，揭示个性化AI智能体与多智能体生态的脆弱性。",
+  "summary_en": "This study simulates conversations between two LLM agents, finding that an influencer agent can radicalize a target agent's beliefs via resonance (reinforcing existing beliefs) and persuasion (promoting new ones), with resonance being consistently stronger and propagating to related beliefs, raising concerns about personalized and multi-agent AI ecosystems.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "agent-framework",
+    "evaluation"
+  ],
+  "category": "security",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-01T23:04:39.306283+08:00",
+  "updated_at": "2026-10-01T23:04:39.306284+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-01-rss-005",
+  "title": "TomasuLLM：面向LLM智能体的乱序推测执行运行时",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.38201",
+  "language": "en",
+  "summary": "TomasuLLM 提出一种乱序执行智能体工具调用的运行时，通过推测未来动作、在写时复制沙箱中隔离运行、追踪依赖与副作用，并按轨迹顺序验证提交，从而在保证正确性的前提下加速长耗时工具调用。在 SWE-bench Verified 上提速 1.31 倍，Terminal-Bench 2.0 上 1.35 倍，SWE-Marathon 上 1.27 倍，且 4,010 条审计记录零误接受。",
+  "summary_en": "TomasuLLM is a runtime that executes agent tool calls out of trajectory order while preserving correctness. It drafts future actions, runs them in isolated copy-on-write sandboxes, traces dependencies and effects, and commits results in trajectory order only after validation against committed state. It achieves 1.31x on SWE-bench Verified, 1.35x on Terminal-Bench 2.0, and 1.27x on SWE-Marathon, with zero false accepts across 4,010 audited commit-validation records.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "infrastructure",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-01T23:04:39.306287+08:00",
+  "updated_at": "2026-10-01T23:04:39.306289+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

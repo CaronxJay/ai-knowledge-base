@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-01-rss-006",
+  "title": "通过门控与衰减的在线策略蒸馏提升OCR忠实度",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.38282",
+  "language": "en",
+  "summary": "该研究提出GAD-RL方法，通过根据学生模型当前任务表现和局部分布自适应调节教师监督强度，解决视觉语言模型在OCR中改写异常文本导致忠实度下降的问题。在Qwen3.5-2B上，CHAOS-Bench微召回率达59.92%，超越GRPO和固定权重GRPO+OPD，OmniDocBench v1.6总分91.18。",
+  "summary_en": "This paper introduces GAD-RL, which adaptively regulates teacher supervision during joint post-training based on the student's current task performance and local distributions, addressing faithfulness loss when vision-language models rewrite anomalous text in OCR. On Qwen3.5-2B, it achieves 59.92% Micro Recall on CHAOS-Bench, surpassing GRPO and fixed-weight GRPO+OPD, with an Overall score of 91.18 on OmniDocBench v1.6.",
+  "tags": [
+    "llm",
+    "multimodal",
+    "fine-tuning",
+    "research",
+    "evaluation"
+  ],
+  "category": "multimodal",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-01T23:04:39.306292+08:00",
+  "updated_at": "2026-10-01T23:04:39.306294+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

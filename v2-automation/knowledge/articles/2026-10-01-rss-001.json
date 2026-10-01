@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-01-rss-001",
+  "title": "系统提示词的幻觉：指令前导如何改变语言模型中的计算",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.38205",
+  "language": "en",
+  "summary": "研究通过CKA分析17个指令微调模型发现，系统提示词对模型内部表征的影响具有层选择性和指令类型依赖性：人格与格式指令深度重构中间表征，而安全指令几乎不改变计算路径，安全渗透率在70B-72B模型上仍低于10%，从机制上解释了基于系统提示词的安全防护为何容易被越狱。",
+  "summary_en": "Using CKA across 17 instruction-tuned models, this study shows system prompts modify transformer computation in a layer-selective, instruction-type-dependent way: persona and formatting instructions deeply restructure representations, while safety instructions barely alter them, with safety penetration below 10% even at 70B-72B, mechanistically explaining persistent jailbreak vulnerability.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "prompt-engineering",
+    "evaluation"
+  ],
+  "category": "security",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-10-01T23:04:39.306264+08:00",
+  "updated_at": "2026-10-01T23:04:39.306269+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

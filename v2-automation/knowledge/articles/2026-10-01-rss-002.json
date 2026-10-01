@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-01-rss-002",
+  "title": "AREX-2：通过长时程反思任务提升自改进智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.38288",
+  "language": "en",
+  "summary": "AREX-2 提出通过长时程反思任务提升 LLM 智能体的自改进能力，即测试时迭代优化解的能力。研究从机器学习与算法编程任务合成长时程改进轨迹进行训练，在 MLE-bench Lite、Frontier-CS、BrowseComp、HLE、GAIA 等基准上取得显著成果，且随迭代轮次增加持续提升。",
+  "summary_en": "AREX-2 advances self-improving LLM agents—the ability to iteratively refine solutions at test time—via reflection and long-horizon execution. Training on synthesized improvement trajectories from ML and algorithmic programming tasks, the Qwen3.8-27B-based agent scores 81.8 on MLE-bench Lite, 70.7 on Frontier-CS, and transfers to deep research (84.0 BrowseComp, 52.6 HLE, 92.2 GAIA, 93.8 DeepSearchQA), improving with more rounds.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-01T23:04:39.306273+08:00",
+  "updated_at": "2026-10-01T23:04:39.306275+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

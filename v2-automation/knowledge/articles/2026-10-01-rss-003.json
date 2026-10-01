@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-01-rss-003",
+  "title": "MoFlow：多目标智能体工作流生成",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.38294",
+  "language": "en",
+  "summary": "MoFlow 将智能体工作流生成建模为多目标马尔可夫决策过程，利用凸包蒙特卡洛树搜索与乐观集合值回传，使单次搜索即可近似覆盖帕累托前沿，从而无需重训练即可按任意偏好返回工作流。在六个基准上取得最高平均超体积。",
+  "summary_en": "MoFlow formulates agentic workflow generation as a multi-objective Markov decision process, solved via Convex-Hull Monte Carlo Tree Search with optimistic set-valued backups. Each node stores a set of reachable trade-offs instead of a single weighted score, so one search approximately covers the Pareto front and can return a workflow for any preference without retraining. It achieves the highest average hypervolume across six benchmarks.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "llm",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-01T23:04:39.306278+08:00",
+  "updated_at": "2026-10-01T23:04:39.306280+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-01-rss-009",
+  "title": "基于ASR对齐与停顿建模的运动神经元病患者言语流畅性指数自动评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.38203",
+  "language": "en",
+  "summary": "本研究提出一种自动估计言语流畅性指数（VFI）的系统，结合WhisperX语音识别、Silero语音活动检测与精细时间戳，在运动神经元疾病（MND）数据集上预测VFI并提取临床可解释指标。该方法优于传统声学特征和自监督嵌入，最佳模型P-words R2达0.9、NRMSE 0.05，S-words R2达0.8、NRMSE 0.08，验证了自动化VFI评估的可行性。",
+  "summary_en": "This study proposes a system for estimating the Verbal Fluency Index (VFI) in motor neuron disease (MND) patients, combining WhisperX ASR, Silero VAD, and refined timestamping to predict VFI and extract clinically interpretable measures. It outperformed traditional acoustic features and self-supervised embeddings, with best models achieving P-words R2 0.9, NRMSE 0.05 and S-words R2 0.8, NRMSE 0.08, demonstrating the feasibility of automated VFI estimation.",
+  "tags": [
+    "research",
+    "application",
+    "llm",
+    "evaluation"
+  ],
+  "category": "application",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-10-01T23:04:39.306310+08:00",
+  "updated_at": "2026-10-01T23:04:39.306312+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

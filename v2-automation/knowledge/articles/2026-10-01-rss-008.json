@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-01-rss-008",
+  "title": "大语言模型是近似生存估计器",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.38181",
+  "language": "en",
+  "summary": "研究提出Survprompt框架，将结构化患者协变量转为临床文本提示，零样本评估LLM生存预测能力。在MSK-CHORD和Providence两个泛癌队列中，前沿LLM的删失平均绝对误差接近专门训练的随机生存森林模型，部分癌种甚至更优，且特征重要性排序与专业模型相似。但LLM在不同癌种和机构间表现不稳定，风险分层区分度（c-index）较低，临床使用仍受限。",
+  "summary_en": "This study introduces Survprompt, a framework converting structured patient covariates into free-text clinical vignettes to prompt pre-trained LLMs for zero-shot survival prediction. Benchmarked against random survival forests across two pan-cancer cohorts (MSK-CHORD and Providence St. Joseph), frontier LLMs achieved censored mean absolute error within 10% of specialized models for several cancers and even outperformed RSF for prostate cancer. Feature ablations showed LLMs prioritized clinical variables similarly to specialized models. However, LLMs showed inconsistent accuracy across cancer types and institutions and poor risk discrimination (lower c-index), limiting clinical use.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "application",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-01T23:04:39.306306+08:00",
+  "updated_at": "2026-10-01T23:04:39.306307+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-01-rss-007",
+  "title": "CARAT：材料大模型是在推理还是背诵？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.38340",
+  "language": "en",
+  "summary": "CARAT通过八种匹配视图固定问题与金标准答案，检验材料LLM是否真正基于结构推理。研究发现GraphSpace的优势主要源于基线缺失信息，而非证据呈现方式；模型常重复关系却未真正使用，经匹配监督后可学会正确推理。",
+  "summary_en": "CARAT holds question and gold answer fixed across eight matched views to test whether materials LLMs reason from structure or recite answers. It finds GraphSpace's advantage largely reflects baseline gaps rather than evidence presentation; models often repeat relations without using them, but matched supervision makes both steps learnable.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation",
+    "multimodal"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-01T23:04:39.306300+08:00",
+  "updated_at": "2026-10-01T23:04:39.306302+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
