@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-02-rss-001",
+  "title": "长程语言智能体中的重尾记忆痕迹",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.00010",
+  "language": "en",
+  "summary": "论文指出智能体记忆评估缺失了记忆使用形态这一维度，在有限上下文与重复检索下记忆会集中于核心而留下长尾。作者提出基于排名的记忆控制器CTWM，用单一指数τ分配提示预算并保留摘要尾部，在多个基准上减少token并降低尾部预测误差。",
+  "summary_en": "This paper argues that agent memory evaluation misses the shape of memory use: under finite context and repeated retrieval, memory concentrates on a core while rare states form a long tail where errors accumulate. The authors propose Core-Tail World Model (CTWM), a rank-based memory controller allocating prompt budget with a single exponent τ while retaining a summarized tail, reducing prompt tokens and tail prediction error across benchmarks.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "evaluation",
+    "rag"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-02T22:26:09.701909+08:00",
+  "updated_at": "2026-10-02T22:26:09.701913+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

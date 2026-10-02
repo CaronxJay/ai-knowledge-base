@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-02-rss-010",
+  "title": "TutlAit v1：带阿拉伯语转写和地区口音标签的摩洛哥塔马齐格特语众包语音数据集",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.38219",
+  "language": "en",
+  "summary": "TutlAit是摩洛哥塔马齐格特语语音数据集，配有现代标准阿拉伯语文本和地区口音标签。通过React/Django众包平台收集，含13,384个音频文件，共约20.9小时（3.01GB），涵盖Atlas、Souss等地区变体，可用于语音识别、语音翻译和口音识别。",
+  "summary_en": "TutlAit is a Moroccan Tamazight speech dataset paired with Modern Standard Arabic text and regional accent labels. Collected via a React/Django crowdsourcing platform, it contains 13,384 audio files totaling ~20.9 hours (3.01GB), covering Atlas, Souss and other varieties, usable for speech recognition, speech translation and accent identification.",
+  "tags": [
+    "research",
+    "benchmark",
+    "multimodal",
+    "open-source",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-10-02T22:26:09.701955+08:00",
+  "updated_at": "2026-10-02T22:26:09.701956+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

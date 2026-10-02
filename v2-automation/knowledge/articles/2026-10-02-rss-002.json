@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-02-rss-002",
+  "title": "因果世界模型何时有助于模块化LLM智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.00012",
+  "language": "en",
+  "summary": "本文提出FedCausalCompose框架，研究因果世界模型在模块化LLM智能体中的作用。发现观测式世界模型在存在未阻断后门路径时会产生不可约的干预误差，而因果接口在结构化工具环境中效果显著，但在对话和叙事环境中需要注意力锚点才能使因果信息影响决策。",
+  "summary_en": "This paper introduces FedCausalCompose, a causal world-model framework for modular LLM agents. It shows observational world models incur irreducible interventional error under unblocked back-door paths, and that causal interfaces help most in structured tool environments, while dialogue and narrative settings require attention anchors to make causal information decision-relevant.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-02T22:26:09.701917+08:00",
+  "updated_at": "2026-10-02T22:26:09.701919+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

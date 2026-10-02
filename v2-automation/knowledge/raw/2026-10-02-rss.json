@@ -1,0 +1,493 @@
+{
+  "collected_at": "2026-10-02T22:26:09.702757+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
+      "url": "https://arxiv.org/abs/2610.00010",
+      "description": "arXiv:2610.00010v1 Announce Type: new \nAbstract: Long-horizon language agents increasingly rely on external memory as a frozen world model, yet current memory systems are usually judged only by task success or token cost. We argue that the missing object is the shape of memory use: under finite context and repeated retrieval, agent memory can concentrate on a small core while leaving rare states in a long tail where prediction errors accumulate. We study this effect through a conservative tail audit and find that concentration is reproducible but policy-dependent. Random-walk agents produce log-normal-compatible retrieval artifacts, whereas semantic LLM policies yield the strongest truncated-power-law-compatible core--tail traces. Motivated by this audit, we propose Core--Tail World Model (CTWM), a rank-based memory controller that allocates prompt budget with a single exponent $\\tau$ while retaining a summarized tail. On Synthetic Graph World, CTWM preserves full state and transition coverage, reduces prompt tokens by 5.9%, and lowers bottom-half tail prediction error by 13.6% relative to a graph-memory baseline. The same paired comparison gives consistent token savings on ALFWorld and a 24.48% token reduction on LongMemEval with aggregate accuracy parity. These results suggest that heavy-tailed memory traces are not only a diagnostic of finite retrieval, but also a practical control signal for token-efficient agent world models.",
+      "pub_date": "Fri, 02 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "长程语言智能体中的重尾记忆痕迹",
+        "summary": "论文指出智能体记忆评估缺失了记忆使用形态这一维度，在有限上下文与重复检索下记忆会集中于核心而留下长尾。作者提出基于排名的记忆控制器CTWM，用单一指数τ分配提示预算并保留摘要尾部，在多个基准上减少token并降低尾部预测误差。",
+        "summary_en": "This paper argues that agent memory evaluation misses the shape of memory use: under finite context and repeated retrieval, memory concentrates on a core while rare states form a long tail where errors accumulate. The authors propose Core-Tail World Model (CTWM), a rank-based memory controller allocating prompt budget with a single exponent τ while retaining a summarized tail, reducing prompt tokens and tail prediction error across benchmarks.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "evaluation",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-02-rss-001",
+        "title": "长程语言智能体中的重尾记忆痕迹",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.00010",
+        "language": "en",
+        "summary": "论文指出智能体记忆评估缺失了记忆使用形态这一维度，在有限上下文与重复检索下记忆会集中于核心而留下长尾。作者提出基于排名的记忆控制器CTWM，用单一指数τ分配提示预算并保留摘要尾部，在多个基准上减少token并降低尾部预测误差。",
+        "summary_en": "This paper argues that agent memory evaluation misses the shape of memory use: under finite context and repeated retrieval, memory concentrates on a core while rare states form a long tail where errors accumulate. The authors propose Core-Tail World Model (CTWM), a rank-based memory controller allocating prompt budget with a single exponent τ while retaining a summarized tail, reducing prompt tokens and tail prediction error across benchmarks.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "evaluation",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-02T22:26:09.701909+08:00",
+        "updated_at": "2026-10-02T22:26:09.701913+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When Do Causal World Models Help Modular LLM Agents",
+      "url": "https://arxiv.org/abs/2610.00012",
+      "description": "arXiv:2610.00012v1 Announce Type: new \nAbstract: LLM agents increasingly act through modular systems, such as order, payment, inventory, and shipment services, where actions in one module change which transitions are valid in another. Standard world models usually fit observational traces, but this is not the quantity needed for intervention-time planning: a trace may show that payment precedes shipment without identifying whether payment authorizes shipment, inventory mediates the effect, or a hidden trigger explains both. We study this gap through FedCausalCompose, a causal world-model framework for modular LLM agents in which local actions provide intervention-response evidence for cross-module interfaces. We first show that observational world models incur an irreducible interventional error under unblocked back-door paths, that interface recovery improves with intervention-response coverage, and that an oracle causal composition can beat the non-causal lower bound when coverage and local mechanism errors are controlled. We then test the resulting prediction in diagnostic agent settings. Causal interfaces help most in structured tool environments, where API signatures expose preconditions and downstream effects. In contrast, dialogue and narrative environments often ignore raw edge lists unless a short attention anchor makes the causal information decision-relevant. These results identify a concrete condition for causal world models in LLM agents: causal structure helps when cross-module interfaces are both statistically identifiable and presented in a form the agent can use at action time.",
+      "pub_date": "Fri, 02 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "因果世界模型何时有助于模块化LLM智能体",
+        "summary": "本文提出FedCausalCompose框架，研究因果世界模型在模块化LLM智能体中的作用。发现观测式世界模型在存在未阻断后门路径时会产生不可约的干预误差，而因果接口在结构化工具环境中效果显著，但在对话和叙事环境中需要注意力锚点才能使因果信息影响决策。",
+        "summary_en": "This paper introduces FedCausalCompose, a causal world-model framework for modular LLM agents. It shows observational world models incur irreducible interventional error under unblocked back-door paths, and that causal interfaces help most in structured tool environments, while dialogue and narrative settings require attention anchors to make causal information decision-relevant.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-02-rss-002",
+        "title": "因果世界模型何时有助于模块化LLM智能体",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.00012",
+        "language": "en",
+        "summary": "本文提出FedCausalCompose框架，研究因果世界模型在模块化LLM智能体中的作用。发现观测式世界模型在存在未阻断后门路径时会产生不可约的干预误差，而因果接口在结构化工具环境中效果显著，但在对话和叙事环境中需要注意力锚点才能使因果信息影响决策。",
+        "summary_en": "This paper introduces FedCausalCompose, a causal world-model framework for modular LLM agents. It shows observational world models incur irreducible interventional error under unblocked back-door paths, and that causal interfaces help most in structured tool environments, while dialogue and narrative settings require attention anchors to make causal information decision-relevant.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-02T22:26:09.701917+08:00",
+        "updated_at": "2026-10-02T22:26:09.701919+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution",
+      "url": "https://arxiv.org/abs/2610.00015",
+      "description": "arXiv:2610.00015v1 Announce Type: new \nAbstract: Large-language-model agents can propose and execute actions, but proposal, authority, dispatch, verified external effect, and serving promotion are different claims. We present Praxa, an agent harness that represents these states explicitly through deterministic admission, brokered execution, external read-back, reconciliation, and reviewed promotion. We report four evidence lanes. First, an author-run repository-local audit at a pinned revision passed 1,027/1,027 unit tests and 89/89 Workerd tests, instrumented all 363 expected source files, and met four coverage floors; raw per-test transcripts and independent reproduction are unavailable. Second, in a provider-backed Terminal-Bench Core 0.1.1 pilot across 12 curated tasks, baseline and reliability-layer arms each passed 17/36 strict trials. The reliability layer used 37.49% more input and 50.73% more output tokens, so the pilot does not support superiority. Third, in a post-debug, two-order coordination-proxy development comparison, baseline and a source-authored candidate each completed 180/180 trials with equal measured accuracy, full hermetic crash recovery, and zero protected violations. The candidate used 37.11% fewer tokens, 33.84% lower estimated endpoint cost, and 11.63% fewer steps; this does not establish improved quality, latency, or production behavior. Fourth, deployed source/configuration evidence shows bounded reflection, recall accounting, memory compilation, and tool-health paths, but no production outcome lift. Praxa's supported contribution is an evidence-bound architecture that makes authority-to-effect transitions explicit and testable. Current evidence does not establish adversarial security, production safety, general specialist superiority, autonomous recursive optimization, or user benefit.",
+      "pub_date": "Fri, 02 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Praxa：面向受治理AI智能体执行的证据约束框架",
+        "summary": "Praxa是一个智能体执行框架，通过确定性准入、代理执行、外部回读、对账与审核晋升，显式区分提案、授权、派发与已验证效果。论文报告四条证据线，但未证明其优于基线，核心贡献是使授权到效果的转换可测试。",
+        "summary_en": "Praxa is an agent harness that makes authority-to-effect transitions explicit and testable via deterministic admission, brokered execution, external read-back, reconciliation, and reviewed promotion. Four evidence lanes show no superiority over baselines; its supported contribution is an evidence-bound architecture.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "evaluation",
+          "research",
+          "security"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-02-rss-003",
+        "title": "Praxa：面向受治理AI智能体执行的证据约束框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.00015",
+        "language": "en",
+        "summary": "Praxa是一个智能体执行框架，通过确定性准入、代理执行、外部回读、对账与审核晋升，显式区分提案、授权、派发与已验证效果。论文报告四条证据线，但未证明其优于基线，核心贡献是使授权到效果的转换可测试。",
+        "summary_en": "Praxa is an agent harness that makes authority-to-effect transitions explicit and testable via deterministic admission, brokered execution, external read-back, reconciliation, and reviewed promotion. Four evidence lanes show no superiority over baselines; its supported contribution is an evidence-bound architecture.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "evaluation",
+          "research",
+          "security"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-02T22:26:09.701923+08:00",
+        "updated_at": "2026-10-02T22:26:09.701924+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "What Do Rationales Communicate? A Message-Intervention Study in Role-Specialized QA",
+      "url": "https://arxiv.org/abs/2610.00018",
+      "description": "arXiv:2610.00018v1 Announce Type: new \nAbstract: Role-specialized QA pipelines increasingly pass rationales from a reasoner to a verifier, but it is unclear what this message actually buys: better answers, stronger support assessment, or a new failure surface. We introduce a message-intervention diagnostic that fixes the evidence and candidate answer while varying only the rationale passed across the reasoner-to-verifier boundary. On 400 MuSiQue, HotpotQA, and 2WikiMultiHopQA examples with DeepSeek as generator and verifier, faithful rationales add almost no answer accuracy over no rationale, while corrupted rationales strongly alter support judgments. Under a blind verifier prompt, harmless paraphrases shift support by only 0--2.5%, whereas corrupted rationales shift support by 10--22%; an explicit rationale-checking prompt amplifies the same pattern to 34--55%. Final answers move less (2--30%), and only 2.9--35.3% of corrupted support flips co-occur with answer changes. Human audits show why this matters: 16/42 valid corruptions are corruption-overtrust cases, and blind humans reject or mark unclear 9/10 audited corrupted rationales that the model accepts. Cross-model and task-boundary checks show when the channel is active, amplified, inert, or folded into the task label. Rationale sharing should be evaluated as a verification-message mechanism, not merely as a route to higher answer accuracy.",
+      "pub_date": "Fri, 02 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "理性理由传递了什么？角色专用问答中的消息干预研究",
+        "summary": "研究通过消息干预诊断发现，在推理者到验证者的角色专用QA流程中，忠实理由几乎不提升答案准确率，但被篡改的理由会显著改变支持判断（10-22%），显式检查提示下可达34-55%。人类审计显示模型会过度信任被篡改的理由。理由共享应被视为验证消息机制而非提升答案准确率的途径。",
+        "summary_en": "A message-intervention study on role-specialized QA pipelines finds that faithful rationales add almost no answer accuracy over no rationale, while corrupted rationales strongly shift support judgments (10-22%, up to 34-55% with explicit checking prompts). Human audits reveal corruption-overtrust cases. Rationale sharing should be evaluated as a verification-message mechanism, not merely a route to higher answer accuracy.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "agent-framework",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-02-rss-007",
+        "title": "理性理由传递了什么？角色专用问答中的消息干预研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.00018",
+        "language": "en",
+        "summary": "研究通过消息干预诊断发现，在推理者到验证者的角色专用QA流程中，忠实理由几乎不提升答案准确率，但被篡改的理由会显著改变支持判断（10-22%），显式检查提示下可达34-55%。人类审计显示模型会过度信任被篡改的理由。理由共享应被视为验证消息机制而非提升答案准确率的途径。",
+        "summary_en": "A message-intervention study on role-specialized QA pipelines finds that faithful rationales add almost no answer accuracy over no rationale, while corrupted rationales strongly shift support judgments (10-22%, up to 34-55% with explicit checking prompts). Human audits reveal corruption-overtrust cases. Rationale sharing should be evaluated as a verification-message mechanism, not merely a route to higher answer accuracy.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "agent-framework",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-02T22:26:09.701939+08:00",
+        "updated_at": "2026-10-02T22:26:09.701941+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Measuring the Microtask Eligibility Gap: When Is an Off-the-Shelf SLM Enough for an Agent Harness?",
+      "url": "https://arxiv.org/abs/2610.00025",
+      "description": "arXiv:2610.00025v1 Announce Type: new \nAbstract: Agent harnesses increasingly want to run small language models (SLMs) on the microtasks around a frontier large language model (LLM) planner: auto-approving shell commands, writing memory, selecting tools, ranking past turns. We ask whether off-the-shelf SLMs meet practitioner-defined thresholds and, when they fail, why, and whether quantization changes the answer. We build a benchmark of 4 such microtasks with fixed prompts and automatic metrics, each with a pre-specified threshold $\\tau$ anchored to a cheap non-LLM baseline and a CI-aware eligibility rule (a configuration passes only if its confidence bound clears $\\tau$). Sweeping Qwen3 0.6/1.7/4/8B at their best (FP16, greedy, one frozen prompt, no tuning), we find an eligibility gap: 0 of 16 (4 tasks $\\times$ 4 models) configurations pass (verified by checking the raw outputs and parser behavior). A logprob decision-threshold diagnostic (T1/T3/T4; T2 via a context-length/cascade probe) separates the failures into capability deficits and failures that can be addressed by changing the decoding threshold (4 regimes). Quantization to 4-bit (RTN/GPTQ/AWQ) does damage that depends on model size and moves no configuration into eligibility (certified on the reconstructable hard-label tasks T1/T3, diagnostic/windowed robustness on T2/T4), so the gap tracks model size more than precision; it replicates on Llama-3.x (12/12 ineligible) and is robust to the anchor choice (a $\\tau$-sweep) and to prompt wording (0/112 eligible across the original plus 3 neutral paraphrases per cell). The practical implication: place SLMs behind a baseline that meets the CI-backed threshold, and use the SLM only where the baseline fails to meet the threshold; e.g. a 4B re-ranker over a BM25 shortlist beats BM25 ($+0.047$ [0.020, 0.073], without itself certifying eligibility).",
+      "pub_date": "Fri, 02 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "微任务资格差距：现成SLM何时足以支撑Agent框架？",
+        "summary": "该研究构建了4个Agent微任务基准，测试Qwen3 0.6-8B等现成SLM能否达到预设阈值。结果显示16种配置全部不合格，量化到4位精度也无法改善，差距主要随模型规模而非精度变化。建议将SLM置于满足阈值的基线之后，仅在基线失败处使用。",
+        "summary_en": "This study builds a benchmark of 4 agent microtasks to test whether off-the-shelf SLMs (Qwen3 0.6-8B) meet practitioner-defined thresholds. All 16 configurations fail eligibility, and 4-bit quantization does not help; the gap tracks model size more than precision. It recommends placing SLMs behind a baseline that meets the CI-backed threshold and using them only where the baseline fails.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "agent-framework",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-02-rss-004",
+        "title": "微任务资格差距：现成SLM何时足以支撑Agent框架？",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.00025",
+        "language": "en",
+        "summary": "该研究构建了4个Agent微任务基准，测试Qwen3 0.6-8B等现成SLM能否达到预设阈值。结果显示16种配置全部不合格，量化到4位精度也无法改善，差距主要随模型规模而非精度变化。建议将SLM置于满足阈值的基线之后，仅在基线失败处使用。",
+        "summary_en": "This study builds a benchmark of 4 agent microtasks to test whether off-the-shelf SLMs (Qwen3 0.6-8B) meet practitioner-defined thresholds. All 16 configurations fail eligibility, and 4-bit quantization does not help; the gap tracks model size more than precision. It recommends placing SLMs behind a baseline that meets the CI-backed threshold and using them only where the baseline fails.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "agent-framework",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-02T22:26:09.701927+08:00",
+        "updated_at": "2026-10-02T22:26:09.701928+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Large Language Models are Approximate Survival Estimators",
+      "url": "https://arxiv.org/abs/2609.38181",
+      "description": "arXiv:2609.38181v1 Announce Type: new \nAbstract: Survival analysis estimates time-to-event outcomes from patient covariates and is widely used for medical risk assessment. Patients seeking prognostic information after a diagnosis may turn to large language models (LLMs), now readily accessible through consumer applications. However, whether LLMs can provide accurate survival predictions has not been rigorously evaluated. We introduce Survprompt, a framework that converts structured patient covariates into free-text clinical vignettes and prompts pre-trained LLMs to predict survival zero-shot. We benchmark Survprompt against conventional survival models, including random survival forests (RSF), across two multi-institutional pan-cancer cohorts: the publicly available MSK-CHORD cohort and a newly curated cohort from the Providence St. Joseph Health Network constructed using an LLM-based medical abstraction framework. We report censored mean absolute error (cMAE) and concordance index (c-index) and conduct feature ablations to identify variables influencing LLM predictions. Frontier LLMs achieved surprisingly competitive cMAE for individual survival times. For example, GPT-5.6-Sol achieved cMAE within 10% of state-of-the-art RSF models specifically trained for survival prediction for several cancer types and lower cMAE than RSF for prostate cancer in MSK-CHORD. Feature ablations revealed that LLMs prioritized clinical variables similarly to specialized survival models. However, LLMs showed inconsistent accuracy across cancer types and institutions and poorly discriminated between high- and low-risk patients (lower c-index). Zero-shot LLMs can generate surprisingly accurate prognostic estimates without specialized training, but their variable performance across cancer types and institutions remains an important limitation for clinical use.",
+      "pub_date": "Fri, 02 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "大语言模型是近似生存估计器",
+        "summary": "研究提出Survprompt框架，将结构化患者协变量转为临床文本提示，零样本让LLM预测生存时间。在MSK-CHORD和Providence两个泛癌队列上，前沿LLM的删失平均绝对误差接近专门训练的随机生存森林模型，部分癌种更优，但跨癌种和机构表现不稳定，风险区分能力（c-index）较弱。",
+        "summary_en": "The study introduces Survprompt, a framework converting structured patient covariates into free-text clinical vignettes to prompt pre-trained LLMs for zero-shot survival prediction. Benchmarked on two pan-cancer cohorts (MSK-CHORD and Providence St. Joseph), frontier LLMs achieved censored mean absolute error within 10% of state-of-the-art random survival forests for several cancers, but showed inconsistent accuracy across cancer types and institutions and poor risk discrimination (lower c-index).",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "application",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-02-rss-008",
+        "title": "大语言模型是近似生存估计器",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.38181",
+        "language": "en",
+        "summary": "研究提出Survprompt框架，将结构化患者协变量转为临床文本提示，零样本让LLM预测生存时间。在MSK-CHORD和Providence两个泛癌队列上，前沿LLM的删失平均绝对误差接近专门训练的随机生存森林模型，部分癌种更优，但跨癌种和机构表现不稳定，风险区分能力（c-index）较弱。",
+        "summary_en": "The study introduces Survprompt, a framework converting structured patient covariates into free-text clinical vignettes to prompt pre-trained LLMs for zero-shot survival prediction. Benchmarked on two pan-cancer cohorts (MSK-CHORD and Providence St. Joseph), frontier LLMs achieved censored mean absolute error within 10% of state-of-the-art random survival forests for several cancers, but showed inconsistent accuracy across cancer types and institutions and poor risk discrimination (lower c-index).",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "application",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-02T22:26:09.701947+08:00",
+        "updated_at": "2026-10-02T22:26:09.701948+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "TomasuLLM: Out-of-Order Speculative Execution for LLM Agents",
+      "url": "https://arxiv.org/abs/2609.38201",
+      "description": "arXiv:2609.38201v1 Announce Type: new \nAbstract: Long-running tools can dominate coding-agent latency: compilers, test suites, and repository commands take seconds to minutes while the agent idles. This observation stall presents the same tension that drove out-of-order processors -- asequential interface hides work that can be predicted and started early, but a speculative result may become visible only after it and every earlier step have been validated.\n  We present TomasuLLM, a runtime that executes agent tool calls out of trajectory order while preserving task-execution correctness. It drafts future actions, runs them in isolated copy-on-write sandboxes, traces their dependencies and effects, and commits results in trajectory order only after validation against committed state. Across three benchmarks spanning sub-second to minutes-long tool calls, TomasuLLM improves the reported benchmark means and scales with tool latency: 1.31x on 100 SWE-bench Verified tasks, 1.35x on 28 Terminal-Bench 2.0 tasks, and 1.27x matched progress on 18 SWE-Marathon sessions. Across 4,010 audited commit-validation records, it produces zero false accepts.",
+      "pub_date": "Fri, 02 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "TomasuLLM：面向LLM智能体的乱序推测执行运行时",
+        "summary": "TomasuLLM是一个智能体运行时，通过乱序推测执行工具调用，在隔离的写时复制沙箱中预运行未来动作并追踪依赖，验证后按轨迹顺序提交结果。在SWE-bench Verified、Terminal-Bench 2.0和SWE-Marathon上分别实现1.31x、1.35x和1.27x加速，且4010条审计记录中零误接受。",
+        "summary_en": "TomasuLLM is an agent runtime that executes tool calls out of trajectory order while preserving correctness. It drafts future actions, runs them in isolated copy-on-write sandboxes, traces dependencies, and commits results in trajectory order after validation. It achieves 1.31x on SWE-bench Verified, 1.35x on Terminal-Bench 2.0, and 1.27x on SWE-Marathon, with zero false accepts across 4,010 audited records.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "infrastructure",
+          "benchmark"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-02-rss-005",
+        "title": "TomasuLLM：面向LLM智能体的乱序推测执行运行时",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.38201",
+        "language": "en",
+        "summary": "TomasuLLM是一个智能体运行时，通过乱序推测执行工具调用，在隔离的写时复制沙箱中预运行未来动作并追踪依赖，验证后按轨迹顺序提交结果。在SWE-bench Verified、Terminal-Bench 2.0和SWE-Marathon上分别实现1.31x、1.35x和1.27x加速，且4010条审计记录中零误接受。",
+        "summary_en": "TomasuLLM is an agent runtime that executes tool calls out of trajectory order while preserving correctness. It drafts future actions, runs them in isolated copy-on-write sandboxes, traces dependencies, and commits results in trajectory order after validation. It achieves 1.31x on SWE-bench Verified, 1.35x on Terminal-Bench 2.0, and 1.27x on SWE-Marathon, with zero false accepts across 4,010 audited records.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "infrastructure",
+          "benchmark"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-02T22:26:09.701931+08:00",
+        "updated_at": "2026-10-02T22:26:09.701932+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Automatic estimation of verbal fluency index in people with Motor Neuron Disease using ASR alignment and pause modelling",
+      "url": "https://arxiv.org/abs/2609.38203",
+      "description": "arXiv:2609.38203v1 Announce Type: new \nAbstract: Monitoring cognitive impairment (CI) in motor neuron disease (MND) is essential for timely treatment and care, yet challenging due to co-occurring speech difficulties. The Edinburgh Cognitive and Behavioural ALS Screen (ECAS) provides a robust metric for CI assessment, with the Verbal Fluency Index (VFI) a central element. Building on recent advances in automated speech analysis, this study proposes a system for estimating VFI. It leverages a unique MND dataset and combines ASR (WhisperX) and VAD (Silero) with refined timestamping to predict the VFI and extract several clinically interpretable measures. Our approach outperformed systems based on traditional acoustic features and self-supervised embeddings, evaluated using multiple regression algorithms. Clinically inspired features consistently outperformed the other sets, with the best models achieving strong results (P-words: R2 0.9, NRMSE 0.05; S-words: R2 0.8, NRMSE 0.08), demonstrating the feasibility of automated VFI estimation.",
+      "pub_date": "Fri, 02 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于ASR对齐与停顿建模的运动神经元病患者言语流畅性指数自动评估",
+        "summary": "本研究提出一种自动估计言语流畅性指数（VFI）的系统，用于监测运动神经元病（MND）患者的认知障碍。系统结合WhisperX语音识别与Silero语音活动检测，并优化时间戳，在独特MND数据集上预测VFI并提取临床可解释指标，性能优于传统声学特征和自监督嵌入方法，最佳模型P-words R²达0.9。",
+        "summary_en": "This study proposes a system for automatically estimating the Verbal Fluency Index (VFI) to monitor cognitive impairment in people with Motor Neuron Disease (MND). Combining WhisperX ASR and Silero VAD with refined timestamping on a unique MND dataset, it predicts VFI and extracts clinically interpretable measures, outperforming traditional acoustic features and self-supervised embeddings, with best models achieving R² 0.9 for P-words.",
+        "tags": [
+          "research",
+          "application",
+          "llm",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-02-rss-009",
+        "title": "基于ASR对齐与停顿建模的运动神经元病患者言语流畅性指数自动评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.38203",
+        "language": "en",
+        "summary": "本研究提出一种自动估计言语流畅性指数（VFI）的系统，用于监测运动神经元病（MND）患者的认知障碍。系统结合WhisperX语音识别与Silero语音活动检测，并优化时间戳，在独特MND数据集上预测VFI并提取临床可解释指标，性能优于传统声学特征和自监督嵌入方法，最佳模型P-words R²达0.9。",
+        "summary_en": "This study proposes a system for automatically estimating the Verbal Fluency Index (VFI) to monitor cognitive impairment in people with Motor Neuron Disease (MND). Combining WhisperX ASR and Silero VAD with refined timestamping on a unique MND dataset, it predicts VFI and extracts clinically interpretable measures, outperforming traditional acoustic features and self-supervised embeddings, with best models achieving R² 0.9 for P-words.",
+        "tags": [
+          "research",
+          "application",
+          "llm",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-10-02T22:26:09.701951+08:00",
+        "updated_at": "2026-10-02T22:26:09.701952+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The System Prompt Illusion: How Instruction Preambles Modify Computation in Language Models",
+      "url": "https://arxiv.org/abs/2609.38205",
+      "description": "arXiv:2609.38205v1 Announce Type: new \nAbstract: System prompts are the primary lever practitioners use to control language model behavior, yet what they actually do to the computation inside the transformer remains poorly understood. Across 17 instruction-tuned models spanning 8 architecture families and 1.5B to 72B parameters, we use Centered Kernel Alignment (CKA) to compare layer-wise representations under 20 system prompts in five functional categories. Effects are layer-selective and instruction-type-dependent: persona and formatting instructions deeply restructure intermediate representations, while safety instructions barely move them, producing changes statistically indistinguishable from a minimal baseline. Restrictive safety instructions and explicitly permissive ones (\"you have no restrictions\") engage near-identical computational pathways (mean CKA correlation 0.997), and this persists at commercial scale, where safety penetration remains below 10% even at 70B-72B. A linear probing baseline exposes the mechanism: the model encodes prompt category at every layer but restructures its computation only at a small subset, so the prompt is reliably \"seen\" but, for safety, not deeply \"acted upon.\" Causal activation patching confirms these layers mediate behavioral change, and representational depth predicts behavioral effect size across the full 17-model cohort (Spearman rho = 0.761, p < 0.001). The findings provide a mechanistic explanation for the persistent jailbreak vulnerability of system-prompt-based safety. Code: https://github.com/Usama1002/system-prompt-illusion-cka",
+      "pub_date": "Fri, 02 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "系统提示词的幻觉：指令前导如何改变语言模型中的计算",
+        "summary": "研究通过CKA分析17个指令微调模型，发现系统提示词对模型内部表征的影响具有层选择性和指令类型依赖性。人设和格式指令会深度重构中间表征，而安全指令几乎不改变计算路径，安全渗透率低于10%，这为基于系统提示词的安全防护易被越狱提供了机制解释。",
+        "summary_en": "Across 17 instruction-tuned models, CKA analysis reveals system prompt effects are layer-selective and instruction-type-dependent: persona and formatting prompts deeply restructure representations, while safety prompts barely alter computation, engaging near-identical pathways to permissive ones. This mechanistically explains persistent jailbreak vulnerability of system-prompt-based safety.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-02-rss-006",
+        "title": "系统提示词的幻觉：指令前导如何改变语言模型中的计算",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.38205",
+        "language": "en",
+        "summary": "研究通过CKA分析17个指令微调模型，发现系统提示词对模型内部表征的影响具有层选择性和指令类型依赖性。人设和格式指令会深度重构中间表征，而安全指令几乎不改变计算路径，安全渗透率低于10%，这为基于系统提示词的安全防护易被越狱提供了机制解释。",
+        "summary_en": "Across 17 instruction-tuned models, CKA analysis reveals system prompt effects are layer-selective and instruction-type-dependent: persona and formatting prompts deeply restructure representations, while safety prompts barely alter computation, engaging near-identical pathways to permissive ones. This mechanistically explains persistent jailbreak vulnerability of system-prompt-based safety.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-02T22:26:09.701935+08:00",
+        "updated_at": "2026-10-02T22:26:09.701937+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "TutlAit v1: a crowdsourced Moroccan Tamazight speech dataset with Arabic transcriptions and regional accent labels",
+      "url": "https://arxiv.org/abs/2609.38219",
+      "description": "arXiv:2609.38219v1 Announce Type: new \nAbstract: Tamazight (Amazigh) is, together with Arabic, one of the two official languages of Morocco, yet it remains severely under-resourced for speech technology: pub licly available labelled audio is scarce, generally lacks information on the regional variety spoken, and is often of uneven transcription quality. This article describes the TutlAit dataset, a corpus of Moroccan Tamazight speech paired with Modern Standard Arabic text and explicit regional accent labels. The data were collected with TutlAit, a purpose-built crowdsourcing web application (React 18 front end, Django 5 / Django REST Framework back-end, PostgreSQL database). Native speakers recruited through targeted LinkedIn and Instagram campaigns created an account, declared their regional variety (Atlas, Souss, Rif or other) and demographic information, and then contributed through two workflows: Text-to Audio, in which an Arabic sentence is displayed and the volunteer records its oral Tamazight rendering in the browser, and Audio-to-Text, in which a Tamazight excerpt is played and the volunteer types its Arabic transcription. A complemen tary set of segments was obtained from freely accessible Tamazight audiovisual media, segmented and annotated with ELAN and imported through a bulk CSV/ZIP pipeline. Every upload is converted server-side to 16kHz mono WAV, hashed with SHA-256 for duplicate rejection, checked for duration bounds and validated by an administrator. The dataset contains 13,384 audio files totalling 75,231 seconds (approximately 20.9 hours, about 3.01GB). The Atlas variety accounts for 9,956 files (14.08h) and the Souss variety for 3,378 files (6.75h); small Rif (22 files) and Kabyle (28 files) subsets are also included. The corpus can be reused for speech recognition, speech translation and accent identification for Moroccan Tamazight.",
+      "pub_date": "Fri, 02 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "TutlAit v1：带阿拉伯语转写和地区口音标签的摩洛哥塔马齐格特语众包语音数据集",
+        "summary": "TutlAit是摩洛哥塔马齐格特语语音数据集，配有现代标准阿拉伯语文本和地区口音标签。通过React/Django众包平台收集，含13,384个音频文件，共约20.9小时（3.01GB），涵盖Atlas、Souss等地区变体，可用于语音识别、语音翻译和口音识别。",
+        "summary_en": "TutlAit is a Moroccan Tamazight speech dataset paired with Modern Standard Arabic text and regional accent labels. Collected via a React/Django crowdsourcing platform, it contains 13,384 audio files totaling ~20.9 hours (3.01GB), covering Atlas, Souss and other varieties, usable for speech recognition, speech translation and accent identification.",
+        "tags": [
+          "research",
+          "benchmark",
+          "multimodal",
+          "open-source",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-02-rss-010",
+        "title": "TutlAit v1：带阿拉伯语转写和地区口音标签的摩洛哥塔马齐格特语众包语音数据集",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.38219",
+        "language": "en",
+        "summary": "TutlAit是摩洛哥塔马齐格特语语音数据集，配有现代标准阿拉伯语文本和地区口音标签。通过React/Django众包平台收集，含13,384个音频文件，共约20.9小时（3.01GB），涵盖Atlas、Souss等地区变体，可用于语音识别、语音翻译和口音识别。",
+        "summary_en": "TutlAit is a Moroccan Tamazight speech dataset paired with Modern Standard Arabic text and regional accent labels. Collected via a React/Django crowdsourcing platform, it contains 13,384 audio files totaling ~20.9 hours (3.01GB), covering Atlas, Souss and other varieties, usable for speech recognition, speech translation and accent identification.",
+        "tags": [
+          "research",
+          "benchmark",
+          "multimodal",
+          "open-source",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-10-02T22:26:09.701955+08:00",
+        "updated_at": "2026-10-02T22:26:09.701956+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

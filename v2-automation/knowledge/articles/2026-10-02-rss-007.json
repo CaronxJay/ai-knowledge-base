@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-02-rss-007",
+  "title": "理性理由传递了什么？角色专用问答中的消息干预研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.00018",
+  "language": "en",
+  "summary": "研究通过消息干预诊断发现，在推理者到验证者的角色专用QA流程中，忠实理由几乎不提升答案准确率，但被篡改的理由会显著改变支持判断（10-22%），显式检查提示下可达34-55%。人类审计显示模型会过度信任被篡改的理由。理由共享应被视为验证消息机制而非提升答案准确率的途径。",
+  "summary_en": "A message-intervention study on role-specialized QA pipelines finds that faithful rationales add almost no answer accuracy over no rationale, while corrupted rationales strongly shift support judgments (10-22%, up to 34-55% with explicit checking prompts). Human audits reveal corruption-overtrust cases. Rationale sharing should be evaluated as a verification-message mechanism, not merely a route to higher answer accuracy.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "agent-framework",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-02T22:26:09.701939+08:00",
+  "updated_at": "2026-10-02T22:26:09.701941+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

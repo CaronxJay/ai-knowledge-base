@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-02-rss-004",
+  "title": "微任务资格差距：现成SLM何时足以支撑Agent框架？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.00025",
+  "language": "en",
+  "summary": "该研究构建了4个Agent微任务基准，测试Qwen3 0.6-8B等现成SLM能否达到预设阈值。结果显示16种配置全部不合格，量化到4位精度也无法改善，差距主要随模型规模而非精度变化。建议将SLM置于满足阈值的基线之后，仅在基线失败处使用。",
+  "summary_en": "This study builds a benchmark of 4 agent microtasks to test whether off-the-shelf SLMs (Qwen3 0.6-8B) meet practitioner-defined thresholds. All 16 configurations fail eligibility, and 4-bit quantization does not help; the gap tracks model size more than precision. It recommends placing SLMs behind a baseline that meets the CI-backed threshold and using them only where the baseline fails.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "agent-framework",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-02T22:26:09.701927+08:00",
+  "updated_at": "2026-10-02T22:26:09.701928+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

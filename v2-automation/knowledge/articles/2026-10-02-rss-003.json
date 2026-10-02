@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-02-rss-003",
+  "title": "Praxa：面向受治理AI智能体执行的证据约束框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.00015",
+  "language": "en",
+  "summary": "Praxa是一个智能体执行框架，通过确定性准入、代理执行、外部回读、对账与审核晋升，显式区分提案、授权、派发与已验证效果。论文报告四条证据线，但未证明其优于基线，核心贡献是使授权到效果的转换可测试。",
+  "summary_en": "Praxa is an agent harness that makes authority-to-effect transitions explicit and testable via deterministic admission, brokered execution, external read-back, reconciliation, and reviewed promotion. Four evidence lanes show no superiority over baselines; its supported contribution is an evidence-bound architecture.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "evaluation",
+    "research",
+    "security"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-02T22:26:09.701923+08:00",
+  "updated_at": "2026-10-02T22:26:09.701924+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
