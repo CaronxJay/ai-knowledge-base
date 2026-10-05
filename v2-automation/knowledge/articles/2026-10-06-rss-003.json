@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-06-rss-003",
+  "title": "找到走法不等于赢棋：XiangqiBench 面向 LLM Agent 的闭环评估基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.02425",
+  "language": "en",
+  "summary": "论文提出 XiangqiBench，一个可执行的中国象棋基准，从119个战术残局出发，要求 LLM Agent 在引擎防守下完成将死。基于12个前沿模型的8568条多轮轨迹，揭示三种看似胜任实则高估闭环成功的信号：转换差距、一致性差距与模拟差距，主张 Agent 评估应关注闭环结果与可靠性。",
+  "summary_en": "The paper introduces XiangqiBench, an executable Chinese chess benchmark where LLM agents must deliver checkmate against an engine defender starting from 119 tactical endgames. Using 8,568 multi-turn trajectories from 12 frontier LLMs, it reveals three signals that overstate closed-loop success: the Conversion Gap, Consistency Gap, and Simulation Gap, arguing agent evaluations should score closed-loop outcomes and report reliability alongside coverage.",
+  "tags": [
+    "benchmark",
+    "agent-framework",
+    "evaluation",
+    "llm",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-06T00:46:42.018035+08:00",
+  "updated_at": "2026-10-06T00:46:42.018038+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

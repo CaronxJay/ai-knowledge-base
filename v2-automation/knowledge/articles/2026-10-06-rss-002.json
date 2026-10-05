@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-06-rss-002",
+  "title": "行动前选择：长程工具使用智能体的比较价值估计",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.02330",
+  "language": "en",
+  "summary": "论文提出CITA方法，训练比较推理模型（CIM），在执行工具调用前估计其长程价值。CIM结合观测行为、贝叶斯工具图模拟器监督和LLM语义判断，在三个工具使用基准上提升了Tool F1和任务成功率。",
+  "summary_en": "The paper proposes CITA, which trains a Comparative Inference Model (CIM) to estimate the long-horizon value of a candidate tool invocation before executing it. CIM combines observed tool behavior, supervision from a Bayesian tool-graph simulator, and LLM-based semantic judgments, improving Tool F1 and task success across three tool-use benchmarks.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "tool",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-06T00:46:42.018027+08:00",
+  "updated_at": "2026-10-06T00:46:42.018030+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

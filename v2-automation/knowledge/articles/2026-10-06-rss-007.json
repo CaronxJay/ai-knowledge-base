@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-06-rss-007",
+  "title": "FinDialogLens：多方对话事件抽取识别金融聊天室遗漏交易",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.02455",
+  "language": "en",
+  "summary": "该研究将金融聊天室中遗漏交易识别建模为多方对话事件抽取任务，提出混合LLM流水线FinDialogLens，利用微调分类器作为推理脚手架，检测RFQ触发与价格/交易结果，并用难度感知路由器在规则引擎与LLM间分配请求，降低85%的LLM调用，每天节省超300美元。",
+  "summary_en": "This work casts missed-trade identification in financial chatrooms as event extraction over multi-party dialogue and presents FinDialogLens, a hybrid LLM pipeline where fine-tuned classifiers act as inference-time scaffolds to detect RFQ triggers and price/trade outcomes. A difficulty-aware router cuts LLM calls by 85% while saving over $300/day at scale.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "application",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-06T00:46:42.018064+08:00",
+  "updated_at": "2026-10-06T00:46:42.018066+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

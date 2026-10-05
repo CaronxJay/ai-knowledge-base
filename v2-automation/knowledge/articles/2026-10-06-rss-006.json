@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-06-rss-006",
+  "title": "CALM：文本到图像生成中全局不安全性的局限性分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.02300",
+  "language": "en",
+  "summary": "本文对文本到图像生成中\"全局不安全\"假设进行几何分析，揭示覆盖度与选择性的权衡：紧凑不安全子空间无法覆盖异构不安全语义，而宽泛聚合会扭曲安全相邻的良性提示。为此提出CALM，一种免训练防护方法，用提示局部反事实校正替代全局统一移除，在抑制不安全内容的同时保持良性效用。",
+  "summary_en": "This paper provides a controlled geometric analysis of the global-unsafety assumption in text-to-image safeguards, revealing a coverage-selectivity trade-off: compact unsafe subspaces fail to cover heterogeneous unsafe semantics, while broader aggregation distorts safety-adjacent benign prompts. It proposes CALM (Counterfactual Adaptive Local Modulation), a training-free safeguard that replaces uniform global removal with prompt-local counterfactual correction, improving unsafe content suppression while preserving benign utility.",
+  "tags": [
+    "security",
+    "multimodal",
+    "research",
+    "evaluation"
+  ],
+  "category": "security",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-06T00:46:42.018056+08:00",
+  "updated_at": "2026-10-06T00:46:42.018059+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

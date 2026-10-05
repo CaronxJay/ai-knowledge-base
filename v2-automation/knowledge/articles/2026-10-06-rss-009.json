@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-06-rss-009",
+  "title": "MintFlow：面向约束流匹配的最小轨迹干预方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.02260",
+  "language": "en",
+  "summary": "MintFlow 是一种无需训练的约束采样框架，将约束执行建模为对预训练流轨迹的最小干预。通过伴随公式得到闭式扰动解，避免迭代优化，并自适应选择干预时机，在满足约束的同时更好地保持预训练生成分布。",
+  "summary_en": "MintFlow is a training-free constrained sampling framework that formulates constraint enforcement as a minimal intervention on the pretrained flow trajectory. An adjoint formulation yields a closed-form perturbation, eliminating iterative optimization, and adaptive intervention timing balances perturbation magnitude against flow amplification. It achieves competitive constraint satisfaction while better preserving the pretrained generative distribution than state-of-the-art methods.",
+  "tags": [
+    "research",
+    "llm",
+    "application",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-10-06T00:46:42.018089+08:00",
+  "updated_at": "2026-10-06T00:46:42.018091+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

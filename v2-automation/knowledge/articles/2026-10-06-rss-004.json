@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-06-rss-004",
+  "title": "CUE：校准用户嵌入实现多轮交互基准测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.02460",
+  "language": "en",
+  "summary": "提出CUE框架，通过编码真实用户会话并采样连续表示，解码为角色指令来引导LLM模拟用户，无需训练。在τ²-Bench上，CUEd模拟器减少模拟器归因错误，更忠实复现真实用户的智能体失败模式与成功率，且可跨任务和不同LLM泛化。",
+  "summary_en": "Introduces Calibrated User Embeddings (CUE), a framework that encodes observed sessions and samples continuous representations, then decodes them into persona commands to steer LLMs as user simulators without training. On τ²-Bench, CUEd simulators commit fewer simulator-attributed errors and more faithfully reproduce real-user agent failure modes, success rates, and outcomes, generalizing across tasks and simulator LLMs.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "research",
+    "agent-framework"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-06T00:46:42.018042+08:00",
+  "updated_at": "2026-10-06T00:46:42.018045+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-06-rss-005",
+  "title": "通过逐定理符号验证器生成反例：模仿有害而强化修复",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.02444",
+  "language": "en",
+  "summary": "该研究将反例生成建模为针对确定性逐定理Python验证器的约束见证生成，发布SymCE语料库（4707个假猜想及可执行验证器），验证器同时作为奖励函数。实验发现仅用反例SFT会导致真定理识别率从0.27崩溃至0.00（模仿陷阱），而稀疏结果奖励的RLVR可修复并提升至0.66。4B模型超越所有7B开源数学专家模型，与六个前沿商业API竞争。",
+  "summary_en": "This work frames counterexample generation as constrained witness emission against deterministic per-theorem Python verifiers, releasing SymCE (4,707 false conjectures with executable verifiers) that doubles as a reward function. Counterexample-only SFT causes an imitation trap (true-theorem recognition collapses from 0.27 to 0.00), while sparse-reward RLVR repairs it to 0.66. The 4B model outperforms all evaluated 7B open-weights math specialists and rivals six frontier commercial APIs.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-06T00:46:42.018049+08:00",
+  "updated_at": "2026-10-06T00:46:42.018052+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

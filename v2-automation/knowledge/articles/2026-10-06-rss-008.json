@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-06-rss-008",
+  "title": "AI风险观测站：从年报AI披露中洞察社会韧性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.02281",
+  "language": "en",
+  "summary": "研究利用LLM对1362家英国上市公司9821份年报进行两阶段分类，发现AI风险披露从2020年的2.8%升至2025年的41.2%，但仅4.3%属实质性披露，且行业与市场板块差异显著。",
+  "summary_en": "Using LLMs to process 9,821 annual reports from 1,362 UK listed companies, this study finds AI risk disclosure rose from 2.8% in 2020 to 41.2% in 2025, yet only 4.3% is substantive, with large variation across sectors and market segments.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.75,
+  "status": "published",
+  "created_at": "2026-10-06T00:46:42.018071+08:00",
+  "updated_at": "2026-10-06T00:46:42.018074+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
