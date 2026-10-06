@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-06-github-013",
+  "title": "Deserializer：基于AST与LLM的Python反序列化漏洞静态分析工具",
+  "source": "github_trending",
+  "source_url": "https://github.com/JoshuaProvoste/Deserializer",
+  "language": "en",
+  "summary": "结合AST静态分析与Agentic LLM关系映射，发现Python RCE路径和深层反序列化链，面向AI、LLM、机器人及数据科学等场景的安全检测工具。",
+  "summary_en": "AST-based static code analyzer with agentic LLM-powered relationship mapping to discover Python RCE paths and deep deserialization chains, targeting AI, LLM, robotics, and data science security.",
+  "tags": [
+    "security",
+    "llm",
+    "python",
+    "tool",
+    "agent-framework"
+  ],
+  "category": "security",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-10-06T22:43:45.776632+08:00",
+  "updated_at": "2026-10-06T22:43:45.776634+08:00",
+  "metadata": {
+    "stars": 2,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
