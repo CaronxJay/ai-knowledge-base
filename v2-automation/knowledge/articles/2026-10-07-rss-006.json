@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-07-rss-006",
+  "title": "Transformer 拒绝机制中的组件与维度稀疏性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.06903",
+  "language": "en",
+  "summary": "研究将拒绝引导分解为四个开源权重模型的组件级干预，发现拒绝方向集中在28-48%的上游组件中，保留88-101%的引导效果；在这些机制内，有效引导进一步集中于约50%的残差流维度，保留85-98%的效果。表明拒绝行为由结构化、可识别的机制组装而成，而非弥散编码。",
+  "summary_en": "This work decomposes refusal steering into component-level interventions across four open-weight models, finding that refusal directions concentrate in sparse component mechanisms comprising 28-48% of upstream components while retaining 88-101% of steering effectiveness. Within these mechanisms, effective steering further concentrates in ~50% of residual stream dimensions, retaining 85-98% of the baseline, showing refusal is assembled by a structured, identifiable mechanism rather than diffusely encoded.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-07T23:03:53.686357+08:00",
+  "updated_at": "2026-10-07T23:03:53.686358+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

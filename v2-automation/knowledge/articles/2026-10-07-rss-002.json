@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-07-rss-002",
+  "title": "Text2Dashboard：面向企业数据大脑的自然语言仪表盘生成治理型智能体架构",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.06914",
+  "language": "en",
+  "summary": "Text2Dashboard 是一个 DataBrain 专用原型，通过可安装的 Codex 插件与独立 Agent Runtime，将自然语言分析请求转化为可审查的仪表盘。系统结合模式约束的模型决策、类型化工具、持久状态与确定性 Hooks，实现审批、审计、检查点、恢复与故障处理。评估显示元数据任务 4/4 通过，SQL 任务语义全部达标，故障场景全部符合预期，但作者强调结果不证明生产可用性。",
+  "summary_en": "Text2Dashboard is a DataBrain-specific prototype that converts natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. Evaluation on frozen real-DataBrain tasks showed metadata selection passed 4/4, all SQL tasks met semantic criteria, and all ten fault scenarios met specified outcomes, though the authors caution these small results do not establish production readiness.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "application",
+    "tool",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-07T23:03:53.686343+08:00",
+  "updated_at": "2026-10-07T23:03:53.686344+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

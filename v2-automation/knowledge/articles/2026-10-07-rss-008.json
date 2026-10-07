@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-07-rss-008",
+  "title": "潜在结构的可操作性：容量、响应性与对齐",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.06897",
+  "language": "en",
+  "summary": "研究语言模型激活空间中潜在结构的因果影响力，提出其由容量、响应性和对齐三因素共同决定。实验表明因果有效性需三因素均高，且因果性依赖上下文而非结构固有属性。基于此提出因果探针，在概念引导上提升17%-118%。",
+  "summary_en": "This paper investigates what makes latent structures in LM activation space actionable, framing causal influence as a product of three factors: capacity, responsiveness, and alignment. Across 4 LM families and 50 concepts, causal effectiveness requires all factors to be high, and causality is context-dependent rather than intrinsic. Restricting linear probe training to a causally effective subspace yields causal probes with 17%-118% steering improvement.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-07T23:03:53.686367+08:00",
+  "updated_at": "2026-10-07T23:03:53.686368+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

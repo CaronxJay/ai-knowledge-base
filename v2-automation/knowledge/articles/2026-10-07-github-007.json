@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-07-github-007",
+  "title": "AI 与机器学习全栈工程实验室",
+  "source": "github_trending",
+  "source_url": "https://github.com/ksbisht941/ai-engineer",
+  "language": "en",
+  "summary": "一个涵盖 Python、统计、NumPy、Pandas、机器学习、深度学习、计算机视觉、NLP、LangChain、LangGraph 及生成式 AI（RAG、LLM、Embedding、Agent）的全栈 AI/ML 学习仓库，包含 FastAPI 与实战项目。",
+  "summary_en": "A full-stack AI & ML engineering lab covering Python, statistics, NumPy, Pandas, machine learning, deep learning, computer vision, NLP, LangChain, LangGraph, and generative AI (RAG, LLMs, embeddings, agents), with FastAPI and hands-on projects.",
+  "tags": [
+    "llm",
+    "rag",
+    "agent-framework",
+    "python",
+    "application"
+  ],
+  "category": "application",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-10-07T23:03:53.684944+08:00",
+  "updated_at": "2026-10-07T23:03:53.684945+08:00",
+  "metadata": {
+    "stars": 2,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

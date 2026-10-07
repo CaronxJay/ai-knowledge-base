@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-07-rss-005",
+  "title": "无需LLM摘要的树导航：长文档问答分层检索的匹配成本研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.06902",
+  "language": "en",
+  "summary": "提出NavTree，一种仅使用叶节点的检索器，通过确定性平衡分段树实现导航，索引时零LLM调用。在匹配成本评估中，NavTree是最强的分层检索器，在长文档多跳问答中显著优于BM25，且优于RAPTOR的摘要树方法。",
+  "summary_en": "Introduces NavTree, a leaves-only retriever that builds a deterministic balanced segment tree over chunks with zero LLM calls at indexing. In matched-cost evaluation, NavTree is the strongest hierarchical retriever, significantly beating BM25 on long-document multi-hop QA and outperforming RAPTOR-style summary trees.",
+  "tags": [
+    "rag",
+    "research",
+    "benchmark",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-07T23:03:53.686354+08:00",
+  "updated_at": "2026-10-07T23:03:53.686355+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

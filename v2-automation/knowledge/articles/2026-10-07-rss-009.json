@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-07-rss-009",
+  "title": "零样本可视化：用用户提示轴探索文本语料库",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.06889",
+  "language": "en",
+  "summary": "该研究提出零样本可视化（ZSV）任务，用户用自然语言指定概念，将文档映射到对应概念轴上进行可视化探索。研究建立了基准，比较嵌入相似度、直接语义判断和条件似然估计等方法，发现基于下一词概率的评分在语义忠实度、分数保真度和计算成本间取得最佳平衡，并给出端到端ZSV基线构建的实用指南。",
+  "summary_en": "This paper introduces zero-shot visualization (ZSV), a task where users specify concepts in natural language and documents are mapped onto corresponding concept axes for visual exploration. It establishes a benchmark comparing embedding similarity, direct semantic judgments, and conditional likelihood estimation, finding that next-token probability scoring offers the best practical trade-off across semantic faithfulness, score fidelity, and computational cost, and provides practical guidelines for building end-to-end ZSV baselines.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-07T23:03:53.686371+08:00",
+  "updated_at": "2026-10-07T23:03:53.686373+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

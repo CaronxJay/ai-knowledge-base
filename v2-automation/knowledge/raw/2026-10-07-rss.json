@@ -1,0 +1,489 @@
+{
+  "collected_at": "2026-10-07T23:03:53.687214+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
+      "url": "https://arxiv.org/abs/2610.06910",
+      "description": "arXiv:2610.06910v1 Announce Type: new \nAbstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex multi-turn workflows or focus on static game evaluation benchmarks, this work targets direct end-to-end real-world game synthesis driven by coding agents. However, generating complex games directly from sparse user queries often forces coding agents to make underspecified assumptions, yielding incomplete mechanics, disconnected gameplay flows, and limited visual aesthetics. To resolve this issue, this paper presents GameGo, a scalable framework that systematically transforms brief game seeds into comprehensive Product Requirements Documents grounded in industry game-development practices. To retain core gameplay constraints without restricting design exploration, GameGo uses task-specific dynamic compression to maximize information density while preserving instruction following. Based on this pipeline, GameGoData is constructed with 55,060 development trajectories across 2D, 2.5D, and 3D games, alongside GameGoBench, a benchmark comprising 124 diverse game queries. Training GameGoCoder on GameGoData yields a model that outperforms matched baselines and is comparable to frontier models across gamedev benchmarks. All code, datasets, and models will be made publicly available.",
+      "pub_date": "Wed, 07 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "GameGo：基于真实资产合成轨迹训练游戏开发智能体",
+        "summary": "GameGo 将简短游戏创意转化为完整产品需求文档，通过动态压缩保留核心玩法约束，构建了包含 55,060 条开发轨迹的 GameGoData 数据集与 124 个查询的 GameGoBench 基准，训练出的 GameGoCoder 在游戏开发任务上超越同类基线，接近前沿模型水平。",
+        "summary_en": "GameGo transforms brief game seeds into comprehensive Product Requirements Documents using task-specific dynamic compression to preserve gameplay constraints. It builds GameGoData with 55,060 development trajectories across 2D/2.5D/3D games and GameGoBench with 124 queries. Training GameGoCoder on this data outperforms matched baselines and approaches frontier models on gamedev benchmarks.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "benchmark",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-07-rss-001",
+        "title": "GameGo：基于真实资产合成轨迹训练游戏开发智能体",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.06910",
+        "language": "en",
+        "summary": "GameGo 将简短游戏创意转化为完整产品需求文档，通过动态压缩保留核心玩法约束，构建了包含 55,060 条开发轨迹的 GameGoData 数据集与 124 个查询的 GameGoBench 基准，训练出的 GameGoCoder 在游戏开发任务上超越同类基线，接近前沿模型水平。",
+        "summary_en": "GameGo transforms brief game seeds into comprehensive Product Requirements Documents using task-specific dynamic compression to preserve gameplay constraints. It builds GameGoData with 55,060 development trajectories across 2D/2.5D/3D games and GameGoBench with 124 queries. Training GameGoCoder on this data outperforms matched baselines and approaches frontier models on gamedev benchmarks.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "benchmark",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-07T23:03:53.686335+08:00",
+        "updated_at": "2026-10-07T23:03:53.686339+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
+      "url": "https://arxiv.org/abs/2610.06914",
+      "description": "arXiv:2610.06914v1 Announce Type: new \nAbstract: Text2Dashboard is a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The pipeline resolves entities, discovers metadata, enforces read-only SQL, composes dashboards, and applies static checks, dynamic preflight, and browser inspection. The model proposes actions while deterministic software controls execution and records state transitions.\n  We evaluate the workflow on frozen real-DataBrain tasks and controlled Hook faults. Strict success was 6/8 on metadata and SQL tasks: metadata selection passed 4/4, all four SQL tasks met semantic criteria, and 2/4 met the exact output-column contract. The final release passed 4/4 single-panel dashboard tasks, one two-panel task, and one existing-dashboard refinement; a parameterised task exceeded its step limit. All ten fault scenarios met their specified outcomes without unapproved external side effects. Model inference accounted for over 97\\% of observed runtime in every reported group. These small, DataBrain-specific results do not establish production readiness, general text-to-SQL accuracy, or an efficiency advantage over manual dashboard construction.",
+      "pub_date": "Wed, 07 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Text2Dashboard：面向企业数据大脑的自然语言仪表盘生成治理型智能体架构",
+        "summary": "Text2Dashboard 是一个 DataBrain 专用原型，通过可安装的 Codex 插件与独立 Agent Runtime，将自然语言分析请求转化为可审查的仪表盘。系统结合模式约束的模型决策、类型化工具、持久状态与确定性 Hooks，实现审批、审计、检查点、恢复与故障处理。评估显示元数据任务 4/4 通过，SQL 任务语义全部达标，故障场景全部符合预期，但作者强调结果不证明生产可用性。",
+        "summary_en": "Text2Dashboard is a DataBrain-specific prototype that converts natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. Evaluation on frozen real-DataBrain tasks showed metadata selection passed 4/4, all SQL tasks met semantic criteria, and all ten fault scenarios met specified outcomes, though the authors caution these small results do not establish production readiness.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "tool",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-07-rss-002",
+        "title": "Text2Dashboard：面向企业数据大脑的自然语言仪表盘生成治理型智能体架构",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.06914",
+        "language": "en",
+        "summary": "Text2Dashboard 是一个 DataBrain 专用原型，通过可安装的 Codex 插件与独立 Agent Runtime，将自然语言分析请求转化为可审查的仪表盘。系统结合模式约束的模型决策、类型化工具、持久状态与确定性 Hooks，实现审批、审计、检查点、恢复与故障处理。评估显示元数据任务 4/4 通过，SQL 任务语义全部达标，故障场景全部符合预期，但作者强调结果不证明生产可用性。",
+        "summary_en": "Text2Dashboard is a DataBrain-specific prototype that converts natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. Evaluation on frozen real-DataBrain tasks showed metadata selection passed 4/4, all SQL tasks met semantic criteria, and all ten fault scenarios met specified outcomes, though the authors caution these small results do not establish production readiness.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "tool",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-07T23:03:53.686343+08:00",
+        "updated_at": "2026-10-07T23:03:53.686344+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "FluidPD: In-Place Elasticity for SLO-Aware Prefill-Decode Disaggregated LLM Serving",
+      "url": "https://arxiv.org/abs/2610.06917",
+      "description": "arXiv:2610.06917v1 Announce Type: new \nAbstract: Prefill-decode disaggregation is becoming a common architecture for LLM serving because it separates two phases with distinct execution patterns and SLO objectives. Existing systems typically combine a fixed prefill/decode worker ratio with request routing across workers. However, real-world workloads exhibit both short bursts and sustained shifts in the prefill-to-decode demand ratio. As a result, a configuration that is well provisioned at one time may quickly become mismatched, causing latency SLO violations even when idle capacity exists elsewhere. Existing autoscaling mechanisms can add capacity, but they react slowly, require spare GPUs, and do not directly address short-timescale phase imbalance.\n  We present FluidPD, a P/D-disaggregated serving system that provides SLO-aware in-place elasticity. FluidPD introduces two complementary mechanisms. FluidToken handles transient imbalance by offloading a bounded portion of prefill computation to decode workers when decode-side slack is available. FluidRole handles sustained imbalance by reassigning running workers between prefill and decode roles in place, avoiding model reload and engine restart. Both mechanisms are guided by lightweight pressure indices that expose prefill and decode-side resource pressure before they appear as SLO violations. Across production Azure trace workloads, FluidPD improves overall SLO attainment over static SGLang by up to 94.6 percentage points, demonstrating that SLO-aware in-place P/D elasticity improves service quality without provisioning additional workers.",
+      "pub_date": "Wed, 07 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "FluidPD：面向SLO感知的预填充-解码分离LLM服务原地弹性调度",
+        "summary": "FluidPD是一种P/D分离的LLM服务系统，通过FluidToken将预填充计算卸载至空闲解码worker以应对瞬时失衡，并通过FluidRole原地切换worker角色以应对持续失衡，避免模型重载。在Azure生产负载上，SLO达标率较静态SGLang提升最高94.6个百分点。",
+        "summary_en": "FluidPD is a P/D-disaggregated LLM serving system offering SLO-aware in-place elasticity. FluidToken offloads bounded prefill computation to decode workers during transient imbalance, while FluidRole reassigns running workers between prefill and decode roles in place for sustained imbalance, avoiding model reload. On production Azure traces, it improves SLO attainment over static SGLang by up to 94.6 percentage points.",
+        "tags": [
+          "llm",
+          "infrastructure",
+          "research",
+          "evaluation"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-07-rss-003",
+        "title": "FluidPD：面向SLO感知的预填充-解码分离LLM服务原地弹性调度",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.06917",
+        "language": "en",
+        "summary": "FluidPD是一种P/D分离的LLM服务系统，通过FluidToken将预填充计算卸载至空闲解码worker以应对瞬时失衡，并通过FluidRole原地切换worker角色以应对持续失衡，避免模型重载。在Azure生产负载上，SLO达标率较静态SGLang提升最高94.6个百分点。",
+        "summary_en": "FluidPD is a P/D-disaggregated LLM serving system offering SLO-aware in-place elasticity. FluidToken offloads bounded prefill computation to decode workers during transient imbalance, while FluidRole reassigns running workers between prefill and decode roles in place for sustained imbalance, avoiding model reload. On production Azure traces, it improves SLO attainment over static SGLang by up to 94.6 percentage points.",
+        "tags": [
+          "llm",
+          "infrastructure",
+          "research",
+          "evaluation"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-07T23:03:53.686346+08:00",
+        "updated_at": "2026-10-07T23:03:53.686347+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Anchor Divergence for Semantic Geometry in Contrastive Learning",
+      "url": "https://arxiv.org/abs/2610.06919",
+      "description": "arXiv:2610.06919v1 Announce Type: new \nAbstract: This paper concerns how semantic context determines geometry in learned vector representations. Similarity is typically measured using cosine similarity, which provides a single fixed geometry. Semantic similarity, however, is inherently context dependent: two images may be similar because they depict the same object, share a visual style, or are relevant to the same clinical finding. We show that contrastive representations naturally encompass a family of geometries that can be specialized to particular semantic structure. The key idea is to use an interplay between contrastive learning, exponential families, and information geometry to establish a correspondence between probability distributions over \"anchors\" and Bregman geometries on the representation space. We use this correspondence to define \"Anchor Divergences\", a method for specifying context-specific semantic geometries on fixed representations. Under this correspondence, modeling the anchor distribution models the geometry itself. Experiments on retrieval show that anchor divergences provide an effective and efficient way to specify context-specific semantic similarity.",
+      "pub_date": "Wed, 07 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "对比学习中的锚点散度与语义几何",
+        "summary": "本文研究语义上下文如何决定学习到的向量表示的几何结构。作者利用对比学习、指数族与信息几何之间的相互作用，建立了锚点概率分布与表示空间上Bregman几何之间的对应关系，并据此提出\"锚点散度\"方法，可在固定表示上指定特定上下文的语义几何。检索实验表明该方法能高效地指定上下文相关的语义相似度。",
+        "summary_en": "This paper studies how semantic context determines geometry in learned vector representations. Using an interplay between contrastive learning, exponential families, and information geometry, the authors establish a correspondence between probability distributions over anchors and Bregman geometries on the representation space, defining \"Anchor Divergences\" to specify context-specific semantic geometries on fixed representations. Retrieval experiments show it effectively and efficiently specifies context-specific semantic similarity.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-07-rss-010",
+        "title": "对比学习中的锚点散度与语义几何",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.06919",
+        "language": "en",
+        "summary": "本文研究语义上下文如何决定学习到的向量表示的几何结构。作者利用对比学习、指数族与信息几何之间的相互作用，建立了锚点概率分布与表示空间上Bregman几何之间的对应关系，并据此提出\"锚点散度\"方法，可在固定表示上指定特定上下文的语义几何。检索实验表明该方法能高效地指定上下文相关的语义相似度。",
+        "summary_en": "This paper studies how semantic context determines geometry in learned vector representations. Using an interplay between contrastive learning, exponential families, and information geometry, the authors establish a correspondence between probability distributions over anchors and Bregman geometries on the representation space, defining \"Anchor Divergences\" to specify context-specific semantic geometries on fixed representations. Retrieval experiments show it effectively and efficiently specifies context-specific semantic similarity.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-10-07T23:03:53.686375+08:00",
+        "updated_at": "2026-10-07T23:03:53.686376+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
+      "url": "https://arxiv.org/abs/2610.06923",
+      "description": "arXiv:2610.06923v1 Announce Type: new \nAbstract: Artificial intelligence has advanced individual radiotherapy tasks, yet these capabilities remain separated across clinical stages, software environments and data modalities. This fragmentation contrasts with the longitudinal radiotherapy workflow from treatment decision-making through follow-up. Here we present RadOnc-Agent, an agentic artificial-intelligence framework that formalizes radiotherapy into four clinical phases and provides 26 callable functions through a conversational interface. A large-language-model controller maps clinical intent to schema-constrained calls, preserves patient and workflow context, and routes requests to specialist services. We evaluated system execution using 2,600 single-function requests (7,800 repeat executions), 200 prespecified synthetic cross-stage scenarios spanning four phases (600 executions), and 120 workflow instances from 60 de-identified patient records (360 clean executions) representing decision-to-planning and planning-to-adaptation. RadOnc-Agent selected the intended function in 98.79% of single-function executions, completed 96.50% of scripted cross-stage workflows, and completed 96.67% of real-patient workflow executions. In comparative ablations, removing longitudinal state reduced cross-stage completion from 96.50% to 84.00%, while disabling schema and identity validation increased mismatched backend dispatch from 0% to 95.28% in a replay/test evaluation. These findings establish the technical feasibility of an LLM-orchestrated architecture for coordinating heterogeneous radiotherapy capabilities and information across longitudinal workflows; they do not establish clinical correctness, clinical utility or prospective benefit.",
+      "pub_date": "Wed, 07 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RadOnc-Agent：面向放疗全流程的LLM编排AI工作流框架",
+        "summary": "提出RadOnc-Agent，一个基于LLM控制器的智能体框架，将放疗流程形式化为四个临床阶段并提供26个可调用函数。系统通过对话接口映射临床意图到受模式约束的调用，保留患者与工作流上下文。在2600个单函数请求、200个跨阶段场景及120个真实患者工作流中，函数选择准确率达98.79%，跨阶段工作流完成率96.50%。消融实验表明纵向状态与模式验证对性能至关重要。",
+        "summary_en": "Presents RadOnc-Agent, an agentic AI framework that formalizes radiotherapy into four clinical phases with 26 callable functions via a conversational interface. An LLM controller maps clinical intent to schema-constrained calls, preserving patient and workflow context. Evaluated on 2,600 single-function requests, 200 cross-stage scenarios, and 120 real-patient workflows, achieving 98.79% function selection accuracy and 96.50% cross-stage completion. Ablations show longitudinal state and schema validation are critical.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "research",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-07-rss-004",
+        "title": "RadOnc-Agent：面向放疗全流程的LLM编排AI工作流框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.06923",
+        "language": "en",
+        "summary": "提出RadOnc-Agent，一个基于LLM控制器的智能体框架，将放疗流程形式化为四个临床阶段并提供26个可调用函数。系统通过对话接口映射临床意图到受模式约束的调用，保留患者与工作流上下文。在2600个单函数请求、200个跨阶段场景及120个真实患者工作流中，函数选择准确率达98.79%，跨阶段工作流完成率96.50%。消融实验表明纵向状态与模式验证对性能至关重要。",
+        "summary_en": "Presents RadOnc-Agent, an agentic AI framework that formalizes radiotherapy into four clinical phases with 26 callable functions via a conversational interface. An LLM controller maps clinical intent to schema-constrained calls, preserving patient and workflow context. Evaluated on 2,600 single-function requests, 200 cross-stage scenarios, and 120 real-patient workflows, achieving 98.79% function selection accuracy and 96.50% cross-stage completion. Ablations show longitudinal state and schema validation are critical.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "research",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-07T23:03:53.686350+08:00",
+        "updated_at": "2026-10-07T23:03:53.686351+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Zero-Shot Visualization: Exploring Text Corpora with User-Prompted Axes",
+      "url": "https://arxiv.org/abs/2610.06889",
+      "description": "arXiv:2610.06889v1 Announce Type: new \nAbstract: We study the application of large language models (LLMs) to the visual exploration of textual corpora. We introduce zero-shot visualization (ZSV), a task in which users specify concepts in natural language and documents are mapped onto the corresponding concept axes for visualization. Building a ZSV system of practical value is non-trivial, as it requires choices at the intersection of feature functions, efficient implementation tradeoffs, and pre/post-processing decisions affecting visualization quality. To that end, we establish a benchmark that compares methods spanning embedding similarity, direct semantic judgments, and conditional likelihood estimation in this setting. Across multiple datasets and use cases we evaluate the properties of different scoring methods and design choices in terms of semantic faithfulness, score fidelity, and computational cost. Our results identify that scoring based on next-token probabilities offers the strongest practical trade-off among the evaluated methods. We further apply this approach to unlabeled corpora to examine its behavior in realistic exploratory settings. These experiments highlight additional design considerations, including the use of graded axes together with binary relevance filtering, and reveal a compositional sentiment bias in off-topic documents. Based on these findings, we provide practical guidelines for constructing end-to-end ZSV baselines.",
+      "pub_date": "Wed, 07 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "零样本可视化：用用户提示轴探索文本语料库",
+        "summary": "该研究提出零样本可视化（ZSV）任务，用户用自然语言指定概念，将文档映射到对应概念轴上进行可视化探索。研究建立了基准，比较嵌入相似度、直接语义判断和条件似然估计等方法，发现基于下一词概率的评分在语义忠实度、分数保真度和计算成本间取得最佳平衡，并给出端到端ZSV基线构建的实用指南。",
+        "summary_en": "This paper introduces zero-shot visualization (ZSV), a task where users specify concepts in natural language and documents are mapped onto corresponding concept axes for visual exploration. It establishes a benchmark comparing embedding similarity, direct semantic judgments, and conditional likelihood estimation, finding that next-token probability scoring offers the best practical trade-off across semantic faithfulness, score fidelity, and computational cost, and provides practical guidelines for building end-to-end ZSV baselines.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-07-rss-009",
+        "title": "零样本可视化：用用户提示轴探索文本语料库",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.06889",
+        "language": "en",
+        "summary": "该研究提出零样本可视化（ZSV）任务，用户用自然语言指定概念，将文档映射到对应概念轴上进行可视化探索。研究建立了基准，比较嵌入相似度、直接语义判断和条件似然估计等方法，发现基于下一词概率的评分在语义忠实度、分数保真度和计算成本间取得最佳平衡，并给出端到端ZSV基线构建的实用指南。",
+        "summary_en": "This paper introduces zero-shot visualization (ZSV), a task where users specify concepts in natural language and documents are mapped onto corresponding concept axes for visual exploration. It establishes a benchmark comparing embedding similarity, direct semantic judgments, and conditional likelihood estimation, finding that next-token probability scoring offers the best practical trade-off across semantic faithfulness, score fidelity, and computational cost, and provides practical guidelines for building end-to-end ZSV baselines.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-07T23:03:53.686371+08:00",
+        "updated_at": "2026-10-07T23:03:53.686373+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Capacity, Responsiveness and Alignment: What Makes a Latent Structure Actionable",
+      "url": "https://arxiv.org/abs/2610.06897",
+      "description": "arXiv:2610.06897v1 Announce Type: new \nAbstract: Localizing latent structures in the activation space of language models (LMs) is central to understanding and controlling their behavior. Yet, localized structures can differ substantially in their causal influence, raising the question of what makes a structure actionable. We tackle this question by casting causal influence as a product of three factors and showing empirically that they act as interpretable, distinct constraints: capacity, measuring the sensitivity of the model's output to movement along the structure, responsiveness, capturing how promotable the concept is given the current context, and alignment, reflecting how well the structure aligns with the context-specific representation of the concept. Across 4 LM families and 50 concepts, we observe that causal effectiveness requires all factors to be high; low capacity and responsiveness reduce it by 84% and 95%, respectively, while low alignment can reverse it, suppressing concept expression. Moreover, we find that causality is context-dependent rather than an intrinsic property of the structure, with causally effective directions forming a low-dimensional subspace that varies across contexts. By restricting the training of linear probes to this subspace, we introduce causal probes that achieve 17%-118% improvement in steering across models, with only 3% reduction in concept detection.",
+      "pub_date": "Wed, 07 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "潜在结构的可操作性：容量、响应性与对齐",
+        "summary": "研究语言模型激活空间中潜在结构的因果影响力，提出其由容量、响应性和对齐三因素共同决定。实验表明因果有效性需三因素均高，且因果性依赖上下文而非结构固有属性。基于此提出因果探针，在概念引导上提升17%-118%。",
+        "summary_en": "This paper investigates what makes latent structures in LM activation space actionable, framing causal influence as a product of three factors: capacity, responsiveness, and alignment. Across 4 LM families and 50 concepts, causal effectiveness requires all factors to be high, and causality is context-dependent rather than intrinsic. Restricting linear probe training to a causally effective subspace yields causal probes with 17%-118% steering improvement.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-07-rss-008",
+        "title": "潜在结构的可操作性：容量、响应性与对齐",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.06897",
+        "language": "en",
+        "summary": "研究语言模型激活空间中潜在结构的因果影响力，提出其由容量、响应性和对齐三因素共同决定。实验表明因果有效性需三因素均高，且因果性依赖上下文而非结构固有属性。基于此提出因果探针，在概念引导上提升17%-118%。",
+        "summary_en": "This paper investigates what makes latent structures in LM activation space actionable, framing causal influence as a product of three factors: capacity, responsiveness, and alignment. Across 4 LM families and 50 concepts, causal effectiveness requires all factors to be high, and causality is context-dependent rather than intrinsic. Restricting linear probe training to a causally effective subspace yields causal probes with 17%-118% steering improvement.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-07T23:03:53.686367+08:00",
+        "updated_at": "2026-10-07T23:03:53.686368+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Tree Navigation Without LLM Summaries: A Matched-Cost Study of Hierarchical Retrieval for Long-Document QA",
+      "url": "https://arxiv.org/abs/2610.06902",
+      "description": "arXiv:2610.06902v1 Announce Type: new \nAbstract: Retrieval-augmented generation grounds language models in external context, but for long documents flat top-$k$ retrieval can cluster on a single region and miss complementary evidence. RAPTOR-style summary trees address this by recursively clustering chunks and using a language model to summarize each cluster at indexing time, then ranking summary nodes alongside raw chunks at query time. We show the main benefit of summary trees in long-document QA can come from navigation rather than the generated summary content. We introduce NavTree, a leaves-only retriever that builds a deterministic balanced segment tree over chunks (zero language-model calls at indexing) and uses the tree purely as a navigation scaffold: a hybrid lexical-and-dense frontier walk, anchored on top retrieved leaves, descends from the root and emits only leaf chunks to the reader. On a matched-cost evaluation against flat retrievers and an extractive re-implementation of RAPTOR, NavTree is the strongest matched-cost hierarchical retriever in our evaluated grid and ties the strongest flat baseline. On long-document multi-hop QA, it is the only hierarchical method that significantly beats BM25 on a class-vs-class basis, corroborated by a reader-free retrieval-recall check. A matched-reader replication of the published abstractive RAPTOR variant, given strong cluster summaries, still loses to NavTree at every multi-chunk budget, at zero indexing cost. The ranking carries across stronger and open-weight readers, a stronger encoder, and a full factorial that isolates leaves-only emission as the structural lever.",
+      "pub_date": "Wed, 07 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "无需LLM摘要的树导航：长文档问答分层检索的匹配成本研究",
+        "summary": "提出NavTree，一种仅使用叶节点的检索器，通过确定性平衡分段树实现导航，索引时零LLM调用。在匹配成本评估中，NavTree是最强的分层检索器，在长文档多跳问答中显著优于BM25，且优于RAPTOR的摘要树方法。",
+        "summary_en": "Introduces NavTree, a leaves-only retriever that builds a deterministic balanced segment tree over chunks with zero LLM calls at indexing. In matched-cost evaluation, NavTree is the strongest hierarchical retriever, significantly beating BM25 on long-document multi-hop QA and outperforming RAPTOR-style summary trees.",
+        "tags": [
+          "rag",
+          "research",
+          "benchmark",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-07-rss-005",
+        "title": "无需LLM摘要的树导航：长文档问答分层检索的匹配成本研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.06902",
+        "language": "en",
+        "summary": "提出NavTree，一种仅使用叶节点的检索器，通过确定性平衡分段树实现导航，索引时零LLM调用。在匹配成本评估中，NavTree是最强的分层检索器，在长文档多跳问答中显著优于BM25，且优于RAPTOR的摘要树方法。",
+        "summary_en": "Introduces NavTree, a leaves-only retriever that builds a deterministic balanced segment tree over chunks with zero LLM calls at indexing. In matched-cost evaluation, NavTree is the strongest hierarchical retriever, significantly beating BM25 on long-document multi-hop QA and outperforming RAPTOR-style summary trees.",
+        "tags": [
+          "rag",
+          "research",
+          "benchmark",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-07T23:03:53.686354+08:00",
+        "updated_at": "2026-10-07T23:03:53.686355+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Component and Dimension Sparsity in Transformer Refusal Mechanisms",
+      "url": "https://arxiv.org/abs/2610.06903",
+      "description": "arXiv:2610.06903v1 Announce Type: new \nAbstract: Activation steering manipulates large language model behavior by intervening on internal activations, but the mechanistic basis of these interventions remains poorly understood. We decompose refusal steering into component-level interventions across four open-weight models, identifying the sparse subsets of attention and MLP components whose steering suffices to reproduce the full behavioral effect. We find that refusal directions concentrate in sparse component mechanisms comprising 28--48\\% of upstream components, retaining 88--101\\% of steering effectiveness. Within these mechanisms, effective steering further concentrates in approximately 50\\% of residual stream dimensions, retaining 85--98\\% of the component-mechanism baseline, consistent with a privileged basis structure. Sparsity thus operates at two levels: which components are steered, and which dimensions within those components carry the signal. Together these findings show that refusal is not diffusely encoded across a transformer but assembled by a structured, identifiable mechanism, providing a foundation for mechanistic understanding of how refusal behaviors are represented and steered. To facilitate reproducibility, we release all code and raw experimental results in https://github.com/wang-research-lab/Refusal_Mechanisms.",
+      "pub_date": "Wed, 07 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Transformer 拒绝机制中的组件与维度稀疏性",
+        "summary": "研究将拒绝引导分解为四个开源权重模型的组件级干预，发现拒绝方向集中在28-48%的上游组件中，保留88-101%的引导效果；在这些机制内，有效引导进一步集中于约50%的残差流维度，保留85-98%的效果。表明拒绝行为由结构化、可识别的机制组装而成，而非弥散编码。",
+        "summary_en": "This work decomposes refusal steering into component-level interventions across four open-weight models, finding that refusal directions concentrate in sparse component mechanisms comprising 28-48% of upstream components while retaining 88-101% of steering effectiveness. Within these mechanisms, effective steering further concentrates in ~50% of residual stream dimensions, retaining 85-98% of the baseline, showing refusal is assembled by a structured, identifiable mechanism rather than diffusely encoded.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-07-rss-006",
+        "title": "Transformer 拒绝机制中的组件与维度稀疏性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.06903",
+        "language": "en",
+        "summary": "研究将拒绝引导分解为四个开源权重模型的组件级干预，发现拒绝方向集中在28-48%的上游组件中，保留88-101%的引导效果；在这些机制内，有效引导进一步集中于约50%的残差流维度，保留85-98%的效果。表明拒绝行为由结构化、可识别的机制组装而成，而非弥散编码。",
+        "summary_en": "This work decomposes refusal steering into component-level interventions across four open-weight models, finding that refusal directions concentrate in sparse component mechanisms comprising 28-48% of upstream components while retaining 88-101% of steering effectiveness. Within these mechanisms, effective steering further concentrates in ~50% of residual stream dimensions, retaining 85-98% of the baseline, showing refusal is assembled by a structured, identifiable mechanism rather than diffusely encoded.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-07T23:03:53.686357+08:00",
+        "updated_at": "2026-10-07T23:03:53.686358+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Stabilizing language models under continual learning via condition-anchored distillation",
+      "url": "https://arxiv.org/abs/2610.06940",
+      "description": "arXiv:2610.06940v1 Announce Type: new \nAbstract: Continual adaptation of language models can change their output distribution on prompts learned earlier, while retaining every old prompt-answer pair may be undesirable or impossible. We study condition-anchored generative distillation (CAGD): retain a small set of old prompts, use a frozen previous model to reconstruct completions and generation states, and match its predictive distributions while learning the next task. The formulation separates three roles that ordinary replay conflates: conditions select the behavior to protect, teacher generations locate relevant states, and soft targets specify how predictions may change. For autoregressive language generation, teacher-rollout distillation admits an exact chain-rule decomposition of sequence divergence. For masked-diffusion language modeling, our implementation directly controls local denoising drift on teacher-generated completions. In continual adaptation of a 219M masked diffusion language model, CAGD reduces four-task final held-out loss from 2.927 to 1.114 in one task order and from 2.168 to 0.891 in exact reverse. The same soft targets lower final average loss by 0.055 over hard replay when teacher-generated support is held identical. The direction persists on fresh facts and natural instructions across SMDM and Qwen3. On GSM8K, Qwen adaptation preserves answer-format compliance, but exact-match retention is seed-mixed at 0.6B and worsens at 1.7B. These results support condition-anchored functional preservation as a common design principle across the tested language-generation objectives.",
+      "pub_date": "Wed, 07 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通过条件锚定蒸馏稳定语言模型的持续学习",
+        "summary": "提出条件锚定生成蒸馏（CAGD），通过保留少量旧提示并用冻结的旧模型重建生成状态，在持续学习中保护模型行为。在219M掩码扩散模型上，四任务最终损失从2.927降至1.114，软目标优于硬回放。",
+        "summary_en": "Introduces condition-anchored generative distillation (CAGD), which retains a small set of old prompts and uses a frozen previous model to reconstruct generation states, protecting learned behavior during continual learning. On a 219M masked diffusion model, four-task final loss drops from 2.927 to 1.114, with soft targets outperforming hard replay.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-07-rss-007",
+        "title": "通过条件锚定蒸馏稳定语言模型的持续学习",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.06940",
+        "language": "en",
+        "summary": "提出条件锚定生成蒸馏（CAGD），通过保留少量旧提示并用冻结的旧模型重建生成状态，在持续学习中保护模型行为。在219M掩码扩散模型上，四任务最终损失从2.927降至1.114，软目标优于硬回放。",
+        "summary_en": "Introduces condition-anchored generative distillation (CAGD), which retains a small set of old prompts and uses a frozen previous model to reconstruct generation states, protecting learned behavior during continual learning. On a 219M masked diffusion model, four-task final loss drops from 2.927 to 1.114, with soft targets outperforming hard replay.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-07T23:03:53.686361+08:00",
+        "updated_at": "2026-10-07T23:03:53.686363+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

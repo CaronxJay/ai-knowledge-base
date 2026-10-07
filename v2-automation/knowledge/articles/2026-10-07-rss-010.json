@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-07-rss-010",
+  "title": "对比学习中的锚点散度与语义几何",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.06919",
+  "language": "en",
+  "summary": "本文研究语义上下文如何决定学习到的向量表示的几何结构。作者利用对比学习、指数族与信息几何之间的相互作用，建立了锚点概率分布与表示空间上Bregman几何之间的对应关系，并据此提出\"锚点散度\"方法，可在固定表示上指定特定上下文的语义几何。检索实验表明该方法能高效地指定上下文相关的语义相似度。",
+  "summary_en": "This paper studies how semantic context determines geometry in learned vector representations. Using an interplay between contrastive learning, exponential families, and information geometry, the authors establish a correspondence between probability distributions over anchors and Bregman geometries on the representation space, defining \"Anchor Divergences\" to specify context-specific semantic geometries on fixed representations. Retrieval experiments show it effectively and efficiently specifies context-specific semantic similarity.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-10-07T23:03:53.686375+08:00",
+  "updated_at": "2026-10-07T23:03:53.686376+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

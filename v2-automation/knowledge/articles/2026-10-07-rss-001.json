@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-07-rss-001",
+  "title": "GameGo：基于真实资产合成轨迹训练游戏开发智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.06910",
+  "language": "en",
+  "summary": "GameGo 将简短游戏创意转化为完整产品需求文档，通过动态压缩保留核心玩法约束，构建了包含 55,060 条开发轨迹的 GameGoData 数据集与 124 个查询的 GameGoBench 基准，训练出的 GameGoCoder 在游戏开发任务上超越同类基线，接近前沿模型水平。",
+  "summary_en": "GameGo transforms brief game seeds into comprehensive Product Requirements Documents using task-specific dynamic compression to preserve gameplay constraints. It builds GameGoData with 55,060 development trajectories across 2D/2.5D/3D games and GameGoBench with 124 queries. Training GameGoCoder on this data outperforms matched baselines and approaches frontier models on gamedev benchmarks.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "benchmark",
+    "fine-tuning",
+    "application"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-07T23:03:53.686335+08:00",
+  "updated_at": "2026-10-07T23:03:53.686339+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

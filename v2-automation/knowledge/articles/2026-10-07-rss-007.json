@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-07-rss-007",
+  "title": "通过条件锚定蒸馏稳定语言模型的持续学习",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.06940",
+  "language": "en",
+  "summary": "提出条件锚定生成蒸馏（CAGD），通过保留少量旧提示并用冻结的旧模型重建生成状态，在持续学习中保护模型行为。在219M掩码扩散模型上，四任务最终损失从2.927降至1.114，软目标优于硬回放。",
+  "summary_en": "Introduces condition-anchored generative distillation (CAGD), which retains a small set of old prompts and uses a frozen previous model to reconstruct generation states, protecting learned behavior during continual learning. On a 219M masked diffusion model, four-task final loss drops from 2.927 to 1.114, with soft targets outperforming hard replay.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-07T23:03:53.686361+08:00",
+  "updated_at": "2026-10-07T23:03:53.686363+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
