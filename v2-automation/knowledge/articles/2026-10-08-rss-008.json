@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-08-rss-008",
+  "title": "对比学习中的锚点散度与语义几何",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.06919",
+  "language": "en",
+  "summary": "本文提出锚点散度（Anchor Divergences），通过对比学习、指数族与信息几何的相互作用，建立锚点概率分布与表示空间上Bregman几何之间的对应关系，从而在固定表示上指定上下文相关的语义几何，实验表明该方法能高效地指定特定情境下的语义相似度。",
+  "summary_en": "This paper introduces Anchor Divergences, using the interplay between contrastive learning, exponential families, and information geometry to establish a correspondence between anchor distributions and Bregman geometries on the representation space, enabling context-specific semantic geometries on fixed representations, with retrieval experiments showing effectiveness and efficiency.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-10-08T23:12:14.246542+08:00",
+  "updated_at": "2026-10-08T23:12:14.246543+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

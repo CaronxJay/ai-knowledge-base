@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-08-rss-010",
+  "title": "遗忘看似进步：流式说话人日志适配中的指标掩盖与排练代价",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.08828",
+  "language": "en",
+  "summary": "研究小数据适配对流式说话人日志系统的影响，发现适配虽提升域内检测性能，却损害说话人身份的时间一致性，且排练虽减少退化但降低跨域迁移能力。",
+  "summary_en": "This paper studies small-data adaptation in a streaming diarizer, finding that adaptation improves in-domain detection but degrades temporal identity consistency, and rehearsal reduces degradation at the cost of cross-domain transfer.",
+  "tags": [
+    "research",
+    "evaluation",
+    "benchmark",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-10-08T23:12:14.246548+08:00",
+  "updated_at": "2026-10-08T23:12:14.246549+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

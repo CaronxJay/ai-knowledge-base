@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-08-rss-003",
+  "title": "FluidPD：面向SLO感知的预填充-解码分离式LLM服务原地弹性调度",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.06917",
+  "language": "en",
+  "summary": "FluidPD提出面向预填充-解码分离式LLM服务的SLO感知原地弹性机制，通过FluidToken将部分预填充计算卸载至空闲解码worker应对瞬时失衡，通过FluidRole原地切换worker角色应对持续失衡，避免模型重载与引擎重启。在Azure生产负载上，SLO达成率较静态SGLang提升最高94.6个百分点。",
+  "summary_en": "FluidPD presents SLO-aware in-place elasticity for prefill-decode disaggregated LLM serving. FluidToken offloads bounded prefill computation to decode workers during transient imbalance, while FluidRole reassigns running workers between prefill and decode roles in place for sustained imbalance, avoiding model reload and engine restart. On production Azure traces, it improves SLO attainment over static SGLang by up to 94.6 percentage points.",
+  "tags": [
+    "llm",
+    "infrastructure",
+    "research",
+    "evaluation"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-08T23:12:14.246528+08:00",
+  "updated_at": "2026-10-08T23:12:14.246529+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

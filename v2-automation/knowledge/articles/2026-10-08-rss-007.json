@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-08-rss-007",
+  "title": "CoDR：面向扩散语言模型的无训练置信度漂移重掩码方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.08833",
+  "language": "en",
+  "summary": "提出CoDR，一种无需训练、与采样器无关的细化方法，通过k次前向传播检测已提交token的置信度漂移，仅对模型不再认可的token进行重掩码与重生成，在多个骨干模型、任务和采样器上提升准确率且开销较小。",
+  "summary_en": "CoDR introduces a training-free, sampler-agnostic refinement pass that detects confidence drift in committed tokens via k-partition probing, then remasks and regenerates only tokens the model no longer endorses, improving accuracy across backbones, tasks, and samplers with modest overhead.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "llm",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-08T23:12:14.246538+08:00",
+  "updated_at": "2026-10-08T23:12:14.246539+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

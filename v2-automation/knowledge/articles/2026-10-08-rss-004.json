@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-08-rss-004",
+  "title": "RadOnc-Agent：LLM编排的放疗全流程AI工作流框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.06923",
+  "language": "en",
+  "summary": "提出RadOnc-Agent，一个基于LLM控制器的智能体框架，将放疗流程形式化为四个临床阶段，提供26个可调用函数。系统在单函数请求中98.79%选择正确函数，跨阶段工作流完成率96.50%，真实患者工作流完成率96.67%。消融实验表明纵向状态和模式验证对性能至关重要。",
+  "summary_en": "RadOnc-Agent is an LLM-orchestrated agentic framework that formalizes radiotherapy into four clinical phases with 26 callable functions via a conversational interface. It selected the intended function in 98.79% of single-function executions, completed 96.50% of cross-stage workflows, and 96.67% of real-patient workflows. Ablations show longitudinal state and schema validation are critical.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "application",
+    "research"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-08T23:12:14.246531+08:00",
+  "updated_at": "2026-10-08T23:12:14.246532+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

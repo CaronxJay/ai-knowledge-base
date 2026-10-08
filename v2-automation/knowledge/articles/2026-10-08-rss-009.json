@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-08-rss-009",
+  "title": "儿童语音识别适配与成人语音保持的实证研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.08827",
+  "language": "en",
+  "summary": "研究儿童ASR适配同时保持成人语音性能，比较全量微调、LoRA和权重空间合并方法，覆盖阿拉伯语和英语。结果显示儿童适配必要但会损害成人性能，双语适配更稳定，权重合并可改善权衡。",
+  "summary_en": "Studies child ASR adaptation while retaining adult performance across Arabic and English, comparing full fine-tuning, LoRA, and weight-space merging. Child adaptation is necessary but often degrades adult ASR; bilingual adaptation is more stable and weight merging improves the trade-off.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-10-08T23:12:14.246545+08:00",
+  "updated_at": "2026-10-08T23:12:14.246546+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

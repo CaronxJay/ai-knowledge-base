@@ -1,0 +1,487 @@
+{
+  "collected_at": "2026-10-08T23:12:14.247127+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
+      "url": "https://arxiv.org/abs/2610.06910",
+      "description": "arXiv:2610.06910v1 Announce Type: new \nAbstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex multi-turn workflows or focus on static game evaluation benchmarks, this work targets direct end-to-end real-world game synthesis driven by coding agents. However, generating complex games directly from sparse user queries often forces coding agents to make underspecified assumptions, yielding incomplete mechanics, disconnected gameplay flows, and limited visual aesthetics. To resolve this issue, this paper presents GameGo, a scalable framework that systematically transforms brief game seeds into comprehensive Product Requirements Documents grounded in industry game-development practices. To retain core gameplay constraints without restricting design exploration, GameGo uses task-specific dynamic compression to maximize information density while preserving instruction following. Based on this pipeline, GameGoData is constructed with 55,060 development trajectories across 2D, 2.5D, and 3D games, alongside GameGoBench, a benchmark comprising 124 diverse game queries. Training GameGoCoder on GameGoData yields a model that outperforms matched baselines and is comparable to frontier models across gamedev benchmarks. All code, datasets, and models will be made publicly available.",
+      "pub_date": "Thu, 08 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "GameGo：基于真实资产合成轨迹训练游戏开发智能体",
+        "summary": "GameGo 框架将简短游戏创意转化为基于行业实践的产品需求文档，通过动态压缩保留核心玩法约束，构建了含 55,060 条开发轨迹的 GameGoData 数据集和 124 个查询的 GameGoBench 基准，训练出的 GameGoCoder 模型性能超越同类基线，接近前沿模型水平。",
+        "summary_en": "GameGo is a scalable framework that transforms brief game seeds into comprehensive Product Requirements Documents grounded in industry practices, using task-specific dynamic compression to preserve gameplay constraints. It builds GameGoData with 55,060 development trajectories across 2D/2.5D/3D games and GameGoBench with 124 game queries. The trained GameGoCoder outperforms matched baselines and rivals frontier models on gamedev benchmarks.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "benchmark",
+          "research",
+          "application"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-08-rss-001",
+        "title": "GameGo：基于真实资产合成轨迹训练游戏开发智能体",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.06910",
+        "language": "en",
+        "summary": "GameGo 框架将简短游戏创意转化为基于行业实践的产品需求文档，通过动态压缩保留核心玩法约束，构建了含 55,060 条开发轨迹的 GameGoData 数据集和 124 个查询的 GameGoBench 基准，训练出的 GameGoCoder 模型性能超越同类基线，接近前沿模型水平。",
+        "summary_en": "GameGo is a scalable framework that transforms brief game seeds into comprehensive Product Requirements Documents grounded in industry practices, using task-specific dynamic compression to preserve gameplay constraints. It builds GameGoData with 55,060 development trajectories across 2D/2.5D/3D games and GameGoBench with 124 game queries. The trained GameGoCoder outperforms matched baselines and rivals frontier models on gamedev benchmarks.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "benchmark",
+          "research",
+          "application"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-08T23:12:14.246521+08:00",
+        "updated_at": "2026-10-08T23:12:14.246523+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
+      "url": "https://arxiv.org/abs/2610.06914",
+      "description": "arXiv:2610.06914v1 Announce Type: new \nAbstract: Text2Dashboard is a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The pipeline resolves entities, discovers metadata, enforces read-only SQL, composes dashboards, and applies static checks, dynamic preflight, and browser inspection. The model proposes actions while deterministic software controls execution and records state transitions.\n  We evaluate the workflow on frozen real-DataBrain tasks and controlled Hook faults. Strict success was 6/8 on metadata and SQL tasks: metadata selection passed 4/4, all four SQL tasks met semantic criteria, and 2/4 met the exact output-column contract. The final release passed 4/4 single-panel dashboard tasks, one two-panel task, and one existing-dashboard refinement; a parameterised task exceeded its step limit. All ten fault scenarios met their specified outcomes without unapproved external side effects. Model inference accounted for over 97\\% of observed runtime in every reported group. These small, DataBrain-specific results do not establish production readiness, general text-to-SQL accuracy, or an efficiency advantage over manual dashboard construction.",
+      "pub_date": "Thu, 08 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Text2Dashboard：面向企业DataBrain的自然语言仪表盘生成治理型Agent架构",
+        "summary": "Text2Dashboard是一个DataBrain专用原型，将自然语言分析请求转化为可审查的仪表盘。通过Codex插件与Agent Runtime，结合模式约束的模型决策、类型化工具、持久状态和确定性Hooks，实现审批、审计、检查点、恢复与故障处理。模型仅提出动作，确定性软件控制执行并记录状态转换。",
+        "summary_en": "Text2Dashboard is a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The model proposes actions while deterministic software controls execution and records state transitions.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "research",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-08-rss-002",
+        "title": "Text2Dashboard：面向企业DataBrain的自然语言仪表盘生成治理型Agent架构",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.06914",
+        "language": "en",
+        "summary": "Text2Dashboard是一个DataBrain专用原型，将自然语言分析请求转化为可审查的仪表盘。通过Codex插件与Agent Runtime，结合模式约束的模型决策、类型化工具、持久状态和确定性Hooks，实现审批、审计、检查点、恢复与故障处理。模型仅提出动作，确定性软件控制执行并记录状态转换。",
+        "summary_en": "Text2Dashboard is a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The model proposes actions while deterministic software controls execution and records state transitions.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "research",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-08T23:12:14.246525+08:00",
+        "updated_at": "2026-10-08T23:12:14.246526+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "FluidPD: In-Place Elasticity for SLO-Aware Prefill-Decode Disaggregated LLM Serving",
+      "url": "https://arxiv.org/abs/2610.06917",
+      "description": "arXiv:2610.06917v1 Announce Type: new \nAbstract: Prefill-decode disaggregation is becoming a common architecture for LLM serving because it separates two phases with distinct execution patterns and SLO objectives. Existing systems typically combine a fixed prefill/decode worker ratio with request routing across workers. However, real-world workloads exhibit both short bursts and sustained shifts in the prefill-to-decode demand ratio. As a result, a configuration that is well provisioned at one time may quickly become mismatched, causing latency SLO violations even when idle capacity exists elsewhere. Existing autoscaling mechanisms can add capacity, but they react slowly, require spare GPUs, and do not directly address short-timescale phase imbalance.\n  We present FluidPD, a P/D-disaggregated serving system that provides SLO-aware in-place elasticity. FluidPD introduces two complementary mechanisms. FluidToken handles transient imbalance by offloading a bounded portion of prefill computation to decode workers when decode-side slack is available. FluidRole handles sustained imbalance by reassigning running workers between prefill and decode roles in place, avoiding model reload and engine restart. Both mechanisms are guided by lightweight pressure indices that expose prefill and decode-side resource pressure before they appear as SLO violations. Across production Azure trace workloads, FluidPD improves overall SLO attainment over static SGLang by up to 94.6 percentage points, demonstrating that SLO-aware in-place P/D elasticity improves service quality without provisioning additional workers.",
+      "pub_date": "Thu, 08 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "FluidPD：面向SLO感知的预填充-解码分离式LLM服务原地弹性调度",
+        "summary": "FluidPD提出面向预填充-解码分离式LLM服务的SLO感知原地弹性机制，通过FluidToken将部分预填充计算卸载至空闲解码worker应对瞬时失衡，通过FluidRole原地切换worker角色应对持续失衡，避免模型重载与引擎重启。在Azure生产负载上，SLO达成率较静态SGLang提升最高94.6个百分点。",
+        "summary_en": "FluidPD presents SLO-aware in-place elasticity for prefill-decode disaggregated LLM serving. FluidToken offloads bounded prefill computation to decode workers during transient imbalance, while FluidRole reassigns running workers between prefill and decode roles in place for sustained imbalance, avoiding model reload and engine restart. On production Azure traces, it improves SLO attainment over static SGLang by up to 94.6 percentage points.",
+        "tags": [
+          "llm",
+          "infrastructure",
+          "research",
+          "evaluation"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-08-rss-003",
+        "title": "FluidPD：面向SLO感知的预填充-解码分离式LLM服务原地弹性调度",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.06917",
+        "language": "en",
+        "summary": "FluidPD提出面向预填充-解码分离式LLM服务的SLO感知原地弹性机制，通过FluidToken将部分预填充计算卸载至空闲解码worker应对瞬时失衡，通过FluidRole原地切换worker角色应对持续失衡，避免模型重载与引擎重启。在Azure生产负载上，SLO达成率较静态SGLang提升最高94.6个百分点。",
+        "summary_en": "FluidPD presents SLO-aware in-place elasticity for prefill-decode disaggregated LLM serving. FluidToken offloads bounded prefill computation to decode workers during transient imbalance, while FluidRole reassigns running workers between prefill and decode roles in place for sustained imbalance, avoiding model reload and engine restart. On production Azure traces, it improves SLO attainment over static SGLang by up to 94.6 percentage points.",
+        "tags": [
+          "llm",
+          "infrastructure",
+          "research",
+          "evaluation"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-08T23:12:14.246528+08:00",
+        "updated_at": "2026-10-08T23:12:14.246529+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Anchor Divergence for Semantic Geometry in Contrastive Learning",
+      "url": "https://arxiv.org/abs/2610.06919",
+      "description": "arXiv:2610.06919v1 Announce Type: new \nAbstract: This paper concerns how semantic context determines geometry in learned vector representations. Similarity is typically measured using cosine similarity, which provides a single fixed geometry. Semantic similarity, however, is inherently context dependent: two images may be similar because they depict the same object, share a visual style, or are relevant to the same clinical finding. We show that contrastive representations naturally encompass a family of geometries that can be specialized to particular semantic structure. The key idea is to use an interplay between contrastive learning, exponential families, and information geometry to establish a correspondence between probability distributions over \"anchors\" and Bregman geometries on the representation space. We use this correspondence to define \"Anchor Divergences\", a method for specifying context-specific semantic geometries on fixed representations. Under this correspondence, modeling the anchor distribution models the geometry itself. Experiments on retrieval show that anchor divergences provide an effective and efficient way to specify context-specific semantic similarity.",
+      "pub_date": "Thu, 08 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "对比学习中的锚点散度与语义几何",
+        "summary": "本文提出锚点散度（Anchor Divergences），通过对比学习、指数族与信息几何的相互作用，建立锚点概率分布与表示空间上Bregman几何之间的对应关系，从而在固定表示上指定上下文相关的语义几何，实验表明该方法能高效地指定特定情境下的语义相似度。",
+        "summary_en": "This paper introduces Anchor Divergences, using the interplay between contrastive learning, exponential families, and information geometry to establish a correspondence between anchor distributions and Bregman geometries on the representation space, enabling context-specific semantic geometries on fixed representations, with retrieval experiments showing effectiveness and efficiency.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-08-rss-008",
+        "title": "对比学习中的锚点散度与语义几何",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.06919",
+        "language": "en",
+        "summary": "本文提出锚点散度（Anchor Divergences），通过对比学习、指数族与信息几何的相互作用，建立锚点概率分布与表示空间上Bregman几何之间的对应关系，从而在固定表示上指定上下文相关的语义几何，实验表明该方法能高效地指定特定情境下的语义相似度。",
+        "summary_en": "This paper introduces Anchor Divergences, using the interplay between contrastive learning, exponential families, and information geometry to establish a correspondence between anchor distributions and Bregman geometries on the representation space, enabling context-specific semantic geometries on fixed representations, with retrieval experiments showing effectiveness and efficiency.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-10-08T23:12:14.246542+08:00",
+        "updated_at": "2026-10-08T23:12:14.246543+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
+      "url": "https://arxiv.org/abs/2610.06923",
+      "description": "arXiv:2610.06923v1 Announce Type: new \nAbstract: Artificial intelligence has advanced individual radiotherapy tasks, yet these capabilities remain separated across clinical stages, software environments and data modalities. This fragmentation contrasts with the longitudinal radiotherapy workflow from treatment decision-making through follow-up. Here we present RadOnc-Agent, an agentic artificial-intelligence framework that formalizes radiotherapy into four clinical phases and provides 26 callable functions through a conversational interface. A large-language-model controller maps clinical intent to schema-constrained calls, preserves patient and workflow context, and routes requests to specialist services. We evaluated system execution using 2,600 single-function requests (7,800 repeat executions), 200 prespecified synthetic cross-stage scenarios spanning four phases (600 executions), and 120 workflow instances from 60 de-identified patient records (360 clean executions) representing decision-to-planning and planning-to-adaptation. RadOnc-Agent selected the intended function in 98.79% of single-function executions, completed 96.50% of scripted cross-stage workflows, and completed 96.67% of real-patient workflow executions. In comparative ablations, removing longitudinal state reduced cross-stage completion from 96.50% to 84.00%, while disabling schema and identity validation increased mismatched backend dispatch from 0% to 95.28% in a replay/test evaluation. These findings establish the technical feasibility of an LLM-orchestrated architecture for coordinating heterogeneous radiotherapy capabilities and information across longitudinal workflows; they do not establish clinical correctness, clinical utility or prospective benefit.",
+      "pub_date": "Thu, 08 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RadOnc-Agent：LLM编排的放疗全流程AI工作流框架",
+        "summary": "提出RadOnc-Agent，一个基于LLM控制器的智能体框架，将放疗流程形式化为四个临床阶段，提供26个可调用函数。系统在单函数请求中98.79%选择正确函数，跨阶段工作流完成率96.50%，真实患者工作流完成率96.67%。消融实验表明纵向状态和模式验证对性能至关重要。",
+        "summary_en": "RadOnc-Agent is an LLM-orchestrated agentic framework that formalizes radiotherapy into four clinical phases with 26 callable functions via a conversational interface. It selected the intended function in 98.79% of single-function executions, completed 96.50% of cross-stage workflows, and 96.67% of real-patient workflows. Ablations show longitudinal state and schema validation are critical.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "research"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-08-rss-004",
+        "title": "RadOnc-Agent：LLM编排的放疗全流程AI工作流框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.06923",
+        "language": "en",
+        "summary": "提出RadOnc-Agent，一个基于LLM控制器的智能体框架，将放疗流程形式化为四个临床阶段，提供26个可调用函数。系统在单函数请求中98.79%选择正确函数，跨阶段工作流完成率96.50%，真实患者工作流完成率96.67%。消融实验表明纵向状态和模式验证对性能至关重要。",
+        "summary_en": "RadOnc-Agent is an LLM-orchestrated agentic framework that formalizes radiotherapy into four clinical phases with 26 callable functions via a conversational interface. It selected the intended function in 98.79% of single-function executions, completed 96.50% of cross-stage workflows, and 96.67% of real-patient workflows. Ablations show longitudinal state and schema validation are critical.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "research"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-08T23:12:14.246531+08:00",
+        "updated_at": "2026-10-08T23:12:14.246532+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages",
+      "url": "https://arxiv.org/abs/2610.08794",
+      "description": "arXiv:2610.08794v1 Announce Type: new \nAbstract: Large language models rely on subword tokenizers whose quality varies across languages, yet no standardized multi-metric framework exists for broad comparative evaluation. We introduce Tokka-Bench, an open-source framework that evaluates tokenizers on five complementary metrics -- bytes per token, unique token coverage, subword fertility, word-split rate, and vocabulary composition -- across 100 natural languages (30+ scripts) and 20 programming languages, using language-aware segmentation adapted to each writing system. Comparing seven BPE tokenizers (GPT-2, GPT-4, gpt-oss, Llama 3.1, Gemma 3, Qwen3, and Kimi K2) within individual languages, we find that vocabulary allocation strategy matters more than raw vocabulary size, and that programming-language efficiency has converged among recent tokenizers despite divergent natural-language profiles. The framework, data, and interactive dashboard are publicly available.",
+      "pub_date": "Thu, 08 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Tokka-Bench：跨100种自然语言与20种编程语言的Tokenizer评估框架",
+        "summary": "Tokka-Bench是一个开源框架，通过字节每token、唯一token覆盖率、子词生育率、词切分率和词表组成五项指标，评估100种自然语言和20种编程语言的分词器。对比七种BPE分词器发现，词表分配策略比词表规模更重要，且编程语言效率已趋同。",
+        "summary_en": "Tokka-Bench is an open-source framework evaluating tokenizers on five metrics—bytes per token, unique token coverage, subword fertility, word-split rate, and vocabulary composition—across 100 natural languages and 20 programming languages. Comparing seven BPE tokenizers reveals vocabulary allocation strategy matters more than raw size, and programming-language efficiency has converged.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research",
+          "open-source"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-08-rss-005",
+        "title": "Tokka-Bench：跨100种自然语言与20种编程语言的Tokenizer评估框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.08794",
+        "language": "en",
+        "summary": "Tokka-Bench是一个开源框架，通过字节每token、唯一token覆盖率、子词生育率、词切分率和词表组成五项指标，评估100种自然语言和20种编程语言的分词器。对比七种BPE分词器发现，词表分配策略比词表规模更重要，且编程语言效率已趋同。",
+        "summary_en": "Tokka-Bench is an open-source framework evaluating tokenizers on five metrics—bytes per token, unique token coverage, subword fertility, word-split rate, and vocabulary composition—across 100 natural languages and 20 programming languages. Comparing seven BPE tokenizers reveals vocabulary allocation strategy matters more than raw size, and programming-language efficiency has converged.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research",
+          "open-source"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-08T23:12:14.246533+08:00",
+        "updated_at": "2026-10-08T23:12:14.246534+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Child ASR Adaptation with Adult Retention: An Empirical Study",
+      "url": "https://arxiv.org/abs/2610.08827",
+      "description": "arXiv:2610.08827v1 Announce Type: new \nAbstract: Automatic Speech Recognition (ASR) systems often underperform for children and non-native speakers, while adapting adult ASR models to child speech can cause adult-speech forgetting. We study child ASR adaptation with adult retention across Arabic and English. We compare full fine-tuning, LoRA, and post-hoc weight-space merging across encoder--decoder, encoder--CTC, and AudioLLM-based ASR systems. Experiments use Arabic native and non-native child speech, English MyST child speech, and adult benchmarks from MGB-2 and LibriSpeech test-clean. We evaluate recognition quality with WER and quantify the adaptation--retention trade-off using Retention Index, Child Adaptation Gain, and Adaptation Recovery. Results show that child adaptation is necessary, especially for non-native Arabic and English child speech, but direct adaptation often reduces adult ASR performance. Bilingual adaptation is more stable than language-specific adaptation. Weight-space merging often improves the trade-off, especially for encoder--CTC, Whisper, and AudioLLM-based ASR, with LERP favoring adult retention and TIES recovering stronger child gains. For the encoder--decoder model, direct bilingual fine-tuning remains strongest in raw WER.\\footnote{Code, and models are available at https://github.com/qcri/Child-ASR-Adaptation.",
+      "pub_date": "Thu, 08 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "儿童语音识别适配与成人语音保持的实证研究",
+        "summary": "研究儿童ASR适配同时保持成人语音性能，比较全量微调、LoRA和权重空间合并方法，覆盖阿拉伯语和英语。结果显示儿童适配必要但会损害成人性能，双语适配更稳定，权重合并可改善权衡。",
+        "summary_en": "Studies child ASR adaptation while retaining adult performance across Arabic and English, comparing full fine-tuning, LoRA, and weight-space merging. Child adaptation is necessary but often degrades adult ASR; bilingual adaptation is more stable and weight merging improves the trade-off.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-08-rss-009",
+        "title": "儿童语音识别适配与成人语音保持的实证研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.08827",
+        "language": "en",
+        "summary": "研究儿童ASR适配同时保持成人语音性能，比较全量微调、LoRA和权重空间合并方法，覆盖阿拉伯语和英语。结果显示儿童适配必要但会损害成人性能，双语适配更稳定，权重合并可改善权衡。",
+        "summary_en": "Studies child ASR adaptation while retaining adult performance across Arabic and English, comparing full fine-tuning, LoRA, and weight-space merging. Child adaptation is necessary but often degrades adult ASR; bilingual adaptation is more stable and weight merging improves the trade-off.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-10-08T23:12:14.246545+08:00",
+        "updated_at": "2026-10-08T23:12:14.246546+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When Forgetting Looks Like Improvement: Metric Masking in Streaming Diarizer Adaptation and the Price of Rehearsal",
+      "url": "https://arxiv.org/abs/2610.08828",
+      "description": "arXiv:2610.08828v1 Announce Type: new \nAbstract: Small-data adaptation can improve speech detection while degrading speaker attribution. We study this discrepancy in a released streaming diarizer adapted on 7.5 h of two-party conversation and evaluated across six corpora. Adaptation substantially improves in-domain diarization performance and transfers to an independent corpus. However, this improvement is not consistent across evaluation scenarios as the additional confusion is mainly associated with impaired temporal identity consistency rather than speaker-count errors. A local-remapping diagnostic reveals different patterns of identity degradation across corpora, indicating that adaptation may alter how streaming models maintain speaker assignments over time. Rehearsal reduces the observed degradation but reduces the cross-domain transfer performance. These results highlight the need to jointly evaluate detection accuracy, identity consistency, and retention behavior when adapting streaming diarization systems.",
+      "pub_date": "Thu, 08 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "遗忘看似进步：流式说话人日志适配中的指标掩盖与排练代价",
+        "summary": "研究小数据适配对流式说话人日志系统的影响，发现适配虽提升域内检测性能，却损害说话人身份的时间一致性，且排练虽减少退化但降低跨域迁移能力。",
+        "summary_en": "This paper studies small-data adaptation in a streaming diarizer, finding that adaptation improves in-domain detection but degrades temporal identity consistency, and rehearsal reduces degradation at the cost of cross-domain transfer.",
+        "tags": [
+          "research",
+          "evaluation",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-08-rss-010",
+        "title": "遗忘看似进步：流式说话人日志适配中的指标掩盖与排练代价",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.08828",
+        "language": "en",
+        "summary": "研究小数据适配对流式说话人日志系统的影响，发现适配虽提升域内检测性能，却损害说话人身份的时间一致性，且排练虽减少退化但降低跨域迁移能力。",
+        "summary_en": "This paper studies small-data adaptation in a streaming diarizer, finding that adaptation improves in-domain detection but degrades temporal identity consistency, and rehearsal reduces degradation at the cost of cross-domain transfer.",
+        "tags": [
+          "research",
+          "evaluation",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-10-08T23:12:14.246548+08:00",
+        "updated_at": "2026-10-08T23:12:14.246549+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Emo-Jev: Probabilistic Reasoning for Emotion Classification with Jev",
+      "url": "https://arxiv.org/abs/2610.08829",
+      "description": "arXiv:2610.08829v1 Announce Type: new \nAbstract: Jev offers an alternative interface for language understanding: given an input and predefined questions, it returns probabilistic decisions rather than free-form responses. Whether this interface can support effective reasoning for text classification against leading LLMs remains an open questions. We introduce Emo-Jev, a training-free framework with two complementary implementations. Emo-Jev-D decomposes classification into task-specific atomic judgments and composes their probabilities into a final prediction. Emo-Jev-SC constructs multiple judgment paths from complementary perspectives and aggregates their predictions into a consensus decision. We evaluate Emo-Jev on eight datasets spanning sentiment analysis, emotion recognition, sarcasm detection and humor detection, comparing against direct Jev classification and five SoTA LLMs under input/output and chain-of-thought reasoning. Standard Jev achieves 62.93\\% average macro-F1 versus 67.28\\% for the strongest LLM baseline, with lower observed latency and generally lower cost.",
+      "pub_date": "Thu, 08 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Emo-Jev：基于Jev概率推理的情感分类框架",
+        "summary": "Emo-Jev是一个无需训练的框架，利用Jev的概率决策接口进行文本分类。它包含两种实现：Emo-Jev-D将分类分解为原子判断并组合概率，Emo-Jev-SC构建多路径判断并聚合共识。在八个数据集上评估，标准Jev平均macro-F1为62.93%，低于最强LLM基线的67.28%，但延迟和成本更低。",
+        "summary_en": "Emo-Jev is a training-free framework leveraging Jev's probabilistic decision interface for text classification. It offers two implementations: Emo-Jev-D decomposes classification into atomic judgments and composes probabilities, while Emo-Jev-SC builds multiple judgment paths and aggregates consensus. Evaluated on eight datasets, standard Jev achieves 62.93% average macro-F1 versus 67.28% for the strongest LLM baseline, with lower latency and cost.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-08-rss-006",
+        "title": "Emo-Jev：基于Jev概率推理的情感分类框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.08829",
+        "language": "en",
+        "summary": "Emo-Jev是一个无需训练的框架，利用Jev的概率决策接口进行文本分类。它包含两种实现：Emo-Jev-D将分类分解为原子判断并组合概率，Emo-Jev-SC构建多路径判断并聚合共识。在八个数据集上评估，标准Jev平均macro-F1为62.93%，低于最强LLM基线的67.28%，但延迟和成本更低。",
+        "summary_en": "Emo-Jev is a training-free framework leveraging Jev's probabilistic decision interface for text classification. It offers two implementations: Emo-Jev-D decomposes classification into atomic judgments and composes probabilities, while Emo-Jev-SC builds multiple judgment paths and aggregates consensus. Evaluated on eight datasets, standard Jev achieves 62.93% average macro-F1 versus 67.28% for the strongest LLM baseline, with lower latency and cost.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-08T23:12:14.246535+08:00",
+        "updated_at": "2026-10-08T23:12:14.246536+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CoDR: Training-Free Confidence-Drift Remasking for Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.08833",
+      "description": "arXiv:2610.08833v1 Announce Type: new \nAbstract: Masked diffusion language models (MDLMs) decode by repeatedly committing tokens to masked positions, but these commitments are usually irreversible. A token chosen under sparse, partial context is kept fixed, even when later context no longer supports it. Existing samplers mainly decide when to commit a token, but rarely check whether an already committed token should still be kept, allowing early mistakes to propagate. We trace this issue to confidence drift, where the model's confidence in a committed token drops from its sparse commit-time context to the denser context available later. Based on this signal, we propose CoDR (Confidence Drift Remasking), a training-free and sampler-agnostic refinement pass. CoDR estimates drift for all committed positions in only k forward passes via k-partition probing, then remasks and regenerates only the tokens the model no longer endorses. Across two backbones, four reasoning and coding tasks, and three base samplers, CoDR improves average accuracy across all evaluated model-sampler configurations and improves most individual task settings with modest overhead. Controlled experiments show that the gains come from targeted confidence-drift remasking rather than extra compute alone, and that CoDR uses far fewer forward passes than prior remasking methods. Code is available at https://github.com/YueWu0301/CoDR.",
+      "pub_date": "Thu, 08 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CoDR：面向扩散语言模型的无训练置信度漂移重掩码方法",
+        "summary": "提出CoDR，一种无需训练、与采样器无关的细化方法，通过k次前向传播检测已提交token的置信度漂移，仅对模型不再认可的token进行重掩码与重生成，在多个骨干模型、任务和采样器上提升准确率且开销较小。",
+        "summary_en": "CoDR introduces a training-free, sampler-agnostic refinement pass that detects confidence drift in committed tokens via k-partition probing, then remasks and regenerates only tokens the model no longer endorses, improving accuracy across backbones, tasks, and samplers with modest overhead.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "llm",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-08-rss-007",
+        "title": "CoDR：面向扩散语言模型的无训练置信度漂移重掩码方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.08833",
+        "language": "en",
+        "summary": "提出CoDR，一种无需训练、与采样器无关的细化方法，通过k次前向传播检测已提交token的置信度漂移，仅对模型不再认可的token进行重掩码与重生成，在多个骨干模型、任务和采样器上提升准确率且开销较小。",
+        "summary_en": "CoDR introduces a training-free, sampler-agnostic refinement pass that detects confidence drift in committed tokens via k-partition probing, then remasks and regenerates only tokens the model no longer endorses, improving accuracy across backbones, tasks, and samplers with modest overhead.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "llm",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-08T23:12:14.246538+08:00",
+        "updated_at": "2026-10-08T23:12:14.246539+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}
