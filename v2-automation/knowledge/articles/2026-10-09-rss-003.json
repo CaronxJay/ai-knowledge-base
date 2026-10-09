@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-09-rss-003",
+  "title": "运行时框架作为唯一可变层：信贷流水线中LLM智能体的合规自演化与准入闸门",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.10629",
+  "language": "en",
+  "summary": "论文提出将LLM智能体的自演化限制在运行时框架（指令、工具调用逻辑）内，保持模型权重固定，使每次适应都可审查。通过双循环引擎与哈希链准入闸门，在模拟中仅接纳144/7449个候选变更，且未恶化历史误差；无闸门时则接纳309个有害变更。",
+  "summary_en": "The paper argues self-evolving LLM agents should be confined to the runtime harness (instructions, tool-call logic) while model weights stay fixed, making every adaptation a reviewable diff. A dual-loop engine with a hash-chained admission gate admitted only 144 of 7,449 candidate changes in simulation, none worsening held-out error, versus 309 harmful changes without the gate.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "security",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-09T22:57:37.395697+08:00",
+  "updated_at": "2026-10-09T22:57:37.395698+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

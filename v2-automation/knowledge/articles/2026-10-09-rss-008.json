@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-09-rss-008",
+  "title": "有损压缩文本自编码器",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.10738",
+  "language": "en",
+  "summary": "本文提出一种文本自编码器架构，通过沿时间轴对隐藏表示进行残差降采样与升采样，并引入残差低维离散瓶颈，学习文本的压缩潜在表示。在网页文本数据上达到2.24比特/字节的压缩率，与无损压缩算法相当，同时保持良好重建与下游任务性能。",
+  "summary_en": "This work proposes an autoencoder architecture that learns compressed latent representations of text via residual downscaling and upscaling of hidden representations along the time axis with a residual low-dimension discrete bottleneck. It achieves 2.24 bits per byte on web text data, on par with lossless compression, while maintaining good reconstruction and downstream task performance.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-10-09T22:57:37.395711+08:00",
+  "updated_at": "2026-10-09T22:57:37.395711+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

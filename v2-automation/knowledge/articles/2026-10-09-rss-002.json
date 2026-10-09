@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-09-rss-002",
+  "title": "工具使用智能体的可控遗忘：可逆上下文管理实践",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.10590",
+  "language": "en",
+  "summary": "研究智能体可控遗忘机制：模型选择已观察的工具结果，用简短笔记替换并保留原始内容于可恢复存档中。在OpenTelemetry调试案例中，提示词token从912,492降至231,951，输入token减少50%，成本从约4.38美元降至1.28-1.44美元，但请求更多、耗时增加17%。表明在噪声工具轨迹中可显著节省资源，且存在工作负载依赖性。",
+  "summary_en": "This paper studies agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note while archiving the exact original for recovery. In an OpenTelemetry debugging case, prompt tokens dropped from 912,492 to 231,951, input tokens fell 50%, and cost went from ~$4.38 to $1.28-1.44, though with more requests and 17% longer runtime. Results show substantial savings in noisy tool-use trajectories with workload dependence.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "tool",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-09T22:57:37.395694+08:00",
+  "updated_at": "2026-10-09T22:57:37.395695+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-09-rss-007",
+  "title": "大语言模型辅助交通管理计划编制：WisDOT WisTMP系统案例研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.10650",
+  "language": "en",
+  "summary": "本文提出基于大语言模型的交通管理计划（TMP）自动生成框架，以WisDOT WisTMP系统为应用场景。通过将历史PDF文档转为结构化问答数据集，对多个开源LLM进行微调并本地部署以保障数据安全。实验表明微调显著提升文本生成性能，但模型存在策略过度生成、缺乏项目针对性论证和成本估算不准等问题，且从7B/8B扩展到14B收益有限。",
+  "summary_en": "This paper proposes an LLM-assisted framework to automate Transportation Management Plan (TMP) content generation using the WisDOT WisTMP system. It fine-tunes multiple open-source LLMs at different scales and deploys them locally for data security, building a domain-specific dataset from historical PDFs converted into structured QA pairs. Results show fine-tuning significantly improves text generation metrics, but models over-generate strategies and struggle with project-specific justifications and cost estimates, with limited gains from 7B/8B to 14B scaling.",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "application",
+    "research",
+    "evaluation"
+  ],
+  "category": "application",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-09T22:57:37.395708+08:00",
+  "updated_at": "2026-10-09T22:57:37.395709+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

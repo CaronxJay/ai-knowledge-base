@@ -1,0 +1,489 @@
+{
+  "collected_at": "2026-10-09T22:57:37.396289+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
+      "url": "https://arxiv.org/abs/2610.10541",
+      "description": "arXiv:2610.10541v1 Announce Type: new \nAbstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailable, noisy, or unsuitable, column headers become a critical source of semantic evidence for traceable KG preparation.\n  We present an explainable, header-centric framework for metadata-only Column Type Annotation (CTA) and Data Quality Assessment (DQA). The framework maps headers to 39 interpretable FinalFormat types using curated lexical resources and preserves token-level traceability through SourceKeywords. Each assigned type activates validation rules based on a taxonomy of Data Quality Issues (DQIs), producing detections such as missing data, duplicates, domain violations, wrong data type, and temporal mismatch. These detections are aggregated into HeadersIQ, a lightweight, unweighted data source-level quality metric.\n  The framework was evaluated across heterogeneous benchmarks, including UCI, Prague, Kaggle, VizNet/Sato, SOTAB, T2Dv2, and the SemTab 2024 Metadata-to-KG track, comprising around 120,000 header columns. The results show broad practical coverage across noisy real-world metadata, while a parallel KG-mapping pathway supports alignment to DBpedia and Schema.org. On the SemTab 2024 Metadata-to-KG track, the official GT-strict evaluation was modest. However, a blinded diagnostic audit indicates that many mismatches reflect benchmark granularity, aliasing, and ontology-selection effects rather than wholly implausible header-centric predictions. We report this audit as diagnostic evidence on disagreement patterns, not as revised benchmark performance. Overall, the paper presents a reusable workflow for metadata-driven semantic annotation, data source-level quality monitoring, and KG-oriented benchmark diagnosis.",
+      "pub_date": "Fri, 09 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "可解释的以表头为中心的大规模语义表格解释与数据质量评估框架",
+        "summary": "提出以表头为中心的可解释框架，在仅有元数据时进行列类型标注与数据质量评估，将表头映射到39种可解释类型并保留词级溯源，通过数据质量问题分类触发验证规则，聚合为HeadersIQ质量指标，在约12万表头列上验证了实用性。",
+        "summary_en": "Presents an explainable, header-centric framework for metadata-only Column Type Annotation and Data Quality Assessment, mapping headers to 39 interpretable types with token-level traceability, activating validation rules from a Data Quality Issue taxonomy, and aggregating into HeadersIQ, evaluated on ~120,000 header columns across heterogeneous benchmarks.",
+        "tags": [
+          "research",
+          "evaluation",
+          "llm",
+          "rag",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-09-rss-009",
+        "title": "可解释的以表头为中心的大规模语义表格解释与数据质量评估框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.10541",
+        "language": "en",
+        "summary": "提出以表头为中心的可解释框架，在仅有元数据时进行列类型标注与数据质量评估，将表头映射到39种可解释类型并保留词级溯源，通过数据质量问题分类触发验证规则，聚合为HeadersIQ质量指标，在约12万表头列上验证了实用性。",
+        "summary_en": "Presents an explainable, header-centric framework for metadata-only Column Type Annotation and Data Quality Assessment, mapping headers to 39 interpretable types with token-level traceability, activating validation rules from a Data Quality Issue taxonomy, and aggregating into HeadersIQ, evaluated on ~120,000 header columns across heterogeneous benchmarks.",
+        "tags": [
+          "research",
+          "evaluation",
+          "llm",
+          "rag",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-10-09T22:57:37.395715+08:00",
+        "updated_at": "2026-10-09T22:57:37.395716+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+      "url": "https://arxiv.org/abs/2610.10549",
+      "description": "arXiv:2610.10549v1 Announce Type: new \nAbstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, but its effectiveness is fundamentally limited by structural validity and schema availability, while procedure-based approaches yield the opposite weakness, typically lacking distributional fidelity without per-domain authoring. We introduce **Synthesis Through Simulation** (STS), a **schema--free** data synthesis paradigm in which an LLM agent generates data by executing operations against policy-enforcing APIs within simulated enterprise environments. Because data is generated through the same environment that defines what is valid, STS guarantees structural validity by construction while decoupling validity enforcement from distribution modeling, allowing each to be addressed independently. The **Generalist Populator** (GP), STS's domain-agnostic agent, addresses the remaining challenges of distributional fidelity and synthesis scalability: GP achieves **0.88** average marginal fidelity and **100\\% constraint satisfaction** across all ten environments *without access to DB schemas*, while statistical synthesizers are inapplicable to seven due to necessary seed data requirements, and schema-privileged agents fail 82\\% of trajectories on airline environment's tightly coupled workflows due to brittle task composition. We open-source the full framework, all ten environments, and generated datasets at https://github.com/SAP/synthesis-through-simulation.",
+      "pub_date": "Fri, 09 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通过模拟合成：可扩展智能体系统交互生成企业数据",
+        "summary": "提出STS范式，让LLM智能体在模拟企业环境中通过策略API生成数据，无需数据库模式即可保证结构有效性与分布保真度，开源框架及十个环境。",
+        "summary_en": "Introduces Synthesis Through Simulation (STS), a schema-free data synthesis paradigm where an LLM agent generates data by executing operations against policy-enforcing APIs in simulated enterprise environments, guaranteeing structural validity by construction. The Generalist Populator achieves 0.88 average marginal fidelity and 100% constraint satisfaction across ten environments without DB schemas. Framework and datasets are open-sourced.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "benchmark",
+          "open-source"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-09-rss-001",
+        "title": "通过模拟合成：可扩展智能体系统交互生成企业数据",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.10549",
+        "language": "en",
+        "summary": "提出STS范式，让LLM智能体在模拟企业环境中通过策略API生成数据，无需数据库模式即可保证结构有效性与分布保真度，开源框架及十个环境。",
+        "summary_en": "Introduces Synthesis Through Simulation (STS), a schema-free data synthesis paradigm where an LLM agent generates data by executing operations against policy-enforcing APIs in simulated enterprise environments, guaranteeing structural validity by construction. The Generalist Populator achieves 0.88 average marginal fidelity and 100% constraint satisfaction across ten environments without DB schemas. Framework and datasets are open-sourced.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "benchmark",
+          "open-source"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-09T22:57:37.395690+08:00",
+        "updated_at": "2026-10-09T22:57:37.395692+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+      "url": "https://arxiv.org/abs/2610.10590",
+      "description": "arXiv:2610.10590v1 Announce Type: new \nAbstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note at its original position, and retains the exact original in a recoverable archive. A Python harness exposes batch archival and explicit recovery without task-specific model training, while protecting user instructions and assistant messages from these operations. In an exploratory OpenTelemetry debugging case followed by an unrelated implementation task, the method ended with 231,951 provider-reported prompt tokens versus 912,492 under retained history, used 50% fewer cumulative input tokens, and had an estimated API cost of USD 1.28-1.44 versus approximately USD 4.38. Both arms passed the two-case primary behavioral oracle; neither fully satisfied the follow-up evaluation. The method made more requests and took 17% longer. A contrasting application-development pair produced no context or cost saving, and an earlier continuation exhibited lower manually assessed quality despite reduced context. These observations demonstrate substantial resource savings in noisy tool-use trajectories and identify workload dependence as a central consideration for reversible context management.",
+      "pub_date": "Fri, 09 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "工具使用智能体的可控遗忘：可逆上下文管理实践",
+        "summary": "研究智能体可控遗忘机制：模型选择已观察的工具结果，用简短笔记替换并保留原始内容于可恢复存档中。在OpenTelemetry调试案例中，提示词token从912,492降至231,951，输入token减少50%，成本从约4.38美元降至1.28-1.44美元，但请求更多、耗时增加17%。表明在噪声工具轨迹中可显著节省资源，且存在工作负载依赖性。",
+        "summary_en": "This paper studies agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note while archiving the exact original for recovery. In an OpenTelemetry debugging case, prompt tokens dropped from 912,492 to 231,951, input tokens fell 50%, and cost went from ~$4.38 to $1.28-1.44, though with more requests and 17% longer runtime. Results show substantial savings in noisy tool-use trajectories with workload dependence.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "tool",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-09-rss-002",
+        "title": "工具使用智能体的可控遗忘：可逆上下文管理实践",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.10590",
+        "language": "en",
+        "summary": "研究智能体可控遗忘机制：模型选择已观察的工具结果，用简短笔记替换并保留原始内容于可恢复存档中。在OpenTelemetry调试案例中，提示词token从912,492降至231,951，输入token减少50%，成本从约4.38美元降至1.28-1.44美元，但请求更多、耗时增加17%。表明在噪声工具轨迹中可显著节省资源，且存在工作负载依赖性。",
+        "summary_en": "This paper studies agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note while archiving the exact original for recovery. In an OpenTelemetry debugging case, prompt tokens dropped from 912,492 to 231,951, input tokens fell 50%, and cost went from ~$4.38 to $1.28-1.44, though with more requests and 17% longer runtime. Results show substantial savings in noisy tool-use trajectories with workload dependence.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "tool",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-09T22:57:37.395694+08:00",
+        "updated_at": "2026-10-09T22:57:37.395695+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+      "url": "https://arxiv.org/abs/2610.10611",
+      "description": "arXiv:2610.10611v1 Announce Type: new \nAbstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes through bounded verification with hidden terminal randomness. A stage specifies admissible transcripts, polynomial bounds, an alternating verification protocol, and a terminal checker. Its native reach uses default support; its closure frontier permits all support already admitted by the interface. Under a uniform pointwise probability gap and task-relative soundness, these are well-defined languages. We prove that independent majority amplification preserves both languages, whereas existential acceptance over random tapes can admit incorrect outputs. Exact verification is the zero-randomness case, with placement and completeness results. The randomized-verifier classes satisfy $\\Sigma_k^{\\mathrm{P}}\\subseteq\\Sigma_k^{\\mathrm{RV}}\\subseteq\\Sigma_{k+1}^{\\mathrm{P}}$; strict enlargement and depth separation require explicit complexity assumptions, while $\\mathrm{BPP}=\\mathrm{P}$ yields exact companions with the same frontiers. Representation analysis separates invariant acceptance from core-versus-support labels that can change under refactoring. For recursive self-improvement, uniformly bounded self-modification under a common sound interpreter and fixed verification protocol remains within the same verification class. A separate conditional-error budget controls false selection across adaptively chosen candidates. A quota-enforced XOR-synthesis family separates unbounded ratios of search success from changes in the accepted languages; exact and probabilistic audits check the resulting evidence requirements. The framework ties self-improvement claims to obligations on correctness, admissible evidence, verification resources, and selection error.",
+      "pub_date": "Fri, 09 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "智能体AI中的验证与自我改进：基础与局限",
+        "summary": "该论文提出有界验证框架，通过隐藏终端随机性区分智能体AI的改进机制。证明独立多数放大保持语言性质，而随机磁带上的存在接受可能引入错误输出。随机验证类满足Σ_k^P⊆Σ_k^RV⊆Σ_{k+1}^P，递归自我改进在固定验证协议下保持同类。",
+        "summary_en": "This paper proposes a bounded verification framework with hidden terminal randomness to distinguish improvement mechanisms in agentic AI. It proves independent majority amplification preserves languages while existential acceptance over random tapes can admit incorrect outputs. Randomized-verifier classes satisfy Σ_k^P⊆Σ_k^RV⊆Σ_{k+1}^P, and recursive self-improvement under fixed verification protocols remains within the same class.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-09-rss-004",
+        "title": "智能体AI中的验证与自我改进：基础与局限",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.10611",
+        "language": "en",
+        "summary": "该论文提出有界验证框架，通过隐藏终端随机性区分智能体AI的改进机制。证明独立多数放大保持语言性质，而随机磁带上的存在接受可能引入错误输出。随机验证类满足Σ_k^P⊆Σ_k^RV⊆Σ_{k+1}^P，递归自我改进在固定验证协议下保持同类。",
+        "summary_en": "This paper proposes a bounded verification framework with hidden terminal randomness to distinguish improvement mechanisms in agentic AI. It proves independent majority amplification preserves languages while existential acceptance over random tapes can admit incorrect outputs. Randomized-verifier classes satisfy Σ_k^P⊆Σ_k^RV⊆Σ_{k+1}^P, and recursive self-improvement under fixed verification protocols remains within the same class.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-09T22:57:37.395700+08:00",
+        "updated_at": "2026-10-09T22:57:37.395701+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+      "url": "https://arxiv.org/abs/2610.10629",
+      "description": "arXiv:2610.10629v1 Announce Type: new \nAbstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a named change, a recorded test, an approval. We argue that self-evolution is reviewable only if it is confined to the runtime harness (instruction text, tool-call logic and primitive composition) while model weights stay fixed, so that every adaptation is a diff with a cause and a test attached. We give a dual-loop engine built on that bound, with one admission gate that writes a hash-chained record before deployment, and we measure the gate in simulation, with a simulated agent and a seeded-search proposer rather than language models. Across three families of supervisory re-interpretation at three severities, 10 seeds each, the gated loop admitted 144 of 7,449 candidate changes, none of which worsened error on held-out history, and restored the false-positive rate to the oracle level without raising missed flags in every low- and mid-severity cell. With the gate replaced by the check an unbounded system applies (fewer errors visible in recent traces), the same loops admitted 309 harmful changes and left missed flags above 10% in 49 of 90 runs: false positives fell because the screen was loosened. Evaluated on pre-shift labels, the gate rejected every candidate, so a re-interpretation must be encoded as a rule that relabels history. Parametric and scope shifts were repaired locally, a structural one only by primitive replacement; at the highest structural severity the gate's fixed tolerance blocked the correct replacement in half the seeds. We map the mechanisms to the EU AI Act's provisions for high-risk credit scoring and note that the April 2026 US model-risk guidance excludes agentic AI from its scope.",
+      "pub_date": "Fri, 09 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "运行时框架作为唯一可变层：信贷流水线中LLM智能体的合规自演化与准入闸门",
+        "summary": "论文提出将LLM智能体的自演化限制在运行时框架（指令、工具调用逻辑）内，保持模型权重固定，使每次适应都可审查。通过双循环引擎与哈希链准入闸门，在模拟中仅接纳144/7449个候选变更，且未恶化历史误差；无闸门时则接纳309个有害变更。",
+        "summary_en": "The paper argues self-evolving LLM agents should be confined to the runtime harness (instructions, tool-call logic) while model weights stay fixed, making every adaptation a reviewable diff. A dual-loop engine with a hash-chained admission gate admitted only 144 of 7,449 candidate changes in simulation, none worsening held-out error, versus 309 harmful changes without the gate.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "security",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-09-rss-003",
+        "title": "运行时框架作为唯一可变层：信贷流水线中LLM智能体的合规自演化与准入闸门",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.10629",
+        "language": "en",
+        "summary": "论文提出将LLM智能体的自演化限制在运行时框架（指令、工具调用逻辑）内，保持模型权重固定，使每次适应都可审查。通过双循环引擎与哈希链准入闸门，在模拟中仅接纳144/7449个候选变更，且未恶化历史误差；无闸门时则接纳309个有害变更。",
+        "summary_en": "The paper argues self-evolving LLM agents should be confined to the runtime harness (instructions, tool-call logic) while model weights stay fixed, making every adaptation a reviewable diff. A dual-loop engine with a hash-chained admission gate admitted only 144 of 7,449 candidate changes in simulation, none worsening held-out error, versus 309 harmful changes without the gate.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "security",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-09T22:57:37.395697+08:00",
+        "updated_at": "2026-10-09T22:57:37.395698+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models",
+      "url": "https://arxiv.org/abs/2610.10550",
+      "description": "arXiv:2610.10550v1 Announce Type: new \nAbstract: Personalizing text-to-image diffusion models from a few reference images requires preserving subject identity while following prompts that describe new contexts. Full-model fine-tuning is parameter-intensive, whereas low-rank adaptation (LoRA) reduces the number of trainable parameters but leaves open how adaptation capacity should be distributed across layers. We introduce Diffu-LoRA, a parameter-efficient method that learns this allocation through gated low-rank adaptation. Diffu-LoRA inserts trainable low-rank components into the linear layers of Transformer blocks and assigns a learnable gate to each component. Bilevel optimization updates the adaptation weights and gate parameters on separate data splits, while progressive pruning removes components with the lowest gate values to meet a prescribed rank budget. This procedure allocates adaptation capacity nonuniformly across layers while keeping the pretrained backbone frozen. Experiments with Stable Diffusion on subjects from DreamBooth and additional collected datasets show improved overall subject fidelity and prompt alignment relative to the evaluated fine-tuning baselines. Ablation studies examine the contributions of bilevel optimization, progressive pruning, and adapter placement. These results support learned rank allocation as a practical approach to parameter-efficient diffusion model personalization.",
+      "pub_date": "Fri, 09 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Diffu-LoRA：面向个性化扩散模型的新型低秩适配方法",
+        "summary": "Diffu-LoRA 提出一种参数高效的扩散模型个性化方法，通过门控低秩适配在 Transformer 层中学习适配容量分配，结合双层优化与渐进剪枝，在保持主干冻结的情况下提升主体保真度与提示对齐。",
+        "summary_en": "Diffu-LoRA introduces a parameter-efficient method for personalizing text-to-image diffusion models via gated low-rank adaptation. It learns nonuniform adaptation capacity allocation across Transformer layers using bilevel optimization and progressive pruning, improving subject fidelity and prompt alignment with a frozen backbone.",
+        "tags": [
+          "fine-tuning",
+          "llm",
+          "research",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-09-rss-005",
+        "title": "Diffu-LoRA：面向个性化扩散模型的新型低秩适配方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.10550",
+        "language": "en",
+        "summary": "Diffu-LoRA 提出一种参数高效的扩散模型个性化方法，通过门控低秩适配在 Transformer 层中学习适配容量分配，结合双层优化与渐进剪枝，在保持主干冻结的情况下提升主体保真度与提示对齐。",
+        "summary_en": "Diffu-LoRA introduces a parameter-efficient method for personalizing text-to-image diffusion models via gated low-rank adaptation. It learns nonuniform adaptation capacity allocation across Transformer layers using bilevel optimization and progressive pruning, improving subject fidelity and prompt alignment with a frozen backbone.",
+        "tags": [
+          "fine-tuning",
+          "llm",
+          "research",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-09T22:57:37.395703+08:00",
+        "updated_at": "2026-10-09T22:57:37.395704+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Wieszcz-XIX: A 3.1-Billion-Word Corpus of Pre-1918 Polish and Temporally Bounded Language Models Trained From Scratch",
+      "url": "https://arxiv.org/abs/2610.10592",
+      "description": "arXiv:2610.10592v1 Announce Type: new \nAbstract: Historical Polish is well documented as a language but annotated in machine-readable form only to about a million words for the period this paper covers; the rest sits behind optical character recognition of variable quality. We present Wieszcz-XIX, a corpus of 6.75 billion tokens (about 3.1 billion words) in 294,369 documents, most of them periodical issues, of Polish published from 1800 to 1918, assembled from Wolne Lektury and the Internet Archive by a pipeline that filters, deduplicates, audits for post-1918 leakage and splits at the document level. It is over three orders of magnitude larger than the annotated corpus of the same period, and we quantify its defects: recognition corruption against a false-positive floor, near-identical duplication, which is removed, and post-1918 leakage, which is excluded from the training corpus itself down to a known residue of 0.04 to 0.38% of its bytes, found in the transcribed source, so the published corpus is the trained one document for document. On a hand-corrected sample the character error rate is 0.68% where the text is legible, and 45% of the sampled passages cannot be corrected. On it we train a ladder of decoder-only models from 47M to 349M parameters from scratch, and measure their temporal boundedness. Against two modern Polish base models, one far larger, the 349M shows a crossover, as does the 107M against the comparator of its size: post-1918 vocabulary costs them about 3.1 bits per byte more than period vocabulary, a gap the comparators do not show, and period vocabulary costs them fewer bits than it costs the comparators. Shown period text, the models keep its spelling and the comparators only partly. Adding parameters gains about twice as much as a second pass over the data. We release the corpus, code and weights. Content warning: the models reproduce period prejudice, including antisemitic statements.",
+      "pub_date": "Fri, 09 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Wieszcz-XIX：31亿词1918年前波兰语语料库及时间限定语言模型",
+        "summary": "构建了包含67.5亿token（约31亿词）的1800-1918年波兰语历史语料库，规模超现有标注语料三个数量级，并从头训练47M至349M参数的仅解码器模型，验证其时间限定性：模型对1918年后词汇的困惑度显著更高，且能更好保留历史拼写。",
+        "summary_en": "Presents Wieszcz-XIX, a 6.75B-token (about 3.1B-word) corpus of Polish published 1800-1918, over three orders of magnitude larger than prior annotated corpora, with audited post-1918 leakage. Trains decoder-only models from 47M to 349M parameters from scratch, showing temporal boundedness: post-1918 vocabulary costs ~3.1 bits/byte more, and models preserve period spelling better than modern comparators.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "open-source",
+          "evaluation"
+        ],
+        "category": "llm",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-09-rss-006",
+        "title": "Wieszcz-XIX：31亿词1918年前波兰语语料库及时间限定语言模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.10592",
+        "language": "en",
+        "summary": "构建了包含67.5亿token（约31亿词）的1800-1918年波兰语历史语料库，规模超现有标注语料三个数量级，并从头训练47M至349M参数的仅解码器模型，验证其时间限定性：模型对1918年后词汇的困惑度显著更高，且能更好保留历史拼写。",
+        "summary_en": "Presents Wieszcz-XIX, a 6.75B-token (about 3.1B-word) corpus of Polish published 1800-1918, over three orders of magnitude larger than prior annotated corpora, with audited post-1918 leakage. Trains decoder-only models from 47M to 349M parameters from scratch, showing temporal boundedness: post-1918 vocabulary costs ~3.1 bits/byte more, and models preserve period spelling better than modern comparators.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "open-source",
+          "evaluation"
+        ],
+        "category": "llm",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-09T22:57:37.395705+08:00",
+        "updated_at": "2026-10-09T22:57:37.395706+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
+      "url": "https://arxiv.org/abs/2610.10650",
+      "description": "arXiv:2610.10650v1 Announce Type: new \nAbstract: Work zones are critical yet hazardous components of transportation infrastructure, requiring carefully designed Transportation Management Plans (TMPs) to ensure safety and mobility. However, TMP preparation remains labor-intensive and heavily dependent on practitioner expertise. This paper proposes a Large Language Model (LLM)-assisted framework to automate TMP content generation, leveraging the WisDOT WisTMP system as the application context. The framework fine-tunes multiple open-source LLMs across different model scales and deploys them locally to ensure data security. To support model training, we construct a domain-specific dataset from historical WisTMP documents by converting PDF files into structured question-answer pairs in JSON format. Experimental results show that fine-tuning significantly improves performance across standard text generation metrics. Further section-wise and strategy-level analyses reveal that, while LLMs achieve strong overall performance, they tend to over-generate strategies and struggle to produce project-specific justifications and accurate cost estimates. In addition, scaling from 7B/8B to 14B yields limited gains. These findings demonstrate the potential of LLMs to improve TMP preparation efficiency while highlighting remaining challenges in LLM-assisted TMP development. The source code and demo videos will be publicly available at https://zihaosheng.github.io/TMP-LLM/.",
+      "pub_date": "Fri, 09 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "大语言模型辅助交通管理计划编制：WisDOT WisTMP系统案例研究",
+        "summary": "本文提出基于大语言模型的交通管理计划（TMP）自动生成框架，以WisDOT WisTMP系统为应用场景。通过将历史PDF文档转为结构化问答数据集，对多个开源LLM进行微调并本地部署以保障数据安全。实验表明微调显著提升文本生成性能，但模型存在策略过度生成、缺乏项目针对性论证和成本估算不准等问题，且从7B/8B扩展到14B收益有限。",
+        "summary_en": "This paper proposes an LLM-assisted framework to automate Transportation Management Plan (TMP) content generation using the WisDOT WisTMP system. It fine-tunes multiple open-source LLMs at different scales and deploys them locally for data security, building a domain-specific dataset from historical PDFs converted into structured QA pairs. Results show fine-tuning significantly improves text generation metrics, but models over-generate strategies and struggle with project-specific justifications and cost estimates, with limited gains from 7B/8B to 14B scaling.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "application",
+          "research",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-09-rss-007",
+        "title": "大语言模型辅助交通管理计划编制：WisDOT WisTMP系统案例研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.10650",
+        "language": "en",
+        "summary": "本文提出基于大语言模型的交通管理计划（TMP）自动生成框架，以WisDOT WisTMP系统为应用场景。通过将历史PDF文档转为结构化问答数据集，对多个开源LLM进行微调并本地部署以保障数据安全。实验表明微调显著提升文本生成性能，但模型存在策略过度生成、缺乏项目针对性论证和成本估算不准等问题，且从7B/8B扩展到14B收益有限。",
+        "summary_en": "This paper proposes an LLM-assisted framework to automate Transportation Management Plan (TMP) content generation using the WisDOT WisTMP system. It fine-tunes multiple open-source LLMs at different scales and deploys them locally for data security, building a domain-specific dataset from historical PDFs converted into structured QA pairs. Results show fine-tuning significantly improves text generation metrics, but models over-generate strategies and struggle with project-specific justifications and cost estimates, with limited gains from 7B/8B to 14B scaling.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "application",
+          "research",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-09T22:57:37.395708+08:00",
+        "updated_at": "2026-10-09T22:57:37.395709+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Cognitive Thermometers: Machine Learning and Logical Complexity",
+      "url": "https://arxiv.org/abs/2610.10724",
+      "description": "arXiv:2610.10724v1 Announce Type: new \nAbstract: How does the human mind represent semantic categories? Why do natural languages favor certain meanings over others? Prior explanations have relied on logical definability and complexity, but these are highly sensitive to the choice of logical language, rendering some design choices unmotivated. In this article, we propose that machine learning provides a somewhat more agnostic approach to measuring semantic complexity. We review emerging evidence that logic and machine learning often yield converging results on relative complexity and its resulting effects in semantic typology. Where they diverge, learning appears to be a better explanation than logical complexity. We argue that treating machine learning models as ``cognitive thermometers'' enables a unified approach to complexity that bridges symbolic logic and connectionist AI.",
+      "pub_date": "Fri, 09 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "认知温度计：机器学习与逻辑复杂度",
+        "summary": "本文提出用机器学习作为衡量语义复杂度的更中立方法，将其视为\"认知温度计\"。研究发现逻辑与机器学习在相对复杂度上常得出趋同结论，而在分歧处机器学习解释力更强，从而统一了符号逻辑与连接主义AI的复杂度研究。",
+        "summary_en": "This paper proposes machine learning as a more agnostic measure of semantic complexity, treating ML models as \"cognitive thermometers.\" Evidence shows logic and ML often converge on relative complexity, and where they diverge, learning offers better explanations, bridging symbolic logic and connectionist AI.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-09-rss-010",
+        "title": "认知温度计：机器学习与逻辑复杂度",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.10724",
+        "language": "en",
+        "summary": "本文提出用机器学习作为衡量语义复杂度的更中立方法，将其视为\"认知温度计\"。研究发现逻辑与机器学习在相对复杂度上常得出趋同结论，而在分歧处机器学习解释力更强，从而统一了符号逻辑与连接主义AI的复杂度研究。",
+        "summary_en": "This paper proposes machine learning as a more agnostic measure of semantic complexity, treating ML models as \"cognitive thermometers.\" Evidence shows logic and ML often converge on relative complexity, and where they diverge, learning offers better explanations, bridging symbolic logic and connectionist AI.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-10-09T22:57:37.395718+08:00",
+        "updated_at": "2026-10-09T22:57:37.395719+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Lossy Compressive Text Autoencoders",
+      "url": "https://arxiv.org/abs/2610.10738",
+      "description": "arXiv:2610.10738v1 Announce Type: new \nAbstract: Our work explores learning a compressed latent representation of text, at the intersection of data compression and representation learning. We propose an autoencoder architecture that performs residual downscaling and upscaling of hidden representations along the time axis, with a residual low-dimension discrete bottleneck. We analyze our approach for different quantization methods, training objectives, and datasets. For different levels of compression, we evaluate the similarity between the original and reconstructed text both at the surface-level (BLEU) and at the semantic-level (LLM-based judge). Additionally, we evaluate our models on downstream question-answering and semantic text similarity benchmarks. Our approach results in compressed representations which are on par with lossless text compression algorithms at 2.24 bits per byte on web text data, while having good reconstruction and downstream task performance.",
+      "pub_date": "Fri, 09 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "有损压缩文本自编码器",
+        "summary": "本文提出一种文本自编码器架构，通过沿时间轴对隐藏表示进行残差降采样与升采样，并引入残差低维离散瓶颈，学习文本的压缩潜在表示。在网页文本数据上达到2.24比特/字节的压缩率，与无损压缩算法相当，同时保持良好重建与下游任务性能。",
+        "summary_en": "This work proposes an autoencoder architecture that learns compressed latent representations of text via residual downscaling and upscaling of hidden representations along the time axis with a residual low-dimension discrete bottleneck. It achieves 2.24 bits per byte on web text data, on par with lossless compression, while maintaining good reconstruction and downstream task performance.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-09-rss-008",
+        "title": "有损压缩文本自编码器",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.10738",
+        "language": "en",
+        "summary": "本文提出一种文本自编码器架构，通过沿时间轴对隐藏表示进行残差降采样与升采样，并引入残差低维离散瓶颈，学习文本的压缩潜在表示。在网页文本数据上达到2.24比特/字节的压缩率，与无损压缩算法相当，同时保持良好重建与下游任务性能。",
+        "summary_en": "This work proposes an autoencoder architecture that learns compressed latent representations of text via residual downscaling and upscaling of hidden representations along the time axis with a residual low-dimension discrete bottleneck. It achieves 2.24 bits per byte on web text data, on par with lossless compression, while maintaining good reconstruction and downstream task performance.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-10-09T22:57:37.395711+08:00",
+        "updated_at": "2026-10-09T22:57:37.395711+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

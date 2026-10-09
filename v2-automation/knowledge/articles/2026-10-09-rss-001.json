@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-09-rss-001",
+  "title": "通过模拟合成：可扩展智能体系统交互生成企业数据",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.10549",
+  "language": "en",
+  "summary": "提出STS范式，让LLM智能体在模拟企业环境中通过策略API生成数据，无需数据库模式即可保证结构有效性与分布保真度，开源框架及十个环境。",
+  "summary_en": "Introduces Synthesis Through Simulation (STS), a schema-free data synthesis paradigm where an LLM agent generates data by executing operations against policy-enforcing APIs in simulated enterprise environments, guaranteeing structural validity by construction. The Generalist Populator achieves 0.88 average marginal fidelity and 100% constraint satisfaction across ten environments without DB schemas. Framework and datasets are open-sourced.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "benchmark",
+    "open-source"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-09T22:57:37.395690+08:00",
+  "updated_at": "2026-10-09T22:57:37.395692+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

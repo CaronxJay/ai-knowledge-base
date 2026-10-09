@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-09-rss-009",
+  "title": "可解释的以表头为中心的大规模语义表格解释与数据质量评估框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.10541",
+  "language": "en",
+  "summary": "提出以表头为中心的可解释框架，在仅有元数据时进行列类型标注与数据质量评估，将表头映射到39种可解释类型并保留词级溯源，通过数据质量问题分类触发验证规则，聚合为HeadersIQ质量指标，在约12万表头列上验证了实用性。",
+  "summary_en": "Presents an explainable, header-centric framework for metadata-only Column Type Annotation and Data Quality Assessment, mapping headers to 39 interpretable types with token-level traceability, activating validation rules from a Data Quality Issue taxonomy, and aggregating into HeadersIQ, evaluated on ~120,000 header columns across heterogeneous benchmarks.",
+  "tags": [
+    "research",
+    "evaluation",
+    "llm",
+    "rag",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-10-09T22:57:37.395715+08:00",
+  "updated_at": "2026-10-09T22:57:37.395716+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

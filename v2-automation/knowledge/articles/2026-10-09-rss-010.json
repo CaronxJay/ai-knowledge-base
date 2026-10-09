@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-09-rss-010",
+  "title": "认知温度计：机器学习与逻辑复杂度",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.10724",
+  "language": "en",
+  "summary": "本文提出用机器学习作为衡量语义复杂度的更中立方法，将其视为\"认知温度计\"。研究发现逻辑与机器学习在相对复杂度上常得出趋同结论，而在分歧处机器学习解释力更强，从而统一了符号逻辑与连接主义AI的复杂度研究。",
+  "summary_en": "This paper proposes machine learning as a more agnostic measure of semantic complexity, treating ML models as \"cognitive thermometers.\" Evidence shows logic and ML often converge on relative complexity, and where they diverge, learning offers better explanations, bridging symbolic logic and connectionist AI.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-10-09T22:57:37.395718+08:00",
+  "updated_at": "2026-10-09T22:57:37.395719+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

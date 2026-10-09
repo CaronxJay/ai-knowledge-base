@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-09-rss-006",
+  "title": "Wieszcz-XIX：31亿词1918年前波兰语语料库及时间限定语言模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.10592",
+  "language": "en",
+  "summary": "构建了包含67.5亿token（约31亿词）的1800-1918年波兰语历史语料库，规模超现有标注语料三个数量级，并从头训练47M至349M参数的仅解码器模型，验证其时间限定性：模型对1918年后词汇的困惑度显著更高，且能更好保留历史拼写。",
+  "summary_en": "Presents Wieszcz-XIX, a 6.75B-token (about 3.1B-word) corpus of Polish published 1800-1918, over three orders of magnitude larger than prior annotated corpora, with audited post-1918 leakage. Trains decoder-only models from 47M to 349M parameters from scratch, showing temporal boundedness: post-1918 vocabulary costs ~3.1 bits/byte more, and models preserve period spelling better than modern comparators.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "open-source",
+    "evaluation"
+  ],
+  "category": "llm",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-09T22:57:37.395705+08:00",
+  "updated_at": "2026-10-09T22:57:37.395706+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-09-rss-004",
+  "title": "智能体AI中的验证与自我改进：基础与局限",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.10611",
+  "language": "en",
+  "summary": "该论文提出有界验证框架，通过隐藏终端随机性区分智能体AI的改进机制。证明独立多数放大保持语言性质，而随机磁带上的存在接受可能引入错误输出。随机验证类满足Σ_k^P⊆Σ_k^RV⊆Σ_{k+1}^P，递归自我改进在固定验证协议下保持同类。",
+  "summary_en": "This paper proposes a bounded verification framework with hidden terminal randomness to distinguish improvement mechanisms in agentic AI. It proves independent majority amplification preserves languages while existential acceptance over random tapes can admit incorrect outputs. Randomized-verifier classes satisfy Σ_k^P⊆Σ_k^RV⊆Σ_{k+1}^P, and recursive self-improvement under fixed verification protocols remains within the same class.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "evaluation",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-09T22:57:37.395700+08:00",
+  "updated_at": "2026-10-09T22:57:37.395701+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
