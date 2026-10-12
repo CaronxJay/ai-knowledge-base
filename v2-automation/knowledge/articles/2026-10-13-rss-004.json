@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-13-rss-004",
+  "title": "并行草稿的上下文校正用于投机解码",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.12570",
+  "language": "en",
+  "summary": "提出DCOCO机制，通过保留多个候选token并并行评估相邻草稿位置的上下文兼容性，恢复并行草稿中缺失的块内依赖关系。在四种验证器骨干和十个基准上实现最高平均吞吐量，相比普通解码最高加速6.6倍，并发服务下优于最强竞争方法6-23%。",
+  "summary_en": "Introduces DCOCO (DFlash Contextual Corrector), a lightweight mechanism that restores intra-block dependencies in parallel drafting for speculative decoding by retaining multiple candidate tokens and evaluating their contextual compatibility across adjacent draft positions in parallel. Achieves highest average throughput across four verifier backbones and ten benchmarks, with up to 6.6x speedup over vanilla decoding and 6-23% improvement over the strongest competing method under concurrent serving.",
+  "tags": [
+    "llm",
+    "research",
+    "infrastructure",
+    "evaluation"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-13T01:20:42.146389+08:00",
+  "updated_at": "2026-10-13T01:20:42.146390+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

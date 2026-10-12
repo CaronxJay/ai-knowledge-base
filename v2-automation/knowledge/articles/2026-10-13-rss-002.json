@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-13-rss-002",
+  "title": "EvoSyn：基于学习反馈的多智能体数据合成框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.12593",
+  "language": "en",
+  "summary": "提出EvoSyn，一种学习反馈驱动的多智能体数据合成框架，通过可修订状态组织合成过程，将学习者反馈转化为合成修订，实现合成空间的适应与扩展。在τ²-Bench和CAR-Bench上平均任务成功率提升13.3个百分点，并生成更高质量、结构更广的合成经验。",
+  "summary_en": "Proposes EvoSyn, a learning-feedback-driven multi-agent framework for data synthesis that organizes synthesis around a revisable state, translating learner feedback into synthesis revisions to enable within-space adaptation and synthesis-space expansion. On τ²-Bench and CAR-Bench, it improves average task success by 13.3 points over the strongest baseline, producing higher-quality and structurally broader synthetic experience.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-13T01:20:42.146381+08:00",
+  "updated_at": "2026-10-13T01:20:42.146382+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-13-rss-009",
+  "title": "等预算下MCTS与随机重启列表调度在DAG工作流中的对比研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.12542",
+  "language": "en",
+  "summary": "该研究在等预算条件下对比MCTS与随机重启列表调度在DAG工作流调度中的表现。结果显示，在2048次评估预算下，MCTS比随机重启差2.88%，且差距并非预算不足所致。随机重启在稀疏不规则工作流上优势明显，而MCTS的确定性选择规则导致试验相关性过高。",
+  "summary_en": "This study compares MCTS and randomized-restart list scheduling for DAG workflows under equal budgets. At 2048 evaluated schedules, MCTS is 2.88% worse than restarts, not due to budget starvation. Restarts excel on sparse irregular workflows, while MCTS's deterministic selection rule causes correlated trials.",
+  "tags": [
+    "research",
+    "benchmark",
+    "evaluation",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-10-13T01:20:42.146410+08:00",
+  "updated_at": "2026-10-13T01:20:42.146411+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-13-rss-008",
+  "title": "无锚点的忠实性：关于可解释AI忠实性度量结构性错位的立场论文",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.12493",
+  "language": "en",
+  "summary": "本文指出XAI工具未能提升信任，反而导致过度依赖错误预测。作者分析了现有特征重要性忠实性度量的五大缺陷，并提出四个研究方向以提升其可靠性。",
+  "summary_en": "This position paper argues XAI tools fail to increase trust, instead promoting overreliance on incorrect predictions. It outlines five major shortcomings of current faithfulness metrics for feature importance and proposes four research avenues to improve their reliability.",
+  "tags": [
+    "research",
+    "evaluation",
+    "llm",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-10-13T01:20:42.146406+08:00",
+  "updated_at": "2026-10-13T01:20:42.146407+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

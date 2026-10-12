@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-13-rss-001",
+  "title": "SWE-Duel：面向编码智能体的自扩展竞技场",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.12569",
+  "language": "en",
+  "summary": "提出SWE-Duel自扩展基准，任务与判定在评测时生成，避免数据泄漏与饱和。红蓝双方智能体在真实仓库上互评：红方实现新功能并植入隐蔽bug，蓝方盲审修复。11个模型在15个仓库、5种语言进行1500轮锦标赛，GPT-5.5修复98.3%缺陷，Claude Opus 4.8红方胜率27.3%，并发现任务难度随作者能力提升而扩展。",
+  "summary_en": "SWE-Duel introduces a self-scaling coding benchmark where tasks and oracles are generated at evaluation time, preventing leakage and saturation. Two agents duel over mirrored Red-Blue turns on real repositories: Red implements a feature with a hidden bug, Blue reviews blind. In a 1,500-turn tournament across 11 model-harness participants and 15 repos in 5 languages, GPT-5.5 repaired 98.3% of defects and Claude Opus 4.8 achieved a 27.3% Red win rate, with evidence that task difficulty scales with authoring capability.",
+  "tags": [
+    "benchmark",
+    "agent-framework",
+    "evaluation",
+    "research",
+    "llm"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-10-13T01:20:42.146373+08:00",
+  "updated_at": "2026-10-13T01:20:42.146376+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
