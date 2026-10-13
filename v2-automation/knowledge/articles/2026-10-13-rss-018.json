@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-13-rss-018",
+  "title": "无锚点的忠实性：关于可解释AI忠实性度量结构性错位的立场论文",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.12493",
+  "language": "en",
+  "summary": "本文是一篇立场论文，指出当前可解释AI（XAI）的忠实性度量存在五大缺陷，导致无法严谨量化解释与模型之间的近似程度，并提出四条研究路径以提升其可靠性。",
+  "summary_en": "This position paper identifies five major shortcomings of current faithfulness metrics in Explainable AI (XAI), which make rigorous quantification of explanation-model approximation infeasible or costly, and proposes four research avenues to improve their reliability.",
+  "tags": [
+    "research",
+    "evaluation",
+    "llm",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-10-13T23:33:20.884328+08:00",
+  "updated_at": "2026-10-13T23:33:20.884329+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

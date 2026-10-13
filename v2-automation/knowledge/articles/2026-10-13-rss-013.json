@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-13-rss-013",
+  "title": "AutoIndexer：通过编辑链训练因果模型实现灵活顺序解码",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.12545",
+  "language": "en",
+  "summary": "AutoIndexer 提出一种新的训练与解码机制，模拟“编辑链”，使模型能通过插入、替换和删除 token 灵活修改已生成的输出，突破了自回归和扩散模型无法事后编辑上下文的限制，且不牺牲标准基准性能。",
+  "summary_en": "AutoIndexer introduces a novel training and decoding mechanism simulating a Chain of Edits, enabling models to flexibly modify prior outputs via token insertions, substitutions, and deletions, overcoming the inability of autoregressive and diffusion models to edit context post hoc without compromising standard benchmark performance.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "open-source"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-13T23:33:20.884301+08:00",
+  "updated_at": "2026-10-13T23:33:20.884303+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

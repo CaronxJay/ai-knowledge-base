@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-13-rss-019",
+  "title": "CLUE：无监督事件类型归纳与标注的对比学习框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.12580",
+  "language": "en",
+  "summary": "提出CLUE框架，通过联合嵌入表示事件的动词中心视角与语义视角，利用对比损失引导聚类实现事件类型归纳，并进行事件命名与优化，减少人工事件本体构建的成本与偏差。",
+  "summary_en": "The CLUE framework addresses unsupervised event type induction, naming, and annotation. It introduces a joint embedding representation capturing both verb-centric and semantic views of events, uses contrastive loss-guided clustering for type induction, and performs event naming and refinement, reducing manual ontology creation costs and human bias.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "open-source"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-10-13T23:33:20.884332+08:00",
+  "updated_at": "2026-10-13T23:33:20.884334+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

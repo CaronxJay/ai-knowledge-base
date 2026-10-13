@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-13-rss-014",
+  "title": "SWE-Duel：面向编码智能体的自扩展竞技场",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.12569",
+  "language": "en",
+  "summary": "提出SWE-Duel自扩展基准，任务与判定在评测时动态生成，避免数据泄漏与饱和。通过红蓝对抗让两个编码智能体互相出题与修复，在11个模型、15个仓库、1500轮对战中验证，任务难度随出题能力提升而扩展。",
+  "summary_en": "SWE-Duel introduces a self-scaling arena where two coding agents evaluate each other over mirrored Red-Blue turns, generating tasks and oracles at evaluation time to avoid leakage and saturation. A 1,500-turn tournament across 11 model-harness participants and 15 repositories shows task difficulty scales with authoring capability.",
+  "tags": [
+    "benchmark",
+    "agent-framework",
+    "evaluation",
+    "research",
+    "llm"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-13T23:33:20.884306+08:00",
+  "updated_at": "2026-10-13T23:33:20.884308+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

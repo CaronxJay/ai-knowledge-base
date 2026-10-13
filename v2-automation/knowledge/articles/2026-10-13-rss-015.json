@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-13-rss-015",
+  "title": "并行草稿的上下文校正用于投机解码",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.12570",
+  "language": "en",
+  "summary": "DCOCO是一种轻量机制，通过保留多个候选token并并行评估相邻草稿位置的上下文兼容性，恢复并行草稿块内缺失的依赖关系，在四个验证器骨干和十个基准上实现最高吞吐量，最高加速6.6倍。",
+  "summary_en": "DCOCO is a lightweight mechanism that restores intra-block dependencies in parallel drafting by retaining multiple candidate tokens and evaluating their contextual compatibility across adjacent draft positions in parallel, achieving the highest throughput across four verifier backbones and ten benchmarks with speedups up to 6.6x.",
+  "tags": [
+    "llm",
+    "research",
+    "infrastructure",
+    "evaluation"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-13T23:33:20.884311+08:00",
+  "updated_at": "2026-10-13T23:33:20.884312+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

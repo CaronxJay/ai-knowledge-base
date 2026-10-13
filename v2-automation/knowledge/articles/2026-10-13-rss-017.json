@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-13-rss-017",
+  "title": "EliteTable：面向可执行控制策略的自改进程序搜索",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.12536",
+  "language": "en",
+  "summary": "EliteTable 是一种由大语言模型引导的自改进程序搜索算法，利用固定容量的高分方案表来指导新方案生成、编辑与重组。在六个 Gymnasium 控制任务上评估，多数任务候选分数中位数随代际提升，部分任务获胜方案增益可迁移至新回合，但 Acrobot-v1 表现下降，仍需对比与消融实验验证其相对性能。",
+  "summary_en": "EliteTable is a self-improving program-search algorithm guided by LLMs that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits, and remixes. Evaluated on six Gymnasium control tasks, candidate-score medians rose across generations in all six, and selected-winner gains transferred to held-out episodes in some tasks, though Acrobot-v1 declined; comparisons and ablations are still needed.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-13T23:33:20.884320+08:00",
+  "updated_at": "2026-10-13T23:33:20.884321+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

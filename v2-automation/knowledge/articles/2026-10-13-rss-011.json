@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-13-rss-011",
+  "title": "EvoSyn：通过演化生成空间实现闭环学习的智能体数据合成",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.12593",
+  "language": "en",
+  "summary": "论文提出EvoSyn，一个由学习反馈驱动的多智能体框架，围绕可修订状态组织合成过程，明确可生成的交互因素及合成资源分配。通过角色分工的多智能体系统将学习者反馈转化为合成修订，实现空间内适应与合成空间扩展。在τ²-Bench和CAR-Bench上平均任务成功率提升13.3个百分点。",
+  "summary_en": "The paper proposes EvoSyn, a learning-feedback-driven multi-agent framework that organizes synthesis around a revisable state specifying what interaction factors can be generated and where synthesis effort should be allocated. A role-specialized multi-agent system translates learner feedback into synthesis revisions, enabling within-space adaptation and synthesis-space expansion. Experiments on τ²-Bench and CAR-Bench show a 13.3-point average task success improvement over the strongest baseline.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-13T23:33:20.884286+08:00",
+  "updated_at": "2026-10-13T23:33:20.884291+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

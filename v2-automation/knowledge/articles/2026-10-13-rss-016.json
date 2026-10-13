@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-13-rss-016",
+  "title": "弹性潜在循环：一种模型适配所有循环次数的语言模型训练方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.12582",
+  "language": "en",
+  "summary": "提出弹性潜在循环（ELR）训练方法，使循环语言模型在单次循环时性能与同规模非循环模型相当，额外循环可换取更高精度。通过门控状态更新、混合循环次数优化及循环索引条件化实现，在4B稠密和30B-A3B MoE模型上验证，四循环分别提升7.25和4.75分。",
+  "summary_en": "We present Elastic Latent Recurrence (ELR), a recipe for training looped language models without the one-loop tax. At one loop, an ELR model matches a non-recurrent model of the same size in cost and accuracy; each additional loop buys more accuracy. Three choices enable this: a gated state update with learned step size, mixed loop counts per optimizer update, and conditioning each pass on loop index and budget. On 4B dense and 30B-A3B MoE models, ELR at one loop is 0.52 points below and 1.04 points above baselines, with four loops adding 7.25 and 4.75 points.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-13T23:33:20.884315+08:00",
+  "updated_at": "2026-10-13T23:33:20.884317+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
