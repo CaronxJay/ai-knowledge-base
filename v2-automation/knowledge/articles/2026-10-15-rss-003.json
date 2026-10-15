@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-15-rss-003",
+  "title": "ClawLoop：基于Harness原生训练循环的自我改进智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.14118",
+  "language": "en",
+  "summary": "ClawLoop提出一种无需外部教师模型的自我改进框架，通过任务合成、训练、诊断反馈三阶段循环，让基于harness的LLM智能体持续提升能力，并在多个基准上验证了迭代任务可迁移至更小模型。",
+  "summary_en": "ClawLoop proposes a self-improving framework without external teacher models, cycling through task synthesis, training, and diagnosis-feedback to continuously enhance harness-based LLM agents, with iterative tasks transferring to smaller models across benchmarks.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "fine-tuning",
+    "benchmark"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-15T21:03:30.357753+08:00",
+  "updated_at": "2026-10-15T21:03:30.357754+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

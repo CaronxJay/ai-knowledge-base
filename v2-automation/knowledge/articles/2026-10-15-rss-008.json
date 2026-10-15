@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-15-rss-008",
+  "title": "多语言抽象摘要中的大语言模型评估：英语与孟加拉语综合研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.19003",
+  "language": "en",
+  "summary": "本文构建了八种闭源与开源大语言模型在英语和孟加拉语XL-Sum测试集上的零样本基准，结合词汇与语义指标、无参考事实性验证及多维LLM-as-a-Judge评估。结果显示跨语言差异显著：GPT-5.6 Luna在英语词汇指标领先，但孟加拉语中LLaMA 3.3 70B的ROUGE和BLEU最高，Gemini 2.5 Flash事实性最佳，且不同评估方法给出不同排名。",
+  "summary_en": "This paper presents a standardized zero-shot benchmark of eight closed-source and open-weight LLMs on size-matched English and Bengali XL-Sum test sets, combining lexical and semantic metrics with reference-free factuality verification and multidimensional LLM-as-a-Judge assessment. Results reveal substantial cross-lingual variation: GPT-5.6 Luna leads several English lexical metrics but not in Bengali, where LLaMA 3.3 70B achieves the highest ROUGE and BLEU, and Gemini 2.5 Flash obtains the highest Bengali factuality score. Different evaluation methods yield different rankings, highlighting the limitations of single-metric assessment for multilingual summarization.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "research",
+    "multimodal"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-15T21:03:30.357777+08:00",
+  "updated_at": "2026-10-15T21:03:30.357778+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

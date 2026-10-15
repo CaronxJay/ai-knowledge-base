@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-15-rss-002",
+  "title": "智能体数据科学中的隐性失败模式分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.14115",
+  "language": "en",
+  "summary": "论文指出当前智能体数据科学评估仅关注预测性能和代码正确性，忽视了方法论与领域知识，导致数据泄漏、验证不当等隐性失败。作者通过220个任务的大规模分析、可复用测试套件及Kaggle专家对比，发现多数智能体方案至少存在一种失败模式，且数据泄漏与预测性能正相关，呼吁将失败模式分析纳入评估体系。",
+  "summary_en": "This paper argues that existing evaluations of agentic data science focus only on predictive performance and code correctness, overlooking methodological and domain knowledge, which masks failures like data leakage and inappropriate validation. Through a large-scale analysis of 220 tasks, a reusable test suite, and qualitative comparison with Kaggle experts, the authors find most agentic solutions contain at least one failure mode, with data leakage positively correlated with performance, urging failure-mode analysis as integral to evaluation.",
+  "tags": [
+    "agent-framework",
+    "evaluation",
+    "research",
+    "benchmark",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-15T21:03:30.357748+08:00",
+  "updated_at": "2026-10-15T21:03:30.357750+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

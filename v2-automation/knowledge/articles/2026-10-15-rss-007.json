@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-15-rss-007",
+  "title": "遵循法律要求的对话流程：训练语音代理迁移至未见过的受监管催收程序",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.18881",
+  "language": "en",
+  "summary": "研究提出FlowSpec规范，用机器可读规格生成指令、门控工具并提供监督，微调90亿参数模型，使其在未见过的受监管催收流程中合规率从67-71%提升至93-100%，场景通过率从15/43升至40/43。",
+  "summary_en": "The paper introduces FlowSpec, a machine-readable specification that generates policy instructions, gates tools, and supplies supervision to fine-tune a 9B-parameter voice agent. Trained on 2,506 conversations from 297 randomized procedures, the agent transfers to unseen regulated debt-collection procedures, raising documented compliance checks from 67-71% to 93-100% and scenario pass rate from 15/43 to 40/43.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "fine-tuning",
+    "evaluation",
+    "application"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-15T21:03:30.357773+08:00",
+  "updated_at": "2026-10-15T21:03:30.357774+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-15-rss-004",
+  "title": "Long-Horizon-Terminal-Bench 2.0：自动化任务构建与衡量智能体持续进展",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.14146",
+  "language": "en",
+  "summary": "LHTB 2.0 扩展了长时程终端基准，包含13个领域77个任务，通过重建任务流水线自动生成任务，并将评估时长延长至3小时、每30分钟记录检查点，以密集进度阶梯奖励部分进展。实验显示仅看最终结果会丢弃大量中间进展。",
+  "summary_en": "LHTB 2.0 extends the long-horizon terminal benchmark with 77 tasks across 13 domains, using a reconstruction pipeline to auto-generate tasks, extending evaluation to 3 hours with 30-minute verifier checkpoints and dense progress ladders that reward partial progress. Results show outcome-only evaluation discards substantial intermediate progress.",
+  "tags": [
+    "benchmark",
+    "agent-framework",
+    "evaluation",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-15T21:03:30.357757+08:00",
+  "updated_at": "2026-10-15T21:03:30.357759+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

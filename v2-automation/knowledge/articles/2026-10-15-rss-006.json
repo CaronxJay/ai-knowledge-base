@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-15-rss-006",
+  "title": "联合子空间稀疏注意力：高效长上下文解码",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.19026",
+  "language": "en",
+  "summary": "提出联合子空间稀疏注意力（JSSA），通过学习共享低维查询-键子空间提升token级选择质量，并设计无gather的索引注意力内核。在GQA、MLA等模型上保持接近全KV精度，128K上下文下解码吞吐量提升至6.43倍。",
+  "summary_en": "Introduces Joint Subspace Sparse Attention (JSSA), which learns a shared low-dimensional query-key subspace for better token-level selection and develops a gather-free indexed-attention kernel. It stays close to full-KV accuracy across GQA, MLA, and hybrid attention models, achieving up to 6.43x decoding throughput at 128K context.",
+  "tags": [
+    "llm",
+    "research",
+    "infrastructure",
+    "evaluation"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-15T21:03:30.357765+08:00",
+  "updated_at": "2026-10-15T21:03:30.357767+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

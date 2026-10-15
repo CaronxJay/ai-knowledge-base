@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-15-rss-001",
+  "title": "人工性首次测试：面向超智能的LLM参照C测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.14005",
+  "language": "en",
+  "summary": "本文提出首个以LLM作为表征机器的Levin Kt测试，通过逆问题生成高难度测试项，难度以比特为比例尺度衡量，可超越人类和前沿模型能力。研究形式化了度量方法，设计了轻量级生成与认证流程，并对十二个LLM进行了测试，得到随难度下降的智能体特征曲线，直至超智能窗口。",
+  "summary_en": "This paper presents the first test based on Levin's Kt with LLMs as representational machines. Fresh test items can be produced at high difficulties, estimated in a ratio scale measured in bits, before any human or frontier model can solve them. The authors formalise the measure, devise a lightweight generation and certification pipeline, and administer a first battery of certified items to twelve LLMs, yielding agent characteristic curves that decrease with difficulty down to the supra-intelligence window.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "research",
+    "prompt-engineering"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-15T21:03:30.357739+08:00",
+  "updated_at": "2026-10-15T21:03:30.357743+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

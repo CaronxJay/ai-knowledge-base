@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-15-rss-009",
+  "title": "扩散模型的校正训练方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.14136",
+  "language": "en",
+  "summary": "该研究提出一种校正步骤来缩小扩散模型训练与推理之间的差距。校正器以基础模型预测为输入，针对相同真值目标训练，在采样时迭代精炼去噪器的干净样本预测，防止早期伪影残留。在DiT、SiT和JiT上评估，显著提升无引导及无条件生成的FID分数，性能可与CFG竞争，并可通过蒸馏消除额外推理开销。",
+  "summary_en": "This work introduces a correction step for diffusion models to reduce the training-inference gap caused by exposure bias. The corrector takes the base model's prediction as input and is trained against the same ground-truth target, iteratively refining the denoiser's clean-sample prediction at each sampling step to prevent early artifacts from persisting. Evaluated on DiT, SiT, and JiT, it substantially improves FID scores for unguided and unconditional generation, achieves performance competitive with CFG, and can be distilled back into the base model to amortize inference cost.",
+  "tags": [
+    "research",
+    "llm",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-15T21:03:30.357781+08:00",
+  "updated_at": "2026-10-15T21:03:30.357782+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

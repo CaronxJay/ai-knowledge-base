@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-15-rss-010",
+  "title": "科幻与普通小说中的性别指代建模研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.19028",
+  "language": "en",
+  "summary": "该研究通过掩码man/woman/person并用RoBERTa预测替代词，比较科幻小说与普通小说语料中的性别指代渗透性。发现两语料均跨越性别二元，但科幻小说性别渗透性更强，去性别化倾向更明显，为计算文学研究提供了可迁移的分析流程。",
+  "summary_en": "This study masks man/woman/person and uses RoBERTa to predict substitutes, comparing gender permeability in science fiction versus general fiction corpora. Both cross the gender binary, but science fiction shows greater gender permeability and stronger degendering tendencies, offering computational literary studies a transferable pipeline.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.55,
+  "status": "published",
+  "created_at": "2026-10-15T21:03:30.357785+08:00",
+  "updated_at": "2026-10-15T21:03:30.357786+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

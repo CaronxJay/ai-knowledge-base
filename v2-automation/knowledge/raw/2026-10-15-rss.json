@@ -1,0 +1,489 @@
+{
+  "collected_at": "2026-10-15T21:03:30.358618+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+      "url": "https://arxiv.org/abs/2610.14005",
+      "description": "arXiv:2610.14005v1 Announce Type: new \nAbstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines and the people who write the tests? One answer to the question hinges on inverse problems, inductive inference questions for which difficulty depends on the complexity of the underlying mechanism, given the observations and the previous knowledge. Levin's Kt, a computable variant of Kolmogorov complexity, puts a theoretical upper bound to that difficulty, balancing the simplest representation encoding for the mechanism and the logarithm of the time steps to run that mechanism. Previous tests derived from Levin's Kt, such as the original C-test, are based on minimalistic Universal Turing Machines (UTM), capable of very limited representations and no previous knowledge. Reasoning large language models (LLM) are UTMs that capture a compendium of human culture as knowledge, using prompts as natural language programs. This paper presents the first test based on Levin's Kt with LLMs as representational machines. Fresh test items can be produced at high difficulties, estimated in a ratio scale measured in bits, before any human or frontier model can solve them. We formalise the measure, devise a lightweight generation and certification pipeline, explore the effect of the power of the reference machine and the gap between examiner and examinee. We produce a first battery of certified items administered to twelve LLMs. The resulting agent characteristic curves decrease with difficulty, down to the uncharted high-difficulty region, the supra-intelligence window of items we can certify, yet beyond generations of frontier intelligence.",
+      "pub_date": "Thu, 15 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "人工性首次测试：面向超智能的LLM参照C测试",
+        "summary": "本文提出首个以LLM作为表征机器的Levin Kt测试，通过逆问题生成高难度测试项，难度以比特为比例尺度衡量，可超越人类和前沿模型能力。研究形式化了度量方法，设计了轻量级生成与认证流程，并对十二个LLM进行了测试，得到随难度下降的智能体特征曲线，直至超智能窗口。",
+        "summary_en": "This paper presents the first test based on Levin's Kt with LLMs as representational machines. Fresh test items can be produced at high difficulties, estimated in a ratio scale measured in bits, before any human or frontier model can solve them. The authors formalise the measure, devise a lightweight generation and certification pipeline, and administer a first battery of certified items to twelve LLMs, yielding agent characteristic curves that decrease with difficulty down to the supra-intelligence window.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-15-rss-001",
+        "title": "人工性首次测试：面向超智能的LLM参照C测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.14005",
+        "language": "en",
+        "summary": "本文提出首个以LLM作为表征机器的Levin Kt测试，通过逆问题生成高难度测试项，难度以比特为比例尺度衡量，可超越人类和前沿模型能力。研究形式化了度量方法，设计了轻量级生成与认证流程，并对十二个LLM进行了测试，得到随难度下降的智能体特征曲线，直至超智能窗口。",
+        "summary_en": "This paper presents the first test based on Levin's Kt with LLMs as representational machines. Fresh test items can be produced at high difficulties, estimated in a ratio scale measured in bits, before any human or frontier model can solve them. The authors formalise the measure, devise a lightweight generation and certification pipeline, and administer a first battery of certified items to twelve LLMs, yielding agent characteristic curves that decrease with difficulty down to the supra-intelligence window.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-15T21:03:30.357739+08:00",
+        "updated_at": "2026-10-15T21:03:30.357743+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Silent Failures in Agentic Data Science",
+      "url": "https://arxiv.org/abs/2610.14115",
+      "description": "arXiv:2610.14115v1 Announce Type: new \nAbstract: Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents that promise automating the design and execution of data science from task formulation to model development. Existing evaluations of agentic data science (agentic DS) assess downstream predictive performance and code correctness, providing preliminary insight in agentic DS capabilities. We argue that these evaluations overlook the fundamental principles of data science: methodological data science- and domain knowledge. As such, only assessing downstream performance masks methodological failures such as data leakage and inappropriate validation, limiting the development of robust agentic DS systems. In this paper, we evaluate agentic DS beyond accuracy from three different angles: 1) a large-scale analysis of failure modes in common agentic DS frameworks and models across 220 data science tasks, 2) a reusable and extensible test suite with curated data science tasks that test for six specific failures in a controlled manner, and 3) a qualitative assessment of agentic DS pipelines against expert solutions on Kaggle competitions. We find that the majority of agentic solutions contain at least one failure mode despite the complexity of agentic harness or model capacity. Moreover, we identify a positive correlation between the occurrence of data leakage failures and predictive performance, confirming the necessity to evaluate agents beyond accuracy. Our qualitative analysis shows that DS agents generally lack problem solving creativity and domain knowledge, compared to competition-winning data scientists. We believe that principled failure mode analysis, as presented here, should be integral part of agentic DS evaluations, and that the insights we surface will be key in developing trustworthy agentic DS pipelines.",
+      "pub_date": "Thu, 15 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "智能体数据科学中的隐性失败模式分析",
+        "summary": "论文指出当前智能体数据科学评估仅关注预测性能和代码正确性，忽视了方法论与领域知识，导致数据泄漏、验证不当等隐性失败。作者通过220个任务的大规模分析、可复用测试套件及Kaggle专家对比，发现多数智能体方案至少存在一种失败模式，且数据泄漏与预测性能正相关，呼吁将失败模式分析纳入评估体系。",
+        "summary_en": "This paper argues that existing evaluations of agentic data science focus only on predictive performance and code correctness, overlooking methodological and domain knowledge, which masks failures like data leakage and inappropriate validation. Through a large-scale analysis of 220 tasks, a reusable test suite, and qualitative comparison with Kaggle experts, the authors find most agentic solutions contain at least one failure mode, with data leakage positively correlated with performance, urging failure-mode analysis as integral to evaluation.",
+        "tags": [
+          "agent-framework",
+          "evaluation",
+          "research",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-15-rss-002",
+        "title": "智能体数据科学中的隐性失败模式分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.14115",
+        "language": "en",
+        "summary": "论文指出当前智能体数据科学评估仅关注预测性能和代码正确性，忽视了方法论与领域知识，导致数据泄漏、验证不当等隐性失败。作者通过220个任务的大规模分析、可复用测试套件及Kaggle专家对比，发现多数智能体方案至少存在一种失败模式，且数据泄漏与预测性能正相关，呼吁将失败模式分析纳入评估体系。",
+        "summary_en": "This paper argues that existing evaluations of agentic data science focus only on predictive performance and code correctness, overlooking methodological and domain knowledge, which masks failures like data leakage and inappropriate validation. Through a large-scale analysis of 220 tasks, a reusable test suite, and qualitative comparison with Kaggle experts, the authors find most agentic solutions contain at least one failure mode, with data leakage positively correlated with performance, urging failure-mode analysis as integral to evaluation.",
+        "tags": [
+          "agent-framework",
+          "evaluation",
+          "research",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-15T21:03:30.357748+08:00",
+        "updated_at": "2026-10-15T21:03:30.357750+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+      "url": "https://arxiv.org/abs/2610.14118",
+      "description": "arXiv:2610.14118v1 Announce Type: new \nAbstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous post-training pipelines exist for tool-use agents, their counterparts for harness-based agents remain scarce and are predominantly one-shot and teacher-dependent: a stronger external model synthesizes tasks and collects trajectories, the target agent is trained once, and evaluation results are consumed by human researchers rather than fed back into the loop. Such pipelines are inherently bounded by the capability of the external model and the scope of human prior, leaving no room for self-improvement. To address these limitations, we propose ClawLoop, a framework that enables self-improving without any external teacher model and with minimal prior dependencies. ClawLoop composes three phases into a self-sustaining cycle: Task Synthesis, which generates a diverse pool of training tasks via two complementary construction routines, applies diagnosis-conditioned difficulty growth followed by both agent-free and agent-based task validation; Training, which updates the agent via SFT and/or RL; and Diagnosis and Feedback, which analyzes the agent's rollout behaviors to produce a capability analysis report that will be used as feedback for task synthesis in the next iteration. Using Qwen3.6-27B as the loop model, ClawLoop yields consistent improvements on SkillsBench, Claw-Eval-Live, and ClawGym-Bench. The iteratively refined tasks are further transferred to smaller-scale Qwen3.5-4B and 9B models with gains across all benchmarks, validating data quality independently of the loop model.",
+      "pub_date": "Thu, 15 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ClawLoop：基于Harness原生训练循环的自我改进智能体",
+        "summary": "ClawLoop提出一种无需外部教师模型的自我改进框架，通过任务合成、训练、诊断反馈三阶段循环，让基于harness的LLM智能体持续提升能力，并在多个基准上验证了迭代任务可迁移至更小模型。",
+        "summary_en": "ClawLoop proposes a self-improving framework without external teacher models, cycling through task synthesis, training, and diagnosis-feedback to continuously enhance harness-based LLM agents, with iterative tasks transferring to smaller models across benchmarks.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-15-rss-003",
+        "title": "ClawLoop：基于Harness原生训练循环的自我改进智能体",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.14118",
+        "language": "en",
+        "summary": "ClawLoop提出一种无需外部教师模型的自我改进框架，通过任务合成、训练、诊断反馈三阶段循环，让基于harness的LLM智能体持续提升能力，并在多个基准上验证了迭代任务可迁移至更小模型。",
+        "summary_en": "ClawLoop proposes a self-improving framework without external teacher models, cycling through task synthesis, training, and diagnosis-feedback to continuously enhance harness-based LLM agents, with iterative tasks transferring to smaller models across benchmarks.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-15T21:03:30.357753+08:00",
+        "updated_at": "2026-10-15T21:03:30.357754+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Correction Training for Diffusion Models",
+      "url": "https://arxiv.org/abs/2610.14136",
+      "description": "arXiv:2610.14136v2 Announce Type: new \nAbstract: Iterative sampling in diffusion models can lead to error accumulation due to exposure bias. The denoiser is trained on real images interpolated with noise, but at inference its inputs are constructed from its own imperfect predictions from the earlier steps, something it has never seen at training time. This might be one reason diffusion models often struggle without additional help, such as CFG. We introduce a correction step for diffusion models which attempts to reduce this training-inference gap. The corrector takes the base model's prediction as input and is trained against the same ground-truth target. This makes correction an explicit learning task, with training inputs provided by the base model. During sampling, at each denoising step, we iteratively refine the denoiser's clean-sample prediction. This allows us to correct predictions at intermediate denoising steps, preventing early artifacts from persisting into the final sample. Although the corrector is trained only on predictions from the base denoiser, it can be applied repeatedly to its own outputs at inference for better results. This simple framework leads to substantial improvement in sample quality while largely preserving diversity. We evaluate our method across DiT, SiT, and JiT. Our method substantially improves upon previously reported FID scores for unguided generation and, notably, unconditional generation, where producing high-quality samples without guidance has been particularly challenging. Our method achieves performance competitive with classifier-free guidance (CFG), and combining correction with CFG further improves diversity and reduces oversaturation typical of CFG. Finally, we show that the additional inference cost of correction can be amortized by distilling the refined predictions back into the base diffusion model, retaining the quality gains without additional inference-time overhead.",
+      "pub_date": "Thu, 15 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "扩散模型的校正训练方法",
+        "summary": "该研究提出一种校正步骤来缩小扩散模型训练与推理之间的差距。校正器以基础模型预测为输入，针对相同真值目标训练，在采样时迭代精炼去噪器的干净样本预测，防止早期伪影残留。在DiT、SiT和JiT上评估，显著提升无引导及无条件生成的FID分数，性能可与CFG竞争，并可通过蒸馏消除额外推理开销。",
+        "summary_en": "This work introduces a correction step for diffusion models to reduce the training-inference gap caused by exposure bias. The corrector takes the base model's prediction as input and is trained against the same ground-truth target, iteratively refining the denoiser's clean-sample prediction at each sampling step to prevent early artifacts from persisting. Evaluated on DiT, SiT, and JiT, it substantially improves FID scores for unguided and unconditional generation, achieves performance competitive with CFG, and can be distilled back into the base model to amortize inference cost.",
+        "tags": [
+          "research",
+          "llm",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-15-rss-009",
+        "title": "扩散模型的校正训练方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.14136",
+        "language": "en",
+        "summary": "该研究提出一种校正步骤来缩小扩散模型训练与推理之间的差距。校正器以基础模型预测为输入，针对相同真值目标训练，在采样时迭代精炼去噪器的干净样本预测，防止早期伪影残留。在DiT、SiT和JiT上评估，显著提升无引导及无条件生成的FID分数，性能可与CFG竞争，并可通过蒸馏消除额外推理开销。",
+        "summary_en": "This work introduces a correction step for diffusion models to reduce the training-inference gap caused by exposure bias. The corrector takes the base model's prediction as input and is trained against the same ground-truth target, iteratively refining the denoiser's clean-sample prediction at each sampling step to prevent early artifacts from persisting. Evaluated on DiT, SiT, and JiT, it substantially improves FID scores for unguided and unconditional generation, achieves performance competitive with CFG, and can be distilled back into the base model to amortize inference cost.",
+        "tags": [
+          "research",
+          "llm",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-15T21:03:30.357781+08:00",
+        "updated_at": "2026-10-15T21:03:30.357782+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
+      "url": "https://arxiv.org/abs/2610.14146",
+      "description": "arXiv:2610.14146v1 Announce Type: new \nAbstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary check. We present Long-Horizon-Terminal-Bench 2.0 (LHTB 2.0), an extension of Long-Horizon-Terminal-Bench that preserves its 46 original tasks while correcting task and evaluation-infrastructure defects and extending 31 tasks. LHTB 2.0 contains 77 tasks across 13 domains and eight task types. The extended tasks are produced through a systematic reconstruction-task pipeline. We start from a working scientific or engineering artifact, then use a parameterized reference implementation to generate multiple scenarios, reveal six as behavioral evidence, hold out three for evaluation, and use dense progress ladders to reward partial progress while preventing memorization of public outputs. We also extend the evaluation horizon from 90 minutes to three hours and record verifier checkpoints every 30 minutes, enabling direct measurement of sustained progress within a run. Across 1,145 scored model-task runs from 15 frontier models, GPT-6-astra leads with dense mean reward 0.69 and 37 tasks at R at least 0.95, followed by GPT-5.6-sol with dense mean reward 0.67 and 32 tasks at the same threshold. On the 30 reconstruction tasks, binary verifier scores average 0.221, whereas dense ladder scores average 0.653, showing that outcome-only evaluation discards substantial intermediate progress. LHTB 2.0 provides a broader, hardened, and process-aware testbed for studying reliable agent execution over hours.",
+      "pub_date": "Thu, 15 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Long-Horizon-Terminal-Bench 2.0：自动化任务构建与衡量智能体持续进展",
+        "summary": "LHTB 2.0 扩展了长时程终端基准，包含13个领域77个任务，通过重建任务流水线自动生成任务，并将评估时长延长至3小时、每30分钟记录检查点，以密集进度阶梯奖励部分进展。实验显示仅看最终结果会丢弃大量中间进展。",
+        "summary_en": "LHTB 2.0 extends the long-horizon terminal benchmark with 77 tasks across 13 domains, using a reconstruction pipeline to auto-generate tasks, extending evaluation to 3 hours with 30-minute verifier checkpoints and dense progress ladders that reward partial progress. Results show outcome-only evaluation discards substantial intermediate progress.",
+        "tags": [
+          "benchmark",
+          "agent-framework",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-15-rss-004",
+        "title": "Long-Horizon-Terminal-Bench 2.0：自动化任务构建与衡量智能体持续进展",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.14146",
+        "language": "en",
+        "summary": "LHTB 2.0 扩展了长时程终端基准，包含13个领域77个任务，通过重建任务流水线自动生成任务，并将评估时长延长至3小时、每30分钟记录检查点，以密集进度阶梯奖励部分进展。实验显示仅看最终结果会丢弃大量中间进展。",
+        "summary_en": "LHTB 2.0 extends the long-horizon terminal benchmark with 77 tasks across 13 domains, using a reconstruction pipeline to auto-generate tasks, extending evaluation to 3 hours with 30-minute verifier checkpoints and dense progress ladders that reward partial progress. Results show outcome-only evaluation discards substantial intermediate progress.",
+        "tags": [
+          "benchmark",
+          "agent-framework",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-15T21:03:30.357757+08:00",
+        "updated_at": "2026-10-15T21:03:30.357759+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Following the Flow the Law Requires: Training Voice Agents to Transfer to Unseen Regulated Procedures in Debt Collection",
+      "url": "https://arxiv.org/abs/2610.18881",
+      "description": "arXiv:2610.18881v1 Announce Type: new \nAbstract: Voice agents built on large language models (LLMs) now handle customer calls, but in regulated applications completing the task is not enough: the agent must follow a conversational flow set by law. In debt collection, it must confirm it is speaking to the debtor before mentioning the debt, identify itself and the creditor, state the amount, and avoid prohibited language. Every creditor turns these rules into its own procedure and revises it. We ask whether a small, self-hosted policy can be trained once and then follow regulated procedures it has never seen. One machine-readable specification per deployment, FlowSpec, generates the policy instruction, gates the tools, supplies the supervision and defines the tests; the agent speaks only approved catalogue sentences. We fine-tune a 9-billion-parameter model on 2,506 conversations from 297 randomized procedures and evaluate a Thai outbound-call agent on four unseen deployment procedures (three debt collection, one non-debt), one from a wholly withheld lineage. Documented checks, fixed by the procedure, rise from 67--71 percents to 93--100 percents, while grounded checks, fixed by the conversation, already pass at 97--100 percents before training; scenario pass rate rises from 15/43 to 40/43. An audit of the shared specification finds 11 defects, 3 of which its own metric did not expose.",
+      "pub_date": "Thu, 15 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "遵循法律要求的对话流程：训练语音代理迁移至未见过的受监管催收程序",
+        "summary": "研究提出FlowSpec规范，用机器可读规格生成指令、门控工具并提供监督，微调90亿参数模型，使其在未见过的受监管催收流程中合规率从67-71%提升至93-100%，场景通过率从15/43升至40/43。",
+        "summary_en": "The paper introduces FlowSpec, a machine-readable specification that generates policy instructions, gates tools, and supplies supervision to fine-tune a 9B-parameter voice agent. Trained on 2,506 conversations from 297 randomized procedures, the agent transfers to unseen regulated debt-collection procedures, raising documented compliance checks from 67-71% to 93-100% and scenario pass rate from 15/43 to 40/43.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "fine-tuning",
+          "evaluation",
+          "application"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-15-rss-007",
+        "title": "遵循法律要求的对话流程：训练语音代理迁移至未见过的受监管催收程序",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.18881",
+        "language": "en",
+        "summary": "研究提出FlowSpec规范，用机器可读规格生成指令、门控工具并提供监督，微调90亿参数模型，使其在未见过的受监管催收流程中合规率从67-71%提升至93-100%，场景通过率从15/43升至40/43。",
+        "summary_en": "The paper introduces FlowSpec, a machine-readable specification that generates policy instructions, gates tools, and supplies supervision to fine-tune a 9B-parameter voice agent. Trained on 2,506 conversations from 297 randomized procedures, the agent transfers to unseen regulated debt-collection procedures, raising documented compliance checks from 67-71% to 93-100% and scenario pass rate from 15/43 to 40/43.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "fine-tuning",
+          "evaluation",
+          "application"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-15T21:03:30.357773+08:00",
+        "updated_at": "2026-10-15T21:03:30.357774+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Evaluating Large Language Models for Multilingual Abstractive Summarization: A Comprehensive Study of English and Bengali",
+      "url": "https://arxiv.org/abs/2610.19003",
+      "description": "arXiv:2610.19003v1 Announce Type: new \nAbstract: Abstractive summarization remains challenging across languages, where linguistic quality and factual consistency may diverge, particularly in low-resource settings. We present a standardized zero-shot benchmark of eight closed-source and open-weight LLMs on size-matched English and Bengali XL-Sum test sets. Our evaluation combines lexical and semantic metrics with reference-free factuality verification and multidimensional LLM-as-a-Judge assessment, providing a comprehensive analysis of both surface-level quality and factual reliability in multilingual summarization. Results reveal substantial cross-lingual variation: GPT-5.6 Luna leads several English lexical metrics but does not maintain the same advantage in Bengali, where LLaMA 3.3 70B achieves the highest ROUGE and BLEU scores. Gemini 2.5 Flash obtains the highest observed Bengali factuality score. Furthermore, evaluation methods produce different model rankings, highlighting the limitations of relying on a single metric for multilingual summarization assessment. These findings demonstrate that strong English summarization performance does not necessarily transfer to Bengali and emphasize the need for comprehensive evaluation frameworks for low-resource languages.",
+      "pub_date": "Thu, 15 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多语言抽象摘要中的大语言模型评估：英语与孟加拉语综合研究",
+        "summary": "本文构建了八种闭源与开源大语言模型在英语和孟加拉语XL-Sum测试集上的零样本基准，结合词汇与语义指标、无参考事实性验证及多维LLM-as-a-Judge评估。结果显示跨语言差异显著：GPT-5.6 Luna在英语词汇指标领先，但孟加拉语中LLaMA 3.3 70B的ROUGE和BLEU最高，Gemini 2.5 Flash事实性最佳，且不同评估方法给出不同排名。",
+        "summary_en": "This paper presents a standardized zero-shot benchmark of eight closed-source and open-weight LLMs on size-matched English and Bengali XL-Sum test sets, combining lexical and semantic metrics with reference-free factuality verification and multidimensional LLM-as-a-Judge assessment. Results reveal substantial cross-lingual variation: GPT-5.6 Luna leads several English lexical metrics but not in Bengali, where LLaMA 3.3 70B achieves the highest ROUGE and BLEU, and Gemini 2.5 Flash obtains the highest Bengali factuality score. Different evaluation methods yield different rankings, highlighting the limitations of single-metric assessment for multilingual summarization.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-15-rss-008",
+        "title": "多语言抽象摘要中的大语言模型评估：英语与孟加拉语综合研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.19003",
+        "language": "en",
+        "summary": "本文构建了八种闭源与开源大语言模型在英语和孟加拉语XL-Sum测试集上的零样本基准，结合词汇与语义指标、无参考事实性验证及多维LLM-as-a-Judge评估。结果显示跨语言差异显著：GPT-5.6 Luna在英语词汇指标领先，但孟加拉语中LLaMA 3.3 70B的ROUGE和BLEU最高，Gemini 2.5 Flash事实性最佳，且不同评估方法给出不同排名。",
+        "summary_en": "This paper presents a standardized zero-shot benchmark of eight closed-source and open-weight LLMs on size-matched English and Bengali XL-Sum test sets, combining lexical and semantic metrics with reference-free factuality verification and multidimensional LLM-as-a-Judge assessment. Results reveal substantial cross-lingual variation: GPT-5.6 Luna leads several English lexical metrics but not in Bengali, where LLaMA 3.3 70B achieves the highest ROUGE and BLEU, and Gemini 2.5 Flash obtains the highest Bengali factuality score. Different evaluation methods yield different rankings, highlighting the limitations of single-metric assessment for multilingual summarization.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-15T21:03:30.357777+08:00",
+        "updated_at": "2026-10-15T21:03:30.357778+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Can LLMs Access their World Knowledge for Event Prediction?",
+      "url": "https://arxiv.org/abs/2610.19021",
+      "description": "arXiv:2610.19021v1 Announce Type: new \nAbstract: Recent work has questioned whether large language models (LLMs) can be useful for temporal event prediction. Despite vast pretrained world knowledge, LLMs often underperform simpler specialized models. We ask whether this knowledge is truly inaccessible, or whether current methods fail to present event prediction in a form LLMs can use. We argue for the latter and show that LLMs become effective event forecasters when the interface is designed around two choices. The first grounds each event in a natural-language description, and the second separates event semantics from the prediction space to prevent semantic bias from label associations. To test this, we introduce DescribeEvent, a benchmark of ~150K events across seven datasets and six domains with event-level descriptions. We find that capable LLMs substantially benefit from descriptions and symbolic labels, outperforming description-free variants and non-LLM baselines, while weaker models gain little. These results suggest that accessing LLM world knowledge for event prediction is an interface problem, and that event descriptions offer a practical way to elicit the knowledge LLMs already encode.",
+      "pub_date": "Thu, 15 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM能否利用世界知识进行事件预测？",
+        "summary": "研究探讨LLM能否利用预训练世界知识进行时间事件预测，提出通过自然语言描述事件并将事件语义与预测空间分离的接口设计，使LLM成为有效的事件预测器。发布DescribeEvent基准，涵盖7个数据集、6个领域约15万事件，实验表明强LLM在描述和符号标签辅助下显著优于无描述变体及非LLM基线。",
+        "summary_en": "This work asks whether LLMs can access their pretrained world knowledge for temporal event prediction. The authors argue it is an interface problem and propose grounding events in natural-language descriptions while separating event semantics from the prediction space. They introduce DescribeEvent, a benchmark of ~150K events across seven datasets and six domains. Capable LLMs substantially benefit from descriptions and symbolic labels, outperforming description-free variants and non-LLM baselines, while weaker models gain little.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-15-rss-005",
+        "title": "LLM能否利用世界知识进行事件预测？",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.19021",
+        "language": "en",
+        "summary": "研究探讨LLM能否利用预训练世界知识进行时间事件预测，提出通过自然语言描述事件并将事件语义与预测空间分离的接口设计，使LLM成为有效的事件预测器。发布DescribeEvent基准，涵盖7个数据集、6个领域约15万事件，实验表明强LLM在描述和符号标签辅助下显著优于无描述变体及非LLM基线。",
+        "summary_en": "This work asks whether LLMs can access their pretrained world knowledge for temporal event prediction. The authors argue it is an interface problem and propose grounding events in natural-language descriptions while separating event semantics from the prediction space. They introduce DescribeEvent, a benchmark of ~150K events across seven datasets and six domains. Capable LLMs substantially benefit from descriptions and symbolic labels, outperforming description-free variants and non-LLM baselines, while weaker models gain little.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-15T21:03:30.357761+08:00",
+        "updated_at": "2026-10-15T21:03:30.357763+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Joint Subspace Sparse Attention for Efficient Long-Context Decoding",
+      "url": "https://arxiv.org/abs/2610.19026",
+      "description": "arXiv:2610.19026v1 Announce Type: new \nAbstract: Sparse attention reduces the KV-cache traffic that dominates long-context LLM decoding, but practical methods largely operate at coarse granularity. Token-level selection offers finer control, yet presents two challenges: low-dimensional scoring may lose query--key structure needed for accurate ranking, while gathering scattered selected tokens can offset the resulting latency benefit. We introduce Joint Subspace Sparse Attention (JSSA) to address both challenges. For selection quality, JSSA learns a shared low-dimensional query--key subspace by minimizing token-score preservation error. We upper-bound the resulting non-convex objective with a tractable marginal objective that admits a closed-form spectral solution; direct refinement of the exact objective provides no measurable improvement in the tested settings. For execution efficiency, we develop a gather-free token-level indexed-attention kernel that supports distinct per-KV-head selections under the standard grouped-query attention (GQA) KV-cache layout. Across standard GQA, hybrid sliding-window/global attention, and Multi-head Latent Attention (MLA) models, JSSA consistently remains close to full-KV accuracy while avoiding the substantial generation-length inflation and architecture-dependent failures observed with competing methods. On an NVIDIA B200 GPU, JSSA achieves up to $6.43\\times$ the decoding throughput of full-KV attention at 128K context. JSSA achieves reasoning accuracy comparable to model-native DSA without model training and reaches 96--99\\% of its decoding throughput even at 700B scale large models.",
+      "pub_date": "Thu, 15 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "联合子空间稀疏注意力：高效长上下文解码",
+        "summary": "提出联合子空间稀疏注意力（JSSA），通过学习共享低维查询-键子空间提升token级选择质量，并设计无gather的索引注意力内核。在GQA、MLA等模型上保持接近全KV精度，128K上下文下解码吞吐量提升至6.43倍。",
+        "summary_en": "Introduces Joint Subspace Sparse Attention (JSSA), which learns a shared low-dimensional query-key subspace for better token-level selection and develops a gather-free indexed-attention kernel. It stays close to full-KV accuracy across GQA, MLA, and hybrid attention models, achieving up to 6.43x decoding throughput at 128K context.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-15-rss-006",
+        "title": "联合子空间稀疏注意力：高效长上下文解码",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.19026",
+        "language": "en",
+        "summary": "提出联合子空间稀疏注意力（JSSA），通过学习共享低维查询-键子空间提升token级选择质量，并设计无gather的索引注意力内核。在GQA、MLA等模型上保持接近全KV精度，128K上下文下解码吞吐量提升至6.43倍。",
+        "summary_en": "Introduces Joint Subspace Sparse Attention (JSSA), which learns a shared low-dimensional query-key subspace for better token-level selection and develops a gather-free indexed-attention kernel. It stays close to full-KV accuracy across GQA, MLA, and hybrid attention models, achieving up to 6.43x decoding throughput at 128K context.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-15T21:03:30.357765+08:00",
+        "updated_at": "2026-10-15T21:03:30.357767+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Crossing the Gender Binary: Modelling Gendered Reference in Science Fiction and General Fiction",
+      "url": "https://arxiv.org/abs/2610.19028",
+      "description": "arXiv:2610.19028v1 Announce Type: new \nAbstract: Science fiction is widely credited with unsettling gender. This article asks whether that holds at the linguistic level, in how readily gendered reference gives way to its counterpart, a neutral term, or other social category, and whether it separates the genre from general fiction. It does so by masking man/men, woman/women, and person/people across same-period science fiction and general fiction corpora and classifying RoBERTa's five likeliest substitutes by gender. Retention and displacement are permutation-tested over five resampling rounds, and the underlying sentences are read closely. Both corpora cross the gender binary in both directions, but unequally: where woman is masked, the model predicts a masculine term about twice as often as it predicts a feminine term where man is masked. Each mismatch marks a statistical surprise, a word the corpus did not expect there. Against this shared pattern, science fiction shows greater gender permeability than the general fiction corpus, placing man in feminine contexts more often than general fiction while the reverse rate holds steady. Its degendering tendency is stronger too, drawing both gendered terms toward the neutral. Beyond the binary, a masked woman also draws substitutes naming a social category and no gender far more often than a masked man does. In measuring the gender permeability of man, woman, and person in linguistic distribution and testing whether genre changes it, the study gives science fiction studies linguistic evidence for thematic claims and computational literary studies a pipeline applicable to other category vocabularies, such as race and class.",
+      "pub_date": "Thu, 15 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "科幻与普通小说中的性别指代建模研究",
+        "summary": "该研究通过掩码man/woman/person并用RoBERTa预测替代词，比较科幻小说与普通小说语料中的性别指代渗透性。发现两语料均跨越性别二元，但科幻小说性别渗透性更强，去性别化倾向更明显，为计算文学研究提供了可迁移的分析流程。",
+        "summary_en": "This study masks man/woman/person and uses RoBERTa to predict substitutes, comparing gender permeability in science fiction versus general fiction corpora. Both cross the gender binary, but science fiction shows greater gender permeability and stronger degendering tendencies, offering computational literary studies a transferable pipeline.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.55,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-15-rss-010",
+        "title": "科幻与普通小说中的性别指代建模研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.19028",
+        "language": "en",
+        "summary": "该研究通过掩码man/woman/person并用RoBERTa预测替代词，比较科幻小说与普通小说语料中的性别指代渗透性。发现两语料均跨越性别二元，但科幻小说性别渗透性更强，去性别化倾向更明显，为计算文学研究提供了可迁移的分析流程。",
+        "summary_en": "This study masks man/woman/person and uses RoBERTa to predict substitutes, comparing gender permeability in science fiction versus general fiction corpora. Both cross the gender binary, but science fiction shows greater gender permeability and stronger degendering tendencies, offering computational literary studies a transferable pipeline.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.55,
+        "status": "published",
+        "created_at": "2026-10-15T21:03:30.357785+08:00",
+        "updated_at": "2026-10-15T21:03:30.357786+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}
