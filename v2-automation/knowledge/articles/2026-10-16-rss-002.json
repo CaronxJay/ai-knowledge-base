@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-16-rss-002",
+  "title": "基准饱和后如何评估模型能力",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.20667",
+  "language": "en",
+  "summary": "研究探讨基准测试饱和后如何继续评估模型能力：利用模型解题的完整转录文本，而非仅依赖分数。通过模拟历史基准饱和，发现饱和转录仍保留能力信息，其中成对评判表现最佳，预测误差降低5.3倍，信息集中在推理和工具调用等通道。",
+  "summary_en": "This paper investigates whether full model transcripts can assess capabilities after benchmark scores saturate. Simulating saturation retrospectively, it tests protocols using only correctly solved transcripts from saturated benchmarks to predict capabilities on held-out items. Pairwise judging performs best, reducing prediction error 5.3x versus score-only baselines. Capability signal persists in transcripts, concentrated in reasoning and tool-call channels, though predictive power doesn't always generalize across distribution shifts.",
+  "tags": [
+    "benchmark",
+    "evaluation",
+    "llm",
+    "research",
+    "prompt-engineering"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-16T21:00:07.788373+08:00",
+  "updated_at": "2026-10-16T21:00:07.788377+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

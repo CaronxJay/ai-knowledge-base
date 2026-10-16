@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-16-rss-007",
+  "title": "实时聊天机器人恋爱诈骗阶段检测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.20631",
+  "language": "en",
+  "summary": "该研究开发了一个基于Line Messaging API的聊天机器人，利用大语言模型实时检测恋爱诈骗，并依据社会科学七阶段理论对诈骗阶段进行分类，同时提供阶段解释和防范建议，具有实际应用价值。",
+  "summary_en": "This study develops a chatbot using the Line Messaging API to detect romance scams in real-time via large language models. Based on seven-stage social science theory, it classifies scam stages and provides explanations and prevention advice, offering practical real-world application value.",
+  "tags": [
+    "llm",
+    "application",
+    "security",
+    "agent-framework"
+  ],
+  "category": "application",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-16T21:00:07.788412+08:00",
+  "updated_at": "2026-10-16T21:00:07.788415+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

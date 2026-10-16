@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-16-rss-008",
+  "title": "DeepUnfolding Agent：经典-量子自适应控制API平台",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.20615",
+  "language": "en",
+  "summary": "该论文提出DeepUnfolding Agent，一个基于FastAPI的schema驱动平台，将深度展开自适应控制作为外部服务暴露。通过策略注册、诊断适配、控制器工厂、安全守卫等模块，实现控制器智能与任务执行的解耦，支持经典、量子感知、混合及IBM量子执行路径，提升复用性与可复现性。",
+  "summary_en": "This paper presents DeepUnfolding Agent, a schema-driven FastAPI platform that exposes deep unfolded adaptive control as an external software service. It decouples controller intelligence from task-specific execution via a strategy registry, diagnostic-to-state adapter, controller factory, safety guard, and feedback update path, supporting classical, quantum-aware, hybrid, Qiskit Aer, and IBM Quantum execution pathways for reusable and traceable optimization workflows.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "infrastructure",
+    "research",
+    "python"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-10-16T21:00:07.788420+08:00",
+  "updated_at": "2026-10-16T21:00:07.788423+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,467 @@
+{
+  "collected_at": "2026-10-16T21:00:07.789389+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "url": "https://arxiv.org/abs/2610.20665",
+      "description": "arXiv:2610.20665v1 Announce Type: new \nAbstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across six game types, to evaluate agents while games continue running during inference. Paired evaluations show that GPT-6.1-sol outperforms the faster Jev when games are paused, but falls behind when they keep running. We propose Two-Timescale Offline Recursive Self-Improvement (TORSI): a slow teacher studies failures and tests corrections in paused games between attempts, then writes reusable instructions for a fast student. The student acts without teacher calls during gameplay, and validation scores determine which updates are adopted. Two rounds raise Jev's average test score from 13.51 to 24.19 on a 0--100 progress scale, improving all six game types. The instructions also improve average scores for three other models without retuning. These findings point toward real-time intelligence: enabling powerful LLM agents to remain effective in a continuously changing world by organizing deliberation, learning, and action across timescales.",
+      "pub_date": "Fri, 16 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "实时环境下的LLM智能体评估与训练：RealtimeBench与TORSI",
+        "summary": "论文提出RealtimeBench基准，包含180个任务、6类游戏，在推理期间游戏持续运行以评估智能体实时表现。发现GPT-6.1-sol在暂停时优于Jev，但持续运行时落后。提出TORSI双时间尺度离线递归自我改进方法，让慢速教师分析失败并编写指令，快速学生无需教师调用即可行动，两轮将Jev平均分从13.51提升至24.19。",
+        "summary_en": "The paper introduces RealtimeBench, a benchmark with 180 tasks across six game types that evaluates LLM agents while games keep running during inference. Paired evaluations show GPT-6.1-sol beats faster Jev when paused but falls behind when running. They propose TORSI (Two-Timescale Offline Recursive Self-Improvement): a slow teacher studies failures and writes reusable instructions for a fast student that acts without teacher calls. Two rounds raise Jev's average score from 13.51 to 24.19, improving all six game types and generalizing to three other models.",
+        "tags": [
+          "agent-framework",
+          "benchmark",
+          "evaluation",
+          "llm",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-16-rss-001",
+        "title": "实时环境下的LLM智能体评估与训练：RealtimeBench与TORSI",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.20665",
+        "language": "en",
+        "summary": "论文提出RealtimeBench基准，包含180个任务、6类游戏，在推理期间游戏持续运行以评估智能体实时表现。发现GPT-6.1-sol在暂停时优于Jev，但持续运行时落后。提出TORSI双时间尺度离线递归自我改进方法，让慢速教师分析失败并编写指令，快速学生无需教师调用即可行动，两轮将Jev平均分从13.51提升至24.19。",
+        "summary_en": "The paper introduces RealtimeBench, a benchmark with 180 tasks across six game types that evaluates LLM agents while games keep running during inference. Paired evaluations show GPT-6.1-sol beats faster Jev when paused but falls behind when running. They propose TORSI (Two-Timescale Offline Recursive Self-Improvement): a slow teacher studies failures and writes reusable instructions for a fast student that acts without teacher calls. Two rounds raise Jev's average score from 13.51 to 24.19, improving all six game types and generalizing to three other models.",
+        "tags": [
+          "agent-framework",
+          "benchmark",
+          "evaluation",
+          "llm",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-16T21:00:07.788359+08:00",
+        "updated_at": "2026-10-16T21:00:07.788366+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Evaluating Model Capabilities After Benchmark Saturation",
+      "url": "https://arxiv.org/abs/2610.20667",
+      "description": "arXiv:2610.20667v1 Announce Type: new \nAbstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and with it its utility for informing AI safety cases and frontier policies. Yet benchmark items produce far more information than the scores we typically extract from them: a full transcript of how each model solved the task. We investigate whether these transcripts can be used to assess model capabilities even after benchmark scores have saturated. We simulate saturation retrospectively using historical benchmark and model releases, and test whether protocols that access only correctly solved transcripts from saturated benchmarks can predict capabilities measured on held-out, unsaturated items. We evaluate representative contemporary approaches for extracting information from model transcripts: pairwise judging, single-transcript absolute scoring, and predictions from deterministic transcript features or embeddings. We find that saturated transcripts retain capability information beyond benchmark accuracy. Amongst our evaluated protocols, pairwise judging performs best, reducing prediction error by 5.3 times compared to a baseline using only saturated benchmark scores. This capability-relevant information is distributed across transcript sections, but concentrated in specific channels of information such as reasoning and tool-calls. However, the predictive power of protocols does not always generalise across distribution shifts -- for example by underestimating the capabilities of the first reasoning models introduced in early 2025. Saturated benchmarks thus retain capability-predicting signal in their task transcripts, but extending the lifetime of existing benchmarks requires methods designed to extract these signals robustly.",
+      "pub_date": "Fri, 16 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基准饱和后如何评估模型能力",
+        "summary": "研究探讨基准测试饱和后如何继续评估模型能力：利用模型解题的完整转录文本，而非仅依赖分数。通过模拟历史基准饱和，发现饱和转录仍保留能力信息，其中成对评判表现最佳，预测误差降低5.3倍，信息集中在推理和工具调用等通道。",
+        "summary_en": "This paper investigates whether full model transcripts can assess capabilities after benchmark scores saturate. Simulating saturation retrospectively, it tests protocols using only correctly solved transcripts from saturated benchmarks to predict capabilities on held-out items. Pairwise judging performs best, reducing prediction error 5.3x versus score-only baselines. Capability signal persists in transcripts, concentrated in reasoning and tool-call channels, though predictive power doesn't always generalize across distribution shifts.",
+        "tags": [
+          "benchmark",
+          "evaluation",
+          "llm",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-16-rss-002",
+        "title": "基准饱和后如何评估模型能力",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.20667",
+        "language": "en",
+        "summary": "研究探讨基准测试饱和后如何继续评估模型能力：利用模型解题的完整转录文本，而非仅依赖分数。通过模拟历史基准饱和，发现饱和转录仍保留能力信息，其中成对评判表现最佳，预测误差降低5.3倍，信息集中在推理和工具调用等通道。",
+        "summary_en": "This paper investigates whether full model transcripts can assess capabilities after benchmark scores saturate. Simulating saturation retrospectively, it tests protocols using only correctly solved transcripts from saturated benchmarks to predict capabilities on held-out items. Pairwise judging performs best, reducing prediction error 5.3x versus score-only baselines. Capability signal persists in transcripts, concentrated in reasoning and tool-call channels, though predictive power doesn't always generalize across distribution shifts.",
+        "tags": [
+          "benchmark",
+          "evaluation",
+          "llm",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-16T21:00:07.788373+08:00",
+        "updated_at": "2026-10-16T21:00:07.788377+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion",
+      "url": "https://arxiv.org/abs/2610.20669",
+      "description": "arXiv:2610.20669v1 Announce Type: new \nAbstract: Reward-guided discrete diffusion enables test-time alignment with downstream objectives, but applying Sequential Monte Carlo (SMC) guidance at every denoising step is computationally expensive. Active guidance steps require additional reward evaluations and, for gradient-based proposals, value-gradient computations. Sparse guidance reduces this cost by guiding only a subset of timesteps, but commonly used schedules are fixed heuristics whose effectiveness can vary substantially across tasks. We propose VISTA, a training-free method that automatically selects guided timesteps under a fixed budget. VISTA formulates sparse guidance as approximation of the ideal full-guidance probability path and derives an estimable upper bound on \\(\\ell_1\\) path deviation. Using value statistics collected from a small number of full-guidance warmup generations, VISTA optimizes the resulting empirical surrogate exactly via dynamic programming. The warmup generations can be retained as model outputs, and after schedule selection VISTA has the same per-generation guidance complexity as other sparse schedules with the same budget. Across text, biological sequence, and image generation tasks, VISTA discovers task-dependent schedules and outperforms hand-designed sparse schedules in most tested settings, while approaching or exceeding full-guidance performance on several task metrics. In toxic-text generation, for example, VISTA attains a 0.99 unique-toxic ratio compared with 1.00 for full guidance while reducing post-selection per-generation latency from 204.23 s to 38.16 s, a 5.35$\\times$ speedup.",
+      "pub_date": "Fri, 16 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "VISTA：离散扩散模型序列蒙特卡洛引导的价值感知调度裁剪加速方法",
+        "summary": "VISTA 是一种免训练方法，通过价值统计与动态规划自动选择稀疏引导时间步，在固定预算下逼近全引导概率路径，显著加速奖励引导的离散扩散生成。在文本、生物序列和图像任务中，它发现任务相关调度，多数场景优于手工稀疏调度，毒性文本生成实现 5.35 倍加速。",
+        "summary_en": "VISTA is a training-free method that automatically selects sparse guidance timesteps under a fixed budget by formulating sparse guidance as approximation of the ideal full-guidance probability path and optimizing an empirical surrogate via dynamic programming using value statistics from warmup generations. Across text, biological sequence, and image tasks, it discovers task-dependent schedules, outperforming hand-designed sparse schedules and achieving a 5.35x speedup on toxic-text generation.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-16-rss-006",
+        "title": "VISTA：离散扩散模型序列蒙特卡洛引导的价值感知调度裁剪加速方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.20669",
+        "language": "en",
+        "summary": "VISTA 是一种免训练方法，通过价值统计与动态规划自动选择稀疏引导时间步，在固定预算下逼近全引导概率路径，显著加速奖励引导的离散扩散生成。在文本、生物序列和图像任务中，它发现任务相关调度，多数场景优于手工稀疏调度，毒性文本生成实现 5.35 倍加速。",
+        "summary_en": "VISTA is a training-free method that automatically selects sparse guidance timesteps under a fixed budget by formulating sparse guidance as approximation of the ideal full-guidance probability path and optimizing an empirical surrogate via dynamic programming using value statistics from warmup generations. Across text, biological sequence, and image tasks, it discovers task-dependent schedules, outperforming hand-designed sparse schedules and achieving a 5.35x speedup on toxic-text generation.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-16T21:00:07.788404+08:00",
+        "updated_at": "2026-10-16T21:00:07.788407+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
+      "url": "https://arxiv.org/abs/2610.20675",
+      "description": "arXiv:2610.20675v1 Announce Type: new \nAbstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill instructions, and retain history in memory. Understanding agent performance requires linking execution conditions to outcomes, behavior, and resource use. We introduce AlphaDiana, a measurement system with modular interfaces for datasets, agents, environments, and scorers. It preserves harness-native control loops while controlling file reuse and memory retention separately. AlphaDiana supports macro analyses of complete agents and micro interventions on agent components such as tools, skills, and memory under matched conditions. We study three open-source models and three open-source harnesses on five answer-based benchmarks, with two models also tested on two interactive benchmarks. We find that harnesses do not consistently improve the accuracy of reasoning: gains on questions unsolved by the model alone can be outweighed by losses on questions it answers correctly without tools. This inconsistency extends to component interventions: neither skill guidance nor retained history reliably improves accuracy. Behavior and output-token use must be assessed with correctness: low token entropy can accompany wrong answers, and less output per execution can mean more output tokens per correct answer when accuracy falls. AlphaDiana links answer correctness and execution status to traces and resource records for comparing agents and diagnosing failures under shared task and resource policies.",
+      "pub_date": "Fri, 16 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AlphaDiana：可验证推理任务中智能体的测量系统",
+        "summary": "AlphaDiana 是一个模块化测量系统，用于评估智能体在可验证推理任务中的表现。研究发现，工具框架并不总能提升推理准确率，技能指导与历史记忆也未必可靠地改善性能，需结合正确性评估行为与token使用。",
+        "summary_en": "AlphaDiana is a modular measurement system for evaluating agents on verifiable reasoning tasks. It finds that harnesses do not consistently improve reasoning accuracy, and neither skill guidance nor retained history reliably helps; behavior and token use must be assessed alongside correctness.",
+        "tags": [
+          "agent-framework",
+          "evaluation",
+          "benchmark",
+          "research",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-16-rss-003",
+        "title": "AlphaDiana：可验证推理任务中智能体的测量系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.20675",
+        "language": "en",
+        "summary": "AlphaDiana 是一个模块化测量系统，用于评估智能体在可验证推理任务中的表现。研究发现，工具框架并不总能提升推理准确率，技能指导与历史记忆也未必可靠地改善性能，需结合正确性评估行为与token使用。",
+        "summary_en": "AlphaDiana is a modular measurement system for evaluating agents on verifiable reasoning tasks. It finds that harnesses do not consistently improve reasoning accuracy, and neither skill guidance nor retained history reliably helps; behavior and token use must be assessed alongside correctness.",
+        "tags": [
+          "agent-framework",
+          "evaluation",
+          "benchmark",
+          "research",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-16T21:00:07.788382+08:00",
+        "updated_at": "2026-10-16T21:00:07.788384+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus",
+      "url": "https://arxiv.org/abs/2610.20676",
+      "description": "arXiv:2610.20676v1 Announce Type: new \nAbstract: Correctness feedback suppresses the very evidence that specification-completeness auditing is designed to uncover: programs that satisfy a written contract but violate intended behavior. We demonstrate this objective reversal on 12 Verus/Rust tasks across four model families under matched call budgets. Independent no-feedback discovery more than doubles certified-witness yield relative to IntentShield's corrective-feedback loop (59.0% versus 27.1%). A format-matched iterative control places the larger share of this gap in feedback content, not independent restarts. The advantage holds in every model family and survives parser repair. A separate phase-separated execution matches the aggregate yield without reusing responses; most certified witnesses also fail held-out cases. Preserving these witnesses delivers stronger specification repair: Phase-Revised contracts achieve 81.3% implementation success, versus 62.5% for IS-Revised, with Direct-Revised close behind. Both no-feedback witness sources substantially outperform weakened contracts. The effect does not reproduce in the available Dafny and Lean evaluations, establishing an empirical boundary around the studied Verus/Rust workflow. Completeness auditing and correctness repair have opposing immediate objectives. Preserve and certify the admitted failure before repairing it.",
+      "pub_date": "Fri, 16 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "正确性反馈如何抹除证据：Verus 中的阶段分离完备性审计",
+        "summary": "研究发现正确性反馈会抑制规范完备性审计所需的证据。在 12 个 Verus/Rust 任务上，无反馈独立发现产生的认证见证率（59.0%）是纠正反馈循环（27.1%）的两倍多。阶段分离执行可匹配总产出且不重用响应。保留这些见证能带来更强的规范修复：阶段修订合约实现成功率达 81.3%，而 IS 修订仅 62.5%。该效应在 Dafny 和 Lean 中未复现，确立了 Verus/Rust 工作流的经验边界。",
+        "summary_en": "Correctness feedback suppresses the evidence that specification-completeness auditing aims to uncover. On 12 Verus/Rust tasks, independent no-feedback discovery more than doubles certified-witness yield versus corrective-feedback loops (59.0% vs 27.1%). Phase-separated execution matches aggregate yield without reusing responses. Preserving witnesses enables stronger specification repair: Phase-Revised contracts reach 81.3% implementation success versus 62.5% for IS-Revised. The effect does not reproduce in Dafny and Lean, establishing an empirical boundary.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "benchmark",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.75,
+        "language": "en"
+      }
+    },
+    {
+      "title": "DeepUnfolding_Agent: A Classical_Quantum Adaptive Control API",
+      "url": "https://arxiv.org/abs/2610.20615",
+      "description": "arXiv:2610.20615v1 Announce Type: new \nAbstract: Adaptive optimization workflows in machine learning, federated learning, quantum machine learning, and hybrid classical quantum systems often embed controller logic directly inside task specific training scripts. This coupling limits reuse, reproducibility, safety validation, and fair comparison across execution environments. This paper presents DeepUnfolding Agent, a schema-driven FastAPI platform that exposes deep unfolded adaptive control as an external software service. External executors register a strategy schema, submit round-level diagnostic variables, receive schema-bounded control actions, execute one optimization round, and return feedback for controller update. The framework separates controller intelligence from domain specific execution through a strategy registry, diagnostic to state adapter, controller factory, safety guard, executor abstraction, feedback update path, SQLite persistence layer, Docker deployment, and reproducible benchmark scripts. The implementation supports classical, quantum-aware, hybrid, Qiskit Aer, and optional IBM quantum processing execution pathways. We validate the software through unit, schema, API, safety, orchestration, Quantum execution, checkpointing, and Docker tests, and demonstrate external user fixed versus adaptive workflows across finance, healthcare, genomics, transport, noisy quantum simulation, and hardware backed IBM Quantum execution. The results show that DeepUnfolding-Agent provides a reusable and traceable adaptive control layer for heterogeneous optimization workflows. Our quantum experiments are interpreted as API level quantum control and hardware portability evidence.",
+      "pub_date": "Fri, 16 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DeepUnfolding Agent：经典-量子自适应控制API平台",
+        "summary": "该论文提出DeepUnfolding Agent，一个基于FastAPI的schema驱动平台，将深度展开自适应控制作为外部服务暴露。通过策略注册、诊断适配、控制器工厂、安全守卫等模块，实现控制器智能与任务执行的解耦，支持经典、量子感知、混合及IBM量子执行路径，提升复用性与可复现性。",
+        "summary_en": "This paper presents DeepUnfolding Agent, a schema-driven FastAPI platform that exposes deep unfolded adaptive control as an external software service. It decouples controller intelligence from task-specific execution via a strategy registry, diagnostic-to-state adapter, controller factory, safety guard, and feedback update path, supporting classical, quantum-aware, hybrid, Qiskit Aer, and IBM Quantum execution pathways for reusable and traceable optimization workflows.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "infrastructure",
+          "research",
+          "python"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-16-rss-008",
+        "title": "DeepUnfolding Agent：经典-量子自适应控制API平台",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.20615",
+        "language": "en",
+        "summary": "该论文提出DeepUnfolding Agent，一个基于FastAPI的schema驱动平台，将深度展开自适应控制作为外部服务暴露。通过策略注册、诊断适配、控制器工厂、安全守卫等模块，实现控制器智能与任务执行的解耦，支持经典、量子感知、混合及IBM量子执行路径，提升复用性与可复现性。",
+        "summary_en": "This paper presents DeepUnfolding Agent, a schema-driven FastAPI platform that exposes deep unfolded adaptive control as an external software service. It decouples controller intelligence from task-specific execution via a strategy registry, diagnostic-to-state adapter, controller factory, safety guard, and feedback update path, supporting classical, quantum-aware, hybrid, Qiskit Aer, and IBM Quantum execution pathways for reusable and traceable optimization workflows.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "infrastructure",
+          "research",
+          "python"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-10-16T21:00:07.788420+08:00",
+        "updated_at": "2026-10-16T21:00:07.788423+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design",
+      "url": "https://arxiv.org/abs/2610.20628",
+      "description": "arXiv:2610.20628v1 Announce Type: new \nAbstract: Multi-agent systems (MAS) based on large language models (LLMs) have become a powerful way to address complex problems, and their effectiveness depends critically on the collaboration topology that decides which agents participate and how they communicate. Recent work learns to generate this topology from the task query, fitting the generator to corpora of execution-verified graphs. The post-training method for such generators remains a limitation: a corpus lists the graphs that solved a query but never ranks them, leaving continued supervised fine-tuning (SFT) with no per-query preference to exploit. Without such a preference, the generator drifts toward the topologies the corpus contains most often rather than those that suit each query, so a gain on one task can come at a cost on another. We propose PRISM, which recovers per-query signal from the same corpus by learning with privileged information: a teacher reads, through a zero-initialized low-rank branch, a sibling graph that also solved the query and is unavailable at deployment, and the student matches its per-decision targets on trajectories the student samples itself. Across six diverse benchmarks PRISM improves over every topology-design baseline evaluated, and matched-teacher controls support the contribution of privileged query information. Code is available in this link.",
+      "pub_date": "Fri, 16 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PRISM：基于特权同级图引导的多智能体拓扑设计",
+        "summary": "PRISM 提出一种利用特权信息训练多智能体协作拓扑生成器的方法：教师模型通过零初始化低秩分支读取部署时不可用的同级图，学生模型在自采样轨迹上匹配其决策目标，从而恢复每个查询的偏好信号。在六个基准上超越所有拓扑设计基线。",
+        "summary_en": "PRISM introduces a privileged-information training method for multi-agent collaboration topology generators: a teacher reads a deployment-unavailable sibling graph via a zero-initialized low-rank branch, and the student matches its per-decision targets on self-sampled trajectories, recovering per-query preference signals. It outperforms all topology-design baselines across six benchmarks.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-16-rss-004",
+        "title": "PRISM：基于特权同级图引导的多智能体拓扑设计",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.20628",
+        "language": "en",
+        "summary": "PRISM 提出一种利用特权信息训练多智能体协作拓扑生成器的方法：教师模型通过零初始化低秩分支读取部署时不可用的同级图，学生模型在自采样轨迹上匹配其决策目标，从而恢复每个查询的偏好信号。在六个基准上超越所有拓扑设计基线。",
+        "summary_en": "PRISM introduces a privileged-information training method for multi-agent collaboration topology generators: a teacher reads a deployment-unavailable sibling graph via a zero-initialized low-rank branch, and the student matches its per-decision targets on self-sampled trajectories, recovering per-query preference signals. It outperforms all topology-design baselines across six benchmarks.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-16T21:00:07.788389+08:00",
+        "updated_at": "2026-10-16T21:00:07.788392+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A Large-Scale Dataset for Multi-Class Financial News Classification in Brazilian Portuguese",
+      "url": "https://arxiv.org/abs/2610.20630",
+      "description": "arXiv:2610.20630v1 Announce Type: new \nAbstract: The development of Financial Natural Language Processing (NLP) systems for Brazilian Portuguese is hindered by the scarcity of domain-specific datasets. To address this, we present a large-scale corpus of approximately 160,000 Brazilian Portuguese financial news articles collected from web sources. To establish initial benchmarks for a weakly supervised multi-class classification approach based on semantic similarity, we annotated subsets of this corpus both manually and using a Large Language Model (LLM). We evaluated three similarity-based methods -- cosine similarity, K-Nearest Neighbors (KNN), and FAISS-based nearest-neighbor search -- using multilingual semantic embeddings. Our experiments reveal that the task is highly sensitive to label quality and class distribution. On the manually labeled subset, KNN achieved the best performance (47.3% accuracy, 31.9% F1-score), closely followed by FAISS. Conversely, on the LLM-annotated subset, while accuracy reached approximately 50%, F1-scores dropped to near 20%, highlighting the negative impact of label imbalance and noisy weak annotations. These findings establish foundational baselines for a challenging task, underscoring the critical need for high-quality manual annotations. Ultimately, this dataset and our preliminary results provide a reference point for future research in Brazilian Portuguese Financial NLP.",
+      "pub_date": "Fri, 16 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "巴西葡萄牙语金融新闻多分类大规模数据集",
+        "summary": "该研究构建了约16万篇巴西葡萄牙语金融新闻的大规模语料库，并基于语义相似度进行弱监督多分类基准测试。实验表明任务对标签质量和类别分布高度敏感，人工标注子集上KNN表现最佳（准确率47.3%，F1值31.9%），而LLM标注子集F1值降至约20%，凸显高质量人工标注的必要性。",
+        "summary_en": "This work presents a large-scale corpus of ~160,000 Brazilian Portuguese financial news articles and establishes weakly supervised multi-class classification baselines based on semantic similarity. Experiments show the task is highly sensitive to label quality and class distribution: KNN achieved the best performance on the manually labeled subset (47.3% accuracy, 31.9% F1), while LLM-annotated subsets saw F1 drop to ~20%, highlighting the critical need for high-quality manual annotations.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-16-rss-009",
+        "title": "巴西葡萄牙语金融新闻多分类大规模数据集",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.20630",
+        "language": "en",
+        "summary": "该研究构建了约16万篇巴西葡萄牙语金融新闻的大规模语料库，并基于语义相似度进行弱监督多分类基准测试。实验表明任务对标签质量和类别分布高度敏感，人工标注子集上KNN表现最佳（准确率47.3%，F1值31.9%），而LLM标注子集F1值降至约20%，凸显高质量人工标注的必要性。",
+        "summary_en": "This work presents a large-scale corpus of ~160,000 Brazilian Portuguese financial news articles and establishes weakly supervised multi-class classification baselines based on semantic similarity. Experiments show the task is highly sensitive to label quality and class distribution: KNN achieved the best performance on the manually labeled subset (47.3% accuracy, 31.9% F1), while LLM-annotated subsets saw F1 drop to ~20%, highlighting the critical need for high-quality manual annotations.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-10-16T21:00:07.788433+08:00",
+        "updated_at": "2026-10-16T21:00:07.788436+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Real-time Chatbot Romance Scam Detection in Stage Classification",
+      "url": "https://arxiv.org/abs/2610.20631",
+      "description": "arXiv:2610.20631v1 Announce Type: new \nAbstract: Romance scam has become a serious problem via social media, and the improvement of artificial intelligence enable to fake identify easily. In the study, a chatbot has developed to detect romance scam in real-time through Line Messaging API. Using the seven stage theories in the social science field, the stages of romance scam can be detected through large language model. In addition, once a romance scam is detected, the chatbot provides explanations of the stage and prevention advices through large language model. The contribution of the work provides a practical application, and can be used in real scenario for reducing the risk of romance scam.",
+      "pub_date": "Fri, 16 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "实时聊天机器人恋爱诈骗阶段检测",
+        "summary": "该研究开发了一个基于Line Messaging API的聊天机器人，利用大语言模型实时检测恋爱诈骗，并依据社会科学七阶段理论对诈骗阶段进行分类，同时提供阶段解释和防范建议，具有实际应用价值。",
+        "summary_en": "This study develops a chatbot using the Line Messaging API to detect romance scams in real-time via large language models. Based on seven-stage social science theory, it classifies scam stages and provides explanations and prevention advice, offering practical real-world application value.",
+        "tags": [
+          "llm",
+          "application",
+          "security",
+          "agent-framework"
+        ],
+        "category": "application",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-16-rss-007",
+        "title": "实时聊天机器人恋爱诈骗阶段检测",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.20631",
+        "language": "en",
+        "summary": "该研究开发了一个基于Line Messaging API的聊天机器人，利用大语言模型实时检测恋爱诈骗，并依据社会科学七阶段理论对诈骗阶段进行分类，同时提供阶段解释和防范建议，具有实际应用价值。",
+        "summary_en": "This study develops a chatbot using the Line Messaging API to detect romance scams in real-time via large language models. Based on seven-stage social science theory, it classifies scam stages and provides explanations and prevention advice, offering practical real-world application value.",
+        "tags": [
+          "llm",
+          "application",
+          "security",
+          "agent-framework"
+        ],
+        "category": "application",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-16T21:00:07.788412+08:00",
+        "updated_at": "2026-10-16T21:00:07.788415+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "MeddeX: A Retrieval-Augmented LLaMA-3 System with Gemini Vision for Evidence-Backed Medical Report Analysis",
+      "url": "https://arxiv.org/abs/2610.20632",
+      "description": "arXiv:2610.20632v1 Announce Type: new \nAbstract: Modern healthcare generates increasingly complex medical reports that challenge clinical professionals in terms of time and interpretive burden. Manual review processes are slow, error-prone, and difficult to scale. This paper presents MeddeX, a Medical Report Analyzer that combines a QLoRA fine-tuned LLaMA-3 (8B) model with Retrieval-Augmented Gen eration (RAG) and a multimodal Gemini Vision layer to deliver accurate, concise, and evidence-backed summaries of medical documents. The system handles text-native PDFs, scanned image based PDFs, and direct radiological images through an intelligent hybrid extraction pipeline that includes a novel garbage-text detection mechanism for corrupted and UTF-16-encoded doc uments. Beyond single-report Q&A, MeddeX introduces report scoped retrieval for precise contextual grounding, an automated longitudinal report comparison engine, and a self-healing backfill pipeline that lazily processes legacy documents on demand. A FastAPI backend, Supabase vector store, and Next.js fron tend complete the end-to-end architecture. Evaluation against the base LLaMA3-Med42-8B model demonstrates consistent improvements across ROUGE-1 (+9.2%), ROUGE-2 (+10.0%), ROUGE-L (+11.8%), BLEU (+71.4%), and BERTScore (+0.8%), validating the benefit of domain-specific fine-tuning. MeddeX represents a practical and robust step toward AI-assisted clinical decision support.",
+      "pub_date": "Fri, 16 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MeddeX：结合RAG与Gemini视觉的LLaMA-3医疗报告分析系统",
+        "summary": "MeddeX是一个医疗报告分析系统，结合QLoRA微调的LLaMA-3(8B)、检索增强生成(RAG)和多模态Gemini视觉层，为医疗文档提供准确、简洁且有证据支持的摘要。系统支持文本PDF、扫描图像PDF和放射图像，引入报告范围检索、纵向报告对比引擎和自愈回填管道。评估显示相比基线模型在ROUGE-1、ROUGE-2、ROUGE-L、BLEU和BERTScore上均有提升。",
+        "summary_en": "MeddeX is a medical report analyzer combining a QLoRA fine-tuned LLaMA-3 (8B) with Retrieval-Augmented Generation (RAG) and a multimodal Gemini Vision layer to deliver accurate, concise, evidence-backed summaries. It handles text PDFs, scanned PDFs, and radiological images via a hybrid extraction pipeline with garbage-text detection. Features include report-scoped retrieval, longitudinal comparison, and self-healing backfill. Evaluation shows improvements in ROUGE-1 (+9.2%), ROUGE-2 (+10.0%), ROUGE-L (+11.8%), BLEU (+71.4%), and BERTScore (+0.8%) over the base model.",
+        "tags": [
+          "rag",
+          "fine-tuning",
+          "multimodal",
+          "application",
+          "llm"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-16-rss-005",
+        "title": "MeddeX：结合RAG与Gemini视觉的LLaMA-3医疗报告分析系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.20632",
+        "language": "en",
+        "summary": "MeddeX是一个医疗报告分析系统，结合QLoRA微调的LLaMA-3(8B)、检索增强生成(RAG)和多模态Gemini视觉层，为医疗文档提供准确、简洁且有证据支持的摘要。系统支持文本PDF、扫描图像PDF和放射图像，引入报告范围检索、纵向报告对比引擎和自愈回填管道。评估显示相比基线模型在ROUGE-1、ROUGE-2、ROUGE-L、BLEU和BERTScore上均有提升。",
+        "summary_en": "MeddeX is a medical report analyzer combining a QLoRA fine-tuned LLaMA-3 (8B) with Retrieval-Augmented Generation (RAG) and a multimodal Gemini Vision layer to deliver accurate, concise, evidence-backed summaries. It handles text PDFs, scanned PDFs, and radiological images via a hybrid extraction pipeline with garbage-text detection. Features include report-scoped retrieval, longitudinal comparison, and self-healing backfill. Evaluation shows improvements in ROUGE-1 (+9.2%), ROUGE-2 (+10.0%), ROUGE-L (+11.8%), BLEU (+71.4%), and BERTScore (+0.8%) over the base model.",
+        "tags": [
+          "rag",
+          "fine-tuning",
+          "multimodal",
+          "application",
+          "llm"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-16T21:00:07.788396+08:00",
+        "updated_at": "2026-10-16T21:00:07.788399+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

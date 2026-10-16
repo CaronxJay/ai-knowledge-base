@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-16-rss-004",
+  "title": "PRISM：基于特权同级图引导的多智能体拓扑设计",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.20628",
+  "language": "en",
+  "summary": "PRISM 提出一种利用特权信息训练多智能体协作拓扑生成器的方法：教师模型通过零初始化低秩分支读取部署时不可用的同级图，学生模型在自采样轨迹上匹配其决策目标，从而恢复每个查询的偏好信号。在六个基准上超越所有拓扑设计基线。",
+  "summary_en": "PRISM introduces a privileged-information training method for multi-agent collaboration topology generators: a teacher reads a deployment-unavailable sibling graph via a zero-initialized low-rank branch, and the student matches its per-decision targets on self-sampled trajectories, recovering per-query preference signals. It outperforms all topology-design baselines across six benchmarks.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-16T21:00:07.788389+08:00",
+  "updated_at": "2026-10-16T21:00:07.788392+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

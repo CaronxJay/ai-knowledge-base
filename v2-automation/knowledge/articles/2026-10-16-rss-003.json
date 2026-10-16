@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-16-rss-003",
+  "title": "AlphaDiana：可验证推理任务中智能体的测量系统",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.20675",
+  "language": "en",
+  "summary": "AlphaDiana 是一个模块化测量系统，用于评估智能体在可验证推理任务中的表现。研究发现，工具框架并不总能提升推理准确率，技能指导与历史记忆也未必可靠地改善性能，需结合正确性评估行为与token使用。",
+  "summary_en": "AlphaDiana is a modular measurement system for evaluating agents on verifiable reasoning tasks. It finds that harnesses do not consistently improve reasoning accuracy, and neither skill guidance nor retained history reliably helps; behavior and token use must be assessed alongside correctness.",
+  "tags": [
+    "agent-framework",
+    "evaluation",
+    "benchmark",
+    "research",
+    "llm"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-16T21:00:07.788382+08:00",
+  "updated_at": "2026-10-16T21:00:07.788384+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

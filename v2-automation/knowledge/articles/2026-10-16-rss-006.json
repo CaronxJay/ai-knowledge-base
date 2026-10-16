@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-16-rss-006",
+  "title": "VISTA：离散扩散模型序列蒙特卡洛引导的价值感知调度裁剪加速方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.20669",
+  "language": "en",
+  "summary": "VISTA 是一种免训练方法，通过价值统计与动态规划自动选择稀疏引导时间步，在固定预算下逼近全引导概率路径，显著加速奖励引导的离散扩散生成。在文本、生物序列和图像任务中，它发现任务相关调度，多数场景优于手工稀疏调度，毒性文本生成实现 5.35 倍加速。",
+  "summary_en": "VISTA is a training-free method that automatically selects sparse guidance timesteps under a fixed budget by formulating sparse guidance as approximation of the ideal full-guidance probability path and optimizing an empirical surrogate via dynamic programming using value statistics from warmup generations. Across text, biological sequence, and image tasks, it discovers task-dependent schedules, outperforming hand-designed sparse schedules and achieving a 5.35x speedup on toxic-text generation.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-16T21:00:07.788404+08:00",
+  "updated_at": "2026-10-16T21:00:07.788407+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

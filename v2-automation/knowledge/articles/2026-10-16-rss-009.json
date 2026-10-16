@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-16-rss-009",
+  "title": "巴西葡萄牙语金融新闻多分类大规模数据集",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.20630",
+  "language": "en",
+  "summary": "该研究构建了约16万篇巴西葡萄牙语金融新闻的大规模语料库，并基于语义相似度进行弱监督多分类基准测试。实验表明任务对标签质量和类别分布高度敏感，人工标注子集上KNN表现最佳（准确率47.3%，F1值31.9%），而LLM标注子集F1值降至约20%，凸显高质量人工标注的必要性。",
+  "summary_en": "This work presents a large-scale corpus of ~160,000 Brazilian Portuguese financial news articles and establishes weakly supervised multi-class classification baselines based on semantic similarity. Experiments show the task is highly sensitive to label quality and class distribution: KNN achieved the best performance on the manually labeled subset (47.3% accuracy, 31.9% F1), while LLM-annotated subsets saw F1 drop to ~20%, highlighting the critical need for high-quality manual annotations.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation",
+    "application"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-10-16T21:00:07.788433+08:00",
+  "updated_at": "2026-10-16T21:00:07.788436+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

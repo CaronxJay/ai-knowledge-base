@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-16-rss-005",
+  "title": "MeddeX：结合RAG与Gemini视觉的LLaMA-3医疗报告分析系统",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.20632",
+  "language": "en",
+  "summary": "MeddeX是一个医疗报告分析系统，结合QLoRA微调的LLaMA-3(8B)、检索增强生成(RAG)和多模态Gemini视觉层，为医疗文档提供准确、简洁且有证据支持的摘要。系统支持文本PDF、扫描图像PDF和放射图像，引入报告范围检索、纵向报告对比引擎和自愈回填管道。评估显示相比基线模型在ROUGE-1、ROUGE-2、ROUGE-L、BLEU和BERTScore上均有提升。",
+  "summary_en": "MeddeX is a medical report analyzer combining a QLoRA fine-tuned LLaMA-3 (8B) with Retrieval-Augmented Generation (RAG) and a multimodal Gemini Vision layer to deliver accurate, concise, evidence-backed summaries. It handles text PDFs, scanned PDFs, and radiological images via a hybrid extraction pipeline with garbage-text detection. Features include report-scoped retrieval, longitudinal comparison, and self-healing backfill. Evaluation shows improvements in ROUGE-1 (+9.2%), ROUGE-2 (+10.0%), ROUGE-L (+11.8%), BLEU (+71.4%), and BERTScore (+0.8%) over the base model.",
+  "tags": [
+    "rag",
+    "fine-tuning",
+    "multimodal",
+    "application",
+    "llm"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-16T21:00:07.788396+08:00",
+  "updated_at": "2026-10-16T21:00:07.788399+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
