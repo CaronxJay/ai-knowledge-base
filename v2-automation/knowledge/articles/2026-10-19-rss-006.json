@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-19-rss-006",
+  "title": "重新思考用户编码器：路由扩散状态以实现场景自适应用户表征",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.22400",
+  "language": "en",
+  "summary": "该论文提出FINDERS框架，利用扩散语言模型（dLLM）的迭代去噪过程作为多粒度重建空间，通过去噪、因子化、路由和压缩四个操作，结合轻量级路由器动态强调相关槽位方向，实现场景自适应的用户表征学习。在十个工业场景的实验中优于现有方法。",
+  "summary_en": "The paper proposes FINDERS, a router-equipped diffusion language model framework that leverages iterative denoising as a multi-granularity reconstruction space. Through denoise, factorize, route, and compress operations, it learns scenario-adaptive user representations, outperforming state-of-the-art methods across ten industrial scenarios.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "rag"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-19T23:15:55.300534+08:00",
+  "updated_at": "2026-10-19T23:15:55.300535+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

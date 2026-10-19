@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-19-rss-001",
+  "title": "结构化权威注入：通过类型化MCP覆盖实现LLM智能体的持久人类控制",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.22373",
+  "language": "en",
+  "summary": "提出结构化权威注入（SAI）协议，通过类型化、模式校验的MCP工具调用传递操作员指令，并在每次提示前附加排序权威上下文，定义约束、优先级、策略三类覆盖及显式优先顺序。无需微调，在九个LLM和八个场景中减少指令歧义与权威衰减，最强模型提示开销降低最多38%。",
+  "summary_en": "Proposes Structured Authority Injection (SAI), a protocol routing operator corrections through typed, schema-validated MCP tool calls with a ranked authority context prepended to each prompt. It defines Constraint, Priority, and Strategy override classes with explicit precedence via a directed authority channel. Requires no fine-tuning; across nine LLMs and eight scenarios it reduces ambiguous directive interpretation and authority decay, cutting prompt overhead up to 38% in strongest models.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "prompt-engineering",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-19T23:15:55.300509+08:00",
+  "updated_at": "2026-10-19T23:15:55.300512+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

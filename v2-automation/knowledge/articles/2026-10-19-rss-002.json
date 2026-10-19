@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-19-rss-002",
+  "title": "ECHOES：通过递归历史压缩与特权在线策略蒸馏超越当前图像",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.22408",
+  "language": "en",
+  "summary": "针对长程GUI智能体保留历史截图导致视觉token与推理成本上升、文本摘要丢失关键状态的问题，提出ECHOES：采用压缩-思考-行动（CTA）格式递归更新文本历史状态，并利用训练期特权多图输入作为教师，对学生生成的CTA轨迹进行token级在线策略蒸馏，结合PMF差距引导的OPD-RL框架动态平衡蒸馏与任务奖励，并发布EchoesBMK诊断基准。",
+  "summary_en": "ECHOES addresses long-horizon GUI agents' trade-off between costly screenshot retention and lossy textual summaries. It uses a Compression-Think-Action format to recursively update textual history, and a privileged multi-image teacher providing dense token-level on-policy distillation on student rollouts, balanced by a PMF-Gap-guided OPD-RL framework. It also introduces ECHOESBMK, a diagnostic benchmark from real failure trajectories. Deployment needs no screenshots, achieving strong performance and positive zero-shot transfer.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "benchmark",
+    "multimodal"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-19T23:15:55.300517+08:00",
+  "updated_at": "2026-10-19T23:15:55.300518+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

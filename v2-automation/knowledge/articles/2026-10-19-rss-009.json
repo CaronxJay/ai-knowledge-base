@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-19-rss-009",
+  "title": "从平行到分歧：语言模型对动作名词构式的学习",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.22468",
+  "language": "en",
+  "summary": "研究用语法工程方法构建96种合成语言，训练GPT-2-small模型，考察不同语法配置对动作名词构式学习的影响。结果显示基本小句配置与类型学分布平行，但补语系统和ANC策略出现分歧，模型还会学到自然语言中罕见或未见的组合。",
+  "summary_en": "The study builds 96 synthetic languages via grammar engineering and trains GPT-2-small models from scratch to examine how grammatical configurations affect learning of action nominal constructions. Results show typological parallels in basic clause configurations but divergences in complement systems and ANC strategies, with models also learning combinations rare or unattested in natural languages.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-10-19T23:15:55.300549+08:00",
+  "updated_at": "2026-10-19T23:15:55.300551+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

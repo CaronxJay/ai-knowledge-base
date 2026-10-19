@@ -1,0 +1,483 @@
+{
+  "collected_at": "2026-10-19T23:15:55.301349+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
+      "url": "https://arxiv.org/abs/2610.22373",
+      "description": "arXiv:2610.22373v1 Announce Type: new \nAbstract: LLM-based agents are increasingly used as autonomous orchestrators in distributed and multi-agent systems, yet a control gap remains: no protocol-level mechanism allows human operators to inject binding directives that persist across planning cycles. Free-text overrides suffer from ambiguous interpretation due to lack of schema validation and from authority erosion as operator instructions lose influence within accumulating context. We propose Structured Authority Injection (SAI), a protocol that addresses these issues by routing operator corrections through typed, schema-validated Model Context Protocol (MCP) tool calls and maintaining a ranked authority context prepended to each LLM prompt. SAI defines three override classes (Constraint, Priority, and Strategy) with distinct persistence semantics and an explicit precedence order enforced via a directed authority channel inaccessible to the planning process. The method requires no model fine-tuning or access to model weights and applies to instruction-tuned LLMs supporting MCP tool use. Evaluation across nine LLMs and eight scenarios targeting agent failure modes shows reduced ambiguous directive interpretation and mitigated authority decay across planning iterations, with lower prompt overhead in the strongest models (up to 38% depending on model and scenario), though benefit varies substantially across models. SAI provides a general design pattern for agent systems requiring explicit and persistent human control.",
+      "pub_date": "Mon, 19 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "结构化权威注入：通过类型化MCP覆盖实现LLM智能体的持久人类控制",
+        "summary": "提出结构化权威注入（SAI）协议，通过类型化、模式校验的MCP工具调用传递操作员指令，并在每次提示前附加排序权威上下文，定义约束、优先级、策略三类覆盖及显式优先顺序。无需微调，在九个LLM和八个场景中减少指令歧义与权威衰减，最强模型提示开销降低最多38%。",
+        "summary_en": "Proposes Structured Authority Injection (SAI), a protocol routing operator corrections through typed, schema-validated MCP tool calls with a ranked authority context prepended to each prompt. It defines Constraint, Priority, and Strategy override classes with explicit precedence via a directed authority channel. Requires no fine-tuning; across nine LLMs and eight scenarios it reduces ambiguous directive interpretation and authority decay, cutting prompt overhead up to 38% in strongest models.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-19-rss-001",
+        "title": "结构化权威注入：通过类型化MCP覆盖实现LLM智能体的持久人类控制",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.22373",
+        "language": "en",
+        "summary": "提出结构化权威注入（SAI）协议，通过类型化、模式校验的MCP工具调用传递操作员指令，并在每次提示前附加排序权威上下文，定义约束、优先级、策略三类覆盖及显式优先顺序。无需微调，在九个LLM和八个场景中减少指令歧义与权威衰减，最强模型提示开销降低最多38%。",
+        "summary_en": "Proposes Structured Authority Injection (SAI), a protocol routing operator corrections through typed, schema-validated MCP tool calls with a ranked authority context prepended to each prompt. It defines Constraint, Priority, and Strategy override classes with explicit precedence via a directed authority channel. Requires no fine-tuning; across nine LLMs and eight scenarios it reduces ambiguous directive interpretation and authority decay, cutting prompt overhead up to 38% in strongest models.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-19T23:15:55.300509+08:00",
+        "updated_at": "2026-10-19T23:15:55.300512+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Rethinking User Encoders: Routing Diffusion States for Scenario-Adaptive User Representation",
+      "url": "https://arxiv.org/abs/2610.22400",
+      "description": "arXiv:2610.22400v1 Announce Type: new \nAbstract: Existing large language model (LLM)-based user encoders serialize heterogeneous behavioral logs and compress them into static representations through autoregressive (AR) prediction. However, their unidirectional constraint limits bidirectional information flow, hindering cross-modal interactions and the joint preservation of multi-source signals. Consequently, the learned static representations struggle to accommodate the distinct evidence requirements of diverse downstream scenarios. We address these limitations by unlocking the iterative denoising process of diffusion language models (dLLMs) as a multi-granularity reconstruction space. Based on this insight, we propose FINDERS (FactorIzatioN of Diffusion statEs for Routing across Scenarios), a router-equipped dLLM framework comprising four operations: denoise, factorize, route, and compress. Learnable meta-slots organize complementary denoising states into transferable cross-modal semantics and modality-specific behavioral factors. To provide grounded supervision, we construct BehaviorQA, a large-scale corpus containing explicit behavioral rationales. Guided by scenario queries, a lightweight router dynamically emphasizes relevant slot directions via an input-level residual pathway before cross-source fusion and final compression. Extensive experiments and online A/B tests across ten industrial scenarios demonstrate that FINDERS consistently outperforms state-of-the-art methods in both unified and scenario-adaptive settings. This work effectively pushes the boundaries of dLLMs beyond language generation, demonstrating their immense potential as powerful user representation learners.",
+      "pub_date": "Mon, 19 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "重新思考用户编码器：路由扩散状态以实现场景自适应用户表征",
+        "summary": "该论文提出FINDERS框架，利用扩散语言模型（dLLM）的迭代去噪过程作为多粒度重建空间，通过去噪、因子化、路由和压缩四个操作，结合轻量级路由器动态强调相关槽位方向，实现场景自适应的用户表征学习。在十个工业场景的实验中优于现有方法。",
+        "summary_en": "The paper proposes FINDERS, a router-equipped diffusion language model framework that leverages iterative denoising as a multi-granularity reconstruction space. Through denoise, factorize, route, and compress operations, it learns scenario-adaptive user representations, outperforming state-of-the-art methods across ten industrial scenarios.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-19-rss-006",
+        "title": "重新思考用户编码器：路由扩散状态以实现场景自适应用户表征",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.22400",
+        "language": "en",
+        "summary": "该论文提出FINDERS框架，利用扩散语言模型（dLLM）的迭代去噪过程作为多粒度重建空间，通过去噪、因子化、路由和压缩四个操作，结合轻量级路由器动态强调相关槽位方向，实现场景自适应的用户表征学习。在十个工业场景的实验中优于现有方法。",
+        "summary_en": "The paper proposes FINDERS, a router-equipped diffusion language model framework that leverages iterative denoising as a multi-granularity reconstruction space. Through denoise, factorize, route, and compress operations, it learns scenario-adaptive user representations, outperforming state-of-the-art methods across ten industrial scenarios.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-19T23:15:55.300534+08:00",
+        "updated_at": "2026-10-19T23:15:55.300535+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "From Events to Reasoning: Hierarchical Rule Composition over Explicit States",
+      "url": "https://arxiv.org/abs/2610.22403",
+      "description": "arXiv:2610.22403v1 Announce Type: new \nAbstract: What a reasoning system emits is a conclusion; what it owes is a justification. Producing one requires every operation to be admissible on the facts actually available, the dependencies of intermediate results to survive to the end of the path, and the path to be revised when a premise changes. We present the Event Reasoning System (ERS), in which the reasoning state is an explicit event graph. Semantic features nominate candidate objects and rule bindings, and declared rule and task conditions decide which may execute, so candidates that violate the represented period, unit, or evidence constraints cannot enter an accepted reasoning path. Low-level rules provide reusable local transformations, and recursively composable high-level control rules organize subgoals and legal paths under the current goal, information gaps, and budget; a finite library is thereby rebound into paths never stored as complete solutions. We formalize admissible transitions, task-dependent control, compositional expressivity, dependency-preserving revision, and the gap between reachable solutions and those a budgeted controller finds. On structured-event graphs, ERS builds dependency chains of up to twelve steps, cuts irrelevant executed domain operations from 32 to 0 as lookahead grows to 16, and produces no unsupported target output across 24 negative cases; with rules frozen, it passes 12/12 focused checks comprising nine accepted derivations involving unseen input/path combinations and three justified refusals, as well as 6/6 fact-change cases. On fourteen jointly solved development tasks, the recorded dynamic subgoal configuration uses 51.6% less inference wall-clock time than single-level global control under their respective frozen settings.",
+      "pub_date": "Mon, 19 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从事件到推理：基于显式状态的分层规则组合",
+        "summary": "提出事件推理系统（ERS），将推理状态表示为显式事件图，通过语义特征提名候选对象与规则绑定，并由规则和任务条件决定可执行项，从而排除违反时段、单位或证据约束的候选。低层规则提供可复用的局部变换，高层控制规则递归组合子目标与合法路径，使有限规则库可重组出未曾存储的完整解。实验显示可构建最长12步依赖链，将无关域操作从32降至0，24个负例中无无依据输出，14个任务上推理耗时减少51.6%。",
+        "summary_en": "Presents the Event Reasoning System (ERS), which represents reasoning state as an explicit event graph. Semantic features nominate candidate objects and rule bindings, while declared rule and task conditions decide executability, excluding candidates that violate period, unit, or evidence constraints. Low-level rules provide reusable local transformations and recursively composable high-level control rules organize subgoals and legal paths, letting a finite rule library be rebound into paths never stored as complete solutions. ERS builds dependency chains up to twelve steps, cuts irrelevant domain operations from 32 to 0, produces no unsupported output across 24 negative cases, and uses 51.6% less inference wall-clock time than single-level global control on fourteen tasks.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-19-rss-008",
+        "title": "从事件到推理：基于显式状态的分层规则组合",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.22403",
+        "language": "en",
+        "summary": "提出事件推理系统（ERS），将推理状态表示为显式事件图，通过语义特征提名候选对象与规则绑定，并由规则和任务条件决定可执行项，从而排除违反时段、单位或证据约束的候选。低层规则提供可复用的局部变换，高层控制规则递归组合子目标与合法路径，使有限规则库可重组出未曾存储的完整解。实验显示可构建最长12步依赖链，将无关域操作从32降至0，24个负例中无无依据输出，14个任务上推理耗时减少51.6%。",
+        "summary_en": "Presents the Event Reasoning System (ERS), which represents reasoning state as an explicit event graph. Semantic features nominate candidate objects and rule bindings, while declared rule and task conditions decide executability, excluding candidates that violate period, unit, or evidence constraints. Low-level rules provide reusable local transformations and recursively composable high-level control rules organize subgoals and legal paths, letting a finite rule library be rebound into paths never stored as complete solutions. ERS builds dependency chains up to twelve steps, cuts irrelevant domain operations from 32 to 0, produces no unsupported output across 24 negative cases, and uses 51.6% less inference wall-clock time than single-level global control on fourteen tasks.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-19T23:15:55.300545+08:00",
+        "updated_at": "2026-10-19T23:15:55.300547+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ECHOES: Seeing Beyond the Current Image via Recursive History Compression and Privileged On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2610.22408",
+      "description": "arXiv:2610.22408v1 Announce Type: new \nAbstract: Long-horizon GUI agents rely on visual history to maintain task states, but retaining historical screenshots increases visual-token usage and inference costs, while textual summaries can discard critical state information, undermining long-horizon reliability. We propose ECHOES, which leverages training-time privileged information to guide textual history compression and strengthen long-horizon reasoning. Specifically, ECHOES adopts a Compression-Think-Action (CTA) format to recursively update a textual history state and reason. The same model, given privileged multi-image inputs, serves as a teacher that provides dense token-level on-policy distillation on student-generated CTA rollouts. Our Perception-Memory Fidelity (PMF) Gap-guided OPD-RL framework dynamically balances privileged distillation and task-reward optimization, with periodic teacher updates supporting continued improvement. We further introduce ECHOESBMK, a fine-grained diagnostic benchmark derived from real GUI agent failure trajectories to jointly evaluate visual perception and cross-modal state retention. Experiments on four GUI benchmarks and ECHOESBMK demonstrate substantial gains in task performance and memory fidelity. Without retaining historical screenshots at deployment, ECHOES achieves competitive performance with a favorable performance-inference-cost trade-off and exhibits positive zero-shot transfer to unseen visual planning tasks.",
+      "pub_date": "Mon, 19 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ECHOES：通过递归历史压缩与特权在线策略蒸馏超越当前图像",
+        "summary": "针对长程GUI智能体保留历史截图导致视觉token与推理成本上升、文本摘要丢失关键状态的问题，提出ECHOES：采用压缩-思考-行动（CTA）格式递归更新文本历史状态，并利用训练期特权多图输入作为教师，对学生生成的CTA轨迹进行token级在线策略蒸馏，结合PMF差距引导的OPD-RL框架动态平衡蒸馏与任务奖励，并发布EchoesBMK诊断基准。",
+        "summary_en": "ECHOES addresses long-horizon GUI agents' trade-off between costly screenshot retention and lossy textual summaries. It uses a Compression-Think-Action format to recursively update textual history, and a privileged multi-image teacher providing dense token-level on-policy distillation on student rollouts, balanced by a PMF-Gap-guided OPD-RL framework. It also introduces ECHOESBMK, a diagnostic benchmark from real failure trajectories. Deployment needs no screenshots, achieving strong performance and positive zero-shot transfer.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "benchmark",
+          "multimodal"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-19-rss-002",
+        "title": "ECHOES：通过递归历史压缩与特权在线策略蒸馏超越当前图像",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.22408",
+        "language": "en",
+        "summary": "针对长程GUI智能体保留历史截图导致视觉token与推理成本上升、文本摘要丢失关键状态的问题，提出ECHOES：采用压缩-思考-行动（CTA）格式递归更新文本历史状态，并利用训练期特权多图输入作为教师，对学生生成的CTA轨迹进行token级在线策略蒸馏，结合PMF差距引导的OPD-RL框架动态平衡蒸馏与任务奖励，并发布EchoesBMK诊断基准。",
+        "summary_en": "ECHOES addresses long-horizon GUI agents' trade-off between costly screenshot retention and lossy textual summaries. It uses a Compression-Think-Action format to recursively update textual history, and a privileged multi-image teacher providing dense token-level on-policy distillation on student rollouts, balanced by a PMF-Gap-guided OPD-RL framework. It also introduces ECHOESBMK, a diagnostic benchmark from real failure trajectories. Deployment needs no screenshots, achieving strong performance and positive zero-shot transfer.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "benchmark",
+          "multimodal"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-19T23:15:55.300517+08:00",
+        "updated_at": "2026-10-19T23:15:55.300518+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Sensitivity Analysis of Decision Rules in an Agent-Based Agro-Ecological Model",
+      "url": "https://arxiv.org/abs/2610.22420",
+      "description": "arXiv:2610.22420v1 Announce Type: new \nAbstract: Agent-based models are well-suited for modelling agro-ecological systems for decision-making, yet turning their simulations into actionable insight requires identifying which decisions actually drive the behaviours. In such a context, sensitivity analysis stumbles upon a structural feature of many complex systems: the parameters are not a flat vector but a decision tree in which many parameters appear only when a higher-level choice activates them. Classical global sensitivity analysis presupposes independent inputs over a fixed Cartesian product and is ill-posed on such a branched space and biased by construction. We instead treat the structure of the decisions as a first-class modelling object. Using advanced surrogate modelling techniques, we encode the crop-management itinerary of the high-resolution agro-ecological modelling platform MAELIA as a hierarchical design space featuring both categorical and numerical variables. We propose a novel dedicated method to analyse this kind of hierarchical space, a random-forest-supervised HSIC-ANOVA, which ranks main effects and interactions natively on the tree while placing rarely and always active decisions on an equal footing. We show how, when applied to simulation outputs such as nitrogen leaching, soil organic carbon variation, and yield predictions, it can deliver an interpretable, decision-oriented reading.",
+      "pub_date": "Mon, 19 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于智能体的农业生态模型中决策规则的敏感性分析",
+        "summary": "该研究针对智能体农业生态模型中参数呈决策树结构、经典全局敏感性分析方法不适用的问题，将决策结构作为建模对象，用代理模型把MAELIA平台的作物管理流程编码为分层设计空间，提出随机森林监督的HSIC-ANOVA方法，在树上直接排序主效应与交互作用，并应用于氮淋失、土壤有机碳变化和产量预测。",
+        "summary_en": "Agent-based agro-ecological models need sensitivity analysis to find which decisions drive behavior, but their parameters form a decision tree rather than a flat vector, making classical global sensitivity analysis ill-posed. The authors encode MAELIA's crop-management itinerary as a hierarchical design space and propose a random-forest-supervised HSIC-ANOVA that ranks main effects and interactions natively on the tree, applied to nitrogen leaching, soil organic carbon change, and yield.",
+        "tags": [
+          "research",
+          "evaluation",
+          "agent-framework",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.45,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-19-rss-010",
+        "title": "基于智能体的农业生态模型中决策规则的敏感性分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.22420",
+        "language": "en",
+        "summary": "该研究针对智能体农业生态模型中参数呈决策树结构、经典全局敏感性分析方法不适用的问题，将决策结构作为建模对象，用代理模型把MAELIA平台的作物管理流程编码为分层设计空间，提出随机森林监督的HSIC-ANOVA方法，在树上直接排序主效应与交互作用，并应用于氮淋失、土壤有机碳变化和产量预测。",
+        "summary_en": "Agent-based agro-ecological models need sensitivity analysis to find which decisions drive behavior, but their parameters form a decision tree rather than a flat vector, making classical global sensitivity analysis ill-posed. The authors encode MAELIA's crop-management itinerary as a hierarchical design space and propose a random-forest-supervised HSIC-ANOVA that ranks main effects and interactions natively on the tree, applied to nitrogen leaching, soil organic carbon change, and yield.",
+        "tags": [
+          "research",
+          "evaluation",
+          "agent-framework",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.45,
+        "status": "published",
+        "created_at": "2026-10-19T23:15:55.300554+08:00",
+        "updated_at": "2026-10-19T23:15:55.300555+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
+      "url": "https://arxiv.org/abs/2610.22428",
+      "description": "arXiv:2610.22428v1 Announce Type: new \nAbstract: In a small language model the vocabulary is the single largest part. In Gemma 3 270M the embedding table holds 168M of 268M parameters, and because quantisation methods leave the embedding in 16-bit, it is also most of the file once the rest of the model is compressed. We ask what that table actually buys. We replace it with one frozen table of 512-bit codes, 16 MB, with no trainable parameters, derived once from a pretrained embedding by principal-component projection and sign binarisation, and we train the same Gemma-shaped body from scratch on the same 2.05B tokens with and without it. The learned table buys 0.20 nats of validation loss for 2.6 times the trainable parameters, but on LAMBADA, HellaSwag and PIQA the frozen-table model is better or tied; only ARC-Easy favours the learned table. With a ternary BitNet b1.58 body the whole model is a 46 MB file, still ties the float model on LAMBADA and PIQA, and on a laptop CPU generates 615 to 740 tokens per second in 62 MB of memory, five to six times the speed of the float model's 8-bit GGUF in llama.cpp at a seventh of the memory. The frozen table wins by 1.7 to 2.3 nats on rare words, accepts 10,000 new words after training with a 3% cost where the learned table collapses by 43%, and all of it is released with the weights, the data and every evaluation answer.",
+      "pub_date": "Mon, 19 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "嵌入层是否过于昂贵？面向小型与三值语言模型的16MB冻结词表",
+        "summary": "该研究用16MB、512位编码的冻结词表替换小型语言模型的可训练嵌入表，在Gemma 3 270M上验证：验证损失略差0.20 nats，但LAMBADA、HellaSwag、PIQA表现持平或更优；结合三值BitNet后整模型仅46MB，笔记本CPU上达615-740 tokens/秒，速度提升5-6倍、内存降至1/7，且新词扩展鲁棒性显著更强。",
+        "summary_en": "The paper replaces a small LM's trainable embedding table with a frozen 16 MB table of 512-bit codes derived via PCA projection and sign binarisation. On Gemma 3 270M it costs 0.20 nats validation loss but ties or beats the learned table on LAMBADA, HellaSwag and PIQA. With a ternary BitNet b1.58 body the whole model is a 46 MB file running 615-740 tokens/s on a laptop CPU, 5-6x faster and 1/7 the memory of an 8-bit GGUF, and far more robust to new vocabulary.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "open-source"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-19-rss-007",
+        "title": "嵌入层是否过于昂贵？面向小型与三值语言模型的16MB冻结词表",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.22428",
+        "language": "en",
+        "summary": "该研究用16MB、512位编码的冻结词表替换小型语言模型的可训练嵌入表，在Gemma 3 270M上验证：验证损失略差0.20 nats，但LAMBADA、HellaSwag、PIQA表现持平或更优；结合三值BitNet后整模型仅46MB，笔记本CPU上达615-740 tokens/秒，速度提升5-6倍、内存降至1/7，且新词扩展鲁棒性显著更强。",
+        "summary_en": "The paper replaces a small LM's trainable embedding table with a frozen 16 MB table of 512-bit codes derived via PCA projection and sign binarisation. On Gemma 3 270M it costs 0.20 nats validation loss but ties or beats the learned table on LAMBADA, HellaSwag and PIQA. With a ternary BitNet b1.58 body the whole model is a 46 MB file running 615-740 tokens/s on a laptop CPU, 5-6x faster and 1/7 the memory of an 8-bit GGUF, and far more robust to new vocabulary.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "open-source"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-19T23:15:55.300538+08:00",
+        "updated_at": "2026-10-19T23:15:55.300540+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
+      "url": "https://arxiv.org/abs/2610.22454",
+      "description": "arXiv:2610.22454v1 Announce Type: new \nAbstract: Running prompt tokens through fewer routed experts during prefill is a simple way to make mixture-of-experts (MoE) serving cheaper, yet it is unclear what this damages. We locate the damage with token-, layer- and attention-path interventions on short-answer question answering in four MoE families. At half the experts the F1 loss of three families is mostly answer form: the model still finds the answer but stops answering briefly. In Qwen3-30B-A3B this loss is made at the two chat-template tokens before the answer, and in DeepSeek-V2-Lite at the first 8-32 prompt tokens, where its instruction sits; by answer likelihood these positions account for about half and a fifth of the damage. Reduction changes the first token's attention mass, norm and largest activation by less than 4%, and restoring super experts or massive activations recovers at most about a quarter of the loss, well below keeping the sensitive positions full. On real prompts with about 4% of tokens at full experts, placing them on the task interface keeps F1 within one point of the unmodified model, while placing them at random in the documents is about 3 points worse (two of five prespecified primary comparisons; the others were undecided or not run). Because the answer boundary always ends a single-turn prompt, and DeepSeek's loss was no longer detectable once its instruction moved away from the start, the sensitive tokens lay at the prompt ends in every sensitive layout we found, so rules that keep the ends are not distinguished from rules that read application marks. Time to first token falls about 14% on 11K-token prompts and not at 2K tokens.",
+      "pub_date": "Mon, 19 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MoE模型预填充阶段减少专家对短答案F1的影响分析",
+        "summary": "研究发现，在MoE模型预填充阶段减少路由专家数量主要损害答案形式而非答案定位，敏感token集中在提示词两端（如聊天模板token或指令起始位置），保持这些位置使用全部专家可将F1损失控制在1分以内，首token延迟在11K提示下降低约14%。",
+        "summary_en": "Reducing routed experts during MoE prefill mainly damages answer form rather than answer finding; sensitive tokens cluster at prompt ends (chat-template tokens or instruction start), and keeping those positions at full experts limits F1 loss to within one point while cutting time-to-first-token by ~14% on 11K-token prompts.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-19-rss-003",
+        "title": "MoE模型预填充阶段减少专家对短答案F1的影响分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.22454",
+        "language": "en",
+        "summary": "研究发现，在MoE模型预填充阶段减少路由专家数量主要损害答案形式而非答案定位，敏感token集中在提示词两端（如聊天模板token或指令起始位置），保持这些位置使用全部专家可将F1损失控制在1分以内，首token延迟在11K提示下降低约14%。",
+        "summary_en": "Reducing routed experts during MoE prefill mainly damages answer form rather than answer finding; sensitive tokens cluster at prompt ends (chat-template tokens or instruction start), and keeping those positions at full experts limits F1 loss to within one point while cutting time-to-first-token by ~14% on 11K-token prompts.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-19T23:15:55.300522+08:00",
+        "updated_at": "2026-10-19T23:15:55.300523+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "From Parallels to Divergence: Language Models' Learning of Action Nominal Constructions",
+      "url": "https://arxiv.org/abs/2610.22468",
+      "description": "arXiv:2610.22468v1 Announce Type: new \nAbstract: Action nominal constructions (ANCs) express events in nominal form, with their argument marking following patterns found in clauses or ordinary noun phrases. In this paper, we investigate how different grammatical configurations affect language models' learning of ANCs and related constructions, and how these learning preferences compare with typological distributions in natural languages. We use a grammar-engineered method for synthetic corpus construction that combines shared semantic input from natural corpora with computational grammars. We construct 96 target languages varying in clause word order, noun-phrase word order, alignment, complement system, and ANC strategy. For each language, we train GPT-2-small models from scratch and evaluate them using targeted minimal pairs covering 34 grammatical phenomena. The results show typological parallels in basic clause configurations but divergences in complement systems and ANC strategies, with models also learning combinations rare or unattested in natural languages. This partial alignment suggests that natural language distributions may reflect both general learning pressures and functional demands not fully captured by model learning experiments.",
+      "pub_date": "Mon, 19 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从平行到分歧：语言模型对动作名词构式的学习",
+        "summary": "研究用语法工程方法构建96种合成语言，训练GPT-2-small模型，考察不同语法配置对动作名词构式学习的影响。结果显示基本小句配置与类型学分布平行，但补语系统和ANC策略出现分歧，模型还会学到自然语言中罕见或未见的组合。",
+        "summary_en": "The study builds 96 synthetic languages via grammar engineering and trains GPT-2-small models from scratch to examine how grammatical configurations affect learning of action nominal constructions. Results show typological parallels in basic clause configurations but divergences in complement systems and ANC strategies, with models also learning combinations rare or unattested in natural languages.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-19-rss-009",
+        "title": "从平行到分歧：语言模型对动作名词构式的学习",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.22468",
+        "language": "en",
+        "summary": "研究用语法工程方法构建96种合成语言，训练GPT-2-small模型，考察不同语法配置对动作名词构式学习的影响。结果显示基本小句配置与类型学分布平行，但补语系统和ANC策略出现分歧，模型还会学到自然语言中罕见或未见的组合。",
+        "summary_en": "The study builds 96 synthetic languages via grammar engineering and trains GPT-2-small models from scratch to examine how grammatical configurations affect learning of action nominal constructions. Results show typological parallels in basic clause configurations but divergences in complement systems and ANC strategies, with models also learning combinations rare or unattested in natural languages.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-10-19T23:15:55.300549+08:00",
+        "updated_at": "2026-10-19T23:15:55.300551+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
+      "url": "https://arxiv.org/abs/2610.22507",
+      "description": "arXiv:2610.22507v1 Announce Type: new \nAbstract: Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume that user instructions remain fixed throughout execution or evaluate task outcomes without capturing runtime collaboration quality. In this paper, we present REALCLI, a paired benchmark that unifies the evaluation of task execution and human-agent collaboration quality on realistic CLI tasks. To comprehensively measure collaboration, REALCLI builds a five-dimensional framework, operationalized into 22 sub-dimensions and 51 interaction scenario templates. REALCLI provides two modes for paired comparison: REALCLI-EXEC supplies complete specifications upfront, whereas REALCLI-COLLAB introduces a scripted user that delivers progressive information, corrections, constraint revisions, and authorization decisions. Evaluations reveal profound capability gaps in frontier agents: the best configuration attains an average score of only 49.2%, and when evaluated by the joint collaboration score ($J_{\\mathrm{collab}}$), the peak performance reaches merely 37.6%. These results show that task effectiveness diverges sharply from collaboration quality, with models consistently struggling in steerability, trust calibration, and safety boundary management. REALCLI provides a rigorous, reproducible foundation for measuring and advancing collaborative CLI agents.",
+      "pub_date": "Mon, 19 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RealCLI：面向CLI智能体的人机协作统一评测基准",
+        "summary": "RealCLI是一个配对基准，统一评估CLI智能体的任务执行与人机协作质量。它构建五维协作框架（22个子维度、51个交互场景模板），提供执行模式与协作模式对比。结果显示前沿智能体最高平均分仅49.2%，联合协作分仅37.6%，在可引导性、信任校准和安全边界管理上明显不足。",
+        "summary_en": "REALCLI is a paired benchmark unifying evaluation of task execution and human-agent collaboration quality on realistic CLI tasks. It builds a five-dimensional collaboration framework (22 sub-dimensions, 51 interaction scenario templates) with EXEC and COLLAB modes. Frontier agents score only 49.2% on average and 37.6% on joint collaboration, struggling with steerability, trust calibration, and safety boundaries.",
+        "tags": [
+          "benchmark",
+          "agent-framework",
+          "evaluation",
+          "tool",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-19-rss-004",
+        "title": "RealCLI：面向CLI智能体的人机协作统一评测基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.22507",
+        "language": "en",
+        "summary": "RealCLI是一个配对基准，统一评估CLI智能体的任务执行与人机协作质量。它构建五维协作框架（22个子维度、51个交互场景模板），提供执行模式与协作模式对比。结果显示前沿智能体最高平均分仅49.2%，联合协作分仅37.6%，在可引导性、信任校准和安全边界管理上明显不足。",
+        "summary_en": "REALCLI is a paired benchmark unifying evaluation of task execution and human-agent collaboration quality on realistic CLI tasks. It builds a five-dimensional collaboration framework (22 sub-dimensions, 51 interaction scenario templates) with EXEC and COLLAB modes. Frontier agents score only 49.2% on average and 37.6% on joint collaboration, struggling with steerability, trust calibration, and safety boundaries.",
+        "tags": [
+          "benchmark",
+          "agent-framework",
+          "evaluation",
+          "tool",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-19T23:15:55.300526+08:00",
+        "updated_at": "2026-10-19T23:15:55.300527+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems",
+      "url": "https://arxiv.org/abs/2610.22511",
+      "description": "arXiv:2610.22511v1 Announce Type: new \nAbstract: Evaluating language models and agents requires combining benchmark accuracy, judge-based assessment, runtime performance, tool-use behavior, and retrieval quality. Differences in interfaces, metric semantics, and trace formats complicate these comparisons and can hide failures in agentic workflows. We present AuditKIT, a source-available evaluation library that records these measurements in one result representation, with direction-aware metric contracts, configuration fingerprints, and extensible metrics and backends. For agents, it provides turn-aware tool-call matching, separates parallel from sequential execution, and distinguishes verified task outcomes from trajectory-level diagnostics. Missing or unobservable evidence is marked unscored rather than counted as failure. For retrieval-augmented generation, it combines ranked retrieval metrics, judged grounding, and deterministic evidence checks. Seven case studies spanning model comparison, serving runtimes, retrieval, tool calling, and interoperability show how answer extraction, runtime behavior, and metric selection change evaluation outcomes.",
+      "pub_date": "Mon, 19 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AuditKIT：面向大语言模型与智能体系统评测、评判与比较的统一评估框架",
+        "summary": "AuditKIT 是一个开源评估库，将基准准确率、评判模型评估、运行时性能、工具调用行为和检索质量统一到同一结果表示中，支持方向感知的指标契约、配置指纹和可扩展后端。针对智能体，它提供轮次感知的工具调用匹配，区分并行与串行执行，并将缺失证据标记为未评分而非失败。",
+        "summary_en": "AuditKIT is a source-available evaluation library that unifies benchmark accuracy, judge-based assessment, runtime performance, tool-use behavior, and retrieval quality in one result representation, with direction-aware metric contracts, configuration fingerprints, and extensible backends. For agents, it offers turn-aware tool-call matching, separates parallel from sequential execution, and marks missing evidence as unscored rather than failure.",
+        "tags": [
+          "evaluation",
+          "benchmark",
+          "agent-framework",
+          "rag",
+          "tool"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-19-rss-005",
+        "title": "AuditKIT：面向大语言模型与智能体系统评测、评判与比较的统一评估框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.22511",
+        "language": "en",
+        "summary": "AuditKIT 是一个开源评估库，将基准准确率、评判模型评估、运行时性能、工具调用行为和检索质量统一到同一结果表示中，支持方向感知的指标契约、配置指纹和可扩展后端。针对智能体，它提供轮次感知的工具调用匹配，区分并行与串行执行，并将缺失证据标记为未评分而非失败。",
+        "summary_en": "AuditKIT is a source-available evaluation library that unifies benchmark accuracy, judge-based assessment, runtime performance, tool-use behavior, and retrieval quality in one result representation, with direction-aware metric contracts, configuration fingerprints, and extensible backends. For agents, it offers turn-aware tool-call matching, separates parallel from sequential execution, and marks missing evidence as unscored rather than failure.",
+        "tags": [
+          "evaluation",
+          "benchmark",
+          "agent-framework",
+          "rag",
+          "tool"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-19T23:15:55.300530+08:00",
+        "updated_at": "2026-10-19T23:15:55.300531+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

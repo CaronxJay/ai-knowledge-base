@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-19-rss-008",
+  "title": "从事件到推理：基于显式状态的分层规则组合",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.22403",
+  "language": "en",
+  "summary": "提出事件推理系统（ERS），将推理状态表示为显式事件图，通过语义特征提名候选对象与规则绑定，并由规则和任务条件决定可执行项，从而排除违反时段、单位或证据约束的候选。低层规则提供可复用的局部变换，高层控制规则递归组合子目标与合法路径，使有限规则库可重组出未曾存储的完整解。实验显示可构建最长12步依赖链，将无关域操作从32降至0，24个负例中无无依据输出，14个任务上推理耗时减少51.6%。",
+  "summary_en": "Presents the Event Reasoning System (ERS), which represents reasoning state as an explicit event graph. Semantic features nominate candidate objects and rule bindings, while declared rule and task conditions decide executability, excluding candidates that violate period, unit, or evidence constraints. Low-level rules provide reusable local transformations and recursively composable high-level control rules organize subgoals and legal paths, letting a finite rule library be rebound into paths never stored as complete solutions. ERS builds dependency chains up to twelve steps, cuts irrelevant domain operations from 32 to 0, produces no unsupported output across 24 negative cases, and uses 51.6% less inference wall-clock time than single-level global control on fourteen tasks.",
+  "tags": [
+    "research",
+    "agent-framework",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-19T23:15:55.300545+08:00",
+  "updated_at": "2026-10-19T23:15:55.300547+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

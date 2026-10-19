@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-19-rss-010",
+  "title": "基于智能体的农业生态模型中决策规则的敏感性分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.22420",
+  "language": "en",
+  "summary": "该研究针对智能体农业生态模型中参数呈决策树结构、经典全局敏感性分析方法不适用的问题，将决策结构作为建模对象，用代理模型把MAELIA平台的作物管理流程编码为分层设计空间，提出随机森林监督的HSIC-ANOVA方法，在树上直接排序主效应与交互作用，并应用于氮淋失、土壤有机碳变化和产量预测。",
+  "summary_en": "Agent-based agro-ecological models need sensitivity analysis to find which decisions drive behavior, but their parameters form a decision tree rather than a flat vector, making classical global sensitivity analysis ill-posed. The authors encode MAELIA's crop-management itinerary as a hierarchical design space and propose a random-forest-supervised HSIC-ANOVA that ranks main effects and interactions natively on the tree, applied to nitrogen leaching, soil organic carbon change, and yield.",
+  "tags": [
+    "research",
+    "evaluation",
+    "agent-framework",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.45,
+  "status": "published",
+  "created_at": "2026-10-19T23:15:55.300554+08:00",
+  "updated_at": "2026-10-19T23:15:55.300555+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

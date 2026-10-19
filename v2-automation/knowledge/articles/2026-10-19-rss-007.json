@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-19-rss-007",
+  "title": "嵌入层是否过于昂贵？面向小型与三值语言模型的16MB冻结词表",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.22428",
+  "language": "en",
+  "summary": "该研究用16MB、512位编码的冻结词表替换小型语言模型的可训练嵌入表，在Gemma 3 270M上验证：验证损失略差0.20 nats，但LAMBADA、HellaSwag、PIQA表现持平或更优；结合三值BitNet后整模型仅46MB，笔记本CPU上达615-740 tokens/秒，速度提升5-6倍、内存降至1/7，且新词扩展鲁棒性显著更强。",
+  "summary_en": "The paper replaces a small LM's trainable embedding table with a frozen 16 MB table of 512-bit codes derived via PCA projection and sign binarisation. On Gemma 3 270M it costs 0.20 nats validation loss but ties or beats the learned table on LAMBADA, HellaSwag and PIQA. With a ternary BitNet b1.58 body the whole model is a 46 MB file running 615-740 tokens/s on a laptop CPU, 5-6x faster and 1/7 the memory of an 8-bit GGUF, and far more robust to new vocabulary.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "open-source"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-19T23:15:55.300538+08:00",
+  "updated_at": "2026-10-19T23:15:55.300540+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

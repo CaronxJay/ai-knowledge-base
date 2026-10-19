@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-19-rss-004",
+  "title": "RealCLI：面向CLI智能体的人机协作统一评测基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.22507",
+  "language": "en",
+  "summary": "RealCLI是一个配对基准，统一评估CLI智能体的任务执行与人机协作质量。它构建五维协作框架（22个子维度、51个交互场景模板），提供执行模式与协作模式对比。结果显示前沿智能体最高平均分仅49.2%，联合协作分仅37.6%，在可引导性、信任校准和安全边界管理上明显不足。",
+  "summary_en": "REALCLI is a paired benchmark unifying evaluation of task execution and human-agent collaboration quality on realistic CLI tasks. It builds a five-dimensional collaboration framework (22 sub-dimensions, 51 interaction scenario templates) with EXEC and COLLAB modes. Frontier agents score only 49.2% on average and 37.6% on joint collaboration, struggling with steerability, trust calibration, and safety boundaries.",
+  "tags": [
+    "benchmark",
+    "agent-framework",
+    "evaluation",
+    "tool",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-19T23:15:55.300526+08:00",
+  "updated_at": "2026-10-19T23:15:55.300527+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

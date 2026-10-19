@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-19-rss-003",
+  "title": "MoE模型预填充阶段减少专家对短答案F1的影响分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.22454",
+  "language": "en",
+  "summary": "研究发现，在MoE模型预填充阶段减少路由专家数量主要损害答案形式而非答案定位，敏感token集中在提示词两端（如聊天模板token或指令起始位置），保持这些位置使用全部专家可将F1损失控制在1分以内，首token延迟在11K提示下降低约14%。",
+  "summary_en": "Reducing routed experts during MoE prefill mainly damages answer form rather than answer finding; sensitive tokens cluster at prompt ends (chat-template tokens or instruction start), and keeping those positions at full experts limits F1 loss to within one point while cutting time-to-first-token by ~14% on 11K-token prompts.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-19T23:15:55.300522+08:00",
+  "updated_at": "2026-10-19T23:15:55.300523+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
