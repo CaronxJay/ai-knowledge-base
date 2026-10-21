@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-21-rss-003",
+  "title": "基于多目标强化学习与大语言模型的帕累托最优RTL代码生成",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.26904",
+  "language": "en",
+  "summary": "该研究提出首个面向LLM电路生成的多目标强化学习方法，不再优化单个电路质量，而是优化多次生成所得电路集合在PPA目标空间中的质量与多样性。方法包含基于生成的训练流程，将帕累托解集覆盖率提升重构为序列电路生成问题，以及基于超体积贡献（HVC）的奖励函数。在RTLLM v2基准上，相对超体积较无PPA优化基线提升13.3个百分点，较单目标强化学习提升14.4个百分点，电路多样性亦更优。",
+  "summary_en": "This work proposes the first multi-objective RL method for LLM-based circuit generation that optimizes the quality and diversity of the entire generated circuit set in PPA space, rather than a single circuit. It uses a generation-based training pipeline reformulating Pareto-set coverage as sequential generation, plus a Hypervolume Contribution (HVC) reward. On RTLLM v2 it gains +13.3 pp relative Hypervolume over a no-PPA baseline and +14.4 pp over single-objective RL, with better diversity.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-21T21:24:53.522997+08:00",
+  "updated_at": "2026-10-21T21:24:53.522998+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

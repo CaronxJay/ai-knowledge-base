@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-21-rss-008",
+  "title": "多模态矛盾与犹豫识别：双向音文交叉注意力框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.26868",
+  "language": "en",
+  "summary": "该论文提出一种音文多模态框架，用于视频级矛盾与犹豫（A/H）识别。使用多语言BERT和wav2vec 2.0分别编码文本与语音，通过双向交叉注意力实现无需显式时间对齐的跨模态融合，在BAH数据集上取得77.95%的A/H F1分数。",
+  "summary_en": "This paper presents an audio-text framework for video-level ambivalence and hesitancy (A/H) recognition. It encodes transcripts and speech with multilingual BERT and wav2vec 2.0, fuses them via stacked bidirectional cross-attention without explicit temporal alignment, and achieves 77.95% A/H F1 on the BAH dataset.",
+  "tags": [
+    "multimodal",
+    "research",
+    "llm",
+    "evaluation"
+  ],
+  "category": "multimodal",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-10-21T21:24:53.523021+08:00",
+  "updated_at": "2026-10-21T21:24:53.523022+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

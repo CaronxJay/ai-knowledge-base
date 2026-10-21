@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-21-github-004",
+  "title": "完整人工智能超级课程 2026：从基础到 LLM 与 Agent 的学习路线",
+  "source": "github_trending",
+  "source_url": "https://github.com/vivianaranha/complete-artificial-intelligence-mega-course-2026",
+  "language": "en",
+  "summary": "该 GitHub 仓库提供一条从 AI 基础、Python、数学统计、机器学习、深度学习、NLP、计算机视觉，到 Transformer 与 LLM、提示工程、Embedding 与 RAG、Agent、MCP、多模态、评估与安全、MLOps/LLMOps 及企业级 AI 的完整学习路径。",
+  "summary_en": "A GitHub repo outlining a complete AI learning path from foundations, Python, math, ML, deep learning, NLP and CV to Transformers & LLMs, prompt engineering, embeddings & RAG, agents, MCP, multimodal AI, evaluation & security, MLOps/LLMOps and enterprise AI.",
+  "tags": [
+    "llm",
+    "rag",
+    "agent-framework",
+    "prompt-engineering",
+    "python"
+  ],
+  "category": "application",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-10-21T21:24:53.521430+08:00",
+  "updated_at": "2026-10-21T21:24:53.521431+08:00",
+  "metadata": {
+    "stars": 3,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-21-rss-009",
+  "title": "基于音素专家混合的Conformer低秩适配用于带口音英语语音识别",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.26888",
+  "language": "en",
+  "summary": "提出MoPE-LoRA，按发音方式类别组织六个低秩专家，通过音素监督与声学门控的混合路由实现帧级分配。专家集跨口音共享，无需口音专属模块，可泛化到未见口音。在L2-ARCTIC上优于单LoRA和全量微调，零样本口音留出时相对提升12.3%。",
+  "summary_en": "We present MoPE-LoRA, a parameter-efficient adaptation framework for accented English speech recognition that organizes six low-rank experts by manner-of-articulation classes with hybrid frame-level routing combining phoneme supervision and acoustic gating. Experts are shared across accents, requiring no accent-specific modules and generalizing to unseen accents. On L2-ARCTIC it consistently beats single LoRA and full fine-tuning, yielding a 12.3% relative gain over single LoRA in zero-shot held-out accent evaluation.",
+  "tags": [
+    "fine-tuning",
+    "research",
+    "multimodal",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-10-21T21:24:53.523025+08:00",
+  "updated_at": "2026-10-21T21:24:53.523026+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

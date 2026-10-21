@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-21-rss-006",
+  "title": "WaveCommitments：私密且可验证的语音智能体市场",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.26867",
+  "language": "en",
+  "summary": "提出开源方案WaveCommitments，在可信执行环境内用Data Shapley进行保密资产估值，并结合多元多项式承诺实现选择性披露与防篡改溯源，使语音智能体市场中的卖方无需泄露资产即可证明交付物与估值一致；实验显示基准加速最高20倍、证明体积缩小最高39倍。",
+  "summary_en": "WaveCommitments is an open-source design pairing confidential asset valuation via Data Shapley in a trusted execution environment with multivariate polynomial commitments, enabling selective openings and tamper-evident provenance so speech-agent marketplace sellers can prove delivered assets match valuations without revealing them; experiments show up to 20x speedup and 39x smaller proofs.",
+  "tags": [
+    "security",
+    "agent-framework",
+    "research",
+    "multimodal",
+    "open-source"
+  ],
+  "category": "security",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-10-21T21:24:53.523009+08:00",
+  "updated_at": "2026-10-21T21:24:53.523011+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

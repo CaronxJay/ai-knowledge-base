@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-21-rss-007",
+  "title": "基于大语言模型与强化学习的自主施工与进度更新",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.26899",
+  "language": "en",
+  "summary": "该研究提出一种基于大语言模型与强化学习的自主施工方法：用增强型软演员-评论家算法为移动起重机规划施工动作，结合机器人运动学与控制算法保证可执行性；定制嵌入模型按用户兴趣提取施工环境信息；再用ChatGPT 5更新施工进度、向控制系统提供安全信息并生成进度报告，并通过多项全尺寸挡土墙施工实验验证可行性。",
+  "summary_en": "This study proposes an autonomous construction method combining LLMs and reinforcement learning: an enhanced soft actor-critic algorithm plans mobile crane actions for construction tasks, with robot kinematics and control ensuring executability; a customized embedding model extracts environment information by user interest; ChatGPT 5 updates progress, supplies safety information to the control system, and generates progress reports. Feasibility is verified via full-scale retaining wall construction experiments.",
+  "tags": [
+    "llm",
+    "application",
+    "research",
+    "agent-framework"
+  ],
+  "category": "application",
+  "relevance_score": 0.75,
+  "status": "published",
+  "created_at": "2026-10-21T21:24:53.523014+08:00",
+  "updated_at": "2026-10-21T21:24:53.523015+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

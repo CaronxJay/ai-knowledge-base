@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-21-rss-002",
+  "title": "DataPraxis：通过验证式工作区演化扩展分析任务",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.26924",
+  "language": "en",
+  "summary": "提出DataPraxis分析任务合成框架，通过逐步丰富并继承验证过的工作区来生成更深层问题，构建了5000条验证轨迹数据集DataPraxis-5K，训练出的DataPraxis-27B在DABStep和JobBench上匹配或超越前沿模型。",
+  "summary_en": "Introduces DataPraxis, an analytics task synthesis framework based on verified workspace evolution that progressively enriches and inherits validated workspaces to uncover deeper questions. It builds DataPraxis-5K, a 5,000-trajectory verified dataset, and trains DataPraxis-27B and DataPraxis-35B-A3B, with DataPraxis-27B scoring 55.11 on DABStep and 51.9 on JobBench, matching or surpassing frontier models like GLM-5.2.",
+  "tags": [
+    "agent-framework",
+    "benchmark",
+    "research",
+    "evaluation",
+    "fine-tuning"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-21T21:24:53.522992+08:00",
+  "updated_at": "2026-10-21T21:24:53.522994+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

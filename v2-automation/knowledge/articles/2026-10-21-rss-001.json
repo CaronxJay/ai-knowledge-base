@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-21-rss-001",
+  "title": "Navalia：通过可验证任务合成与长程后训练推进协作智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.26887",
+  "language": "en",
+  "summary": "Navalia 以企业财报为数据源，通过语义选取证据并构建可执行计算链，合成带可追溯证据与真实数据依赖的分析任务，再用独立 LLM 审核与程序化校验确保答案正确。验证后的任务用于轨迹采集、冷启动 SFT 与强化学习，基于 Qwen3.6-35B-A3B 在五个基准上均优于基座模型，并泛化到通用办公场景。",
+  "summary_en": "Navalia synthesizes verifiable financial analysis tasks from corporate reports by semantically selecting evidence and building executable computation chains with traceable dependencies, then validates them via independent LLM review and programmatic checks. The verified tasks drive trajectory collection, cold-start SFT, and RL; initialized from Qwen3.6-35B-A3B, it consistently outperforms the base model on five benchmarks and generalizes to broader cowork settings.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-21T21:24:53.522985+08:00",
+  "updated_at": "2026-10-21T21:24:53.522988+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

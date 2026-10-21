@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-21-rss-005",
+  "title": "H2DF：用于可控语言模型遗忘的校准目标区间",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.26864",
+  "language": "en",
+  "summary": "提出H2DF，一种校准目标区间目标函数，用于语言模型遗忘。它在数据相关下界以下施加类似梯度上升的压力，达到目标区间后抑制或反转该压力，从而控制遗忘强度、保护保留效用，并在TOFU和MUSE-News上验证效果。",
+  "summary_en": "H2DF introduces a calibrated target-band objective for language-model unlearning: it applies GA-like pressure below a data-dependent lower target and suppresses or reverses it once the target region is reached, controlling forgetting strength while preserving retained utility, validated on TOFU and MUSE-News.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-21T21:24:53.523005+08:00",
+  "updated_at": "2026-10-21T21:24:53.523007+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
