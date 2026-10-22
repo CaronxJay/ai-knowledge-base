@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-22-rss-002",
+  "title": "SkillEval：基于认知诊断模型学习LLM可解释能力画像",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.28767",
+  "language": "en",
+  "summary": "提出SkillEval评估框架，利用LLM自动发现题目中的可解释技能，并结合心理测量学认知诊断模型（CDM）估计模型各技能水平。在3811个模型、5个基准上验证，生成更校准的能力画像，可提升未见题目预测准确度，并支持LLM路由（降本60%以上）与自适应测试。",
+  "summary_en": "SkillEval is an evaluation framework that uses LLMs to discover interpretable skills from questions and applies psychometric cognitive diagnosis models (CDMs) to estimate per-skill abilities. Tested on 3,811 LLMs across five benchmarks, it yields more calibrated, informative skill profiles that better predict unseen-item behavior and enable LLM routing (over 60% cost reduction) and adaptive testing.",
+  "tags": [
+    "benchmark",
+    "evaluation",
+    "llm",
+    "research",
+    "prompt-engineering"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-22T21:26:00.581346+08:00",
+  "updated_at": "2026-10-22T21:26:00.581347+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

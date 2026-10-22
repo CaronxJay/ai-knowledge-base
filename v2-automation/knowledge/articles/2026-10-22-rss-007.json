@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-22-rss-007",
+  "title": "谁在真正执行卡特尔？强化学习在市场中对LLM智能体的教学启示",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.28787",
+  "language": "en",
+  "summary": "提出一种审计方法，通过强制成员在反事实市场中作弊来检验合谋的执行机制，研究强化学习在定价与交易中教会LLM智能体什么。小型LLM学到训练对手所奖励的行为，但仅限于其容易尝试的策略；结果指标无法区分这些情形，审计可以。",
+  "summary_en": "Introduces an audit that forces a member to cheat in counterfactual market copies to test cartel enforcement, studying what RL teaches LLM agents in pricing and trading. Small RL-trained LLMs learn what rivals reward but only what they readily try; outcome measures cannot distinguish these cases, the audit can.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-22T21:26:00.581366+08:00",
+  "updated_at": "2026-10-22T21:26:00.581367+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

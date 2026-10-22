@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-22-rss-010",
+  "title": "翻译与数据伦理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.28710",
+  "language": "en",
+  "summary": "该章节探讨翻译领域的数据伦理，涵盖版权、所有权与偏见等普遍性问题，以及少数语言社群和数字鸿沟两端群体面临的特殊伦理挑战，并讨论责任、监管及翻译研究界对数据伦理日益增长的关注。",
+  "summary_en": "This chapter introduces data ethics for translation, covering copyright, ownership, and bias issues common to all data, plus concerns specific to minoritised language communities and those across the digital divide, closing with responsibility, regulation, and growing attention from translation studies researchers.",
+  "tags": [
+    "research",
+    "evaluation",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 0.2,
+  "status": "published",
+  "created_at": "2026-10-22T21:26:00.581379+08:00",
+  "updated_at": "2026-10-22T21:26:00.581381+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

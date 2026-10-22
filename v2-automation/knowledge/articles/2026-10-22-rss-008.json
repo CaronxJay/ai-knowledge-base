@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-22-rss-008",
+  "title": "Gemma 4 语音编码器冻结权重下的沙特与海湾阿拉伯语识别研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.28673",
+  "language": "en",
+  "summary": "研究 Gemma 4 共享的 3.05 亿参数音频编码器在沙特与海湾阿拉伯语识别中的表现：冻结编码器仅训练 2260 万参数 CTC 读取器，适配器版本增加 310 万低秩参数与混合 CTC/注意力读取器。适配系统在多个测试集上 WER 与商业模型相当或更优，CPU 上快 3.4 倍，单 GPU 达 139 倍实时。",
+  "summary_en": "Studies the 305M-parameter audio encoder shared by Gemma 4 for Saudi and Gulf Arabic ASR without changing its weights. A frozen system trains only a 22.6M CTC reader; an adapted system adds 3.1M low-rank adapters and a hybrid CTC/attention reader. The adapted system matches or beats commercial and fine-tuned baselines on several sets, runs 3.4x faster on CPU, and 139x real time on one GPU.",
+  "tags": [
+    "research",
+    "multimodal",
+    "benchmark",
+    "evaluation",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-22T21:26:00.581372+08:00",
+  "updated_at": "2026-10-22T21:26:00.581373+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

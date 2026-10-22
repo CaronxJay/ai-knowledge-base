@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-22-rss-005",
+  "title": "DataPraxis：通过经验证的工作区演化扩展分析任务",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.26924",
+  "language": "en",
+  "summary": "DataPraxis 提出基于经验证工作区演化的分析任务合成框架，通过逐步丰富工作区并继承组合，生成更深入的分析任务，构建了 5000 条经验证轨迹数据集 DataPraxis-5K，训练出的 DataPraxis-27B 在 DABStep 和 JobBench 上匹配或超越前沿模型。",
+  "summary_en": "DataPraxis introduces a verified workspace evolution framework for synthesizing analytics tasks, progressively enriching workspaces with validated findings and inheriting them to uncover deeper questions. It builds DataPraxis-5K, a 5,000-trajectory dataset, and trains DataPraxis-27B, which matches or surpasses frontier models like GLM-5.2 on DABStep and JobBench.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "benchmark",
+    "evaluation",
+    "open-source"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-22T21:26:00.581358+08:00",
+  "updated_at": "2026-10-22T21:26:00.581360+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

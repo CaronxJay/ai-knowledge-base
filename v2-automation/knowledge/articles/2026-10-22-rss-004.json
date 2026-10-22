@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-22-rss-004",
+  "title": "MedPAO-Assist：可边缘部署、模态感知的放射报告结构化智能体AI",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.26913",
+  "language": "en",
+  "summary": "提出MedPAO-Assist，一个可边缘部署的多智能体框架，基于0.6B参数小模型，在笔记本CPU上仅需约3.3GB内存、约31秒延迟，即可从放射科医生口述和语音指令生成结构化报告，支持四种影像模态，采用提取-对齐-生成范式，无需联网或外部API。",
+  "summary_en": "MedPAO-Assist is an edge-deployable multi-agent framework built on a 0.6B-parameter small language model that generates structured radiology reports from dictation and voice commands, using ~3.3 GB peak RAM and ~31s latency on a laptop CPU across four imaging modalities, following an Extract-Ground-Generate paradigm with no internet or external API calls.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "application",
+    "multimodal",
+    "research"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-22T21:26:00.581355+08:00",
+  "updated_at": "2026-10-22T21:26:00.581356+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

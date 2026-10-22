@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-22-rss-001",
+  "title": "Navalia：通过可验证任务合成与长程后训练推进协作智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.26887",
+  "language": "en",
+  "summary": "Navalia提出结合可验证任务合成与长程后训练的协作智能体框架，以企业财报为数据源构建带可追溯证据和真实数据依赖的分析任务，经独立LLM审查与程序化校验后用于轨迹收集、冷启动SFT和强化学习，在五个基准上均优于基座模型。",
+  "summary_en": "Navalia is a framework for Cowork Agents that combines verifiable task synthesis with long-horizon post-training. Using corporate financial reports, it builds analytical tasks with traceable evidence and real data dependencies, verifies them via independent LLM review and programmatic checks, then applies trajectory collection, cold-start SFT, and RL. Initialized from Qwen3.6-35B-A3B, it consistently outperforms the base model on five benchmarks.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "fine-tuning",
+    "benchmark",
+    "research"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-22T21:26:00.581339+08:00",
+  "updated_at": "2026-10-22T21:26:00.581342+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

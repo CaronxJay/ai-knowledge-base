@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-22-rss-006",
+  "title": "扩展心理治疗督导：用大语言模型评估心理治疗保真度",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.28772",
+  "language": "en",
+  "summary": "该研究提出基于大语言模型的集成应用，自动完成心理治疗保真度评估流程，并从真实长程临床转录文本生成可操作的督导反馈。研究比较三种开源模型及多种任务分解与推理策略，发现证据优先推理可提升保真度估计；在独立随机对照试验中验证了外部构念效度，能可靠区分CBT与非CBT会话；专家用户研究认为反馈具有临床可操作性。",
+  "summary_en": "This work presents an integrated LLM application that automates psychotherapy fidelity assessment and generates actionable supervisory feedback from authentic long-form clinical transcripts. Evaluating three open-weight models across task decompositions and reasoning strategies, it shows evidence-first reasoning improves fidelity estimation, establishes external construct validity on an independent RCT by distinguishing CBT from non-CBT sessions, and finds experts rate the generated feedback as clinically actionable.",
+  "tags": [
+    "llm",
+    "application",
+    "evaluation",
+    "research"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-22T21:26:00.581362+08:00",
+  "updated_at": "2026-10-22T21:26:00.581363+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
