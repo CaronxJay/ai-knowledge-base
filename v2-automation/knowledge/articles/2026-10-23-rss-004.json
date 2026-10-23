@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-23-rss-004",
+  "title": "TauIndianBankBench：面向工具使用对话智能体的流程感知、行动导向评估基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.30161",
+  "language": "en",
+  "summary": "该研究提出 TauIndianBankBench，包含 1000 个印度零售银行任务，用于评估语言模型智能体是否按银行规定流程执行操作。仅检查最终记录时，6.5%-12.0% 的会话被误判为成功，而实际存在跳过必要步骤或做出未请求变更的问题；同时评估流程与结果能更准确反映模型表现。",
+  "summary_en": "TauIndianBankBench is a 1,000-task benchmark for Indian retail banking that evaluates whether LLM agents follow required procedures, not just final records. Checking only outcomes misjudges 6.5-12.0% of sessions as successful despite skipped steps or unrequested changes; scoring both procedure and outcome gives a more accurate measure of model performance.",
+  "tags": [
+    "benchmark",
+    "agent-framework",
+    "evaluation",
+    "llm",
+    "tool"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-23T21:03:44.596786+08:00",
+  "updated_at": "2026-10-23T21:03:44.596787+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

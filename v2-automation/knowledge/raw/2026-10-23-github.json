@@ -1,0 +1,587 @@
+{
+  "collected_at": "2026-10-23T21:03:44.596883+08:00",
+  "source": "github",
+  "count": 10,
+  "items": [
+    {
+      "title": "romanyn36/agentic-ai-roadmap",
+      "url": "https://github.com/romanyn36/agentic-ai-roadmap",
+      "description": "A comprehensive AI learning roadmap covering Python fundamentals, mathematics, machine learning, deep learning, LLMs, and agentic systems — focused on hands-on projects, practical tools, and real-world deployment.",
+      "stars": 139,
+      "language": "",
+      "topics": [
+        "agentic",
+        "agentic-ai-roadmap",
+        "ai",
+        "ai-roadmap",
+        "deep-learning",
+        "langchain",
+        "langgraph",
+        "lear",
+        "llm",
+        "machine-learning",
+        "mathematics",
+        "oopenai",
+        "roadmap",
+        "transformer"
+      ],
+      "_source": "github",
+      "_analysis": {
+        "title": "Agentic AI 学习路线图",
+        "summary": "一个全面的 AI 学习路线图，涵盖 Python 基础、数学、机器学习、深度学习、LLM 和 Agent 系统，侧重动手项目、实用工具和真实部署。",
+        "summary_en": "A comprehensive AI learning roadmap covering Python fundamentals, mathematics, machine learning, deep learning, LLMs, and agentic systems, focused on hands-on projects, practical tools, and real-world deployment.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "open-source",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-github-001",
+        "title": "Agentic AI 学习路线图",
+        "source": "github_trending",
+        "source_url": "https://github.com/romanyn36/agentic-ai-roadmap",
+        "language": "en",
+        "summary": "一个全面的 AI 学习路线图，涵盖 Python 基础、数学、机器学习、深度学习、LLM 和 Agent 系统，侧重动手项目、实用工具和真实部署。",
+        "summary_en": "A comprehensive AI learning roadmap covering Python fundamentals, mathematics, machine learning, deep learning, LLMs, and agentic systems, focused on hands-on projects, practical tools, and real-world deployment.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "open-source",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.595146+08:00",
+        "updated_at": "2026-10-23T21:03:44.595153+08:00",
+        "metadata": {
+          "stars": 139,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "udaysharmadev/Ai-Roadmap",
+      "url": "https://github.com/udaysharmadev/Ai-Roadmap",
+      "description": "🚀 The Complete AI Roadmap (2026) | Free YouTube Courses, Machine Learning, Deep Learning, LLMs, GenAI, RAG, Agents, Projects, Deployment & Career Guide",
+      "stars": 66,
+      "language": "Python",
+      "topics": [],
+      "_source": "github",
+      "_analysis": {
+        "title": "AI 学习路线图 2026：从机器学习到 LLM 与 Agent",
+        "summary": "一个完整的 AI 学习路线图仓库，涵盖免费 YouTube 课程、机器学习、深度学习、LLM、生成式 AI、RAG、Agent、项目实践、部署与职业指南，适合系统化入门与进阶。",
+        "summary_en": "A complete AI roadmap repository covering free YouTube courses, machine learning, deep learning, LLMs, GenAI, RAG, agents, projects, deployment, and career guidance for systematic learning.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "rag",
+          "application",
+          "python"
+        ],
+        "category": "application",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-github-005",
+        "title": "AI 学习路线图 2026：从机器学习到 LLM 与 Agent",
+        "source": "github_trending",
+        "source_url": "https://github.com/udaysharmadev/Ai-Roadmap",
+        "language": "en",
+        "summary": "一个完整的 AI 学习路线图仓库，涵盖免费 YouTube 课程、机器学习、深度学习、LLM、生成式 AI、RAG、Agent、项目实践、部署与职业指南，适合系统化入门与进阶。",
+        "summary_en": "A complete AI roadmap repository covering free YouTube courses, machine learning, deep learning, LLMs, GenAI, RAG, agents, projects, deployment, and career guidance for systematic learning.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "rag",
+          "application",
+          "python"
+        ],
+        "category": "application",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.595167+08:00",
+        "updated_at": "2026-10-23T21:03:44.595168+08:00",
+        "metadata": {
+          "stars": 66,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "MARKTECHPOST-AI-MEDIA-INC/AI-Guides-Reports",
+      "url": "https://github.com/MARKTECHPOST-AI-MEDIA-INC/AI-Guides-Reports",
+      "description": "List of Reports and Guides related to AI, Machine Learning, Agentic AI, AI Agents, Deep Learning, LLMs etc",
+      "stars": 16,
+      "language": "",
+      "topics": [],
+      "_source": "github",
+      "_analysis": {
+        "title": "AI指南与报告资源合集",
+        "summary": "该GitHub仓库汇集了关于AI、机器学习、Agentic AI、AI智能体、深度学习和LLM的各类报告与指南，为研究者和开发者提供学习参考资料。",
+        "summary_en": "A GitHub repository collecting reports and guides on AI, machine learning, agentic AI, AI agents, deep learning, and LLMs, serving as a reference resource for researchers and developers.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "open-source"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-github-002",
+        "title": "AI指南与报告资源合集",
+        "source": "github_trending",
+        "source_url": "https://github.com/MARKTECHPOST-AI-MEDIA-INC/AI-Guides-Reports",
+        "language": "en",
+        "summary": "该GitHub仓库汇集了关于AI、机器学习、Agentic AI、AI智能体、深度学习和LLM的各类报告与指南，为研究者和开发者提供学习参考资料。",
+        "summary_en": "A GitHub repository collecting reports and guides on AI, machine learning, agentic AI, AI agents, deep learning, and LLMs, serving as a reference resource for researchers and developers.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "open-source"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.595158+08:00",
+        "updated_at": "2026-10-23T21:03:44.595159+08:00",
+        "metadata": {
+          "stars": 16,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "waleedkhokar/python-ai-engineering-journey",
+      "url": "https://github.com/waleedkhokar/python-ai-engineering-journey",
+      "description": "A complete, hands-on journey from Python fundamentals to AI Engineering. Explore Data Analytics, Data Science, Machine Learning, Deep Learning, Generative AI, LLMs, RAG, AI Agents, and practical projects, with notes, Interview preparation, experiments, and implementations built along the way.",
+      "stars": 9,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "ai-engineering",
+        "computer-vision",
+        "data-science-projects",
+        "deep-learning",
+        "deep-learning-projects",
+        "generative-ai",
+        "hugging-face",
+        "langchain",
+        "large-language-models",
+        "llms",
+        "machine-learning",
+        "natural-language-processing",
+        "neural-networks",
+        "nlp-machine-learning",
+        "numpy",
+        "openai",
+        "pandas",
+        "rag",
+        "scikit-learn",
+        "tensorflow"
+      ],
+      "_source": "github",
+      "_analysis": {
+        "title": "Python AI 工程学习之旅：从基础到 AI Agent 实践",
+        "summary": "该仓库记录从 Python 基础到 AI 工程的完整实践路径，涵盖数据分析、机器学习、深度学习、生成式 AI、LLM、RAG 与 AI Agent，并包含笔记、面试准备与项目实现。",
+        "summary_en": "A hands-on repository documenting a journey from Python fundamentals to AI engineering, covering data analytics, ML, deep learning, generative AI, LLMs, RAG, and AI agents with notes, interview prep, and projects.",
+        "tags": [
+          "llm",
+          "rag",
+          "agent-framework",
+          "python",
+          "open-source"
+        ],
+        "category": "application",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-github-003",
+        "title": "Python AI 工程学习之旅：从基础到 AI Agent 实践",
+        "source": "github_trending",
+        "source_url": "https://github.com/waleedkhokar/python-ai-engineering-journey",
+        "language": "en",
+        "summary": "该仓库记录从 Python 基础到 AI 工程的完整实践路径，涵盖数据分析、机器学习、深度学习、生成式 AI、LLM、RAG 与 AI Agent，并包含笔记、面试准备与项目实现。",
+        "summary_en": "A hands-on repository documenting a journey from Python fundamentals to AI engineering, covering data analytics, ML, deep learning, generative AI, LLMs, RAG, and AI agents with notes, interview prep, and projects.",
+        "tags": [
+          "llm",
+          "rag",
+          "agent-framework",
+          "python",
+          "open-source"
+        ],
+        "category": "application",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.595161+08:00",
+        "updated_at": "2026-10-23T21:03:44.595162+08:00",
+        "metadata": {
+          "stars": 9,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "udityamerit/Udityamerit",
+      "url": "https://github.com/udityamerit/Udityamerit",
+      "description": "My journey in technology is driven by a fascination with building intelligent systems that can solve real-world problems. I specialize in Machine Learning, Deep Learning, Natural Language Processing (NLP), Generative AI, Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), Semantic Search, and AI Agents. I enjoy transforming complex ",
+      "stars": 5,
+      "language": "",
+      "topics": [],
+      "_source": "github",
+      "_analysis": {
+        "title": "Udityamerit 个人技术主页",
+        "summary": "这是开发者 Udityamerit 的 GitHub 个人主页，介绍其在机器学习、深度学习、NLP、生成式 AI、RAG、大语言模型、语义搜索和 AI Agent 方面的专长，但未包含具体项目或技术内容。",
+        "summary_en": "This is developer Udityamerit's GitHub profile page, describing expertise in machine learning, deep learning, NLP, generative AI, RAG, LLMs, semantic search, and AI agents, but containing no concrete projects or technical content.",
+        "tags": [
+          "llm",
+          "rag",
+          "agent-framework",
+          "application"
+        ],
+        "category": "application",
+        "relevance_score": 0.3,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-github-010",
+        "title": "Udityamerit 个人技术主页",
+        "source": "github_trending",
+        "source_url": "https://github.com/udityamerit/Udityamerit",
+        "language": "en",
+        "summary": "这是开发者 Udityamerit 的 GitHub 个人主页，介绍其在机器学习、深度学习、NLP、生成式 AI、RAG、大语言模型、语义搜索和 AI Agent 方面的专长，但未包含具体项目或技术内容。",
+        "summary_en": "This is developer Udityamerit's GitHub profile page, describing expertise in machine learning, deep learning, NLP, generative AI, RAG, LLMs, semantic search, and AI agents, but containing no concrete projects or technical content.",
+        "tags": [
+          "llm",
+          "rag",
+          "agent-framework",
+          "application"
+        ],
+        "category": "application",
+        "relevance_score": 0.3,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.595181+08:00",
+        "updated_at": "2026-10-23T21:03:44.595182+08:00",
+        "metadata": {
+          "stars": 5,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "vivianaranha/complete-artificial-intelligence-mega-course-2026",
+      "url": "https://github.com/vivianaranha/complete-artificial-intelligence-mega-course-2026",
+      "description": "AI Foundations → Python → Data → Math & Statistics → Machine Learning → Advanced ML → Deep Learning → NLP → Computer Vision → Transformers & LLMs → Prompt Engineering → Embeddings & RAG → Advanced RAG → Agents → MCP → Multimodal AI → Evaluation & Security → MLOps/LLMOps → Enterprise AI → Capstone",
+      "stars": 3,
+      "language": "Python",
+      "topics": [],
+      "_source": "github",
+      "_analysis": {
+        "title": "完整人工智能超级课程2026：从基础到LLM与Agent",
+        "summary": "该GitHub仓库提供一条完整的人工智能学习路线，涵盖Python、数学、机器学习、深度学习、NLP、Transformer与LLM、提示工程、RAG、Agent、MCP、多模态、评估与安全、MLOps及企业级AI等主题。",
+        "summary_en": "A GitHub repository offering a complete AI learning path covering Python, math, machine learning, deep learning, NLP, Transformers & LLMs, prompt engineering, RAG, agents, MCP, multimodal AI, evaluation & security, MLOps, and enterprise AI.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "rag",
+          "prompt-engineering",
+          "python"
+        ],
+        "category": "application",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-github-004",
+        "title": "完整人工智能超级课程2026：从基础到LLM与Agent",
+        "source": "github_trending",
+        "source_url": "https://github.com/vivianaranha/complete-artificial-intelligence-mega-course-2026",
+        "language": "en",
+        "summary": "该GitHub仓库提供一条完整的人工智能学习路线，涵盖Python、数学、机器学习、深度学习、NLP、Transformer与LLM、提示工程、RAG、Agent、MCP、多模态、评估与安全、MLOps及企业级AI等主题。",
+        "summary_en": "A GitHub repository offering a complete AI learning path covering Python, math, machine learning, deep learning, NLP, Transformers & LLMs, prompt engineering, RAG, agents, MCP, multimodal AI, evaluation & security, MLOps, and enterprise AI.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "rag",
+          "prompt-engineering",
+          "python"
+        ],
+        "category": "application",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.595164+08:00",
+        "updated_at": "2026-10-23T21:03:44.595165+08:00",
+        "metadata": {
+          "stars": 3,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ahmadsanafarooq/Data-Science-Machine-Learning-Nodebook",
+      "url": "https://github.com/ahmadsanafarooq/Data-Science-Machine-Learning-Nodebook",
+      "description": "I’ve completed the Nodebook Data Science & Machine Learning program, where I worked on real-world projects using Python, Machine Learning, Deep Learning, and Large Language Models (LLMs).  As part of my learning journey, I also explored Generative AI and AI Agents, gaining hands-on experience in building smart systems that can think, plan, and act.",
+      "stars": 3,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "agentic-ai",
+        "computer-vision",
+        "data-science",
+        "deep-learning",
+        "generative-ai",
+        "machine-learning",
+        "nlp",
+        "python"
+      ],
+      "_source": "github",
+      "_analysis": {
+        "title": "数据科学与机器学习笔记本项目",
+        "summary": "一个数据科学与机器学习学习项目仓库，涵盖Python、机器学习、深度学习、大语言模型、生成式AI及AI Agent的实战练习。",
+        "summary_en": "A data science and machine learning learning repository covering Python, ML, deep learning, LLMs, generative AI, and AI agents with hands-on projects.",
+        "tags": [
+          "llm",
+          "application",
+          "python",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.5,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-github-009",
+        "title": "数据科学与机器学习笔记本项目",
+        "source": "github_trending",
+        "source_url": "https://github.com/ahmadsanafarooq/Data-Science-Machine-Learning-Nodebook",
+        "language": "en",
+        "summary": "一个数据科学与机器学习学习项目仓库，涵盖Python、机器学习、深度学习、大语言模型、生成式AI及AI Agent的实战练习。",
+        "summary_en": "A data science and machine learning learning repository covering Python, ML, deep learning, LLMs, generative AI, and AI agents with hands-on projects.",
+        "tags": [
+          "llm",
+          "application",
+          "python",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.5,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.595178+08:00",
+        "updated_at": "2026-10-23T21:03:44.595179+08:00",
+        "metadata": {
+          "stars": 3,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "muhammadhaseeb11801/Machine_Learning",
+      "url": "https://github.com/muhammadhaseeb11801/Machine_Learning",
+      "description": "building intelligent solutions with Python, Machine Learning, Deep Learning, Generative AI, and AI Automation. This GitHub features real-world projects, AI agents, LLM apps, NLP, computer vision, APIs, and automation tools with clean, scalable, and well-documented code designed to solve real business challenges.",
+      "stars": 3,
+      "language": "Python",
+      "topics": [],
+      "_source": "github",
+      "_analysis": {
+        "title": "机器学习与生成式AI项目合集仓库",
+        "summary": "该GitHub仓库汇集了使用Python、机器学习、深度学习、生成式AI和AI自动化构建的实战项目，涵盖AI智能体、LLM应用、NLP、计算机视觉、API和自动化工具，代码整洁可扩展且文档完善。",
+        "summary_en": "A GitHub repository featuring real-world projects built with Python, Machine Learning, Deep Learning, Generative AI, and AI automation, including AI agents, LLM apps, NLP, computer vision, APIs, and automation tools with clean, scalable, well-documented code.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "application",
+          "python",
+          "open-source"
+        ],
+        "category": "application",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-github-006",
+        "title": "机器学习与生成式AI项目合集仓库",
+        "source": "github_trending",
+        "source_url": "https://github.com/muhammadhaseeb11801/Machine_Learning",
+        "language": "en",
+        "summary": "该GitHub仓库汇集了使用Python、机器学习、深度学习、生成式AI和AI自动化构建的实战项目，涵盖AI智能体、LLM应用、NLP、计算机视觉、API和自动化工具，代码整洁可扩展且文档完善。",
+        "summary_en": "A GitHub repository featuring real-world projects built with Python, Machine Learning, Deep Learning, Generative AI, and AI automation, including AI agents, LLM apps, NLP, computer vision, APIs, and automation tools with clean, scalable, well-documented code.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "application",
+          "python",
+          "open-source"
+        ],
+        "category": "application",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.595170+08:00",
+        "updated_at": "2026-10-23T21:03:44.595171+08:00",
+        "metadata": {
+          "stars": 3,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "JoshuaProvoste/Deserializer",
+      "url": "https://github.com/JoshuaProvoste/Deserializer",
+      "description": "AST-based Static Code Analyzer with Agentic LLM-Powered Relationship Mapping to discover Python RCE paths and deep deserialization chains on AI, LLM, Robotics, Data Science, Machine Learning and Deep Learning (but not limited).",
+      "stars": 2,
+      "language": "Python",
+      "topics": [
+        "0-day",
+        "0-day-exploit",
+        "ai-security",
+        "ai-security-tool",
+        "bug-bounty",
+        "command-injection",
+        "command-injection-attack",
+        "deserialization",
+        "deserialization-attacks",
+        "deserialization-vulnerability",
+        "exploit",
+        "exploit-development",
+        "hacking",
+        "json",
+        "llm-security",
+        "msgpack",
+        "pickle",
+        "python",
+        "rce",
+        "rce-scanner"
+      ],
+      "_source": "github",
+      "_analysis": {
+        "title": "Deserializer：基于AST与Agentic LLM的Python反序列化漏洞静态分析工具",
+        "summary": "该项目是一款基于AST的静态代码分析器，结合Agentic LLM进行关系映射，用于发现Python中的RCE路径和深层反序列化链，面向AI、LLM、机器人、数据科学及机器学习等领域的安全检测。",
+        "summary_en": "An AST-based static code analyzer with agentic LLM-powered relationship mapping to discover Python RCE paths and deep deserialization chains, targeting AI, LLM, robotics, data science, and ML security.",
+        "tags": [
+          "security",
+          "tool",
+          "python",
+          "llm",
+          "open-source"
+        ],
+        "category": "security",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-github-007",
+        "title": "Deserializer：基于AST与Agentic LLM的Python反序列化漏洞静态分析工具",
+        "source": "github_trending",
+        "source_url": "https://github.com/JoshuaProvoste/Deserializer",
+        "language": "en",
+        "summary": "该项目是一款基于AST的静态代码分析器，结合Agentic LLM进行关系映射，用于发现Python中的RCE路径和深层反序列化链，面向AI、LLM、机器人、数据科学及机器学习等领域的安全检测。",
+        "summary_en": "An AST-based static code analyzer with agentic LLM-powered relationship mapping to discover Python RCE paths and deep deserialization chains, targeting AI, LLM, robotics, data science, and ML security.",
+        "tags": [
+          "security",
+          "tool",
+          "python",
+          "llm",
+          "open-source"
+        ],
+        "category": "security",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.595172+08:00",
+        "updated_at": "2026-10-23T21:03:44.595174+08:00",
+        "metadata": {
+          "stars": 2,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ksbisht941/ai-engineer",
+      "url": "https://github.com/ksbisht941/ai-engineer",
+      "description": "A full-stack AI & ML engineering lab covering Python, Statistics, NumPy, Pandas, Matplotlib, Machine Learning, Deep Learning (ANN, CNN), Computer Vision (OpenCV, YOLO), NLP, LangChain, LangGraph, and Generative AI (RAG, LLMs, Embeddings, Agents). Includes FastAPI and hands-on projects.",
+      "stars": 2,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "artificial-intelligence",
+        "computer-vision",
+        "data-science",
+        "data-visualization",
+        "deep-learning",
+        "fastapi",
+        "generative-ai",
+        "jupyter-notebook",
+        "langgraph",
+        "machine-learning",
+        "neural-networks",
+        "nlp-langchain",
+        "numpy",
+        "opencv",
+        "pandas",
+        "python",
+        "scikit-learn",
+        "statistics",
+        "yolo"
+      ],
+      "_source": "github",
+      "_analysis": {
+        "title": "AI工程师全栈学习实验室",
+        "summary": "一个涵盖Python、统计、机器学习、深度学习、计算机视觉、NLP、LangChain/LangGraph及生成式AI（RAG、LLM、Embeddings、Agents）的全栈AI/ML工程学习仓库，包含FastAPI与实战项目。",
+        "summary_en": "A full-stack AI & ML engineering lab covering Python, statistics, machine learning, deep learning, computer vision, NLP, LangChain/LangGraph, and generative AI (RAG, LLMs, embeddings, agents), with FastAPI and hands-on projects.",
+        "tags": [
+          "llm",
+          "rag",
+          "agent-framework",
+          "python",
+          "open-source"
+        ],
+        "category": "application",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-github-008",
+        "title": "AI工程师全栈学习实验室",
+        "source": "github_trending",
+        "source_url": "https://github.com/ksbisht941/ai-engineer",
+        "language": "en",
+        "summary": "一个涵盖Python、统计、机器学习、深度学习、计算机视觉、NLP、LangChain/LangGraph及生成式AI（RAG、LLM、Embeddings、Agents）的全栈AI/ML工程学习仓库，包含FastAPI与实战项目。",
+        "summary_en": "A full-stack AI & ML engineering lab covering Python, statistics, machine learning, deep learning, computer vision, NLP, LangChain/LangGraph, and generative AI (RAG, LLMs, embeddings, agents), with FastAPI and hands-on projects.",
+        "tags": [
+          "llm",
+          "rag",
+          "agent-framework",
+          "python",
+          "open-source"
+        ],
+        "category": "application",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.595176+08:00",
+        "updated_at": "2026-10-23T21:03:44.595176+08:00",
+        "metadata": {
+          "stars": 2,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

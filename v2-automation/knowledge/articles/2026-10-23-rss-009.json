@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-23-rss-009",
+  "title": "baseVultra：紧凑非线性循环网络与容量重分配",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.30154",
+  "language": "en",
+  "summary": "提出baseVultra紧凑循环单元，将稠密循环预算集中于单个候选生成矩阵，用O(H)对角交互替代循环门矩阵。在TinyShakespeare上验证损失1.594，优于参数匹配的LSTM(1.604)和GRU(1.616)，稠密矩阵向量计算量约为GRU的54%；在text8上与全门单元相当，形式语言探针显示优势集中于小隐藏容量场景。",
+  "summary_en": "Proposes baseVultra, a compact recurrent cell that reallocates dense recurrent budget to a single H×H candidate-generation matrix while replacing recurrent gate matrices with O(H) diagonal interactions. It reaches 1.594 validation loss on TinyShakespeare versus 1.604 (LSTM) and 1.616 (GRU) at matched parameters, with dense matvec cost about 54% of GRU; on text8 it is competitive with full-gate cells, and formal-language probes show gains concentrated in small hidden-size regimes.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.75,
+  "status": "published",
+  "created_at": "2026-10-23T21:03:44.596808+08:00",
+  "updated_at": "2026-10-23T21:03:44.596809+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

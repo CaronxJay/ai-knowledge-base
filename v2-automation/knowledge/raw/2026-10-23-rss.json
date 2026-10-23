@@ -1,0 +1,459 @@
+{
+  "collected_at": "2026-10-23T21:03:44.597490+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2610.28686",
+      "description": "arXiv:2610.28686v1 Announce Type: new \nAbstract: Query clarification is essential for retrieval-augmented generation (RAG) systems that face ambiguous user queries. We consider multi-turn grounded conversational scenarios where a user query is either ill-formed or ambiguous in the context of the prior dialog or, more interestingly, it may be well-formed but when posed against retrieved documents there are multiple relevant interpretations. The task is to recognize both such cases and then generate an appropriate clarification request to the user. We present ClariEdge, a new dataset of approximately 3,900 examples that include such ambiguous queries along with negative examples that do not require clarification. We also show that a lightweight fine-tuned LoRA achieves 96.6% classification accuracy and outperforms prompted baselines of many larger models on both classification and quality of clarification generation. Our study shows that hard negatives are an essential ingredient to separate out queries that are truly ambiguous from queries that may look ambiguous but are not (i.e., can be resolved from the context). The same LoRA achieves high performance in both pre-retrieval and post-retrieval scenarios; thus, it can be used in two places in a RAG pipeline as a check before answer generation. The ClariEdge dataset is available at https://huggingface.co/datasets/ibm-research/ClariEdge.",
+      "pub_date": "Fri, 23 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "小模型更擅长提问：为检索增强生成微调查询澄清能力",
+        "summary": "本文提出ClariEdge数据集（约3900条），用于识别RAG场景中模糊或多义的用户查询并生成澄清请求。实验表明，轻量级LoRA微调模型达到96.6%分类准确率，在分类和澄清生成质量上均优于多个大模型的提示基线，且硬负样本对区分真正模糊的查询至关重要。",
+        "summary_en": "The paper introduces ClariEdge, a ~3,900-example dataset for detecting ambiguous user queries in RAG and generating clarification requests. A lightweight fine-tuned LoRA achieves 96.6% classification accuracy and outperforms prompted baselines of many larger models on both classification and clarification quality. Hard negatives prove essential for distinguishing truly ambiguous queries from context-resolvable ones, and the same LoRA works in both pre- and post-retrieval stages.",
+        "tags": [
+          "rag",
+          "fine-tuning",
+          "llm",
+          "benchmark",
+          "prompt-engineering"
+        ],
+        "category": "rag",
+        "relevance_score": 0.95,
+        "language": "en"
+      }
+    },
+    {
+      "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+      "url": "https://arxiv.org/abs/2610.28698",
+      "description": "arXiv:2610.28698v1 Announce Type: new \nAbstract: Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume, diversity, and model size. Our 120 training configurations span four model sizes from 0.8B to 27B, six data budgets from 50 to 1,600 hours, and five mixtures ranging from Minecraft-only data to diverse multi-world corpora. We assess performance and generalization using three-level validation losses and gameplay benchmarks from in-corpus worlds to unseen worlds. Our results show: (1) more data improves in-corpus performance, diversity improves transfer to related worlds with limited gains in distant worlds, and model size improves data efficiency but generalizes worse to distant worlds under single-world training; (2) we observe an early interface phase with broad cross-world benefits and a later world phase with gains narrowed to in-corpus and related worlds, and fit an empirical scaling law relating validation loss to data volume, diversity and model size; and (3) our models are competitive with Minecraft specialists and frontier models in 3D worlds, and perform best in real-time settings. However, the limits of imitation and persistent gaps in distant worlds suggest that building generalist embodied agents requires richer training stages beyond continued pre-training.",
+      "pub_date": "Fri, 23 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "游戏中的扩展：面向多样化虚拟世界中具身智能体的持续预训练",
+        "summary": "研究在Minecraft等多样化虚拟世界中对具身智能体进行持续预训练，覆盖0.8B至27B模型、50至1600小时数据和五种数据混合共120种配置。发现数据量提升域内表现，多样性促进向相关世界迁移，模型规模提升数据效率但单世界训练下远域泛化更差，并拟合出经验扩展律。",
+        "summary_en": "A controlled study of continued pre-training for embodied agents across diverse virtual worlds, spanning 0.8B-27B models, 50-1,600 hours of data, and five data mixtures (120 configs). More data improves in-corpus performance, diversity aids transfer to related worlds, and larger models improve data efficiency but generalize worse to distant worlds under single-world training; an empirical scaling law is fitted.",
+        "tags": [
+          "research",
+          "llm",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-rss-006",
+        "title": "游戏中的扩展：面向多样化虚拟世界中具身智能体的持续预训练",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.28698",
+        "language": "en",
+        "summary": "研究在Minecraft等多样化虚拟世界中对具身智能体进行持续预训练，覆盖0.8B至27B模型、50至1600小时数据和五种数据混合共120种配置。发现数据量提升域内表现，多样性促进向相关世界迁移，模型规模提升数据效率但单世界训练下远域泛化更差，并拟合出经验扩展律。",
+        "summary_en": "A controlled study of continued pre-training for embodied agents across diverse virtual worlds, spanning 0.8B-27B models, 50-1,600 hours of data, and five data mixtures (120 configs). More data improves in-corpus performance, diversity aids transfer to related worlds, and larger models improve data efficiency but generalize worse to distant worlds under single-world training; an empirical scaling law is fitted.",
+        "tags": [
+          "research",
+          "llm",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.596793+08:00",
+        "updated_at": "2026-10-23T21:03:44.596795+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery",
+      "url": "https://arxiv.org/abs/2610.28706",
+      "description": "arXiv:2610.28706v1 Announce Type: new \nAbstract: LLM-driven evolutionary search is a promising paradigm for scientific discovery, but existing methods remain costly and slow, often applying expensive reasoning uniformly while underusing evidence from failed, redundant, and saturated trials. We introduce Speculative Evolution (SpecEvo), a multi-LLM framework that coordinates lightweight and frontier models through continual consolidation of search evidence. Lightweight models power both parallel Speculators, which generate and refine candidate programs, and an Advisor, which distills accumulated successes, failures, and saturated directions into persistent guidance for subsequent exploration. At sparse checkpoints, a frontier-model Navigator inspects the evolving population and intervenes through synthesis, surgical refinement, or reframing according to search stagnation. This speculate-then-consolidate workflow delegates routine exploration and evidence consolidation to inexpensive models while reserving frontier reasoning for strategic interventions whose benefits extend across many subsequent low-cost evaluations. Across 176 tasks spanning four scientific and algorithmic discovery domains, SpecEvo matches or outperforms frontier-model baselines while reducing API cost by up to 80%, achieves up to 1.5x greater evaluation efficiency than cost-efficient baselines on equation discovery, and improves over the strongest CO-Bench baseline by 3.8%. These results support trajectory-conditioned model coordination as an effective approach to cost-efficient scientific discovery.",
+      "pub_date": "Fri, 23 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SpecEvo：利用大语言模型进行推测性进化，实现低成本科学发现",
+        "summary": "SpecEvo是一个多LLM协作框架，用轻量模型并行生成候选程序并汇总成功、失败与饱和方向的经验，仅在搜索停滞时由前沿模型介入。在176个任务上匹配或超越前沿基线，API成本降低最多80%，方程发现效率提升1.5倍。",
+        "summary_en": "SpecEvo is a multi-LLM framework where lightweight models run parallel speculators and an advisor that consolidates successes, failures, and saturated directions, while a frontier-model navigator intervenes only at sparse checkpoints when search stagnates. Across 176 tasks it matches or beats frontier baselines with up to 80% lower API cost and 1.5x better evaluation efficiency on equation discovery.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-rss-001",
+        "title": "SpecEvo：利用大语言模型进行推测性进化，实现低成本科学发现",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.28706",
+        "language": "en",
+        "summary": "SpecEvo是一个多LLM协作框架，用轻量模型并行生成候选程序并汇总成功、失败与饱和方向的经验，仅在搜索停滞时由前沿模型介入。在176个任务上匹配或超越前沿基线，API成本降低最多80%，方程发现效率提升1.5倍。",
+        "summary_en": "SpecEvo is a multi-LLM framework where lightweight models run parallel speculators and an advisor that consolidates successes, failures, and saturated directions, while a frontier-model navigator intervenes only at sparse checkpoints when search stagnates. Across 176 tasks it matches or beats frontier baselines with up to 80% lower API cost and 1.5x better evaluation efficiency on equation discovery.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.596771+08:00",
+        "updated_at": "2026-10-23T21:03:44.596774+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
+      "url": "https://arxiv.org/abs/2610.28763",
+      "description": "arXiv:2610.28763v1 Announce Type: new \nAbstract: Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demanding test of that promise: improving a scientific model often requires domain insight beyond routine ML engineering. We introduce Agent4Sci, a long-horizon testbed for measuring how far today's agents can improve the published best models on scientific ML benchmarks, spanning 20 benchmarks across 11 domains. Rather than ranking agents on a leaderboard, Agent4Sci asks what kinds of progress agents can make on these tasks under in-the-wild conditions, and where they fall short. Empirically, today's frontier agents advance the published best on every benchmark, with Claude Opus reaching 10.4% mean relative improvement and no run flagged for academic misconduct. These gains, however, come almost entirely from a bag of ML-engineering tricks rather than research-level insight. Trajectory analysis surfaces three recurring limitations in this setting: novelty miscalibration, resource under-utilization, and rapid collapse into local engineering sweeps. Lightweight plug-in skills for research ideation, experiment management, and scheduled checklists raise Claude Opus from 10.4% to 20.1% and Codex from 4.4% to 8.1%, while yielding more diverse, domain-relevant interventions. Agent4Sci gives the community a way to track and push frontier agents from ML engineering toward domain insight on real-world ML-for-science problems. Code and data are available on GitHub (https://github.com/maszhongming/agent4sci) and Hugging Face (https://huggingface.co/datasets/MingZhong/agent4sci).",
+      "pub_date": "Fri, 23 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "自动化科学机器学习：前沿智能体能否在真实环境中攀登科学高峰？",
+        "summary": "提出 Agent4Sci 长周期测试平台，覆盖 11 个领域 20 个科学 ML 基准，评估前沿编码智能体超越已发表最优模型的能力。结果显示 Claude Opus 平均相对提升 10.4%，但主要来自 ML 工程技巧而非研究洞察；加入研究构思等轻量技能后提升至 20.1%。",
+        "summary_en": "Introduces Agent4Sci, a long-horizon testbed spanning 20 scientific ML benchmarks across 11 domains to measure how far frontier coding agents can improve on published best models. Claude Opus achieves 10.4% mean relative improvement, driven mostly by ML-engineering tricks rather than research insight; lightweight research-ideation skills raise it to 20.1%.",
+        "tags": [
+          "agent-framework",
+          "benchmark",
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-rss-002",
+        "title": "自动化科学机器学习：前沿智能体能否在真实环境中攀登科学高峰？",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.28763",
+        "language": "en",
+        "summary": "提出 Agent4Sci 长周期测试平台，覆盖 11 个领域 20 个科学 ML 基准，评估前沿编码智能体超越已发表最优模型的能力。结果显示 Claude Opus 平均相对提升 10.4%，但主要来自 ML 工程技巧而非研究洞察；加入研究构思等轻量技能后提升至 20.1%。",
+        "summary_en": "Introduces Agent4Sci, a long-horizon testbed spanning 20 scientific ML benchmarks across 11 domains to measure how far frontier coding agents can improve on published best models. Claude Opus achieves 10.4% mean relative improvement, driven mostly by ML-engineering tricks rather than research insight; lightweight research-ideation skills raise it to 20.1%.",
+        "tags": [
+          "agent-framework",
+          "benchmark",
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.596777+08:00",
+        "updated_at": "2026-10-23T21:03:44.596779+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Forging More Tasks into Better Harnesses: Agentic Harness Evolution via Successive Scale Racing",
+      "url": "https://arxiv.org/abs/2610.28815",
+      "description": "arXiv:2610.28815v1 Announce Type: new \nAbstract: Agentic harness evolution optimizes an agent's instructions, tools, and control flow by using its task execution experiences as evolving evidence. While more evolution tasks should intuitively improve performance, our preliminary study reveals a paradoxical failure mode: the performance of existing methods degrades as the task pool expands. Our further analysis demonstrates that this degradation stems from suboptimal evidence selection during optimization, as different evidence combinations lead to substantially different evolution outcomes. To address this issue, we propose Successive Scale Racing (SSR), a framework that adaptively searches for optimal evidence combinations in each evolution round. SSR constructs diverse evidence combinations based on the corresponding task quality and coverage, and efficiently races the resulting candidate harnesses under a small compute budget. Empirically, across three distinct benchmarks, SSR achieves state-of-the-art results in all six configurations. Notably, as the task pool grows from 40 to 200, SSR steadily improves the pass rate from 64.3% to 68.3%, while the baselines' performances all drop. Furthermore, its racing mechanism identifies near-optimal candidates while reducing validation executions by 60%.",
+      "pub_date": "Fri, 23 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通过连续规模竞赛实现智能体框架进化",
+        "summary": "论文揭示智能体框架进化中任务池扩大反而导致性能下降的悖论，归因于证据选择次优。提出连续规模竞赛（SSR）框架，每轮自适应搜索最优证据组合，在三个基准的六种配置上均达SOTA，任务池从40增至200时通过率从64.3%升至68.3%，并减少60%验证执行。",
+        "summary_en": "The paper reveals a paradoxical failure mode in agentic harness evolution where expanding the task pool degrades performance, attributed to suboptimal evidence selection. It proposes Successive Scale Racing (SSR), which adaptively searches for optimal evidence combinations each round. SSR achieves state-of-the-art results across all six configurations on three benchmarks, improving pass rate from 64.3% to 68.3% as the task pool grows from 40 to 200, while cutting validation executions by 60%.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "evaluation",
+          "llm"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-rss-003",
+        "title": "通过连续规模竞赛实现智能体框架进化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.28815",
+        "language": "en",
+        "summary": "论文揭示智能体框架进化中任务池扩大反而导致性能下降的悖论，归因于证据选择次优。提出连续规模竞赛（SSR）框架，每轮自适应搜索最优证据组合，在三个基准的六种配置上均达SOTA，任务池从40增至200时通过率从64.3%升至68.3%，并减少60%验证执行。",
+        "summary_en": "The paper reveals a paradoxical failure mode in agentic harness evolution where expanding the task pool degrades performance, attributed to suboptimal evidence selection. It proposes Successive Scale Racing (SSR), which adaptively searches for optimal evidence combinations each round. SSR achieves state-of-the-art results across all six configurations on three benchmarks, improving pass rate from 64.3% to 68.3% as the task pool grows from 40 to 200, while cutting validation executions by 60%.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "evaluation",
+          "llm"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.596782+08:00",
+        "updated_at": "2026-10-23T21:03:44.596783+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "baseVultra: Compact Nonlinear Recurrence with Reallocated Capacity",
+      "url": "https://arxiv.org/abs/2610.30154",
+      "description": "arXiv:2610.30154v1 Announce Type: new \nAbstract: Nonlinear recurrent networks remain useful for streaming sequence modeling, yet gated cell design is still dominated by LSTM and GRU. We study whether recurrent computation can be reallocated away from gate transforms and toward candidate generation. We propose baseVultra, a compact recurrent cell that concentrates the dense recurrent budget on a single H x H candidate-generation matrix, while replacing recurrent gate matrices with O(H) diagonal interactions. The candidate update combines this dense branch with two low-rank auxiliary branches, an EMA cache, and learnable output blending; the gates additionally receive lightweight second-order access to h_{t-2} through diagonal terms. On TinyShakespeare character-level language modeling, baseVultra achieves a validation loss of 1.594 in the compact one-layer 200K setting, compared with 1.604 for a parameter-matched LSTM and 1.616 for a parameter-matched GRU, while its dense recurrent matrix-vector computation is about 54% of GRU under matched hidden size for this configuration. On text8, a roughly 45x larger benchmark, baseVultra is competitive with full-gate cells (1.854 bpc vs. 1.849 for GRU and 1.837 for LSTM). On formal-language probes, the largest gains appear under constrained hidden-state capacity (0.991 vs. 0.761 GRU and 0.691 LSTM OOD2 accuracy on Counter at H=16) and vanish as hidden size grows. These results characterize where and when candidate-focused recurrent capacity allocation helps: the benefit is concentrated in compact regimes, while full-gate cells remain competitive at scale.",
+      "pub_date": "Fri, 23 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "baseVultra：紧凑非线性循环网络与容量重分配",
+        "summary": "提出baseVultra紧凑循环单元，将稠密循环预算集中于单个候选生成矩阵，用O(H)对角交互替代循环门矩阵。在TinyShakespeare上验证损失1.594，优于参数匹配的LSTM(1.604)和GRU(1.616)，稠密矩阵向量计算量约为GRU的54%；在text8上与全门单元相当，形式语言探针显示优势集中于小隐藏容量场景。",
+        "summary_en": "Proposes baseVultra, a compact recurrent cell that reallocates dense recurrent budget to a single H×H candidate-generation matrix while replacing recurrent gate matrices with O(H) diagonal interactions. It reaches 1.594 validation loss on TinyShakespeare versus 1.604 (LSTM) and 1.616 (GRU) at matched parameters, with dense matvec cost about 54% of GRU; on text8 it is competitive with full-gate cells, and formal-language probes show gains concentrated in small hidden-size regimes.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.75,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-rss-009",
+        "title": "baseVultra：紧凑非线性循环网络与容量重分配",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.30154",
+        "language": "en",
+        "summary": "提出baseVultra紧凑循环单元，将稠密循环预算集中于单个候选生成矩阵，用O(H)对角交互替代循环门矩阵。在TinyShakespeare上验证损失1.594，优于参数匹配的LSTM(1.604)和GRU(1.616)，稠密矩阵向量计算量约为GRU的54%；在text8上与全门单元相当，形式语言探针显示优势集中于小隐藏容量场景。",
+        "summary_en": "Proposes baseVultra, a compact recurrent cell that reallocates dense recurrent budget to a single H×H candidate-generation matrix while replacing recurrent gate matrices with O(H) diagonal interactions. It reaches 1.594 validation loss on TinyShakespeare versus 1.604 (LSTM) and 1.616 (GRU) at matched parameters, with dense matvec cost about 54% of GRU; on text8 it is competitive with full-gate cells, and formal-language probes show gains concentrated in small hidden-size regimes.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.75,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.596808+08:00",
+        "updated_at": "2026-10-23T21:03:44.596809+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Lighthouse: On Building a Trustworthy Digital Assistant for Exploring History with Civil Rights Archives",
+      "url": "https://arxiv.org/abs/2610.30158",
+      "description": "arXiv:2610.30158v1 Announce Type: new \nAbstract: Artificial intelligence (AI), as a decision-support aid, provides new tools for studying history effectively using multimodal data, including text, images, and audio. We present, to our knowledge, the first digital assistant named Lighthouse--commonly called a chatbot--for exploring the Civil Rights period of the United States using data from South Carolina. From an AI perspective, the system's novelty lies in its guiding design principles of (a) focusing on trustworthiness of content and (b) by modeling and reducing potential harm to users from generated answers. It implements these with a neuro-symbolic approach that combines neural learning through a large language model (LLM) with rule-based symbolic solving, balancing risk of answers with generality of coverage. We evaluate Lighthouse with both factual objective questions that admit a single acceptable answer as well as subjective questions. For the latter, a dataset of subjective question-answer pairs (QAs) is created by discovering a \"gold standard\" by aggregating answers from independent experts. Lighthouse has access to over 18k primary sources from a range of collections and can be easily extended.",
+      "pub_date": "Fri, 23 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Lighthouse：构建可信的数字助手以探索民权档案历史",
+        "summary": "本文提出Lighthouse，首个用于探索美国民权时期南卡罗来纳州档案的数字助手。其核心创新在于以可信度和减少生成答案对用户潜在伤害为设计原则，采用神经符号方法结合大语言模型与规则符号求解，在答案风险与覆盖广度间取得平衡，并通过客观与主观问答数据集进行评估。",
+        "summary_en": "This paper presents Lighthouse, the first digital assistant for exploring South Carolina's Civil Rights-era archives. Its novelty lies in trustworthiness-focused design principles and a neuro-symbolic approach combining an LLM with rule-based symbolic solving to balance answer risk and coverage, evaluated on both factual and expert-derived subjective QAs.",
+        "tags": [
+          "llm",
+          "rag",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-rss-007",
+        "title": "Lighthouse：构建可信的数字助手以探索民权档案历史",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.30158",
+        "language": "en",
+        "summary": "本文提出Lighthouse，首个用于探索美国民权时期南卡罗来纳州档案的数字助手。其核心创新在于以可信度和减少生成答案对用户潜在伤害为设计原则，采用神经符号方法结合大语言模型与规则符号求解，在答案风险与覆盖广度间取得平衡，并通过客观与主观问答数据集进行评估。",
+        "summary_en": "This paper presents Lighthouse, the first digital assistant for exploring South Carolina's Civil Rights-era archives. Its novelty lies in trustworthiness-focused design principles and a neuro-symbolic approach combining an LLM with rule-based symbolic solving to balance answer risk and coverage, evaluated on both factual and expert-derived subjective QAs.",
+        "tags": [
+          "llm",
+          "rag",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.596797+08:00",
+        "updated_at": "2026-10-23T21:03:44.596799+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents",
+      "url": "https://arxiv.org/abs/2610.30161",
+      "description": "arXiv:2610.30161v1 Announce Type: new \nAbstract: Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could respond faster and carry out requests such as blocking a card, but only if they give correct information and follow the bank's rules. These rules prescribe a procedure, a set of required steps, such as obtaining a closure quote before closing a deposit. Adapting models to this domain requires measuring how well they follow the procedure, before and after training. Benchmarks usually judge only the records left at the end of a conversation. Many required steps, however, leave the records unchanged, so an assistant that skips them can still be judged successful. We present TauIndianBankBench, an action-oriented benchmark of 1,000 Indian retail-banking tasks where an assistant helps a simulated customer. Besides the final records, it checks that the assistant took every required step and made no unrequested change. For every model, 6.5-12.0% of sessions are judged successful when only the final records are checked, although the assistant skipped a required step or made an unrequested change. Scoring both procedure and outcome shows more accurately how well language models perform in Indian retail banking.",
+      "pub_date": "Fri, 23 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "TauIndianBankBench：面向工具使用对话智能体的流程感知、行动导向评估基准",
+        "summary": "该研究提出 TauIndianBankBench，包含 1000 个印度零售银行任务，用于评估语言模型智能体是否按银行规定流程执行操作。仅检查最终记录时，6.5%-12.0% 的会话被误判为成功，而实际存在跳过必要步骤或做出未请求变更的问题；同时评估流程与结果能更准确反映模型表现。",
+        "summary_en": "TauIndianBankBench is a 1,000-task benchmark for Indian retail banking that evaluates whether LLM agents follow required procedures, not just final records. Checking only outcomes misjudges 6.5-12.0% of sessions as successful despite skipped steps or unrequested changes; scoring both procedure and outcome gives a more accurate measure of model performance.",
+        "tags": [
+          "benchmark",
+          "agent-framework",
+          "evaluation",
+          "llm",
+          "tool"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-rss-004",
+        "title": "TauIndianBankBench：面向工具使用对话智能体的流程感知、行动导向评估基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.30161",
+        "language": "en",
+        "summary": "该研究提出 TauIndianBankBench，包含 1000 个印度零售银行任务，用于评估语言模型智能体是否按银行规定流程执行操作。仅检查最终记录时，6.5%-12.0% 的会话被误判为成功，而实际存在跳过必要步骤或做出未请求变更的问题；同时评估流程与结果能更准确反映模型表现。",
+        "summary_en": "TauIndianBankBench is a 1,000-task benchmark for Indian retail banking that evaluates whether LLM agents follow required procedures, not just final records. Checking only outcomes misjudges 6.5-12.0% of sessions as successful despite skipped steps or unrequested changes; scoring both procedure and outcome gives a more accurate measure of model performance.",
+        "tags": [
+          "benchmark",
+          "agent-framework",
+          "evaluation",
+          "llm",
+          "tool"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.596786+08:00",
+        "updated_at": "2026-10-23T21:03:44.596787+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "FusionEval: Benchmarking Model Fusion for Large Language Models",
+      "url": "https://arxiv.org/abs/2610.30162",
+      "description": "arXiv:2610.30162v1 Announce Type: new \nAbstract: Model fusion aims to integrate the capabilities of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning with long chains of thought and tool use, while strong average performance can mask substantial losses in individual expert capabilities. We introduce FusionEval, a benchmark that provides controlled expert pools, integrates fusion methods with and without additional training, and offers a unified evaluation suite. The pools contain domain experts independently trained from Qwen3 and Llama base models across math, code, science, instruction following, and tool use. The suite evaluates capability retention and computational cost on eight public benchmarks under comparable data access rules, reporting normalized average and worst performance, runtime, and peak GPU memory usage. Extensive experiments show that training-free methods preserve reasoning performance but substantially degrade tool use at both model scales. In contrast, MOPD preserves tool use and achieves a more balanced capability profile, but requires additional data preparation, inference, and training. Jointly retaining reasoning, instruction following, and tool use at low computational cost remains a challenge. We hope FusionEval supports future research on efficient model fusion that jointly preserves expert capabilities. Our code is available at https://github.com/Baicaihaochi/FusionEval_Benchmark.",
+      "pub_date": "Fri, 23 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "FusionEval：大语言模型模型融合基准测试",
+        "summary": "FusionEval 是一个评估大模型模型融合方法的基准，提供受控专家池，覆盖数学、代码、科学、指令遵循和工具使用，统一评测能力保留与计算成本。实验发现免训练方法保留推理但显著削弱工具使用，MOPD 更均衡但成本更高。",
+        "summary_en": "FusionEval is a benchmark for evaluating model fusion methods for LLMs, offering controlled expert pools spanning math, code, science, instruction following, and tool use, with unified evaluation of capability retention and computational cost. Experiments show training-free methods preserve reasoning but substantially degrade tool use, while MOPD is more balanced but costlier.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "research",
+          "tool"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-rss-005",
+        "title": "FusionEval：大语言模型模型融合基准测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.30162",
+        "language": "en",
+        "summary": "FusionEval 是一个评估大模型模型融合方法的基准，提供受控专家池，覆盖数学、代码、科学、指令遵循和工具使用，统一评测能力保留与计算成本。实验发现免训练方法保留推理但显著削弱工具使用，MOPD 更均衡但成本更高。",
+        "summary_en": "FusionEval is a benchmark for evaluating model fusion methods for LLMs, offering controlled expert pools spanning math, code, science, instruction following, and tool use, with unified evaluation of capability retention and computational cost. Experiments show training-free methods preserve reasoning but substantially degrade tool use, while MOPD is more balanced but costlier.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "research",
+          "tool"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.596790+08:00",
+        "updated_at": "2026-10-23T21:03:44.596791+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Measuring Research Progress and Linguistic Inclusion in Low-Resource Languages",
+      "url": "https://arxiv.org/abs/2610.30296",
+      "description": "arXiv:2610.30296v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have accelerated research on low-resource and multilingual NLP, but their effectiveness in creating an equitable landscape remains unmapped. We analyze 1,158 peer-reviewed open-access papers published between 2020 and 2025, examining research attention to low-resource languages (LRLs) and representation across language and speaker populations. To assess linguistic inclusion beyond publication counts, we introduce the Linguistic Inclusion Framework (LIF), a multidimensional framework that measures linguistic inclusion in four dimensions: research growth, representation expansion, representation continuity, and distributional equity. While annual publications grew from 52 to 415, a 5.4X increase in their ACL Anthology publication share, this growth largely concentrated on represented languages rather than expanding coverage of underrepresented languages. Further analysis shows that languages spoken in Asia account for 64.1% of speakers across LRLs we analyze but receive only 46.7% of the language representation share (0.7X their proportional share), while European languages receive 5.3X their proportional share. At the country level, linguistically diverse regions such as sub-Saharan Africa and Southeast Asia show the lowest language coverage ratios. Applying the framework at the continental level, we find that no region scores well on all four dimensions, showing that research growth alone is not a reliable metric of progress toward equitable and inclusive language technology\\footnote{We will release all collected and annotated data for research purposes}.",
+      "pub_date": "Fri, 23 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "衡量低资源语言的研究进展与语言包容性",
+        "summary": "该研究分析2020至2025年间1158篇开放获取论文，提出语言包容性框架（LIF），从研究增长、代表性扩展、代表性连续性和分布公平四个维度衡量语言包容性。结果显示论文数量虽增长5.4倍，但增长集中于已有代表性的语言，亚洲语言占比与代表性严重不匹配，撒哈拉以南非洲和东南亚覆盖率最低。",
+        "summary_en": "Analyzing 1,158 open-access papers from 2020-2025, this study introduces the Linguistic Inclusion Framework (LIF) measuring inclusion across four dimensions: research growth, representation expansion, representation continuity, and distributional equity. Despite a 5.4X increase in publications, growth concentrated on already-represented languages; Asian languages hold 64.1% of speakers but only 46.7% of representation share, while European languages receive 5.3X their proportional share.",
+        "tags": [
+          "research",
+          "evaluation",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-23-rss-008",
+        "title": "衡量低资源语言的研究进展与语言包容性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.30296",
+        "language": "en",
+        "summary": "该研究分析2020至2025年间1158篇开放获取论文，提出语言包容性框架（LIF），从研究增长、代表性扩展、代表性连续性和分布公平四个维度衡量语言包容性。结果显示论文数量虽增长5.4倍，但增长集中于已有代表性的语言，亚洲语言占比与代表性严重不匹配，撒哈拉以南非洲和东南亚覆盖率最低。",
+        "summary_en": "Analyzing 1,158 open-access papers from 2020-2025, this study introduces the Linguistic Inclusion Framework (LIF) measuring inclusion across four dimensions: research growth, representation expansion, representation continuity, and distributional equity. Despite a 5.4X increase in publications, growth concentrated on already-represented languages; Asian languages hold 64.1% of speakers but only 46.7% of representation share, while European languages receive 5.3X their proportional share.",
+        "tags": [
+          "research",
+          "evaluation",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-23T21:03:44.596801+08:00",
+        "updated_at": "2026-10-23T21:03:44.596803+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

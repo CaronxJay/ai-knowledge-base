@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-23-rss-006",
+  "title": "游戏中的扩展：面向多样化虚拟世界中具身智能体的持续预训练",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.28698",
+  "language": "en",
+  "summary": "研究在Minecraft等多样化虚拟世界中对具身智能体进行持续预训练，覆盖0.8B至27B模型、50至1600小时数据和五种数据混合共120种配置。发现数据量提升域内表现，多样性促进向相关世界迁移，模型规模提升数据效率但单世界训练下远域泛化更差，并拟合出经验扩展律。",
+  "summary_en": "A controlled study of continued pre-training for embodied agents across diverse virtual worlds, spanning 0.8B-27B models, 50-1,600 hours of data, and five data mixtures (120 configs). More data improves in-corpus performance, diversity aids transfer to related worlds, and larger models improve data efficiency but generalize worse to distant worlds under single-world training; an empirical scaling law is fitted.",
+  "tags": [
+    "research",
+    "llm",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-23T21:03:44.596793+08:00",
+  "updated_at": "2026-10-23T21:03:44.596795+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

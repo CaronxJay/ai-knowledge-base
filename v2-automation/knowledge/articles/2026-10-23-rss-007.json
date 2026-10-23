@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-23-rss-007",
+  "title": "Lighthouse：构建可信的数字助手以探索民权档案历史",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.30158",
+  "language": "en",
+  "summary": "本文提出Lighthouse，首个用于探索美国民权时期南卡罗来纳州档案的数字助手。其核心创新在于以可信度和减少生成答案对用户潜在伤害为设计原则，采用神经符号方法结合大语言模型与规则符号求解，在答案风险与覆盖广度间取得平衡，并通过客观与主观问答数据集进行评估。",
+  "summary_en": "This paper presents Lighthouse, the first digital assistant for exploring South Carolina's Civil Rights-era archives. Its novelty lies in trustworthiness-focused design principles and a neuro-symbolic approach combining an LLM with rule-based symbolic solving to balance answer risk and coverage, evaluated on both factual and expert-derived subjective QAs.",
+  "tags": [
+    "llm",
+    "rag",
+    "research",
+    "application",
+    "evaluation"
+  ],
+  "category": "application",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-23T21:03:44.596797+08:00",
+  "updated_at": "2026-10-23T21:03:44.596799+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

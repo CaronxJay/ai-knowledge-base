@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-23-rss-003",
+  "title": "通过连续规模竞赛实现智能体框架进化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.28815",
+  "language": "en",
+  "summary": "论文揭示智能体框架进化中任务池扩大反而导致性能下降的悖论，归因于证据选择次优。提出连续规模竞赛（SSR）框架，每轮自适应搜索最优证据组合，在三个基准的六种配置上均达SOTA，任务池从40增至200时通过率从64.3%升至68.3%，并减少60%验证执行。",
+  "summary_en": "The paper reveals a paradoxical failure mode in agentic harness evolution where expanding the task pool degrades performance, attributed to suboptimal evidence selection. It proposes Successive Scale Racing (SSR), which adaptively searches for optimal evidence combinations each round. SSR achieves state-of-the-art results across all six configurations on three benchmarks, improving pass rate from 64.3% to 68.3% as the task pool grows from 40 to 200, while cutting validation executions by 60%.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "evaluation",
+    "llm"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-23T21:03:44.596782+08:00",
+  "updated_at": "2026-10-23T21:03:44.596783+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

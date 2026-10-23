@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-23-rss-002",
+  "title": "自动化科学机器学习：前沿智能体能否在真实环境中攀登科学高峰？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.28763",
+  "language": "en",
+  "summary": "提出 Agent4Sci 长周期测试平台，覆盖 11 个领域 20 个科学 ML 基准，评估前沿编码智能体超越已发表最优模型的能力。结果显示 Claude Opus 平均相对提升 10.4%，但主要来自 ML 工程技巧而非研究洞察；加入研究构思等轻量技能后提升至 20.1%。",
+  "summary_en": "Introduces Agent4Sci, a long-horizon testbed spanning 20 scientific ML benchmarks across 11 domains to measure how far frontier coding agents can improve on published best models. Claude Opus achieves 10.4% mean relative improvement, driven mostly by ML-engineering tricks rather than research insight; lightweight research-ideation skills raise it to 20.1%.",
+  "tags": [
+    "agent-framework",
+    "benchmark",
+    "research",
+    "evaluation",
+    "application"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-23T21:03:44.596777+08:00",
+  "updated_at": "2026-10-23T21:03:44.596779+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-23-rss-001",
+  "title": "SpecEvo：利用大语言模型进行推测性进化，实现低成本科学发现",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.28706",
+  "language": "en",
+  "summary": "SpecEvo是一个多LLM协作框架，用轻量模型并行生成候选程序并汇总成功、失败与饱和方向的经验，仅在搜索停滞时由前沿模型介入。在176个任务上匹配或超越前沿基线，API成本降低最多80%，方程发现效率提升1.5倍。",
+  "summary_en": "SpecEvo is a multi-LLM framework where lightweight models run parallel speculators and an advisor that consolidates successes, failures, and saturated directions, while a frontier-model navigator intervenes only at sparse checkpoints when search stagnates. Across 176 tasks it matches or beats frontier baselines with up to 80% lower API cost and 1.5x better evaluation efficiency on equation discovery.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-23T21:03:44.596771+08:00",
+  "updated_at": "2026-10-23T21:03:44.596774+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

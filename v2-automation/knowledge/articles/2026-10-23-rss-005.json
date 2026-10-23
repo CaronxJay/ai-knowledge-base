@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-23-rss-005",
+  "title": "FusionEval：大语言模型模型融合基准测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.30162",
+  "language": "en",
+  "summary": "FusionEval 是一个评估大模型模型融合方法的基准，提供受控专家池，覆盖数学、代码、科学、指令遵循和工具使用，统一评测能力保留与计算成本。实验发现免训练方法保留推理但显著削弱工具使用，MOPD 更均衡但成本更高。",
+  "summary_en": "FusionEval is a benchmark for evaluating model fusion methods for LLMs, offering controlled expert pools spanning math, code, science, instruction following, and tool use, with unified evaluation of capability retention and computational cost. Experiments show training-free methods preserve reasoning but substantially degrade tool use, while MOPD is more balanced but costlier.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "evaluation",
+    "research",
+    "tool"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-23T21:03:44.596790+08:00",
+  "updated_at": "2026-10-23T21:03:44.596791+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

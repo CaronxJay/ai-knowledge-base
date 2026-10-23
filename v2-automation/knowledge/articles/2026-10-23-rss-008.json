@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-23-rss-008",
+  "title": "衡量低资源语言的研究进展与语言包容性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.30296",
+  "language": "en",
+  "summary": "该研究分析2020至2025年间1158篇开放获取论文，提出语言包容性框架（LIF），从研究增长、代表性扩展、代表性连续性和分布公平四个维度衡量语言包容性。结果显示论文数量虽增长5.4倍，但增长集中于已有代表性的语言，亚洲语言占比与代表性严重不匹配，撒哈拉以南非洲和东南亚覆盖率最低。",
+  "summary_en": "Analyzing 1,158 open-access papers from 2020-2025, this study introduces the Linguistic Inclusion Framework (LIF) measuring inclusion across four dimensions: research growth, representation expansion, representation continuity, and distributional equity. Despite a 5.4X increase in publications, growth concentrated on already-represented languages; Asian languages hold 64.1% of speakers but only 46.7% of representation share, while European languages receive 5.3X their proportional share.",
+  "tags": [
+    "research",
+    "evaluation",
+    "benchmark",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-23T21:03:44.596801+08:00",
+  "updated_at": "2026-10-23T21:03:44.596803+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
