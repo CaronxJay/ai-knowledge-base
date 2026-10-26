@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-26-rss-008",
+  "title": "权衡感知的区域设计：企业客户到销售分配的多目标决策系统",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.31701",
+  "language": "en",
+  "summary": "本文提出一个用于B2B GTM规划的生产级决策系统，整合账户价值预测、基于合成控制反事实的连续性估值和多目标优化三层，在增长、平衡、容量与可行性间权衡分配销售覆盖。回测与生产表明，采用场景提升了分配合规性与机会均衡。",
+  "summary_en": "This paper presents a production decision system for B2B GTM customer-to-seller allocation, integrating predictive account-value scoring, a synthetic-control counterfactual layer estimating relationship-breakage cost, and multi-objective optimization balancing growth, continuity, capacity, and feasibility. Backtesting and production use show improved assignment compliance and opportunity balance.",
+  "tags": [
+    "application",
+    "research",
+    "evaluation",
+    "tool"
+  ],
+  "category": "application",
+  "relevance_score": 0.4,
+  "status": "published",
+  "created_at": "2026-10-26T22:50:05.694758+08:00",
+  "updated_at": "2026-10-26T22:50:05.694760+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-26-rss-003",
+  "title": "模式一致性量表：衡量赋予语言模型的信念是否组织其认知",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.31683",
+  "language": "en",
+  "summary": "提出模式一致性量表（SCI），用96道强制选择题、按长度归一化对数似然评分，检验赋予语言模型的信念是否真正组织其行为而非仅改变情绪。在5个1.7B-14B模型、107个条件上验证，信念适配器目标特异性提升17.7分，临床评分者一致率79.5%。",
+  "summary_en": "Introduces the Schema Coherence Inventory (SCI), 96 forced-choice items scored by length-normalized log-likelihood, to test whether a belief assigned to a language model organizes its behavior rather than merely shifting mood. Validated across 107 conditions on five 1.7B-14B backbones: belief adapters are target-specific (+17.7 points), clinicians recover keyed beliefs at 79.5%, and six published patient simulators fail to carry their core belief better than a one-sentence statement.",
+  "tags": [
+    "llm",
+    "evaluation",
+    "research",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-26T22:50:05.694732+08:00",
+  "updated_at": "2026-10-26T22:50:05.694733+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

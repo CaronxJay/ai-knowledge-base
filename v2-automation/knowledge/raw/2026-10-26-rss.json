@@ -1,0 +1,433 @@
+{
+  "collected_at": "2026-10-26T22:50:05.695772+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+      "url": "https://arxiv.org/abs/2610.31701",
+      "description": "arXiv:2610.31701v1 Announce Type: new \nAbstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines which accounts receive seller coverage, which seller-account relationships are preserved, and how limited field capacity is distributed. Yet the process often remains manual, making it difficult to compare opportunities, value continuity, and evaluate tradeoffs among growth, balance, capacity, and feasibility.\n  We present a production decision system for tradeoff-aware customer-to-seller allocation in enterprise GTM planning. It integrates three components: a multidimensional account-value layer that combines predictive signals to score opportunity; an observational continuity-valuation layer that estimates the cost of breaking seller-account relationships using a synthetic-control-style counterfactual framework; and a multi-objective optimization layer that allocates coverage to high-value accounts while considering continuity, opportunity balance, and operational constraints.\n  Deployed as a scenario-based decision-support system, the framework enables planners to inspect and compare allocation tradeoffs. Historical backtesting shows that optimizer-generated scenarios substantially improve assignment compliance while maintaining comparable seller-level opportunity distribution. In production planning, adopted scenarios improved both assignment compliance and opportunity balance relative to the previous baseline. Directing scarce seller capacity toward higher-value accounts also offers incremental revenue potential at enterprise scale. The key contribution is an integrated, inspectable framework that turns territory carving into a governable decision process.",
+      "pub_date": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "权衡感知的区域设计：企业客户到销售分配的多目标决策系统",
+        "summary": "本文提出一个用于B2B GTM规划的生产级决策系统，整合账户价值预测、基于合成控制反事实的连续性估值和多目标优化三层，在增长、平衡、容量与可行性间权衡分配销售覆盖。回测与生产表明，采用场景提升了分配合规性与机会均衡。",
+        "summary_en": "This paper presents a production decision system for B2B GTM customer-to-seller allocation, integrating predictive account-value scoring, a synthetic-control counterfactual layer estimating relationship-breakage cost, and multi-objective optimization balancing growth, continuity, capacity, and feasibility. Backtesting and production use show improved assignment compliance and opportunity balance.",
+        "tags": [
+          "application",
+          "research",
+          "evaluation",
+          "tool"
+        ],
+        "category": "application",
+        "relevance_score": 0.4,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-26-rss-008",
+        "title": "权衡感知的区域设计：企业客户到销售分配的多目标决策系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.31701",
+        "language": "en",
+        "summary": "本文提出一个用于B2B GTM规划的生产级决策系统，整合账户价值预测、基于合成控制反事实的连续性估值和多目标优化三层，在增长、平衡、容量与可行性间权衡分配销售覆盖。回测与生产表明，采用场景提升了分配合规性与机会均衡。",
+        "summary_en": "This paper presents a production decision system for B2B GTM customer-to-seller allocation, integrating predictive account-value scoring, a synthetic-control counterfactual layer estimating relationship-breakage cost, and multi-objective optimization balancing growth, continuity, capacity, and feasibility. Backtesting and production use show improved assignment compliance and opportunity balance.",
+        "tags": [
+          "application",
+          "research",
+          "evaluation",
+          "tool"
+        ],
+        "category": "application",
+        "relevance_score": 0.4,
+        "status": "published",
+        "created_at": "2026-10-26T22:50:05.694758+08:00",
+        "updated_at": "2026-10-26T22:50:05.694760+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+      "url": "https://arxiv.org/abs/2610.31789",
+      "description": "arXiv:2610.31789v1 Announce Type: new \nAbstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typically relies on manually written skills and curated memory. This limits autonomous learning, forcing agents to repeatedly rediscover solutions rather than retain and reuse knowledge from prior executions. We introduce Phronix, a capability-centric learning paradigm that enables agentic harnesses to acquire, validate, and refine reusable capabilities from their own executions. Phronix operates through a predictor-validator-corrector loop: MCP tools and associated skills propose solutions, tool executions validate them, and observed outcomes refine the stored capabilities. It distills every observed interaction into a capability store and researches a failing task rather than abandoning it. First, such learned capabilities solve a recurring task on the first attempt in 93-95% of cases across every model, significantly reducing solution non-determinism and improving reliability. Second, Phronix turns an agent's own execution into 7.6-30.8 durable capabilities per task without user instruction, and creation falls below two once the needed capability exists. Third, warm-start runs consume only 0.38-0.40 million tokens per task, which is three to four times less than a single baseline attempt, while a cold-start costs no more than the baseline. On the 1000 Genome Pegasus workflow, instrumenting a production application for I/O performance analysis, Phronix passes all 11 correctness checks against six for the baseline harness, and also lifts the task solving rates of two cheaper models from 29% and 27% of SWE-bench tasks solved to 91% and 87%, respectively, matching the performance of the most expensive evaluated model.",
+      "pub_date": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Phronix：面向智能体的能力中心学习范式",
+        "summary": "Phronix提出以能力为中心的学习范式，通过预测-验证-纠正循环，让智能体从自身执行中获取、验证并精炼可复用能力。学习到的能力首次尝试即解决重复任务的成功率达93-95%，每任务自动生成7.6-30.8项持久能力，热启动token消耗仅为基线的1/4，并将廉价模型在SWE-bench上的解决率从约28%提升至87-91%。",
+        "summary_en": "Phronix introduces a capability-centric learning paradigm where agent harnesses acquire, validate, and refine reusable capabilities from their own executions via a predictor-validator-corrector loop. Learned capabilities solve recurring tasks on the first attempt in 93-95% of cases, generate 7.6-30.8 durable capabilities per task, cut warm-start token usage to a quarter of baseline, and lift cheaper models' SWE-bench solve rates from ~28% to 87-91%.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "evaluation",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-26-rss-001",
+        "title": "Phronix：面向智能体的能力中心学习范式",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.31789",
+        "language": "en",
+        "summary": "Phronix提出以能力为中心的学习范式，通过预测-验证-纠正循环，让智能体从自身执行中获取、验证并精炼可复用能力。学习到的能力首次尝试即解决重复任务的成功率达93-95%，每任务自动生成7.6-30.8项持久能力，热启动token消耗仅为基线的1/4，并将廉价模型在SWE-bench上的解决率从约28%提升至87-91%。",
+        "summary_en": "Phronix introduces a capability-centric learning paradigm where agent harnesses acquire, validate, and refine reusable capabilities from their own executions via a predictor-validator-corrector loop. Learned capabilities solve recurring tasks on the first attempt in 93-95% of cases, generate 7.6-30.8 durable capabilities per task, cut warm-start token usage to a quarter of baseline, and lift cheaper models' SWE-bench solve rates from ~28% to 87-91%.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "evaluation",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-26T22:50:05.694718+08:00",
+        "updated_at": "2026-10-26T22:50:05.694722+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+      "url": "https://arxiv.org/abs/2610.31808",
+      "description": "arXiv:2610.31808v1 Announce Type: new \nAbstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it is often difficult to detect, even for human judges. This paper proposes a system for the automated detection of PCL. Our first approach uses static word embeddings and a convolutional neural network for classification, while our second approach uses pre-trained BERT embeddings fine-tuned for the PCL task. Our second approach was considerably more successful, and achieved an F1 score of 0.528 over the development set.",
+      "pub_date": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "英语和普通话中的居高临下与屈尊语言检测",
+        "summary": "本文提出自动检测居高临下与屈尊语言（PCL）的系统，比较了静态词嵌入加CNN与微调BERT两种方法，后者在开发集上取得0.528的F1分数。",
+        "summary_en": "This paper proposes systems for automated detection of patronizing and condescending language (PCL), comparing static word embeddings with a CNN against fine-tuned BERT; the latter achieved an F1 score of 0.528 on the development set.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-26-rss-006",
+        "title": "英语和普通话中的居高临下与屈尊语言检测",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.31808",
+        "language": "en",
+        "summary": "本文提出自动检测居高临下与屈尊语言（PCL）的系统，比较了静态词嵌入加CNN与微调BERT两种方法，后者在开发集上取得0.528的F1分数。",
+        "summary_en": "This paper proposes systems for automated detection of patronizing and condescending language (PCL), comparing static word embeddings with a CNN against fine-tuned BERT; the latter achieved an F1 score of 0.528 on the development set.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-10-26T22:50:05.694750+08:00",
+        "updated_at": "2026-10-26T22:50:05.694751+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+      "url": "https://arxiv.org/abs/2610.31810",
+      "description": "arXiv:2610.31810v1 Announce Type: new \nAbstract: Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own papers and turn each paper into a Lean-verified version. Starting from the LaTeX source, PaperFormalizer transcribes the paper into a dependency graph of statements, audits each statement in natural language for faithfulness, ambiguity and correctness, and then formalizes and proves the statements in Lean against Mathlib, optional domain libraries and the author's personal toolkit. Only the author knows what a statement is meant to say and how a formalization gap in a result is best fixed. The pipeline therefore stops and asks the author whenever a statement admits more than one reading, presents every repair, in natural language and TeX symbols, as a proposal that the author can accept, decline or redirect, and leaves to the author every decision that could potentially change what the paper claims. The output is an annotated and revised version of the paper, a report of the changes, and Lean code in which each declaration is linked to the statement it formalizes. The author's toolkit grows as more papers are formalized, and authors can share their verified papers so that researchers who build on them can reuse their Lean code. By making verified papers practical to produce, PaperFormalizer aims to make research that rests on mathematical proofs more robust. PaperFormalizer runs inside a coding agent (Claude Code or Codex) and is available at https://github.com/Jiyuan-Tan/PaperFormalizer. Papers with Lean code shared by users are available at https://paperformalizer.org.",
+      "pub_date": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PaperFormalizer：作者参与式研究论文 Lean 自动形式化",
+        "summary": "PaperFormalizer 是一个基于 Lean 的智能体流水线，从 LaTeX 源码出发，将论文转写为陈述依赖图，审计每条陈述的忠实性、歧义与正确性，并在 Lean 中对照 Mathlib 完成形式化与证明。流水线在陈述存在多种解读时暂停并询问作者，所有修复以提案形式呈现，由作者决定是否接受，最终产出经修订标注的论文、变更报告及与陈述关联的 Lean 代码。",
+        "summary_en": "PaperFormalizer is a Lean-based agentic pipeline that turns a paper's LaTeX source into a dependency graph of statements, audits each for faithfulness, ambiguity and correctness, then formalizes and proves them in Lean against Mathlib. It pauses to consult the author whenever a statement admits multiple readings, presenting every repair as a proposal the author can accept, decline or redirect. Outputs include an annotated revised paper, a change report, and Lean code linked to each statement.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "tool",
+          "open-source"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-26-rss-004",
+        "title": "PaperFormalizer：作者参与式研究论文 Lean 自动形式化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.31810",
+        "language": "en",
+        "summary": "PaperFormalizer 是一个基于 Lean 的智能体流水线，从 LaTeX 源码出发，将论文转写为陈述依赖图，审计每条陈述的忠实性、歧义与正确性，并在 Lean 中对照 Mathlib 完成形式化与证明。流水线在陈述存在多种解读时暂停并询问作者，所有修复以提案形式呈现，由作者决定是否接受，最终产出经修订标注的论文、变更报告及与陈述关联的 Lean 代码。",
+        "summary_en": "PaperFormalizer is a Lean-based agentic pipeline that turns a paper's LaTeX source into a dependency graph of statements, audits each for faithfulness, ambiguity and correctness, then formalizes and proves them in Lean against Mathlib. It pauses to consult the author whenever a statement admits multiple readings, presenting every repair as a proposal the author can accept, decline or redirect. Outputs include an annotated revised paper, a change report, and Lean code linked to each statement.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "tool",
+          "open-source"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-26T22:50:05.694737+08:00",
+        "updated_at": "2026-10-26T22:50:05.694738+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+      "url": "https://arxiv.org/abs/2610.31846",
+      "description": "arXiv:2610.31846v1 Announce Type: new \nAbstract: Intelligent agents should learn from their mistakes so that experience leads to continuous improvement. Yet today's agents recover from a mistake only temporarily: in-context reflections are easily forgotten across sessions and compete for limited context, while full-parameter fine-tuning is expensive and can interfere with existing capabilities. We introduce Self-Direction, a mechanism for agents to learn from mistakes that combines the benefits of temporary in-context retries and policy updates. When an agent fails a task, it reflects on its own trajectory in order to extract a lesson and immediately distills it into a lightweight low-rank adapter. By keeping the original weights frozen, Self-Direction prevents adapter training from overwriting base-model parameters while training additional parameters equivalent to ~0.02% of the base model's parameter count for each adapter. The agent then saves these adapters in a persistent library of lessons, automatically routing them to solve related problems later. Experiments with agents based on open-weight models from the Qwen family across open-ended research (GAIA), tool-use workflows (Claw-Eval), and terminal tasks (Terminal-Bench 2.1) show that our method improves overall success rates by 8.9 to 17.0 percentage points and performs competitively with frontier systems. We find that Self-Direction reduces repeated mistakes across future encounters of a task, nearly doubling the reliability of an agent's corrections. Learned lessons also transfer: a handful of adapters generalize to dozens of new tasks without additional training. Ultimately, this self-directed repair transforms everyday mistakes into lasting lessons.",
+      "pub_date": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "别再忘记刚学到的东西：自我导向修复让智能体的错误变成持久经验",
+        "summary": "该论文提出Self-Direction机制：智能体任务失败后反思轨迹并提取教训，将其蒸馏为仅占基座模型约0.02%参数的低秩适配器，存入持久化经验库并按需路由复用。在GAIA、Claw-Eval、Terminal-Bench 2.1上成功率提升8.9至17.0个百分点，显著减少重复错误，少量适配器可泛化到数十个新任务。",
+        "summary_en": "The paper introduces Self-Direction, a mechanism where an agent reflects on failed trajectories, distills each lesson into a lightweight low-rank adapter (~0.02% of base parameters) with frozen base weights, and stores adapters in a persistent lesson library routed to solve related tasks. On GAIA, Claw-Eval, and Terminal-Bench 2.1, it improves success rates by 8.9-17.0 points, nearly doubles correction reliability, and a few adapters generalize to dozens of new tasks.",
+        "tags": [
+          "agent-framework",
+          "fine-tuning",
+          "research",
+          "evaluation",
+          "llm"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-26-rss-002",
+        "title": "别再忘记刚学到的东西：自我导向修复让智能体的错误变成持久经验",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.31846",
+        "language": "en",
+        "summary": "该论文提出Self-Direction机制：智能体任务失败后反思轨迹并提取教训，将其蒸馏为仅占基座模型约0.02%参数的低秩适配器，存入持久化经验库并按需路由复用。在GAIA、Claw-Eval、Terminal-Bench 2.1上成功率提升8.9至17.0个百分点，显著减少重复错误，少量适配器可泛化到数十个新任务。",
+        "summary_en": "The paper introduces Self-Direction, a mechanism where an agent reflects on failed trajectories, distills each lesson into a lightweight low-rank adapter (~0.02% of base parameters) with frozen base weights, and stores adapters in a persistent lesson library routed to solve related tasks. On GAIA, Claw-Eval, and Terminal-Bench 2.1, it improves success rates by 8.9-17.0 points, nearly doubles correction reliability, and a few adapters generalize to dozens of new tasks.",
+        "tags": [
+          "agent-framework",
+          "fine-tuning",
+          "research",
+          "evaluation",
+          "llm"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-26T22:50:05.694727+08:00",
+        "updated_at": "2026-10-26T22:50:05.694729+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Validating the Comparison, Not Just the Scorer: Why Overall Accuracy Can Mislead in Interactive LLM Evaluation",
+      "url": "https://arxiv.org/abs/2610.31678",
+      "description": "arXiv:2610.31678v1 Announce Type: new \nAbstract: Many LLM studies compare how models respond to different follow-up prompts. For example, one prompt may neutrally ask a model to reconsider, while another insists that an invented film really exists. The difference is used to measure the effect of conversational pressure. An automatic scorer then labels whether each response makes an unsupported factual claim. Researchers commonly validate the scorer with one overall accuracy or $F_1$ score. However, high overall performance can hide prompt-specific mistakes: if the scorer makes more errors after one prompt, the measured difference can be too large, too small, or point in the wrong direction. An audit containing mostly difficult responses can also misrepresent performance in the full study. We derive how such errors alter a prompt comparison and examine the problem using six models, 180 invented-entity questions, and six prompt conditions. In a balanced audit of 288 responses, overall $F_1$ was $.916$. Yet, depending on the prompt, the scorer flagged 2.6%-33.3% of responses that the primary LLM rater judged not to contain an unsupported claim; these prompt-specific estimates were uncertain. In a second audit, the scorer and two separate LLM raters evaluated the same 300 model-question cases under each prompt. An apparent 9.3-point increase from asserting certainty rather than neutrally asking the model to reconsider fell to 2.3 points under both raters. The primary-rater interval included zero, so it did not establish an increase. Two other prompt comparisons kept their direction under both raters, while an attempted prompt-specific correction remained too uncertain for a firm conclusion. Researchers should therefore validate the exact difference they plan to report, not just the scorer as a whole: audit both prompts on matching cases and include scorer and rater uncertainty in the final result.",
+      "pub_date": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "验证比较本身，而非仅验证评分器：交互式LLM评估中总体准确率为何可能误导",
+        "summary": "该研究指出，仅用总体准确率或F1验证LLM自动评分器会掩盖提示词特定误差，导致提示词比较结果偏差。通过六模型、180个虚构实体问题实验，发现9.3个百分点的差异在双评分者复核后降至2.3个百分点且不显著，建议审计匹配案例并纳入不确定性。",
+        "summary_en": "The paper shows that validating an automatic LLM scorer with a single overall accuracy or F1 can hide prompt-specific errors that distort prompt comparisons. Across six models, 180 invented-entity questions, and six prompt conditions, an apparent 9.3-point effect fell to 2.3 points under two independent LLM raters and was not significant. Researchers should audit both prompts on matched cases and report scorer and rater uncertainty.",
+        "tags": [
+          "evaluation",
+          "llm",
+          "research",
+          "benchmark",
+          "prompt-engineering"
+        ],
+        "category": "evaluation",
+        "relevance_score": 0.95,
+        "language": "en"
+      }
+    },
+    {
+      "title": "MisconceptDialogue: Evaluation Criteria Shape Measured Success in LLM Math Tutoring",
+      "url": "https://arxiv.org/abs/2610.31679",
+      "description": "arXiv:2610.31679v1 Announce Type: new \nAbstract: Large language models are increasingly used as math tutors, raising two questions: can a single LLM detect a student's error, diagnose the underlying misconception, and remediate it through multi-turn dialogue - and can we trust the numbers that report how well it does? We address both with MISCONCEPTDIALOGUE, a fully automated framework that runs the full pipeline on five open-weight LLM tutors (7B-14B) interacting with LLM-simulated students over 5,000+ dialogues - a deliberately simulated protocol (paired conditions, a wrong-diagnosis control unsafe with real learners, scale) whose results do not establish real-student learning. On measurement, our headline finding is uncomfortable for the field: benchmark-style exact-match scoring common in standard math NLP - a lower-bound stress test - reports 42.1% measured Remediation Success Rate on identical dialogues where a human-calibrated LLM-as-judge reports 81.3%, a 39.2 percentage-point spread larger than the combined effects of tutor model, teaching strategy, and supplied diagnostic information. This is not a single-judge artifact: four independent LLM judges and 200 human annotations converge to within a few points (kappa up to 0.91). On capability, the verdict is equally striking: the score barely changes whether we tell the tutor the student's actual misconception or a deliberately swapped one - under the tested diagnosis-presentation format, these tutors show little evidence of reliably conditioning on the diagnostic information they are handed. For LLM tutoring evaluation to mature, multi-criterion scoring with multi-judge convergence and human anchoring should become standard practice - and the measurement question deserves as much scrutiny as the capability question it claims to answer.",
+      "pub_date": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MisconceptDialogue：评估标准如何影响LLM数学辅导的实测效果",
+        "summary": "该研究提出MisconceptDialogue全自动框架，用5个7B-14B开源LLM辅导模型与模拟学生进行5000余轮对话。核心发现：基准式精确匹配评分测得42.1%补救成功率，而人工校准的LLM评审为81.3%，相差39.2个百分点，超过模型、策略与诊断信息的总效应；且告知真实或调换的误解诊断，得分几乎不变。",
+        "summary_en": "MisconceptDialogue is a fully automated framework running 5,000+ dialogues between five 7B-14B open-weight LLM tutors and simulated students. Benchmark-style exact-match scoring reports 42.1% remediation success versus 81.3% from a human-calibrated LLM judge—a 39.2-point gap exceeding the combined effects of tutor model, strategy, and diagnostic info. Scores barely change when the true misconception is swapped.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "benchmark",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "evaluation",
+        "relevance_score": 0.95,
+        "language": "en"
+      }
+    },
+    {
+      "title": "Rethinking Structured Generation: Can Graph-Based Reasoning Resolve Ambiguity?",
+      "url": "https://arxiv.org/abs/2610.31681",
+      "description": "arXiv:2610.31681v1 Announce Type: new \nAbstract: Structured generation is typically formulated as a deterministic mapping from input to a single structured output. This assumption is fundamentally misaligned with natural language, which often admits multiple structurally distinct yet semantically valid interpretations. As a result, existing methods rely on single-reference supervision that collapses ambiguity into one prediction, leading to unstable and inconsistent outputs under underspecified inputs. We reformulate structured generation as an \\textit{ambiguity-aware inference problem}, where the objective is to reason over a set of plausible structured outputs rather than predict a single solution. We show that standard training inherently suppresses valid alternatives, and instead adopt a multi-valid learning framework that preserves ambiguity during optimization. To operationalize this formulation, we construct a candidate space of structured outputs, represent each candidate as a graph capturing entities and their relationships, and perform selection via graph-based reasoning over semantic alignment and relational consistency. This enables principled comparison across competing interpretations beyond token-level likelihoods. Experiments on structured generation benchmarks demonstrate consistent improvements in accuracy, stability, and robustness under varying levels of ambiguity. These results highlight the importance of modeling ambiguity explicitly and suggest a shift from single-output prediction to set-level reasoning in structured generation.",
+      "pub_date": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "重新思考结构化生成：基于图的推理能否解决歧义？",
+        "summary": "该论文将结构化生成重新表述为歧义感知推理问题，不再预测单一输出，而是对多个语义有效但结构不同的候选进行推理。方法构建候选结构化输出空间，将每个候选表示为实体关系图，通过语义对齐与关系一致性进行图推理选择，实验显示在准确率、稳定性和鲁棒性上均有提升。",
+        "summary_en": "This paper reformulates structured generation as an ambiguity-aware inference problem, reasoning over multiple semantically valid but structurally distinct outputs instead of predicting a single one. It builds a candidate space, represents each candidate as an entity-relationship graph, and selects via graph-based reasoning over semantic alignment and relational consistency, showing gains in accuracy, stability, and robustness.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-26-rss-005",
+        "title": "重新思考结构化生成：基于图的推理能否解决歧义？",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.31681",
+        "language": "en",
+        "summary": "该论文将结构化生成重新表述为歧义感知推理问题，不再预测单一输出，而是对多个语义有效但结构不同的候选进行推理。方法构建候选结构化输出空间，将每个候选表示为实体关系图，通过语义对齐与关系一致性进行图推理选择，实验显示在准确率、稳定性和鲁棒性上均有提升。",
+        "summary_en": "This paper reformulates structured generation as an ambiguity-aware inference problem, reasoning over multiple semantically valid but structurally distinct outputs instead of predicting a single one. It builds a candidate space, represents each candidate as an entity-relationship graph, and selects via graph-based reasoning over semantic alignment and relational consistency, showing gains in accuracy, stability, and robustness.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-26T22:50:05.694745+08:00",
+        "updated_at": "2026-10-26T22:50:05.694747+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Multi modal perceived conversation success prediction for spontaneous autistic and non-autistic dyadic interactions",
+      "url": "https://arxiv.org/abs/2610.31682",
+      "description": "arXiv:2610.31682v1 Announce Type: new \nAbstract: Conversation success is important for communication, social bonds, and well-being and is often reduced in autistic-neurotypical conversations. Previous studies have predicted perceived conversation success using acoustic and lexical features in pediatric autism-enriched samples, or using nonverbal behavior in non-autistic group interactions. Other work has characterized prosodic, facial, motor, and turn-taking synchrony in autistic interactions, but has primarily targeted diagnostic classification or group differences. The present study instead predicts participant perceived conversation success from complementary articulatory, facial, acoustic-prosodic, and turn-taking measures across three spontaneous dyadic-interaction datasets including autistic and non autistic individuals. By leveraging multimodal features, we demonstrate that conversational success is inherently multidimensional and requires a multi-faceted analytical framework. Combining these complementary modalities offers the potential to improve prediction of perceived conversation success by capturing information unavailable from any single modality.",
+      "pub_date": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多模态感知对话成功预测：面向自闭症与非自闭症自发双人互动",
+        "summary": "该研究利用发音、面部、声学韵律和轮流发言等多模态特征，在三个包含自闭症与非自闭症个体的自发双人互动数据集上预测参与者感知的对话成功，表明对话成功具有多维性，多模态融合优于单一模态。",
+        "summary_en": "This study predicts participant-perceived conversation success from articulatory, facial, acoustic-prosodic, and turn-taking features across three spontaneous dyadic-interaction datasets of autistic and non-autistic individuals, showing that conversational success is multidimensional and multimodal fusion outperforms any single modality.",
+        "tags": [
+          "multimodal",
+          "research",
+          "evaluation"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-26-rss-007",
+        "title": "多模态感知对话成功预测：面向自闭症与非自闭症自发双人互动",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.31682",
+        "language": "en",
+        "summary": "该研究利用发音、面部、声学韵律和轮流发言等多模态特征，在三个包含自闭症与非自闭症个体的自发双人互动数据集上预测参与者感知的对话成功，表明对话成功具有多维性，多模态融合优于单一模态。",
+        "summary_en": "This study predicts participant-perceived conversation success from articulatory, facial, acoustic-prosodic, and turn-taking features across three spontaneous dyadic-interaction datasets of autistic and non-autistic individuals, showing that conversational success is multidimensional and multimodal fusion outperforms any single modality.",
+        "tags": [
+          "multimodal",
+          "research",
+          "evaluation"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-10-26T22:50:05.694754+08:00",
+        "updated_at": "2026-10-26T22:50:05.694755+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Schema Coherence Inventory: Measuring Whether an Assigned Belief Organizes a Language Model's Cognition",
+      "url": "https://arxiv.org/abs/2610.31683",
+      "description": "arXiv:2610.31683v1 Announce Type: new \nAbstract: Persona-conditioned language models are used as simulated patients and affective agents, but there is no validated way to ask whether a belief assigned to such a model organizes its behaviour or whether the model has merely adopted a mood. We present the Schema Coherence Inventory (SCI): 96 forced-choice items at eight levels of Beck's cognitive model, each offering six replies keyed to three negative self-schemas and their positive counterparts, scored by length-normalized log-likelihood so that nothing is generated or parsed. Affect alone can move a model onto a default belief, so the discriminant criterion is target specificity: a condition built for one belief must select that belief more often than conditions built for the other beliefs of its pole. Six validation studies over 107 conditions on five backbones (1.7B-14B parameters) support this reading. Nine clinically trained raters recover the keyed belief at 79.5% (chance 16.7%). Belief adapters are target-specific on every backbone (+17.7 points; 30/30 belief cells positive), and a condition's SCI profile identifies its own free generations in 24/30 cases against 5 expected by chance. A 48-item short form correlates r = 0.73 with the other 48 items. Applied to six published patient simulators, none carries its formulation's core belief better than a one-sentence statement of it. The validation route, which separates a construct from the affect that accompanies it and checks model judges against clinicians, offers a template for affective measurement in language models; we outline its extension across task types, raters, sites and languages. We release the items, scoring code and short form.",
+      "pub_date": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "模式一致性量表：衡量赋予语言模型的信念是否组织其认知",
+        "summary": "提出模式一致性量表（SCI），用96道强制选择题、按长度归一化对数似然评分，检验赋予语言模型的信念是否真正组织其行为而非仅改变情绪。在5个1.7B-14B模型、107个条件上验证，信念适配器目标特异性提升17.7分，临床评分者一致率79.5%。",
+        "summary_en": "Introduces the Schema Coherence Inventory (SCI), 96 forced-choice items scored by length-normalized log-likelihood, to test whether a belief assigned to a language model organizes its behavior rather than merely shifting mood. Validated across 107 conditions on five 1.7B-14B backbones: belief adapters are target-specific (+17.7 points), clinicians recover keyed beliefs at 79.5%, and six published patient simulators fail to carry their core belief better than a one-sentence statement.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-26-rss-003",
+        "title": "模式一致性量表：衡量赋予语言模型的信念是否组织其认知",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.31683",
+        "language": "en",
+        "summary": "提出模式一致性量表（SCI），用96道强制选择题、按长度归一化对数似然评分，检验赋予语言模型的信念是否真正组织其行为而非仅改变情绪。在5个1.7B-14B模型、107个条件上验证，信念适配器目标特异性提升17.7分，临床评分者一致率79.5%。",
+        "summary_en": "Introduces the Schema Coherence Inventory (SCI), 96 forced-choice items scored by length-normalized log-likelihood, to test whether a belief assigned to a language model organizes its behavior rather than merely shifting mood. Validated across 107 conditions on five 1.7B-14B backbones: belief adapters are target-specific (+17.7 points), clinicians recover keyed beliefs at 79.5%, and six published patient simulators fail to carry their core belief better than a one-sentence statement.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-26T22:50:05.694732+08:00",
+        "updated_at": "2026-10-26T22:50:05.694733+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

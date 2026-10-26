@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-26-rss-002",
+  "title": "别再忘记刚学到的东西：自我导向修复让智能体的错误变成持久经验",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.31846",
+  "language": "en",
+  "summary": "该论文提出Self-Direction机制：智能体任务失败后反思轨迹并提取教训，将其蒸馏为仅占基座模型约0.02%参数的低秩适配器，存入持久化经验库并按需路由复用。在GAIA、Claw-Eval、Terminal-Bench 2.1上成功率提升8.9至17.0个百分点，显著减少重复错误，少量适配器可泛化到数十个新任务。",
+  "summary_en": "The paper introduces Self-Direction, a mechanism where an agent reflects on failed trajectories, distills each lesson into a lightweight low-rank adapter (~0.02% of base parameters) with frozen base weights, and stores adapters in a persistent lesson library routed to solve related tasks. On GAIA, Claw-Eval, and Terminal-Bench 2.1, it improves success rates by 8.9-17.0 points, nearly doubles correction reliability, and a few adapters generalize to dozens of new tasks.",
+  "tags": [
+    "agent-framework",
+    "fine-tuning",
+    "research",
+    "evaluation",
+    "llm"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-26T22:50:05.694727+08:00",
+  "updated_at": "2026-10-26T22:50:05.694729+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

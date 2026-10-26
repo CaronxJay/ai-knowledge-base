@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-26-rss-007",
+  "title": "多模态感知对话成功预测：面向自闭症与非自闭症自发双人互动",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.31682",
+  "language": "en",
+  "summary": "该研究利用发音、面部、声学韵律和轮流发言等多模态特征，在三个包含自闭症与非自闭症个体的自发双人互动数据集上预测参与者感知的对话成功，表明对话成功具有多维性，多模态融合优于单一模态。",
+  "summary_en": "This study predicts participant-perceived conversation success from articulatory, facial, acoustic-prosodic, and turn-taking features across three spontaneous dyadic-interaction datasets of autistic and non-autistic individuals, showing that conversational success is multidimensional and multimodal fusion outperforms any single modality.",
+  "tags": [
+    "multimodal",
+    "research",
+    "evaluation"
+  ],
+  "category": "multimodal",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-10-26T22:50:05.694754+08:00",
+  "updated_at": "2026-10-26T22:50:05.694755+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-26-rss-005",
+  "title": "重新思考结构化生成：基于图的推理能否解决歧义？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.31681",
+  "language": "en",
+  "summary": "该论文将结构化生成重新表述为歧义感知推理问题，不再预测单一输出，而是对多个语义有效但结构不同的候选进行推理。方法构建候选结构化输出空间，将每个候选表示为实体关系图，通过语义对齐与关系一致性进行图推理选择，实验显示在准确率、稳定性和鲁棒性上均有提升。",
+  "summary_en": "This paper reformulates structured generation as an ambiguity-aware inference problem, reasoning over multiple semantically valid but structurally distinct outputs instead of predicting a single one. It builds a candidate space, represents each candidate as an entity-relationship graph, and selects via graph-based reasoning over semantic alignment and relational consistency, showing gains in accuracy, stability, and robustness.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-26T22:50:05.694745+08:00",
+  "updated_at": "2026-10-26T22:50:05.694747+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

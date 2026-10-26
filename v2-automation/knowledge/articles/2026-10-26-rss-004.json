@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-26-rss-004",
+  "title": "PaperFormalizer：作者参与式研究论文 Lean 自动形式化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.31810",
+  "language": "en",
+  "summary": "PaperFormalizer 是一个基于 Lean 的智能体流水线，从 LaTeX 源码出发，将论文转写为陈述依赖图，审计每条陈述的忠实性、歧义与正确性，并在 Lean 中对照 Mathlib 完成形式化与证明。流水线在陈述存在多种解读时暂停并询问作者，所有修复以提案形式呈现，由作者决定是否接受，最终产出经修订标注的论文、变更报告及与陈述关联的 Lean 代码。",
+  "summary_en": "PaperFormalizer is a Lean-based agentic pipeline that turns a paper's LaTeX source into a dependency graph of statements, audits each for faithfulness, ambiguity and correctness, then formalizes and proves them in Lean against Mathlib. It pauses to consult the author whenever a statement admits multiple readings, presenting every repair as a proposal the author can accept, decline or redirect. Outputs include an annotated revised paper, a change report, and Lean code linked to each statement.",
+  "tags": [
+    "research",
+    "llm",
+    "agent-framework",
+    "tool",
+    "open-source"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-26T22:50:05.694737+08:00",
+  "updated_at": "2026-10-26T22:50:05.694738+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

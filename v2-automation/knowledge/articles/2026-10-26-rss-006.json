@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-26-rss-006",
+  "title": "英语和普通话中的居高临下与屈尊语言检测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.31808",
+  "language": "en",
+  "summary": "本文提出自动检测居高临下与屈尊语言（PCL）的系统，比较了静态词嵌入加CNN与微调BERT两种方法，后者在开发集上取得0.528的F1分数。",
+  "summary_en": "This paper proposes systems for automated detection of patronizing and condescending language (PCL), comparing static word embeddings with a CNN against fine-tuned BERT; the latter achieved an F1 score of 0.528 on the development set.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-10-26T22:50:05.694750+08:00",
+  "updated_at": "2026-10-26T22:50:05.694751+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

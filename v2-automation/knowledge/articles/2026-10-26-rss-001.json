@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-26-rss-001",
+  "title": "Phronix：面向智能体的能力中心学习范式",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.31789",
+  "language": "en",
+  "summary": "Phronix提出以能力为中心的学习范式，通过预测-验证-纠正循环，让智能体从自身执行中获取、验证并精炼可复用能力。学习到的能力首次尝试即解决重复任务的成功率达93-95%，每任务自动生成7.6-30.8项持久能力，热启动token消耗仅为基线的1/4，并将廉价模型在SWE-bench上的解决率从约28%提升至87-91%。",
+  "summary_en": "Phronix introduces a capability-centric learning paradigm where agent harnesses acquire, validate, and refine reusable capabilities from their own executions via a predictor-validator-corrector loop. Learned capabilities solve recurring tasks on the first attempt in 93-95% of cases, generate 7.6-30.8 durable capabilities per task, cut warm-start token usage to a quarter of baseline, and lift cheaper models' SWE-bench solve rates from ~28% to 87-91%.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "evaluation",
+    "tool"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-26T22:50:05.694718+08:00",
+  "updated_at": "2026-10-26T22:50:05.694722+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
