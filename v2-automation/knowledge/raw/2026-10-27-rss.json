@@ -1,0 +1,475 @@
+{
+  "collected_at": "2026-10-27T21:56:28.218771+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Inverse Modeling for Laser Pulse Shape Design in Inertial Confinement Fusion",
+      "url": "https://arxiv.org/abs/2610.33096",
+      "description": "arXiv:2610.33096v1 Announce Type: new \nAbstract: The achievement of practical fusion energy remains one of the most pressing unsolved scientific challenges, with immense implications for carbon-free power. A critical factor in the success of Inertial Confinement Fusion (ICF) is the design of a Laser Pulse Shape (LP) that can optimally drive implosions under stringent physical constraints. Traditional LP design relies on computationally expensive simulations and manual iterative refinement. We introduce the ICF Laser Pulse Shape Design System (LPDS), a generative inverse modeling framework that maps desired outcomes and target pellet configurations directly to optimized LPs. Crucially, we design a multi-objective loss function to ensure the generated LPs satisfy fundamental physical constraints and experimental requirements. Furthermore, we present constraint-conditioning, inpainting, and gradient-based LP editing mechanisms for fine-grained control over specific pulse characteristics during generation. Moreover, we study the transfer of our framework to a limited set of real experimental shots. Our method establishes a data-driven inverse design framework for LP design in ICF, contributing to the advancement of practical and sustainable fusion energy.",
+      "pub_date": "Tue, 27 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "惯性约束聚变中激光脉冲波形设计的逆向建模",
+        "summary": "提出LPDS生成式逆向建模框架，将期望结果与靶丸配置直接映射为优化的激光脉冲波形，设计多目标损失函数满足物理约束，并提供约束条件化、修复和基于梯度的编辑机制实现细粒度控制。",
+        "summary_en": "Introduces LPDS, a generative inverse modeling framework that maps desired outcomes and target pellet configurations directly to optimized laser pulse shapes, with a multi-objective loss enforcing physical constraints and constraint-conditioning, inpainting, and gradient-based editing for fine-grained control.",
+        "tags": [
+          "research",
+          "application",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.35,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-27-rss-009",
+        "title": "惯性约束聚变中激光脉冲波形设计的逆向建模",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.33096",
+        "language": "en",
+        "summary": "提出LPDS生成式逆向建模框架，将期望结果与靶丸配置直接映射为优化的激光脉冲波形，设计多目标损失函数满足物理约束，并提供约束条件化、修复和基于梯度的编辑机制实现细粒度控制。",
+        "summary_en": "Introduces LPDS, a generative inverse modeling framework that maps desired outcomes and target pellet configurations directly to optimized laser pulse shapes, with a multi-objective loss enforcing physical constraints and constraint-conditioning, inpainting, and gradient-based editing for fine-grained control.",
+        "tags": [
+          "research",
+          "application",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.35,
+        "status": "published",
+        "created_at": "2026-10-27T21:56:28.218142+08:00",
+        "updated_at": "2026-10-27T21:56:28.218144+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "IRON-Meme: A Benchmark for Structured Understanding of Identities and Roles in Online Meme Narratives",
+      "url": "https://arxiv.org/abs/2610.33097",
+      "description": "arXiv:2610.33097v1 Announce Type: new \nAbstract: As polarization grows on social media, understanding how political memes shape online narratives has become increasingly important. Previous research has relied on either qualitative frameworks that are hard to scale or computational methods that lack theoretical grounding. Both approaches treat narrative categories in isolation and focus exclusively on moral portrayals of identity. To address these limitations, we introduce a framework grounded in social science theories, encompassing three categories: social identities (such as gender, politics, and ethnicity), viewpoints (ingroup and outgroup perspectives), and narrative roles (moral character, intelligence, status, and power). Building on this framework, we present IRON-Meme, a human-annotated benchmark comprising 1,110 political memes across substantially more templates than existing benchmarks. Our analysis of IRON-Meme shows that most memes assign derogatory roles and that identities, roles, and templates are systematically interconnected. Evaluation of nine vision-language models indicates that frontier-scale and reasoning models achieve the highest performance, while accuracy on social identities and narrative roles decreases for less frequent labels. Incorporating template background knowledge does not enhance narrative role classification, suggesting that meme interpretation relies on how memes are adapted for specific communicative purposes. We make IRON-Meme and our code publicly available.",
+      "pub_date": "Tue, 27 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "IRON-Meme：在线模因叙事中身份与角色结构化理解基准",
+        "summary": "该研究提出基于社会科学理论的框架，涵盖社会身份、观点和叙事角色三类，并构建IRON-Meme基准，包含1110个政治模因、覆盖更多模板。分析显示多数模因赋予贬损角色，身份、角色与模板系统性关联；九个视觉语言模型评测表明前沿与推理模型表现最佳，稀有标签准确率下降，引入模板背景知识未提升叙事角色分类。",
+        "summary_en": "The paper introduces a social-science-grounded framework covering social identities, viewpoints, and narrative roles, and presents IRON-Meme, a human-annotated benchmark of 1,110 political memes spanning more templates than prior work. Analysis shows most memes assign derogatory roles and that identities, roles, and templates are systematically linked. Evaluating nine vision-language models, frontier and reasoning models perform best, accuracy drops for rarer labels, and template background knowledge does not improve narrative role classification.",
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-27-rss-004",
+        "title": "IRON-Meme：在线模因叙事中身份与角色结构化理解基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.33097",
+        "language": "en",
+        "summary": "该研究提出基于社会科学理论的框架，涵盖社会身份、观点和叙事角色三类，并构建IRON-Meme基准，包含1110个政治模因、覆盖更多模板。分析显示多数模因赋予贬损角色，身份、角色与模板系统性关联；九个视觉语言模型评测表明前沿与推理模型表现最佳，稀有标签准确率下降，引入模板背景知识未提升叙事角色分类。",
+        "summary_en": "The paper introduces a social-science-grounded framework covering social identities, viewpoints, and narrative roles, and presents IRON-Meme, a human-annotated benchmark of 1,110 political memes spanning more templates than prior work. Analysis shows most memes assign derogatory roles and that identities, roles, and templates are systematically linked. Evaluating nine vision-language models, frontier and reasoning models perform best, accuracy drops for rarer labels, and template background knowledge does not improve narrative role classification.",
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-10-27T21:56:28.218122+08:00",
+        "updated_at": "2026-10-27T21:56:28.218123+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Prospect Theory in Large Language Models: A Meta-Analysis of Loss Aversion, Diminishing Sensitivity, and Probability Weighting",
+      "url": "https://arxiv.org/abs/2610.33103",
+      "description": "arXiv:2610.33103v1 Announce Type: new \nAbstract: Prospect theory splits risky choice into three parts: loss aversion, measured by the relative weight of losses to gains, $\\lambda$ (e.g., $\\lambda = 2$ implies that losses weigh twice as much as gains), diminishing sensitivity to the size of outcomes (i.e., the curvature and linearity of the value function), and the nonlinear weighting of probabilities. I examined whether Large Language Models (LLMs) display the same properties as people by meta-analyzing 102 fitted estimates from 11 studies covering 32 language models. The three components emerge differently. Loss aversion is modest: the pooled $\\lambda$ is 1.26 (95% CI 1.06 to 1.46), far below the strongest human meta-analytic estimate ($\\lambda = 1.96$) and compatible with more conservative ones (1.07 and 1.31). Matched by design, LLMs are compatible with people when gains and losses are symmetric ($\\lambda = 1.15$ against 1.07), but well below them when losses are smaller than gains (1.46 against 2.3), where human loss aversion is strongest. Value functions are close to linear rather than concave under the Tversky-Kahneman method (1.01, against a human value of 0.67), but more concave than in people under the Tanaka method (0.52, against 0.67), so diminishing sensitivity depends on how it is measured. Probability weighting shows a human-like inverse S shape ($\\gamma = 0.81$ under Tversky-Kahneman and 0.84 under the Tanaka method), though on few studies. In sum, LLMs show little loss aversion and little diminishing sensitivity, but retain human-like probability distortion, yet these generalizations shift when looking at specific model families and fitting methods.",
+      "pub_date": "Tue, 27 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "大语言模型中的前景理论：损失厌恶、敏感性递减与概率权重的元分析",
+        "summary": "该元分析汇总11项研究、32个语言模型的102个拟合估计，考察LLM是否呈现前景理论三大特征。结果显示：LLM损失厌恶较弱（合并λ=1.26，低于人类最强估计1.96）；价值函数接近线性，敏感性递减依测量方法而异；概率权重呈类人倒S形（γ≈0.81–0.84）。",
+        "summary_en": "This meta-analysis pools 102 fitted estimates from 11 studies covering 32 language models to test whether LLMs exhibit prospect-theory properties. LLMs show modest loss aversion (pooled λ=1.26 vs. human 1.96), near-linear value functions with method-dependent diminishing sensitivity, but human-like inverse-S probability weighting (γ≈0.81–0.84).",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-27-rss-003",
+        "title": "大语言模型中的前景理论：损失厌恶、敏感性递减与概率权重的元分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.33103",
+        "language": "en",
+        "summary": "该元分析汇总11项研究、32个语言模型的102个拟合估计，考察LLM是否呈现前景理论三大特征。结果显示：LLM损失厌恶较弱（合并λ=1.26，低于人类最强估计1.96）；价值函数接近线性，敏感性递减依测量方法而异；概率权重呈类人倒S形（γ≈0.81–0.84）。",
+        "summary_en": "This meta-analysis pools 102 fitted estimates from 11 studies covering 32 language models to test whether LLMs exhibit prospect-theory properties. LLMs show modest loss aversion (pooled λ=1.26 vs. human 1.96), near-linear value functions with method-dependent diminishing sensitivity, but human-like inverse-S probability weighting (γ≈0.81–0.84).",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-27T21:56:28.218117+08:00",
+        "updated_at": "2026-10-27T21:56:28.218119+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Artificial Intelligence in Mechanical Engineering: Foundations, Opportunities, Challenges, and Responsibilities",
+      "url": "https://arxiv.org/abs/2610.33105",
+      "description": "arXiv:2610.33105v1 Announce Type: new \nAbstract: Artificial intelligence (AI) is reshaping mechanical engineering (ME), from modeling, simulation, and optimization to diagnostics, design, and technical communication. Drawing on a round-table at the 28th ABCM International Congress on Mechanical Engineering (COBEM 2025), this article presents a structured perspective for the Brazilian and international ME communities. Rather than an exhaustive survey, it examines how AI can enhance engineering practice without compromising scientific rigor. We distinguish statistical learning from human cognition and discuss the capabilities, limitations, and emerging agentic forms of AI. We then consider industrial adoption, workforce changes, and AI-assisted scientific discovery, alongside the energy and infrastructure demands of AI computation and their implications for sustainability and thermal management. The discussion emphasizes the integration of physical knowledge, structured reasoning, and domain expertise into AI systems, particularly in safety-relevant applications. Topics include physics-informed and hybrid learning, physically constrained modeling, validation, uncertainty quantification, and certification. We also examine educational, epistemological, and ethical challenges, including curriculum reform, human-agent collaboration, professional accountability, and the preservation of engineering knowledge. We conclude with principles for responsible AI adoption in ME: physical consistency, rigorous validation, explicit treatment of uncertainty, energy sustainability, human oversight, and ethical responsibility. AI should complement, not replace, engineering judgment.",
+      "pub_date": "Tue, 27 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "人工智能在机械工程中的应用：基础、机遇、挑战与责任",
+        "summary": "该文基于COBEM 2025圆桌讨论，系统梳理AI在机械工程建模、仿真、优化与诊断中的应用，区分统计学习与人类认知，探讨工业采纳、物理约束建模、验证与不确定性量化、认证、能源可持续性及伦理责任，强调AI应补充而非替代工程判断。",
+        "summary_en": "Based on a round-table at COBEM 2025, this article examines how AI enhances mechanical engineering practice—modeling, simulation, optimization, diagnostics—while distinguishing statistical learning from human cognition. It covers industrial adoption, physics-informed and hybrid learning, validation, uncertainty quantification, certification, energy sustainability, and ethical responsibility, concluding that AI should complement, not replace, engineering judgment.",
+        "tags": [
+          "research",
+          "application",
+          "evaluation",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-27-rss-007",
+        "title": "人工智能在机械工程中的应用：基础、机遇、挑战与责任",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.33105",
+        "language": "en",
+        "summary": "该文基于COBEM 2025圆桌讨论，系统梳理AI在机械工程建模、仿真、优化与诊断中的应用，区分统计学习与人类认知，探讨工业采纳、物理约束建模、验证与不确定性量化、认证、能源可持续性及伦理责任，强调AI应补充而非替代工程判断。",
+        "summary_en": "Based on a round-table at COBEM 2025, this article examines how AI enhances mechanical engineering practice—modeling, simulation, optimization, diagnostics—while distinguishing statistical learning from human cognition. It covers industrial adoption, physics-informed and hybrid learning, validation, uncertainty quantification, certification, energy sustainability, and ethical responsibility, concluding that AI should complement, not replace, engineering judgment.",
+        "tags": [
+          "research",
+          "application",
+          "evaluation",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-10-27T21:56:28.218134+08:00",
+        "updated_at": "2026-10-27T21:56:28.218136+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Conformance as a Distribution: Delegation Contracts, Error Budgets, and the Allocation of Evaluation Authority in Use-Based AI Regulation",
+      "url": "https://arxiv.org/abs/2610.33112",
+      "description": "arXiv:2610.33112v1 Announce Type: new \nAbstract: Use-based AI regulation assigns obligations by deployment risk but lacks an evidentiary object to carry them. A benchmark score is a property of a model; conformance of a deployment is a failure rate under a declared distribution of contexts, bounded by a scope and subject to expiry. We take the delegation contract of earlier work (frozen configuration, scoped claim, executable revision rule) and study it under strategic play between a deployer, an auditor, and an enforcement point. We ask whether a declared context mixture can be made truthful; whether an audit can be unbiased against a system that detects evaluation traffic; whether a certification error budget can sustain a long-lived deployment; whether an aggregate audit can support a per-subgroup guarantee; and whether an incident metric that counts system failures but not fallback costs ranks arrangements correctly. For each we give a mechanism and a proposition: a proper-scoring penalty on the declared mixture bounds the excess failure of a best-responding deployer by $O(\\lambda^{-1/2})$ in the penalty weight; a commit-reveal audit drawn from live traffic is unbiased by construction and grades the evaluator with the same sample; a halving error budget drives certification coverage below $(1-p)^n$ while $\\alpha$-investing sustains it under a marginal false-certification guarantee; a per-subgroup guarantee costs audit size scaling as $1/m$ in subgroup mass; and any failure-only incident metric prefers withdrawal at every fallback cost, even when total loss ranks the arrangements oppositely. Five preregistered synthetic studies test each claim; no language model or production system is evaluated. Enforcement sits at distribution, capability-access, monetization and risk-transfer choke points, expiry of the conformance record is a standard of care, and conformance-as-a-rate is set against the EU AI Act's static conformity assessment.",
+      "pub_date": "Tue, 27 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "一致性作为分布：委托契约、错误预算与基于用途的AI监管中的评估权分配",
+        "summary": "论文提出将AI部署的\"一致性\"定义为在声明上下文分布下的失败率，而非模型属性，并研究部署者、审计者与执法方之间的策略博弈。给出五个机制与命题：适当评分惩罚约束部署者超额失败、提交-揭示审计无偏、α投资维持长期认证覆盖、子群保证的审计规模随子群质量按1/m缩放、仅计失败的指标会错误偏好撤回。",
+        "summary_en": "The paper reframes AI deployment conformance as a failure rate under a declared context distribution rather than a model property, and studies strategic play among deployer, auditor, and enforcement point. It offers five mechanisms with propositions: a proper-scoring penalty bounds deployer excess failure, commit-reveal auditing is unbiased by construction, alpha-investing sustains long-lived certification, per-subgroup guarantees cost audit size scaling as 1/m, and failure-only incident metrics wrongly prefer withdrawal.",
+        "tags": [
+          "research",
+          "evaluation",
+          "benchmark",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-27-rss-006",
+        "title": "一致性作为分布：委托契约、错误预算与基于用途的AI监管中的评估权分配",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.33112",
+        "language": "en",
+        "summary": "论文提出将AI部署的\"一致性\"定义为在声明上下文分布下的失败率，而非模型属性，并研究部署者、审计者与执法方之间的策略博弈。给出五个机制与命题：适当评分惩罚约束部署者超额失败、提交-揭示审计无偏、α投资维持长期认证覆盖、子群保证的审计规模随子群质量按1/m缩放、仅计失败的指标会错误偏好撤回。",
+        "summary_en": "The paper reframes AI deployment conformance as a failure rate under a declared context distribution rather than a model property, and studies strategic play among deployer, auditor, and enforcement point. It offers five mechanisms with propositions: a proper-scoring penalty bounds deployer excess failure, commit-reveal auditing is unbiased by construction, alpha-investing sustains long-lived certification, per-subgroup guarantees cost audit size scaling as 1/m, and failure-only incident metrics wrongly prefer withdrawal.",
+        "tags": [
+          "research",
+          "evaluation",
+          "benchmark",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-10-27T21:56:28.218130+08:00",
+        "updated_at": "2026-10-27T21:56:28.218131+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Whispering Wisely: Smart Subset Selection for ASR Fine-Tuning",
+      "url": "https://arxiv.org/abs/2610.32997",
+      "description": "arXiv:2610.32997v1 Announce Type: new \nAbstract: Automatic Speech Recognition (ASR) models such as OpenAIs Whisper have substantially improved speech recognition quality but remain expensive to fine-tune, especially when large amounts of transcribed audio are available. This makes it challenging for many practitioners to adapt these models to new languages or domains. In this work, we introduce an embedding-based subset selection approach for selecting smaller training sets for ASR fine-tuning. Using Whispers pretrained encoder, we map each audio sample into a fixed-dimensional embedding space and apply a greedy k-center algorithm to select diverse and representative subsets of the training data. We evaluate this approach on both Hebrew and Danish, showing that k-center selection often improves upon random sampling, particularly at smaller subset sizes. An analysis of lexical diversity reveals that k-center subsets capture a broader range of linguistic content than random subsets of the same size, which may help explain their observed effectiveness. Overall, our results demonstrate that embedding-based subset selection provides a practical strategy for ASR subset selection in the two evaluated languages, with the clearest recognition benefits observed at smaller sample budgets.",
+      "pub_date": "Tue, 27 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Whispering Wisely：面向ASR微调的智能子集选择",
+        "summary": "该研究提出一种基于嵌入的子集选择方法，利用Whisper预训练编码器将音频样本映射到固定维度嵌入空间，并用贪心k-center算法挑选多样且具代表性的训练子集，以降低ASR微调成本。在希伯来语和丹麦语上的实验表明，k-center选择在较小样本预算下常优于随机采样，且所选子集覆盖更广的语言内容。",
+        "summary_en": "This work introduces an embedding-based subset selection approach for ASR fine-tuning, using Whisper's pretrained encoder to map audio samples into a fixed-dimensional space and a greedy k-center algorithm to pick diverse, representative training subsets. Evaluated on Hebrew and Danish, k-center selection often outperforms random sampling, especially at smaller subset sizes, and captures broader lexical diversity.",
+        "tags": [
+          "fine-tuning",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-27-rss-005",
+        "title": "Whispering Wisely：面向ASR微调的智能子集选择",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.32997",
+        "language": "en",
+        "summary": "该研究提出一种基于嵌入的子集选择方法，利用Whisper预训练编码器将音频样本映射到固定维度嵌入空间，并用贪心k-center算法挑选多样且具代表性的训练子集，以降低ASR微调成本。在希伯来语和丹麦语上的实验表明，k-center选择在较小样本预算下常优于随机采样，且所选子集覆盖更广的语言内容。",
+        "summary_en": "This work introduces an embedding-based subset selection approach for ASR fine-tuning, using Whisper's pretrained encoder to map audio samples into a fixed-dimensional space and a greedy k-center algorithm to pick diverse, representative training subsets. Evaluated on Hebrew and Danish, k-center selection often outperforms random sampling, especially at smaller subset sizes, and captures broader lexical diversity.",
+        "tags": [
+          "fine-tuning",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-10-27T21:56:28.218126+08:00",
+        "updated_at": "2026-10-27T21:56:28.218127+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "From Writing Advice to Manuscript Governance: A Constrained-Transformation Framework for Academic Revision",
+      "url": "https://arxiv.org/abs/2610.33001",
+      "description": "arXiv:2610.33001v1 Announce Type: new \nAbstract: Academic revision presents a governance problem when legitimate writing objectives conflict. Writing-process and social-science research show that revision is recursive and that wording carries epistemic and disciplinary commitments. Those literatures identify important constraints but do not settle which objective should prevail when concision, outlet form or stylistic variation conflicts with evidence and claim boundaries. This paper models revision as an admissibility problem under ordered constraints. Task-relative invariants, contextual constraints and mutable presentation choices define the admissible space; a claim-preservation contract links evidence and judgement to an authorised claim boundary. Four governance propositions specify preservation, precedence, context and sufficiency. The Academic Writing Filter implements the model by screening candidate revisions; it is not a universal definition or classifier of good academic writing. The contribution is a technology-independent mechanism for changing presentation without silently changing the research argument.",
+      "pub_date": "Tue, 27 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从写作建议到稿件治理：学术修订的约束转换框架",
+        "summary": "该论文将学术修订建模为有序约束下的可接受性问题，提出任务相关不变量、上下文约束与可变表述选择构成可接受空间，并通过主张保留契约连接证据与判断。作者提出四项治理命题，并实现学术写作过滤器以筛选候选修订，旨在不悄然改变研究论证的前提下调整表述。",
+        "summary_en": "This paper models academic revision as an admissibility problem under ordered constraints, where task-relative invariants, contextual constraints, and mutable presentation choices define the admissible space, and a claim-preservation contract links evidence to an authorised claim boundary. It specifies four governance propositions and implements an Academic Writing Filter that screens candidate revisions, aiming to change presentation without silently changing the research argument.",
+        "tags": [
+          "research",
+          "evaluation",
+          "prompt-engineering",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.35,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-27-rss-010",
+        "title": "从写作建议到稿件治理：学术修订的约束转换框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.33001",
+        "language": "en",
+        "summary": "该论文将学术修订建模为有序约束下的可接受性问题，提出任务相关不变量、上下文约束与可变表述选择构成可接受空间，并通过主张保留契约连接证据与判断。作者提出四项治理命题，并实现学术写作过滤器以筛选候选修订，旨在不悄然改变研究论证的前提下调整表述。",
+        "summary_en": "This paper models academic revision as an admissibility problem under ordered constraints, where task-relative invariants, contextual constraints, and mutable presentation choices define the admissible space, and a claim-preservation contract links evidence to an authorised claim boundary. It specifies four governance propositions and implements an Academic Writing Filter that screens candidate revisions, aiming to change presentation without silently changing the research argument.",
+        "tags": [
+          "research",
+          "evaluation",
+          "prompt-engineering",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.35,
+        "status": "published",
+        "created_at": "2026-10-27T21:56:28.218147+08:00",
+        "updated_at": "2026-10-27T21:56:28.218148+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Entity-Aware Evaluation of OCR Systems for Historical Document Transcription",
+      "url": "https://arxiv.org/abs/2610.33004",
+      "description": "arXiv:2610.33004v1 Announce Type: new \nAbstract: Optical Character Recognition (OCR) is essential for digitizing historical archives, yet standard evaluation metrics such as Character Error Rate (CER) do not necessarily reflect whether meaningful information, such as names, dates, and identifiers, is preserved. In this work, we investigate entitylevel analysis of OCR errors as a complementary perspective for evaluating OCR quality in historical documents. Using a publicly available benchmark of 175 documents from the Berrutti Archive, augmented with 5,209 manually annotated entity mentions that will be released upon acceptance, we compare sequence-recognition OCR systems, OCR-specialized vision-language models, and general-purpose vision-language models. Beyond global transcription accuracy, we analyze entity preservation and recoverability under varying character-level edit tolerances. Our experiments show that OCR rankings depend on the evaluation criterion: while Qwen 3.6 achieves the highest entity coverage across all tested tolerances, several systems with lower exact-match coverage recover substantially when small errors are tolerated, suggesting that many of their errors correspond to localized character-level deviations rather than fundamentally incorrect entity transcriptions. Conversely, some systems remain unable to recover many entities even under relaxed matching. These findings show that OCR quality cannot be fully characterized by aggregate transcription metrics alone and highlight the importance of evaluating how OCR errors affect the preservation and recoverability of meaningful information.",
+      "pub_date": "Tue, 27 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "历史文献转录OCR系统的实体感知评估",
+        "summary": "该研究提出以实体级分析补充传统OCR评估指标，基于Berrutti档案175份文档及5209个实体标注，比较序列识别OCR、OCR专用视觉语言模型与通用视觉语言模型。结果显示OCR系统排名随评估标准变化，Qwen 3.6实体覆盖率最高，部分系统在容忍小误差后恢复显著，说明聚合转录指标不足以全面刻画OCR质量。",
+        "summary_en": "This work proposes entity-level analysis as a complement to standard OCR metrics, using 175 Berrutti Archive documents with 5,209 annotated entity mentions to compare sequence-recognition OCR, OCR-specialized VLMs, and general-purpose VLMs. OCR rankings shift with the evaluation criterion: Qwen 3.6 achieves the highest entity coverage, and several systems recover substantially under relaxed matching, showing aggregate transcription metrics alone cannot fully characterize OCR quality.",
+        "tags": [
+          "evaluation",
+          "benchmark",
+          "multimodal",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-27-rss-008",
+        "title": "历史文献转录OCR系统的实体感知评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.33004",
+        "language": "en",
+        "summary": "该研究提出以实体级分析补充传统OCR评估指标，基于Berrutti档案175份文档及5209个实体标注，比较序列识别OCR、OCR专用视觉语言模型与通用视觉语言模型。结果显示OCR系统排名随评估标准变化，Qwen 3.6实体覆盖率最高，部分系统在容忍小误差后恢复显著，说明聚合转录指标不足以全面刻画OCR质量。",
+        "summary_en": "This work proposes entity-level analysis as a complement to standard OCR metrics, using 175 Berrutti Archive documents with 5,209 annotated entity mentions to compare sequence-recognition OCR, OCR-specialized VLMs, and general-purpose VLMs. OCR rankings shift with the evaluation criterion: Qwen 3.6 achieves the highest entity coverage, and several systems recover substantially under relaxed matching, showing aggregate transcription metrics alone cannot fully characterize OCR quality.",
+        "tags": [
+          "evaluation",
+          "benchmark",
+          "multimodal",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-10-27T21:56:28.218138+08:00",
+        "updated_at": "2026-10-27T21:56:28.218140+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "OpenESM: Energy-Steered Models Are Scalable Foundation Learners",
+      "url": "https://arxiv.org/abs/2610.33005",
+      "description": "arXiv:2610.33005v1 Announce Type: new \nAbstract: Energy-based models have shown promising properties for domain-specific tasks but remain challenging in modeling general-purpose scenarios. To bridge this gap, we design energy-steered models (ESMs) for foundational language modeling. ESMs integrate energy steering and token generation within a single architecture to leverage the energy-guided search to refine token generation. Specifically, ESMs first optimize a latent state over the energy landscape, then leverages the refined latent state for token generation. By performing such energy-guided pre-training on large-scale corpora, ESMs learn generally effective energy landscape where favorable tokens correspond to lower energy values. To explore the scaling behavior of ESMs, we pre-train ESMs on three large-scale corpora, then evaluate across 26 downstream tasks spanning a broad range of domains. Our results demonstrate that ESMs have promising scaling behaviors with increasing model size and training data, and outperform GPTs on most downstream tasks. These findings highlight ESMs as a promising architecture for large-scale pre-training and general purpose problem solving. We fully release the model weights and training infrastructure to enable the community to completely reproduce and extend our results.\n  GitHub: https://github.com/datamllab/openesm HuggingFace: https://huggingface.co/collections/guan-wang/openesm",
+      "pub_date": "Tue, 27 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "OpenESM：能量引导模型是可扩展的基础学习器",
+        "summary": "提出能量引导模型（ESM），将能量引导与token生成整合到单一架构中，先优化能量景观上的潜在状态再生成token，在三个大规模语料上预训练并在26个下游任务上评估，多数任务超越GPT，且开源模型权重与训练基础设施。",
+        "summary_en": "Introduces Energy-Steered Models (ESMs) that integrate energy steering and token generation in one architecture, optimizing a latent state over an energy landscape before generating tokens. Pre-trained on three large corpora and evaluated on 26 downstream tasks, ESMs show promising scaling behavior and outperform GPTs on most tasks; weights and training infrastructure are fully open-sourced.",
+        "tags": [
+          "llm",
+          "research",
+          "open-source",
+          "benchmark"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-27-rss-001",
+        "title": "OpenESM：能量引导模型是可扩展的基础学习器",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.33005",
+        "language": "en",
+        "summary": "提出能量引导模型（ESM），将能量引导与token生成整合到单一架构中，先优化能量景观上的潜在状态再生成token，在三个大规模语料上预训练并在26个下游任务上评估，多数任务超越GPT，且开源模型权重与训练基础设施。",
+        "summary_en": "Introduces Energy-Steered Models (ESMs) that integrate energy steering and token generation in one architecture, optimizing a latent state over an energy landscape before generating tokens. Pre-trained on three large corpora and evaluated on 26 downstream tasks, ESMs show promising scaling behavior and outperform GPTs on most tasks; weights and training infrastructure are fully open-sourced.",
+        "tags": [
+          "llm",
+          "research",
+          "open-source",
+          "benchmark"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-27T21:56:28.218105+08:00",
+        "updated_at": "2026-10-27T21:56:28.218109+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Linear-Time Context Compression with State-Space Encoding",
+      "url": "https://arxiv.org/abs/2610.33006",
+      "description": "arXiv:2610.33006v1 Announce Type: new \nAbstract: Transformer-based large language models (LLMs) impose substantial computation and memory costs as context sizes increase, motivating methods that compress a context into a shorter representation before inference. Existing soft-prompt compression methods typically use the same Transformer backbone as used in the target model, where producing the compressed representation leads to significant latency overheads. This restricts them to the offline setting where context is compressed once and then reused across many queries. We propose the Boa Compressor, a plug-and-play online context compressor built on a Mamba state-space model (SSM) that encodes arbitrary-length context in a single linear-time pass, producing a representation on which we condition a frozen target LLM. The SSM is trained by distillation, matching the next-token logit distribution from the LLM ingesting the full context (as teacher) to the same LLM ingesting the compressed representation (as the student). At equal compression ratios, Boa matches or surpasses the performance of existing state-of-the-art offline compression baselines, while being an order of magnitude faster than Transformer-based implementations, thereby reducing end-to-end latency rather than adding compression time overhead. We demonstrate that Boa also scales well to longer contexts and to compression ratios as aggressive as 16x. By enabling effective compression that is cheap enough to run on every query at inference time, Boa becomes a practical and general tool for efficient long-context inference.",
+      "pub_date": "Tue, 27 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "线性时间上下文压缩：基于状态空间编码的Boa压缩器",
+        "summary": "提出Boa压缩器，基于Mamba状态空间模型，单次线性时间编码任意长度上下文，通过蒸馏训练匹配完整上下文下的LLM输出分布。压缩比相同时性能媲美或超越离线压缩基线，速度提升一个数量级，支持16倍压缩，可在线逐查询运行。",
+        "summary_en": "Proposes Boa Compressor, a plug-and-play online context compressor built on a Mamba state-space model that encodes arbitrary-length context in a single linear-time pass. Trained via distillation to match the target LLM's next-token distribution, it matches or surpasses offline compression baselines at equal ratios while being an order of magnitude faster, scaling to 16x compression and enabling per-query online compression.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-27-rss-002",
+        "title": "线性时间上下文压缩：基于状态空间编码的Boa压缩器",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.33006",
+        "language": "en",
+        "summary": "提出Boa压缩器，基于Mamba状态空间模型，单次线性时间编码任意长度上下文，通过蒸馏训练匹配完整上下文下的LLM输出分布。压缩比相同时性能媲美或超越离线压缩基线，速度提升一个数量级，支持16倍压缩，可在线逐查询运行。",
+        "summary_en": "Proposes Boa Compressor, a plug-and-play online context compressor built on a Mamba state-space model that encodes arbitrary-length context in a single linear-time pass. Trained via distillation to match the target LLM's next-token distribution, it matches or surpasses offline compression baselines at equal ratios while being an order of magnitude faster, scaling to 16x compression and enabling per-query online compression.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "llm",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-27T21:56:28.218113+08:00",
+        "updated_at": "2026-10-27T21:56:28.218114+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

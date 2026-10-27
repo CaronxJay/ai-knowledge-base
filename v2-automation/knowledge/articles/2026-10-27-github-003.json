@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-27-github-003",
+  "title": "AI-ML-HANDBOOK：全面的AI/ML/GenAI学习手册",
+  "source": "github_trending",
+  "source_url": "https://github.com/MokshFF/AI-ML-HANDBOOK",
+  "language": "en",
+  "summary": "该GitHub仓库是一份综合性AI/ML/GenAI学习手册，涵盖Python、数学、机器学习、深度学习、NLP、计算机视觉、LLM、RAG、AI智能体、MLOps、系统设计、实战项目、研究论文与面试准备，配有实用代码、Jupyter笔记本和结构化学习路线图。",
+  "summary_en": "A comprehensive AI/ML/GenAI handbook covering Python, math, machine learning, deep learning, NLP, computer vision, LLMs, RAG, AI agents, MLOps, system design, hands-on projects, research papers, and interview prep, with practical code, Jupyter notebooks, and structured learning roadmaps.",
+  "tags": [
+    "llm",
+    "rag",
+    "agent-framework",
+    "open-source",
+    "python"
+  ],
+  "category": "application",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-10-27T21:56:28.215838+08:00",
+  "updated_at": "2026-10-27T21:56:28.215840+08:00",
+  "metadata": {
+    "stars": 1,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

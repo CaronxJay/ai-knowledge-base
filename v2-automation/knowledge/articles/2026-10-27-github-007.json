@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-27-github-007",
+  "title": "AI工程师个人作品集仓库",
+  "source": "github_trending",
+  "source_url": "https://github.com/ritikmishra004/ritik-mishra-portfolio",
+  "language": "en",
+  "summary": "这是一个AI工程师的个人作品集网站，展示其在机器学习、深度学习、生成式AI、RAG、LLM和Agentic AI方面的项目与技能，使用TypeScript构建。",
+  "summary_en": "An AI engineer's personal portfolio site showcasing projects and skills in machine learning, deep learning, generative AI, RAG, LLMs, and agentic AI, built with TypeScript.",
+  "tags": [
+    "application",
+    "rag",
+    "llm",
+    "agent-framework",
+    "javascript"
+  ],
+  "category": "application",
+  "relevance_score": 0.3,
+  "status": "published",
+  "created_at": "2026-10-27T21:56:28.215856+08:00",
+  "updated_at": "2026-10-27T21:56:28.215857+08:00",
+  "metadata": {
+    "stars": 0,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-27-rss-009",
+  "title": "惯性约束聚变中激光脉冲波形设计的逆向建模",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.33096",
+  "language": "en",
+  "summary": "提出LPDS生成式逆向建模框架，将期望结果与靶丸配置直接映射为优化的激光脉冲波形，设计多目标损失函数满足物理约束，并提供约束条件化、修复和基于梯度的编辑机制实现细粒度控制。",
+  "summary_en": "Introduces LPDS, a generative inverse modeling framework that maps desired outcomes and target pellet configurations directly to optimized laser pulse shapes, with a multi-objective loss enforcing physical constraints and constraint-conditioning, inpainting, and gradient-based editing for fine-grained control.",
+  "tags": [
+    "research",
+    "application",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.35,
+  "status": "published",
+  "created_at": "2026-10-27T21:56:28.218142+08:00",
+  "updated_at": "2026-10-27T21:56:28.218144+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

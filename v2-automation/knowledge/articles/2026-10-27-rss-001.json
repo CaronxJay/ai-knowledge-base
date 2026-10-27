@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-27-rss-001",
+  "title": "OpenESM：能量引导模型是可扩展的基础学习器",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.33005",
+  "language": "en",
+  "summary": "提出能量引导模型（ESM），将能量引导与token生成整合到单一架构中，先优化能量景观上的潜在状态再生成token，在三个大规模语料上预训练并在26个下游任务上评估，多数任务超越GPT，且开源模型权重与训练基础设施。",
+  "summary_en": "Introduces Energy-Steered Models (ESMs) that integrate energy steering and token generation in one architecture, optimizing a latent state over an energy landscape before generating tokens. Pre-trained on three large corpora and evaluated on 26 downstream tasks, ESMs show promising scaling behavior and outperform GPTs on most tasks; weights and training infrastructure are fully open-sourced.",
+  "tags": [
+    "llm",
+    "research",
+    "open-source",
+    "benchmark"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-27T21:56:28.218105+08:00",
+  "updated_at": "2026-10-27T21:56:28.218109+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

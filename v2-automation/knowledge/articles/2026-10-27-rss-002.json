@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-27-rss-002",
+  "title": "线性时间上下文压缩：基于状态空间编码的Boa压缩器",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.33006",
+  "language": "en",
+  "summary": "提出Boa压缩器，基于Mamba状态空间模型，单次线性时间编码任意长度上下文，通过蒸馏训练匹配完整上下文下的LLM输出分布。压缩比相同时性能媲美或超越离线压缩基线，速度提升一个数量级，支持16倍压缩，可在线逐查询运行。",
+  "summary_en": "Proposes Boa Compressor, a plug-and-play online context compressor built on a Mamba state-space model that encodes arbitrary-length context in a single linear-time pass. Trained via distillation to match the target LLM's next-token distribution, it matches or surpasses offline compression baselines at equal ratios while being an order of magnitude faster, scaling to 16x compression and enabling per-query online compression.",
+  "tags": [
+    "llm",
+    "research",
+    "infrastructure",
+    "evaluation"
+  ],
+  "category": "llm",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-27T21:56:28.218113+08:00",
+  "updated_at": "2026-10-27T21:56:28.218114+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

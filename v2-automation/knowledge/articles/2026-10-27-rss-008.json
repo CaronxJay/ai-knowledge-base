@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-27-rss-008",
+  "title": "历史文献转录OCR系统的实体感知评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.33004",
+  "language": "en",
+  "summary": "该研究提出以实体级分析补充传统OCR评估指标，基于Berrutti档案175份文档及5209个实体标注，比较序列识别OCR、OCR专用视觉语言模型与通用视觉语言模型。结果显示OCR系统排名随评估标准变化，Qwen 3.6实体覆盖率最高，部分系统在容忍小误差后恢复显著，说明聚合转录指标不足以全面刻画OCR质量。",
+  "summary_en": "This work proposes entity-level analysis as a complement to standard OCR metrics, using 175 Berrutti Archive documents with 5,209 annotated entity mentions to compare sequence-recognition OCR, OCR-specialized VLMs, and general-purpose VLMs. OCR rankings shift with the evaluation criterion: Qwen 3.6 achieves the highest entity coverage, and several systems recover substantially under relaxed matching, showing aggregate transcription metrics alone cannot fully characterize OCR quality.",
+  "tags": [
+    "evaluation",
+    "benchmark",
+    "multimodal",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-10-27T21:56:28.218138+08:00",
+  "updated_at": "2026-10-27T21:56:28.218140+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

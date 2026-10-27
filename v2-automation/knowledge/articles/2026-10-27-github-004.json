@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-27-github-004",
+  "title": "spider-intelligence：开源本地优先AI助手项目",
+  "source": "github_trending",
+  "source_url": "https://github.com/mangakinghindiofficialanimes-lang/spider-intelligence",
+  "language": "en",
+  "summary": "这是一个基于TypeScript的开源AI助手项目，主打本地优先与隐私保护，集成LLM、语音助手、多模态与AI编排等功能，定位类似Jarvis的个人智能体平台。",
+  "summary_en": "An open-source, local-first and privacy-first AI assistant project built in TypeScript, integrating LLMs, voice assistance, multimodal AI and agent orchestration into a Jarvis-like personal AI platform.",
+  "tags": [
+    "agent-framework",
+    "open-source",
+    "llm",
+    "multimodal",
+    "tool"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-10-27T21:56:28.215843+08:00",
+  "updated_at": "2026-10-27T21:56:28.215845+08:00",
+  "metadata": {
+    "stars": 1,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

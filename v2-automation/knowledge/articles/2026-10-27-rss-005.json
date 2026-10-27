@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-27-rss-005",
+  "title": "Whispering Wisely：面向ASR微调的智能子集选择",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.32997",
+  "language": "en",
+  "summary": "该研究提出一种基于嵌入的子集选择方法，利用Whisper预训练编码器将音频样本映射到固定维度嵌入空间，并用贪心k-center算法挑选多样且具代表性的训练子集，以降低ASR微调成本。在希伯来语和丹麦语上的实验表明，k-center选择在较小样本预算下常优于随机采样，且所选子集覆盖更广的语言内容。",
+  "summary_en": "This work introduces an embedding-based subset selection approach for ASR fine-tuning, using Whisper's pretrained encoder to map audio samples into a fixed-dimensional space and a greedy k-center algorithm to pick diverse, representative training subsets. Evaluated on Hebrew and Danish, k-center selection often outperforms random sampling, especially at smaller subset sizes, and captures broader lexical diversity.",
+  "tags": [
+    "fine-tuning",
+    "research",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-10-27T21:56:28.218126+08:00",
+  "updated_at": "2026-10-27T21:56:28.218127+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

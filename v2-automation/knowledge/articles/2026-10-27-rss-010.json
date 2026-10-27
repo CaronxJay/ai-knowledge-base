@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-27-rss-010",
+  "title": "从写作建议到稿件治理：学术修订的约束转换框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.33001",
+  "language": "en",
+  "summary": "该论文将学术修订建模为有序约束下的可接受性问题，提出任务相关不变量、上下文约束与可变表述选择构成可接受空间，并通过主张保留契约连接证据与判断。作者提出四项治理命题，并实现学术写作过滤器以筛选候选修订，旨在不悄然改变研究论证的前提下调整表述。",
+  "summary_en": "This paper models academic revision as an admissibility problem under ordered constraints, where task-relative invariants, contextual constraints, and mutable presentation choices define the admissible space, and a claim-preservation contract links evidence to an authorised claim boundary. It specifies four governance propositions and implements an Academic Writing Filter that screens candidate revisions, aiming to change presentation without silently changing the research argument.",
+  "tags": [
+    "research",
+    "evaluation",
+    "prompt-engineering",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.35,
+  "status": "published",
+  "created_at": "2026-10-27T21:56:28.218147+08:00",
+  "updated_at": "2026-10-27T21:56:28.218148+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

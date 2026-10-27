@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-27-rss-006",
+  "title": "一致性作为分布：委托契约、错误预算与基于用途的AI监管中的评估权分配",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.33112",
+  "language": "en",
+  "summary": "论文提出将AI部署的\"一致性\"定义为在声明上下文分布下的失败率，而非模型属性，并研究部署者、审计者与执法方之间的策略博弈。给出五个机制与命题：适当评分惩罚约束部署者超额失败、提交-揭示审计无偏、α投资维持长期认证覆盖、子群保证的审计规模随子群质量按1/m缩放、仅计失败的指标会错误偏好撤回。",
+  "summary_en": "The paper reframes AI deployment conformance as a failure rate under a declared context distribution rather than a model property, and studies strategic play among deployer, auditor, and enforcement point. It offers five mechanisms with propositions: a proper-scoring penalty bounds deployer excess failure, commit-reveal auditing is unbiased by construction, alpha-investing sustains long-lived certification, per-subgroup guarantees cost audit size scaling as 1/m, and failure-only incident metrics wrongly prefer withdrawal.",
+  "tags": [
+    "research",
+    "evaluation",
+    "benchmark",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-10-27T21:56:28.218130+08:00",
+  "updated_at": "2026-10-27T21:56:28.218131+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

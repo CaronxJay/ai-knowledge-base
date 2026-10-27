@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-27-rss-007",
+  "title": "人工智能在机械工程中的应用：基础、机遇、挑战与责任",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.33105",
+  "language": "en",
+  "summary": "该文基于COBEM 2025圆桌讨论，系统梳理AI在机械工程建模、仿真、优化与诊断中的应用，区分统计学习与人类认知，探讨工业采纳、物理约束建模、验证与不确定性量化、认证、能源可持续性及伦理责任，强调AI应补充而非替代工程判断。",
+  "summary_en": "Based on a round-table at COBEM 2025, this article examines how AI enhances mechanical engineering practice—modeling, simulation, optimization, diagnostics—while distinguishing statistical learning from human cognition. It covers industrial adoption, physics-informed and hybrid learning, validation, uncertainty quantification, certification, energy sustainability, and ethical responsibility, concluding that AI should complement, not replace, engineering judgment.",
+  "tags": [
+    "research",
+    "application",
+    "evaluation",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-10-27T21:56:28.218134+08:00",
+  "updated_at": "2026-10-27T21:56:28.218136+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

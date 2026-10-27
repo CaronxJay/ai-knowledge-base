@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-27-rss-003",
+  "title": "大语言模型中的前景理论：损失厌恶、敏感性递减与概率权重的元分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.33103",
+  "language": "en",
+  "summary": "该元分析汇总11项研究、32个语言模型的102个拟合估计，考察LLM是否呈现前景理论三大特征。结果显示：LLM损失厌恶较弱（合并λ=1.26，低于人类最强估计1.96）；价值函数接近线性，敏感性递减依测量方法而异；概率权重呈类人倒S形（γ≈0.81–0.84）。",
+  "summary_en": "This meta-analysis pools 102 fitted estimates from 11 studies covering 32 language models to test whether LLMs exhibit prospect-theory properties. LLMs show modest loss aversion (pooled λ=1.26 vs. human 1.96), near-linear value functions with method-dependent diminishing sensitivity, but human-like inverse-S probability weighting (γ≈0.81–0.84).",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-27T21:56:28.218117+08:00",
+  "updated_at": "2026-10-27T21:56:28.218119+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

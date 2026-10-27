@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-27-rss-004",
+  "title": "IRON-Meme：在线模因叙事中身份与角色结构化理解基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.33097",
+  "language": "en",
+  "summary": "该研究提出基于社会科学理论的框架，涵盖社会身份、观点和叙事角色三类，并构建IRON-Meme基准，包含1110个政治模因、覆盖更多模板。分析显示多数模因赋予贬损角色，身份、角色与模板系统性关联；九个视觉语言模型评测表明前沿与推理模型表现最佳，稀有标签准确率下降，引入模板背景知识未提升叙事角色分类。",
+  "summary_en": "The paper introduces a social-science-grounded framework covering social identities, viewpoints, and narrative roles, and presents IRON-Meme, a human-annotated benchmark of 1,110 political memes spanning more templates than prior work. Analysis shows most memes assign derogatory roles and that identities, roles, and templates are systematically linked. Evaluating nine vision-language models, frontier and reasoning models perform best, accuracy drops for rarer labels, and template background knowledge does not improve narrative role classification.",
+  "tags": [
+    "benchmark",
+    "multimodal",
+    "research",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-10-27T21:56:28.218122+08:00",
+  "updated_at": "2026-10-27T21:56:28.218123+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
