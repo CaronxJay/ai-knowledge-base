@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-28-rss-004",
+  "title": "FinLLM-KG：知识图谱增强的LLM金融情感分析框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.36083",
+  "language": "en",
+  "summary": "FinLLM-KG是一个模型无关框架，在推理时将金融知识图谱中来自SEC 10-K文件的公司级知识注入因果LLM，无需更新权重，即可让情感预测结合公司背景信息，并支持句子级与知识图谱事实级归因，提升可解释性，模拟显示其投资组合表现优于现有基线。",
+  "summary_en": "FinLLM-KG is a model-agnostic framework that injects company-level knowledge from SEC 10-K filings via a financial knowledge graph into causal LLMs at inference time without weight updates, enabling context-aware sentiment prediction with sentence- and fact-level attribution for explainability; simulations show improved portfolio performance over state-of-the-art baselines.",
+  "tags": [
+    "llm",
+    "rag",
+    "research",
+    "application",
+    "evaluation"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-28T22:50:48.384363+08:00",
+  "updated_at": "2026-10-28T22:50:48.384364+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

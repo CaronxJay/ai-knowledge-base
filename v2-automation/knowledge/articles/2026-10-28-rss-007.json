@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-28-rss-007",
+  "title": "MedJev：评估医学中的零样本System-One决策",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.36006",
+  "language": "en",
+  "summary": "研究评估可在笔记本本地运行的开源System One模型MedJev，在十项医学基准上测试。MedQA准确率72.5%、USMLE 75.4%、NEJM 80.1%，接近GPT-4；院内死亡AUROC 0.926超过XGBoost，但患者级预测校准差，作者提出两参数重校准法将ECE降至0.007。",
+  "summary_en": "This work evaluates MedJev, an open System One model running locally on a laptop, across ten medical benchmarks. It reaches 72.5% on MedQA, 75.4% on USMLE, and 80.1% on NEJM, approaching GPT-4, and 0.926 AUROC for in-hospital mortality, beating XGBoost, though patient-level predictions are miscalibrated; a two-parameter recalibration method cuts ECE to 0.007.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "research",
+    "evaluation",
+    "application"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-28T22:50:48.384379+08:00",
+  "updated_at": "2026-10-28T22:50:48.384380+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

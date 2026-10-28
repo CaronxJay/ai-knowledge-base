@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-28-rss-002",
+  "title": "CohortFlow：具备局部语义修正的可引导临床队列筛选智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.36100",
+  "language": "en",
+  "summary": "CohortFlow 将自然语言修正转化为对结构化队列规范的局部更新，并与持久化执行图协调，通过记录语义依赖实现选择性失效，在保持需求级准确率的同时将修正延迟降低 64.8%、模型调用减少 38.1%。",
+  "summary_en": "CohortFlow represents natural-language corrections as localized updates to a structured cohort specification reconciled with a persistent execution graph; recorded semantic dependencies enable selective invalidation, cutting correction latency by 64.8% and model calls by 38.1% while maintaining requirement-level accuracy.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "application"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-28T22:50:48.384353+08:00",
+  "updated_at": "2026-10-28T22:50:48.384355+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

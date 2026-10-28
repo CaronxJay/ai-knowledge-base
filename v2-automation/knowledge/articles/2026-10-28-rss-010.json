@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-28-rss-010",
+  "title": "通过数据生成策略提升深度学习模型性能：橄榄树病害分类",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.35984",
+  "language": "en",
+  "summary": "该研究提出综合数据生成策略，结合传统增强、CutMix、MixUp 和 DCGAN 合成图像，在平衡类别、增加样本、扩展数据集三种场景下用 EfficientNetV2B0 评估，显著提升橄榄树病害分类准确率，凸显数据多样性与类别平衡的重要性。",
+  "summary_en": "This study proposes a comprehensive data generation strategy combining traditional augmentation, CutMix, MixUp, and DCGAN synthetic images, evaluated with EfficientNetV2B0 across three scenarios (class balancing, sample increase, dataset expansion), substantially improving olive tree disease classification accuracy and highlighting the importance of data diversity and class balance.",
+  "tags": [
+    "research",
+    "application",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.45,
+  "status": "published",
+  "created_at": "2026-10-28T22:50:48.384391+08:00",
+  "updated_at": "2026-10-28T22:50:48.384393+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-28-rss-003",
+  "title": "OmniBrain-0：面向具身智能的统一智能体模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.36013",
+  "language": "en",
+  "summary": "OmniBrain-0 是一个轻量级统一具身智能体，通过共享高层决策模型协调操作与导航，整合任务理解、规划、进度跟踪与失败恢复。采用渐进式训练框架，结合具身预训练、领域专家蒸馏与多教师在线策略蒸馏（MOPD），并提出评分引导的递归自我改进（RSI）数据飞轮，在多个基准和真实任务上以更低推理开销实现强跨域性能。",
+  "summary_en": "OmniBrain-0 is a lightweight unified embodied agent that coordinates manipulation and navigation via a shared high-level decision model integrating task understanding, planning, progress tracking, and failure recovery. It uses progressive training with embodied pretraining, domain-specialized distillation, and multi-teacher on-policy distillation (MOPD), plus Rubric-Guided Recursive Self-Improvement (RSI). It achieves strong cross-domain performance with much lower inference overhead than its closed-source teacher.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "multimodal",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-28T22:50:48.384358+08:00",
+  "updated_at": "2026-10-28T22:50:48.384360+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

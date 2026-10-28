@@ -1,0 +1,483 @@
+{
+  "collected_at": "2026-10-28T22:50:48.385214+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Counting the Bandages: On measuring the time that AI saves",
+      "url": "https://arxiv.org/abs/2610.35942",
+      "description": "arXiv:2610.35942v1 Announce Type: new \nAbstract: I consider what it means for AI assistance to save time. I contrast a stopwatch view, on which time saved is whatever the clock records, with a ledger view, on which it is a counterfactual that has to be read next to the errors the work lets through, and I argue for the latter. The argument has four parts. I define a model-free pair of quantities, time saved and excess escaped defects, and one decision number built from them: the break-even defect cost. I give a baseline model of checking in which, until the model is good enough not to check, a calibrated worker's escaped-defect rate does not depend on how good the model is; checking time grows with the logarithm of the model's error rate; and over-trust buys minutes on the clock at a larger cost in total minutes. I show what randomized studies can and cannot identify, and I replicate METR's developer study from its public data: the same 246 issues support a slowdown of 19% or 24% depending on the estimand (34% without adjusting for a chance imbalance), and AI helped on somewhere between 3% and 82% of them. Finally, I restate the published record, with stated bounds in place of imported point assumptions. In GDPval's own review-every-output workflow, review time alone caps GPT-5's speedup at 3.6x; the consultants outside the frontier were faster, and more often wrong. Last, I test two of the model's predictions in a small pre-specified experiment on AI reviewers checking AI drafts of the same kind of brief, built from SEC filings made after the models' training data were collected. Told the drafter's true error rate, the reviewer checked more as it rose, but all-or-nothing, switching near where its prompt's costs break even. Told that the drafter erred ten times less often than it did, it checked 7 fewer of 9 figures and let a wrong figure through in 22.5% of briefs instead of none: faster and worse, entirely through reduced effort.",
+      "pub_date": "Wed, 28 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "数绷带：衡量AI节省的时间",
+        "summary": "论文区分“秒表视角”与“账本视角”来评估AI节省的时间，提出无模型指标：节省时间与逃逸缺陷超额量，以及盈亏平衡缺陷成本。复现METR开发者研究显示减速19%~24%，并指出过度信任会以更多总耗时换取表面提速。",
+        "summary_en": "The paper contrasts a stopwatch view of AI time savings with a ledger view that weighs saved time against escaped defects, proposing model-free metrics: time saved, excess escaped defects, and break-even defect cost. Replicating METR's developer study, it finds a 19%-24% slowdown and shows over-trust trades clock minutes for larger total costs.",
+        "tags": [
+          "research",
+          "evaluation",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-28-rss-005",
+        "title": "数绷带：衡量AI节省的时间",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.35942",
+        "language": "en",
+        "summary": "论文区分“秒表视角”与“账本视角”来评估AI节省的时间，提出无模型指标：节省时间与逃逸缺陷超额量，以及盈亏平衡缺陷成本。复现METR开发者研究显示减速19%~24%，并指出过度信任会以更多总耗时换取表面提速。",
+        "summary_en": "The paper contrasts a stopwatch view of AI time savings with a ledger view that weighs saved time against escaped defects, proposing model-free metrics: time saved, excess escaped defects, and break-even defect cost. Replicating METR's developer study, it finds a 19%-24% slowdown and shows over-trust trades clock minutes for larger total costs.",
+        "tags": [
+          "research",
+          "evaluation",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-28T22:50:48.384367+08:00",
+        "updated_at": "2026-10-28T22:50:48.384369+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Enhancing Deep Learning Model Performance through Data Generation Strategies: Classification of Olive Tree Diseases",
+      "url": "https://arxiv.org/abs/2610.35984",
+      "description": "arXiv:2610.35984v1 Announce Type: new \nAbstract: Deep learning models are highly effective in a wide range of domains, particu larly in plant disease diagnosis. However, their performance is often limited by challenges such as insufficient data and class imbalance. In our work, we propose a comprehensive data generation strategy to overcome these limitations. First, we apply various data generation techniques, including traditional augmentation methods, CutMix, MixUp, and synthetic image generation using Deep Convolu tional Generative Adversarial Networks (DCGANs), to create new data samples. Second, we exploit this generated data in three scenarios: (S1) balancing class distribution in the original dataset, (S2) increasing the number of samples per class, and (S3) expanding the dataset while maintaining balanced classes. Third, we evaluate the impact of these data distributions (S1, S2, S3) on model perfor mance using the EfficientNetV2B0 architecture with pre-trained and fine-tuned weights. The experimental results show a substantial improvement in classifica tion accuracy, emphasizing the critical role of data diversity and class balance. These findings highlight the effectiveness and adaptability of the proposed strat egy of data generation and distribution for enhancing dataset quality, offering promising applications in plant disease detection and precision agriculture.",
+      "pub_date": "Wed, 28 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通过数据生成策略提升深度学习模型性能：橄榄树病害分类",
+        "summary": "该研究提出综合数据生成策略，结合传统增强、CutMix、MixUp 和 DCGAN 合成图像，在平衡类别、增加样本、扩展数据集三种场景下用 EfficientNetV2B0 评估，显著提升橄榄树病害分类准确率，凸显数据多样性与类别平衡的重要性。",
+        "summary_en": "This study proposes a comprehensive data generation strategy combining traditional augmentation, CutMix, MixUp, and DCGAN synthetic images, evaluated with EfficientNetV2B0 across three scenarios (class balancing, sample increase, dataset expansion), substantially improving olive tree disease classification accuracy and highlighting the importance of data diversity and class balance.",
+        "tags": [
+          "research",
+          "application",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.45,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-28-rss-010",
+        "title": "通过数据生成策略提升深度学习模型性能：橄榄树病害分类",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.35984",
+        "language": "en",
+        "summary": "该研究提出综合数据生成策略，结合传统增强、CutMix、MixUp 和 DCGAN 合成图像，在平衡类别、增加样本、扩展数据集三种场景下用 EfficientNetV2B0 评估，显著提升橄榄树病害分类准确率，凸显数据多样性与类别平衡的重要性。",
+        "summary_en": "This study proposes a comprehensive data generation strategy combining traditional augmentation, CutMix, MixUp, and DCGAN synthetic images, evaluated with EfficientNetV2B0 across three scenarios (class balancing, sample increase, dataset expansion), substantially improving olive tree disease classification accuracy and highlighting the importance of data diversity and class balance.",
+        "tags": [
+          "research",
+          "application",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.45,
+        "status": "published",
+        "created_at": "2026-10-28T22:50:48.384391+08:00",
+        "updated_at": "2026-10-28T22:50:48.384393+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+      "url": "https://arxiv.org/abs/2610.36077",
+      "description": "arXiv:2610.36077v1 Announce Type: new \nAbstract: Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same underlying capability requirements. We therefore introduce The Trinity, a recursive self-improvement framework coupling world generation with Harness evolution through three roles: Creator, Explorer, and Evolver. Drawing on verified execution trajectories, Evolver shifts the basis of task organization from surface categories to shared requirements, reorganizing the original task tree into a hierarchical capability tree. We introduce Capability-Driven Real2Sim2Real: for heterogeneous tasks at the same node, Creator abstracts their common requirements into simplified, verifiable simulated worlds for capability learning, while evaluation on original tasks measures transfer. Along this capability tree, Explorer progressively evolves reusable capability modules through selective inheritance, forming a Harness tree whose validated updates accumulate across iterations within a fixed topology. The resulting Harnesses specialize in different capabilities, motivating a Capability-Aware Harness Router that uses public task information to select compatible module configurations from the tree. Our evolved Harnesses improve mean performance by 34 points across 28 training benchmarks and 26 points across 18 unseen benchmarks, including two real-world embodied tasks.",
+      "pub_date": "Wed, 28 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "The Trinity：面向多模态智能体的能力驱动递归自我改进框架",
+        "summary": "该论文提出The Trinity框架，通过Creator、Explorer、Evolver三个角色将世界生成与Harness演化耦合，把任务组织从表面类别重构为分层能力树，实现能力驱动的Real2Sim2Real与可复用能力模块演化。演化后的Harness在28个训练基准上平均提升34分，在18个未见基准上提升26分。",
+        "summary_en": "The paper introduces The Trinity, a recursive self-improvement framework coupling world generation with Harness evolution via Creator, Explorer, and Evolver roles. It reorganizes tasks from surface categories into a hierarchical capability tree, enabling Capability-Driven Real2Sim2Real and reusable capability module evolution. Evolved Harnesses improve mean performance by 34 points on 28 training benchmarks and 26 points on 18 unseen benchmarks.",
+        "tags": [
+          "agent-framework",
+          "multimodal",
+          "research",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-28-rss-001",
+        "title": "The Trinity：面向多模态智能体的能力驱动递归自我改进框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.36077",
+        "language": "en",
+        "summary": "该论文提出The Trinity框架，通过Creator、Explorer、Evolver三个角色将世界生成与Harness演化耦合，把任务组织从表面类别重构为分层能力树，实现能力驱动的Real2Sim2Real与可复用能力模块演化。演化后的Harness在28个训练基准上平均提升34分，在18个未见基准上提升26分。",
+        "summary_en": "The paper introduces The Trinity, a recursive self-improvement framework coupling world generation with Harness evolution via Creator, Explorer, and Evolver roles. It reorganizes tasks from surface categories into a hierarchical capability tree, enabling Capability-Driven Real2Sim2Real and reusable capability module evolution. Evolved Harnesses improve mean performance by 34 points on 28 training benchmarks and 26 points on 18 unseen benchmarks.",
+        "tags": [
+          "agent-framework",
+          "multimodal",
+          "research",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-10-28T22:50:48.384345+08:00",
+        "updated_at": "2026-10-28T22:50:48.384349+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CohortFlow: A Steerable Clinical Cohort Curation Agent with Localized Semantic Correction",
+      "url": "https://arxiv.org/abs/2610.36100",
+      "description": "arXiv:2610.36100v1 Announce Type: new \nAbstract: Language model agents for clinical cohort curation should accommodate evolving eligibility criteria without repeatedly processing unchanged requirements. We introduce CohortFlow, a steerable agent that represents natural language corrections as localized updates to a structured cohort specification and reconciles them with a persistent execution graph. Explicitly recorded semantic dependencies enable affected computations to be selectively invalidated while preserving valid prior results. On 100 scenarios derived from clinical-trial eligibility criteria, comprising 126 correction turns, localized steering achieves 77.0% requirement micro-F1 versus 76.4% for full regeneration using the same 8B model, a small numerical advantage that is not statistically significant ($p=0.493$). It reduces mean correction latency by 64.8% after completion and 44.3% during execution, with 38.1% fewer model calls. In a separate proof-of-concept evaluation over MIMIC, all 13 cohort states execute successfully, while correction trajectories demonstrate selective preservation of unaffected computations and recomputation of changed or dependent nodes. Together, these results show that localized semantic steering can substantially reduce correction latency and model calls while maintaining strong requirement-level accuracy.",
+      "pub_date": "Wed, 28 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CohortFlow：具备局部语义修正的可引导临床队列筛选智能体",
+        "summary": "CohortFlow 将自然语言修正转化为对结构化队列规范的局部更新，并与持久化执行图协调，通过记录语义依赖实现选择性失效，在保持需求级准确率的同时将修正延迟降低 64.8%、模型调用减少 38.1%。",
+        "summary_en": "CohortFlow represents natural-language corrections as localized updates to a structured cohort specification reconciled with a persistent execution graph; recorded semantic dependencies enable selective invalidation, cutting correction latency by 64.8% and model calls by 38.1% while maintaining requirement-level accuracy.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "application"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-28-rss-002",
+        "title": "CohortFlow：具备局部语义修正的可引导临床队列筛选智能体",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.36100",
+        "language": "en",
+        "summary": "CohortFlow 将自然语言修正转化为对结构化队列规范的局部更新，并与持久化执行图协调，通过记录语义依赖实现选择性失效，在保持需求级准确率的同时将修正延迟降低 64.8%、模型调用减少 38.1%。",
+        "summary_en": "CohortFlow represents natural-language corrections as localized updates to a structured cohort specification reconciled with a persistent execution graph; recorded semantic dependencies enable selective invalidation, cutting correction latency by 64.8% and model calls by 38.1% while maintaining requirement-level accuracy.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "application"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-28T22:50:48.384353+08:00",
+        "updated_at": "2026-10-28T22:50:48.384355+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Why and How to Do Science When AI Is Better at It: A Framework Grounded in Human Understanding and Direction",
+      "url": "https://arxiv.org/abs/2610.36116",
+      "description": "arXiv:2610.36116v1 Announce Type: new \nAbstract: As AI begins to match or exceed human researchers at core scientific tasks, two questions become pressing: \\emph{why} should humans keep doing science, and \\emph{how} should they use AI when they do? This paper argues that the second can be answered only by answering the first. It holds that one indispensable aim of science is \\emph{durable, collective human understanding of the world, pursued in service of human ends and values}. From this principle it derives a two-part test for when a research task can be delegated to AI. The first part, \\emph{human understanding}, requires that the scientific community remain able to explain, defend and contest the resulting claims, and retain the skills to do so. The second, \\emph{human direction}, requires that judgments about which questions matter and what findings mean stay with accountable humans. Applying the test to each phase of research in the Contributor Roles Taxonomy (CRediT) yields recommendations that fields can tailor to their questions and methods. The framework differs from existing guidance in three ways. It rests on an account of what science is for rather than on integrity norms. It holds even if AI outperforms human researchers, rather than depending on AI's current limitations. And it judges each use of AI by its effects on human understanding and direction rather than by the type of tool, across every phase of research, including peer review and the training of new researchers. It closes with the reforms needed to keep science aimed at human understanding and direction.",
+      "pub_date": "Wed, 28 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AI 更擅长科研时，人类为何以及如何继续做科学：一个基于人类理解与方向的框架",
+        "summary": "论文提出，科学不可或缺的目标是服务于人类目的与价值的、持久的集体人类理解。据此构建两部分测试：人类理解（科学界仍能解释、辩护和质疑结论并保有相应技能）与人类方向（哪些问题重要、发现意味着什么，须由可问责的人类判断），并将该测试应用于 CRediT 各研究阶段，给出可定制的建议。",
+        "summary_en": "The paper argues that science's indispensable aim is durable, collective human understanding pursued for human ends and values. It derives a two-part test for delegating research tasks to AI—human understanding (the community can still explain, defend, and contest claims) and human direction (accountable humans decide which questions matter and what findings mean)—and applies it across CRediT research phases with field-tailorable recommendations.",
+        "tags": [
+          "research",
+          "evaluation",
+          "prompt-engineering",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-28-rss-009",
+        "title": "AI 更擅长科研时，人类为何以及如何继续做科学：一个基于人类理解与方向的框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.36116",
+        "language": "en",
+        "summary": "论文提出，科学不可或缺的目标是服务于人类目的与价值的、持久的集体人类理解。据此构建两部分测试：人类理解（科学界仍能解释、辩护和质疑结论并保有相应技能）与人类方向（哪些问题重要、发现意味着什么，须由可问责的人类判断），并将该测试应用于 CRediT 各研究阶段，给出可定制的建议。",
+        "summary_en": "The paper argues that science's indispensable aim is durable, collective human understanding pursued for human ends and values. It derives a two-part test for delegating research tasks to AI—human understanding (the community can still explain, defend, and contest claims) and human direction (accountable humans decide which questions matter and what findings mean)—and applies it across CRediT research phases with field-tailorable recommendations.",
+        "tags": [
+          "research",
+          "evaluation",
+          "prompt-engineering",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-10-28T22:50:48.384387+08:00",
+        "updated_at": "2026-10-28T22:50:48.384388+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ReCoPII: A Relation-Grounded Framework for Building Contextual PII Masking Datasets",
+      "url": "https://arxiv.org/abs/2610.35925",
+      "description": "arXiv:2610.35925v1 Announce Type: new \nAbstract: Training contextual masking systems for personally identifiable information (PII) requires examples distinguishing maskable from preservable mentions of one entity type, but privacy restrictions limit access to real data. Author-based augmentation (SPY) labels mentions unrelated to the author as non-PII, presuming a single data subject and overlooking others. We propose ReCoPII (Relation-grounded Contextual PII masking), a framework that builds such data without this premise: it plans ontology-constrained entity relations, writes insertion sentences with placeholders, reconstructs annotations with code, checks the result with a separate LLM, and derives MASK/KEEP labels from entity relations. On Korean documents from six domains, it yields ReCoPII-Ko, a corpus with relation, privacy, and MASK/KEEP annotations, which we validate. Across 300 pairs, four annotators agree with 88.42% of its sampled KEEP labels, against 26.27% for SPY-style augmentation of the same sources. Classifiers trained on it over-mask less than under that reference on a matched test. Contextual masking fine-tuned jointly with a PII detector removes most over-masking of detection alone within a fixed leakage budget; on human-verified entity records, the four detectors meeting it over-mask at most 5.04% with at most 4.18% leakage. The detector is comparable to XLM-R-large on KDPII with about a quarter of its parameters.",
+      "pub_date": "Wed, 28 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ReCoPII：基于关系的上下文PII掩码数据集构建框架",
+        "summary": "提出ReCoPII框架，无需单一数据主体假设，通过本体约束的关系规划、占位符句子生成、代码重建标注及独立LLM校验，从实体关系推导MASK/KEEP标签，构建韩语上下文PII掩码语料ReCoPII-Ko，标注一致率达88.42%，显著优于SPY式增强的26.27%。",
+        "summary_en": "ReCoPII builds contextual PII masking datasets without assuming a single data subject: it plans ontology-constrained entity relations, generates placeholder sentences, reconstructs annotations via code, verifies with a separate LLM, and derives MASK/KEEP labels from relations. On Korean documents it yields ReCoPII-Ko, with 88.42% annotator agreement versus 26.27% for SPY-style augmentation, and reduces over-masking.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "security",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-28-rss-006",
+        "title": "ReCoPII：基于关系的上下文PII掩码数据集构建框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.35925",
+        "language": "en",
+        "summary": "提出ReCoPII框架，无需单一数据主体假设，通过本体约束的关系规划、占位符句子生成、代码重建标注及独立LLM校验，从实体关系推导MASK/KEEP标签，构建韩语上下文PII掩码语料ReCoPII-Ko，标注一致率达88.42%，显著优于SPY式增强的26.27%。",
+        "summary_en": "ReCoPII builds contextual PII masking datasets without assuming a single data subject: it plans ontology-constrained entity relations, generates placeholder sentences, reconstructs annotations via code, verifies with a separate LLM, and derives MASK/KEEP labels from relations. On Korean documents it yields ReCoPII-Ko, with 88.42% annotator agreement versus 26.27% for SPY-style augmentation, and reduces over-masking.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "security",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-28T22:50:48.384372+08:00",
+        "updated_at": "2026-10-28T22:50:48.384373+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "MedJev: Evaluating Zero-Shot System-One Decision Making in Medicine",
+      "url": "https://arxiv.org/abs/2610.36006",
+      "description": "arXiv:2610.36006v1 Announce Type: new \nAbstract: System One decision models such as Jev answer structured questions in a single forward pass without generating text, offering fast and computationally efficient clinical decision support. We evaluate MedJev, an open System One model that runs locally on a laptop, across ten medical benchmarks spanning medical knowledge, diagnosis, and patient level prediction using MIMIC IV and MIMIC IV ED. We compare MedJev against zero shot LLM baselines, published GPT results, and supervised models. MedJev achieves accuracies of 72.5 percent on MedQA, 75.4 percent on USMLE, and 80.1 percent on NEJM, approaching published GPT 4 performance while maintaining well calibrated confidence estimates (ECE 0.028 to 0.063). On patient level tasks, MedJev achieves an AUROC of 0.926 for In Hospital Mortality, exceeding XGBoost (0.902), but underperforms supervised models on operational outcomes such as ED Triage Admission (0.745 vs. 0.809). Patient level predictions also exhibit substantial miscalibration (In Hospital Mortality ECE 0.286). We introduce a lightweight, two parameter recalibration method that adapts predictions to local patient populations using 50 to 200 labeled examples, reducing ECE to 0.007. Our findings establish open System One models as a promising zero shot baseline for medical AI, combining competitive predictive performance with low computational cost and efficient local calibration. We release our code and evaluation harness to support future research.",
+      "pub_date": "Wed, 28 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MedJev：评估医学中的零样本System-One决策",
+        "summary": "研究评估可在笔记本本地运行的开源System One模型MedJev，在十项医学基准上测试。MedQA准确率72.5%、USMLE 75.4%、NEJM 80.1%，接近GPT-4；院内死亡AUROC 0.926超过XGBoost，但患者级预测校准差，作者提出两参数重校准法将ECE降至0.007。",
+        "summary_en": "This work evaluates MedJev, an open System One model running locally on a laptop, across ten medical benchmarks. It reaches 72.5% on MedQA, 75.4% on USMLE, and 80.1% on NEJM, approaching GPT-4, and 0.926 AUROC for in-hospital mortality, beating XGBoost, though patient-level predictions are miscalibrated; a two-parameter recalibration method cuts ECE to 0.007.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-28-rss-007",
+        "title": "MedJev：评估医学中的零样本System-One决策",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.36006",
+        "language": "en",
+        "summary": "研究评估可在笔记本本地运行的开源System One模型MedJev，在十项医学基准上测试。MedQA准确率72.5%、USMLE 75.4%、NEJM 80.1%，接近GPT-4；院内死亡AUROC 0.926超过XGBoost，但患者级预测校准差，作者提出两参数重校准法将ECE降至0.007。",
+        "summary_en": "This work evaluates MedJev, an open System One model running locally on a laptop, across ten medical benchmarks. It reaches 72.5% on MedQA, 75.4% on USMLE, and 80.1% on NEJM, approaching GPT-4, and 0.926 AUROC for in-hospital mortality, beating XGBoost, though patient-level predictions are miscalibrated; a two-parameter recalibration method cuts ECE to 0.007.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-28T22:50:48.384379+08:00",
+        "updated_at": "2026-10-28T22:50:48.384380+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "OmniBrain-0: A Unified Agentic Model for Embodied Intelligence",
+      "url": "https://arxiv.org/abs/2610.36013",
+      "description": "arXiv:2610.36013v1 Announce Type: new \nAbstract: General-purpose embodied intelligence requires robots to coordinate diverse skills over long horizons, track task progress, and recover from failures. Specialist policies alone do not ensure task-level reliability, while powerful multimodal agents rely on costly reasoning and external experience that compact models struggle to reproduce. We introduce OmniBrain-0, a lightweight unified embodied agent that coordinates manipulation and navigation through a shared high-level decision model, integrating task understanding, planning, progress tracking, and feedback-driven recovery. Our progressive training framework combines embodied pretraining, domain-specialized agent distillation, and multi-teacher on-policy distillation (MOPD). It distills powerful teachers' interaction experience into manipulation and navigation experts, then consolidates their decision capabilities into OmniBrain-0. Unification therefore occurs within the learned decision model rather than only at the tool interface. We further introduce Rubric-Guided Recursive Self-Improvement (RSI), a data flywheel in which a Meta-Agent turns execution evidence into refined rubrics, step-level reminders, and verified trajectories for domain-expert updates before their reconsolidation into OmniBrain-0 through MOPD. We evaluate OmniBrain-0 on LIBERO-Pro, LIBERO-Plus, RoboCasa365, RoboTwin 2.0, and R2R-CE Val-Unseen, as well as multiple real-world manipulation tasks. OmniBrain-0 combines strong cross-domain task performance with substantially lower inference and execution overhead than its closed-source teacher, demonstrating efficient transfer and consolidation of embodied capabilities into a compact unified agent.",
+      "pub_date": "Wed, 28 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "OmniBrain-0：面向具身智能的统一智能体模型",
+        "summary": "OmniBrain-0 是一个轻量级统一具身智能体，通过共享高层决策模型协调操作与导航，整合任务理解、规划、进度跟踪与失败恢复。采用渐进式训练框架，结合具身预训练、领域专家蒸馏与多教师在线策略蒸馏（MOPD），并提出评分引导的递归自我改进（RSI）数据飞轮，在多个基准和真实任务上以更低推理开销实现强跨域性能。",
+        "summary_en": "OmniBrain-0 is a lightweight unified embodied agent that coordinates manipulation and navigation via a shared high-level decision model integrating task understanding, planning, progress tracking, and failure recovery. It uses progressive training with embodied pretraining, domain-specialized distillation, and multi-teacher on-policy distillation (MOPD), plus Rubric-Guided Recursive Self-Improvement (RSI). It achieves strong cross-domain performance with much lower inference overhead than its closed-source teacher.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "multimodal",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-28-rss-003",
+        "title": "OmniBrain-0：面向具身智能的统一智能体模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.36013",
+        "language": "en",
+        "summary": "OmniBrain-0 是一个轻量级统一具身智能体，通过共享高层决策模型协调操作与导航，整合任务理解、规划、进度跟踪与失败恢复。采用渐进式训练框架，结合具身预训练、领域专家蒸馏与多教师在线策略蒸馏（MOPD），并提出评分引导的递归自我改进（RSI）数据飞轮，在多个基准和真实任务上以更低推理开销实现强跨域性能。",
+        "summary_en": "OmniBrain-0 is a lightweight unified embodied agent that coordinates manipulation and navigation via a shared high-level decision model integrating task understanding, planning, progress tracking, and failure recovery. It uses progressive training with embodied pretraining, domain-specialized distillation, and multi-teacher on-policy distillation (MOPD), plus Rubric-Guided Recursive Self-Improvement (RSI). It achieves strong cross-domain performance with much lower inference overhead than its closed-source teacher.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "multimodal",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-28T22:50:48.384358+08:00",
+        "updated_at": "2026-10-28T22:50:48.384360+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "FinLLM-KG: Knowledge Graph-Enhanced LLMs for Financial Sentiment Analysis in Algorithmic Trading",
+      "url": "https://arxiv.org/abs/2610.36083",
+      "description": "arXiv:2610.36083v1 Announce Type: new \nAbstract: Recent advances in Generative AI have substantially improved financial sentiment analysis through post-trained financial large language models (LLMs). However, existing approaches remain confined to predicting the sentiment of each article in isolation and operate as black boxes, which limits contextual understanding and hinders deployment in high-stakes financial decision-making. To this end, we introduce FinLLM-KG, a model-agnostic framework that combines causal LLMs with a financial knowledge graph, in order to inject temporally grounded, company-level knowledge from SEC 10-K filings at inference time, without updating model weights. Within FinLLM-KG, context is supplied either as a natural-language company profile or as a small set of relevance-ranked factual triples. This enables sentiment predictions to account for broader firm-level information rather than the article alone, at almost zero computational cost and for any causal LLM. In addition, attributing each article-level sentiment score to individual sentences and to the retrieved knowledge-graph facts makes the evidence behind the prediction inspectable, thereby enhancing explainability and supporting human-in-the-loop review. Simulations demonstrate that FinLLM-KG consistently improves portfolio performance over the state-of-the-art baseline.",
+      "pub_date": "Wed, 28 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "FinLLM-KG：知识图谱增强的LLM金融情感分析框架",
+        "summary": "FinLLM-KG是一个模型无关框架，在推理时将金融知识图谱中来自SEC 10-K文件的公司级知识注入因果LLM，无需更新权重，即可让情感预测结合公司背景信息，并支持句子级与知识图谱事实级归因，提升可解释性，模拟显示其投资组合表现优于现有基线。",
+        "summary_en": "FinLLM-KG is a model-agnostic framework that injects company-level knowledge from SEC 10-K filings via a financial knowledge graph into causal LLMs at inference time without weight updates, enabling context-aware sentiment prediction with sentence- and fact-level attribution for explainability; simulations show improved portfolio performance over state-of-the-art baselines.",
+        "tags": [
+          "llm",
+          "rag",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-28-rss-004",
+        "title": "FinLLM-KG：知识图谱增强的LLM金融情感分析框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.36083",
+        "language": "en",
+        "summary": "FinLLM-KG是一个模型无关框架，在推理时将金融知识图谱中来自SEC 10-K文件的公司级知识注入因果LLM，无需更新权重，即可让情感预测结合公司背景信息，并支持句子级与知识图谱事实级归因，提升可解释性，模拟显示其投资组合表现优于现有基线。",
+        "summary_en": "FinLLM-KG is a model-agnostic framework that injects company-level knowledge from SEC 10-K filings via a financial knowledge graph into causal LLMs at inference time without weight updates, enabling context-aware sentiment prediction with sentence- and fact-level attribution for explainability; simulations show improved portfolio performance over state-of-the-art baselines.",
+        "tags": [
+          "llm",
+          "rag",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-10-28T22:50:48.384363+08:00",
+        "updated_at": "2026-10-28T22:50:48.384364+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "3, 7, 14, 17, 42: Instruction Tuning Installs and Sharpens Number-Choice Heuristics in Language Models",
+      "url": "https://arxiv.org/abs/2610.36178",
+      "description": "arXiv:2610.36178v1 Announce Type: new \nAbstract: We measure, without sampling error, the probability a language model assigns to each integer from 1 to N when asked for a random number. For a fixed prompt the model defines one probability vector, which we compute by summing over each integer's scored spellings rather than estimate by sampling, removing the noise that limits earlier studies [1, 4]. We evaluate 18 open-weight model lines at five ranges up to N = 100, under 29 decoding configurations, on two inference stacks; 15 of them have matched base and instruction-tuned checkpoints that both give usable answers. Instruction tuning makes the distribution less uniform in all 15 pairs. It installs one heuristic, round-number avoidance, and sharpens another, endpoint avoidance. Base checkpoints do not avoid round numbers once the endpoints are removed from those sets; tuned checkpoints avoid them, multiples of 10 almost completely. Base checkpoints return the endpoints 1 and N at 0.30 to 0.60 of the interior rate; tuned checkpoints almost never return them. A preference for odd numbers is consistent across tuned checkpoints only at N = 100, where base checkpoints also show it weakly. Endpoint avoidance and the odd preference fit the account Kubovy and Psotka [6] proposed for human number choice; round-number avoidance is not part of that account, and the midpoint avoidance it predicts is essentially absent, with one slight exception at N = 100. Tuning does not install a new favourite integer shared across models: above N = 10 no modal integer is shared by more than 42 percent of tuned conditions, and P (17) rises in 10 of 15 pairs and falls in 5. The concentration is present in the model's own distribution: at temperature 1.0, nucleus truncation at top-p 0.95 adds a median of 0.035 to the total variation distance.",
+      "pub_date": "Wed, 28 Oct 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "指令微调在语言模型中植入并强化数字选择启发式",
+        "summary": "研究通过精确计算而非采样，测量18个开源模型在随机数字任务中的概率分布，发现指令微调使分布更不均匀：植入回避整数的启发式，强化回避端点的启发式，但未形成跨模型共享的偏好数字。",
+        "summary_en": "Measuring exact probability distributions over random-number choices in 18 open-weight model lines, the study finds instruction tuning makes distributions less uniform: it installs round-number avoidance, sharpens endpoint avoidance, but does not create a shared favorite integer across models.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-10-28-rss-008",
+        "title": "指令微调在语言模型中植入并强化数字选择启发式",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.36178",
+        "language": "en",
+        "summary": "研究通过精确计算而非采样，测量18个开源模型在随机数字任务中的概率分布，发现指令微调使分布更不均匀：植入回避整数的启发式，强化回避端点的启发式，但未形成跨模型共享的偏好数字。",
+        "summary_en": "Measuring exact probability distributions over random-number choices in 18 open-weight model lines, the study finds instruction tuning makes distributions less uniform: it installs round-number avoidance, sharpens endpoint avoidance, but does not create a shared favorite integer across models.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-10-28T22:50:48.384383+08:00",
+        "updated_at": "2026-10-28T22:50:48.384384+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

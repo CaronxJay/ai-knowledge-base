@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-28-github-004",
+  "title": "ML-road：机器学习与AI Agent学习路线图",
+  "source": "github_trending",
+  "source_url": "https://github.com/satkynovilgiz/ML-road",
+  "language": "en",
+  "summary": "该项目提供涵盖机器学习、深度学习、大语言模型和AI Agent的实用学习路线图，包含学习资源与项目实践建议，适合系统性入门与进阶。",
+  "summary_en": "A practical roadmap covering machine learning, deep learning, LLMs, and AI agents, with curated learning resources and project ideas for systematic study.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "research",
+    "python",
+    "open-source"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-10-28T22:50:48.382053+08:00",
+  "updated_at": "2026-10-28T22:50:48.382054+08:00",
+  "metadata": {
+    "stars": 6,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

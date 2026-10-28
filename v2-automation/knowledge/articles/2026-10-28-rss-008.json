@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-28-rss-008",
+  "title": "指令微调在语言模型中植入并强化数字选择启发式",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.36178",
+  "language": "en",
+  "summary": "研究通过精确计算而非采样，测量18个开源模型在随机数字任务中的概率分布，发现指令微调使分布更不均匀：植入回避整数的启发式，强化回避端点的启发式，但未形成跨模型共享的偏好数字。",
+  "summary_en": "Measuring exact probability distributions over random-number choices in 18 open-weight model lines, the study finds instruction tuning makes distributions less uniform: it installs round-number avoidance, sharpens endpoint avoidance, but does not create a shared favorite integer across models.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-28T22:50:48.384383+08:00",
+  "updated_at": "2026-10-28T22:50:48.384384+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

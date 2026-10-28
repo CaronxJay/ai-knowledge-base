@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-28-rss-009",
+  "title": "AI 更擅长科研时，人类为何以及如何继续做科学：一个基于人类理解与方向的框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.36116",
+  "language": "en",
+  "summary": "论文提出，科学不可或缺的目标是服务于人类目的与价值的、持久的集体人类理解。据此构建两部分测试：人类理解（科学界仍能解释、辩护和质疑结论并保有相应技能）与人类方向（哪些问题重要、发现意味着什么，须由可问责的人类判断），并将该测试应用于 CRediT 各研究阶段，给出可定制的建议。",
+  "summary_en": "The paper argues that science's indispensable aim is durable, collective human understanding pursued for human ends and values. It derives a two-part test for delegating research tasks to AI—human understanding (the community can still explain, defend, and contest claims) and human direction (accountable humans decide which questions matter and what findings mean)—and applies it across CRediT research phases with field-tailorable recommendations.",
+  "tags": [
+    "research",
+    "evaluation",
+    "prompt-engineering",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-10-28T22:50:48.384387+08:00",
+  "updated_at": "2026-10-28T22:50:48.384388+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

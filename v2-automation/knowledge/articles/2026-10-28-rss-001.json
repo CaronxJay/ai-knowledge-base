@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-28-rss-001",
+  "title": "The Trinity：面向多模态智能体的能力驱动递归自我改进框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.36077",
+  "language": "en",
+  "summary": "该论文提出The Trinity框架，通过Creator、Explorer、Evolver三个角色将世界生成与Harness演化耦合，把任务组织从表面类别重构为分层能力树，实现能力驱动的Real2Sim2Real与可复用能力模块演化。演化后的Harness在28个训练基准上平均提升34分，在18个未见基准上提升26分。",
+  "summary_en": "The paper introduces The Trinity, a recursive self-improvement framework coupling world generation with Harness evolution via Creator, Explorer, and Evolver roles. It reorganizes tasks from surface categories into a hierarchical capability tree, enabling Capability-Driven Real2Sim2Real and reusable capability module evolution. Evolved Harnesses improve mean performance by 34 points on 28 training benchmarks and 26 points on 18 unseen benchmarks.",
+  "tags": [
+    "agent-framework",
+    "multimodal",
+    "research",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-28T22:50:48.384345+08:00",
+  "updated_at": "2026-10-28T22:50:48.384349+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

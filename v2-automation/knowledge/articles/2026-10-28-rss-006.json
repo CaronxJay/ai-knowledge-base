@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-28-rss-006",
+  "title": "ReCoPII：基于关系的上下文PII掩码数据集构建框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.35925",
+  "language": "en",
+  "summary": "提出ReCoPII框架，无需单一数据主体假设，通过本体约束的关系规划、占位符句子生成、代码重建标注及独立LLM校验，从实体关系推导MASK/KEEP标签，构建韩语上下文PII掩码语料ReCoPII-Ko，标注一致率达88.42%，显著优于SPY式增强的26.27%。",
+  "summary_en": "ReCoPII builds contextual PII masking datasets without assuming a single data subject: it plans ontology-constrained entity relations, generates placeholder sentences, reconstructs annotations via code, verifies with a separate LLM, and derives MASK/KEEP labels from relations. On Korean documents it yields ReCoPII-Ko, with 88.42% annotator agreement versus 26.27% for SPY-style augmentation, and reduces over-masking.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "security",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-10-28T22:50:48.384372+08:00",
+  "updated_at": "2026-10-28T22:50:48.384373+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
