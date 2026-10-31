@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-31-rss-002",
+  "title": "WebAnything：从真实网页到可扩展的智能体环境",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.37786",
+  "language": "en",
+  "summary": "WebAnything 是一个全自动框架，可从真实 URL 重建基于源站、可复用的 Web 环境，无需逐站人工实现。它构建了 244 个网站工件、覆盖 14 个领域，支持 12,984 个任务；在保真度盲审中 12 胜 2 平 0 负，微调 Qwen3.5-9B 后 WebArena-Verified 成功率提升 13.33 个百分点。",
+  "summary_en": "WebAnything is a fully automated framework that reconstructs source-grounded, reusable web environments from real URLs without per-site manual engineering. It built 244 site artifacts across 14 domains supporting 12,984 tasks, won 12 of 14 blind fidelity audits, and fine-tuning Qwen3.5-9B on its trajectories raised WebArena-Verified success by 13.33 points.",
+  "tags": [
+    "agent-framework",
+    "benchmark",
+    "evaluation",
+    "fine-tuning",
+    "research"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-10-31T22:16:26.716428+08:00",
+  "updated_at": "2026-10-31T22:16:26.716430+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

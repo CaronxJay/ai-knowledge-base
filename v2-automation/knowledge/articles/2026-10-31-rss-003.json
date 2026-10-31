@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-31-rss-003",
+  "title": "LRMoE：面向显存受限节点的MoE高效训练需求侧负载重校准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.37720",
+  "language": "en",
+  "summary": "LRMoE是一种内存感知的MoE训练系统，通过联合重校准反向传播需求并平衡保留负载，在前向阶段规划保留配额与专家放置，在反向阶段用负载重校准指标筛选token-专家对并做容量感知路由与物理压缩，从而降低通信、计算与执行缓冲需求。在Qwen3-30B-A3B和GLM4.5-106B-A12B上，达到固定损失目标的累计MoE层训练时间较SYMI减少21.2%-44.8%。",
+  "summary_en": "LRMoE is a memory-aware MoE training system that jointly recalibrates backward demand and balances retained workload. It plans retention quotas and expert placement during forward, then uses a load recalibration metric to select token-expert pairs during backpropagation, with capacity-aware routing and physical compaction to cut communication, computation, and buffer demand. On Qwen3-30B-A3B and GLM4.5-106B-A12B, it reduces cumulative MoE-layer training time to fixed-loss targets by 21.2-44.8% versus SYMI.",
+  "tags": [
+    "llm",
+    "infrastructure",
+    "research",
+    "fine-tuning"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-10-31T22:16:26.716432+08:00",
+  "updated_at": "2026-10-31T22:16:26.716434+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-31-rss-004",
+  "title": "面向模型校准的摊销局部后验推断及其在海洋湍流闭合中的应用",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.37731",
+  "language": "en",
+  "summary": "该研究提出按目标情境邻近度加权观测似然构建局部后验族，用高斯局部化权重纳入情境不确定性，并以条件归一化流进行摊销变分推断。在Branin-Hoo模型和海洋k-ε湍流闭合实验中，局部化校准相比全局后验降低了预测误差。",
+  "summary_en": "This work constructs a family of localized posteriors by weighting observation likelihoods by proximity to a target context, incorporating context uncertainty via Gaussian localization weights with covariance inflation. A conditional normalizing flow performs amortized variational inference. In Branin-Hoo and ocean k-epsilon turbulence closure experiments, localized calibration reduces predictive errors versus global posteriors.",
+  "tags": [
+    "research",
+    "evaluation",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.2,
+  "status": "published",
+  "created_at": "2026-10-31T22:16:26.716437+08:00",
+  "updated_at": "2026-10-31T22:16:26.716438+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
