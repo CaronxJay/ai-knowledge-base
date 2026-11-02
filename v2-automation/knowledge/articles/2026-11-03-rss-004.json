@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-03-rss-004",
+  "title": "Qistas：面向大语言模型公平性评估的预注册可移植协议",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.40893",
+  "language": "en",
+  "summary": "提出Qistas协议，用于跨国家评估LLM对特定社会群体的公平性，以伊拉克为首个实例。采用配对反事实设计、置换检验等统计方法，并预先注册假设与分析方案。发布配套编写工具，首次实地测试发现25个模板组中24个存在缺陷。",
+  "summary_en": "Presents Qistas, a portable, pre-registered protocol for evaluating LLM fairness toward a society's social, confessional, and regional groups, first instantiated for Iraq. It uses paired counterfactual designs with permutation tests, exact McNemar tests, and power analysis, and releases authoring apparatus; a field test found 24 of 25 template groups failed at least one check.",
+  "tags": [
+    "evaluation",
+    "benchmark",
+    "research",
+    "prompt-engineering"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-11-03T01:47:17.891708+08:00",
+  "updated_at": "2026-11-03T01:47:17.891709+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

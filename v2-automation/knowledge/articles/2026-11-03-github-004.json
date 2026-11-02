@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-03-github-004",
+  "title": "Python AI 工程学习之旅：从基础到 LLM 与 Agent 实战",
+  "source": "github_trending",
+  "source_url": "https://github.com/waleedkhokar/python-ai-engineering-journey",
+  "language": "en",
+  "summary": "该仓库是一套从 Python 基础到 AI 工程的完整实践学习路线，涵盖数据分析、机器学习、深度学习、生成式 AI、LLM、RAG 与 AI Agent，并包含笔记、面试准备和实战项目实现。",
+  "summary_en": "A complete hands-on journey from Python fundamentals to AI engineering, covering data analytics, machine learning, deep learning, generative AI, LLMs, RAG, and AI Agents, with notes, interview prep, and practical project implementations.",
+  "tags": [
+    "llm",
+    "rag",
+    "agent-framework",
+    "python",
+    "application"
+  ],
+  "category": "application",
+  "relevance_score": 0.75,
+  "status": "published",
+  "created_at": "2026-11-03T01:47:17.889923+08:00",
+  "updated_at": "2026-11-03T01:47:17.889924+08:00",
+  "metadata": {
+    "stars": 29,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

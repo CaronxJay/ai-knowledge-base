@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-03-rss-003",
+  "title": "投机草稿模型与连续扩散语言模型的生成差距对比",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.40847",
+  "language": "en",
+  "summary": "该研究在无验证条件下对比连续扩散语言模型（LangFlow）与投机草稿模型（DSpark的马尔可夫与循环头架构），在16、128、1024长度上从头训练并评估生成困惑度与MAUVE。结果显示LangFlow在长序列上更优，循环记忆可改善草稿模型但差距仍存。",
+  "summary_en": "This study compares continuous diffusion language models (LangFlow) with speculative drafter architectures (DSpark's Markov and recurrent heads) in standalone, verification-free generation. Trained from scratch at lengths 16, 128, and 1024, LangFlow outperforms both DSpark variants on GenPPL and MAUVE at longer lengths, while recurrent memory helps drafters but the long-sequence gap persists.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "llm",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-11-03T01:47:17.891704+08:00",
+  "updated_at": "2026-11-03T01:47:17.891705+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

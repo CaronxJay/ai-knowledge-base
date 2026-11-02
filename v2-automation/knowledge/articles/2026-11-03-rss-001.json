@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-03-rss-001",
+  "title": "Li²SAO：通过组相对演员-评论家自举提升轻量单轨迹异步强化学习优化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.40726",
+  "language": "en",
+  "summary": "针对SAO依赖闭源价值模型、早期训练落后于GRPO的问题，提出Li²SAO：在评论家冷启动阶段用组相对优势训练演员、组中心回报训练评论家，之后切换为单轨迹GAE，使早期训练追平或超越GRPO并提升后期性能上限。",
+  "summary_en": "SAO relies on a closed-source value model and lags behind GRPO early in training. Li²SAO uses group-relative advantages to train the actor and group-centered returns to train the critic while the critic is cold, then switches to single-rollout GAE, matching or surpassing GRPO early and raising the later performance ceiling.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "agent-framework",
+    "open-source"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-11-03T01:47:17.891688+08:00",
+  "updated_at": "2026-11-03T01:47:17.891693+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
