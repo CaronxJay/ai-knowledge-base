@@ -1,99 +1,48 @@
 {
-  "collected_at": "2026-11-03T01:47:17.892519+08:00",
+  "collected_at": "2026-11-03T23:48:27.827827+08:00",
   "source": "rss",
   "count": 5,
   "items": [
     {
-      "title": "Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping",
-      "url": "https://arxiv.org/abs/2610.40726",
-      "description": "arXiv:2610.40726v1 Announce Type: new \nAbstract: Asynchronous reinforcement learning (RL) is becoming a mainstream paradigm for post-training large language models (LLMs), as it improves training efficiency by updating the model as rollouts arrive. Recent work argues that group-wise sampling in GRPO does not naturally fit asynchronous RL training because rollout lengths follow a long-tailed distribution, and proposes Single-rollout Asynchronous Optimization (SAO) to improve stability and off-policy behavior, especially on agentic tasks. However, SAO relies on a closed-source value model obtained from scaling value pretraining. In this paper, we analyze GRPO and LiSAO, our lightweight reproduction of SAO without the pretrained value model, on single-turn reasoning and multi-turn agentic tasks. We find that GRPO outperforms LiSAO on reasoning tasks, while the reverse holds on agentic tasks. Since the value model of LiSAO is not yet well trained , LiSAO lags behind GRPO substantially in early training steps. To address this issue, we propose Li$^{2}$SAO, which Lifts Light Single-rollout Asynchronous Optimization with group-relative actor-critic bootstrapping: while the critic is cold, a group-relative advantage trains the actor and a group-centered return trains the critic, after which training switches to single-rollout GAE. Experiments show that Li$^{2}$SAO catches up with or surpasses GRPO in early training and further raises the later performance ceiling. Code is available at https://github.com/jd-cc-coder/Li2SAO.",
+      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+      "url": "https://arxiv.org/abs/2610.40758",
+      "description": "arXiv:2610.40758v1 Announce Type: new \nAbstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every new rule. We introduce CLR-Bench, a Curriculum of Latent Rules benchmark. Each chain adds one hidden rule per level on top of the earlier ones. A rule acts on an opaque label that stands for a named grouping published on the Web, such as the founding members of an airline alliance. The task gives one example value, practice feedback reveals one more member and one non-member, and the test checks unseen members and similar non-members. Probes certify that the base model knows the members of each grouping and does not guess it without feedback, and that the evidence identifies the grouping once labels are read as named groupings. An automated pipeline builds chains from a new data domain, and we release 20 chains over 10 domains. We evaluate six recent self-evolution methods. With the certifying model they barely learn. The best gain at most 5 points over a frozen agent and exclude only 6-12% of the unseen members from the count, fewer than the 20% reached by simply keeping the raw practice history. A fixed lesson that states the named-grouping convention lifts the same methods by 14.5 to 16.5 points. Their states hold the revealed member in 75-98% of cases and almost never the class name, and when practice exposes a member the list misses, they add that member to the list. With the stronger GPT-6-Sol, ACE and Dynamic Cheatsheet learn from feedback alone. They reach 78% accuracy and solve 59-60% of the single cells, against 53% and 8% with the certifying model, and they surpass the raw history. CLR-Bench therefore measures how well an agent learns, and this ability differs across models.",
       "pub_date": "Mon, 02 Nov 2026 00:00:00 -0500",
-      "source_feed": "arxiv_cs_cl",
+      "source_feed": "arxiv_cs_ai",
       "_source": "rss",
       "_analysis": {
-        "title": "Li²SAO：通过组相对演员-评论家自举提升轻量单轨迹异步强化学习优化",
-        "summary": "针对SAO依赖闭源价值模型、早期训练落后于GRPO的问题，提出Li²SAO：在评论家冷启动阶段用组相对优势训练演员、组中心回报训练评论家，之后切换为单轨迹GAE，使早期训练追平或超越GRPO并提升后期性能上限。",
-        "summary_en": "SAO relies on a closed-source value model and lags behind GRPO early in training. Li²SAO uses group-relative advantages to train the actor and group-centered returns to train the critic while the critic is cold, then switches to single-rollout GAE, matching or surpassing GRPO early and raising the later performance ceiling.",
+        "title": "更多规则，更长列表？在隐藏规则课程上基准测试自进化智能体",
+        "summary": "提出CLR-Bench基准，用逐层叠加隐藏规则的课程测试自进化智能体能否真正学会未明示的规则。六种方法在认证模型上提升不足5分，且常靠记录例外而非归纳规则；固定提示可提升14.5-16.5分，更强模型能仅凭反馈学习。",
+        "summary_en": "Introduces CLR-Bench, a curriculum of latent rules benchmark testing whether self-evolving agents can learn unstated rules. Six methods gain under 5 points on a certifying model and mostly record exceptions rather than induce rules; a fixed convention hint lifts them 14.5-16.5 points, and stronger models learn from feedback alone.",
         "tags": [
-          "llm",
-          "research",
-          "fine-tuning",
-          "agent-framework",
-          "open-source"
-        ],
-        "category": "research",
-        "relevance_score": 0.95,
-        "language": "en"
-      },
-      "_article": {
-        "id": "2026-11-03-rss-001",
-        "title": "Li²SAO：通过组相对演员-评论家自举提升轻量单轨迹异步强化学习优化",
-        "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2610.40726",
-        "language": "en",
-        "summary": "针对SAO依赖闭源价值模型、早期训练落后于GRPO的问题，提出Li²SAO：在评论家冷启动阶段用组相对优势训练演员、组中心回报训练评论家，之后切换为单轨迹GAE，使早期训练追平或超越GRPO并提升后期性能上限。",
-        "summary_en": "SAO relies on a closed-source value model and lags behind GRPO early in training. Li²SAO uses group-relative advantages to train the actor and group-centered returns to train the critic while the critic is cold, then switches to single-rollout GAE, matching or surpassing GRPO early and raising the later performance ceiling.",
-        "tags": [
-          "llm",
-          "research",
-          "fine-tuning",
-          "agent-framework",
-          "open-source"
-        ],
-        "category": "research",
-        "relevance_score": 0.95,
-        "status": "published",
-        "created_at": "2026-11-03T01:47:17.891688+08:00",
-        "updated_at": "2026-11-03T01:47:17.891693+08:00",
-        "metadata": {
-          "stars": null,
-          "hn_points": null,
-          "original_language": "en"
-        }
-      }
-    },
-    {
-      "title": "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
-      "url": "https://arxiv.org/abs/2610.40747",
-      "description": "arXiv:2610.40747v1 Announce Type: new \nAbstract: Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum across midtraining, SFT, and RL. To power this curriculum at scale, Mage-CUA-Forge replaces per-task agent construction with reusable, skill-conditioned generation workflows and application-specific preparers, synthesizing 293,806 desktop and web tasks across 6,915 skills while reducing recurring per-task expenditure by 82.6%. Rather than directly distilling a default teacher, we evolve the teacher harness and instantiate specialized CUA harnesses to yield high-quality trajectories alongside stage-specific supervision. Mage-VL-Cowork-4B finally climbs to 66.0% on OSWorld-Verified through different training stages with more efficient reasoning cost, achieving state-of-the-art performance at its parameter size and pushing forward the frontier of on-device intelligence.",
-      "pub_date": "Mon, 02 Nov 2026 00:00:00 -0500",
-      "source_feed": "arxiv_cs_cl",
-      "_source": "rss",
-      "_analysis": {
-        "title": "Mage-VL-Cowork：通过进化式执行框架学习混合计算机使用的完整训练方案",
-        "summary": "提出4B混合计算机使用智能体Mage-VL-Cowork，通过五阶段渐进式课程（中期训练、SFT、RL）训练，配合Mage-CUA-Forge合成29万+任务，在OSWorld-Verified上达到66.0%，同参数量下达到SOTA。",
-        "summary_en": "Presents Mage-VL-Cowork, a 4B hybrid computer-use agent trained via a progressive five-stage curriculum across midtraining, SFT, and RL, powered by Mage-CUA-Forge which synthesizes 293,806 tasks across 6,915 skills while cutting per-task cost by 82.6%; achieves 66.0% on OSWorld-Verified, state-of-the-art at its parameter size.",
-        "tags": [
-          "agent-framework",
-          "multimodal",
-          "fine-tuning",
           "benchmark",
+          "agent-framework",
+          "evaluation",
           "research"
         ],
-        "category": "agent-framework",
+        "category": "benchmark",
         "relevance_score": 0.95,
         "language": "en"
       },
       "_article": {
-        "id": "2026-11-03-rss-002",
-        "title": "Mage-VL-Cowork：通过进化式执行框架学习混合计算机使用的完整训练方案",
+        "id": "2026-11-03-rss-005",
+        "title": "更多规则，更长列表？在隐藏规则课程上基准测试自进化智能体",
         "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2610.40747",
+        "source_url": "https://arxiv.org/abs/2610.40758",
         "language": "en",
-        "summary": "提出4B混合计算机使用智能体Mage-VL-Cowork，通过五阶段渐进式课程（中期训练、SFT、RL）训练，配合Mage-CUA-Forge合成29万+任务，在OSWorld-Verified上达到66.0%，同参数量下达到SOTA。",
-        "summary_en": "Presents Mage-VL-Cowork, a 4B hybrid computer-use agent trained via a progressive five-stage curriculum across midtraining, SFT, and RL, powered by Mage-CUA-Forge which synthesizes 293,806 tasks across 6,915 skills while cutting per-task cost by 82.6%; achieves 66.0% on OSWorld-Verified, state-of-the-art at its parameter size.",
+        "summary": "提出CLR-Bench基准，用逐层叠加隐藏规则的课程测试自进化智能体能否真正学会未明示的规则。六种方法在认证模型上提升不足5分，且常靠记录例外而非归纳规则；固定提示可提升14.5-16.5分，更强模型能仅凭反馈学习。",
+        "summary_en": "Introduces CLR-Bench, a curriculum of latent rules benchmark testing whether self-evolving agents can learn unstated rules. Six methods gain under 5 points on a certifying model and mostly record exceptions rather than induce rules; a fixed convention hint lifts them 14.5-16.5 points, and stronger models learn from feedback alone.",
         "tags": [
-          "agent-framework",
-          "multimodal",
-          "fine-tuning",
           "benchmark",
+          "agent-framework",
+          "evaluation",
           "research"
         ],
-        "category": "agent-framework",
+        "category": "benchmark",
         "relevance_score": 0.95,
         "status": "published",
-        "created_at": "2026-11-03T01:47:17.891698+08:00",
-        "updated_at": "2026-11-03T01:47:17.891700+08:00",
+        "created_at": "2026-11-03T23:48:27.827087+08:00",
+        "updated_at": "2026-11-03T23:48:27.827091+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -102,45 +51,47 @@
       }
     },
     {
-      "title": "The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model",
-      "url": "https://arxiv.org/abs/2610.40847",
-      "description": "arXiv:2610.40847v1 Announce Type: new \nAbstract: Continuous diffusion language models (CDLMs) and speculative drafters offer efficient language generation but are typically evaluated differently: CDLMs generate independently through iterative refinement, whereas drafters propose text for target-model verification and correction. We compare their architectures without verification, using LangFlow for CDLMs and adapting DSpark's Markov and recurrent-head architectures for standalone generation. All models are trained from scratch for unconditional, single-block OpenWebText generation at lengths 16, 128, and 1024, without target features or verification, using common preprocessing, backbone dimensions, and training-update budgets. We evaluate generation perplexity (GenPPL) with an external language model and distributional similarity to reference text with MAUVE. With default denoising steps equal to sequence length, LangFlow outperforms both DSpark variants on both metrics at lengths 128 and 1024, while DSpark-RNN leads at 16. A conditional KL analysis characterizes dependencies excluded by the Markov head's previous-token conditioning. Recurrent memory removes this restriction and improves both metrics, but the longer-sequence gap persists. Teacher probability matching further lowers Markov GenPPL without observed MAUVE gains. Increasing LangFlow's denoising steps at fixed weights improves both metrics at lengths 16 and 128, changing the length-128 ordering relative to DSpark-RNN. These results establish LangFlow's longer-sequence advantage under the evaluated budgets and highlight iterative full-sequence refinement as a route to improving standalone generation beyond gains from recurrent head memory.",
+      "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+      "url": "https://arxiv.org/abs/2610.40798",
+      "description": "arXiv:2610.40798v1 Announce Type: new \nAbstract: Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision. In a matched human evaluation of 3,000 predictions from ten frozen open models, 86.1% are judged semantically plausible. However, several models exhibit highly asymmetric authorisation behaviour, combining low false-safe execution with poor recall of clarifiable ASK cases and a strong preference for BLOCK. This motivates safety sufficiency: whether a predictive interface preserves and exposes the policy-decisive information required to distinguish actions that may be EXECUTED, require clarification through ASK, or should be BLOCKED. We introduce SafeWebWorld, a benchmark for evaluating safety sufficiency across five web-safety domains through action-conditioned futures, policy-decisive evidence, and policy-conditioned decisions. Under a controlled Security-Aligned Supervised Fine-Tuning protocol, evidence preservation can improve substantially while authorisation-sensitive decisions deteriorate. To determine whether this deterioration reflects loss of authorisation-sensitive score structure or a failure of the decision readout, we introduce Latent Authorisation Recovery (LAR). Frozen-score recalibration reveals substantial but backbone-dependent recovery, while paired recovery provides only a modest additional gain. Yet within-family and matched-authorisation evaluations remain poor, showing that aggregate recoverability does not imply robust fine-grained authorisation behaviour. Overall, plausible prediction, evidence preservation, and aggregate recovery are each insufficient on their own to establish robust authorisation.",
       "pub_date": "Mon, 02 Nov 2026 00:00:00 -0500",
-      "source_feed": "arxiv_cs_cl",
+      "source_feed": "arxiv_cs_ai",
       "_source": "rss",
       "_analysis": {
-        "title": "投机草稿模型与连续扩散语言模型的生成差距对比",
-        "summary": "该研究在无验证条件下对比连续扩散语言模型（LangFlow）与投机草稿模型（DSpark的马尔可夫与循环头架构），在16、128、1024长度上从头训练并评估生成困惑度与MAUVE。结果显示LangFlow在长序列上更优，循环记忆可改善草稿模型但差距仍存。",
-        "summary_en": "This study compares continuous diffusion language models (LangFlow) with speculative drafter architectures (DSpark's Markov and recurrent heads) in standalone, verification-free generation. Trained from scratch at lengths 16, 128, and 1024, LangFlow outperforms both DSpark variants on GenPPL and MAUVE at longer lengths, while recurrent memory helps drafters but the long-sequence gap persists.",
+        "title": "超越看似合理的预测：网页世界模型中的安全充分性",
+        "summary": "研究指出网页世界模型的预测虽在语义上合理（86.1%），却无法支撑正确的安全决策，存在授权行为不对称问题。作者提出安全充分性概念及SafeWebWorld基准，并引入Latent Authorisation Recovery方法，发现证据保留、聚合可恢复性均不足以建立稳健授权。",
+        "summary_en": "Web world models produce semantically plausible predictions (86.1%) but fail to support correct safety decisions, showing asymmetric authorisation behavior. The authors propose safety sufficiency and the SafeWebWorld benchmark, plus Latent Authorisation Recovery, finding that evidence preservation and aggregate recoverability are each insufficient for robust authorisation.",
         "tags": [
-          "llm",
           "research",
           "benchmark",
+          "security",
+          "agent-framework",
           "evaluation"
         ],
-        "category": "llm",
+        "category": "security",
         "relevance_score": 0.9,
         "language": "en"
       },
       "_article": {
-        "id": "2026-11-03-rss-003",
-        "title": "投机草稿模型与连续扩散语言模型的生成差距对比",
+        "id": "2026-11-03-rss-007",
+        "title": "超越看似合理的预测：网页世界模型中的安全充分性",
         "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2610.40847",
+        "source_url": "https://arxiv.org/abs/2610.40798",
         "language": "en",
-        "summary": "该研究在无验证条件下对比连续扩散语言模型（LangFlow）与投机草稿模型（DSpark的马尔可夫与循环头架构），在16、128、1024长度上从头训练并评估生成困惑度与MAUVE。结果显示LangFlow在长序列上更优，循环记忆可改善草稿模型但差距仍存。",
-        "summary_en": "This study compares continuous diffusion language models (LangFlow) with speculative drafter architectures (DSpark's Markov and recurrent heads) in standalone, verification-free generation. Trained from scratch at lengths 16, 128, and 1024, LangFlow outperforms both DSpark variants on GenPPL and MAUVE at longer lengths, while recurrent memory helps drafters but the long-sequence gap persists.",
+        "summary": "研究指出网页世界模型的预测虽在语义上合理（86.1%），却无法支撑正确的安全决策，存在授权行为不对称问题。作者提出安全充分性概念及SafeWebWorld基准，并引入Latent Authorisation Recovery方法，发现证据保留、聚合可恢复性均不足以建立稳健授权。",
+        "summary_en": "Web world models produce semantically plausible predictions (86.1%) but fail to support correct safety decisions, showing asymmetric authorisation behavior. The authors propose safety sufficiency and the SafeWebWorld benchmark, plus Latent Authorisation Recovery, finding that evidence preservation and aggregate recoverability are each insufficient for robust authorisation.",
         "tags": [
-          "llm",
           "research",
           "benchmark",
+          "security",
+          "agent-framework",
           "evaluation"
         ],
-        "category": "llm",
+        "category": "security",
         "relevance_score": 0.9,
         "status": "published",
-        "created_at": "2026-11-03T01:47:17.891704+08:00",
-        "updated_at": "2026-11-03T01:47:17.891705+08:00",
+        "created_at": "2026-11-03T23:48:27.827098+08:00",
+        "updated_at": "2026-11-03T23:48:27.827099+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -149,45 +100,94 @@
       }
     },
     {
-      "title": "Qistas: A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models",
-      "url": "https://arxiv.org/abs/2610.40893",
-      "description": "arXiv:2610.40893v1 Announce Type: new \nAbstract: Fairness benchmarks for large language models (LLMs) are overwhelmingly English-born and American in their social categories; translated versions carry those categories into societies where they do not apply, and almost none fix their hypotheses before the models are run. We present Qistas (Arabic qistas, \"the just balance\"), a protocol for evaluating how LLMs treat the social, confessional, and regional constituencies of a society, portable across countries and instantiated first for Iraq. In its pilot form it measures only what needs no verdict on contested truth: procedural symmetry across matched counterfactual pairs, differential refusal, stereotype reliance under ambiguity, and terminological framing of documented events. Every measurement is paired by construction and analysed with paired machinery (sign-flip permutation tests, exact McNemar tests, template-clustered bootstrap intervals, Holm-corrected families), with a power analysis that states, before any data exist, the smallest effect each axis can detect after the design effect of template clustering. We release the authoring apparatus (a pruned 3x5 taxonomy with four cells closed by design, per-type checklists, a cumulative rulings log, a structural audit, and a human review notebook) and report its first field test: a semantic review of a 58-item seed bank in which 24 of 25 template groups failed at least one check. The defect patterns it exposed (evaluation criteria leaking into prompts, token-level swaps that break Arabic agreement, epistemically unbalanced pairs, single-theme refusal probes, unwritten dialect twins counted as coverage) are, we argue, general hazards of counterfactual fairness benchmarks. This is a protocol paper, not a results paper: no model has been evaluated, and the accompanying pre-registration commits the hypotheses, metrics, exclusion rules, and analysis plan that the pilot will follow.",
+      "title": "Circumventing the Computational Hardness of Computational Arbitrage",
+      "url": "https://arxiv.org/abs/2610.40831",
+      "description": "arXiv:2610.40831v1 Announce Type: new \nAbstract: AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases inference from a portfolio of models and resells it to users at a profit. Beyond creating profit opportunities for the arbitrageur, computational arbitrage offers financial value to both consumers and providers and could therefore significantly influence AI model markets. While prior work empirically demonstrates the feasibility of computational arbitrage for small model pools, scaling it to large marketplaces requires arbitrage strategies that are both computationally tractable and inexpensive to identify and deploy. In this work, we formalize computational arbitrage as an allocation problem and prove that it is generally NP-hard. However, we show that the optimal allocation can be computed efficiently under a natural diminishing-returns condition on how model performance scales with inference spending. We further develop a sample-efficient method for estimating model performance from limited data, reducing the upfront cost of identifying arbitrage strategies. Our analysis also yields several economic insights: at the optimum, every funded model delivers the same marginal utility per dollar; arbitrage directs revenue away from providers offering little utility relative to their prices; and it rewards complementary specialization.",
       "pub_date": "Mon, 02 Nov 2026 00:00:00 -0500",
-      "source_feed": "arxiv_cs_cl",
+      "source_feed": "arxiv_cs_ai",
       "_source": "rss",
       "_analysis": {
-        "title": "Qistas：面向大语言模型公平性评估的预注册可移植协议",
-        "summary": "提出Qistas协议，用于跨国家评估LLM对特定社会群体的公平性，以伊拉克为首个实例。采用配对反事实设计、置换检验等统计方法，并预先注册假设与分析方案。发布配套编写工具，首次实地测试发现25个模板组中24个存在缺陷。",
-        "summary_en": "Presents Qistas, a portable, pre-registered protocol for evaluating LLM fairness toward a society's social, confessional, and regional groups, first instantiated for Iraq. It uses paired counterfactual designs with permutation tests, exact McNemar tests, and power analysis, and releases authoring apparatus; a field test found 24 of 25 template groups failed at least one check.",
+        "title": "规避计算套利的计算难度",
+        "summary": "本文将AI模型市场中的计算套利形式化为分配问题并证明其一般NP难，但在模型性能随推理支出呈自然递减回报的条件下可高效求得最优分配，并提出样本高效的方法从有限数据估计模型性能，还给出若干经济学洞见。",
+        "summary_en": "This paper formalizes computational arbitrage in AI model marketplaces as an allocation problem and proves it is generally NP-hard, yet shows the optimal allocation is efficiently computable under a natural diminishing-returns condition on model performance versus inference spending. It also develops a sample-efficient method to estimate model performance from limited data and derives economic insights.",
         "tags": [
-          "evaluation",
-          "benchmark",
           "research",
-          "prompt-engineering"
+          "llm",
+          "evaluation",
+          "application"
         ],
-        "category": "benchmark",
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-03-rss-009",
+        "title": "规避计算套利的计算难度",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.40831",
+        "language": "en",
+        "summary": "本文将AI模型市场中的计算套利形式化为分配问题并证明其一般NP难，但在模型性能随推理支出呈自然递减回报的条件下可高效求得最优分配，并提出样本高效的方法从有限数据估计模型性能，还给出若干经济学洞见。",
+        "summary_en": "This paper formalizes computational arbitrage in AI model marketplaces as an allocation problem and proves it is generally NP-hard, yet shows the optimal allocation is efficiently computable under a natural diminishing-returns condition on model performance versus inference spending. It also develops a sample-efficient method to estimate model performance from limited data and derives economic insights.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-11-03T23:48:27.827105+08:00",
+        "updated_at": "2026-11-03T23:48:27.827106+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
+      "url": "https://arxiv.org/abs/2610.40883",
+      "description": "arXiv:2610.40883v1 Announce Type: new \nAbstract: Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition. Mapping text and audio into a shared valence-arousal-dominance space, we convert the distance between them into a continuous, threshold-free incongruence score with a two-component Gaussian mixture, and validate the score against human judgement. We evaluate three audiocapable models on acted, conversational and spontaneous speech (eNTERFACE'05, MELD and CMU-MOSEI). With the model held constant across modalities, incongruence raises the odds of error whenever audio is present, in every corpus, after controlling for the ground-truth emotion and for distance in the feature space. Supervised classifiers trained on the same features behave in the opposite way, which suggests that the difficulty lies in how these models combine raw evidence rather than in the signal itself. Text-only effects are unreliable: swapping only the model that reads the transcript reverses their sign on one corpus. Rebuilding the score without the emotion lexicon reproduces the central result, and among six simpler alternatives it is the only label-free score that predicts error in all three corpora. Code, data tables and prompts are released.",
+      "pub_date": "Mon, 02 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "音频大语言模型多模态语音情感识别中的不一致性感知评估",
+        "summary": "研究音频大语言模型在文本与音频情感信号不一致时的语音情感识别表现。作者将文本与音频映射到共享的效价-唤醒-支配空间，用双分量高斯混合模型构建连续、无需阈值的不一致性分数，并在三个语料库上评估三个音频模型。结果显示，只要存在音频，不一致性就会提高出错几率；而监督分类器表现相反，说明问题在于模型如何融合原始证据。",
+        "summary_en": "This paper examines whether disagreement between what a speaker says and how they say it degrades speech emotion recognition in audio-capable LLMs. Mapping text and audio into a shared valence-arousal-dominance space, the authors build a continuous, threshold-free incongruence score via a two-component Gaussian mixture and validate it against human judgement. Across three corpora and three models, incongruence raises error odds whenever audio is present, while supervised classifiers on the same features behave oppositely, suggesting the difficulty lies in how models combine raw evidence.",
+        "tags": [
+          "llm",
+          "multimodal",
+          "evaluation",
+          "research",
+          "benchmark"
+        ],
+        "category": "multimodal",
         "relevance_score": 0.9,
         "language": "en"
       },
       "_article": {
-        "id": "2026-11-03-rss-004",
-        "title": "Qistas：面向大语言模型公平性评估的预注册可移植协议",
+        "id": "2026-11-03-rss-008",
+        "title": "音频大语言模型多模态语音情感识别中的不一致性感知评估",
         "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2610.40893",
+        "source_url": "https://arxiv.org/abs/2610.40883",
         "language": "en",
-        "summary": "提出Qistas协议，用于跨国家评估LLM对特定社会群体的公平性，以伊拉克为首个实例。采用配对反事实设计、置换检验等统计方法，并预先注册假设与分析方案。发布配套编写工具，首次实地测试发现25个模板组中24个存在缺陷。",
-        "summary_en": "Presents Qistas, a portable, pre-registered protocol for evaluating LLM fairness toward a society's social, confessional, and regional groups, first instantiated for Iraq. It uses paired counterfactual designs with permutation tests, exact McNemar tests, and power analysis, and releases authoring apparatus; a field test found 24 of 25 template groups failed at least one check.",
+        "summary": "研究音频大语言模型在文本与音频情感信号不一致时的语音情感识别表现。作者将文本与音频映射到共享的效价-唤醒-支配空间，用双分量高斯混合模型构建连续、无需阈值的不一致性分数，并在三个语料库上评估三个音频模型。结果显示，只要存在音频，不一致性就会提高出错几率；而监督分类器表现相反，说明问题在于模型如何融合原始证据。",
+        "summary_en": "This paper examines whether disagreement between what a speaker says and how they say it degrades speech emotion recognition in audio-capable LLMs. Mapping text and audio into a shared valence-arousal-dominance space, the authors build a continuous, threshold-free incongruence score via a two-component Gaussian mixture and validate it against human judgement. Across three corpora and three models, incongruence raises error odds whenever audio is present, while supervised classifiers on the same features behave oppositely, suggesting the difficulty lies in how models combine raw evidence.",
         "tags": [
+          "llm",
+          "multimodal",
           "evaluation",
-          "benchmark",
           "research",
-          "prompt-engineering"
+          "benchmark"
         ],
-        "category": "benchmark",
+        "category": "multimodal",
         "relevance_score": 0.9,
         "status": "published",
-        "created_at": "2026-11-03T01:47:17.891708+08:00",
-        "updated_at": "2026-11-03T01:47:17.891709+08:00",
+        "created_at": "2026-11-03T23:48:27.827102+08:00",
+        "updated_at": "2026-11-03T23:48:27.827103+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -196,26 +196,52 @@
       }
     },
     {
-      "title": "CoFiBreak: A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak",
-      "url": "https://arxiv.org/abs/2610.40926",
-      "description": "arXiv:2610.40926v1 Announce Type: new \nAbstract: Automated red teaming trains an attacker large language model (LLM) to elicit harmful responses from a victim LLM, but reinforcement learning can collapse attackers onto a narrow set of prompts when attack success is the only reward. Such a collapse of attack diversity can bias safety evaluation toward repeatedly testing near-duplicate attack patterns rather than the underlying harmful intents. Existing methods often trade off attack success or inference cost for greater content or strategy diversity. We propose CoFiBreak, a coarse-to-fine diversity reward for Group Relative Policy Optimization (GRPO) that improves attack diversity while preserving strong attack effectiveness and low inference cost. The coarse reward broadens which strategies the attacker uses by encouraging strategies underrepresented within each GRPO group, while the fine reward broadens how those strategies are realized by discouraging reuse of the same personas, framings, and output formats after harmful-intent information is removed from prompt embeddings. Diversity rewards apply only to attacks that already exceed an effectiveness threshold, so diversity cannot be gained through ineffective attacks. Since both rewards are computed only during training, CoFiBreak also retains inference efficiency. Trained with Llama3.1-8B-Instruct as the victim, CoFiBreak discovers 1.6-2.0x as many distinct successful fine-grained strategies as the strongest baseline across frontier victims on HarmBench. It reaches 98.8% ASR@10 (attack success rate with 10 generations per intent) on AdvBench with the highest diversity score among all compared methods, which is 2.1x that of the strongest-attacking baseline. The resulting attacks transfer to unseen frontier LLMs, reaching 71.0% ASR@10 on AdvBench with the unseen victim Claude-Opus-4.6. The code will be released.",
+      "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+      "url": "https://arxiv.org/abs/2610.40890",
+      "description": "arXiv:2610.40890v1 Announce Type: new \nAbstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capabilities, motivating concerns about its potential use in surveillance-related tasks. We present an exploratory case study of what potentially harmful surveillance assistance looks like in ChatGPT's public web interface. We contribute a taxonomy of seven surveillance risk categories based on prior LLM risk research and reports of deployed surveillance systems, instantiated as 110 prompts, along with a manually reviewed analysis of ChatGPT's responses. Prompts were issued using two approaches: 55 jailbreak prompts drawing on five types of elicitation strategies, and 55 plain-language direct prompts, each run alone, and if unsuccessful, again with a short fixed prefix. We find that ChatGPT provides substantive surveillance guidance for 40 of the 55 jailbreak prompts and for 33 of the 55 direct prompts without any prefix. Compliant responses also rarely included policy mentions or suggestions for privacy-preserving alternatives. We manually review every response and find that even when ChatGPT states a refusal, it may still supply detailed instructions, working code, or architectural guidance alongside brief ethical caveats.",
       "pub_date": "Mon, 02 Nov 2026 00:00:00 -0500",
-      "source_feed": "arxiv_cs_cl",
+      "source_feed": "arxiv_cs_ai",
       "_source": "rss",
       "_analysis": {
-        "title": "CoFiBreak：用于高效多轮越狱的粗到细多样性奖励",
-        "summary": "CoFiBreak 为 GRPO 引入粗到细的多样性奖励：粗粒度奖励鼓励攻击者使用组内稀缺策略，细粒度奖励在去除有害意图信息后抑制人物设定、框架和输出格式的重复，从而在保持攻击成功率和低推理成本的同时提升攻击多样性。以 Llama3.1-8B-Instruct 为受害模型训练，在 HarmBench 上发现的细粒度成功策略数量为最强基线的 1.6-2.0 倍，AdvBench 上 ASR@10 达 98.8%，多样性得分为最强攻击基线的 2.1 倍，并可迁移至 Claude-Opus-4.6 等未见前沿模型。",
-        "summary_en": "CoFiBreak adds a coarse-to-fine diversity reward to GRPO for automated red teaming: the coarse reward encourages strategies underrepresented within each GRPO group, while the fine reward discourages reuse of personas, framings, and output formats after harmful-intent information is removed from prompt embeddings. Rewards apply only to attacks above an effectiveness threshold and are computed only during training, preserving inference efficiency. Trained with Llama3.1-8B-Instruct as victim, it discovers 1.6-2.0x as many distinct successful fine-grained strategies as the strongest baseline on HarmBench, reaches 98.8% ASR@10 on AdvBench with 2.1x the diversity score of the strongest-attacking baseline, and transfers to unseen frontier LLMs such as Claude-Opus-4.6 at 71.0% ASR@10.",
+        "title": "ChatGPT 作为监控助手？AI 辅助监控风险的探索性案例研究",
+        "summary": "该研究构建了七类监控风险分类体系和110条提示词，测试ChatGPT公开网页界面的响应。结果显示，55条越狱提示中有40条、55条直接提示中有33条获得了实质性监控指导，且合规回答很少提及政策或隐私保护替代方案；即使表面拒绝，也可能同时提供详细指令或可用代码。",
+        "summary_en": "This case study builds a seven-category surveillance-risk taxonomy and 110 prompts to probe ChatGPT's public web interface. It finds substantive surveillance guidance for 40 of 55 jailbreak prompts and 33 of 55 direct prompts, with compliant answers rarely citing policy or privacy-preserving alternatives; even refusals may include detailed instructions or working code.",
         "tags": [
           "security",
           "llm",
+          "evaluation",
           "research",
-          "fine-tuning",
-          "evaluation"
+          "prompt-engineering"
         ],
         "category": "security",
         "relevance_score": 0.95,
         "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-03-rss-006",
+        "title": "ChatGPT 作为监控助手？AI 辅助监控风险的探索性案例研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2610.40890",
+        "language": "en",
+        "summary": "该研究构建了七类监控风险分类体系和110条提示词，测试ChatGPT公开网页界面的响应。结果显示，55条越狱提示中有40条、55条直接提示中有33条获得了实质性监控指导，且合规回答很少提及政策或隐私保护替代方案；即使表面拒绝，也可能同时提供详细指令或可用代码。",
+        "summary_en": "This case study builds a seven-category surveillance-risk taxonomy and 110 prompts to probe ChatGPT's public web interface. It finds substantive surveillance guidance for 40 of 55 jailbreak prompts and 33 of 55 direct prompts, with compliant answers rarely citing policy or privacy-preserving alternatives; even refusals may include detailed instructions or working code.",
+        "tags": [
+          "security",
+          "llm",
+          "evaluation",
+          "research",
+          "prompt-engineering"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-11-03T23:48:27.827094+08:00",
+        "updated_at": "2026-11-03T23:48:27.827096+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
       }
     }
   ]

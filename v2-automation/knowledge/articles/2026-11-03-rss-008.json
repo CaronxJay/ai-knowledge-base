@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-03-rss-008",
+  "title": "音频大语言模型多模态语音情感识别中的不一致性感知评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.40883",
+  "language": "en",
+  "summary": "研究音频大语言模型在文本与音频情感信号不一致时的语音情感识别表现。作者将文本与音频映射到共享的效价-唤醒-支配空间，用双分量高斯混合模型构建连续、无需阈值的不一致性分数，并在三个语料库上评估三个音频模型。结果显示，只要存在音频，不一致性就会提高出错几率；而监督分类器表现相反，说明问题在于模型如何融合原始证据。",
+  "summary_en": "This paper examines whether disagreement between what a speaker says and how they say it degrades speech emotion recognition in audio-capable LLMs. Mapping text and audio into a shared valence-arousal-dominance space, the authors build a continuous, threshold-free incongruence score via a two-component Gaussian mixture and validate it against human judgement. Across three corpora and three models, incongruence raises error odds whenever audio is present, while supervised classifiers on the same features behave oppositely, suggesting the difficulty lies in how models combine raw evidence.",
+  "tags": [
+    "llm",
+    "multimodal",
+    "evaluation",
+    "research",
+    "benchmark"
+  ],
+  "category": "multimodal",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-11-03T23:48:27.827102+08:00",
+  "updated_at": "2026-11-03T23:48:27.827103+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-03-rss-006",
+  "title": "ChatGPT 作为监控助手？AI 辅助监控风险的探索性案例研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.40890",
+  "language": "en",
+  "summary": "该研究构建了七类监控风险分类体系和110条提示词，测试ChatGPT公开网页界面的响应。结果显示，55条越狱提示中有40条、55条直接提示中有33条获得了实质性监控指导，且合规回答很少提及政策或隐私保护替代方案；即使表面拒绝，也可能同时提供详细指令或可用代码。",
+  "summary_en": "This case study builds a seven-category surveillance-risk taxonomy and 110 prompts to probe ChatGPT's public web interface. It finds substantive surveillance guidance for 40 of 55 jailbreak prompts and 33 of 55 direct prompts, with compliant answers rarely citing policy or privacy-preserving alternatives; even refusals may include detailed instructions or working code.",
+  "tags": [
+    "security",
+    "llm",
+    "evaluation",
+    "research",
+    "prompt-engineering"
+  ],
+  "category": "security",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-11-03T23:48:27.827094+08:00",
+  "updated_at": "2026-11-03T23:48:27.827096+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

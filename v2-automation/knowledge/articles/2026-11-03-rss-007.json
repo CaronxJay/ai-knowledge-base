@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-03-rss-007",
+  "title": "超越看似合理的预测：网页世界模型中的安全充分性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2610.40798",
+  "language": "en",
+  "summary": "研究指出网页世界模型的预测虽在语义上合理（86.1%），却无法支撑正确的安全决策，存在授权行为不对称问题。作者提出安全充分性概念及SafeWebWorld基准，并引入Latent Authorisation Recovery方法，发现证据保留、聚合可恢复性均不足以建立稳健授权。",
+  "summary_en": "Web world models produce semantically plausible predictions (86.1%) but fail to support correct safety decisions, showing asymmetric authorisation behavior. The authors propose safety sufficiency and the SafeWebWorld benchmark, plus Latent Authorisation Recovery, finding that evidence preservation and aggregate recoverability are each insufficient for robust authorisation.",
+  "tags": [
+    "research",
+    "benchmark",
+    "security",
+    "agent-framework",
+    "evaluation"
+  ],
+  "category": "security",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-11-03T23:48:27.827098+08:00",
+  "updated_at": "2026-11-03T23:48:27.827099+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
