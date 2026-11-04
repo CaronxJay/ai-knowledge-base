@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-04-rss-004",
+  "title": "从碎片化到融合：全模态嵌入综述与路线图",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2611.00172",
+  "language": "en",
+  "summary": "该立场论文指出嵌入模型研究因模态而碎片化，但对比学习、Transformer架构和粒度转变正推动各模态研究走向共同原则。作者提出覆盖、可比性、组合性三层能力框架，以及变换、对齐、联合嵌入三条统一路径，首次给出全模态嵌入的统一跨领域综述。",
+  "summary_en": "This position paper argues that embedding research is fragmented by modality, yet contrastive learning, Transformers, and a granularity shift are driving convergence toward shared principles. It proposes a framework of coverage, comparability, and compositionality, with transformation, alignment, and joint embedding as paths to unification, offering the first unified cross-cutting survey of omnimodal embeddings.",
+  "tags": [
+    "research",
+    "multimodal",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-11-04T23:56:59.224745+08:00",
+  "updated_at": "2026-11-04T23:56:59.224746+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

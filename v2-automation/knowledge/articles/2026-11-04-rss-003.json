@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-04-rss-003",
+  "title": "GAVAGAI：通过平衡最优传输实现婴儿规模视觉语言模型的指称对齐",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2611.00319",
+  "language": "en",
+  "summary": "该研究指出下一词预测式描述目标缺乏显式指称变量，导致词与区域难以对齐。作者将场景建模为词与区域间的熵最优传输分配问题，引入NOTHING列处理非指称词，并用容量约束编码互斥性。在SAYCam婴儿视频语料上，词-图准确率从32.4%提升至48.7%，定位IoU从0.18提升至0.38。",
+  "summary_en": "The paper argues that next-token captioning lacks an explicit variable for word-to-region reference. It models each scene as entropic optimal transport between heard words and seen regions, adding a NOTHING column for non-referential words and a capacity constraint encoding mutual exclusivity. On SAYCam infant video, word-to-picture accuracy rises from 32.4% to 48.7% and localization IoU from 0.18 to 0.38.",
+  "tags": [
+    "multimodal",
+    "research",
+    "llm",
+    "evaluation"
+  ],
+  "category": "multimodal",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-11-04T23:56:59.224741+08:00",
+  "updated_at": "2026-11-04T23:56:59.224742+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-04-rss-002",
+  "title": "LLM谈判中的跨语言人格效应",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2611.00300",
+  "language": "en",
+  "summary": "研究测试同一LLM谈判者在英语和韩语下的行为差异，发现提示定义的社会策略（如“固执”人格）在不同语言中效果不一致：韩语谈判达成协议率显著更高（77.3% vs 52.5%），主要因卖方让步更多、礼貌缓和语更多。",
+  "summary_en": "The study tests whether prompt-defined personas produce consistent negotiation behavior across languages. Using identical Gemini 3.6 Flash buyer/seller agents across 12 CraigslistBargain scenarios in English and Korean, it finds agreement rates far higher in Korean (77.3% vs 52.5%), driven by larger seller concessions and more politeness mitigation, showing cross-lingual social-policy fidelity often fails.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "prompt-engineering",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-11-04T23:56:59.224736+08:00",
+  "updated_at": "2026-11-04T23:56:59.224738+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

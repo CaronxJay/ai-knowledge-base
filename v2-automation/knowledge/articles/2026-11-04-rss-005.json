@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-04-rss-005",
+  "title": "酷儿审计：面向酷儿社区的AI危害社区审计",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2611.00345",
+  "language": "en",
+  "summary": "该研究在EurIPS 2025举办参与式审计工作坊，16名酷儿社区成员依据4Cs危害分类法（内容、行为、接触、契约）审计四个案例，发现危害多源于问题定义与数据收集环节，并揭示从弱势群体榨取价值却缺乏救济的契约结构，表明社区参与式审计能发现聚合评估易忽略的身份特定危害。",
+  "summary_en": "A participatory auditing workshop at EurIPS 2025 had 16 queer community members audit four case studies using the 4Cs harm taxonomy (Content, Conduct, Contact, Contract) across the AI lifecycle. Participants traced harms to problem definition and data collection and identified contractual structures extracting value from vulnerable populations with minimal recourse, showing community-informed audits surface identity-specific harms that aggregate evaluation overlooks.",
+  "tags": [
+    "evaluation",
+    "research",
+    "security",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-11-04T23:56:59.224750+08:00",
+  "updated_at": "2026-11-04T23:56:59.224751+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

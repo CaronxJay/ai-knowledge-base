@@ -1,0 +1,246 @@
+{
+  "collected_at": "2026-11-04T23:56:59.225566+08:00",
+  "source": "rss",
+  "count": 5,
+  "items": [
+    {
+      "title": "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
+      "url": "https://arxiv.org/abs/2611.00172",
+      "description": "arXiv:2611.00172v1 Announce Type: new \nAbstract: Embedding models underpin virtually every modern AI system, from search engines to recommendation systems. Despite shared mathematical foundations, research on embedding models remains fragmented by modality: the communities develop largely in isolation, seldom exchanging insights. We argue that this fragmentation obscures a deeper convergence. Driven by contrastive learning, Transformer architectures, and a granularity shift, embedding research across modalities is converging toward a common set of principles, even as modality-specific challenges remain underexplored. To reason across this convergence without conflating it, we propose a framework of three progressively harder capabilities: coverage, comparability, and compositionality. Three paths toward unification satisfy these in turn: transformation broadens coverage, alignment enables comparability, and joint embedding, the terminus we advocate, aims at compositionality. This position paper traces the resulting evolution, providing the first unified, cross-cutting treatment of omnimodal embedding research.",
+      "pub_date": "Wed, 04 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从碎片化到融合：全模态嵌入综述与路线图",
+        "summary": "该立场论文指出嵌入模型研究因模态而碎片化，但对比学习、Transformer架构和粒度转变正推动各模态研究走向共同原则。作者提出覆盖、可比性、组合性三层能力框架，以及变换、对齐、联合嵌入三条统一路径，首次给出全模态嵌入的统一跨领域综述。",
+        "summary_en": "This position paper argues that embedding research is fragmented by modality, yet contrastive learning, Transformers, and a granularity shift are driving convergence toward shared principles. It proposes a framework of coverage, comparability, and compositionality, with transformation, alignment, and joint embedding as paths to unification, offering the first unified cross-cutting survey of omnimodal embeddings.",
+        "tags": [
+          "research",
+          "multimodal",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-04-rss-004",
+        "title": "从碎片化到融合：全模态嵌入综述与路线图",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2611.00172",
+        "language": "en",
+        "summary": "该立场论文指出嵌入模型研究因模态而碎片化，但对比学习、Transformer架构和粒度转变正推动各模态研究走向共同原则。作者提出覆盖、可比性、组合性三层能力框架，以及变换、对齐、联合嵌入三条统一路径，首次给出全模态嵌入的统一跨领域综述。",
+        "summary_en": "This position paper argues that embedding research is fragmented by modality, yet contrastive learning, Transformers, and a granularity shift are driving convergence toward shared principles. It proposes a framework of coverage, comparability, and compositionality, with transformation, alignment, and joint embedding as paths to unification, offering the first unified cross-cutting survey of omnimodal embeddings.",
+        "tags": [
+          "research",
+          "multimodal",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-11-04T23:56:59.224745+08:00",
+        "updated_at": "2026-11-04T23:56:59.224746+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "MEMENTO: Learning Context Management for Long Context Processing Agents",
+      "url": "https://arxiv.org/abs/2611.00244",
+      "description": "arXiv:2611.00244v1 Announce Type: new \nAbstract: LLM agents that operate over long inputs must perform context management: deciding what to retain in a fixed-size context window. A common approach is compaction, where the model replaces its history with a self-generated note. Yet off-the-shelf agentic models, including GPT-5.5 and GLM-5.3, often write ineffective notes, and reinforcement learning (RL) alone rarely discovers useful note-taking behavior. We present MEMENTO, a long-context agent built on Qwen3-8B and trained to manage its context through compaction. We first bootstrap note-taking by fine-tuning on synthetic trajectories annotated with notes generated in hindsight, then reinforce it with RL using a reward that combines answer correctness, note-quality heuristics, and confidence calibration. Although trained only to compact into a fresh window, MEMENTO extends at test time to strategies such as context folding and confidence-based backtracking. On book-level question answering across four benchmarks, with books of up to 2.5M tokens, MEMENTO raises Qwen3-8B's accuracy from 36.9% to 67.8% while never holding more than 20K tokens in context. It outperforms GPT-5.5 agent in the same harness (13.1%) and full book context (56.7%) at less than 1/50 the cost. It also nearly matches a ~100x larger GLM-5.3 agent (69.3%) at 1/9 the cost, and comes within 6.4 points of GLM-5.3 full context at 1/26 the cost.",
+      "pub_date": "Wed, 04 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MEMENTO：面向长上下文处理智能体的上下文管理学习",
+        "summary": "MEMENTO 基于 Qwen3-8B 训练智能体学习上下文压缩管理：先用带事后标注笔记的合成轨迹微调，再用结合答案正确性、笔记质量与置信度校准的强化学习优化。在最长 250 万 token 的书籍级问答上，准确率从 36.9% 提升至 67.8%，上下文始终不超过 20K token，成本远低于 GPT-5.5 和 GLM-5.3。",
+        "summary_en": "MEMENTO trains a Qwen3-8B long-context agent to manage its context via compaction: bootstrapped with hindsight-annotated synthetic notes, then reinforced with RL rewarding answer correctness, note quality, and confidence calibration. On book-level QA up to 2.5M tokens, it lifts accuracy from 36.9% to 67.8% while never exceeding 20K tokens of context, beating GPT-5.5 agents and full-context baselines at a fraction of the cost.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-04-rss-001",
+        "title": "MEMENTO：面向长上下文处理智能体的上下文管理学习",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2611.00244",
+        "language": "en",
+        "summary": "MEMENTO 基于 Qwen3-8B 训练智能体学习上下文压缩管理：先用带事后标注笔记的合成轨迹微调，再用结合答案正确性、笔记质量与置信度校准的强化学习优化。在最长 250 万 token 的书籍级问答上，准确率从 36.9% 提升至 67.8%，上下文始终不超过 20K token，成本远低于 GPT-5.5 和 GLM-5.3。",
+        "summary_en": "MEMENTO trains a Qwen3-8B long-context agent to manage its context via compaction: bootstrapped with hindsight-annotated synthetic notes, then reinforced with RL rewarding answer correctness, note quality, and confidence calibration. On book-level QA up to 2.5M tokens, it lifts accuracy from 36.9% to 67.8% while never exceeding 20K tokens of context, beating GPT-5.5 agents and full-context baselines at a fraction of the cost.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-11-04T23:56:59.224727+08:00",
+        "updated_at": "2026-11-04T23:56:59.224732+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Cross-Lingual Persona Effects in LLM Negotiation",
+      "url": "https://arxiv.org/abs/2611.00300",
+      "description": "arXiv:2611.00300v1 Announce Type: new \nAbstract: Tell an LLM negotiator to be \"headstrong\" and it should hold firm on price, but does that instruction retain the same behavior in every language? To test this, we use identical buyer and seller instances of Gemini 3.6 Flash to negotiate the same 12 CraigslistBargain scenarios in English and Korean. The pilot-scale 2 x 2 x 3 design crosses interaction language, seller urgency (none or strong), and buyer persona (cooperative, neutral, or headstrong), yielding 432 attempted negotiations. We call this property cross-lingual social-policy fidelity: whether a prompt-defined social policy produces the same behavioral effect regardless of interaction language. It often does not. Korean negotiations reached agreement far more often than English (77.3% vs. 52.5%, a 24.8-point gap, Holm-adjusted p = .0039), but only for neutral and headstrong buyers; cooperative buyers were already near-ceiling in both languages. Buyers' opening offers barely differed by language; the gap instead emerged later, through larger seller concessions and a smaller final gap in Korean, and agreed prices were also lower in Korean. Repeating the full design with Qwen3.7 Flash as both agents gives directional support: agreement was again higher in Korean (+13.9 points vs. Gemini's +24.8, with an interval whose lower bound is near zero), and sellers again conceded more. Pragmatic analysis reveals why: while both languages frequently featured face-threatening acts like rejections and counter-offers, Korean dialogue softened these threats with substantially more politeness mitigation, especially among sellers (11.7% vs. 3.6%). These results show that such a policy can produce different simulated negotiation behavior, not just different wording, when only the interaction language changes.",
+      "pub_date": "Wed, 04 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM谈判中的跨语言人格效应",
+        "summary": "研究测试同一LLM谈判者在英语和韩语下的行为差异，发现提示定义的社会策略（如“固执”人格）在不同语言中效果不一致：韩语谈判达成协议率显著更高（77.3% vs 52.5%），主要因卖方让步更多、礼貌缓和语更多。",
+        "summary_en": "The study tests whether prompt-defined personas produce consistent negotiation behavior across languages. Using identical Gemini 3.6 Flash buyer/seller agents across 12 CraigslistBargain scenarios in English and Korean, it finds agreement rates far higher in Korean (77.3% vs 52.5%), driven by larger seller concessions and more politeness mitigation, showing cross-lingual social-policy fidelity often fails.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-04-rss-002",
+        "title": "LLM谈判中的跨语言人格效应",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2611.00300",
+        "language": "en",
+        "summary": "研究测试同一LLM谈判者在英语和韩语下的行为差异，发现提示定义的社会策略（如“固执”人格）在不同语言中效果不一致：韩语谈判达成协议率显著更高（77.3% vs 52.5%），主要因卖方让步更多、礼貌缓和语更多。",
+        "summary_en": "The study tests whether prompt-defined personas produce consistent negotiation behavior across languages. Using identical Gemini 3.6 Flash buyer/seller agents across 12 CraigslistBargain scenarios in English and Korean, it finds agreement rates far higher in Korean (77.3% vs 52.5%), driven by larger seller concessions and more politeness mitigation, showing cross-lingual social-policy fidelity often fails.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-11-04T23:56:59.224736+08:00",
+        "updated_at": "2026-11-04T23:56:59.224738+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "GAVAGAI: Referential Alignment for Infant-Scale Vision-Language Models via Balanced Optimal Transport",
+      "url": "https://arxiv.org/abs/2611.00319",
+      "description": "arXiv:2611.00319v1 Announce Type: new \nAbstract: A child learns which words name which things from roughly 100 million words of input. Vision-language models trained at a comparable scale bind words to referents far less reliably, and we argue that part of the gap is structural: the usual next-token captioning objective has no variable standing for \"this word refers to that region,\" so training applies no direct pressure to ground words. We add such a variable by treating each scene as a small assignment problem between the content words heard and the regions seen, solved as entropic optimal transport under two constraints. First, a word may be assigned to a special NOTHING column instead of any region, which matters because most content words in caregiver speech do not name anything visible. Second, no region may receive more than a bounded share of the assignment mass, a capacity constraint that encodes mutual exclusivity. The alignment step costs about eight Sinkhorn iterations, small next to the vision encoder. In controlled simulation, the naive version of the idea, a row-wise softmax that forces every word onto some region, collapses to 0.000 word-to-picture accuracy under realistic non-reference rates, below the 0.058 of captioning alone, while our two constraints reach 0.075 in that regime and 0.700 on clean input. A one-parameter version of the model reproduces adult cross-situational learning accuracy across three ambiguity conditions (RMSE 0.024). On the SAYCam infant video corpus, adding the alignment loss to a next-token captioning model raises word-to-picture accuracy from 32.4% to 48.7% and localization IoU from 0.18 to 0.38. A contrastive model trained on the same child's data remains stronger on its own benchmark, so our claim is that the loss improves a captioning objective under high non-reference rates, not that it sets a new best.",
+      "pub_date": "Wed, 04 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "GAVAGAI：通过平衡最优传输实现婴儿规模视觉语言模型的指称对齐",
+        "summary": "该研究指出下一词预测式描述目标缺乏显式指称变量，导致词与区域难以对齐。作者将场景建模为词与区域间的熵最优传输分配问题，引入NOTHING列处理非指称词，并用容量约束编码互斥性。在SAYCam婴儿视频语料上，词-图准确率从32.4%提升至48.7%，定位IoU从0.18提升至0.38。",
+        "summary_en": "The paper argues that next-token captioning lacks an explicit variable for word-to-region reference. It models each scene as entropic optimal transport between heard words and seen regions, adding a NOTHING column for non-referential words and a capacity constraint encoding mutual exclusivity. On SAYCam infant video, word-to-picture accuracy rises from 32.4% to 48.7% and localization IoU from 0.18 to 0.38.",
+        "tags": [
+          "multimodal",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-04-rss-003",
+        "title": "GAVAGAI：通过平衡最优传输实现婴儿规模视觉语言模型的指称对齐",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2611.00319",
+        "language": "en",
+        "summary": "该研究指出下一词预测式描述目标缺乏显式指称变量，导致词与区域难以对齐。作者将场景建模为词与区域间的熵最优传输分配问题，引入NOTHING列处理非指称词，并用容量约束编码互斥性。在SAYCam婴儿视频语料上，词-图准确率从32.4%提升至48.7%，定位IoU从0.18提升至0.38。",
+        "summary_en": "The paper argues that next-token captioning lacks an explicit variable for word-to-region reference. It models each scene as entropic optimal transport between heard words and seen regions, adding a NOTHING column for non-referential words and a capacity constraint encoding mutual exclusivity. On SAYCam infant video, word-to-picture accuracy rises from 32.4% to 48.7% and localization IoU from 0.18 to 0.38.",
+        "tags": [
+          "multimodal",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-11-04T23:56:59.224741+08:00",
+        "updated_at": "2026-11-04T23:56:59.224742+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Queering the Audits: Community-Based Auditing of AI Harms to Queer Communities",
+      "url": "https://arxiv.org/abs/2611.00345",
+      "description": "arXiv:2611.00345v1 Announce Type: new \nAbstract: AI systems embed majority-group defaults into training data, evaluation metrics, and category definitions, producing documented harms for queer communities including erasure, misclassification, and discrimination. Standard technical audits often rely on aggregate measures and cannot detect harms that be come visible only through the lived experience of affected communities. We conducted a participatory auditing workshop at EurIPS 2025 where 16 queer community members audited four case studies using the 4Cs harm taxonomy (Content, Conduct, Contact, Contract) applied across the AI lifecycle. Participants used structured worksheets and plenary synthesis to classify harms and trace them to their origins in the development pipeline. Across all four cases, participants traced harms to problem definition and data collection, and they identified contractual structures that extract value from vulnerable populations while providing minimal recourse. These findings illustrate that community-informed auditing surfaces concrete, identity-specific harms that aggregate evaluation methods risk overlooking.",
+      "pub_date": "Wed, 04 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "酷儿审计：面向酷儿社区的AI危害社区审计",
+        "summary": "该研究在EurIPS 2025举办参与式审计工作坊，16名酷儿社区成员依据4Cs危害分类法（内容、行为、接触、契约）审计四个案例，发现危害多源于问题定义与数据收集环节，并揭示从弱势群体榨取价值却缺乏救济的契约结构，表明社区参与式审计能发现聚合评估易忽略的身份特定危害。",
+        "summary_en": "A participatory auditing workshop at EurIPS 2025 had 16 queer community members audit four case studies using the 4Cs harm taxonomy (Content, Conduct, Contact, Contract) across the AI lifecycle. Participants traced harms to problem definition and data collection and identified contractual structures extracting value from vulnerable populations with minimal recourse, showing community-informed audits surface identity-specific harms that aggregate evaluation overlooks.",
+        "tags": [
+          "evaluation",
+          "research",
+          "security",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-04-rss-005",
+        "title": "酷儿审计：面向酷儿社区的AI危害社区审计",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2611.00345",
+        "language": "en",
+        "summary": "该研究在EurIPS 2025举办参与式审计工作坊，16名酷儿社区成员依据4Cs危害分类法（内容、行为、接触、契约）审计四个案例，发现危害多源于问题定义与数据收集环节，并揭示从弱势群体榨取价值却缺乏救济的契约结构，表明社区参与式审计能发现聚合评估易忽略的身份特定危害。",
+        "summary_en": "A participatory auditing workshop at EurIPS 2025 had 16 queer community members audit four case studies using the 4Cs harm taxonomy (Content, Conduct, Contact, Contract) across the AI lifecycle. Participants traced harms to problem definition and data collection and identified contractual structures extracting value from vulnerable populations with minimal recourse, showing community-informed audits surface identity-specific harms that aggregate evaluation overlooks.",
+        "tags": [
+          "evaluation",
+          "research",
+          "security",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-11-04T23:56:59.224750+08:00",
+        "updated_at": "2026-11-04T23:56:59.224751+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}
