@@ -1,0 +1,483 @@
+{
+  "collected_at": "2026-11-06T23:38:47.074697+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
+      "url": "https://arxiv.org/abs/2611.06962",
+      "description": "arXiv:2611.06962v1 Announce Type: new \nAbstract: Proof assistants such as Lean check mathematical proofs down to the axioms, and AI agents have recently made writing such proofs cheap. We describe AutoIP, a Lean library in which classical linear regularization theory, together with the functional analysis it rests on, has been autoformalized by AI agents. A machine-checked proof certifies only the formal statement it proves, so the remaining human task is to confirm that each formal statement says what was intended. We organize the library around this task: a reviewer compares the formal statements with their natural-language counterparts and never needs to read a proof. Our experience is that the risks lie in the statements rather than in the proofs, and that simple automated tests on the statements can expose problems even in the established literature. We illustrate this with a textbook theorem whose hypothesis is more restrictive than asserted. We invite the inverse problems community to extend and build on the library.",
+      "pub_date": "Fri, 06 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AI时代逆问题的形式化：可能性、陷阱与邀请",
+        "summary": "介绍AutoIP——一个用AI智能体自动形式化经典线性正则化理论及泛函分析的Lean库。机器验证的证明仅保证形式陈述本身，人类需核对形式陈述是否符合原意。作者发现风险主要在陈述而非证明，简单自动化测试可暴露文献中的问题，并邀请逆问题社区共同扩展该库。",
+        "summary_en": "Introduces AutoIP, a Lean library where AI agents autoformalized classical linear regularization theory and its functional analysis. Machine-checked proofs certify only the formal statement, so humans must verify statements match intent. The authors find risks lie in statements rather than proofs, and simple automated tests can expose issues even in established literature. They invite the inverse problems community to extend the library.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 0.75,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-06-rss-009",
+        "title": "AI时代逆问题的形式化：可能性、陷阱与邀请",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2611.06962",
+        "language": "en",
+        "summary": "介绍AutoIP——一个用AI智能体自动形式化经典线性正则化理论及泛函分析的Lean库。机器验证的证明仅保证形式陈述本身，人类需核对形式陈述是否符合原意。作者发现风险主要在陈述而非证明，简单自动化测试可暴露文献中的问题，并邀请逆问题社区共同扩展该库。",
+        "summary_en": "Introduces AutoIP, a Lean library where AI agents autoformalized classical linear regularization theory and its functional analysis. Machine-checked proofs certify only the formal statement, so humans must verify statements match intent. The authors find risks lie in statements rather than proofs, and simple automated tests can expose issues even in established literature. They invite the inverse problems community to extend the library.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 0.75,
+        "status": "published",
+        "created_at": "2026-11-06T23:38:47.073801+08:00",
+        "updated_at": "2026-11-06T23:38:47.073803+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
+      "url": "https://arxiv.org/abs/2611.06972",
+      "description": "arXiv:2611.06972v1 Announce Type: new \nAbstract: Liability adjudication tasks (e.g., legal charge determination) require analyzing event descriptions against domain-specific skills to determine whether a party should bear liability. While Large Language Models (LLMs) have shown promise in this area by leveraging executable skills for interpretable reasoning, existing approaches face three critical limitations: skill libraries become stale as real-world scenarios dynamically evolve, skill descriptions often suffer from a semantic execution gap where LLMs deviate from intended expert logic, and growing skill collections exceed context budgets causing critical skill omission. To address these challenges, we propose Knowledge-Data Dual-Driven Automated Skill Optimization (KDASO), which continuously evolves a skill library through neighborhood-conditioned induction from recent adjudication data, execution-aligned refinement based on LLM trajectory analysis, and context-budgeted routing for scalable skill selection. Experiments across ride-hailing adjudication, legal liability determination, and logical reasoning judgment demonstrate that KDASO significantly outperforms current general-purpose and domain-specific baselines. KDASO further achieves 8.96% improvement when transferring skills to concept-similar scenarios and maintains consistent performance gains through continuous optimization, underscoring the high transferability and stability of generated skills.",
+      "pub_date": "Fri, 06 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "KDASO：知识-数据双驱动的责任判定任务自动化技能优化",
+        "summary": "针对LLM在责任判定任务中技能库易过时、技能描述与执行存在语义鸿沟、技能过多超出上下文预算等问题，提出KDASO方法，通过基于近期数据的邻域条件归纳、基于LLM轨迹分析的执行对齐精炼以及上下文预算感知路由，持续演化技能库。在网约车判定、法律责任认定和逻辑推理任务上显著优于现有基线，跨场景迁移提升8.96%。",
+        "summary_en": "KDASO addresses stale skill libraries, semantic execution gaps, and context-budget overflow in LLM-based liability adjudication. It continuously evolves skills via neighborhood-conditioned induction from recent data, execution-aligned refinement using LLM trajectory analysis, and context-budgeted routing. It significantly outperforms general and domain-specific baselines on ride-hailing adjudication, legal liability determination, and logical reasoning, with 8.96% transfer gains.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-06-rss-003",
+        "title": "KDASO：知识-数据双驱动的责任判定任务自动化技能优化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2611.06972",
+        "language": "en",
+        "summary": "针对LLM在责任判定任务中技能库易过时、技能描述与执行存在语义鸿沟、技能过多超出上下文预算等问题，提出KDASO方法，通过基于近期数据的邻域条件归纳、基于LLM轨迹分析的执行对齐精炼以及上下文预算感知路由，持续演化技能库。在网约车判定、法律责任认定和逻辑推理任务上显著优于现有基线，跨场景迁移提升8.96%。",
+        "summary_en": "KDASO addresses stale skill libraries, semantic execution gaps, and context-budget overflow in LLM-based liability adjudication. It continuously evolves skills via neighborhood-conditioned induction from recent data, execution-aligned refinement using LLM trajectory analysis, and context-budgeted routing. It significantly outperforms general and domain-specific baselines on ride-hailing adjudication, legal liability determination, and logical reasoning, with 8.96% transfer gains.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-11-06T23:38:47.073770+08:00",
+        "updated_at": "2026-11-06T23:38:47.073772+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
+      "url": "https://arxiv.org/abs/2611.06977",
+      "description": "arXiv:2611.06977v1 Announce Type: new \nAbstract: Reproducible LLM inference requires that a request produces the same output regardless of the other requests in the batch. Existing solutions pay for this in different ways: batch-invariant kernels constrain every operator, and isolating prefill with fixed-shape decode ({our CoRun-style baseline}) gives up shared prefill compute and pads decode. We present BlockLock, which keeps shared batched prefill and pins only the numerical path of the protected request: it fixes the geometry that the request sees, with {two modes: BlockLock-Rows uses fixed-width rows and retains batched decode of all requests; BlockLock-Pack uses terminal-anchored packing with an isolated dummy segment, then extracts the protected request's KV state for target-only decode. Under a stated per-deployment contract, both modes preserve the target's output bitwise when its companions change.} Across five {dense} models (Qwen3-8B/14B, Llama-3.1-8B-Instruct, and Gemma-3-4B/12B-IT) and three single-GPU deployments (NVIDIA A6000, A100, and H100), we evaluate our approach on both tinyBenchmarks and BFCL{; we also include initial tensor-parallel experiments on two NVIDIA A6000 GPUs. Both modes preserve target sequences and Top20-logit bits in the reported tests.} At equal delivered work, {BlockLock-Rows} reduces latency by 53.5--55.0\\% and improves throughput by 115.2--122.2\\% relative to vLLM Batch-Invariant; compared with batch-invariant kernels, it needs no custom kernel implementations and constrains only the protected requests.",
+      "pub_date": "Fri, 06 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "BlockLock：固定批次几何的可复现LLM推理",
+        "summary": "BlockLock提出一种可复现LLM推理方法，仅固定受保护请求的数值路径，保留共享批量prefill。两种模式在五种模型和三种GPU上实现逐位一致输出，相比vLLM批不变内核延迟降低53.5-55%，吞吐提升115-122%。",
+        "summary_en": "BlockLock enables reproducible LLM inference by pinning only the protected request's numerical path while keeping shared batched prefill. Two modes preserve bitwise outputs across five models and three GPUs, cutting latency 53.5-55% and boosting throughput 115-122% versus vLLM batch-invariant kernels.",
+        "tags": [
+          "llm",
+          "infrastructure",
+          "research",
+          "evaluation"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-06-rss-004",
+        "title": "BlockLock：固定批次几何的可复现LLM推理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2611.06977",
+        "language": "en",
+        "summary": "BlockLock提出一种可复现LLM推理方法，仅固定受保护请求的数值路径，保留共享批量prefill。两种模式在五种模型和三种GPU上实现逐位一致输出，相比vLLM批不变内核延迟降低53.5-55%，吞吐提升115-122%。",
+        "summary_en": "BlockLock enables reproducible LLM inference by pinning only the protected request's numerical path while keeping shared batched prefill. Two modes preserve bitwise outputs across five models and three GPUs, cutting latency 53.5-55% and boosting throughput 115-122% versus vLLM batch-invariant kernels.",
+        "tags": [
+          "llm",
+          "infrastructure",
+          "research",
+          "evaluation"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-11-06T23:38:47.073775+08:00",
+        "updated_at": "2026-11-06T23:38:47.073776+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Resource-Efficient Reinforcement Learning Post-Training through Elastic Expert Parallelism",
+      "url": "https://arxiv.org/abs/2611.06984",
+      "description": "arXiv:2611.06984v1 Announce Type: new \nAbstract: Reinforcement learning post-training improves the capabilities of large language models, but generating training responses is a major computational bottleneck. In mixture-of-experts models, workers that finish their assigned responses may remain occupied because their experts are still needed by workers processing longer responses. Consequently, approximately one-third of occupied worker time in the baseline occurs after local response generation finishes. Here we present FlexFloor, a system that enables earlier resource release during synchronous response generation while preserving the expert computation required by ongoing responses. FlexFloor jointly adapts response scheduling and the active group of workers. It uses historical response lengths and memory constraints to guide batching and prompt placement, then progressively releases workers while maintaining expert availability and correct communication. Compared with the verl baseline, FlexFloor generates approximately 65.40% more response tokens per unit of occupied computing time and increases response generation throughput by 52.74%, with little observed variation in rollout reward. By making reinforcement learning post-training more efficient, FlexFloor supports faster development and iterative improvement of large language models and AI agents.",
+      "pub_date": "Fri, 06 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "弹性专家并行实现资源高效的强化学习后训练",
+        "summary": "针对MoE模型强化学习后训练中响应生成的计算瓶颈，提出FlexFloor系统，通过联合调整响应调度与活跃worker组，在保持专家计算可用性的同时渐进释放worker。相比verl基线，单位占用算力时间生成的响应token增加约65.40%，吞吐提升52.74%。",
+        "summary_en": "FlexFloor addresses the response-generation bottleneck in RL post-training for MoE models by jointly adapting response scheduling and the active worker set, progressively releasing workers while preserving expert availability. It generates ~65.40% more response tokens per unit of occupied compute time and boosts throughput by 52.74% over the verl baseline.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "infrastructure",
+          "research"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-06-rss-001",
+        "title": "弹性专家并行实现资源高效的强化学习后训练",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2611.06984",
+        "language": "en",
+        "summary": "针对MoE模型强化学习后训练中响应生成的计算瓶颈，提出FlexFloor系统，通过联合调整响应调度与活跃worker组，在保持专家计算可用性的同时渐进释放worker。相比verl基线，单位占用算力时间生成的响应token增加约65.40%，吞吐提升52.74%。",
+        "summary_en": "FlexFloor addresses the response-generation bottleneck in RL post-training for MoE models by jointly adapting response scheduling and the active worker set, progressively releasing workers while preserving expert availability. It generates ~65.40% more response tokens per unit of occupied compute time and boosts throughput by 52.74% over the verl baseline.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "infrastructure",
+          "research"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-11-06T23:38:47.073757+08:00",
+        "updated_at": "2026-11-06T23:38:47.073761+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+      "url": "https://arxiv.org/abs/2611.06989",
+      "description": "arXiv:2611.06989v1 Announce Type: new \nAbstract: Enterprises run business transactions through multi-agent AI systems spanning clouds, large language models (LLMs), orchestration harnesses, and systems of record. Finance receives AI cost only at settlement grain, aggregated by SKU and charge period. The business question (what did this order, claim, or case cost in AI?) cannot be answered from billing data, because providers never see enterprise transaction boundaries. The FinOps Open Cost and Usage Specification (FOCUS) gives billing data one schema across providers but remains settlement-grain even as it adds AI token and requester attribution. We formalize this grain mismatch, derive seven requirements, and propose the Two-Ledger Model: a settlement ledger of FOCUS-conformant billing data joined to an attribution ledger of invocation-grain usage records built on OpenTelemetry GenAI telemetry. A layered correlation spine (trace context, A2A/MCP metadata, business-key correlation, probabilistic matching) assigns each record to its business transaction with recorded method and confidence; a versioned rate card prices usage in near real time; period reconciliation ties both ledgers to the invoice, and the unexplained residual identifies shadow AI. Costs are reported per order, claim, or outcome with agentic cost metrics. A simulation with known ground truth shows the spine sustaining cost coverage above 99% as trace propagation falls to zero, the reconciliation residual recovering planted unmetered spend within 0.24 percentage points while flagging provider billing errors, and mid-flight gating cutting p99 transaction cost by up to 61% at a 2-4% false-pause rate. We propose the attribution ledger as an invocation-grain FOCUS profile for standardization.",
+      "pub_date": "Fri, 06 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "双账本模型：跨云、模型与记录系统的多智能体AI系统交易粒度成本核算",
+        "summary": "论文指出企业AI成本仅在结算粒度汇总，无法回答单笔订单或案件消耗多少AI成本的问题，提出双账本模型：将符合FOCUS规范的结算账本与基于OpenTelemetry GenAI遥测的调用粒度归因账本关联，通过分层关联脊柱将每条记录归属到业务交易，并支持近实时定价与对账，仿真显示成本覆盖率超99%。",
+        "summary_en": "The paper identifies a grain mismatch: enterprises receive AI cost only at settlement grain, so they cannot answer what a single order or claim cost in AI. It proposes the Two-Ledger Model, joining FOCUS-conformant settlement billing data to an invocation-grain attribution ledger built on OpenTelemetry GenAI telemetry. A layered correlation spine assigns records to business transactions, with near-real-time rate-card pricing and period reconciliation; simulation shows cost coverage above 99%.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "infrastructure",
+          "evaluation",
+          "research"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-06-rss-007",
+        "title": "双账本模型：跨云、模型与记录系统的多智能体AI系统交易粒度成本核算",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2611.06989",
+        "language": "en",
+        "summary": "论文指出企业AI成本仅在结算粒度汇总，无法回答单笔订单或案件消耗多少AI成本的问题，提出双账本模型：将符合FOCUS规范的结算账本与基于OpenTelemetry GenAI遥测的调用粒度归因账本关联，通过分层关联脊柱将每条记录归属到业务交易，并支持近实时定价与对账，仿真显示成本覆盖率超99%。",
+        "summary_en": "The paper identifies a grain mismatch: enterprises receive AI cost only at settlement grain, so they cannot answer what a single order or claim cost in AI. It proposes the Two-Ledger Model, joining FOCUS-conformant settlement billing data to an invocation-grain attribution ledger built on OpenTelemetry GenAI telemetry. A layered correlation spine assigns records to business transactions, with near-real-time rate-card pricing and period reconciliation; simulation shows cost coverage above 99%.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "infrastructure",
+          "evaluation",
+          "research"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-11-06T23:38:47.073792+08:00",
+        "updated_at": "2026-11-06T23:38:47.073794+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Interactive Backdoor Attacks in LLM-Based Proactive Dialogue Systems",
+      "url": "https://arxiv.org/abs/2611.06969",
+      "description": "arXiv:2611.06969v1 Announce Type: new \nAbstract: LLM-based proactive dialogue systems provide goal-directed support through sustained interaction. Fine-tuning their underlying models on externally supplied dialogue data introduces backdoor risks. Existing LLM backdoor studies primarily focus on eliciting an attacker-specified response upon trigger activation. We present an interactive backdoor attack framework that uses training-data poisoning to steer post-trigger, multi-turn interactions toward an attacker-specified objective. Poisoned fine-tuning dialogues implant a trigger-conditioned guidance-policy bias that ordinary user utterances can activate, without deployment-time prompt modification or further attacker intervention. Specifically, we instantiate three complementary attacks under progressively expanded post-trigger interaction settings: (1) Direct Attack, which targets an immediate response deviation upon trigger activation, retaining the conventional trigger--response setting; (2) Constrained Progressive Attack, which progressively advances the attack objective along a predefined multi-turn trajectory; and (3) Unconstrained Progressive Attack, which extends target-directed steering to open-ended interactions with varied user continuations. Using psychological counseling as a representative setting, experiments on two LLM backbones and two dialogue datasets show that all three attacks effectively achieve their objectives under their respective interaction settings while largely preserving normal utility. Separate defense evaluations show that the tested training-data filters retain nearly all poisoned dialogues, while three post-admission baselines leave substantial residual attack-specific success.",
+      "pub_date": "Fri, 06 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于LLM的主动式对话系统中的交互式后门攻击",
+        "summary": "该研究提出一种交互式后门攻击框架，通过投毒微调数据植入触发器条件化的引导策略偏差，使普通用户话语即可激活，从而在多轮对话中将交互导向攻击者指定目标。在心理咨询场景下实例化直接攻击、约束渐进攻击和无约束渐进攻击三种方式，实验证明均能有效达成目标且基本保持正常效用，现有数据过滤与防御基线难以有效拦截。",
+        "summary_en": "This work presents an interactive backdoor attack framework that poisons fine-tuning dialogues to implant a trigger-conditioned guidance-policy bias, steering post-trigger multi-turn interactions toward an attacker-specified objective without deployment-time prompt modification. Instantiated as Direct, Constrained Progressive, and Unconstrained Progressive attacks in psychological counseling, experiments on two LLM backbones and two datasets show all three achieve their goals while largely preserving normal utility, and tested defenses leave substantial residual attack success.",
+        "tags": [
+          "security",
+          "llm",
+          "fine-tuning",
+          "research",
+          "evaluation"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-06-rss-002",
+        "title": "基于LLM的主动式对话系统中的交互式后门攻击",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2611.06969",
+        "language": "en",
+        "summary": "该研究提出一种交互式后门攻击框架，通过投毒微调数据植入触发器条件化的引导策略偏差，使普通用户话语即可激活，从而在多轮对话中将交互导向攻击者指定目标。在心理咨询场景下实例化直接攻击、约束渐进攻击和无约束渐进攻击三种方式，实验证明均能有效达成目标且基本保持正常效用，现有数据过滤与防御基线难以有效拦截。",
+        "summary_en": "This work presents an interactive backdoor attack framework that poisons fine-tuning dialogues to implant a trigger-conditioned guidance-policy bias, steering post-trigger multi-turn interactions toward an attacker-specified objective without deployment-time prompt modification. Instantiated as Direct, Constrained Progressive, and Unconstrained Progressive attacks in psychological counseling, experiments on two LLM backbones and two datasets show all three achieve their goals while largely preserving normal utility, and tested defenses leave substantial residual attack success.",
+        "tags": [
+          "security",
+          "llm",
+          "fine-tuning",
+          "research",
+          "evaluation"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-11-06T23:38:47.073766+08:00",
+        "updated_at": "2026-11-06T23:38:47.073767+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
+      "url": "https://arxiv.org/abs/2611.06976",
+      "description": "arXiv:2611.06976v1 Announce Type: new \nAbstract: Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communication between language models, combines a larger model's prompt representations with a smaller model's efficient generation, offering a promising way to balance capability and inference cost. However, existing systems provide limited support for independently evaluating large-small model collaboration, and improved task performance alone does not establish whether the receiver benefits from the sender's information. We introduce PLatour, an open-source PACT framework that connects frozen models through lightweight, zero-initialized linear bridges trained directly with task rewards and supports hybrid-attention architectures. PLatour significantly outperforms open-source baselines on generation tasks and surpasses Mostik's reported results on shared mathematics and coding benchmarks using a substantially smaller sender. However, controlled experiments show that the gains on some tasks can be reproduced by uninformative sender signals, self-communication, or receiver-only training. We find that trainable bridges can act as parameter-efficient adaptation mechanisms without exploiting useful sender information. We therefore propose PACT-Check to quantify how much of a trained PACT system's gain genuinely comes from communication. Finally, we discuss the opportunities and challenges of PACT systems. Code is available at https://github.com/zhenyi4/platour.",
+      "pub_date": "Fri, 06 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "预填充到自回归的跨模型迁移：机遇与挑战",
+        "summary": "本文提出开源框架PLatour，通过零初始化线性桥接连接冻结的大模型与小模型，实现预填充到自回归的跨模型迁移（PACT）。实验显示其在生成任务上优于开源基线，但受控实验表明部分增益可被无信息信号或仅训练接收方复现，因此提出PACT-Check以量化真实通信带来的增益。",
+        "summary_en": "The paper introduces PLatour, an open-source PACT framework that links frozen large and small models via zero-initialized linear bridges trained with task rewards. It outperforms open-source baselines, but controlled experiments show some gains are reproducible with uninformative sender signals or receiver-only training, so the authors propose PACT-Check to quantify genuine communication gains.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "open-source",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-06-rss-005",
+        "title": "预填充到自回归的跨模型迁移：机遇与挑战",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2611.06976",
+        "language": "en",
+        "summary": "本文提出开源框架PLatour，通过零初始化线性桥接连接冻结的大模型与小模型，实现预填充到自回归的跨模型迁移（PACT）。实验显示其在生成任务上优于开源基线，但受控实验表明部分增益可被无信息信号或仅训练接收方复现，因此提出PACT-Check以量化真实通信带来的增益。",
+        "summary_en": "The paper introduces PLatour, an open-source PACT framework that links frozen large and small models via zero-initialized linear bridges trained with task rewards. It outperforms open-source baselines, but controlled experiments show some gains are reproducible with uninformative sender signals or receiver-only training, so the authors propose PACT-Check to quantify genuine communication gains.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "open-source",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-11-06T23:38:47.073779+08:00",
+        "updated_at": "2026-11-06T23:38:47.073780+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Follow the Policy, Fail the Benchmark: Auditing and Revising Policy-Based Decision Benchmarks",
+      "url": "https://arxiv.org/abs/2611.07042",
+      "description": "arXiv:2611.07042v1 Announce Type: new \nAbstract: Policy-based decision benchmarks evaluate whether systems apply written rules to financial and operational cases. Yet a rule-following response can be marked wrong when the benchmark misstates the required decision. We audit nine public policy-based decision benchmarks through source tracing, program execution, and controlled checks. We find unsupported targets, reference errors that survive replay or propagate as solved steps, and evaluators that reject acceptable answers or credit incomplete decisions. To measure the scoring impact, we rescore unchanged model responses. On the 96 LegalBench SARA numeric cases, correcting the scorer raises acceptance by more than 80 percentage points for each of three models, without changing references or responses. In RuleArena Tax, restoring a required zero floor changes 27 of 300 references and narrows an observed model gap. A controlled federal-exemption task with explicit ownership and eligibility assumptions also shows that errors in supplied intermediate answers can affect final decisions. We present BAR (Benchmark Audit and Revision), a versioned collection of audit evidence and revisions for reevaluation.",
+      "pub_date": "Fri, 06 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "遵循策略却未通过基准：基于策略的决策基准的审计与修订",
+        "summary": "该研究审计了九个公开的基于策略的决策基准，发现目标不受支持、参考错误及评估器误判等问题。通过重新评分，LegalBench SARA数值案例的接受率提升超80个百分点，并提出BAR版本化审计与修订集合。",
+        "summary_en": "This study audits nine public policy-based decision benchmarks, uncovering unsupported targets, reference errors, and evaluators that reject acceptable answers. Rescoring raises acceptance by over 80 percentage points on LegalBench SARA numeric cases, and the authors present BAR, a versioned collection of audit evidence and revisions.",
+        "tags": [
+          "benchmark",
+          "evaluation",
+          "research",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-06-rss-006",
+        "title": "遵循策略却未通过基准：基于策略的决策基准的审计与修订",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2611.07042",
+        "language": "en",
+        "summary": "该研究审计了九个公开的基于策略的决策基准，发现目标不受支持、参考错误及评估器误判等问题。通过重新评分，LegalBench SARA数值案例的接受率提升超80个百分点，并提出BAR版本化审计与修订集合。",
+        "summary_en": "This study audits nine public policy-based decision benchmarks, uncovering unsupported targets, reference errors, and evaluators that reject acceptable answers. Rescoring raises acceptance by over 80 percentage points on LegalBench SARA numeric cases, and the authors present BAR, a versioned collection of audit evidence and revisions.",
+        "tags": [
+          "benchmark",
+          "evaluation",
+          "research",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-11-06T23:38:47.073783+08:00",
+        "updated_at": "2026-11-06T23:38:47.073785+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Reclassification Is All You Missed: Surfacing Variant Reinterpretation Need in Online Health Communities at Population Scale",
+      "url": "https://arxiv.org/abs/2611.07054",
+      "description": "arXiv:2611.07054v1 Announce Type: new \nAbstract: Genetic variants are routinely reclassified in ClinVar after a patient is tested, sometimes from uncertain to pathogenic, yet patient recontact is inconsistent, with no clear duty and responsibility diffused among labs, providers, and patients. Many affected people discuss their results in public online health communities that clinical recontact often does not reach. We built PRISM, an agentic large-language-model pipeline that screens these posts, checks whether the variant was later reclassified, and drafts a disclaimer-bearing outreach message, in a no-contact dry run. Across 3.9 million posts from 32 communities, agent-predicted reinterpretation-relevant discussion is rare (0.288%) but concentrated in specialist genetics communities (6.30% versus 0.10% in general medical-advice communities) and growing fivefold since 2014; PRISM surfaces 123 candidate classification differences, 5 of them from an uncertain submission to pathogenic or likely pathogenic. On a held-out set of 30 real-post drafts, a clinician judged 27 factually grounded and 15 fit to send: factual accuracy is necessary but not sufficient for clinically acceptable outreach. PRISM contributes a population-scale reinterpretation-need map with code and data to be released upon publication.",
+      "pub_date": "Fri, 06 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "重新分类：在线健康社区中变异重新解读需求的大规模识别",
+        "summary": "研究构建PRISM智能体LLM流水线，筛查390万条在线健康社区帖子，识别基因变异重新分类相关讨论，发现此类讨论稀少但集中于遗传学社区且持续增长，并生成带免责声明的外联信息草稿。",
+        "summary_en": "The study presents PRISM, an agentic LLM pipeline that screens 3.9 million online health community posts to identify discussions about genetic variant reclassification, finding such discussions rare but concentrated in genetics communities and growing, and drafts disclaimer-bearing outreach messages.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "application",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-06-rss-008",
+        "title": "重新分类：在线健康社区中变异重新解读需求的大规模识别",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2611.07054",
+        "language": "en",
+        "summary": "研究构建PRISM智能体LLM流水线，筛查390万条在线健康社区帖子，识别基因变异重新分类相关讨论，发现此类讨论稀少但集中于遗传学社区且持续增长，并生成带免责声明的外联信息草稿。",
+        "summary_en": "The study presents PRISM, an agentic LLM pipeline that screens 3.9 million online health community posts to identify discussions about genetic variant reclassification, finding such discussions rare but concentrated in genetics communities and growing, and drafts disclaimer-bearing outreach messages.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "application",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-11-06T23:38:47.073797+08:00",
+        "updated_at": "2026-11-06T23:38:47.073798+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Automated Feedback to Peer Tutors Increases Their Talk Moves and Learner Reasoning but Not the Balance of Talk",
+      "url": "https://arxiv.org/abs/2611.07072",
+      "description": "arXiv:2611.07072v1 Announce Type: new \nAbstract: Automated feedback on classroom discourse improves instruction in professional and online teaching contexts, and recent work suggests that delivering similar feedback to learners may strengthen these effects by sharing responsibility for participation. Whether this holds in small-group volunteer tutoring has not been tested. We present results from a randomized controlled trial across two four-week SAT mathematics bootcamps on the Schoolhouse.world platform, involving 1,030 volunteer tutors, 7,443 learners and 6,508 recorded sessions. Tutors were randomly assigned to receive no feedback, automated feedback on their own discourse, or that feedback together with participation feedback delivered to their learners under one of two motivational framings. Feedback to tutors increased eliciting of learner ideas, uptake of learner contributions, and learner reasoning by 8-15%, and the pattern replicated across both bootcamps. However, tutor talk time, which averaged 91.5% in the control group, did not change in any condition, and learner-facing feedback did not further change discourse. Interviews with 17 tutors indicate that they adopted the moves the feedback recommended but were limited by learners who did not respond. Interviews with 13 learners suggest why the learner-facing feedback had little effect: it reported a group-level rather than a learner-level statistic, some learners preferred to listen, and learner-to-learner interaction was rare in these sessions. Automated feedback can change how tutors invite learner thinking, but shifting how much learners talk likely requires changes beyond feedback.",
+      "pub_date": "Fri, 06 Nov 2026 00:00:00 -0500",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "自动反馈提升同伴导师的对话行为与学习者推理，但未改变发言比例",
+        "summary": "在Schoolhouse.world的SAT数学训练营中，对1,030名志愿导师开展随机对照试验。自动反馈使导师引导学习者表达想法、采纳学习者贡献及学习者推理提升8-15%，但导师发言时间（对照组91.5%）未变，面向学习者的反馈也无额外效果。",
+        "summary_en": "A randomized controlled trial with 1,030 volunteer tutors on Schoolhouse.world found automated feedback increased tutors' eliciting of learner ideas, uptake, and learner reasoning by 8-15%, but tutor talk time (91.5% in control) did not change, and learner-facing feedback had no additional effect.",
+        "tags": [
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.3,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-11-06-rss-010",
+        "title": "自动反馈提升同伴导师的对话行为与学习者推理，但未改变发言比例",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2611.07072",
+        "language": "en",
+        "summary": "在Schoolhouse.world的SAT数学训练营中，对1,030名志愿导师开展随机对照试验。自动反馈使导师引导学习者表达想法、采纳学习者贡献及学习者推理提升8-15%，但导师发言时间（对照组91.5%）未变，面向学习者的反馈也无额外效果。",
+        "summary_en": "A randomized controlled trial with 1,030 volunteer tutors on Schoolhouse.world found automated feedback increased tutors' eliciting of learner ideas, uptake, and learner reasoning by 8-15%, but tutor talk time (91.5% in control) did not change, and learner-facing feedback had no additional effect.",
+        "tags": [
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.3,
+        "status": "published",
+        "created_at": "2026-11-06T23:38:47.073806+08:00",
+        "updated_at": "2026-11-06T23:38:47.073807+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-06-rss-009",
+  "title": "AI时代逆问题的形式化：可能性、陷阱与邀请",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2611.06962",
+  "language": "en",
+  "summary": "介绍AutoIP——一个用AI智能体自动形式化经典线性正则化理论及泛函分析的Lean库。机器验证的证明仅保证形式陈述本身，人类需核对形式陈述是否符合原意。作者发现风险主要在陈述而非证明，简单自动化测试可暴露文献中的问题，并邀请逆问题社区共同扩展该库。",
+  "summary_en": "Introduces AutoIP, a Lean library where AI agents autoformalized classical linear regularization theory and its functional analysis. Machine-checked proofs certify only the formal statement, so humans must verify statements match intent. The authors find risks lie in statements rather than proofs, and simple automated tests can expose issues even in established literature. They invite the inverse problems community to extend the library.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "tool"
+  ],
+  "category": "research",
+  "relevance_score": 0.75,
+  "status": "published",
+  "created_at": "2026-11-06T23:38:47.073801+08:00",
+  "updated_at": "2026-11-06T23:38:47.073803+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

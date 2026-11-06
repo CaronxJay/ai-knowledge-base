@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-06-rss-005",
+  "title": "预填充到自回归的跨模型迁移：机遇与挑战",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2611.06976",
+  "language": "en",
+  "summary": "本文提出开源框架PLatour，通过零初始化线性桥接连接冻结的大模型与小模型，实现预填充到自回归的跨模型迁移（PACT）。实验显示其在生成任务上优于开源基线，但受控实验表明部分增益可被无信息信号或仅训练接收方复现，因此提出PACT-Check以量化真实通信带来的增益。",
+  "summary_en": "The paper introduces PLatour, an open-source PACT framework that links frozen large and small models via zero-initialized linear bridges trained with task rewards. It outperforms open-source baselines, but controlled experiments show some gains are reproducible with uninformative sender signals or receiver-only training, so the authors propose PACT-Check to quantify genuine communication gains.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "open-source",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-11-06T23:38:47.073779+08:00",
+  "updated_at": "2026-11-06T23:38:47.073780+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

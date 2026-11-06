@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-06-rss-001",
+  "title": "弹性专家并行实现资源高效的强化学习后训练",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2611.06984",
+  "language": "en",
+  "summary": "针对MoE模型强化学习后训练中响应生成的计算瓶颈，提出FlexFloor系统，通过联合调整响应调度与活跃worker组，在保持专家计算可用性的同时渐进释放worker。相比verl基线，单位占用算力时间生成的响应token增加约65.40%，吞吐提升52.74%。",
+  "summary_en": "FlexFloor addresses the response-generation bottleneck in RL post-training for MoE models by jointly adapting response scheduling and the active worker set, progressively releasing workers while preserving expert availability. It generates ~65.40% more response tokens per unit of occupied compute time and boosts throughput by 52.74% over the verl baseline.",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "infrastructure",
+    "research"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-11-06T23:38:47.073757+08:00",
+  "updated_at": "2026-11-06T23:38:47.073761+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

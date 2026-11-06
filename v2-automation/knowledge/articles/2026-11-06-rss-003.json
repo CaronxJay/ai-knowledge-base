@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-06-rss-003",
+  "title": "KDASO：知识-数据双驱动的责任判定任务自动化技能优化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2611.06972",
+  "language": "en",
+  "summary": "针对LLM在责任判定任务中技能库易过时、技能描述与执行存在语义鸿沟、技能过多超出上下文预算等问题，提出KDASO方法，通过基于近期数据的邻域条件归纳、基于LLM轨迹分析的执行对齐精炼以及上下文预算感知路由，持续演化技能库。在网约车判定、法律责任认定和逻辑推理任务上显著优于现有基线，跨场景迁移提升8.96%。",
+  "summary_en": "KDASO addresses stale skill libraries, semantic execution gaps, and context-budget overflow in LLM-based liability adjudication. It continuously evolves skills via neighborhood-conditioned induction from recent data, execution-aligned refinement using LLM trajectory analysis, and context-budgeted routing. It significantly outperforms general and domain-specific baselines on ride-hailing adjudication, legal liability determination, and logical reasoning, with 8.96% transfer gains.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "research",
+    "prompt-engineering",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-11-06T23:38:47.073770+08:00",
+  "updated_at": "2026-11-06T23:38:47.073772+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

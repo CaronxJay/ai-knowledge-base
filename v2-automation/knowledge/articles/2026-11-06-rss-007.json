@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-06-rss-007",
+  "title": "双账本模型：跨云、模型与记录系统的多智能体AI系统交易粒度成本核算",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2611.06989",
+  "language": "en",
+  "summary": "论文指出企业AI成本仅在结算粒度汇总，无法回答单笔订单或案件消耗多少AI成本的问题，提出双账本模型：将符合FOCUS规范的结算账本与基于OpenTelemetry GenAI遥测的调用粒度归因账本关联，通过分层关联脊柱将每条记录归属到业务交易，并支持近实时定价与对账，仿真显示成本覆盖率超99%。",
+  "summary_en": "The paper identifies a grain mismatch: enterprises receive AI cost only at settlement grain, so they cannot answer what a single order or claim cost in AI. It proposes the Two-Ledger Model, joining FOCUS-conformant settlement billing data to an invocation-grain attribution ledger built on OpenTelemetry GenAI telemetry. A layered correlation spine assigns records to business transactions, with near-real-time rate-card pricing and period reconciliation; simulation shows cost coverage above 99%.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "infrastructure",
+    "evaluation",
+    "research"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-11-06T23:38:47.073792+08:00",
+  "updated_at": "2026-11-06T23:38:47.073794+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

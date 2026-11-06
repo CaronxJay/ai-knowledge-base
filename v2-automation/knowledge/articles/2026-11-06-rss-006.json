@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-06-rss-006",
+  "title": "遵循策略却未通过基准：基于策略的决策基准的审计与修订",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2611.07042",
+  "language": "en",
+  "summary": "该研究审计了九个公开的基于策略的决策基准，发现目标不受支持、参考错误及评估器误判等问题。通过重新评分，LegalBench SARA数值案例的接受率提升超80个百分点，并提出BAR版本化审计与修订集合。",
+  "summary_en": "This study audits nine public policy-based decision benchmarks, uncovering unsupported targets, reference errors, and evaluators that reject acceptable answers. Rescoring raises acceptance by over 80 percentage points on LegalBench SARA numeric cases, and the authors present BAR, a versioned collection of audit evidence and revisions.",
+  "tags": [
+    "benchmark",
+    "evaluation",
+    "research",
+    "llm"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-11-06T23:38:47.073783+08:00",
+  "updated_at": "2026-11-06T23:38:47.073785+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

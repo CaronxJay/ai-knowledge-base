@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-06-rss-002",
+  "title": "基于LLM的主动式对话系统中的交互式后门攻击",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2611.06969",
+  "language": "en",
+  "summary": "该研究提出一种交互式后门攻击框架，通过投毒微调数据植入触发器条件化的引导策略偏差，使普通用户话语即可激活，从而在多轮对话中将交互导向攻击者指定目标。在心理咨询场景下实例化直接攻击、约束渐进攻击和无约束渐进攻击三种方式，实验证明均能有效达成目标且基本保持正常效用，现有数据过滤与防御基线难以有效拦截。",
+  "summary_en": "This work presents an interactive backdoor attack framework that poisons fine-tuning dialogues to implant a trigger-conditioned guidance-policy bias, steering post-trigger multi-turn interactions toward an attacker-specified objective without deployment-time prompt modification. Instantiated as Direct, Constrained Progressive, and Unconstrained Progressive attacks in psychological counseling, experiments on two LLM backbones and two datasets show all three achieve their goals while largely preserving normal utility, and tested defenses leave substantial residual attack success.",
+  "tags": [
+    "security",
+    "llm",
+    "fine-tuning",
+    "research",
+    "evaluation"
+  ],
+  "category": "security",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-11-06T23:38:47.073766+08:00",
+  "updated_at": "2026-11-06T23:38:47.073767+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

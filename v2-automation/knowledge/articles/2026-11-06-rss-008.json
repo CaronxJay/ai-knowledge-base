@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-06-rss-008",
+  "title": "重新分类：在线健康社区中变异重新解读需求的大规模识别",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2611.07054",
+  "language": "en",
+  "summary": "研究构建PRISM智能体LLM流水线，筛查390万条在线健康社区帖子，识别基因变异重新分类相关讨论，发现此类讨论稀少但集中于遗传学社区且持续增长，并生成带免责声明的外联信息草稿。",
+  "summary_en": "The study presents PRISM, an agentic LLM pipeline that screens 3.9 million online health community posts to identify discussions about genetic variant reclassification, finding such discussions rare but concentrated in genetics communities and growing, and drafts disclaimer-bearing outreach messages.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "application",
+    "research"
+  ],
+  "category": "application",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-11-06T23:38:47.073797+08:00",
+  "updated_at": "2026-11-06T23:38:47.073798+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

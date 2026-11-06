@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-06-rss-004",
+  "title": "BlockLock：固定批次几何的可复现LLM推理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2611.06977",
+  "language": "en",
+  "summary": "BlockLock提出一种可复现LLM推理方法，仅固定受保护请求的数值路径，保留共享批量prefill。两种模式在五种模型和三种GPU上实现逐位一致输出，相比vLLM批不变内核延迟降低53.5-55%，吞吐提升115-122%。",
+  "summary_en": "BlockLock enables reproducible LLM inference by pinning only the protected request's numerical path while keeping shared batched prefill. Two modes preserve bitwise outputs across five models and three GPUs, cutting latency 53.5-55% and boosting throughput 115-122% versus vLLM batch-invariant kernels.",
+  "tags": [
+    "llm",
+    "infrastructure",
+    "research",
+    "evaluation"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-11-06T23:38:47.073775+08:00",
+  "updated_at": "2026-11-06T23:38:47.073776+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
